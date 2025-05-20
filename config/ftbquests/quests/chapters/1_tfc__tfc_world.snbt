@@ -1496,12 +1496,6 @@
 						ForgeCaps: {
 							Parent: {
 								AttackAmplifier: 0.0f
-								BladeUniqueId: [I;
-									-883833025
-									-1416085362
-									-1207968167
-									-1501815390
-								]
 								ComboRoot: "slashblade:standby"
 								Damage: 0
 								RepairCounter: 0
@@ -2696,6 +2690,22 @@
 			title: "召唤女仆"
 			x: 8.0d
 			y: 16.0d
+		}
+		{
+			dependencies: ["09A6D43A95775808"]
+			id: "51065A804F725461"
+			subtitle: "你可能会需要这个"
+			tasks: [{
+				id: "3AA3FCC209033D16"
+				item: {
+					Count: 1
+					id: "mekanism:configurator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 24.0d
 		}
 	]
 	title: "1. 群峦星 | TFC Planet"

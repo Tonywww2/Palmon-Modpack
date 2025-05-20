@@ -511,7 +511,8 @@ registerBuff("fuel_2", 1, ["fuel_1", "true_ending"], true, function (event) {
 registerBuff("special_1", 2, ["init"], false, function (event) {
     event.player.give(Item.of('draconicevolution:advanced_dislocator', '{fuel:128}'))
 }, function (event) { })
-registerBuff("special_2", 6, ["true_ending"], true, function (event) {
+
+registerBuff("special_2", 6, ["true_ending"], false, function (event) {
     if (global.jsonData.has("delivery_coordinate_gamma")) {
         let stack = itemStackFromJson(global.jsonData.getAsJsonObject('delivery_coordinate_gamma'))
         event.player.give(stack)
@@ -553,9 +554,25 @@ registerBuff("special_2", 6, ["true_ending"], true, function (event) {
         {
             A: 'kubejs:cognitio',
             B: 'minecraft:ender_chest'
-        }).id('kubejs:eot_special_2_delivery_coordinate_epsilon')
+        }).id('kubejs:eot_special_2_delivery_coordinate_ultimate')
 
 })
+
+registerBuff("relics_1", 2, ["init"], false, function (event) {
+    event.player.give(Item.of('ftbquests:lootcrate', '{type:"focus"}'))
+}, function (event) { })
+
+registerBuff("relics_2", 2, ["relics_1"], false, function (event) {
+    event.player.give(Item.of('ftbquests:lootcrate', '{type:"limit"}'))
+}, function (event) { })
+
+registerBuff("relics_3", 5, ["init"], false, function (event) {
+    event.player.give(Item.of('ftbquests:lootcrate', '{type:"limit"}'))
+}, function (event) { })
+
+registerBuff("relics_4", 5, ["relics_3"], true, function (event) {
+    event.player.give(Item.of('ftbquests:lootcrate', '{type:"limit"}'))
+}, function (event) { })
 
 // 锚
 registerBuff("init", 0, [], false, function (event) {

@@ -8,7 +8,7 @@
 	group: "7360FAFDFF512F43"
 	icon: "enchanted:circle_talisman"
 	id: "6C3C1C6F8F585FE4"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -31,68 +31,8 @@
 			y: 0.0d
 		}
 		{
-			can_repeat: true
-			icon: "minecraft:netherrack"
-			id: "5700DBF8E6793DFB"
-			rewards: [{
-				auto: "invisible"
-				id: "117DAB93F2E2D30C"
-				ignore_reward_blocking: true
-				stage: "the_nether"
-				team_reward: false
-				type: "gamestage"
-			}]
-			subtitle: "再次获得下界通行证，用于进入下界"
-			tasks: [{
-				id: "7EC218734FD9C21C"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"tfc:item_heat": {
-							heat: 0.0f
-							ticks: 0L
-						}
-					}
-					id: "tfc:metal/ingot/wrought_iron"
-				}
-				type: "item"
-			}]
-			title: "下界通行证"
-			x: -2.0d
-			y: 0.0d
-		}
-		{
-			can_repeat: true
-			icon: "minecraft:grass_block"
-			id: "07A57FF379E8D9CF"
-			rewards: [{
-				auto: "invisible"
-				id: "7739DAD0AA11FCC3"
-				ignore_reward_blocking: true
-				stage: "overworld_item"
-				type: "gamestage"
-			}]
-			subtitle: "再次获得现世祝福，用于解除一些物品的限制"
-			tasks: [{
-				id: "54004C6B02929476"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"tfc:item_heat": {
-							heat: 0.0f
-							ticks: 0L
-						}
-					}
-					id: "tfc:metal/ingot/steel"
-				}
-				type: "item"
-			}]
-			title: "现世祝福"
-			x: 2.0d
-			y: 0.0d
-		}
-		{
 			can_repeat: false
+			icon: "cobblemon:relic_coin_pouch"
 			id: "0B1E307D391B0FA7"
 			rewards: [{
 				id: "2BA719ACA4654B51"
@@ -155,44 +95,6 @@
 		}
 		{
 			can_repeat: true
-			id: "674FBFBE257EA0EE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "105F57EEC3D74385"
-				table_id: 2481234720497206951L
-				type: "loot"
-			}]
-			tasks: [{
-				count: 8L
-				id: "1596E919656A583E"
-				item: { Count: 8, id: "thermal:enderium_coin" }
-				type: "item"
-			}]
-			title: "标准池抽奖"
-			x: 2.0d
-			y: 6.0d
-		}
-		{
-			can_repeat: true
-			id: "6CBCBBBC53D4EE90"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "587A6B58EDE30856"
-				table_id: 2481234720497206951L
-				type: "loot"
-			}]
-			tasks: [{
-				count: 9L
-				id: "5129BEB2CD30047A"
-				item: { Count: 9, id: "thermal:enderium_coin" }
-				type: "item"
-			}]
-			title: "混沌池抽奖"
-			x: 0.0d
-			y: 6.0d
-		}
-		{
-			can_repeat: true
 			id: "7E1AD678E73FCEEF"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -243,18 +145,6 @@
 			}]
 			title: "限定池自选"
 			x: -4.0d
-			y: 6.0d
-		}
-		{
-			id: "6A689BAA0FBC9CA0"
-			tasks: [{
-				count: 96L
-				id: "5BBCA0A8703FE6D6"
-				item: { Count: 96, id: "thermal:enderium_coin" }
-				type: "item"
-			}]
-			title: "专注池自选"
-			x: -2.0d
 			y: 6.0d
 		}
 		{

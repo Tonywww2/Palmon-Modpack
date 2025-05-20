@@ -5,11 +5,11 @@
  * @param {string} type          modifier 类型
  */
 function createConstantAttributeApplier(attributeKey, modifierKey, amountProvider, type) {
-    const keyHash = hashCode(modifierKey)
+    const keyHash = new $JavaString(modifierKey).hashCode()
     const keyUUID = new $UUID(keyHash, keyHash)
 
     return function apply(player) {
-
+        // console.log(attributeKey, keyUUID)
         const amount = amountProvider()
 
         const modifier = new $AttributeModifier(
@@ -94,6 +94,22 @@ const critical_chanceModifier = createConstantAttributeApplier(
     "addition"
 )
 
+global.crit_damageAmmount = -0.3
+const crit_damageModifier = createConstantAttributeApplier(
+    "attributeslib:crit_damage",
+    "addition_crit_damage_modifier",
+    () => global.crit_damageAmmount,
+    "addition"
+)
+
+global.crit_damage2Ammount = -0.5
+const crit_damage2Modifier = createConstantAttributeApplier(
+    "obscure_api:critical_damage",
+    "addition_crit_damage2_modifier",
+    () => global.crit_damage2Ammount,
+    "addition"
+)
+
 global.max_healthAmmount = 0.0
 const max_healthModifier = createConstantAttributeApplier(
     "minecraft:generic.max_health",
@@ -120,6 +136,8 @@ PlayerEvents.tick(event => {
         attack_damageModifier(event.player)
         attack_speedModifier(event.player)
         critical_chanceModifier(event.player)
+        crit_damageModifier(event.player)
+        crit_damage2Modifier(event.player)
         max_healthModifier(event.player)
         healing_powerModifier(event.player)
 

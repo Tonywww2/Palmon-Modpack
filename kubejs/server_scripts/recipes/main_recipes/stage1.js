@@ -19,6 +19,15 @@ ServerEvents.recipes(event => {
 
     event.stonecutting('minecraft:crafting_table', ['#minecraft:logs']).id('kubejs:crafting_table_s1')
     event.smelting('minecraft:dried_kelp', ['tfc:plant/winged_kelp', 'tfc:plant/leafy_kelp'], 200, 10).id('kubejs:kelp_s1')
+    event.smithing('mekanism:configurator', '#forge:gems/lapis', 'thermal:wrench', '#forge:plates/steel').id('kubejs:configurator_s1')
+
+    event.shaped('4x mekanism:basic_logistical_transporter', [
+        'ABA',
+    ],
+        {
+            A: '#forge:ingots/steel',
+            B: 'minecraft:iron_bars'
+        }).id('kubejs:basic_logistical_transporter_s1')
 
     event.shaped('kubejs:present_soul', [
         'ABA',

@@ -89,7 +89,7 @@ ItemEvents.tooltip(event => {
             let armor = item.nbt.getDouble("player_armor")
 
             text.add(6, Text.translate('curios.modifiers.otherworld_relics').gold())
-            text.add(7, Text.literal(formatAddition(armor * 32)).append(' ').append(Text.translatable('attribute.name.generic.attack_damage')).blue())
+            text.add(7, Text.literal(formatAddition(armor * 20)).append(' ').append(Text.translatable('attribute.name.generic.attack_damage')).blue())
 
         }
 
@@ -107,8 +107,8 @@ ItemEvents.tooltip(event => {
             let speed = item.nbt.getDouble("player_speed")
 
             text.add(6, Text.translate('curios.modifiers.otherworld_relics').gold())
-            text.add(7, Text.literal(formatPercentage(speed * 2)).append(' ').append(Text.translatable('attribute.name.generic.attack_damage')).blue())
-            text.add(8, Text.literal(formatPercentage(speed * 2)).append(' ').append(Text.translatable('attribute.name.generic.attack_speed')).blue())
+            text.add(7, Text.literal(formatPercentage(speed * 1.25)).append(' ').append(Text.translatable('attribute.name.generic.attack_damage')).blue())
+            text.add(8, Text.literal(formatPercentage(speed * 1.25)).append(' ').append(Text.translatable('attribute.name.generic.attack_speed')).blue())
 
         }
 
@@ -122,7 +122,7 @@ ItemEvents.tooltip(event => {
             let health = item.nbt.getDouble("player_health")
 
             text.add(6, Text.translate('curios.modifiers.otherworld_relics').gold())
-            text.add(7, Text.literal(formatPercentage(health * 0.035)).append(' ').append(Text.translatable('attribute.name.generic.attack_damage')).blue())
+            text.add(7, Text.literal(formatPercentage(health * 0.003)).append(' ').append(Text.translatable('attribute.name.generic.attack_damage')).blue())
 
         }
 
@@ -136,7 +136,7 @@ ItemEvents.tooltip(event => {
             let attackSpeed = item.nbt.getDouble("player_attack_speed")
 
             text.add(6, Text.translate('curios.modifiers.otherworld_relics').gold())
-            text.add(7, Text.literal(formatPercentage(attackSpeed * 3.25)).append(' ').append(Text.translatable('obscure_api.criticalDamage')).blue())
+            text.add(7, Text.literal(formatPercentage(attackSpeed * 1.15)).append(' ').append(Text.translatable('obscure_api.criticalDamage')).blue())
 
         }
 

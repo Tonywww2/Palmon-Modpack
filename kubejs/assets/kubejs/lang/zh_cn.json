@@ -213,7 +213,7 @@
 
     "ui.kubejs.helium_3_crystal_infinity": "反应速度缓慢，但是拥有极长反应时间的核燃料",
 
-    "ui.kubejs.wear_to_update": "佩戴该遗物以显示更新后的属性加成， \n该类型的遗物无法重复加成同个属性",
+    "ui.kubejs.wear_to_update": "佩戴该遗物以显示更新后的属性加成",
 
     "material.tconstruct.beryllium_bronze_alloy": "铍青铜合金",
 
@@ -367,9 +367,21 @@
         
     
     "kubejs.eot.special_1_name": "[空间折越]",
-    "kubejs.eot.special_1_desc": "·初始 携带高级传送符咒，内置128燃料",
+    "kubejs.eot.special_1_desc": "·初始携带 高级传送符咒，内置128燃料",
     
     "kubejs.eot.special_2_name": "[跨世界物流]",
-    "kubejs.eot.special_2_desc": "·允许制作投递坐标，可以将大部分物品投递到下一个世界"
+    "kubejs.eot.special_2_desc": "·允许制作投递坐标，可以将大部分物品投递到下一个世界",
+    
+    "kubejs.eot.relics_1_name": "[异界感知]",
+    "kubejs.eot.relics_1_desc": "·初始携带 随机的下级异界遗物",
+    
+    "kubejs.eot.relics_2_name": "[异界同调]",
+    "kubejs.eot.relics_2_desc": "·初始携带 随机的下级异界遗物",
+    
+    "kubejs.eot.relics_3_name": "[上位异界感知]",
+    "kubejs.eot.relics_3_desc": "·初始携带 随机的上级异界遗物",
+    
+    "kubejs.eot.relics_4_name": "[上位异界同调]",
+    "kubejs.eot.relics_4_desc": "·初始携带 随机的上级异界遗物"
 
 }

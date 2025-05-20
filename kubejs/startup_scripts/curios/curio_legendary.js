@@ -67,49 +67,49 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.attack_damage",
                 "deity_attack_damage",
-                0.6,
+                0.2,
                 "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.attack_speed",
                 "deity_attack_speed",
-                0.4,
+                0.2,
                 "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.movement_speed",
                 "deity_movement_speed",
-                0.4,
+                0.2,
                 "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.max_health",
                 "deity_max_health",
-                0.5,
+                0.3,
                 "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.armor",
                 "deity_armor",
-                0.6,
+                0.2,
                 "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.armor_toughness",
                 "deity_armor_toughness",
-                0.4,
+                0.2,
                 "multiply_total"
             )
             .modifyAttribute(
                 "obscure_api:critical_hit",
                 "deity_critical_hit",
-                0.3,
+                0.1,
                 "addition"
             )
             .modifyAttribute(
                 "obscure_api:critical_damage",
                 "deity_critical_damage",
-                0.6,
+                0.1,
                 "multiply_total"
             )
         )
@@ -122,8 +122,8 @@ StartupEvents.registry('item', event => {
 
     const ttgAttackDamage = "goddess_attack_damage"
     const ttgAttackSpeed = "goddess_attack_speed"
-    const ttgAttackDamageHash = hashCode(ttgAttackDamage)
-    const ttgAttackSpeedHash = hashCode(ttgAttackSpeed)
+    const ttgAttackDamageHash = new $JavaString(ttgAttackDamage).hashCode()
+    const ttgAttackSpeedHash = new $JavaString(ttgAttackSpeed).hashCode()
     const ttgAttackDamageUUID = new $UUID(ttgAttackDamageHash, ttgAttackDamageHash)
     const ttgAttackSpeedUUID = new $UUID(ttgAttackSpeedHash, ttgAttackSpeedHash)
     event.create('true_three_goddess')
@@ -161,14 +161,14 @@ StartupEvents.registry('item', event => {
                         let atkDamage = new $AttributeModifier(
                             ttgAttackDamageUUID,
                             ttgAttackDamage,
-                            speed * 2,
+                            speed * 1.25,
                             "multiply_total"
                         )
 
                         let atkSpeed = new $AttributeModifier(
                             ttgAttackSpeedUUID,
                             ttgAttackSpeed,
-                            speed * 2,
+                            speed * 1.25,
                             "multiply_total"
                         )
 
@@ -179,8 +179,8 @@ StartupEvents.registry('item', event => {
                             player.getAttribute("minecraft:generic.attack_speed").removeModifier(ttgAttackSpeedUUID)
 
                         } finally {
-                            player.getAttribute("minecraft:generic.attack_damage").addPermanentModifier(atkDamage)
-                            player.getAttribute("minecraft:generic.attack_speed").addPermanentModifier(atkSpeed)
+                            player.getAttribute("minecraft:generic.attack_damage").addTransientModifier(atkDamage)
+                            player.getAttribute("minecraft:generic.attack_speed").addTransientModifier(atkSpeed)
 
                         }
 
@@ -197,12 +197,12 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.movement_speed",
                 "goddess_movement_speed",
-                0.15,
+                0.075,
                 "addition"
             )
             .modifyAttribute(
                 "minecraft:generic.max_health",
-                "goddess_movement_speed",
+                "goddess_max_health",
                 10,
                 "addition"
             )
@@ -215,7 +215,7 @@ StartupEvents.registry('item', event => {
         .tag("curios:otherworld_relics")
 
     const gnpAttackDamage = "puree_attack_damage"
-    const gnpAttackDamageHash = hashCode(gnpAttackDamage)
+    const gnpAttackDamageHash = new $JavaString(gnpAttackDamage).hashCode()
     const gnpAttackDamageUUID = new $UUID(gnpAttackDamageHash, gnpAttackDamageHash)
     event.create('old_george_nutritional_puree')
         .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
@@ -251,8 +251,8 @@ StartupEvents.registry('item', event => {
                         let atkDamage = new $AttributeModifier(
                             gnpAttackDamageUUID,
                             gnpAttackDamage,
-                            health * 0.035,
-                            "multiply_total"
+                            health * 0.003,
+                            "multiply_base"
                         )
 
                         item.getOrCreateTag().putDouble("player_health", health)
@@ -261,7 +261,7 @@ StartupEvents.registry('item', event => {
                             player.getAttribute("minecraft:generic.attack_damage").removeModifier(gnpAttackDamageUUID)
 
                         } finally {
-                            player.getAttribute("minecraft:generic.attack_damage").addPermanentModifier(atkDamage)
+                            player.getAttribute("minecraft:generic.attack_damage").addTransientModifier(atkDamage)
 
                         }
 
@@ -272,13 +272,13 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.armor",
                 "puree_armor",
-                -0.6,
+                -0.3,
                 "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.armor_toughness",
                 "puree_armor_toughness",
-                -0.4,
+                -0.5,
                 "multiply_total"
             )
             .modifyAttribute(
@@ -290,19 +290,19 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.max_health",
                 "puree_health_addition",
-                12,
+                6,
                 "addition"
             )
             .modifyAttribute(
                 "minecraft:generic.max_health",
                 "puree_health_multiply",
-                0.3,
+                0.15,
                 "multiply_total"
             )
             .modifyAttribute(
                 "obscure_api:penetration",
                 "puree_penetration",
-                0.4,
+                0.2,
                 "addition"
             )
         )
@@ -315,7 +315,7 @@ StartupEvents.registry('item', event => {
 
 
     const mgAtkDamage = "galaxy_critical_damage"
-    const mgAtkDamageHash = hashCode(mgAtkDamage)
+    const mgAtkDamageHash = new $JavaString(mgAtkDamage).hashCode()
     const mgAtkDamageUUID = new $UUID(mgAtkDamageHash, mgAtkDamageHash)
     event.create('miniature_galaxy')
         .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
@@ -348,10 +348,10 @@ StartupEvents.registry('item', event => {
                     if (player.age % 10 == 0) {
                         let attackSpeed = player.getAttributeValue("minecraft:generic.attack_speed")
 
-                        let atkModifer = new $AttributeModifier(
+                        let modifer = new $AttributeModifier(
                             mgAtkDamageUUID,
                             mgAtkDamage,
-                            attackSpeed * 3.25,
+                            attackSpeed * 1.15,
                             "addition"
                         )
 
@@ -362,7 +362,7 @@ StartupEvents.registry('item', event => {
 
                         }
                         finally {
-                            player.getAttribute("obscure_api:critical_damage").addPermanentModifier(atkModifer)
+                            player.getAttribute("obscure_api:critical_damage").addTransientModifier(modifer)
 
                         }
 
@@ -379,13 +379,13 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "obscure_api:critical_hit",
                 "galaxy_attack_critical_hit",
-                0.8,
+                0.2,
                 "addition"
             )
             .modifyAttribute(
                 "minecraft:generic.attack_speed",
                 "galaxy_attack_speed_addition",
-                84,
+                80,
                 "addition"
             )
             .modifyAttribute(
@@ -464,25 +464,25 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.attack_damage",
                 "krosa_attack_damage_addition",
-                8,
+                4,
                 "addition"
             )
             .modifyAttribute(
                 "minecraft:generic.attack_damage",
                 "krosa_attack_damage_multiply_total",
-                1.25,
+                0.5,
                 "multiply_total"
             )
             .modifyAttribute(
                 "obscure_api:penetration",
                 "krosa_penetration",
-                0.4,
+                0.2,
                 "addition"
             )
             .modifyAttribute(
                 "obscure_api:critical_hit",
                 "krosa_critical_hit",
-                0.4,
+                0.1,
                 "addition"
             )
         )
@@ -524,37 +524,37 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.attack_speed",
                 "sun_attack_speed",
-                0.5,
+                0.4,
                 "addition"
             )
             .modifyAttribute(
                 "minecraft:generic.movement_speed",
                 "sun_movement_speed",
-                0.1,
+                0.05,
                 "addition"
             )
             .modifyAttribute(
                 "obscure_api:penetration",
                 "sun_penetration",
-                0.2,
+                0.1,
                 "addition"
             )
             .modifyAttribute(
                 "minecraft:generic.attack_damage",
                 "sun_attack_damage_multiply_total",
-                0.3,
+                0.15,
                 "multiply_total"
             )
             .modifyAttribute(
                 "obscure_api:critical_hit",
                 "sun_critical_hit",
-                0.4,
+                0.15,
                 "addition"
             )
             .modifyAttribute(
                 "minecraft:generic.attack_damage",
                 "sun_attack_damage_addition",
-                6,
+                4,
                 "addition"
             )
         )
@@ -583,7 +583,7 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "confluence:ranged_damage",
                 "photo_ranged_damage_addition",
-                1.5,
+                1.0,
                 "addition"
             )
             .modifyAttribute(
@@ -601,7 +601,7 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "obscure_api:penetration",
                 "photo_penetration",
-                0.25,
+                0.3,
                 "addition"
             )
             .modifyAttribute(
@@ -619,7 +619,7 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.max_health",
                 "photo_max_health",
-                0.8,
+                0.2,
                 "multiply_total"
             )
         )
@@ -663,14 +663,14 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.attack_damage",
                 "rune_attack_damage_addition",
-                5,
+                4,
                 "addition"
             )
             .modifyAttribute(
                 "minecraft:generic.attack_damage",
                 "rune_attack_damage_multiply_total",
                 0.5,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.attack_speed",
@@ -681,7 +681,7 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.attack_speed",
                 "rune_attack_speed_multiply_total",
-                0.5,
+                0.2,
                 "multiply_total"
             )
             .modifyAttribute(
@@ -693,7 +693,7 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.max_health",
                 "rune_max_health_multiply_total",
-                0.5,
+                0.3,
                 "multiply_total"
             )
             .modifyAttribute(
@@ -705,7 +705,7 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.armor",
                 "rune_armor_multiply_total",
-                0.5,
+                0.3,
                 "multiply_total"
             )
         )

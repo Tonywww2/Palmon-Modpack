@@ -11,7 +11,7 @@
 		string_id: "limit"
 	}
 	loot_size: 1
-	order_index: 8
+	order_index: 6
 	rewards: [
 		{ item: "kubejs:deity_from_the_outside" }
 		{ item: "kubejs:true_three_goddess" }

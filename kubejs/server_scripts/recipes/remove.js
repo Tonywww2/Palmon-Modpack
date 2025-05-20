@@ -199,6 +199,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'mekanism:chemical_infuser' })
     event.remove({ id: 'mekanism:chemical_oxidizer' })
     event.remove({ id: 'mekanism:electrolytic_separator' })
+    event.remove({ id: 'mekanism:configurator' })
+    event.remove({ id: 'mekanism:transmitter/logistical_transporter/basic' })
 
     event.remove({ output: 'minecraft:furnace' })
     event.remove({ output: 'thermal:enderium_coin' })

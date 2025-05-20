@@ -12,27 +12,19 @@
 		}
 	}
 	id: "4997E206F67BAB11"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
 				"你可以在这里自由的调整怪物的难度，这个难度将会涉及到怪物的生命值，攻击力，以及护甲值。"
 				""
-				"在群峦星时，你的默认难度将会是0。"
-				"而在你返回现世地球后，你的难度将会被自动调整成2。"
-				"如果你觉得太简单/困难，你随时可以调整你自己的难度。"
-				"进入第二章推荐难度为2-4，第二章后期推荐难度为3-5，"
-				"第三章前期推荐难度为4-6，第三章后期推荐为5-6，"
-				"当然，难度的选择权都在你手中。"
-				"|"
-				"You can adjust the difficulty of the mobs here, and this difficulty will involve the monster's HP, Attack, and Armor."
-				"When you are in the TFC World, your default difficulty will be 0."
-				"After you return to the Current Earth, your difficulty will be automatically adjusted to 2."
-				"If you find it too easy/hard, you can always adjust your own difficulty."
-				"In the beginning of Chapter 2, the suggested difficulty is 2-4, in near the end of Chapter 2, the suggested difficulty is 3-5."
-				"In the beginning of Chapter 3, the suggested difficulty is 4-6, in near the end of Chapter 3, the suggested difficulty is 5-6,"
-				"Of course, the final decision is up to you. "
+				"简单难度下，怪物的攻击力-50%，护甲-50%"
+				"标准难度下，怪物的属性无变化"
+				"困难难度下，怪物的生命值+50%，攻击力+20%"
+				"大师难度下，怪物的生命值+80%，攻击力+40%，护甲值+30%"
+				""
+				"炼狱难度下，怪物的生命值+160%，攻击力+80%，护甲值+60%"
 			]
 			hide_dependent_lines: true
 			id: "015905562F38D087"
@@ -61,9 +53,6 @@
 				"522B8B1E2185C4B3"
 				"4996DE5952D3B476"
 				"3B8F992D82614BE0"
-				"038EACF9A9FED23A"
-				"7F41AFF05B78716F"
-				"1F0DCE478A97940B"
 				"18B1C17244162BF1"
 			]
 			rewards: [
@@ -84,13 +73,13 @@
 					type: "gamestage"
 				}
 			]
-			subtitle: "标准高阶修正"
+			subtitle: "大师"
 			tasks: [{
 				id: "70142631B6036E47"
 				type: "checkmark"
 			}]
 			title: "3"
-			x: -1.0d
+			x: 2.0d
 			y: 2.0d
 		}
 		{
@@ -109,9 +98,6 @@
 				"522B8B1E2185C4B3"
 				"4996DE5952D3B476"
 				"1D83985B5B9D7A6B"
-				"038EACF9A9FED23A"
-				"7F41AFF05B78716F"
-				"1F0DCE478A97940B"
 			]
 			rewards: [
 				{
@@ -131,13 +117,13 @@
 					type: "gamestage"
 				}
 			]
-			subtitle: "上位第一级修正"
+			subtitle: "炼狱"
 			tasks: [{
 				id: "7CE18DA5A824C91D"
 				type: "checkmark"
 			}]
 			title: "4"
-			x: 1.0d
+			x: 4.0d
 			y: 2.0d
 		}
 		{
@@ -156,9 +142,6 @@
 				"522B8B1E2185C4B3"
 				"1D83985B5B9D7A6B"
 				"3B8F992D82614BE0"
-				"038EACF9A9FED23A"
-				"7F41AFF05B78716F"
-				"1F0DCE478A97940B"
 			]
 			rewards: [
 				{
@@ -178,13 +161,13 @@
 					type: "gamestage"
 				}
 			]
-			subtitle: "标准修正"
+			subtitle: "困难"
 			tasks: [{
 				id: "2D5EBB855666CB43"
 				type: "checkmark"
 			}]
 			title: "2"
-			x: -2.0d
+			x: 0.0d
 			y: 2.0d
 		}
 		{
@@ -203,9 +186,6 @@
 				"4996DE5952D3B476"
 				"1D83985B5B9D7A6B"
 				"3B8F992D82614BE0"
-				"038EACF9A9FED23A"
-				"7F41AFF05B78716F"
-				"1F0DCE478A97940B"
 			]
 			rewards: [
 				{
@@ -225,13 +205,13 @@
 					type: "gamestage"
 				}
 			]
-			subtitle: "第一级修正"
+			subtitle: "标准"
 			tasks: [{
 				id: "20454AD6004DFAFE"
 				type: "checkmark"
 			}]
 			title: "1"
-			x: -3.0d
+			x: -2.0d
 			y: 2.0d
 		}
 		{
@@ -250,9 +230,6 @@
 				"4996DE5952D3B476"
 				"1D83985B5B9D7A6B"
 				"3B8F992D82614BE0"
-				"038EACF9A9FED23A"
-				"7F41AFF05B78716F"
-				"1F0DCE478A97940B"
 			]
 			rewards: [
 				{
@@ -272,7 +249,7 @@
 					type: "gamestage"
 				}
 			]
-			subtitle: "无修正"
+			subtitle: "简单"
 			tasks: [{
 				id: "3B4AE9740F312537"
 				type: "checkmark"
@@ -282,170 +259,12 @@
 			y: 2.0d
 		}
 		{
-			can_repeat: false
-			dependencies: ["015905562F38D087"]
-			icon: {
-				Count: 1
-				id: "minecraft:netherite_sword"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "038EACF9A9FED23A"
-			incompatible: [
-				"18B1C17244162BF1"
-				"522B8B1E2185C4B3"
-				"4996DE5952D3B476"
-				"1D83985B5B9D7A6B"
-				"3B8F992D82614BE0"
-				"7F41AFF05B78716F"
-				"1F0DCE478A97940B"
-			]
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/reset_difficulty @p"
-					elevate_perms: true
-					id: "31C94D8A21A4DE64"
-					team_reward: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					id: "234010C30E1BD573"
-					ignore_reward_blocking: true
-					stage: "diff_level_5"
-					team_reward: false
-					type: "gamestage"
-				}
-			]
-			subtitle: "上位第二级修正"
-			tasks: [{
-				id: "5C3FB54B7141729B"
-				type: "checkmark"
-			}]
-			title: "5"
-			x: 2.0d
-			y: 2.0d
-		}
-		{
-			can_repeat: false
-			dependencies: ["015905562F38D087"]
-			icon: {
-				Count: 1
-				id: "aquaculture:neptunium_sword"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "7F41AFF05B78716F"
-			incompatible: [
-				"18B1C17244162BF1"
-				"522B8B1E2185C4B3"
-				"4996DE5952D3B476"
-				"1D83985B5B9D7A6B"
-				"3B8F992D82614BE0"
-				"038EACF9A9FED23A"
-				"1F0DCE478A97940B"
-			]
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/reset_difficulty @p"
-					elevate_perms: true
-					id: "1FE0C4AF59871910"
-					team_reward: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					id: "1613905A31464473"
-					ignore_reward_blocking: true
-					stage: "diff_level_6"
-					team_reward: false
-					type: "gamestage"
-				}
-			]
-			subtitle: "上位第三级修正（劝你别）"
-			tasks: [{
-				id: "30C469E191ED4F44"
-				type: "checkmark"
-			}]
-			title: "6"
-			x: 3.0d
-			y: 2.0d
-		}
-		{
-			can_repeat: false
-			dependencies: ["015905562F38D087"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					Parent: {
-						energy: {
-							energy: 0
-						}
-						module_host: {
-							modules: [ ]
-							properties: { }
-							provider_id: [I;
-								-223638724
-								-1867035520
-								-1129799415
-								-1369523452
-							]
-						}
-					}
-				}
-				id: "draconicevolution:chaotic_sword"
-			}
-			id: "1F0DCE478A97940B"
-			incompatible: [
-				"18B1C17244162BF1"
-				"522B8B1E2185C4B3"
-				"4996DE5952D3B476"
-				"1D83985B5B9D7A6B"
-				"3B8F992D82614BE0"
-				"038EACF9A9FED23A"
-				"7F41AFF05B78716F"
-			]
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/reset_difficulty @p"
-					elevate_perms: true
-					id: "2C1F1D72B74A1A32"
-					team_reward: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					id: "5FF833A7CD5CA1CE"
-					ignore_reward_blocking: true
-					stage: "diff_level_7"
-					team_reward: false
-					type: "gamestage"
-				}
-			]
-			subtitle: "上位最终修正（你认真的？）"
-			tasks: [{
-				id: "6DCDF7DEE104EC3A"
-				type: "checkmark"
-			}]
-			title: "7"
-			x: 4.0d
-			y: 2.0d
-		}
-		{
 			can_repeat: true
 			dependencies: [
 				"522B8B1E2185C4B3"
 				"4996DE5952D3B476"
 				"1D83985B5B9D7A6B"
 				"3B8F992D82614BE0"
-				"038EACF9A9FED23A"
-				"7F41AFF05B78716F"
-				"1F0DCE478A97940B"
 				"18B1C17244162BF1"
 			]
 			dependency_requirement: "one_completed"
@@ -491,30 +310,6 @@
 					command: "/ftbquests change_progress @p reset 3B8F992D82614BE0"
 					elevate_perms: true
 					id: "2A3B58C7479EBA3A"
-					team_reward: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/ftbquests change_progress @p reset 038EACF9A9FED23A"
-					elevate_perms: true
-					id: "1DB9D5AA8E9E6B07"
-					team_reward: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/ftbquests change_progress @p reset 7F41AFF05B78716F"
-					elevate_perms: true
-					id: "746F7ADF627F32DF"
-					team_reward: false
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/ftbquests change_progress @p reset 1F0DCE478A97940B"
-					elevate_perms: true
-					id: "388F4C01A540BC14"
 					team_reward: false
 					type: "command"
 				}

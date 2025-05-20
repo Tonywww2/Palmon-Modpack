@@ -74,25 +74,25 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.attack_damage",
                 "soul_of_light_attack_damage",
-                0.3,
+                0.15,
                 "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.attack_speed",
                 "soul_of_light_attack_speed",
-                0.15,
+                0.1,
                 "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.movement_speed",
                 "soul_of_light_movement_speed",
-                0.15,
+                0.1,
                 "multiply_total"
             )
             .modifyAttribute(
                 "l2damagetracker:crit_damage",
                 "soul_of_light_critical_damage",
-                0.3,
+                0.1,
                 "multiply_total"
             )
         )
@@ -123,19 +123,19 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.max_health",
                 "pure_darkness_max_health",
-                0.25,
+                0.2,
                 "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.armor",
                 "pure_darkness_armor",
-                0.25,
+                0.15,
                 "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.armor_toughness",
                 "pure_darkness_armor_toughness",
-                0.25,
+                0.15,
                 "multiply_total"
             )
         )
@@ -176,31 +176,31 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.max_health",
                 "gungnir_max_health",
-                -0.5,
+                -0.2,
                 "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.armor",
                 "gungnir_armor",
-                -0.5,
+                -0.4,
                 "multiply_base"
             )
             .modifyAttribute(
                 "obscure_api:healing_power",
                 "gungnir_healing_power",
-                1.0,
+                0.4,
                 "multiply_total"
             )
             .modifyAttribute(
                 "obscure_api:penetration",
                 "gungnir_penetration",
-                0.6,
+                0.2,
                 "addition"
             )
             .modifyAttribute(
                 "minecraft:generic.attack_damage",
                 "gungnir_attack_damage",
-                0.4,
+                0.2,
                 "multiply_total"
             )
         )
@@ -241,55 +241,49 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.movement_speed",
                 "laevatain_movement_speed",
-                -0.4,
+                -0.3,
                 "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.flying_speed",
                 "laevatain_flying_speed",
-                -0.4,
+                -0.3,
                 "multiply_total"
             )
             .modifyAttribute(
                 "forge:swim_speed",
                 "laevatain_swim_speed",
-                -0.4,
+                -0.3,
                 "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.max_health",
                 "laevatain_max_health",
-                -0.5,
+                -0.3,
                 "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.armor",
                 "laevatain_armor",
-                -0.75,
-                "multiply_total"
-            )
-            .modifyAttribute(
-                "minecraft:generic.armor_toughness",
-                "laevatain_armor_toughness",
-                -0.35,
+                -0.4,
                 "multiply_total"
             )
             .modifyAttribute(
                 "obscure_api:healing_power",
                 "laevatain_healing_power",
-                1.75,
+                1.0,
                 "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.attack_damage",
                 "laevatain_attack_damage",
-                0.75,
+                0.3,
                 "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.attack_speed",
                 "laevatain_attack_speed",
-                0.75,
+                0.3,
                 "multiply_total"
             )
         )
@@ -321,7 +315,7 @@ StartupEvents.registry('item', event => {
                 const player = context.entity()
                 if (player && !player.level.isClientSide()) {
                     if (player.age % 40 == 0) {
-                        player.potionEffects.add("minecraft:hunger", 80, 0)
+                        player.potionEffects.add("minecraft:slowness", 80, 0)
 
                     }
                     if (player && player.age % 800 == 0) {
@@ -332,10 +326,11 @@ StartupEvents.registry('item', event => {
                                 '#cobblemon:tier_3_poke_balls',
                                 '#cobblemon:tier_4_poke_balls'
                             ]).getItemIds()
-                            let stack = Item.of(pokeBallList[Math.floor(player.random.nextDouble() * pokeBallList.length)])
-                            player.tell(Text.translatable('ui.kubejs.compact_pal_factory_4').append(stack.getDisplayName()).gold())
-                            if (player.addItem(stack)) {
 
+                            let stack = Item.of(pokeBallList[Math.floor(player.random.nextDouble() * pokeBallList.length)])
+                            if (player.addItem(stack)) {
+                                player.tell(Text.translatable('ui.kubejs.compact_pal_factory_4').append(stack.getDisplayName()).gold())
+                            
                             }
                         }
 
@@ -352,13 +347,13 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.armor",
                 "factory_armor",
-                0.5,
+                0.4,
                 "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.armor_toughness",
                 "factory_toughness",
-                0.4,
+                0.1,
                 "multiply_total"
             )
         )
@@ -388,13 +383,13 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.max_health",
                 "kit_max_health",
-                1.35,
+                2.75,
                 "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.armor",
                 "kit_armor",
-                -0.35,
+                -0.75,
                 "multiply_total"
             )
             .modifyAttribute(
@@ -412,7 +407,7 @@ StartupEvents.registry('item', event => {
         .tag("curios:otherworld_relics")
 
     const ssAtkDamage = "sages_attack_damage"
-    const ssHash = hashCode(ssAtkDamage)
+    const ssHash = new $JavaString(ssAtkDamage).hashCode()
     const ssAtkDamageUUID = new $UUID(ssHash, ssHash)
     event.create('sages_stone')
         .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
@@ -447,7 +442,7 @@ StartupEvents.registry('item', event => {
                         let atkDamage = new $AttributeModifier(
                             ssAtkDamageUUID,
                             ssAtkDamage,
-                            armor * 32,
+                            armor * 20,
                             "addition"
                         )
 
@@ -458,7 +453,7 @@ StartupEvents.registry('item', event => {
 
                         }
                         finally {
-                            player.getAttribute("minecraft:generic.attack_damage").addPermanentModifier(atkDamage)
+                            player.getAttribute("minecraft:generic.attack_damage").addTransientModifier(atkDamage)
 
                         }
 
@@ -472,19 +467,19 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.max_health",
                 "sages_health",
-                -6,
+                -16,
                 "addition"
             )
             .modifyAttribute(
                 "minecraft:generic.armor",
                 "sages_armor",
-                -0.98,
+                -0.95,
                 "multiply_total"
             )
             .modifyAttribute(
                 "obscure_api:critical_hit",
                 "sages_critical_hit",
-                0.25,
+                0.15,
                 "addition"
             )
         )
@@ -514,13 +509,13 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "obscure_api:penetration",
                 "huntress_penetration",
-                0.5,
+                0.3,
                 "addition"
             )
             .modifyAttribute(
                 "obscure_api:critical_hit",
                 "huntress_critical_hit",
-                0.15,
+                0.1,
                 "addition"
             )
         )
@@ -560,8 +555,8 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.attack_damage",
                 "soda_attack_damage",
-                0.7,
-                "multiply_total"
+                0.25,
+                "multiply_base"
             )
         )
         .displayName('§e⌈Glase Soda⌋')
@@ -600,13 +595,13 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "obscure_api:critical_hit",
                 "white_mask_critical_hit",
-                0.4,
+                0.3,
                 "addition"
             )
             .modifyAttribute(
                 "obscure_api:critical_damage",
                 "white_mask_critical_damage",
-                0.2,
+                0.15,
                 "addition"
             )
             .modifyAttribute(
@@ -642,7 +637,7 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "confluence:ranged_damage",
                 "epiphany_pendant_ranged_damage_addition",
-                0.75,
+                0.5,
                 "addition"
             )
             .modifyAttribute(
@@ -654,7 +649,7 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "confluence:ranged_velocity",
                 "epiphany_pendant_ranged_velocity",
-                0.4,
+                0.5,
                 "multiply_total"
             )
         )
@@ -696,19 +691,19 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.luck",
                 "divergence_meter_luck",
-                1.04,
+                0.01048596,
                 "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.max_health",
                 "divergence_meter_max_health",
-                0.85,
+                0.2,
                 "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.attack_damage",
                 "divergence_meter_attack_damage",
-                0.96,
+                0.2,
                 "multiply_base"
             )
         )
@@ -750,6 +745,12 @@ StartupEvents.registry('item', event => {
                 "minecraft:generic.luck",
                 "inspiration_mushroom_luck",
                 2.04,
+                "multiply_total"
+            )
+            .modifyAttribute(
+                "attributeslib:crit_damage",
+                "inspiration_mushroom_crit_damage",
+                0.2,
                 "multiply_total"
             )
         )
