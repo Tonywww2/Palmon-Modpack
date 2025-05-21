@@ -32,7 +32,11 @@
 		"fighter_5",
 		"tank_4",
 		"special_1",
-		"special_2"
+		"special_2",
+		"relics_1",
+		"relics_3",
+		"relics_4",
+		"relics_2"
 	],
 	"all_seed_data": {
 		"0": [],
@@ -230,7 +234,7 @@
 		"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:power\",lvl:5s}],bladeState:{AttackAmplifier:0.0f,BladeUniqueId:[I;-268369508,818498787,-1103231126,1263979792],ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"slashblade_addon:model/kirisaya/kirisaya.obj\",RepairCounter:0,SpecialAttackType:\"slashblade:drive_horizontal\",SpecialEffects:[\"slashblade_addon:burst_drive\"],StandbyRenderType:4b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:0,TextureName:\"slashblade_addon:model/kirisaya/kirisaya.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:3.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:1b,isSealed:0b,killCount:0,lastActionTime:0L,maxDamage:11,proudSoul:0,translationKey:\"item.slashblade_addon.kirisaya\"}}"
 	},
 	"delivery_coordinate_ultimate": {
-		"item": "avaritia:infinity_sword",
+		"item": "immersiveengineering:minecart_reinforcedcrate",
 		"count": 1
 	}
 }

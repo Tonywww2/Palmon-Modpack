@@ -188,6 +188,16 @@ ServerEvents.recipes(event => {
         'occultism:craft_foliot'
     ).id("kubejs:infused_pickaxe_s1")
 
+    let t = 'thermal:device_water_gen'
+    event.recipes.createSequencedAssembly([
+        'cookingforblockheads:sink'
+    ], 'mekanism:steel_casing', [
+        event.recipes.createDeploying(t, [t, 'minecraft:iron_ingot']),
+        event.recipes.createFilling(t, [t, Fluid.of('minecraft:water', 1000)]),
+    ]).transitionalItem(t)
+        .loops(500)
+        .id('kubejs:sink_s1')
+
     event.custom({
         "type": "sophisticatedbackpacks:backpack_upgrade",
         "conditions": [

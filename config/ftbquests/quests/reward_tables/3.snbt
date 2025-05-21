@@ -1,0 +1,14 @@
+{
+	icon: "thermal:netherite_coin"
+	id: "2CCC375695251B59"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ item: "thermal:netherite_coin" }
+		{ count: 2, item: "thermal:netherite_coin" }
+		{ count: 3, item: "thermal:netherite_coin" }
+		{ count: 4, item: "thermal:netherite_coin" }
+		{ count: 5, item: "thermal:netherite_coin" }
+	]
+	title: "随机钱币3"
+}

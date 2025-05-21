@@ -5,10 +5,10 @@
 	default_quest_shape: "octagon"
 	default_repeatable_quest: true
 	filename: "repeatable_quests_and_shop"
-	group: "7360FAFDFF512F43"
-	icon: "enchanted:circle_talisman"
+	group: ""
+	icon: "botania:cosmetic_questgiver_mark"
 	id: "6C3C1C6F8F585FE4"
-	order_index: 1
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{

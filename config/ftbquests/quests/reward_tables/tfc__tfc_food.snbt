@@ -3,7 +3,7 @@
 		Count: 1
 		ForgeCaps: {
 			"tfc:food": {
-				creationDate: -9223372036854775808L
+				creationDate: 2100000000L
 				traits: [ ]
 			}
 		}
@@ -19,7 +19,7 @@
 				Count: 1
 				ForgeCaps: {
 					"tfc:food": {
-						creationDate: 912000000L
+						creationDate: 2100000000L
 						traits: [ ]
 					}
 				}
@@ -33,7 +33,7 @@
 				Count: 1
 				ForgeCaps: {
 					"tfc:food": {
-						creationDate: 912000000L
+						creationDate: 2100000000L
 						traits: [ ]
 					}
 				}
@@ -47,7 +47,7 @@
 				Count: 1
 				ForgeCaps: {
 					"tfc:food": {
-						creationDate: 912000000L
+						creationDate: 2100000000L
 						traits: [ ]
 					}
 				}
@@ -61,7 +61,7 @@
 				Count: 1
 				ForgeCaps: {
 					"tfc:food": {
-						creationDate: 912000000L
+						creationDate: 2100000000L
 						traits: [ ]
 					}
 				}
@@ -74,7 +74,7 @@
 				Count: 1
 				ForgeCaps: {
 					"tfc:food": {
-						creationDate: 912000000L
+						creationDate: 2100000000L
 						traits: [ ]
 					}
 				}
@@ -86,7 +86,7 @@
 				Count: 1
 				ForgeCaps: {
 					"tfc:food": {
-						creationDate: 912000000L
+						creationDate: 2100000000L
 						traits: [ ]
 					}
 				}
@@ -98,7 +98,7 @@
 				Count: 1
 				ForgeCaps: {
 					"tfc:food": {
-						creationDate: 912000000L
+						creationDate: 2100000000L
 						traits: [ ]
 					}
 					"tfc:item_heat": {
@@ -114,7 +114,7 @@
 				Count: 1
 				ForgeCaps: {
 					"tfc:food": {
-						creationDate: 912000000L
+						creationDate: 2100000000L
 						traits: [ ]
 					}
 					"tfc:item_heat": {
@@ -130,7 +130,7 @@
 				Count: 1
 				ForgeCaps: {
 					"tfc:food": {
-						creationDate: 912000000L
+						creationDate: 2100000000L
 						traits: [ ]
 					}
 					"tfc:item_heat": {
@@ -146,7 +146,7 @@
 				Count: 1
 				ForgeCaps: {
 					"tfc:food": {
-						creationDate: 912000000L
+						creationDate: 2100000000L
 						traits: [ ]
 					}
 					"tfc:item_heat": {

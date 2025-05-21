@@ -3,7 +3,7 @@
 	default_quest_shape: "gear"
 	disable_toast: true
 	filename: "addjust_difficulty"
-	group: "7360FAFDFF512F43"
+	group: ""
 	icon: {
 		Count: 1
 		id: "minecraft:diamond_sword"
@@ -12,7 +12,7 @@
 		}
 	}
 	id: "4997E206F67BAB11"
-	order_index: 0
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

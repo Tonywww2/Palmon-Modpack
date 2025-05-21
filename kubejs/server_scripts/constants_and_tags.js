@@ -55,6 +55,47 @@ ServerEvents.tags('item', event => {
         'techreborn:cell'
     )
 
+    event.add('kubejs:delivery_coordinate_blacklist',
+        '@sophisticatedstorage',
+        '@sophisticatedbackpacks',
+        '@ae2',
+        '@ae2things',
+        '@create',
+        'forestry:miner_bag',
+        'forestry:digger_bag',
+        'forestry:forester_bag',
+        'forestry:hunter_bag',
+        'forestry:adventurer_bag',
+        'forestry:builder_bag',
+        'forestry:miner_bag_woven',
+        'forestry:digger_bag_woven',
+        'forestry:forester_bag_woven',
+        'forestry:hunter_bag_woven',
+        'forestry:adventurer_bag_woven',
+        'forestry:builder_bag_woven',
+        'industrialforegoing:infinity_backpack',
+        'forestry:apiarist_bag',
+        'forestry:arborist_bag',
+        'forestry:lepidopterist_bag',
+        'tinkers_things:sack',
+        'mekanism:cardboard_box',
+        'immersiveengineering:crate',
+        'immersiveengineering:reinforced_crate',
+        'immersiveengineering:minecart_woodencrate',
+        'immersiveengineering:minecart_reinforcedcrate',
+        'mekanism:basic_bin',
+        'mekanism:advanced_bin',
+        'mekanism:elite_bin',
+        'mekanism:ultimate_bin',
+        'mekanism_extras:absolute_bin',
+        'mekanism_extras:supreme_bin',
+        'mekanism_extras:cosmic_bin',
+        'mekanism_extras:infinite_bin',
+        'mekanism:personal_chest',
+        'supplementaries:safe',
+        'immersiveengineering:toolbox'
+    )
+
 })
 
 ServerEvents.tags('fluid', event => {
@@ -65,7 +106,7 @@ ServerEvents.tags('fluid', event => {
     event.add('forge:deuterium',
         'techreborn:deuterium'
     )
-    
+
     event.add('forge:tritium',
         'techreborn:tritium'
     )

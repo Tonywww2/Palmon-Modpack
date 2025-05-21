@@ -346,7 +346,7 @@ function s5ConvergenceRecipe(event, index1, index2, index3) {
                 "count": 4
             },
             {
-                "item": 'kubejs:collapse_prediction',
+                "item": 'kubejs:end_steel',
                 "count": 3
             },
             {

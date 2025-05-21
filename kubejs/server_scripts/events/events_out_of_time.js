@@ -224,7 +224,7 @@ global.eotActivate = function (c, Commands, Arguments) {
         } else {
             console.log("Not Exist, adding")
             arr["add(java.lang.String)"](target)
-            console.log("added")
+            console.log("added: " + target)
             savePackData(global.jsonData)
 
         }
@@ -566,11 +566,11 @@ registerBuff("relics_2", 2, ["relics_1"], false, function (event) {
     event.player.give(Item.of('ftbquests:lootcrate', '{type:"limit"}'))
 }, function (event) { })
 
-registerBuff("relics_3", 5, ["init"], false, function (event) {
+registerBuff("relics_3", 5, ["master_ending"], false, function (event) {
     event.player.give(Item.of('ftbquests:lootcrate', '{type:"limit"}'))
 }, function (event) { })
 
-registerBuff("relics_4", 5, ["relics_3"], true, function (event) {
+registerBuff("relics_4", 5, ["master_ending", "relics_3"], true, function (event) {
     event.player.give(Item.of('ftbquests:lootcrate', '{type:"limit"}'))
 }, function (event) { })
 

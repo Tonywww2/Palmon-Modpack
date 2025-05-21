@@ -485,6 +485,29 @@ ServerEvents.recipes(event => {
     }
     ).id('kubejs:crystallized_amber_s5')
 
+    event.custom({
+        "type": "techreborn:fusion_reactor",
+        "power": 32767,
+        "time": 32767,
+        "start-power": 400000,
+        "min-size": 1,
+        "ingredients": [
+            Item.of('kubejs:helium_3_crystal_infinity').toJson(),
+            {
+                "fluid": "techreborn:deuterium",
+                "holder": "techreborn:cell"
+            }
+        ],
+        "results": [
+            {
+                "item": "techreborn:cell",
+                "nbt": {
+                    "fluid": "techreborn:heliumplasma"
+                }
+            }
+        ]
+    }).id('kubejs:helium_3_crystal_infinity_fusion_reactor_s5')
+
     tcAlloy([{ "amount": 1000, "tag": 'forge:deuterium' }, { "amount": 1000, "tag": 'forge:tritium' }, { "amount": 720, "tag": 'forge:helium' }, { "amount": 720, "tag": 'forge:lithium/7_za' }],
         { "amount": 100, "tag": "kubejs:hybrid_fuel" }, 100, 'kubejs:hybrid_fuel')
 

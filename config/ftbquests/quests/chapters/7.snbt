@@ -4,19 +4,17 @@
 	default_quest_shape: ""
 	filename: "7"
 	group: "292B2A0F4D1DF208"
+	icon: "avaritia:endest_pearl"
 	id: "26F19BA2AA693BBC"
 	order_index: 1
 	quest_links: [ ]
 	quests: [{
-		description: [
-			"恭喜你，已经完成了本整合包的一条基本路线。"
-			""
-			"接下来，如果你拥有&4资格&f，你可以在第七章完成终局挑战。"
-		]
+		dependencies: ["2C8F6D440E89C247"]
 		id: "59F7E85B2FDEDA8B"
 		tasks: [{
-			id: "026CC54FA0EA6A8B"
-			type: "checkmark"
+			id: "4F294FB05B87E8E5"
+			item: "kubejs:gamma_dust"
+			type: "item"
 		}]
 		x: 0.0d
 		y: 0.0d

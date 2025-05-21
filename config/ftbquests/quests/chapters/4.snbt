@@ -13,6 +13,20 @@
 			dependencies: ["7091A9ADB8F3C993"]
 			icon: "ad_astra:mars_globe"
 			id: "2BA2D49F67F26CA7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1E06A8FCABE8930F"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BCEB24DEB6FD8D5"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				dimension: "ad_astra:mars"
@@ -26,6 +40,20 @@
 		{
 			dependencies: ["2BA2D49F67F26CA7"]
 			id: "19748B079BF83EDB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "02E276ABFD3C7D6E"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "249847604CA83C7C"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "火星特产"
 			tasks: [{
 				id: "49F1534104AC96BA"
@@ -39,6 +67,20 @@
 			dependencies: ["19748B079BF83EDB"]
 			hide_until_deps_complete: true
 			id: "1E2A1641798E125F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2564765A6FBE4AF8"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1753799B91B4A896"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "7D5A2452FD9A56AB"
 				item: "ad_astra:ostrum_ingot"
@@ -50,6 +92,20 @@
 		{
 			dependencies: ["1E2A1641798E125F"]
 			id: "7FC968D263AEA122"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "448CF9CB94DD6AF9"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "740E41A510A2A4ED"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "718892EA0C00AB3C"
@@ -63,6 +119,20 @@
 			dependencies: ["7FC968D263AEA122"]
 			hide_until_deps_complete: true
 			id: "6E193B6B06A8FA7C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "21CA3D1A9E7F544E"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5574358C5CBBFF14"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "0163BF0DE0B2BDCC"
 				item: "botania:apothecary_default"
@@ -75,6 +145,20 @@
 			dependencies: ["7FC968D263AEA122"]
 			hide_until_deps_complete: true
 			id: "4BC78FBF5168C6A5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "64C6D08B0F6C1C05"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C0DE310A9DC4EA6"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "6502F54F658770DF"
 				item: "ae2:inscriber"
@@ -86,11 +170,25 @@
 		{
 			dependencies: ["35AC997D13DA88C0"]
 			id: "5FF7C6DD23AB4E74"
-			rewards: [{
-				id: "4E9A6F6E9FCCFA32"
-				item: "compactmachines:personal_shrinking_device"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4E9A6F6E9FCCFA32"
+					item: "compactmachines:personal_shrinking_device"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23B3383FBB052918"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17E3EBC59A72A075"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "收束之一"
 			tasks: [{
 				id: "21563A99175957F0"
@@ -103,6 +201,20 @@
 		{
 			dependencies: ["6E193B6B06A8FA7C"]
 			id: "3103710D58171CDA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3A90AA8645193D0E"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A7EEA497F25E3A4"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "4773BB9E43360E69"
 				item: "botania:terra_plate"
@@ -114,6 +226,20 @@
 		{
 			dependencies: ["3103710D58171CDA"]
 			id: "098E70A731DA0721"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3253384F1B940158"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39DA3C2AD393297F"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "2CE870720563665C"
 				item: "botania:terrasteel_ingot"
@@ -125,6 +251,20 @@
 		{
 			dependencies: ["098E70A731DA0721"]
 			id: "788485F3CA377560"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "636D91E612EC874C"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15906CDAC679A7E6"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "66677F6971BCD382"
 				item: "botania:alfheim_portal"
@@ -137,6 +277,20 @@
 			dependencies: ["780219F416B18981"]
 			icon: "ae2:logic_processor"
 			id: "1629D5D348CBAF9F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "161329C9E692477C"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FE25745B8F23338"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [
 				{
 					id: "03F449697CD67F1C"
@@ -161,6 +315,20 @@
 		{
 			dependencies: ["47BFCE83D644E037"]
 			id: "232F777DDF9C82D2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "258FFAB0073CC49C"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53C22593DD41E314"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "41A59C9C92BD9055"
 				item: "ae2:cell_component_4k"
@@ -173,6 +341,20 @@
 			dependencies: ["788485F3CA377560"]
 			icon: "botania:pixie_dust"
 			id: "7F9DDBB392F82A01"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "61AEEF985B291A4E"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33E00DED8421C543"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [
 				{
 					id: "31EA9FA4E823BC63"
@@ -197,6 +379,20 @@
 		{
 			dependencies: ["1629D5D348CBAF9F"]
 			id: "47BFCE83D644E037"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1FBC057F12696BB6"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DA616815C273784"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "6A85248B741ADD41"
 				item: "ae2:cell_component_1k"
@@ -210,6 +406,32 @@
 			hide_dependency_lines: true
 			icon: "kubejs:anchor_shard"
 			id: "3D4DF2C3EA0892F3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0AA8551C0BDE786A"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "474EE07C082CC36E"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CA61B10746C467C"
+					table_id: 1651636410828424531L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C06B83CD6398196"
+					table_id: 7787811987843285123L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "5C8173D72BA8F2D7"
 				type: "checkmark"
@@ -221,6 +443,20 @@
 		{
 			dependencies: ["4BC78FBF5168C6A5"]
 			id: "780219F416B18981"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3C789EB4E9E841D9"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7815417186935EC6"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "08CCBB916E6E29AE"
 				item: {
@@ -243,6 +479,20 @@
 				"232F777DDF9C82D2"
 			]
 			id: "3D68BD03828E6C01"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0F826B72B6748947"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21A9729FADA95DB4"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "030B1FD703487B14"
@@ -255,6 +505,20 @@
 		{
 			dependencies: ["3D68BD03828E6C01"]
 			id: "033B52065B6BC530"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0E33C264702ECFB8"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EE5C52E9D61C8BB"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "魔灵之力"
 			tasks: [{
 				id: "38924DD98038A513"
@@ -274,6 +538,20 @@
 			dependencies: ["7F9DDBB392F82A01"]
 			hide_until_deps_complete: true
 			id: "34407AC6D2A2E064"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2FC8999A21A00A7E"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30784FDF42B98F1E"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "186F81D732C5BB65"
 				item: "mythicbotany:mana_infuser"
@@ -285,6 +563,20 @@
 		{
 			dependencies: ["34407AC6D2A2E064"]
 			id: "4022752FECFC650A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7ACCF704EA9AC12F"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7AAA748205ED9092"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "01982E7A9ADDB0C5"
 				item: "mythicbotany:alfsteel_pylon"
@@ -296,6 +588,20 @@
 		{
 			dependencies: ["4022752FECFC650A"]
 			id: "2DE58451E5A6C936"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "610770389025D07A"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "695EA17110C9E72A"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "6434EDAEDA261CA1"
 				item: "botania:gaia_pylon"
@@ -307,6 +613,20 @@
 		{
 			dependencies: ["2DE58451E5A6C936"]
 			id: "4EC2FFB4FE546AF4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0C090631286E0B65"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C39DEA154A981F1"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "513A938FBA574564"
 				item: {
@@ -322,6 +642,20 @@
 		{
 			dependencies: ["1629D5D348CBAF9F"]
 			id: "62E604FC45E42EBD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1ABC7AF2E7AB9F4E"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1392123F2C19D5C7"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "1C06CF528A2F580E"
 				item: "ae2:controller"
@@ -335,37 +669,51 @@
 			icon: "industrialforegoingsouls:soul_laser_base"
 			id: "474FE81A901D1B83"
 			optional: true
-			rewards: [{
-				id: "7766F6AC344140A6"
-				item: {
-					Count: 1
-					id: "minecraft:lime_shulker_box"
-					tag: {
-						BlockEntityTag: {
-							ForgeCaps: { }
-							Items: [
-								{
-									Count: 1b
-									Slot: 0b
-									id: "industrialforegoingsouls:soul_laser_base"
-								}
-								{
-									Count: 16b
-									Slot: 1b
-									id: "industrialforegoingsouls:soul_network_pipe"
-								}
-								{
-									Count: 2b
-									Slot: 2b
-									id: "industrialforegoingsouls:soul_surge"
-								}
-							]
-							id: "minecraft:shulker_box"
+			rewards: [
+				{
+					id: "7766F6AC344140A6"
+					item: {
+						Count: 1
+						id: "minecraft:lime_shulker_box"
+						tag: {
+							BlockEntityTag: {
+								ForgeCaps: { }
+								Items: [
+									{
+										Count: 1b
+										Slot: 0b
+										id: "industrialforegoingsouls:soul_laser_base"
+									}
+									{
+										Count: 16b
+										Slot: 1b
+										id: "industrialforegoingsouls:soul_network_pipe"
+									}
+									{
+										Count: 2b
+										Slot: 2b
+										id: "industrialforegoingsouls:soul_surge"
+									}
+								]
+								id: "minecraft:shulker_box"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "6E3176EE51D2BED8"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16E08DCCE4536B8F"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "灵感：灵魂共振"
 			tasks: [{
 				id: "3B20AA07D2F53A11"
@@ -382,47 +730,61 @@
 			icon: "industrialforegoing:machine_frame_advanced"
 			id: "42B58780F3A296B5"
 			optional: true
-			rewards: [{
-				id: "4D623FBFC4A7D863"
-				item: {
-					Count: 1
-					id: "minecraft:lime_shulker_box"
-					tag: {
-						BlockEntityTag: {
-							ForgeCaps: { }
-							Items: [
-								{
-									Count: 3b
-									Slot: 0b
-									id: "industrialforegoing:machine_frame_pity"
-								}
-								{
-									Count: 2b
-									Slot: 1b
-									id: "industrialforegoing:machine_frame_simple"
-								}
-								{
-									Count: 1b
-									Slot: 2b
-									id: "industrialforegoing:machine_frame_advanced"
-								}
-								{
-									Count: 1b
-									Slot: 3b
-									id: "industrialforegoing:supreme_black_hole_unit"
-								}
-								{
-									Count: 1b
-									Slot: 4b
-									id: "industrialforegoing:supreme_black_hole_tank"
-								}
-							]
-							id: "minecraft:shulker_box"
+			rewards: [
+				{
+					id: "4D623FBFC4A7D863"
+					item: {
+						Count: 1
+						id: "minecraft:lime_shulker_box"
+						tag: {
+							BlockEntityTag: {
+								ForgeCaps: { }
+								Items: [
+									{
+										Count: 3b
+										Slot: 0b
+										id: "industrialforegoing:machine_frame_pity"
+									}
+									{
+										Count: 2b
+										Slot: 1b
+										id: "industrialforegoing:machine_frame_simple"
+									}
+									{
+										Count: 1b
+										Slot: 2b
+										id: "industrialforegoing:machine_frame_advanced"
+									}
+									{
+										Count: 1b
+										Slot: 3b
+										id: "industrialforegoing:supreme_black_hole_unit"
+									}
+									{
+										Count: 1b
+										Slot: 4b
+										id: "industrialforegoing:supreme_black_hole_tank"
+									}
+								]
+								id: "minecraft:shulker_box"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "61E265C4FA339042"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F00D2E8EF68F3D2"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "灵感：高级设备"
 			tasks: [{
 				id: "06BAE2AD8CB8E7FE"
@@ -442,11 +804,25 @@
 			}
 			id: "071ABCD9A2899234"
 			optional: true
-			rewards: [{
-				id: "7BEC941E5DA027FA"
-				item: "minecraft:clock"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7BEC941E5DA027FA"
+					item: "minecraft:clock"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FB451E7CE2792CE"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D7AB6DAAE092B89"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "灵感：天堂制造"
 			tasks: [{
 				id: "5136FE1E7E2A6775"
@@ -467,11 +843,25 @@
 			icon: "kubejs:alpha_framework"
 			id: "2595BC9FBB0DCFAE"
 			optional: true
-			rewards: [{
-				id: "583D858D9A6ED6DB"
-				item: "kubejs:essence_computation_frame"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "583D858D9A6ED6DB"
+					item: "kubejs:essence_computation_frame"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01BCF76F79011F0C"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "068CD7B78AAAB9BD"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "灵感：生产效率配方"
 			tasks: [{
 				id: "40E2624AA39C8D29"
@@ -488,47 +878,61 @@
 			icon: "cobblemon:master_ball"
 			id: "754E584EBB786A61"
 			optional: true
-			rewards: [{
-				id: "4792AA363CCDF2F9"
-				item: {
-					Count: 1
-					id: "minecraft:lime_shulker_box"
-					tag: {
-						BlockEntityTag: {
-							ForgeCaps: { }
-							Items: [
-								{
-									Count: 2b
-									Slot: 0b
-									id: "palmon:boost_frame_3"
-								}
-								{
-									Count: 2b
-									Slot: 1b
-									id: "palmon:boost_frame_2"
-								}
-								{
-									Count: 2b
-									Slot: 2b
-									id: "palmon:boost_frame_1"
-								}
-								{
-									Count: 2b
-									Slot: 3b
-									id: "palmon:working_station"
-								}
-								{
-									Count: 64b
-									Slot: 4b
-									id: "palmon:poke_food"
-								}
-							]
-							id: "minecraft:shulker_box"
+			rewards: [
+				{
+					id: "4792AA363CCDF2F9"
+					item: {
+						Count: 1
+						id: "minecraft:lime_shulker_box"
+						tag: {
+							BlockEntityTag: {
+								ForgeCaps: { }
+								Items: [
+									{
+										Count: 2b
+										Slot: 0b
+										id: "palmon:boost_frame_3"
+									}
+									{
+										Count: 2b
+										Slot: 1b
+										id: "palmon:boost_frame_2"
+									}
+									{
+										Count: 2b
+										Slot: 2b
+										id: "palmon:boost_frame_1"
+									}
+									{
+										Count: 2b
+										Slot: 3b
+										id: "palmon:working_station"
+									}
+									{
+										Count: 64b
+										Slot: 4b
+										id: "palmon:poke_food"
+									}
+								]
+								id: "minecraft:shulker_box"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "0AB2B11EF47D907A"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B89AC24B92D2E8A"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "灵感：专业化训练"
 			tasks: [{
 				id: "085CA65806792311"
@@ -544,97 +948,111 @@
 			icon: "ae2:controller"
 			id: "28242B0319EA2546"
 			optional: true
-			rewards: [{
-				id: "4A1BD034855FBD38"
-				item: {
-					Count: 1
-					id: "minecraft:lime_shulker_box"
-					tag: {
-						BlockEntityTag: {
-							ForgeCaps: { }
-							Items: [
-								{
-									Count: 8b
-									Slot: 0b
-									id: "ae2:controller"
-								}
-								{
-									Count: 32b
-									Slot: 1b
-									id: "ae2:fluix_smart_dense_cable"
-								}
-								{
-									Count: 64b
-									Slot: 2b
-									id: "ae2:fluix_smart_cable"
-								}
-								{
-									Count: 64b
-									Slot: 3b
-									id: "ae2:fluix_glass_cable"
-								}
-								{
-									Count: 4b
-									Slot: 4b
-									id: "ae2:pattern_provider"
-								}
-								{
-									Count: 8b
-									Slot: 5b
-									id: "ae2:molecular_assembler"
-								}
-								{
-									Count: 32b
-									Slot: 6b
-									id: "ae2:basic_card"
-								}
-								{
-									Count: 16b
-									Slot: 7b
-									id: "ae2:advanced_card"
-								}
-								{
-									Count: 4b
-									Slot: 8b
-									id: "ae2:storage_bus"
-								}
-								{
-									Count: 2b
-									Slot: 9b
-									id: "ae2:4k_crafting_storage"
-								}
-								{
-									Count: 2b
-									Slot: 10b
-									id: "ae2:crafting_accelerator"
-								}
-								{
-									Count: 1b
-									Slot: 11b
-									id: "ae2:crafting_monitor"
-								}
-								{
-									Count: 1b
-									Slot: 12b
-									id: "ae2:pattern_access_terminal"
-								}
-								{
-									Count: 1b
-									Slot: 13b
-									id: "ae2:pattern_encoding_terminal"
-								}
-								{
-									Count: 16b
-									Slot: 14b
-									id: "ae2:blank_pattern"
-								}
-							]
-							id: "minecraft:shulker_box"
+			rewards: [
+				{
+					id: "4A1BD034855FBD38"
+					item: {
+						Count: 1
+						id: "minecraft:lime_shulker_box"
+						tag: {
+							BlockEntityTag: {
+								ForgeCaps: { }
+								Items: [
+									{
+										Count: 8b
+										Slot: 0b
+										id: "ae2:controller"
+									}
+									{
+										Count: 32b
+										Slot: 1b
+										id: "ae2:fluix_smart_dense_cable"
+									}
+									{
+										Count: 64b
+										Slot: 2b
+										id: "ae2:fluix_smart_cable"
+									}
+									{
+										Count: 64b
+										Slot: 3b
+										id: "ae2:fluix_glass_cable"
+									}
+									{
+										Count: 4b
+										Slot: 4b
+										id: "ae2:pattern_provider"
+									}
+									{
+										Count: 8b
+										Slot: 5b
+										id: "ae2:molecular_assembler"
+									}
+									{
+										Count: 32b
+										Slot: 6b
+										id: "ae2:basic_card"
+									}
+									{
+										Count: 16b
+										Slot: 7b
+										id: "ae2:advanced_card"
+									}
+									{
+										Count: 4b
+										Slot: 8b
+										id: "ae2:storage_bus"
+									}
+									{
+										Count: 2b
+										Slot: 9b
+										id: "ae2:4k_crafting_storage"
+									}
+									{
+										Count: 2b
+										Slot: 10b
+										id: "ae2:crafting_accelerator"
+									}
+									{
+										Count: 1b
+										Slot: 11b
+										id: "ae2:crafting_monitor"
+									}
+									{
+										Count: 1b
+										Slot: 12b
+										id: "ae2:pattern_access_terminal"
+									}
+									{
+										Count: 1b
+										Slot: 13b
+										id: "ae2:pattern_encoding_terminal"
+									}
+									{
+										Count: 16b
+										Slot: 14b
+										id: "ae2:blank_pattern"
+									}
+								]
+								id: "minecraft:shulker_box"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "7DA85C40C10A6BA4"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01284C0ABBBBCC09"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "物资：ME自动化套件"
 			tasks: [{
 				id: "0A4DE7B90A7144E8"
@@ -650,6 +1068,20 @@
 			description: ["......帮助越大，代价越高。"]
 			icon: "kubejs:anchor_shard"
 			id: "5C182F768906554A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A36F7B2C36EAE82"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08F9C6EB5014E547"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "25AD3AD2371DFAA3"
 				type: "checkmark"
@@ -662,6 +1094,32 @@
 			dependencies: ["5C182F768906554A"]
 			description: ["合成..."]
 			id: "7C8F21F274C74D59"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3C7E674386F1D6D8"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C7D7782455DE4ED"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "673E53BE9320BDE7"
+					table_id: 1651636410828424531L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D0B01F71C8147F9"
+					table_id: 7787811987843285123L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "灵感：新生魔艺"
 			tasks: [{
@@ -676,6 +1134,32 @@
 			dependencies: ["5C182F768906554A"]
 			description: ["感应..."]
 			id: "39A3EB250644FA7A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "76E18910A99E88E8"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1981C87A98ADF887"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "617265214865E6F4"
+					table_id: 1651636410828424531L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B17959B66194963"
+					table_id: 7787811987843285123L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "灵感：龙之研究"
 			tasks: [{
@@ -690,6 +1174,32 @@
 			dependencies: ["5C182F768906554A"]
 			description: ["合成..."]
 			id: "368B50D9FA24ABBA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "23BF6D0EDAAFDDDD"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2EEFBE2D09C98ABA"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "453DBF19930FD32A"
+					table_id: 1651636410828424531L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72ED24D49DEB38DD"
+					table_id: 7787811987843285123L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "灵感：工业屠宰"
 			tasks: [{
@@ -704,6 +1214,32 @@
 			dependencies: ["5C182F768906554A"]
 			description: ["感应..."]
 			id: "76551EEFA4598D87"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "77CCC08F381F0ABC"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "680DF75081B3B76F"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E871453370E1CBF"
+					table_id: 1651636410828424531L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "523DB471028AAE93"
+					table_id: 7787811987843285123L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "灵感：深空探索"
 			tasks: [{
@@ -718,6 +1254,32 @@
 			dependencies: ["5C182F768906554A"]
 			description: ["合成..."]
 			id: "3A49D2C7EE90C2F2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4CEC04B89230D525"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C956CC134B9FEFC"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "146E7AC943EA3DD3"
+					table_id: 1651636410828424531L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63FBA22AF4720F73"
+					table_id: 7787811987843285123L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "灵感：真正的工业"
 			tasks: [{
@@ -732,6 +1294,32 @@
 			dependencies: ["5C182F768906554A"]
 			description: ["合成...然后灵火..."]
 			id: "4473E1C35100C688"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "592AB9B828E47359"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B1F6749CC516370"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "046A63A4EF73DC28"
+					table_id: 1651636410828424531L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BB4F952D8C1FA26"
+					table_id: 7787811987843285123L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "灵感：魔王"
 			tasks: [{
@@ -752,6 +1340,20 @@
 			dependencies: ["3D68BD03828E6C01"]
 			hide_until_deps_complete: true
 			id: "792EBBF529719097"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6098BC83272F6171"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08916842C196DFDA"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "先锋"
 			tasks: [{
 				id: "33C9D404BB33E2ED"
@@ -765,6 +1367,20 @@
 			dependencies: ["792EBBF529719097"]
 			hide_until_deps_complete: true
 			id: "0F7856B347537A96"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "52B4AF2ECCA4F804"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AFC1DFCA2901CCA"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "6CBACF5FF2F6ECDE"
 				item: "industrialforegoing:dissolution_chamber"
@@ -776,6 +1392,20 @@
 		{
 			dependencies: ["0F7856B347537A96"]
 			id: "0D937378D5C6FCB2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4B1DBB4DD1A3EF51"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7509DCBAF99F6BC2"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "53D323D21C906A95"
 				item: "industrialforegoing:machine_frame_simple"
@@ -789,6 +1419,20 @@
 			description: ["前往古代城，寻找古代人留下的龙息。"]
 			hide_until_deps_complete: true
 			id: "0CE4E5DC7464D60A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1CD5D6C06163B8B0"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A1A1A657201CD94"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "远古之城中......"
 			tasks: [{
 				id: "09FC0B0E67CA60D6"
@@ -803,6 +1447,20 @@
 			description: ["从异界召唤末地石与紫颂果......"]
 			hide_until_deps_complete: true
 			id: "2F24825CDE72CA6B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0DC066B72A7DE847"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "432BE742A43EC06F"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "仪式召唤"
 			tasks: [{
 				id: "4561B23E623FD6D8"
@@ -827,6 +1485,20 @@
 				"0CE4E5DC7464D60A"
 			]
 			id: "1A6BE3E860BEF229"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "54B9EE7A4AB65C75"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6683E9394F5F09D2"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "5F118C4A350AEB76"
 				item: "occultism:storage_stabilizer_tier4"
@@ -841,6 +1513,20 @@
 				"0CE4E5DC7464D60A"
 			]
 			id: "69D9824855251C89"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "257C10F6E2CCFFB5"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20135B5DE46444EA"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "奴役魔王"
 			tasks: [{
 				id: "11ADA9803023B67B"
@@ -860,6 +1546,20 @@
 		{
 			dependencies: ["1A6BE3E860BEF229"]
 			id: "412E62E4E10E60B0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "508DCB3F66D6D219"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B17C95D428CB723"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "32FE8E28A45E2430"
@@ -873,6 +1573,20 @@
 			dependencies: ["3A49D2C7EE90C2F2"]
 			hide_until_deps_complete: true
 			id: "6D721ADCFCB692ED"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7D8FE54E223F0C2C"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E45758F0922D7FE"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "482CED2A26A73338"
 				item: "techreborn:grinder"
@@ -885,6 +1599,20 @@
 			dependencies: ["3A49D2C7EE90C2F2"]
 			hide_until_deps_complete: true
 			id: "1EBD7E0BCFC26C5B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6495BFEB9F4A5968"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55A57D36E47C96F5"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "56622363AF50E566"
 				item: "techreborn:extractor"
@@ -897,6 +1625,20 @@
 			dependencies: ["3A49D2C7EE90C2F2"]
 			hide_until_deps_complete: true
 			id: "0D8BA7BFA5CE2797"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A58736B3007436F"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1168C25E87DF42B4"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "40C6C7FA99BD5111"
 				item: "techreborn:compressor"
@@ -908,6 +1650,20 @@
 		{
 			dependencies: ["1EBD7E0BCFC26C5B"]
 			id: "2DD3D9B6CF348F6B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5D5B34AA295413B4"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "244D99395EA10AF9"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "5E3B03051D3587BC"
 				item: "techreborn:wire_mill"
@@ -919,6 +1675,20 @@
 		{
 			dependencies: ["0D8BA7BFA5CE2797"]
 			id: "56143A0668B653AD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6937415714DDB6BD"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D103EECD8A73E81"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "469B29C04A389B23"
 				item: "techreborn:rolling_machine"
@@ -930,6 +1700,20 @@
 		{
 			dependencies: ["56143A0668B653AD"]
 			id: "025BE83480CA7EDB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "725572FE8F4D4116"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74FC11552B967336"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "6B3E3547EF252189"
@@ -943,6 +1727,20 @@
 			dependencies: ["7C8F21F274C74D59"]
 			hide_until_deps_complete: true
 			id: "708E3370ABA2B6FA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "14F7D3044C46072D"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E7DE1228725A245"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "424AB34FBAE651D8"
 				item: "kubejs:charged_source_gem"
@@ -956,6 +1754,20 @@
 			description: ["制作任意一种魔源通道。"]
 			icon: "ars_nouveau:mycelial_sourcelink"
 			id: "6E5CA7225180E00C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "13DBE347377CF62D"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13E4C7B6648BC848"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "160E6A54F56FFDB9"
 				type: "checkmark"
@@ -968,6 +1780,20 @@
 			dependencies: ["6E5CA7225180E00C"]
 			icon: "ars_nouveau:enchanting_apparatus"
 			id: "23446E38AB5AD7AE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "272A4EEBD1C6CE17"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F1AFE69723C6D7A"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [
 				{
 					id: "69C4547448A5FD98"
@@ -986,6 +1812,20 @@
 		{
 			dependencies: ["23446E38AB5AD7AE"]
 			id: "272D39AEDF7559AD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "35D120F9915FACCF"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C28F3C3BBD586E9"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "24A8E8EF1BFFC86E"
@@ -998,6 +1838,20 @@
 		{
 			dependencies: ["708E3370ABA2B6FA"]
 			id: "3FE094A962C3DA29"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "25AD1661F377CD28"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B856A894F8F9C9F"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "1AB436FD9B61E7E5"
 				item: "ars_nouveau:novice_spell_book"
@@ -1012,6 +1866,20 @@
 				"272D39AEDF7559AD"
 			]
 			id: "2CB032EBD22B6EA9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5FA24A56A8712D92"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78D50C9164998019"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "35792E20884CB840"
 				item: "ars_nouveau:apprentice_spell_book"
@@ -1023,6 +1891,20 @@
 		{
 			dependencies: ["272D39AEDF7559AD"]
 			id: "41382FEE68AEB0E9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4581B8596E31AE0A"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "082EA9CBE5F2E85E"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "73491ADFC5EE4089"
 				item: "ars_nouveau:ritual_brazier"
@@ -1035,6 +1917,20 @@
 			dependencies: ["39A3EB250644FA7A"]
 			hide_until_deps_complete: true
 			id: "2102D65B4DDC81C4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6FFDDBD39171E3C2"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F520D6A86C7890D"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "069618911BB44B83"
 				item: "draconicevolution:draconium_core"
@@ -1046,6 +1942,20 @@
 		{
 			dependencies: ["2102D65B4DDC81C4"]
 			id: "68938842F1E5A045"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0EB2DCF9E18A2E08"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1054B32A37E0B349"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "2C13C1B8ED43E823"
 				item: "draconicevolution:crafting_core"
@@ -1057,6 +1967,20 @@
 		{
 			dependencies: ["2102D65B4DDC81C4"]
 			id: "75C5E528436A81C0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "01318B7245196669"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64513FE6036BFA27"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "222256D50A7BB0F1"
 				item: "draconicevolution:wyvern_energy_core"
@@ -1068,6 +1992,20 @@
 		{
 			dependencies: ["68938842F1E5A045"]
 			id: "5495267EFA498055"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6ED308B397D51282"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "147E8842D9C5809F"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "2A61C8FD155179B3"
 				item: "draconicevolution:basic_crafting_injector"
@@ -1079,6 +2017,20 @@
 		{
 			dependencies: ["2102D65B4DDC81C4"]
 			id: "576EB1D52164B5BB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1846260FA3795CB7"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1209017D99E18F90"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "797B91F7A303A927"
@@ -1094,6 +2046,20 @@
 				"576EB1D52164B5BB"
 			]
 			id: "0293C93123EF9F68"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6CF745CFA54D6000"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46C56B99A168829E"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "7485BBA8C115FD16"
 				item: "draconicevolution:wyvern_crafting_injector"
@@ -1127,6 +2093,20 @@
 				id: "draconicevolution:wyvern_chestpiece"
 			}
 			id: "30D756219B0C2F93"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F3AE654DCB8CB17"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1093708EEB6918CD"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "792AD839E468EF7A"
 				type: "checkmark"
@@ -1139,6 +2119,20 @@
 			dependencies: ["368B50D9FA24ABBA"]
 			hide_until_deps_complete: true
 			id: "77CAB443DAA16D91"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "37877F82F3D4549F"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "575C16231DDD4010"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "高端设备的基础"
 			tasks: [{
 				id: "5C2728610F2830AC"
@@ -1152,6 +2146,20 @@
 			dependencies: ["368B50D9FA24ABBA"]
 			hide_until_deps_complete: true
 			id: "30E1AE4064E031BF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "359B99AF3B0D1159"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40146E0CF98CAB7D"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "美味"
 			tasks: [{
 				id: "26FA22F6BF0187AD"
@@ -1164,6 +2172,20 @@
 		{
 			dependencies: ["77CAB443DAA16D91"]
 			id: "35C5165D1399518A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "763E4A9B879C7AE7"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B22DCEB51E35321"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "62F675DFB04B5AF7"
 				item: "industrialforegoing:machine_frame_advanced"
@@ -1175,6 +2197,20 @@
 		{
 			dependencies: ["35C5165D1399518A"]
 			id: "11ADECF54001AF5D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0EC1076400D77913"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C5261112AC0431F"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "2197C77BA07E1DD5"
 				item: "industrialforegoing:mob_duplicator"
@@ -1186,6 +2222,20 @@
 		{
 			dependencies: ["35C5165D1399518A"]
 			id: "2CAA2800E4CFE0C9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4C20F3767D0946FA"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "705AE98E39506EE8"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "23F0CE186460A64C"
 				item: "industrialforegoing:mob_crusher"
@@ -1200,6 +2250,20 @@
 				"30E1AE4064E031BF"
 			]
 			id: "2D5455040F27822D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3BA63E55EB86B342"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "344008E3AC775DDA"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "6422890D7AEAA607"
 				item: "industrialforegoing:washing_factory"
@@ -1211,6 +2275,20 @@
 		{
 			dependencies: ["2D5455040F27822D"]
 			id: "096CB7CA58F6C184"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1DD4AC4B0A4DB965"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "080924960B9146E0"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "49486F9955BE4606"
 				item: "industrialforegoing:fermentation_station"
@@ -1227,6 +2305,20 @@
 				"注意：部分运输方式可能会导致发酵矿石肉汤变质（损坏）"
 			]
 			id: "25CC1D51EDB864EA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5507A3820D93B157"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5805AA61C0BDF5CD"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "4B39653BBE27EB9F"
 				item: "kubejs:melted_voidarium_bucket"
@@ -1238,6 +2330,20 @@
 		{
 			dependencies: ["25CC1D51EDB864EA"]
 			id: "5BA8467626995AAA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1EEC9E444FAF54C3"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "227A885151F8B513"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "6AD11054FD7AFBE2"
 				item: "industrialforegoing:fluid_laser_base"
@@ -1249,6 +2355,20 @@
 		{
 			dependencies: ["25CC1D51EDB864EA"]
 			id: "2F00F7AD9AABDC22"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "268103EA017E0400"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16FAD509C518F86A"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "35DF3986E27613F6"
@@ -1263,6 +2383,20 @@
 			description: ["注意，3阶星球的表面十分炎热，你需要下界合金航天服或者抗火效果才能生存。"]
 			hide_until_deps_complete: true
 			id: "7ED98C0E69819A65"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "120B2116319E10AF"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4229EC6C02480C53"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "3179F36B13FC0702"
 				item: {
@@ -1279,6 +2413,20 @@
 			dependencies: ["7ED98C0E69819A65"]
 			icon: "ad_astra:mercury_globe"
 			id: "38E0E60050DF0A80"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4BAA0A6223D948F6"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32F85D9CE274C4F3"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				dimension: "ad_astra:mercury"
 				id: "7BAC62499F1FC517"
@@ -1292,6 +2440,20 @@
 			dependencies: ["7ED98C0E69819A65"]
 			icon: "ad_astra:venus_globe"
 			id: "0CD1902E35CB6BF0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7CFFF95D4A23EB96"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0662953737ACE6A7"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				dimension: "ad_astra:venus"
 				id: "14AA224725BACAEF"
@@ -1304,6 +2466,20 @@
 		{
 			dependencies: ["0CD1902E35CB6BF0"]
 			id: "1D3DA410BBD846A2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "512DBEA0C3222796"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E591A364CE5E5D0"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "1E51B949C6473439"
 				item: "ad_astra:raw_calorite"
@@ -1316,6 +2492,20 @@
 			dependencies: ["38E0E60050DF0A80"]
 			icon: "cataclysm:flame_eye"
 			id: "121A564BB0FDC457"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3BE6AAFAD053FE64"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71B0A18717B52406"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "4E79D766BA22597C"
 				structure: "cataclysm:burning_arena"
@@ -1328,6 +2518,20 @@
 		{
 			dependencies: ["121A564BB0FDC457"]
 			id: "416E18C9D2CF0876"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "279D5CE5D85B7790"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09F82C527395C679"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "3F52A8252EB7D1A0"
 				item: "cataclysm:ignitium_ingot"
@@ -1342,6 +2546,20 @@
 				"10F01BAFBFBACE40"
 			]
 			id: "49AB5A8A0BC9D05C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0D648946D5DE1469"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "635266FC0A1F403B"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "3B3A42D368DB6867"
 				item: "jaopca:circuits.calorite"
@@ -1354,6 +2572,20 @@
 			dependencies: ["76551EEFA4598D87"]
 			hide_until_deps_complete: true
 			id: "4331E30566C78B4D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5389050235AFAFFF"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5AF4C90027F72A9D"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "0CF9814747035650"
 				item: "ad_astra:cryo_freezer"
@@ -1365,6 +2597,20 @@
 		{
 			dependencies: ["4331E30566C78B4D"]
 			id: "10F01BAFBFBACE40"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5AE45FD87C2B6E99"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E12EEB7EE26AEBE"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "更廉价的燃料"
 			tasks: [{
 				id: "7016065F1CE21AF2"
@@ -1377,6 +2623,20 @@
 		{
 			dependencies: ["49AB5A8A0BC9D05C"]
 			id: "25983A0DE23BE666"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "540236D9FAE7F639"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5770AA075B1C8CEE"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "29192ED12193480E"
@@ -1400,6 +2660,20 @@
 			hide_until_deps_complete: true
 			icon: "kubejs:anchor_shard"
 			id: "5DAD718093971689"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4C207DE84B057C26"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B1AE43F08BE5AC9"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "0177E6FE940096D5"
 				type: "checkmark"
@@ -1412,13 +2686,33 @@
 			dependencies: ["5DAD718093971689"]
 			hide_until_deps_complete: true
 			id: "5DA47C9FB0351EA7"
-			rewards: [{
-				command: "/eot_give_anchor_shard @p 2"
-				icon: "kubejs:anchor_shard"
-				id: "523C7AD020F0A003"
-				title: "锚定"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/eot_give_anchor_shard @p 2"
+					icon: "kubejs:anchor_shard"
+					id: "523C7AD020F0A003"
+					title: "锚定"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63E6B3F13523409D"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "547F7CB47C0DF16B"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31D1255D1F459507"
+					table_id: 8696909402506609895L
+					type: "choice"
+				}
+			]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
@@ -1433,6 +2727,20 @@
 			dependencies: ["2BA2D49F67F26CA7"]
 			icon: "cataclysm:desert_eye"
 			id: "177D126EC3FF303A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "01509ACFF8BB3D9B"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B7B8279CE92C1B6"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "5997405528C81A36"
 				structure: "cataclysm:cursed_pyramid"
@@ -1445,6 +2753,20 @@
 		{
 			dependencies: ["2BA2D49F67F26CA7"]
 			id: "2D7B8DB201A208F5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1BC8E31249D496F8"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68C3B597A42EFC6C"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				entity: "ad_astra:martian_raptor"
 				id: "6D571C1D69F02016"
@@ -1459,14 +2781,28 @@
 			dependencies: ["5DA47C9FB0351EA7"]
 			description: ["这件锚的制作方法来自于异界，他带给了你许多新的启示......"]
 			id: "46A1B445EE65A69E"
-			rewards: [{
-				auto: "invisible"
-				id: "253C1E02EC870A08"
-				ignore_reward_blocking: true
-				stage: "the_end"
-				team_reward: false
-				type: "gamestage"
-			}]
+			rewards: [
+				{
+					auto: "invisible"
+					id: "253C1E02EC870A08"
+					ignore_reward_blocking: true
+					stage: "the_end"
+					team_reward: false
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F13141E4BA46DED"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0526E04B25DC9E47"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "none"
 			size: 2.0d
 			subtitle: "稳定现实"
@@ -1482,6 +2818,20 @@
 			dependencies: ["1E2A1641798E125F"]
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "35AC997D13DA88C0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "17741EE054BF1321"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CDFB41C4044000B"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "3DDD45E7C62B2F2A"
 				type: "checkmark"

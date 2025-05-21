@@ -13,6 +13,20 @@
 			dependencies: ["153BB1808FC6284A"]
 			icon: "ad_astra:earth_globe"
 			id: "36D2E1C2BF0663D7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "395284AEDBCA1C43"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "106C83BE4F80EC38"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "gear"
 			subtitle: "归乡"
 			tasks: [{
@@ -29,6 +43,20 @@
 			description: ["既然已经有了一艘可靠的火箭，为何不将目光放的再远一些？"]
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "6D2837A2695037CE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "65DE6A069B9270D0"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FDECEB483D1E238"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "这是人类的一小步"
 			tasks: [{
 				id: "36C96DFEC25AC8F4"
@@ -49,6 +77,20 @@
 				}
 			}
 			id: "6A613C862F305D94"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7DC761CA0F2EA37A"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C890D0216B19FBA"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "舱外活动"
 			tasks: [
 				{
@@ -104,12 +146,26 @@
 			description: ["在此阶段，你将会解锁随机的两份补给。"]
 			icon: "kubejs:anchor_shard"
 			id: "6D2DCDB27DF13C81"
-			rewards: [{
-				count: 5
-				id: "3356DC85D144A97F"
-				item: "cobblemon:relic_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "3356DC85D144A97F"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D944C1F8D9CCC9B"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E5F24C8322A85BE"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "6A2B996D578E4662"
 				type: "checkmark"
@@ -122,6 +178,20 @@
 			dependencies: ["36D2E1C2BF0663D7"]
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "6ACE8AAA69BDF127"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "02787ACB50480C7F"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3EC2238D8FD9211D"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "67F4CD22E0FB578E"
 				type: "checkmark"
@@ -133,6 +203,20 @@
 		{
 			dependencies: ["36D2E1C2BF0663D7"]
 			id: "50EDE394710966B7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "23A967DB6C3A32E1"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66BAECE64A0D58BA"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "热力膨胀"
 			tasks: [{
 				id: "60AD8C943BA26AE6"
@@ -145,6 +229,20 @@
 		{
 			dependencies: ["50EDE394710966B7"]
 			id: "3D8C4920A0463674"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A0DC5D89D7CAF48"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BD2070A17141F77"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "6D212F9C2AED803C"
 				item: "thermal:machine_pulverizer"
@@ -156,6 +254,20 @@
 		{
 			dependencies: ["50EDE394710966B7"]
 			id: "7EC453F24F5E0E85"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "07A140702DA560FC"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38FB5384F52CEA00"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "你的噩梦开始了"
 			tasks: [{
 				id: "3DF0F68B7A3DBB06"
@@ -168,6 +280,20 @@
 		{
 			dependencies: ["50EDE394710966B7"]
 			id: "1EE6D9E38516520E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A572DC105EE752D"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D493649E3041ABE"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "快速压板"
 			tasks: [{
 				id: "2BBA69F0BE363ABA"
@@ -181,6 +307,20 @@
 			dependencies: ["36D2E1C2BF0663D7"]
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "6E6C596EACD8BE9F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "394A4EB38280C6CD"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74AF323CE7098F77"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "为什么要被束缚在框架内呢"
 			tasks: [{
 				id: "62F65EB7116D1203"
@@ -194,6 +334,20 @@
 			dependencies: ["6D2837A2695037CE"]
 			hide_until_deps_complete: true
 			id: "09E9FC71E375C009"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0E6A592A7C754AAE"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "638D3F7BE8A45D5D"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "为什么不呢"
 			tasks: [{
 				id: "3D33B6FD6ABC2EBB"
@@ -210,6 +364,20 @@
 			]
 			icon: "ad_astra:moon_globe"
 			id: "106E90D345ADA5AE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C38C8C3CF1FD5BB"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0127532E7F2FC9DF"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				dimension: "ad_astra:moon"
@@ -225,6 +393,20 @@
 			hide_until_deps_complete: true
 			icon: "cataclysm:abyss_eye"
 			id: "7B7AE1E173DB4AFD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6941102D9DA91BC0"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "579E28ACDC393C76"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "I'a I'a.Cthulhu Fhatgn!"
 			tasks: [{
 				id: "1B7C0D8F08CC693C"
@@ -238,6 +420,20 @@
 		{
 			dependencies: ["7EC453F24F5E0E85"]
 			id: "1F05408D8081B8E2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "446E3F582DB7485E"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D6F18BBEF84C4F5"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "7237D8DFFC8CA6F0"
@@ -253,6 +449,20 @@
 				"6D1CD3D97FFF7B32"
 			]
 			id: "0E3A1245F9178C71"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "52948161A77F1F11"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "698D6980815AB4DE"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "灵感：工业"
 			tasks: [{
@@ -272,6 +482,20 @@
 		{
 			dependencies: ["6ACE8AAA69BDF127"]
 			id: "22C8AA6F4E8E5345"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "261563EA89CDA33A"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EEF39B42DCB9444"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "灵感：神秘"
 			tasks: [{
@@ -288,6 +512,20 @@
 				"7EC453F24F5E0E85"
 			]
 			id: "6D1CD3D97FFF7B32"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "088E9643D9F0421E"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5222ACB15CD738B2"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "灵感：动力"
 			tasks: [{
@@ -302,6 +540,20 @@
 			dependencies: ["106E90D345ADA5AE"]
 			hide_until_deps_complete: true
 			id: "20C6105B852AF3F1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "15834ADA78260DA0"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "126AB927DFCD97DB"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "月球特产"
 			tasks: [{
 				id: "78E0BC5A52AA3C39"
@@ -315,15 +567,29 @@
 			dependencies: ["6ACE8AAA69BDF127"]
 			icon: "slashblade:proudsoul"
 			id: "1673E5CF51F87E75"
-			rewards: [{
-				auto: "enabled"
-				id: "0BBBB6E3947265A6"
-				ignore_reward_blocking: true
-				stage: "slashblade"
-				team_reward: false
-				title: "剑之魂"
-				type: "gamestage"
-			}]
+			rewards: [
+				{
+					auto: "enabled"
+					id: "0BBBB6E3947265A6"
+					ignore_reward_blocking: true
+					stage: "slashblade"
+					team_reward: false
+					title: "剑之魂"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D7C7C5F5845EA92"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28C19F7A2EA40D62"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "灵感：拔刀"
 			tasks: [{
@@ -342,42 +608,56 @@
 			icon: "fluxnetworks:flux_core"
 			id: "55CB17B2D6FA3D12"
 			optional: true
-			rewards: [{
-				id: "0CA728184A5DCCAD"
-				item: {
-					Count: 1
-					id: "minecraft:lime_shulker_box"
-					tag: {
-						BlockEntityTag: {
-							ForgeCaps: { }
-							Items: [
-								{
-									Count: 8b
-									Slot: 0b
-									id: "fluxnetworks:flux_core"
-								}
-								{
-									Count: 1b
-									Slot: 1b
-									id: "fluxnetworks:flux_controller"
-								}
-								{
-									Count: 1b
-									Slot: 2b
-									id: "fluxnetworks:flux_point"
-								}
-								{
-									Count: 1b
-									Slot: 3b
-									id: "fluxnetworks:flux_plug"
-								}
-							]
-							id: "minecraft:shulker_box"
+			rewards: [
+				{
+					id: "0CA728184A5DCCAD"
+					item: {
+						Count: 1
+						id: "minecraft:lime_shulker_box"
+						tag: {
+							BlockEntityTag: {
+								ForgeCaps: { }
+								Items: [
+									{
+										Count: 8b
+										Slot: 0b
+										id: "fluxnetworks:flux_core"
+									}
+									{
+										Count: 1b
+										Slot: 1b
+										id: "fluxnetworks:flux_controller"
+									}
+									{
+										Count: 1b
+										Slot: 2b
+										id: "fluxnetworks:flux_point"
+									}
+									{
+										Count: 1b
+										Slot: 3b
+										id: "fluxnetworks:flux_plug"
+									}
+								]
+								id: "minecraft:shulker_box"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "5FB0A87AEF7A0E8D"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3EACD7980F3BA8AD"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "灵感：无线输电"
 			tasks: [{
 				id: "671D636A666DD6D8"
@@ -394,32 +674,46 @@
 			icon: "sfm:manager"
 			id: "0D454A94B4133CF1"
 			optional: true
-			rewards: [{
-				id: "43D2832800EF6F83"
-				item: {
-					Count: 1
-					id: "minecraft:lime_shulker_box"
-					tag: {
-						BlockEntityTag: {
-							ForgeCaps: { }
-							Items: [
-								{
-									Count: 2b
-									Slot: 0b
-									id: "sfm:manager"
-								}
-								{
-									Count: 16b
-									Slot: 1b
-									id: "sfm:cable"
-								}
-							]
-							id: "minecraft:shulker_box"
+			rewards: [
+				{
+					id: "43D2832800EF6F83"
+					item: {
+						Count: 1
+						id: "minecraft:lime_shulker_box"
+						tag: {
+							BlockEntityTag: {
+								ForgeCaps: { }
+								Items: [
+									{
+										Count: 2b
+										Slot: 0b
+										id: "sfm:manager"
+									}
+									{
+										Count: 16b
+										Slot: 1b
+										id: "sfm:cable"
+									}
+								]
+								id: "minecraft:shulker_box"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "58BE25D5A67AB733"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "333B1D9E000EFB36"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "灵感：工厂管理"
 			tasks: [{
 				id: "5F75F22857AA2967"
@@ -436,42 +730,56 @@
 			icon: "modularrouters:modular_router"
 			id: "74F440E76CB060BD"
 			optional: true
-			rewards: [{
-				id: "59A72A2D18523937"
-				item: {
-					Count: 1
-					id: "minecraft:lime_shulker_box"
-					tag: {
-						BlockEntityTag: {
-							ForgeCaps: { }
-							Items: [
-								{
-									Count: 4b
-									Slot: 0b
-									id: "modularrouters:modular_router"
-								}
-								{
-									Count: 4b
-									Slot: 1b
-									id: "modularrouters:blank_upgrade"
-								}
-								{
-									Count: 4b
-									Slot: 2b
-									id: "modularrouters:blank_module"
-								}
-								{
-									Count: 4b
-									Slot: 3b
-									id: "modularrouters:augment_core"
-								}
-							]
-							id: "minecraft:shulker_box"
+			rewards: [
+				{
+					id: "59A72A2D18523937"
+					item: {
+						Count: 1
+						id: "minecraft:lime_shulker_box"
+						tag: {
+							BlockEntityTag: {
+								ForgeCaps: { }
+								Items: [
+									{
+										Count: 4b
+										Slot: 0b
+										id: "modularrouters:modular_router"
+									}
+									{
+										Count: 4b
+										Slot: 1b
+										id: "modularrouters:blank_upgrade"
+									}
+									{
+										Count: 4b
+										Slot: 2b
+										id: "modularrouters:blank_module"
+									}
+									{
+										Count: 4b
+										Slot: 3b
+										id: "modularrouters:augment_core"
+									}
+								]
+								id: "minecraft:shulker_box"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "3A9ADF26FBCD034A"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "650295BB7D1C0A93"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "灵感：行为模拟"
 			tasks: [{
 				id: "08F13AFCA4359A3C"
@@ -488,42 +796,56 @@
 			icon: "rftoolsbase:machine_frame"
 			id: "1693BF993E82EFD5"
 			optional: true
-			rewards: [{
-				id: "55CD01C9EB182AE7"
-				item: {
-					Count: 1
-					id: "minecraft:lime_shulker_box"
-					tag: {
-						BlockEntityTag: {
-							ForgeCaps: { }
-							Items: [
-								{
-									Count: 8b
-									Slot: 0b
-									id: "rftoolsbase:machine_frame"
-								}
-								{
-									Count: 1b
-									Slot: 1b
-									id: "rftoolsutility:crafter1"
-								}
-								{
-									Count: 1b
-									Slot: 2b
-									id: "rftoolsbase:machine_infuser"
-								}
-								{
-									Count: 1b
-									Slot: 3b
-									id: "rftoolspower:cell2"
-								}
-							]
-							id: "minecraft:shulker_box"
+			rewards: [
+				{
+					id: "55CD01C9EB182AE7"
+					item: {
+						Count: 1
+						id: "minecraft:lime_shulker_box"
+						tag: {
+							BlockEntityTag: {
+								ForgeCaps: { }
+								Items: [
+									{
+										Count: 8b
+										Slot: 0b
+										id: "rftoolsbase:machine_frame"
+									}
+									{
+										Count: 1b
+										Slot: 1b
+										id: "rftoolsutility:crafter1"
+									}
+									{
+										Count: 1b
+										Slot: 2b
+										id: "rftoolsbase:machine_infuser"
+									}
+									{
+										Count: 1b
+										Slot: 3b
+										id: "rftoolspower:cell2"
+									}
+								]
+								id: "minecraft:shulker_box"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "2B4D0BAC02BED8CD"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F47703609161820"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "灵感：RFT实用设备"
 			tasks: [{
 				id: "3AF494A08A4E5AF1"
@@ -540,88 +862,102 @@
 			icon: "create:mechanical_arm"
 			id: "65A13D05A366FE2C"
 			optional: true
-			rewards: [{
-				id: "74480DBB02460F4E"
-				item: {
-					Count: 1
-					id: "minecraft:lime_shulker_box"
-					tag: {
-						BlockEntityTag: {
-							ForgeCaps: { }
-							Items: [
-								{
-									Count: 1b
-									Slot: 0b
-									id: "create:windmill_bearing"
-								}
-								{
-									Count: 1b
-									Slot: 1b
-									id: "create:mechanical_bearing"
-								}
-								{
-									Count: 1b
-									Slot: 2b
-									id: "create:cart_assembler"
-								}
-								{
-									Count: 1b
-									Slot: 3b
-									id: "create:wrench"
-								}
-								{
-									Count: 1b
-									Slot: 4b
-									id: "create:extendo_grip"
-									tag: {
-										Damage: 0
+			rewards: [
+				{
+					id: "74480DBB02460F4E"
+					item: {
+						Count: 1
+						id: "minecraft:lime_shulker_box"
+						tag: {
+							BlockEntityTag: {
+								ForgeCaps: { }
+								Items: [
+									{
+										Count: 1b
+										Slot: 0b
+										id: "create:windmill_bearing"
 									}
-								}
-								{
-									Count: 1b
-									Slot: 5b
-									id: "create:goggles"
-								}
-								{
-									Count: 1b
-									Slot: 6b
-									id: "create:super_glue"
-									tag: {
-										Damage: 0
+									{
+										Count: 1b
+										Slot: 1b
+										id: "create:mechanical_bearing"
 									}
-								}
-								{
-									Count: 1b
-									Slot: 7b
-									id: "create:mechanical_arm"
-								}
-								{
-									Count: 1b
-									Slot: 8b
-									id: "create:rotation_speed_controller"
-								}
-								{
-									Count: 32b
-									Slot: 9b
-									id: "create:track"
-								}
-								{
-									Count: 4b
-									Slot: 10b
-									id: "create:track_station"
-								}
-								{
-									Count: 1b
-									Slot: 11b
-									id: "createaddition:straw"
-								}
-							]
-							id: "minecraft:shulker_box"
+									{
+										Count: 1b
+										Slot: 2b
+										id: "create:cart_assembler"
+									}
+									{
+										Count: 1b
+										Slot: 3b
+										id: "create:wrench"
+									}
+									{
+										Count: 1b
+										Slot: 4b
+										id: "create:extendo_grip"
+										tag: {
+											Damage: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 5b
+										id: "create:goggles"
+									}
+									{
+										Count: 1b
+										Slot: 6b
+										id: "create:super_glue"
+										tag: {
+											Damage: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 7b
+										id: "create:mechanical_arm"
+									}
+									{
+										Count: 1b
+										Slot: 8b
+										id: "create:rotation_speed_controller"
+									}
+									{
+										Count: 32b
+										Slot: 9b
+										id: "create:track"
+									}
+									{
+										Count: 4b
+										Slot: 10b
+										id: "create:track_station"
+									}
+									{
+										Count: 1b
+										Slot: 11b
+										id: "createaddition:straw"
+									}
+								]
+								id: "minecraft:shulker_box"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "58F01A1CA622E005"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E09446DC2970955"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "物资：黄铜机械"
 			tasks: [{
 				id: "432B515928B80770"
@@ -639,6 +975,20 @@
 			]
 			hide_until_deps_complete: false
 			id: "346F9B9DECB62437"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "68DDB56E0EFC0A00"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5AC2956F33EF2056"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "49905A769C345682"
@@ -652,6 +1002,20 @@
 			dependencies: ["106E90D345ADA5AE"]
 			hide_until_deps_complete: true
 			id: "702A4A7A98273A95"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2EC50EB1BBA14275"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34D6BA3B48C6FC7D"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "征服地牢"
 			tasks: [{
 				id: "332DF7501BABC0A8"
@@ -684,6 +1048,18 @@
 					item: "dimdungeons:item_portal_key"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "30C613EFEE884C6A"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67C5E7FC9DBB0C7A"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
 			]
 			shape: "hexagon"
 			tasks: [
@@ -714,6 +1090,20 @@
 			hide_until_deps_complete: true
 			icon: "kubejs:anchor_shard"
 			id: "4AEADEEE818B1FCC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0EB71BD3AB31427F"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A6E617B6CCD0965"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "140A53BF9B4CFAC2"
 				type: "checkmark"
@@ -726,6 +1116,20 @@
 			dependencies: ["6E6C596EACD8BE9F"]
 			hide_until_deps_complete: true
 			id: "5CB9479134B9111E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1CE1BAD15F5CE5CE"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "370139F0CBDC1554"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "鼠鼠我啊"
 			tasks: [{
 				id: "6320138F9F5178F2"
@@ -749,6 +1153,20 @@
 			description: ["老鼠升级之后可以帮你完成许多工作，在此只列出部分例子。"]
 			hide_until_deps_complete: true
 			id: "0F8A0D01D402ADDD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5D3E6D307FD89AB3"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2030BA3EE501A14F"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "鼠奴"
 			tasks: [{
 				id: "163DA1543944A76A"
@@ -761,6 +1179,20 @@
 		{
 			dependencies: ["0F8A0D01D402ADDD"]
 			id: "42B8DCE12AF85A8B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "786D07FC6B380D8F"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C521357E6B30FC3"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "10104E651DCDE83B"
 				item: "rats:rat_upgrade_aristocrat"
@@ -772,6 +1204,20 @@
 		{
 			dependencies: ["0F8A0D01D402ADDD"]
 			id: "1FF5C1BA69E467A9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2581ECBF2F6A4424"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C3A390ECAB82397"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "75A7EC3AE8407E54"
 				item: "rats:rat_upgrade_breeder"
@@ -783,6 +1229,20 @@
 		{
 			dependencies: ["0F8A0D01D402ADDD"]
 			id: "16DD337E2FC23817"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "020971EE4A1CCD49"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F00442914545B23"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "583854CEBF5544AF"
 				item: "rats:rat_upgrade_lumberjack"
@@ -794,6 +1254,20 @@
 		{
 			dependencies: ["0F8A0D01D402ADDD"]
 			id: "238572BB02DB6E61"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "64705E20B65FEAD9"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6726D23D94466523"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "005D9CB220092C3D"
 				item: "rats:rat_upgrade_farmer"
@@ -805,6 +1279,20 @@
 		{
 			dependencies: ["0F8A0D01D402ADDD"]
 			id: "18E99EA0560980D3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6617E9AD1097B0EF"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69005ABA12C0F7CE"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "22F43515C051D36E"
 				item: "rats:rat_upgrade_replanter"
@@ -816,6 +1304,20 @@
 		{
 			dependencies: ["0F8A0D01D402ADDD"]
 			id: "61F05903E6789A31"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1B4DE98480073F9F"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "418C9A7790C32BCC"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "3484B29029EB1350"
 				item: "rats:rat_upgrade_shears"
@@ -829,6 +1331,20 @@
 			hide_until_deps_complete: true
 			icon: "cataclysm:mech_eye"
 			id: "39EA4E779C168F97"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "004FD5DDA541E184"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D093979B97E2AEC"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "0B3C4A2A87415E55"
 				structure: "cataclysm:ancient_factory"
@@ -841,6 +1357,20 @@
 		{
 			dependencies: ["39EA4E779C168F97"]
 			id: "573F9AF697176410"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "100AD4E02F1CED1C"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3222BCE20DF7C764"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "02C263359488F35C"
 				item: "cataclysm:witherite_ingot"
@@ -853,6 +1383,20 @@
 			dependencies: ["5CB9479134B9111E"]
 			hide_until_deps_complete: true
 			id: "45C1F200915A7F67"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "638DFB204FD7C27F"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14FE8E4D8C3B0622"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "67D7CF1D144AEDEC"
 				item: "rats:tiny_coin"
@@ -869,6 +1413,20 @@
 				"或许你需要一些其他的东西才能帮助你驱散这股力量..."
 			]
 			id: "0BA24B8C1356ABC7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "033DC32592F86BE8"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BCF28193FBC6DE8"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "神秘的力量拒绝了你"
 			tasks: [{
 				id: "4FFF80EE3909D9BA"
@@ -882,6 +1440,26 @@
 			dependencies: ["4AEADEEE818B1FCC"]
 			description: ["合成..."]
 			id: "75D3453813C3D864"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "227D699BEA149EC5"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50E6C439CBB5DDAD"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B77EE622350777C"
+					table_id: 7787811987843285123L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "灵感：林业"
 			tasks: [{
@@ -896,6 +1474,26 @@
 			dependencies: ["4AEADEEE818B1FCC"]
 			description: ["合成..."]
 			id: "0B3D033410791E9E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6F17600D2D96B2D4"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E99803AA8EA3F8E"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "112E147208756D33"
+					table_id: 7787811987843285123L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "灵感：灵灾"
 			tasks: [{
@@ -937,6 +1535,24 @@
 					item: "nuclearcraft:thorium_ore"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "555C54B53ECF4F71"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F984920703310BD"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F15911F652A666A"
+					table_id: 7787811987843285123L
+					type: "loot"
+				}
 			]
 			shape: "hexagon"
 			subtitle: "灵感：核工业"
@@ -952,6 +1568,26 @@
 			dependencies: ["4AEADEEE818B1FCC"]
 			description: ["组装..."]
 			id: "4E6C50026AF843DD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "63D8E622B9CB9650"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "569B1EDE82AED826"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34694F42C4D96317"
+					table_id: 7787811987843285123L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "灵感：黄铜机械"
 			tasks: [{
@@ -966,6 +1602,26 @@
 			dependencies: ["4AEADEEE818B1FCC"]
 			description: ["合成..."]
 			id: "006364B7090D8E82"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "72F5678C1361259C"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75B1E35B6C152923"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C8AD547B11D7EE0"
+					table_id: 7787811987843285123L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "特制灵感：处理器"
 			tasks: [{
@@ -995,6 +1651,24 @@
 					item: "embers:alchemy_tablet"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "0D6F8210A3B5BF60"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52F811B845DBE1A1"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00718A97D31DFE63"
+					table_id: 7787811987843285123L
+					type: "loot"
+				}
 			]
 			shape: "hexagon"
 			subtitle: "灵感：余烬注魔"
@@ -1010,6 +1684,20 @@
 			dependencies: ["6E6C596EACD8BE9F"]
 			hide_until_deps_complete: true
 			id: "7656BA76426F0012"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "184F9812AAC1AEDB"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59D2FCEF0A97A2A6"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "16674340EFDF7D11"
 				item: "integrateddynamics:menril_log"
@@ -1022,6 +1710,20 @@
 			dependencies: ["4E6C50026AF843DD"]
 			hide_until_deps_complete: true
 			id: "1414D11ECE4F6423"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "79E8B5B4145E7952"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5EA9A130D996913A"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "3BA05F16CA1F24BF"
 				item: "create:rotation_speed_controller"
@@ -1034,6 +1736,20 @@
 			dependencies: ["4E6C50026AF843DD"]
 			hide_until_deps_complete: true
 			id: "7F5764E72FC512F7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "225F1C51255B8D59"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "084B17CB57463DA8"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "20CA41D64CF2C426"
 				item: "create:mechanical_arm"
@@ -1046,6 +1762,20 @@
 			dependencies: ["4E6C50026AF843DD"]
 			hide_until_deps_complete: true
 			id: "3945384653690F04"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A86E4B8EF40167C"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FFB4D1E48678F7E"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "54C011EFC7A2B10E"
 				item: "create:deployer"
@@ -1057,6 +1787,20 @@
 		{
 			dependencies: ["3945384653690F04"]
 			id: "7356BA71A8BCA0D4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "640DAA77DB664E15"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18181E8C39026768"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "0A6B09FD778282C1"
 				item: "create:precision_mechanism"
@@ -1069,6 +1813,20 @@
 			dependencies: ["7356BA71A8BCA0D4"]
 			hide_until_deps_complete: true
 			id: "21A8D275B698E404"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "36AEAAD876108FC5"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1928DD315BB696B7"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "6FD0350A32467CE9"
 				item: "create:sturdy_sheet"
@@ -1080,6 +1838,20 @@
 		{
 			dependencies: ["21A8D275B698E404"]
 			id: "345DE5BCC8B26729"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "37F1707CFBCCCC90"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33618A354221A540"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "75F0A640F09A4017"
@@ -1093,6 +1865,20 @@
 			dependencies: ["345DE5BCC8B26729"]
 			hide_until_deps_complete: true
 			id: "0D356F69B44F78CC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "20F6EB399C77BE3D"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63735CA0B609A0B9"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "1466A6FCD5B1BA30"
 				item: "createaddition:capacitor"
@@ -1105,6 +1891,20 @@
 			dependencies: ["345DE5BCC8B26729"]
 			hide_until_deps_complete: true
 			id: "3F3A5901E8ABEB8F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "76E94246D5F8811C"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7623901B2F9D386B"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "6D0D9E1E45F93E39"
 				item: "createaddition:biomass_pellet"
@@ -1119,6 +1919,20 @@
 				"0D356F69B44F78CC"
 			]
 			id: "4890A983A7C71A12"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "01AA0EDE391BDF31"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16918E809CD88004"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "27EE858083C8D4BF"
@@ -1132,6 +1946,20 @@
 			dependencies: ["4890A983A7C71A12"]
 			hide_until_deps_complete: true
 			id: "7BEA36EC593FD7D6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1397E0D8EAE1AB85"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C3AE615DE0D37D8"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				count: 11L
 				id: "611248E4AAC28129"
@@ -1144,6 +1972,20 @@
 		{
 			dependencies: ["7BEA36EC593FD7D6"]
 			id: "4189752AD0C23207"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "10D0FC53F5E99B25"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49A01E42FCCA99B2"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "5F80FBE21887257D"
@@ -1157,6 +1999,20 @@
 			dependencies: ["0B3D033410791E9E"]
 			hide_until_deps_complete: true
 			id: "2E5276EE03955F7D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "39452AEA5CFD73B2"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45BBF8CF2EF78154"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "78471B1A67A05BAD"
 				item: {
@@ -1175,6 +2031,20 @@
 			dependencies: ["2E5276EE03955F7D"]
 			hide_until_deps_complete: true
 			id: "6B1631BDAD1EA252"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "703E856959733489"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66689E23FA281633"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "061D3C608882E27C"
 				item: {
@@ -1194,6 +2064,20 @@
 		{
 			dependencies: ["6B1631BDAD1EA252"]
 			id: "05720161248B066A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4B7012219501D07D"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3ACB389E40008A39"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "60C4F513B72FB273"
 				item: "malum:soul_stained_steel_ingot"
@@ -1205,6 +2089,20 @@
 		{
 			dependencies: ["6B1631BDAD1EA252"]
 			id: "582EE6AF8D6C0FF0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1F4E04921688DE6A"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "118DD1E86511619D"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "3C5E7D5572451A50"
 				item: "malum:hallowed_gold_ingot"
@@ -1219,6 +2117,20 @@
 				"582EE6AF8D6C0FF0"
 			]
 			id: "4FD78D78D65679D9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0010C76968DB708A"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "033ACF6E879E0116"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "65624037AABE469F"
@@ -1231,6 +2143,20 @@
 		{
 			dependencies: ["4FD78D78D65679D9"]
 			id: "54DD5B0ADFAAA61F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6F526631635DCA4F"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "146958BFEC51D949"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "7B39F9B7C06547ED"
 				item: "malum:runic_workbench"
@@ -1243,6 +2169,20 @@
 			dependencies: ["54DD5B0ADFAAA61F"]
 			hide_until_deps_complete: true
 			id: "6FE2DA69BE4F5B9D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2C604D0A78D2A0E4"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D1F68CCC54AB89E"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "3B26DBB05B838200"
 				item: "malum:tainted_rock_tablet"
@@ -1255,6 +2195,20 @@
 			dependencies: ["54DD5B0ADFAAA61F"]
 			hide_until_deps_complete: true
 			id: "0620E123ABE45725"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F9061B415719ED8"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B13A975D0D678F1"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "4B660BA5D07F718C"
 				item: "malum:runewood_tablet"
@@ -1267,6 +2221,20 @@
 			dependencies: ["54DD5B0ADFAAA61F"]
 			hide_until_deps_complete: true
 			id: "7F0C6F2A0AAAD292"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "25945C21B4334C67"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "339AEE583F18D662"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "02595D0E7D61A3BB"
 				item: "malum:soulwood_tablet"
@@ -1284,6 +2252,20 @@
 			]
 			hide_until_deps_complete: false
 			id: "56CF2654CCAA1AE0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "425C846CFD7EA022"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F5FA5C4FEC36578"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "6C8D339C304218C1"
@@ -1299,6 +2281,20 @@
 			hide_until_deps_complete: true
 			icon: "malum:void_depot"
 			id: "2147F92D5ACE9599"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40EB228EB2695DF8"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D2CFF519ACD4D2F"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "理智在颤抖..."
 			tasks: [{
@@ -1315,6 +2311,20 @@
 		{
 			dependencies: ["2147F92D5ACE9599"]
 			id: "35544805511BBB96"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "10C6D0D18D1D51DD"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "145EA003A63BCC2B"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "172F52E52F1876E0"
 				item: "malum:complete_design"
@@ -1326,6 +2336,20 @@
 		{
 			dependencies: ["35544805511BBB96"]
 			id: "11A403A4EC8BE258"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "39F04E2EFADB55CC"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E1674177F72AE18"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "00139232DBBA717C"
 				item: "malum:fused_consciousness"
@@ -1337,6 +2361,20 @@
 		{
 			dependencies: ["2147F92D5ACE9599"]
 			id: "61EF6C73AD68401E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0FB6F42FFABE0F85"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77790ADBEAE715F1"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "4EBAE3AC53667AFE"
 				item: "malum:malignant_pewter_ingot"
@@ -1349,6 +2387,20 @@
 			dependencies: ["48D7D0C73EEA0DC1"]
 			hide_until_deps_complete: true
 			id: "2DAC7BC4C3748BAB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "59BAB7B5E615988B"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "701B526A54557ABA"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "74ABE08274649706"
 				item: "embers:beam_cannon"
@@ -1360,6 +2412,20 @@
 		{
 			dependencies: ["2DAC7BC4C3748BAB"]
 			id: "4D70A26ABC6E50B1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "580E16445A117374"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0BAB999D931E54A2"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "5E0E98D2B509E6CD"
 				item: "embers:entropic_enumerator"
@@ -1371,6 +2437,20 @@
 		{
 			dependencies: ["2DAC7BC4C3748BAB"]
 			id: "22C9A44A4A53FDEF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "513A3FB567EEF8DA"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B84BF091D51A287"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "394CA8477201A834"
 				item: "embers:eldritch_insignia"
@@ -1382,6 +2462,20 @@
 		{
 			dependencies: ["2DAC7BC4C3748BAB"]
 			id: "7FFFA95BB498AA39"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0749D3A06D5A3DE7"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33A3E44385FF6F42"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "2530F57DF05C3605"
 				item: "embers:ember_crystal_cluster"
@@ -1393,6 +2487,20 @@
 		{
 			dependencies: ["2DAC7BC4C3748BAB"]
 			id: "2C54CAAC857C06F5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0AAAF86663815F12"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54EB6B7CDD23A0BC"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "4AD9212F4FACD374"
 				item: "embers:wildfire_core"
@@ -1404,6 +2512,20 @@
 		{
 			dependencies: ["2DAC7BC4C3748BAB"]
 			id: "324499152ED7064B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "373C237103525499"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28796DD56EB91F36"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "6FDB2976317DC1D5"
 				item: "embers:focal_lens"
@@ -1415,6 +2537,20 @@
 		{
 			dependencies: ["2DAC7BC4C3748BAB"]
 			id: "65AEC2194BFB5AE1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1ADDEA9BB0C6C9BD"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02F93F301CD2F9AD"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "22C18098AA64B4B7"
 				item: "embers:intelligent_apparatus"
@@ -1432,6 +2568,20 @@
 				"22C9A44A4A53FDEF"
 			]
 			id: "108A47EFD8C56D50"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "39708E5BB2B975D4"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42530D99BE6942F3"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "11AE3EDE53C1A72A"
@@ -1445,6 +2595,20 @@
 			dependencies: ["75D3453813C3D864"]
 			hide_until_deps_complete: true
 			id: "30AA3E6FA68BD0E4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1415BE2967F5B15E"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E67A2AEC62D576D"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "251131D1B47F6258"
 				item: "forestry:fabricator"
@@ -1457,6 +2621,20 @@
 			dependencies: ["30AA3E6FA68BD0E4"]
 			hide_until_deps_complete: true
 			id: "2CC80B91226D32D8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "316DAB22040216CF"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F4CA8C82B4C52C1"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "0DC88D59C4FA0BAC"
 				item: "forestry:electron_tube_emerald"
@@ -1468,6 +2646,20 @@
 		{
 			dependencies: ["2CC80B91226D32D8"]
 			id: "1F44A0D9642818A3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "60BBC9AC4F4FEF6B"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22C33FD0EE5B9D4C"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "11987B0770475DF1"
 				item: "forestry:carpenter"
@@ -1482,6 +2674,20 @@
 				"1F44A0D9642818A3"
 			]
 			id: "0CD32B183E0EB737"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5BC08B2921D0CEE7"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69AF7CF250D58375"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "5F554EB17EB6E768"
 				item: "forestry:squeezer"
@@ -1496,6 +2702,20 @@
 				"1F44A0D9642818A3"
 			]
 			id: "190156120C35C307"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6DE05E1F556D1A5B"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C51AC9E81FEF00A"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "2E6354B02E4E953E"
 				item: "forestry:impregnated_casing"
@@ -1508,6 +2728,20 @@
 			dependencies: ["190156120C35C307"]
 			hide_until_deps_complete: true
 			id: "5B49207DB1745F48"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5AE169A4A3F4704A"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39E1E7021ECDF837"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "27051D420A5AD98B"
 				item: "forestry:apiary"
@@ -1520,6 +2754,20 @@
 			dependencies: ["190156120C35C307"]
 			hide_until_deps_complete: true
 			id: "0DE1A81C60B0E94F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C74D4B4F872063A"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "158A109D078BCF20"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "19D0AF0ACB58D0BB"
 				item: "forestry:hardened_machine"
@@ -1531,6 +2779,20 @@
 		{
 			dependencies: ["0DE1A81C60B0E94F"]
 			id: "0DD457F8A8115830"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1893D158DB277E50"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69C9833C3F3285E8"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "44C3336462048107"
@@ -1543,6 +2805,20 @@
 		{
 			dependencies: ["0DD457F8A8115830"]
 			id: "1987631DF754DD47"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6AAD697503672401"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "130BBB45818FA502"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "植树节"
 			tasks: [{
 				id: "1A0FCD9AD833517E"
@@ -1555,6 +2831,20 @@
 		{
 			dependencies: ["0DD457F8A8115830"]
 			id: "017B10AF9109757A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6FB8883C7E57C805"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "722BDDF1DE63F45B"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "49316FC72E6457C7"
 				item: "gendustry:mutatron"
@@ -1567,6 +2857,20 @@
 			dependencies: ["75D3453813C3D864"]
 			hide_until_deps_complete: true
 			id: "653E109D8A0211C5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5327473DC5D3C9E2"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45E67B2C98EF77AE"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "021F885F99B93F20"
 				item: "gendustry:mutagen_producer"
@@ -1579,13 +2883,27 @@
 			dependencies: ["1015271507258F9F"]
 			hide_until_deps_visible: true
 			id: "1BF6E41A58130834"
-			rewards: [{
-				command: "/eot_give_anchor_shard @p 1"
-				icon: "kubejs:anchor_shard"
-				id: "4266A0CC2B6B570D"
-				title: "锚定"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/eot_give_anchor_shard @p 1"
+					icon: "kubejs:anchor_shard"
+					id: "4266A0CC2B6B570D"
+					title: "锚定"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55823D13FC1DEFF3"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "361F86242E1B633F"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
@@ -1609,6 +2927,20 @@
 			icon: "kubejs:anchor_shard"
 			id: "1015271507258F9F"
 			invisible: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3116E9E8CCD17E03"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C321137C0811C81"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "6E3BDDBB2485A98E"
 				type: "checkmark"
@@ -1622,6 +2954,20 @@
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "4FC239C7B541E7EB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "261A1F99DCA014D9"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22FD361A376BBD8D"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "diamond"
 			size: 1.0d
 			tasks: [{
@@ -1639,6 +2985,20 @@
 			]
 			hide_until_deps_complete: true
 			id: "5538E5B5CCD6ABC5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DAFA13CAF65B2D6"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E2D6FC3DAE98225"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "0128F3A2DEB9D75D"
 				item: "gendustry:industrial_apiary"
@@ -1652,6 +3012,20 @@
 			hide_until_deps_complete: true
 			icon: "tfc:powder/graphite"
 			id: "112E1C2783C3701F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2ECA11A5CDA35DFE"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38F7286C318DD1AE"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "6DFA2BC9B4C4903F"
 				item: {
@@ -1671,6 +3045,20 @@
 		{
 			dependencies: ["112E1C2783C3701F"]
 			id: "2D5825E77A80574A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "704A6DA609FA9DEF"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6BB53CFCF8913C39"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "6C60D8CE59BAF5C2"
 				item: "nuclearcraft:plate_basic"
@@ -1682,6 +3070,20 @@
 		{
 			dependencies: ["2D5825E77A80574A"]
 			id: "04F50F5D5B07BD96"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "566C3DEF16E062B0"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49EA4132682401FE"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "核工业·合金"
 			tasks: [{
 				id: "2499FA2894FA2AA1"
@@ -1694,6 +3096,20 @@
 		{
 			dependencies: ["112E1C2783C3701F"]
 			id: "4224C0E68AD86B9A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4AAA3BFED73D5D8C"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49E4DD752A634ABD"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "397062D821262DDD"
 				item: "nuclearcraft:light"
@@ -1705,6 +3121,20 @@
 		{
 			dependencies: ["04F50F5D5B07BD96"]
 			id: "3BDED4ABB0ACD352"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "10FAAB50462E122A"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64B21EE973D5067D"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "2C7E9135875B1924"
 				item: "nuclearcraft:ferroboron_ingot"
@@ -1716,6 +3146,20 @@
 		{
 			dependencies: ["3BDED4ABB0ACD352"]
 			id: "53C99D10A58AE872"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7CE75ECEAE9377E2"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "726EFBB2D21880AA"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "29C85BD133B89D6B"
 				item: "nuclearcraft:tough_alloy_ingot"
@@ -1730,6 +3174,20 @@
 				"3BDED4ABB0ACD352"
 			]
 			id: "315D82110345C88A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "26E6BB43E6FA2889"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CB1D913BD38E49C"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "3ADACF6192F0AA3B"
 				item: "nuclearcraft:medium"
@@ -1742,6 +3200,20 @@
 			dependencies: ["53C99D10A58AE872"]
 			hide_until_deps_complete: true
 			id: "05F6CF04E6993798"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0A78344FC41CBCD0"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63EB2F78E5C141D8"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "77BA8A66DFA4C9A5"
 				item: "nuclearcraft:plate_advanced"
@@ -1753,6 +3225,20 @@
 		{
 			dependencies: ["05F6CF04E6993798"]
 			id: "40313B43337979C4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "31182C3F020B89D0"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "669A75D2BEEE7443"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "15D75F957A2CEFFE"
 				item: "nuclearcraft:rock_crusher"
@@ -1765,6 +3251,20 @@
 			dependencies: ["53C99D10A58AE872"]
 			hide_until_deps_complete: true
 			id: "2200827055EC09BC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A0290E9A966C77F"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6952BCFFA6A4C4F2"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "508C8688638CBAA1"
 				item: "nuclearcraft:assembler"
@@ -1782,11 +3282,25 @@
 			hide_until_deps_complete: true
 			icon: "nuclearcraft:fission_reactor_controller"
 			id: "10674A5108E68128"
-			rewards: [{
-				id: "4F5DC55D475F483D"
-				item: "nuclearcraft:fission_reactor_port"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4F5DC55D475F483D"
+					item: "nuclearcraft:fission_reactor_port"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D9FA0E39B586F8E"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2636B94E538C87A1"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [
 				{
 					id: "6A5E129A0E22B617"
@@ -1824,6 +3338,20 @@
 			dependencies: ["53C99D10A58AE872"]
 			hide_until_deps_complete: true
 			id: "3B0E2D2F4527734E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "347F2B0DF5F66ADB"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14AE794B3498B8CE"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "366EB73C22DB3C93"
 				item: "nuclearcraft:isotope_separator"
@@ -1835,6 +3363,20 @@
 		{
 			dependencies: ["10674A5108E68128"]
 			id: "34F20E761F63106F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "79E5A9ABE485EA3B"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6597CC92B2CF7CF2"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "0C21F3C1D9E07E53"
 				item: "nuclearcraft:caesium_137_dust"
@@ -1848,6 +3390,20 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "58BF090163D9C1FE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5486BF53A2D2C6C2"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7493757D028ABB6C"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "0FC782B6C5AB0F7E"
 				item: "nuclearcraft:decay_hastener"
@@ -1863,6 +3419,20 @@
 			]
 			hide_until_deps_complete: true
 			id: "40C8702A22BC4753"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0B331610B7A0B703"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6861FBED405FEC80"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "0DA8038EDF3D7052"
@@ -1877,6 +3447,20 @@
 			hide_until_deps_complete: true
 			icon: "jaopca:gears.iesnium"
 			id: "18D57E244F38864A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "74CB5B38AC53B296"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FC95E6F7277D6B6"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [
 				{
 					id: "634DB80E6985D94E"
@@ -1896,6 +3480,20 @@
 		{
 			dependencies: ["18D57E244F38864A"]
 			id: "7EB2742477FBE228"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "00E647A42BB035C5"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CCF020536D0EBDF"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "6A9B65D41178E5B8"
 				item: "kubejs:spirit_coil"
@@ -1909,6 +3507,20 @@
 			description: [""]
 			hide_until_deps_complete: true
 			id: "07F0B0B3E2151A4E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3F0BF7AF0AF28FBE"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "196A9D0F4A80FC08"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			subtitle: "新起源"
 			tasks: [{
 				id: "7FD930CD7EC726D5"
@@ -1921,6 +3533,20 @@
 		{
 			dependencies: ["07F0B0B3E2151A4E"]
 			id: "78FD5718DB38CE95"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "764690ACFC2C261D"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D9059355C7EB903"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "33D2CA2D8660AFF4"
 				item: "kubejs:beta_dust"
@@ -1933,6 +3559,20 @@
 			dependencies: ["616316599E6D02CD"]
 			hide_until_deps_complete: true
 			id: "48EE0838CACFA7EB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "527067A2D0783A21"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F74A3C4C87C3522"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "522D51FA3E537C6F"
 				item: "jaopca:circuits.iesnium"
@@ -1944,6 +3584,20 @@
 		{
 			dependencies: ["48EE0838CACFA7EB"]
 			id: "420411972F85DD79"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5264E63941EDEF07"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "220860224393CA11"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "6858ED9FB30EFFB5"
@@ -1957,6 +3611,20 @@
 			dependencies: ["78FD5718DB38CE95"]
 			icon: "thermal:device_tree_extractor"
 			id: "616316599E6D02CD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "022B642247889778"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "742A5939FD57902B"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [
 				{
 					id: "132E51EFBF367A0E"
@@ -1976,6 +3644,20 @@
 		{
 			dependencies: ["7656BA76426F0012"]
 			id: "57339873A9D6D773"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "12C7AA125FA5B04A"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "619CE3E1585817A2"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "543B96EDEACDB6B2"
 				item: "integrateddynamics:crystalized_menril_chunk"
@@ -1988,6 +3670,20 @@
 			dependencies: ["57339873A9D6D773"]
 			hide_until_deps_complete: true
 			id: "3335051E70C9DE49"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3FA4684FC5B2AFD7"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56DF9B88090C5FFF"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "4FFF0D54E8C47ED5"
 				item: "integrateddynamics:cable"
@@ -1999,6 +3695,20 @@
 		{
 			dependencies: ["3335051E70C9DE49"]
 			id: "73923B9574D48091"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1933BD530D347306"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FB3DA47E6A28F05"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "206FAC235DD9C034"
 				item: "integratedtunnels:part_interface_item"
@@ -2010,6 +3720,20 @@
 		{
 			dependencies: ["3335051E70C9DE49"]
 			id: "2B0F4C55D3D244E5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40EAC72658657AED"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40BCA1D14821A90C"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "4FF7B3B04FF830CB"
 				item: "integratedtunnels:part_interface_fluid"
@@ -2021,6 +3745,20 @@
 		{
 			dependencies: ["3335051E70C9DE49"]
 			id: "3200612D1C914C11"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "65059D75C42CC1A2"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4828DD087F232F43"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "58E9507F65702008"
 				item: "integratedtunnels:part_interface_energy"
@@ -2037,6 +3775,20 @@
 			]
 			hide_until_deps_complete: true
 			id: "7091A9ADB8F3C993"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F7B75A81E874CB7"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FB0939148FB7B15"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "none"
 			size: 2.0d
 			tasks: [{
@@ -2056,6 +3808,20 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "4401D7A4DA005603"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4FE28748D4D5C695"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0340C6504F995F36"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "06458F7C4F80178C"
 				item: "ad_astra:desh_engine"
@@ -2069,6 +3835,20 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "6BD75CBEF19F5C43"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "02D120AB6F9C8252"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "047539EC11F5A97C"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "47323E2B592CB681"
 				item: "ad_astra:desh_tank"
@@ -2080,6 +3860,20 @@
 		{
 			dependencies: ["3335051E70C9DE49"]
 			id: "21E74AB3B080243B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F1ACE6805337D25"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E64401A4E292281"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "1A939872B96C0B4F"
 				item: "integratedterminals:part_terminal_storage"
@@ -2093,6 +3887,20 @@
 			description: ["这是一片深海，仅此而已。"]
 			icon: "minecraft:heart_of_the_sea"
 			id: "461789D34954EE6C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "382BDBA4F461DCF0"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "526C1964D83FEC94"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				dimension: "oceanworld:deepsea"
@@ -2121,6 +3929,18 @@
 					id: "7B078BA6384589D5"
 					item: "wormhole:basic_target_cell"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "318C6380B2C17FAF"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EB4049915F9E1D3"
+					table_id: 3367058103404351917L
+					type: "random"
 				}
 			]
 			subtitle: "空间折越"

@@ -1,0 +1,14 @@
+{
+	icon: "thermal:enderium_coin"
+	id: "354C2AB27B92F3CA"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ item: "thermal:enderium_coin" }
+		{ count: 2, item: "thermal:enderium_coin" }
+		{ count: 3, item: "thermal:enderium_coin" }
+		{ count: 4, item: "thermal:enderium_coin" }
+		{ count: 5, item: "thermal:enderium_coin" }
+	]
+	title: "随机钱币2"
+}

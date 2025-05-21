@@ -19,7 +19,7 @@ global.renderGuiEvent = function (event) {
 
     let rainFall = climateCache.getRainfall()
     let avgTemp = climateCache.getAverageTemperature()
-    let currentTemp  = climateCache.getTemperature()
+    let currentTemp = climateCache.getTemperature()
 
     let climateEnum = $ClimateClassification.classify(avgTemp, rainFall)
     let climateText = ("tfc.enum." + climateEnum.getDeclaringClass().getSimpleName() + "." + climateEnum.name()).toLowerCase()
@@ -37,48 +37,51 @@ global.renderGuiEvent = function (event) {
                 getColorWithRGBA(128, 255, 255, 100),
                 false
             )
-            guiGraphics["drawString(net.minecraft.client.gui.Font,java.lang.String,float,float,int,boolean)"](
-                Client.font,
-                Text.translate("tfc.tooltip.calendar_date", calendarsClient.getCalendarTimeAndDate().getString()).getString(),
-                0, 12,
-                getColorWithRGBA(55, 255, 155, 100),
-                false
-            )
-            guiGraphics["drawString(net.minecraft.client.gui.Font,java.lang.String,float,float,int,boolean)"](
-                Client.font,
-                Text.translate("ui.kubejs.current_dimension", Client.player.level.dimension.location()).getString(),
-                0, 24,
-                getColorWithRGBA(55, 255, 155, 100),
-                false
-            )
-            guiGraphics["drawString(net.minecraft.client.gui.Font,java.lang.String,float,float,int,boolean)"](
-                Client.font,
-                Text.translate("tfc.tooltip.climate_koppen_climate_classification", Text.translatable(climateText)).getString(),
-                0, 36,
-                getColorWithRGBA(55, 255, 155, 100),
-                false
-            )
-            guiGraphics["drawString(net.minecraft.client.gui.Font,java.lang.String,float,float,int,boolean)"](
-                Client.font,
-                Text.translate("tfc.tooltip.climate_annual_rainfall", rainFall.toFixed(1)).getString(),
-                4, 48,
-                getColorWithRGBA(55, 255, 155, 100),
-                false
-            )
-            guiGraphics["drawString(net.minecraft.client.gui.Font,java.lang.String,float,float,int,boolean)"](
-                Client.font,
-                Text.translate("tfc.tooltip.climate_average_temperature", avgTemp.toFixed(1)).getString(),
-                4, 60,
-                getColorWithRGBA(55, 255, 155, 100),
-                false
-            )
-            guiGraphics["drawString(net.minecraft.client.gui.Font,java.lang.String,float,float,int,boolean)"](
-                Client.font,
-                Text.translate("tfc.tooltip.climate_current_temp", currentTemp.toFixed(1)).getString(),
-                4, 72,
-                getColorWithRGBA(55, 255, 155, 100),
-                false
-            )
+            // 开关信息显示
+            if (true) {
+                guiGraphics["drawString(net.minecraft.client.gui.Font,java.lang.String,float,float,int,boolean)"](
+                    Client.font,
+                    Text.translate("tfc.tooltip.calendar_date", calendarsClient.getCalendarTimeAndDate().getString()).getString(),
+                    0, 12,
+                    getColorWithRGBA(55, 255, 155, 100),
+                    false
+                )
+                guiGraphics["drawString(net.minecraft.client.gui.Font,java.lang.String,float,float,int,boolean)"](
+                    Client.font,
+                    Text.translate("ui.kubejs.current_dimension", Client.player.level.dimension.location()).getString(),
+                    0, 24,
+                    getColorWithRGBA(55, 255, 155, 100),
+                    false
+                )
+                guiGraphics["drawString(net.minecraft.client.gui.Font,java.lang.String,float,float,int,boolean)"](
+                    Client.font,
+                    Text.translate("tfc.tooltip.climate_koppen_climate_classification", Text.translatable(climateText)).getString(),
+                    0, 36,
+                    getColorWithRGBA(55, 255, 155, 100),
+                    false
+                )
+                guiGraphics["drawString(net.minecraft.client.gui.Font,java.lang.String,float,float,int,boolean)"](
+                    Client.font,
+                    Text.translate("tfc.tooltip.climate_annual_rainfall", rainFall.toFixed(1)).getString(),
+                    4, 48,
+                    getColorWithRGBA(55, 255, 155, 100),
+                    false
+                )
+                guiGraphics["drawString(net.minecraft.client.gui.Font,java.lang.String,float,float,int,boolean)"](
+                    Client.font,
+                    Text.translate("tfc.tooltip.climate_average_temperature", avgTemp.toFixed(1)).getString(),
+                    4, 60,
+                    getColorWithRGBA(55, 255, 155, 100),
+                    false
+                )
+                guiGraphics["drawString(net.minecraft.client.gui.Font,java.lang.String,float,float,int,boolean)"](
+                    Client.font,
+                    Text.translate("tfc.tooltip.climate_current_temp", currentTemp.toFixed(1)).getString(),
+                    4, 72,
+                    getColorWithRGBA(55, 255, 155, 100),
+                    false
+                )
+            }
 
         }
         poseStack.popPose()

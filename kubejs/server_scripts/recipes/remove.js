@@ -71,7 +71,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'embers:alchemy_tablet' })
 
     event.remove({ id: 'integratedterminals:crafting/part_terminal_storage' })
-    event.remove({ id: 'rftoolsbuilder:builder' })
+    // event.remove({ id: 'rftoolsbuilder:builder' })
 
     event.remove({ id: 'compactmachines:wall' })
     event.remove({ id: 'oceanworld:sea_key' })
@@ -201,6 +201,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'mekanism:electrolytic_separator' })
     event.remove({ id: 'mekanism:configurator' })
     event.remove({ id: 'mekanism:transmitter/logistical_transporter/basic' })
+    event.remove({ id: 'techreborn:crafting_table/machine_block/advanced_machine_casing_alt' })
+    event.remove({ id: 'techreborn:crafting_table/machine_block/industrial_machine_casing_alt' })
 
     event.remove({ output: 'minecraft:furnace' })
     event.remove({ output: 'thermal:enderium_coin' })

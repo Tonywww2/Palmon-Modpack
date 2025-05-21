@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "8"
 	group: "292B2A0F4D1DF208"
+	icon: "avaritia:enhancement_core"
 	id: "6DC561AC425A46DF"
 	order_index: 2
 	quest_links: [ ]

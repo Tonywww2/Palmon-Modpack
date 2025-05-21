@@ -1,0 +1,14 @@
+{
+	icon: "thermal:signalum_coin"
+	id: "2EBA31816F8451AD"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ item: "thermal:signalum_coin" }
+		{ count: 2, item: "thermal:signalum_coin" }
+		{ count: 3, item: "thermal:signalum_coin" }
+		{ count: 4, item: "thermal:signalum_coin" }
+		{ count: 5, item: "thermal:signalum_coin" }
+	]
+	title: "随机钱币1"
+}

@@ -347,7 +347,7 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.armor",
                 "factory_armor",
-                0.4,
+                0.35,
                 "multiply_total"
             )
             .modifyAttribute(
@@ -697,13 +697,13 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.max_health",
                 "divergence_meter_max_health",
-                0.2,
+                0.15,
                 "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.attack_damage",
                 "divergence_meter_attack_damage",
-                0.2,
+                0.25,
                 "multiply_base"
             )
         )

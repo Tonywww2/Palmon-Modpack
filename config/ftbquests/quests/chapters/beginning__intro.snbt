@@ -31,6 +31,12 @@
 				"...在到达最终阶段后，还有最终的挑战等着你。"
 			]
 			id: "4C273D948C0B6562"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28D32EB272DBB95B"
+				table_id: 1141615569593449731L
+				type: "random"
+			}]
 			subtitle: "敬请期待"
 			tasks: [{
 				id: "2FCBBFDC3B8FFE0A"
@@ -59,6 +65,12 @@
 			icon: "kubejs:baby_proofing"
 			id: "2A2EA0EFAED27F0D"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7ABCA7B57BDE65F1"
+				table_id: 1141615569593449731L
+				type: "random"
+			}]
 			subtitle: "我受不了群峦了！我不想发展乱七八糟的魔法与科技了！"
 			tasks: [{
 				id: "33FED3FEFA5C3962"
@@ -160,6 +172,12 @@
 				}
 			}
 			id: "6E78B710555C3AC5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19BC753FB208115A"
+				table_id: 1141615569593449731L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5324383315F9819B"
 				type: "checkmark"
@@ -167,6 +185,24 @@
 			title: "护甲 \\& 伤害机制 | Armor \\& Damage Changes"
 			x: 0.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["4C273D948C0B6562"]
+			description: ["如果同行的宝可梦列表挡住了左上角的额外信息，可以按默认[P]键开关同行的宝可梦列表。"]
+			id: "7EB1D42798F4C0A8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2552CA5F305F4DCC"
+				table_id: 1141615569593449731L
+				type: "random"
+			}]
+			tasks: [{
+				id: "20AE890BD515CBC6"
+				type: "checkmark"
+			}]
+			title: "额外信息显示"
+			x: 2.0d
+			y: 0.0d
 		}
 	]
 	title: "开始 \\& 介绍 | Beginning \\& Intro."
