@@ -15,8 +15,6 @@ A heavily modified Minecraft modpack, built on `1.20.1`
 ### 🦄 核心玩法 | Gameplay  
 - 匠魂与多阶段任务系统  
 - TConstruct & multi-stage quest system  
-
-### 🛠️ 技术支持 | Technical   
 - 兼容主流光影与多人联机  （服务端在做了）
 - Compatible with shaders & multiplayer  
 
