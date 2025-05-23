@@ -117,6 +117,54 @@ ServerEvents.recipes(event => {
         E: 'kubejs:delta_framework'
     }).id('kubejs:scranton_reality_anchor_s4')
 
+    event.recipes.createCompacting('2x dustandash:netherite_mud', [
+        'ad_astra:ostrum_ingot',
+        'minecraft:netherite_scrap',
+        '2x minecraft:soul_sand',
+        'minecraft:mud',
+        '2x create:cinder_flour'
+    ]).id('kubejs:netherite_mud_s4').superheated()
+
+    event.custom({
+        "type": "dustandash:centrifuge",
+        "tick": 400,
+        "ingredients": [
+            {
+                "item": "dustandash:netherite_mud"
+            },
+            {
+                "item": "dustandash:water_miscible_solvents"
+            }
+        ],
+        "outputs": [
+            {
+                "item": "dustandash:empty"
+            },
+            {
+                "item": "dustandash:empty"
+            },
+            {
+                "item": "dustandash:empty"
+            },
+            {
+                "item": "minecraft:ancient_debris"
+            },
+
+            {
+                "item": "minecraft:bone_meal"
+            },
+            {
+                "item": "dustandash:empty"
+            },
+            {
+                "item": "minecraft:dirt"
+            },
+            {
+                "item": "dustandash:empty"
+            }
+        ]
+    }).id('kubejs:ancient_debris_s4')
+
     event.custom({
         "type": "industrialforegoing:dissolution_chamber",
         "input": [

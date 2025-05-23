@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
     event.shaped('mekanism:electrolytic_separator', [
         'IHI',
         'ARA',
-        'IXI'
+        'ISI'
     ], {
         I: '#forge:ingots/iron',
         R: '#forge:dusts/redstone',

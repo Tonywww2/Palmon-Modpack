@@ -183,12 +183,13 @@
 				type: "checkmark"
 			}]
 			title: "护甲 \\& 伤害机制 | Armor \\& Damage Changes"
-			x: 0.0d
+			x: -2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["4C273D948C0B6562"]
 			description: ["如果同行的宝可梦列表挡住了左上角的额外信息，可以按默认[P]键开关同行的宝可梦列表。"]
+			icon: "ad_astra:ti_69"
 			id: "7EB1D42798F4C0A8"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -202,6 +203,35 @@
 			}]
 			title: "额外信息显示"
 			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C273D948C0B6562"]
+			description: [
+				"你可以使用拔刀剑战斗！"
+				""
+				"不过你需要先领悟&e剑之魂&r，你可以在第一章或者第三章找到它。"
+				""
+				"除此之外，你还可以使用STA（连携攻击）。"
+				""
+				"大多数的武器都可以在使用拔刀剑时放置于副手，他们在拔刀剑的攻击命中后会追加一次攻击，并附带大多数的攻击特效。"
+				""
+				"STA的伤害由副手武器的攻击力决定，冷却时间由副手武器的攻速决定。"
+			]
+			id: "5708F12B8DE5E84A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65B578919E78AEBA"
+				table_id: 1141615569593449731L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4D003DB9BAA04C9E"
+				item: "slashblade:proudsoul"
+				type: "item"
+			}]
+			title: "拔刀剑 | Slash Blade"
+			x: -2.0d
 			y: 0.0d
 		}
 	]

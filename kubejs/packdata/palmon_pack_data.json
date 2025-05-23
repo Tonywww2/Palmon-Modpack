@@ -1,5 +1,5 @@
 {
-	"last_seed": "8155165817742480364L",
+	"last_seed": "3072534414964642928L",
 	"learned_buffs": [
 		"init",
 		"thermal_1",
@@ -36,125 +36,11 @@
 		"relics_1",
 		"relics_3",
 		"relics_4",
-		"relics_2"
+		"relics_2",
+		"dungeon_1"
 	],
 	"all_seed_data": {
-		"0": [],
-		"-3632013058800928433L": [
-			"thermal_1",
-			"thermal_2",
-			"init"
-		],
-		"8432630033839861281L": [
-			"tank_1",
-			"sheild_1",
-			"tank_sp",
-			"thermal_1",
-			"thermal_2",
-			"init"
-		],
-		"-1232017846148358650L": [
-			"tank_1",
-			"sheild_1",
-			"tank_sp",
-			"thermal_1",
-			"thermal_2",
-			"mek_1",
-			"init"
-		],
-		"-7618110851619488406L": [
-			"tank_1",
-			"sheild_1",
-			"tank_sp",
-			"thermal_1",
-			"thermal_2",
-			"mek_1",
-			"fuel_1",
-			"init"
-		],
-		"-573918299619341120L": [
-			"tank_1",
-			"sheild_1",
-			"tank_sp",
-			"thermal_1",
-			"thermal_2",
-			"mek_1",
-			"fuel_1",
-			"init",
-			"poke_2",
-			"poke_3"
-		],
-		"-1952665198741081449L": [
-			"tank_1",
-			"sheild_1",
-			"tank_sp",
-			"poke_2",
-			"thermal_1",
-			"thermal_2",
-			"mek_1",
-			"fuel_1",
-			"init"
-		],
-		"1504858443770471004L": [
-			"tank_1",
-			"sheild_1",
-			"tank_sp",
-			"poke_1",
-			"poke_2",
-			"poke_3",
-			"thermal_1",
-			"thermal_2",
-			"mek_1",
-			"fuel_1",
-			"init"
-		],
-		"-4186431977344831705L": [
-			"tank_1",
-			"sheild_1",
-			"tank_sp",
-			"poke_1",
-			"poke_2",
-			"poke_3",
-			"thermal_1",
-			"thermal_2",
-			"mek_1",
-			"fuel_1",
-			"fuel_2",
-			"init"
-		],
-		"6145137551234248460L": [
-			"miner_1",
-			"miner_2",
-			"miner_3",
-			"fighter_1",
-			"fighter_2",
-			"fighter_3",
-			"assassin_1",
-			"assassin_2",
-			"fighter_4",
-			"fighter_5",
-			"tank_1",
-			"tank_2",
-			"sheild_1",
-			"sheild_2",
-			"tank_sp",
-			"tank_3",
-			"tank_4",
-			"speed_1",
-			"speed_2",
-			"flight_1",
-			"poke_1",
-			"poke_2",
-			"poke_3",
-			"thermal_1",
-			"thermal_2",
-			"mek_1",
-			"fuel_1",
-			"fuel_2",
-			"init",
-			"true_ending"
-		],
-		"5999321770439083925L": [
+		"5766157963755454875L": [
 			"miner_1",
 			"miner_2",
 			"miner_3",
@@ -185,10 +71,14 @@
 			"fuel_2",
 			"special_1",
 			"special_2",
+			"relics_1",
+			"relics_2",
+			"relics_3",
+			"relics_4",
 			"init",
 			"true_ending"
 		],
-		"8155165817742480364L": [
+		"3072534414964642928L": [
 			"miner_1",
 			"miner_2",
 			"miner_3",
@@ -219,22 +109,12 @@
 			"fuel_2",
 			"special_1",
 			"special_2",
+			"relics_1",
+			"relics_2",
+			"relics_3",
+			"relics_4",
 			"init",
 			"true_ending"
 		]
-	},
-	"delivery_coordinate_gamma": {
-		"item": "techreborn:nanosaber",
-		"count": 1,
-		"nbt": "{energy:1000000L,isActive:1b}"
-	},
-	"delivery_coordinate_epsilon": {
-		"item": "slashblade:slashblade",
-		"count": 1,
-		"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:power\",lvl:5s}],bladeState:{AttackAmplifier:0.0f,BladeUniqueId:[I;-268369508,818498787,-1103231126,1263979792],ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"slashblade_addon:model/kirisaya/kirisaya.obj\",RepairCounter:0,SpecialAttackType:\"slashblade:drive_horizontal\",SpecialEffects:[\"slashblade_addon:burst_drive\"],StandbyRenderType:4b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:0,TextureName:\"slashblade_addon:model/kirisaya/kirisaya.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:3.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:1b,isSealed:0b,killCount:0,lastActionTime:0L,maxDamage:11,proudSoul:0,translationKey:\"item.slashblade_addon.kirisaya\"}}"
-	},
-	"delivery_coordinate_ultimate": {
-		"item": "immersiveengineering:minecart_reinforcedcrate",
-		"count": 1
 	}
 }

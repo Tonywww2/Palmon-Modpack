@@ -267,6 +267,9 @@
     
     "kubejs.eot.true_ending_name": "[真正结局]",
     "kubejs.eot.true_ending_desc": "·初始携带 §e现世之魂§f\n·允许进入真正结局",
+        
+    "kubejs.eot.dungeon_1_name": "[壮丽征途]",
+    "kubejs.eot.dungeon_1_desc": "·初始携带 不毁的 铁胸甲\n·群峦星将会生成高强度地牢",
     
     "kubejs.eot.master_ending_name": "[专家结局]",
     "kubejs.eot.master_ending_desc": "·初始携带 §d斯克兰顿现实稳定锚§f\n·开启专家模式\n  ¤  部分配方将产生变化\n  ¤  敌对生物将更具有威胁\n  ¤  允许进行专家试炼",

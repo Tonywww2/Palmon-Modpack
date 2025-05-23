@@ -12,7 +12,7 @@ _version = 3
 			[client.advanced.graphics.quality]
 				#
 				# The radius of the mod's render distance. (measured in chunks)
-				lodChunkRenderDistanceRadius = 128
+				lodChunkRenderDistanceRadius = 96
 				#
 				# This indicates how quickly LODs decrease in quality the further away they are. 
 				# Higher settings will render higher quality fake chunks farther away, 
@@ -170,14 +170,14 @@ _version = 3
 				# 0.0: Fog starts at the player's position. 
 				# 1.0: Fog starts at the closest edge of the vanilla render distance. 
 				# 1.414: Fog starts at the corner of the vanilla render distance.
-				farFogStart = "0.4"
+				farFogStart = "1.1"
 				#
 				# Where should the far fog end? 
 				# 
 				# 0.0: Fog ends at player's position.
 				# 1.0: Fog ends at the closest edge of the vanilla render distance. 
 				# 1.414: Fog ends at the corner of the vanilla render distance.
-				farFogEnd = "1.0"
+				farFogEnd = "1.4"
 				#
 				# What is the minimum fog thickness? 
 				# 
@@ -189,7 +189,7 @@ _version = 3
 				# 
 				# 0.0: No fog. 
 				# 1.0: Fully opaque fog.
-				farFogMax = "1.0"
+				farFogMax = "0.75"
 				#
 				# How should the fog thickness should be calculated? 
 				# 
@@ -199,7 +199,7 @@ _version = 3
 				farFogFalloff = "EXPONENTIAL_SQUARED"
 				#
 				# Used in conjunction with the Fog Falloff.
-				farFogDensity = "2.5"
+				farFogDensity = "1.5"
 
 				[client.advanced.graphics.fog.heightFog]
 					#
@@ -684,7 +684,7 @@ _version = 3
 		#
 		# If enabled, the mod will log information about the world generation process. 
 		# This can be useful for debugging.
-		logWorldGenEvent = "LOG_ERROR_TO_CHAT_AND_INFO_TO_FILE"
+		logWorldGenEvent = "LOG_INFO_TO_CHAT"
 		#
 		# If enabled, the mod will log performance about the world generation process. 
 		# This can be useful for debugging.

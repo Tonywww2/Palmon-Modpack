@@ -1,5 +1,5 @@
 {
-	autofocus_id: "59F7E85B2FDEDA8B"
+	autofocus_id: "6DC36BE0755135AC"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "7"
@@ -8,16 +8,235 @@
 	id: "26F19BA2AA693BBC"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["2C8F6D440E89C247"]
-		id: "59F7E85B2FDEDA8B"
-		tasks: [{
-			id: "4F294FB05B87E8E5"
-			item: "kubejs:gamma_dust"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: [
+				"68DDA2E17D948703"
+				"575F79DEE4162818"
+			]
+			id: "59F7E85B2FDEDA8B"
+			tasks: [{
+				id: "4F294FB05B87E8E5"
+				item: "kubejs:gamma_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2C8F6D440E89C247"]
+			id: "473715741A52B7B5"
+			shape: "hexagon"
+			tasks: [{
+				id: "64F747E2CE939392"
+				item: "avaritia:sculk_crafting_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["473715741A52B7B5"]
+			id: "177D626FACF3B787"
+			shape: "hexagon"
+			tasks: [{
+				id: "3810BC29D6DF5861"
+				item: "avaritia:nether_crafting_table"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["177D626FACF3B787"]
+			id: "2200A949C365431B"
+			tasks: [{
+				id: "1345CDD5DDB8E16F"
+				item: "avaritia:end_crafting_table"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2200A949C365431B"]
+			id: "4BE9AD9B18D942E2"
+			shape: "hexagon"
+			tasks: [{
+				id: "465C20815C28B44A"
+				item: "avaritia:extreme_crafting_table"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["473715741A52B7B5"]
+			id: "68DDA2E17D948703"
+			tasks: [{
+				id: "14E2E886A6EED911"
+				item: "techreborn:fusion_coil"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"177D626FACF3B787"
+				"68DDA2E17D948703"
+			]
+			id: "575F79DEE4162818"
+			tasks: [{
+				id: "54CA1C8E1E8BAE72"
+				item: "techreborn:fusion_control_computer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2200A949C365431B"
+				"575F79DEE4162818"
+			]
+			id: "4845A3C2AB53B2C4"
+			tasks: [{
+				id: "765A219F1B4AC3AA"
+				item: "packagedauto:package_component"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4845A3C2AB53B2C4"
+				"575F79DEE4162818"
+			]
+			id: "2D72B68EA7568EF2"
+			tasks: [{
+				id: "275E2B17222C7340"
+				item: "packagedauto:me_package_component"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"575F79DEE4162818"
+				"59F7E85B2FDEDA8B"
+			]
+			id: "0F543650AF297B4D"
+			tasks: [{
+				id: "39F06C45456D9C81"
+				item: "mekanism_extras:dust_radiance"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0F543650AF297B4D"]
+			id: "0AD9D8752768B842"
+			tasks: [{
+				id: "1E2F270A2CF1EAB8"
+				item: "mekanism_extras:alloy_radiance"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0AD9D8752768B842"]
+			id: "36A16BE3126DCB89"
+			tasks: [{
+				id: "507799DE867A9351"
+				item: "mekanism_extras:alloy_thermonuclear"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36A16BE3126DCB89"]
+			id: "11EC5F69F241EBF3"
+			tasks: [{
+				id: "5BDC4F239002618F"
+				item: "mekanism_extras:alloy_shining"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"11EC5F69F241EBF3"
+				"16F6006C886E29AB"
+			]
+			id: "5B9D28343D5571D2"
+			tasks: [{
+				id: "3866641078D5A7BC"
+				item: "mekanism_extras:enriched_spectrum"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["473715741A52B7B5"]
+			icon: "avaritia:infinity_catalyst"
+			id: "6DC36BE0755135AC"
+			shape: "none"
+			subtitle: "做好准备吧"
+			tasks: [{
+				id: "4E9FF3386258E5B2"
+				type: "checkmark"
+			}]
+			title: "挑战的开始"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B9D28343D5571D2"]
+			id: "08FA563D359C456E"
+			tasks: [{
+				id: "3F0FB71E8C1BB007"
+				item: "mekanism_extras:alloy_spectrum"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"4BE9AD9B18D942E2"
+				"4845A3C2AB53B2C4"
+			]
+			id: "16F6006C886E29AB"
+			tasks: [{
+				id: "6891A79DDD43E1A0"
+				item: "avaritia:neutron_compressor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"4845A3C2AB53B2C4"
+				"16F6006C886E29AB"
+			]
+			id: "595CEDC6ED211041"
+			tasks: [{
+				id: "21F3CCC2DBB9C8B0"
+				item: "packagedavaritia:extreme_crafter"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+	]
 	title: "7. 句点 。| Full Stop."
 }

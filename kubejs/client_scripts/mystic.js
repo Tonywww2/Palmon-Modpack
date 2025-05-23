@@ -26,7 +26,7 @@ global.renderGuiEvent = function (event) {
 
     poseStack.pushPose()
     {
-        poseStack.translate(24, 32, 0)
+        poseStack.translate(22, 28, 0)
         poseStack.pushPose()
         {
             poseStack.translate(-15, -10, 0)
