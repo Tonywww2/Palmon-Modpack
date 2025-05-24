@@ -1655,6 +1655,7 @@
 					type: "random"
 				}
 			]
+			shape: "hexagon"
 			tasks: [{
 				id: "0F21341643339AFB"
 				type: "checkmark"
@@ -1724,6 +1725,7 @@
 					type: "random"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					consume_items: true
@@ -1916,6 +1918,7 @@
 					type: "random"
 				}
 			]
+			shape: "diamond"
 			tasks: [{
 				consume_items: true
 				count: 64L
@@ -1926,6 +1929,22 @@
 			title: "真·无限观测"
 			x: 40.0d
 			y: 10.0d
+		}
+		{
+			dependencies: ["3976DA1D6D6D3A45"]
+			icon: "avaritia:endest_pearl"
+			id: "5266C8EFE39F85D9"
+			invisible: true
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "6E66308803038429"
+				stage: "true_ending"
+				type: "gamestage"
+			}]
+			title: "开启终章"
+			x: 28.0d
+			y: 14.0d
 		}
 	]
 	title: "6. 超越彼方 | Beyond, and Beyond"

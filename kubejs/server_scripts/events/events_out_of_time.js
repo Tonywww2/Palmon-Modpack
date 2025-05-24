@@ -93,6 +93,8 @@ global.renderBuffs = function (player) {
 
     // 主体
     for (let id in global.all_buffs) {
+        if (id == "no_end") continue
+
         let buff = global.all_buffs[id];
         let unmet = buff.prerequisites.filter(req => !global.all_buffs[req]?.unlocked)
         let color = global.current_buffs.has(id) ?
@@ -584,7 +586,51 @@ registerBuff("init", 0, [], false, function (event) {
 registerBuff("true_ending", 3, ["init"], false, function (event) {
     event.player.give(Item.of('kubejs:present_soul'))
     event.player.stages.add('true_ending')
-}, empty)
+}, function (event) {
+    event.shaped('avaritia:sculk_crafting_table', [
+        'ABA',
+        'CDC',
+        'AEA'
+    ], {
+        A: 'minecraft:echo_shard',
+        B: 'minecraft:sculk_shrieker',
+        C: '#forge:circuits/ultimate',
+        D: 'avaritia:double_compressed_crafting_table',
+        E: 'kubejs:cognitio'
+    }).id('kubejs:sculk_crafting_table_s7')
+
+    event.recipes.avaritia.shaped_table(
+        1,
+        'techreborn:iridium_neutron_reflector',
+        [
+            'BAC',
+            'ADA',
+            'CAB'
+        ],
+        {
+        A: 'techreborn:thick_neutron_reflector',
+        B: '#forge:ingots/iridium',
+        C: '#forge:alloys/ultimate',
+        D: 'draconicevolution:wyvern_core'
+        }).id('kubejs:iridium_neutron_reflector_s7')
+
+    event.recipes.avaritia.shaped_table(
+        1,
+        'techreborn:fusion_coil',
+        [
+            'CSC',
+            'NAN',
+            'CRC'
+        ],
+        {
+            A: "techreborn:advanced_machine_casing",
+            R: "techreborn:iridium_neutron_reflector",
+            C: "techreborn:energy_flow_chip",
+            S: "techreborn:superconductor",
+            N: "techreborn:nichrome_heating_coil"
+        }).id('kubejs:fusion_coil_s7')
+
+})
 
 // 在tfc_wda中检测
 registerBuff("dungeon_1", 2, ["true_ending"], false, function (event) {
@@ -593,6 +639,10 @@ registerBuff("dungeon_1", 2, ["true_ending"], false, function (event) {
 
 registerBuff("master_ending", 3, ["true_ending"], false, function (event) {
     event.player.give(Item.of('kubejs:scranton_reality_anchor'))
+}, empty)
+
+registerBuff("no_end", 7, ["master_ending"], false, function (event) {
+
 }, empty)
 
 

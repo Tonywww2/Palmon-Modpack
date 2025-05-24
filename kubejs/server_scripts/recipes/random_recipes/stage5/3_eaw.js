@@ -12,7 +12,6 @@ function s5EAW(event) {
             C: 'kubejs:collapse_prediction'
         }).id('kubejs:forge_metal_former_s5')
 
-
     event.custom({
         "type": "embers:alchemy",
         "aspects": [

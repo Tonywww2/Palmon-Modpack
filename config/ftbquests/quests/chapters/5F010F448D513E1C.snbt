@@ -20,7 +20,7 @@
 			"即便是这样，多人游戏中解锁加成的速率也远高于单人模式，所以请根据自己的游玩期望自行调整锚之碎片的使用"
 		]
 		id: "0714A09D27EF360F"
-		secret: true
+		invisible: true
 		tasks: [{
 			id: "404908668F25FAF9"
 			item: "kubejs:anchor_shard"

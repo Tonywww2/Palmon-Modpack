@@ -71,7 +71,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'embers:alchemy_tablet' })
 
     event.remove({ id: 'integratedterminals:crafting/part_terminal_storage' })
-    // event.remove({ id: 'rftoolsbuilder:builder' })
 
     event.remove({ id: 'compactmachines:wall' })
     event.remove({ id: 'oceanworld:sea_key' })
@@ -116,6 +115,7 @@ ServerEvents.recipes(event => {
 
     event.remove({ output: 'jaopca:circuits.iesnium' })
     event.remove({ output: 'jaopca:processors.iesnium' })
+    event.remove({ output: 'techreborn:mixed_metal_ingot' })
 
     event.remove({ output: 'nuclearcraft:plate_basic' })
     event.remove({ id: 'nuclearcraft:manufactory' })
@@ -203,6 +203,11 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'mekanism:transmitter/logistical_transporter/basic' })
     event.remove({ id: 'techreborn:crafting_table/machine_block/advanced_machine_casing_alt' })
     event.remove({ id: 'techreborn:crafting_table/machine_block/industrial_machine_casing_alt' })
+
+    // s7
+    event.remove({ id: 'avaritia:sculk_crafting_table' })
+    event.remove({ id: 'techreborn:crafting_table/parts/iridium_neutron_reflector' })
+    event.remove({ id: 'techreborn:crafting_table/machine/fusion_coil' })
 
     event.remove({ output: 'minecraft:furnace' })
     event.remove({ output: 'thermal:enderium_coin' })

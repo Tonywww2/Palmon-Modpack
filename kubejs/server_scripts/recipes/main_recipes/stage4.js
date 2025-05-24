@@ -110,7 +110,7 @@ ServerEvents.recipes(event => {
         'A BCB A',
         ' AAAAA '
     ], {
-        A: '#ad_astra:calorite_plates',
+        A: 'nuclearcraft:plate_elite',
         B: '#forge:storage_blocks/draconium',
         C: 'kubejs:essence_computation_frame',
         D: 'mythicbotany:alfsteel_ingot',

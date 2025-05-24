@@ -41,6 +41,16 @@
 		{
 			dependencies: ["4C273D948C0B6562"]
 			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:item_heat": {
+						heat: 0.0f
+						ticks: 0L
+					}
+				}
+				id: "minecraft:stick"
+			}
 			id: "7D265517B918D923"
 			rewards: [
 				{
@@ -66,6 +76,7 @@
 					type: "random"
 				}
 			]
+			shape: "gear"
 			subtitle: "用这些材料制作一些基础的工具"
 			tasks: [
 				{
@@ -469,6 +480,7 @@
 		{
 			dependencies: ["73BA44112A812A9A"]
 			description: ["Here is a BABY! "]
+			icon: "tfc:wood/support/oak"
 			id: "27663E9D369E455C"
 			rewards: [
 				{
@@ -913,6 +925,7 @@
 				"5298A692AAAAAE04"
 				"64CB731561F30CA0"
 			]
+			icon: "tfc:powder/diamond"
 			id: "04B605195EEBB71B"
 			rewards: [
 				{
@@ -948,6 +961,7 @@
 			dependencies: ["67DBB00021CBB136"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
+			icon: "tfc:wood/barrel/oak"
 			id: "2A8DED02CA1F06FF"
 			rewards: [
 				{

@@ -267,6 +267,18 @@ ServerEvents.recipes(event => {
         F: 'kubejs:essence_computation_frame'
     }).id('kubejs:time_in_a_bottle_s6')
 
+    // s7替换为奇点合金
+    event.recipes.createCompacting('3x techreborn:mixed_metal_ingot', [
+        '16x #forge:ingots/invar',
+        '16x #forge:ingots/brass',
+        '12x #forge:ingots/refined_iron',
+        '12x #forge:ingots/zinc',
+        '8x #forge:ingots/tin',
+        '4x #forge:ingots/aluminum',
+        '3x #forge:ingots/draconium',
+        '3x dustandash:ash_steel_ingot'
+    ]).superheated().id('kubejs:mixed_metal_ingot_s6')
+
     event.recipes.mekanism.metallurgic_infusing('mekanism:alloy_infused',
         'kubejs:yin_yang_steel', '20x mekanism:redstone').id('kubejs:alloy_infused_s6')
 
@@ -284,7 +296,7 @@ ServerEvents.recipes(event => {
         .id('kubejs:silicon_plate_s6')
 
     event.recipes.thermal.smelter('2x kubejs:yin_yang_steel',
-        ['dustandash:ash_steel_ingot', 'create:refined_radiance', 'create:shadow_steel']
+        ['dustandash:ash_steel_ingot', 'create:refined_radiance', 'techreborn:advanced_alloy_plate']
     ).energy(102400)
         .id('kubejs:yin_yang_steel_s6')
 
@@ -318,7 +330,7 @@ ServerEvents.recipes(event => {
         Fluid.of('techreborn:helium3', 500)
     ]).superheated().processingTime(800).id('kubejs:methane_helium_3_fuel_s6')
 
-    event.recipes.create.mechanical_crafting('kubejs:industrial_machine_frame', [
+    event.recipes.create.mechanical_crafting('2x kubejs:industrial_machine_frame', [
         ' AA AA ',
         'ACGBGEA',
         'AGDHFGA',
@@ -327,7 +339,7 @@ ServerEvents.recipes(event => {
         'AEGBGCA',
         ' AA AA '
     ], {
-        A: 'nuclearcraft:plate_elite',
+        A: 'nuclearcraft:plate_extreme',
         B: '#forge:plates/iridium_alloy',
         C: 'kubejs:superconducting_coil_type_2',
         D: 'techreborn:data_storage_chip',
@@ -367,7 +379,7 @@ ServerEvents.recipes(event => {
         "power": 180,
         "results": [
             {
-                "count": 2,
+                "count": 3,
                 "item": 'techreborn:advanced_alloy_ingot'
             }
         ],
@@ -452,5 +464,96 @@ ServerEvents.recipes(event => {
         'occultism:craft_marid',
         200
     ).id("kubejs:fission_fuel_assembly_s6")
+
+    event.shaped('nuclearcraft:fusion_reactor_casing', [
+        'ABA',
+        'BCB',
+        'ABA'
+    ],
+        {
+            A: 'nuclearcraft:plate_advanced',
+            B: 'jaopca:plates.manyullyn',
+            C: 'kubejs:epsilon_dust'
+        }).id('kubejs:fusion_reactor_casing_s6')
+
+    event.shaped('mythicbotany:central_rune_holder', [
+        'ABA',
+        'BCB'
+    ],
+        {
+            A: 'kubejs:collapse_prediction',
+            B: 'kubejs:epsilon_dust',
+            C: 'mythicbotany:rune_holder'
+        }).id('kubejs:central_rune_holder_s6')
+
+    event.shaped('mythicbotany:rune_holder', [
+        'ABA',
+        'BCB'
+    ],
+        {
+            A: 'kubejs:collapse_prediction',
+            B: 'kubejs:epsilon_dust',
+            C: 'jaopca:storage_blocks.mana'
+        }).id('kubejs:rune_holder_s6')
+
+    event.shaped('aetherworks:forge_metal_former', [
+        'ACA',
+        'BBB'
+    ],
+        {
+            A: 'kubejs:end_steel',
+            B: 'embers:caminite_plate',
+            C: 'kubejs:epsilon_dust'
+        }).id('kubejs:forge_metal_former_s6')
+
+        event.shaped('dustandash:ionizer', [
+        'FBA',
+        'ACA',
+        'EDE'
+    ],
+        {
+            A: 'dustandash:ash_steel_cylinder',
+            B: 'dustandash:redstone_vacuum_tube',
+            C: 'nuclearcraft:electrolyzer',
+            D: 'kubejs:collapse_prediction',
+            E: 'kubejs:end_steel',
+            F: 'kubejs:epsilon_dust'
+        }).id('kubejs:ionizer_s6')
+
+
+    event.custom({
+        "type": "embers:alchemy",
+        "aspects": [
+            {
+                "tag": "embers:aspectus/copper"
+            },
+            {
+                "tag": "embers:aspectus/silver"
+            }
+        ],
+        "inputs": [
+            {
+                "item": 'kubejs:collapse_prediction'
+            },
+            {
+                "item": 'kubejs:epsilon_dust'
+            },
+            {
+                "item": "aetherworks:aether_shard"
+            },
+            {
+                "item": "aetherworks:aether_shard"
+            },
+            {
+                "item": "aetherworks:aether_shard"
+            }
+        ],
+        "output": {
+            "item": "aetherworks:aether_amalgam"
+        },
+        "tablet": {
+            "item": "embers:ember_crystal_cluster"
+        }
+    }).id('kubejs:aether_amalgam_s6')
 
 })

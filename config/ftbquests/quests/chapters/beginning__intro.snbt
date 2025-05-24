@@ -201,7 +201,7 @@
 				id: "20AE890BD515CBC6"
 				type: "checkmark"
 			}]
-			title: "额外信息显示"
+			title: "额外信息显示 | Extra Info. Display"
 			x: 2.0d
 			y: 0.0d
 		}
@@ -233,6 +233,35 @@
 			title: "拔刀剑 | Slash Blade"
 			x: -2.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["4C273D948C0B6562"]
+			description: [
+				"作为一个单机游戏，&a每个玩家都可以自己决定自己的游玩方式&r。"
+				"而在服务器中，则是由服务器管理员制定一些规则以确保每个一玩家的游戏体验。"
+				""
+				"以下仅是本整合包&a推荐&r使用的内容："
+				"·&e/gamerule keepInventory true&r：建议不追求极限挑战的玩家开启死亡不掉落。"
+				"·&e/gamerule doFireTick false&r：根据游玩需求自行决定是否开启火焰蔓延。"
+				""
+				"以下是本整合包&c不推荐&r使用的内容："
+				"·&e/tp&r：无论是玩家对玩家，还是玩家对点的传送都不建议使用，建议使用/tpa、/home、/back等指令或者传送类道具代替，这些指令的冷却时间都被调整过，目的是防止“无限命制”以及“跳关”。"
+				"·&e/gamemode&r、&e/give&r、&e/summon&r、&e/locate&r等：调整至生存模式以外的模式、获取额外信息、刷取物品等是传统意义上的作弊。"
+				"·&e调整gamma值等外部手段获取无限夜视&r：靠火把等照明工具扩大视野，或者使用夜视道具看破黑暗是探索与发展的一部分。外部的无限夜视属于灰色地带的作弊，故不建议使用。"
+				"·&eCarpet&r、&eMasa Gadget&r等模组：以上模组虽然一般不会像作弊指令一样直接修改游戏数据，但是它们会是玩家获得非常多设计之外的收益。这些“辅助”模组在本包的定义中属于作弊，故不建议使用。"
+				""
+				"&a以上这些仅是建议，任何玩家都没有强制的义务执行。&r"
+				"具体执行哪些最终由玩家/管理员决定。"
+			]
+			icon: "minecraft:command_block"
+			id: "658E7C08BBD89849"
+			tasks: [{
+				id: "46CD1C8A2D2E646D"
+				type: "checkmark"
+			}]
+			title: "指令和作弊  | Commands and Cheat"
+			x: 2.0d
+			y: 2.0d
 		}
 	]
 	title: "开始 \\& 介绍 | Beginning \\& Intro."

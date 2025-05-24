@@ -5,6 +5,10 @@ ServerEvents.recipes(event => {
     event.shapeless('dustandash:ash_steel_cylinder', ['ad_astra:steel_tank']).id('kubejs:ash_steel_cylinder_s5')
     event.shapeless('ad_astra:steel_tank', ['dustandash:ash_steel_cylinder']).id('kubejs:steel_tank_s5')
 
+    event.shapeless('kubejs:alfheim_iridescent', ['3x mythicbotany:raw_elementium', 'kubejs:iridescent', 'botania:bifrost_perm']).id('kubejs:alfheim_iridescent_s5')
+
+    event.smithing('dustandash:centrifuge', 'dustandash:iron_structural_components', 'nuclearcraft:centrifuge', 'dustandash:ash_steel_ingot').id('kubejs:centrifuge_s5')
+
     event.shaped('nuclearcraft:plate_basic', [
         'BA',
         'AB'
@@ -439,6 +443,17 @@ ServerEvents.recipes(event => {
         .id('kubejs:collapse_prediction_s5')
 
 
+    var t = 'kubejs:helium_3_crystal'
+    event.recipes.createSequencedAssembly([
+        'kubejs:helium_3_crystal_infinity',
+    ], t, [
+        event.recipes.createFilling(t, [t, Fluid.of('kubejs:hybrid_fuel', 50)]),
+        event.recipes.createPressing(t, t)
+    ]).transitionalItem(t)
+        .loops(10)
+        .id('kubejs:helium_3_crystal_infinity_s5')
+
+
     event.custom({
         "type": "embers:boring",
         "dimensions": [
@@ -507,6 +522,97 @@ ServerEvents.recipes(event => {
             }
         ]
     }).id('kubejs:helium_3_crystal_infinity_fusion_reactor_s5')
+
+    event.custom({
+        "type": "nuclearcraft:crystallizer",
+        "inputFluids": [
+            {
+                "amount": 4000,
+                "tag": 'forge:helium_3'
+            }
+        ],
+        "output": [
+            {
+                "item": "kubejs:helium_3_crystal"
+            }
+        ],
+        "powerModifier": 1.0,
+        "radiation": 1.0,
+        "timeModifier": 1.5
+    }).id('kubejs:helium_3_crystal_s5')
+
+    event.custom({
+        "type": "palmon:processing",
+        "category": "misc",
+        "focus_stat": "SPECIAL_DEFENCE",
+        "min_level": 80,
+        "required_type": "fairy",
+        "base_hp": 0,
+        "base_atk": 0,
+        "base_def": 0,
+        "base_spa": 78,
+        "base_spd": 78,
+        "base_spe": 38,
+        "area_blocks": [
+            {
+                "item": 'botania:glimmering_dreamwood'
+            },
+            {
+                "item": 'botania:elementium_block'
+            }
+        ],
+        "block_count": 4,
+        "input_items": [
+            {
+                "item": 'mythicbotany:kvasir_blood',
+                "count": 1
+            },
+            {
+                "item": 'mythicbotany:asgard_rune',
+                "count": 2
+            },
+            {
+                "item": 'mythicbotany:vanaheim_rune',
+                "count": 2
+            },
+            {
+                "item": 'mythicbotany:midgard_rune',
+                "count": 2
+            },
+            {
+                "item": 'mythicbotany:joetunheim_rune',
+                "count": 2
+            },
+            {
+                "item": 'mythicbotany:muspelheim_rune',
+                "count": 1
+            },
+            {
+                "item": 'mythicbotany:niflheim_rune',
+                "count": 1
+            },
+            {
+                "item": 'mythicbotany:nidavellir_rune',
+                "count": 1
+            }
+        ],
+        "input_power": 40800000,
+        "input_fluid": {
+            "fluid": "forestry:honey",
+            "amount": 8000
+        },
+        "tick": 9600,
+        "result_items": [
+            {
+                "item": 'mythicbotany:kvasir_mead',
+                "count": 1
+            },
+            {
+                "item": 'mythicbotany:kvasir_blood',
+                "count": 1
+            },
+        ]
+    }).id('kubejs:kvasir_mead_s5')
 
     tcAlloy([{ "amount": 1000, "tag": 'forge:deuterium' }, { "amount": 1000, "tag": 'forge:tritium' }, { "amount": 720, "tag": 'forge:helium' }, { "amount": 720, "tag": 'forge:lithium/7_za' }],
         { "amount": 100, "tag": "kubejs:hybrid_fuel" }, 100, 'kubejs:hybrid_fuel')

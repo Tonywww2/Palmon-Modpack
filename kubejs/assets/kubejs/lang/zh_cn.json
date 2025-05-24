@@ -272,10 +272,10 @@
     "kubejs.eot.dungeon_1_desc": "·初始携带 不毁的 铁胸甲\n·群峦星将会生成高强度地牢",
     
     "kubejs.eot.master_ending_name": "[专家结局]",
-    "kubejs.eot.master_ending_desc": "·初始携带 §d斯克兰顿现实稳定锚§f\n·开启专家模式\n  ¤  部分配方将产生变化\n  ¤  敌对生物将更具有威胁\n  ¤  允许进行专家试炼",
+    "kubejs.eot.master_ending_desc": "§d·书写你的传奇史诗！\n·初始携带 §d斯克兰顿现实稳定锚§f\n§d·开启专家模式\n  ¤  部分配方将产生变化\n  ¤  敌对生物将更具有威胁\n  ¤  允许进行专家试炼",
     
     "kubejs.eot.no_end_name": "[无终安息]",
-    "kubejs.eot.no_end_desc": "·这是...最后了......\n  ¤  部分配方将变的无比困难\n  ¤  敌对生物将宛如恶魔降世\n  ¤  允许进行终极试炼",
+    "kubejs.eot.no_end_desc": "§c·这是...最后了......\n  ¤  部分配方将变的无比困难\n  ¤  敌对生物将宛如恶魔降世\n  ¤  允许进行终极试炼",
 
 
     "kubejs.eot.miner_1_name": "[专业矿工]",

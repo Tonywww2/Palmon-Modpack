@@ -762,6 +762,7 @@
 					type: "random"
 				}
 			]
+			shape: "hexagon"
 			subtitle: "灵感：神话植物学"
 			tasks: [
 				{
@@ -886,6 +887,7 @@
 					type: "random"
 				}
 			]
+			shape: "hexagon"
 			subtitle: "灵感：天华之作"
 			tasks: [{
 				id: "64E02D44883C080A"
@@ -914,6 +916,7 @@
 					type: "random"
 				}
 			]
+			shape: "hexagon"
 			subtitle: "灵感：尘土炼金"
 			tasks: [{
 				id: "435D3F6ED5B70DFB"
@@ -942,6 +945,7 @@
 					type: "random"
 				}
 			]
+			shape: "hexagon"
 			subtitle: "灵感：托卡马克"
 			tasks: [{
 				id: "0DED2B44C3A4BE2A"
@@ -984,6 +988,7 @@
 					type: "random"
 				}
 			]
+			shape: "hexagon"
 			subtitle: "灵感：古代与黑暗"
 			tasks: [{
 				id: "50ABD135B9FE37E6"

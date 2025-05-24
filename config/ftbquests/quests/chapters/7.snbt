@@ -1,7 +1,7 @@
 {
 	autofocus_id: "6DC36BE0755135AC"
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "hexagon"
 	filename: "7"
 	group: "292B2A0F4D1DF208"
 	icon: "avaritia:endest_pearl"
@@ -24,7 +24,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["2C8F6D440E89C247"]
+			dependencies: ["5266C8EFE39F85D9"]
 			id: "473715741A52B7B5"
 			shape: "hexagon"
 			tasks: [{
@@ -50,6 +50,7 @@
 		{
 			dependencies: ["177D626FACF3B787"]
 			id: "2200A949C365431B"
+			shape: "hexagon"
 			tasks: [{
 				id: "1345CDD5DDB8E16F"
 				item: "avaritia:end_crafting_table"
@@ -72,6 +73,7 @@
 		}
 		{
 			dependencies: ["473715741A52B7B5"]
+			description: ["还没有全自动合成哦"]
 			id: "68DDA2E17D948703"
 			tasks: [{
 				id: "14E2E886A6EED911"
@@ -238,5 +240,5 @@
 			y: -4.0d
 		}
 	]
-	title: "7. 句点 。| Full Stop."
+	title: "7. 句点 | Full Stop"
 }
