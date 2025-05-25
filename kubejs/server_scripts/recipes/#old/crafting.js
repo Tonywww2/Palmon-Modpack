@@ -4,8 +4,6 @@ ServerEvents.recipes(event => {
     
     event.shapeless('minecraft:gravel', ['#forge:gravel'])
 
-
-
     event.shapeless('cobblemon:ancient_feather_ball', ['#forge:feathers', 'cobblemon:ancient_azure_ball'])
     event.shapeless('cobblemon:ancient_wing_ball', ['#forge:feathers', 'cobblemon:ancient_great_ball'])
     event.shapeless('cobblemon:ancient_jet_ball', ['#forge:feathers', 'cobblemon:ancient_ultra_ball'])

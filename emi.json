@@ -154,6 +154,136 @@
     }
   ],
   "lookup_history": [
+    "item:tfc:metal/ingot/black_steel",
+    {
+      "type": "fluid",
+      "id": "tfc:metal/black_steel",
+      "amount": 100
+    },
+    [
+      "item:tconstruct:boots_plating{Material:\"tconstruct:black_steel\"}",
+      "item:tconstruct:chestplate_plating{Material:\"tconstruct:black_steel\"}",
+      "item:tconstruct:helmet_plating{Material:\"tconstruct:black_steel\"}",
+      "item:tconstruct:leggings_plating{Material:\"tconstruct:black_steel\"}",
+      "item:tconstruct:maille{Material:\"tconstruct:black_steel\"}",
+      "item:tinkers_things:shield_plating{Material:\"tconstruct:black_steel\"}"
+    ],
+    {
+      "type": "fluid",
+      "id": "tfc:metal/red_steel",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "immersiveengineering:creosote",
+      "amount": 100
+    },
+    [
+      {
+        "type": "fluid",
+        "id": "immersiveengineering:creosote",
+        "amount": 100
+      },
+      {
+        "type": "fluid",
+        "id": "minecraft:lava",
+        "amount": 50
+      },
+      {
+        "type": "fluid",
+        "id": "tconstruct:blazing_blood",
+        "amount": 50
+      },
+      {
+        "type": "fluid",
+        "id": "tinkers_advanced:over_heated_lava",
+        "amount": 100
+      },
+      {
+        "type": "fluid",
+        "id": "tinkers_advanced:pyrotheum",
+        "amount": 10
+      },
+      {
+        "type": "fluid",
+        "id": "tinkers_advanced:gaseous_lava",
+        "amount": 100
+      },
+      {
+        "type": "fluid",
+        "id": "tinkers_advanced:plasmatic_lava",
+        "amount": 100
+      },
+      {
+        "type": "fluid",
+        "id": "tinkers_advanced:molten_antimatter",
+        "amount": 10
+      }
+    ],
+    {
+      "type": "fluid",
+      "id": "tfc:metal/weak_red_steel",
+      "amount": 0
+    },
+    "item:minecraft:iron_ingot",
+    "item:techreborn:zinc_ingot",
+    "item:ae2:fluix_crystal",
+    "item:tconstruct:maille{Material:\"tinkers_advanced:fluix_crystal\"}",
+    [
+      "item:tconstruct:maille{Material:\"tconstruct:copper\"}",
+      "item:tconstruct:maille{Material:\"tinkers_advanced:certus_quartz\"}",
+      "item:tconstruct:maille{Material:\"tconstruct:leather\"}",
+      "item:tconstruct:maille{Material:\"tconstruct:iron\"}",
+      "item:tconstruct:maille{Material:\"tconstruct:seared_stone\"}",
+      "item:tconstruct:maille{Material:\"tconstruct:osmium\"}",
+      "item:tconstruct:maille{Material:\"tconstruct:tungsten\"}",
+      "item:tconstruct:maille{Material:\"tconstruct:lead\"}",
+      "item:tconstruct:maille{Material:\"tconstruct:silver\"}",
+      "item:tconstruct:maille{Material:\"tinkers_advanced:fluix_crystal\"}",
+      "item:tconstruct:maille{Material:\"tinkers_advanced:plastic\"}",
+      "item:tconstruct:maille{Material:\"tconstruct:aluminum\"}",
+      "item:tconstruct:maille{Material:\"tconstruct:scorched_stone\"}",
+      "item:tconstruct:maille{Material:\"tconstruct:gold\"}",
+      "item:tconstruct:maille{Material:\"tconstruct:slimesteel\"}",
+      "item:tconstruct:maille{Material:\"tconstruct:amethyst_bronze\"}",
+      "item:tconstruct:maille{Material:\"tconstruct:obsidian\"}",
+      "item:tconstruct:maille{Material:\"tconstruct:pig_iron\"}",
+      "item:tconstruct:maille{Material:\"tconstruct:rose_gold\"}",
+      "item:tconstruct:maille{Material:\"tcintegrations:manasteel\"}",
+      "item:tconstruct:maille{Material:\"tconstruct:bronze\"}",
+      "item:tconstruct:maille{Material:\"tconstruct:constantan\"}",
+      "item:tconstruct:maille{Material:\"tconstruct:invar\"}",
+      "item:tconstruct:maille{Material:\"tinkers_advanced:basalz_signalum\"}",
+      "item:tconstruct:maille{Material:\"tconstruct:electrum\"}",
+      "item:tconstruct:maille{Material:\"tinkers_advanced:nutritive_slime\"}",
+      "item:tconstruct:maille{Material:\"tinkers_advanced:refined_glowstone\"}",
+      "item:tconstruct:maille{Material:\"tconstruct:cobalt\"}",
+      "item:tconstruct:maille{Material:\"tconstruct:steel\"}",
+      "item:tconstruct:maille{Material:\"tinkers_things:silky_cloth\"}",
+      "item:tconstruct:maille{Material:\"tconstruct:cinderslime\"}",
+      "item:tconstruct:maille{Material:\"tconstruct:queens_slime\"}",
+      "item:tconstruct:maille{Material:\"tconstruct:test1\"}",
+      "item:tconstruct:maille{Material:\"tconstruct:hepatizon\"}",
+      "item:tconstruct:maille{Material:\"tconstruct:manyullyn\"}",
+      "item:tconstruct:maille{Material:\"tinkers_advanced:activated_chromatic_steel\"}",
+      "item:tconstruct:maille{Material:\"tinkers_advanced:antimatter\"}",
+      "item:tconstruct:maille{Material:\"tinkers_advanced:bismuth\"}",
+      "item:tconstruct:maille{Material:\"tinkers_advanced:blaze_netherite\"}",
+      "item:tconstruct:maille{Material:\"tinkers_advanced:blitz_lumium\"}",
+      "item:tconstruct:maille{Material:\"tinkers_advanced:blizz_enderium\"}",
+      "item:tconstruct:maille{Material:\"tinkers_advanced:densium\"}",
+      "item:tconstruct:maille{Material:\"tinkers_advanced:iridium\"}",
+      "item:tconstruct:maille{Material:\"tinkers_advanced:irradium\"}",
+      "item:tconstruct:maille{Material:\"tinkers_advanced:protocite\"}",
+      "item:tconstruct:maille{Material:\"tinkers_advanced:refined_obsidian\"}",
+      "item:tconstruct:maille{Material:\"tinkers_advanced:resonance_crystal\"}",
+      "item:tconstruct:maille{Material:\"tinkers_things:hematite\"}",
+      "item:tconstruct:maille{Material:\"tconstruct:ancient_hide\"}"
+    ],
+    "item:tconstruct:plate_leggings{Damage:0,etstlib_tool_uuid:\"d88d3ab0-da3f-4995-9d65-2d97fc067ba8\",tic_broken:0b,tic_materials:[\"tconstruct:slimesteel\",\"tconstruct:slimesteel\"],tic_modifiers:[{level:2,name:\"tconstruct:overslime\"},{level:2,name:\"tconstruct:overcast\"}],tic_persistent:{},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:durability\":600.0f,\"tconstruct:overslime\":200.0f},tic_volatile_data:{defense:3,upgrades:2}}",
+    "item:tconstruct:plate_chestplate{Damage:0,etstlib_tool_uuid:\"1f74d5e4-d50b-44b5-97bf-12fa05e6c1a4\",tic_broken:0b,tic_materials:[\"tinkers_advanced:blitz_lumium\",\"tinkers_advanced:blitz_lumium\"],tic_modifiers:[{level:2,name:\"etstlib:glowing\"},{level:2,name:\"tinkers_advanced:blitz_defense\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.4f},tic_persistent:{},tic_stats:{\"tconstruct:armor\":5.75f,\"tconstruct:armor_toughness\":3.0f,\"tconstruct:durability\":368.0f},tic_volatile_data:{defense:3,upgrades:2}}",
+    "item:techreborn:fusion_control_computer",
+    "item:avaritia:nether_crafting_table",
     "item:techreborn:iridium_neutron_reflector",
     "item:techreborn:fusion_coil",
     "item:techreborn:thick_neutron_reflector",
@@ -178,7 +308,6 @@
     "item:draconicevolution:wyvern_core",
     "item:techreborn:energy_flow_chip",
     "item:packagedauto:me_package_component",
-    "item:avaritia:nether_crafting_table",
     "item:mekanism:sps_casing",
     "item:aetherworks:aether_prism_controller_matrix",
     "item:nuclearcraft:electrolyzer",
@@ -303,7 +432,6 @@
     "item:mekanism_extras:enriched_shining",
     "item:mekanism_extras:enriched_spectrum",
     "item:dustandash:netherite_mud",
-    "item:techreborn:fusion_control_computer",
     "item:packagedavaritia:extreme_crafter",
     {
       "type": "jemi",
@@ -979,11 +1107,6 @@
       "amount": 8
     },
     "item:tconstruct:seared_basin",
-    {
-      "type": "fluid",
-      "id": "immersiveengineering:creosote",
-      "amount": 1000
-    },
     "item:immersiveengineering:creosote_bucket",
     [
       "item:immersiveengineering:creosote_bucket",
@@ -1277,7 +1400,6 @@
       "amount": 9
     },
     "item:create:crushed_raw_iron",
-    "item:minecraft:iron_ingot",
     {
       "type": "fluid",
       "id": "tfc:metal/bismuth",
@@ -1517,17 +1639,17 @@
       "type": "list",
       "amount": 250,
       "ingredients": [
-        "fluid:sakura:sake",
         "fluid:cobgyms:safe_lava",
-        "fluid:createaddition:seed_oil",
-        "fluid:sakura:red_wine",
-        "fluid:sakura:food_oil",
-        "fluid:sakura:champagne",
-        "fluid:sakura:doburoku",
-        "fluid:sakura:white_wine",
         "fluid:sakura:beer",
+        "fluid:sakura:red_wine",
         "fluid:createaddition:bioethanol",
         "fluid:sakura:brandy",
+        "fluid:sakura:champagne",
+        "fluid:sakura:food_oil",
+        "fluid:createaddition:seed_oil",
+        "fluid:sakura:white_wine",
+        "fluid:sakura:sake",
+        "fluid:sakura:doburoku",
         "#fluid:firmalife:mixable",
         "#fluid:sakura:brewers_alcohol",
         "#fluid:tfc:water"
@@ -1628,7 +1750,6 @@
     "item:jaopca:processors.fluix",
     "item:jaopca:circuits.fluix",
     "item:jaopca:storage_blocks.fluix",
-    "item:ae2:fluix_crystal",
     {
       "type": "jemi",
       "uid": "slurry:jaopca:mekanism_clean.graphite"
@@ -1884,38 +2005,7 @@
       "type": "item",
       "id": "minecraft:bedrock",
       "amount": 3
-    },
-    "item:embers:ember_crystal",
-    "item:mythicbotany:gjallar_horn_empty",
-    {
-      "type": "fluid",
-      "id": "forestry:honey",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "create:honey",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "cofh_core:honey",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "tconstruct:honey",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "forestry:short_mead",
-      "amount": 0
-    },
-    "item:mythicbotany:helheim_rune",
-    "item:mythicbotany:nidavellir_rune",
-    "item:mythicbotany:niflheim_rune",
-    "item:mythicbotany:muspelheim_rune"
+    }
   ],
   "craft_history": [
     "jei:/forestry/carpenter/circuits/refined",
@@ -2402,50 +2492,50 @@
   ],
   "recipe_defaults": {
     "added": [
-      "mekanism_extras:control_circuit/supreme",
-      "jei:/mekanism_extras/nucleosynthesizing/enriched_shining",
-      "tfcoreprocessing:compress/compress_refined_limonite",
-      "thermal_extra:abyssal_dust",
-      "draconicevolution:components/wyvern_core",
-      "jei:/mekanism_extras/enriching/enriched/dust_radiance",
-      "jei:/kubejs/intelligent_draconium_ingot_s6",
-      "mekanism_extras:control_circuit/infinite",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/shining",
-      "jei:/tfc/casting/weak_steel_ingot",
-      "jei:/kubejs/draconium_core_2_s4",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/spectrum",
-      "jei:/tfc/anvil/black_steel_ingot",
-      "jei:/mekanism_extras/metallurgic_infusing/alloy/radiance",
-      "jei:/immersiveengineering/mixer/redstone_acid",
-      "mekanism_extras:control_circuit/absolute",
-      "jei:/mekanism_extras/infusion_conversion/shining/from_enriched",
-      "jaopcaextras:inscriber.circuit.draconium",
-      "create:crafting/kinetics/steam_engine",
-      "jei:/tfc/welding/high_carbon_black_steel_ingot",
-      "jaopcaextras:inscriber.processor.draconium",
-      "jei:/mekanism_extras/processing/dust_radiance/from_glowstone",
-      "mekanism_extras:control_circuit/cosmic",
       "jei:/tfcoreprocessing/barrel/slurry/slurry_limonite",
-      "jei:/mekanism_extras/infusion_conversion/thermonuclear/from_enriched",
-      "jei:/tfc/welding/high_carbon_red_steel_ingot",
-      "jei:/tfc/anvil/red_steel_ingot",
-      "jei:/mekanism_extras/reaction/molten_thermonuclear_gasification/molten_thermonuclear",
-      "jei:/mekanism_extras/processing/enriched_spectrum/from_enriched_shining",
-      "jei:/mekanism_extras/infusion_conversion/spectrum/from_enriched",
-      "jei:/tfc/casting/weak_red_steel_fire_ingot",
-      "jei:/malum/spirit_infusion/stellar_mechanism",
+      "jaopcaextras:inscriber.circuit.draconium",
       "jei:/tfcoreprocessing/pot/slurry/slurry_limonite",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/spectrum",
+      "jei:/tfc/casting/weak_red_steel_fire_ingot",
+      "jaopcaextras:inscriber.processor.draconium",
+      "jei:/mekanism_extras/reaction/enriched_radiance_gasification/enriched_thermonuclear",
+      "jei:/tfc/welding/high_carbon_red_steel_ingot",
       "jei:/mekanism_extras/metallurgic_infusing/alloy/thermonuclear",
-      "jaopca:storage_blocks.to_storage_block.stainless_steel",
+      "jei:/malum/spirit_infusion/stellar_mechanism",
+      "jei:/mekanism_extras/infusion_conversion/shining/from_enriched",
+      "jei:/tfc/welding/high_carbon_black_steel_ingot",
+      "mekanism_extras:control_circuit/infinite",
       "jei:/tfcoreprocessing/pot/slurry/roast_1_limonite",
+      "jei:/mekanism_extras/processing/enriched_spectrum/from_enriched_shining",
+      "mekanism_extras:control_circuit/supreme",
+      "jei:/kubejs/intelligent_draconium_ingot_s6",
+      "jei:/immersiveengineering/mixer/redstone_acid",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/radiance",
+      "draconicevolution:components/wyvern_core",
+      "mekanism_extras:control_circuit/cosmic",
+      "jei:/mekanism_extras/infusion_conversion/thermonuclear/from_enriched",
+      "jei:/mekanism_extras/enriching/enriched/dust_radiance",
+      "jei:/mekanism_extras/reaction/molten_thermonuclear_gasification/molten_thermonuclear",
+      "jei:/mekanism_extras/metallurgic_infusing/alloy/shining",
+      "jei:/tfc/anvil/black_steel_ingot",
       "jei:/kubejs/awakened_draconium_ingot_s6",
+      "jei:/mekanism_extras/processing/dust_radiance/from_glowstone",
+      "create:crafting/kinetics/steam_engine",
+      "jei:/tfc/casting/weak_steel_ingot",
+      "jei:/mekanism_extras/infusion_conversion/spectrum/from_enriched",
+      "jei:/mekanism_extras/nucleosynthesizing/enriched_shining",
+      "jei:/tfc/anvil/red_steel_ingot",
+      "mekanism_extras:control_circuit/absolute",
+      "jaopca:storage_blocks.to_storage_block.stainless_steel",
+      "thermal_extra:abyssal_dust",
       "jei:/mekanism/processing/uranium/uranium_oxide",
-      "jei:/mekanism_extras/reaction/enriched_radiance_gasification/enriched_thermonuclear"
+      "tfcoreprocessing:compress/compress_refined_limonite",
+      "jei:/kubejs/draconium_core_2_s4"
     ],
     "tags": {
       "#item:forge:ingots/rose_gold": "item:tfc:metal/ingot/rose_gold",
       "#item:c:ingots/gold": "item:tfc:metal/ingot/gold",
-      "#item:c:ingots/copper": "item:tfc:metal/ingot/copper",
+      "#item:c:copper_ingots": "item:tfc:metal/ingot/copper",
       "#item:c:nickel_ingots": "item:tfc:metal/ingot/nickel"
     },
     "resolutions": {
