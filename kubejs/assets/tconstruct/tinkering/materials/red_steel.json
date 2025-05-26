@@ -1,5 +1,5 @@
 {
-  "color": "FF040004",
+  "color": "FFCC0000",
   "fallbacks": [
     "metal"
   ],
@@ -31,27 +31,27 @@
             "grey": 0
           },
           {
-            "color": "FF010001",
+            "color": "FF7E0000",
             "grey": 63
           },
           {
-            "color": "FF020002",
+            "color": "FFCC0000",
             "grey": 102
           },
           {
-            "color": "FF020002",
+            "color": "FFFF1919",
             "grey": 140
           },
           {
-            "color": "FF030003",
+            "color": "FFFF6565",
             "grey": 178
           },
           {
-            "color": "FF030003",
+            "color": "FFFFB1B1",
             "grey": 216
           },
           {
-            "color": "FF040004",
+            "color": "FFFFFFFF",
             "grey": 255
           }
         ]

@@ -385,17 +385,42 @@ ServerEvents.highPriorityData(event => {
         .addPlatingShield(300, 0.05, 1.0)
         .addBinding()
         .addMaille()
+        .addShieldCore()
         .addDefaultTrait(1, 'tconstruct:magnetic')
         .addDefaultTrait(1, 'etstlib:critical')
         .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:projectile_protection')
         .build()
-
     registerMaterialProcess({
         fluid: "tfc:metal/black_steel",
         material: "tconstruct:black_steel",
         ingot: 'tfc:metal/ingot/black_steel',
         units: 100,
         temperature: 800,
+        time: 100,
+        meltIngot: true
+    })
+
+    let red_steel = createMaterialBuilder('red_steel')
+        .setCraftable(false).setSortOrder(104).setTier(1)
+        .addHead(450, 17.0, 7.0, 'minecraft:netherite')
+        .addHandle(-0.1, 0.25, 0, 0.05)
+        .addPlatingHelmet(2.0, 150, 0.05, 1.0)
+        .addPlatingChestplate(4.0, 250, 0.05, 1.0)
+        .addPlatingLeggings(3.0, 200, 0.05, 1.0)
+        .addPlatingBoots(2.0, 150, 0.05, 1.0)
+        .addPlatingShield(300, 0.05, 1.0)
+        .addBinding()
+        .addMaille()
+        .addShieldCore()
+        .addDefaultTrait(1, 'tconstruct:magnetic')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:projectile_protection')
+        .build()
+    registerMaterialProcess({
+        fluid: "tfc:metal/red_steel",
+        material: "tconstruct:red_steel",
+        ingot: 'tfc:metal/ingot/red_steel',
+        units: 100,
+        temperature: 900,
         time: 100,
         meltIngot: true
     })

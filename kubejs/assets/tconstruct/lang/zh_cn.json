@@ -1,5 +1,8 @@
 {
     "material.tconstruct.black_steel": "黑钢",
-    "material.tconstruct.black_steel.flavor": "漆黑的钢..."
+    "material.tconstruct.black_steel.flavor": "漆黑的钢...",
+
+    "material.tconstruct.red_steel": "红钢",
+    "material.tconstruct.red_steel.flavor": "赤红新星"
     
 }
