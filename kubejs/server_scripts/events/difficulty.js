@@ -40,44 +40,49 @@
 
 //     'rats:ratlantis': [21, 3.5, 1]
 // }
+
+/**
+ * hp, armor, attack
+ */
 // v2
 global.dimAdder = {
-    'minecraft:overworld': [10, 2, 0],
+    'minecraft:overworld': [10, 2, 8],
 
-    'minecraft:the_nether': [20, 14, 0],
+    'minecraft:the_nether': [20, 14, 15],
 
-    'kubejs:overworld': [40, 20, 0],
-    'dimdungeons:dungeon_dimension': [60, 35, 0],
-    'ad_astra:moon': [50, 30, 0],
+    'kubejs:overworld': [40, 20, 36],
+    'dimdungeons:dungeon_dimension': [60, 35, 36],
+    'ad_astra:moon': [50, 30, 36],
+    'oceanworld:deepsea': [50, 30, 36],
 
-    'ad_astra:mars': [80, 60, 0],
-    'ad_astra:venus': [100, 80, 0],
-    'ad_astra:mercury': [110, 90, 0],
+    'ad_astra:mars': [80, 60, 36],
+    'ad_astra:venus': [100, 80, 42],
+    'ad_astra:mercury': [110, 90, 44],
 
-    'minecraft:the_end': [140, 100, 10],
-    'deeperdarker:otherside': [180, 120, 10],
+    'minecraft:the_end': [140, 100, 52],
+    'deeperdarker:otherside': [180, 120, 64],
 
-    'rats:ratlantis': [240, 150, 10]
+    'rats:ratlantis': [240, 150, 72]
 }
 
 global.dimMuti = {
-    'minecraft:overworld': [1, 0.5, 1],
+    'minecraft:overworld': [1, 0.5, 0.8],
 
-    'minecraft:the_nether': [2.5, 0.7, 1],
+    'minecraft:the_nether': [2.5, 0.7, 1.35],
 
-    'kubejs:overworld': [7, 1, 1],
-    'dimdungeons:dungeon_dimension': [10, 1.4, 1],
-    'ad_astra:moon': [9, 1.35, 1],
-    'oceanworld:deepsea': [9, 1.35, 1],
+    'kubejs:overworld': [7, 1, 1.75],
+    'dimdungeons:dungeon_dimension': [10, 1.4, 2.25],
+    'ad_astra:moon': [9, 1.35, 2.0],
+    'oceanworld:deepsea': [9, 1.35, 2.0],
 
-    'ad_astra:mars': [13, 1.6, 1],
-    'ad_astra:venus': [15, 2, 1],
-    'ad_astra:mercury': [18, 2.1, 1],
+    'ad_astra:mars': [13, 1.6, 2.65],
+    'ad_astra:venus': [15, 2, 2.75],
+    'ad_astra:mercury': [18, 2.1, 3.0],
 
-    'minecraft:the_end': [21, 2.5, 1],
-    'deeperdarker:otherside': [26, 3, 1],
+    'minecraft:the_end': [21, 2.5, 3.5],
+    'deeperdarker:otherside': [26, 3, 4.0],
 
-    'rats:ratlantis': [32, 3.5, 1]
+    'rats:ratlantis': [32, 3.5, 4.5]
 }
 
 global.diffMuti = [
@@ -142,7 +147,7 @@ EntityEvents.spawned(event => {
 
             if (entity.attributes.hasAttribute(attack)) {
                 let atkVal = entity.getAttribute(attack).getBaseValue() + global.dimAdder[dim][2]
-                atkVal *= global.dimMuti[dim][2] * global.diffMuti[diffNum][2]
+                atkVal *= global.diffMuti[diffNum][2]
 
                 entity.setAttributeBaseValue(attack, atkVal)
 
@@ -153,3 +158,4 @@ EntityEvents.spawned(event => {
     }
 
 })
+

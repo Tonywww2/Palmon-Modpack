@@ -267,7 +267,7 @@ ServerEvents.recipes(event => {
         F: 'kubejs:essence_computation_frame'
     }).id('kubejs:time_in_a_bottle_s6')
 
-    // s7替换为奇点合金
+    // s8替换为奇点合金
     event.recipes.createCompacting('3x techreborn:mixed_metal_ingot', [
         '16x #forge:ingots/invar',
         '16x #forge:ingots/brass',
@@ -296,7 +296,7 @@ ServerEvents.recipes(event => {
         .id('kubejs:silicon_plate_s6')
 
     event.recipes.thermal.smelter('2x kubejs:yin_yang_steel',
-        ['dustandash:ash_steel_ingot', 'create:refined_radiance', 'techreborn:advanced_alloy_plate']
+        ['create:shadow_steel', 'create:refined_radiance', 'techreborn:advanced_alloy_plate']
     ).energy(102400)
         .id('kubejs:yin_yang_steel_s6')
 

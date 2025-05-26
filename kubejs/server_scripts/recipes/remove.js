@@ -208,6 +208,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'avaritia:sculk_crafting_table' })
     event.remove({ id: 'techreborn:crafting_table/parts/iridium_neutron_reflector' })
     event.remove({ id: 'techreborn:crafting_table/machine/fusion_coil' })
+    event.remove({ id: 'techreborn:crafting_table/machine/fusion_control_computer' })
 
     event.remove({ output: 'minecraft:furnace' })
     event.remove({ output: 'thermal:enderium_coin' })

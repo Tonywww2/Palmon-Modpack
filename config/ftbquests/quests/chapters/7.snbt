@@ -239,6 +239,20 @@
 			x: -6.0d
 			y: -4.0d
 		}
+		{
+			dependencies: [
+				"08FA563D359C456E"
+				"68DDA2E17D948703"
+			]
+			id: "28EC4BBCF7C89458"
+			tasks: [{
+				id: "45BD953B49B8ECA0"
+				item: "kubejs:superconducting_coil_type_3"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
 	]
 	title: "7. 句点 | Full Stop"
 }

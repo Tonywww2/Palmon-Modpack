@@ -1,7 +1,9 @@
 // priority: 50
+// @js-check
 
 // By Tonywww, 原始用途：帕鲁梦整合包
 ServerEvents.highPriorityData(event => {
+
     /**
      * @param {string} id       材料的唯一标识，用作生成 JSON 文件名
      * @returns {object}        返回一个链式调用的 builder 对象
@@ -10,6 +12,9 @@ ServerEvents.highPriorityData(event => {
         const definition = { craftable: false, hidden: false, sortOrder: 0, tier: 0 };
         const stats = {};
         const traits = { default: [], perStat: {} };
+
+        let hasStats = false
+        let hasTraits = false
 
         let namespace = "tconstruct"
 
@@ -45,7 +50,10 @@ ServerEvents.highPriorityData(event => {
             /**
              * 设置命名空间
              */
-            setNamespace(str) { namespace = str },
+            setNamespace(str) { namespace = str; return builder; },
+
+            addStats() { hasStats = true; return builder; },
+            addTraits() { hasTraits = true; return builder; },
 
             /**
              * 添加头部（Head）属性
@@ -285,8 +293,8 @@ ServerEvents.highPriorityData(event => {
              */
             build() {
                 event.addJson(`${namespace}:tinkering/materials/definition/${id}.json`, definition);
-                event.addJson(`${namespace}:tinkering/materials/stats/${id}.json`, { stats: stats });
-                event.addJson(`${namespace}:tinkering/materials/traits/${id}.json`, traits);
+                if (hasStats) event.addJson(`${namespace}:tinkering/materials/stats/${id}.json`, { stats: stats });
+                if (hasTraits) event.addJson(`${namespace}:tinkering/materials/traits/${id}.json`, traits);
             }
         };
 
@@ -298,6 +306,7 @@ ServerEvents.highPriorityData(event => {
        * @param {string} opts.fluid        熔化后得到的流体 ID
        * @param {string} opts.material     最终材料 ID
        * @param {string} opts.ingot        锭物品 ID
+       * @param {string} opts.leftover     多余物品
        * @param {number} opts.units        锭对应多少毫桶（mb）
        * @param {number} opts.temperature  熔炼温度
        * @param {number} opts.time         熔炼/冷却时间
@@ -307,6 +316,7 @@ ServerEvents.highPriorityData(event => {
         fluid,
         material,
         ingot,
+        leftover,
         units,
         temperature,
         time,
@@ -325,7 +335,7 @@ ServerEvents.highPriorityData(event => {
             const ingredient = makeIngredient(itemId);
             const fluidAmount = units * factor;
             event.addJson(
-                `tconstruct:recipes/kjs/melting/${itemId.replace(':', '_')}`,
+                `tconstruct:recipes/kjs/melting/${itemId.replace(':', '_').replace('#', '')}`,
                 {
                     type: "tconstruct:melting",
                     ingredient: ingredient,
@@ -348,7 +358,7 @@ ServerEvents.highPriorityData(event => {
             };
             if (leftover) json.leftover = leftover;
             event.addJson(
-                `tconstruct:recipes/kjs/material/${itemId.replace(':', '_')}`,
+                `tconstruct:recipes/kjs/material/${itemId.replace(':', '_').replace('#', '')}`,
                 json
             );
         }
@@ -359,33 +369,38 @@ ServerEvents.highPriorityData(event => {
         }
 
         // 锭 → 部件
-        materialPart(ingot, 1, 1);
+        materialPart(ingot, 1, 1, leftover);
 
         // 流体 → 部件
-        event.addJson(
-            `tconstruct:recipes/kjs/material_fluid/${fluid.replace(':', '_')}`,
-            {
-                type: "tconstruct:material_fluid",
-                fluid: { fluid: fluid, amount: units },
-                temperature: time,
-                output: material
-            }
-        );
+        if (fluid) {
+            event.addJson(
+                `tconstruct:recipes/kjs/material_fluid/${fluid.replace(':', '_')}`,
+                {
+                    type: "tconstruct:material_fluid",
+                    fluid: { fluid: fluid, amount: units },
+                    temperature: time,
+                    output: material
+                }
+            );
+        }
     }
 
     // 正式定义
+    let db = 600
     let black_steel = createMaterialBuilder('black_steel')
         .setCraftable(false).setSortOrder(100).setTier(1)
-        .addHead(600, 10.0, 7.0, 'minecraft:diamond')
+        .addStats()
+        .addHead(db, 10.0, 7.0, 'minecraft:diamond')
         .addHandle(0, 0.2, 0, 0.1)
-        .addPlatingHelmet(2.0, 200, 0.05, 1.0)
-        .addPlatingChestplate(3.0, 300, 0.05, 1.0)
-        .addPlatingLeggings(3.0, 250, 0.05, 1.0)
-        .addPlatingBoots(2.0, 200, 0.05, 1.0)
-        .addPlatingShield(300, 0.05, 1.0)
+        .addPlatingHelmet(2.0, db * 0.7, 0.05, 1.0)
+        .addPlatingChestplate(3.0, db * 1.0, 0.05, 1.0)
+        .addPlatingLeggings(3.0, db * 0.9, 0.05, 1.0)
+        .addPlatingBoots(2.0, db * 0.6, 0.05, 1.0)
+        .addPlatingShield(db * 0.9, 0.05, 1.0)
         .addBinding()
         .addMaille()
         .addShieldCore()
+        .addTraits()
         .addDefaultTrait(1, 'tconstruct:magnetic')
         .addDefaultTrait(1, 'etstlib:critical')
         .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:projectile_protection')
@@ -393,25 +408,103 @@ ServerEvents.highPriorityData(event => {
     registerMaterialProcess({
         fluid: "tfc:metal/black_steel",
         material: "tconstruct:black_steel",
-        ingot: 'tfc:metal/ingot/black_steel',
+        ingot: '#forge:ingots/black_steel',
+        leftover: 'cataclysm:black_steel_nugget',
         units: 100,
         temperature: 800,
         time: 100,
         meltIngot: true
     })
 
-    let red_steel = createMaterialBuilder('red_steel')
-        .setCraftable(false).setSortOrder(104).setTier(1)
-        .addHead(450, 17.0, 7.0, 'minecraft:netherite')
-        .addHandle(-0.1, 0.25, 0, 0.05)
-        .addPlatingHelmet(2.0, 150, 0.05, 1.0)
-        .addPlatingChestplate(4.0, 250, 0.05, 1.0)
-        .addPlatingLeggings(3.0, 200, 0.05, 1.0)
-        .addPlatingBoots(2.0, 150, 0.05, 1.0)
-        .addPlatingShield(300, 0.05, 1.0)
+    db = 650
+    let spirit_attuned_gem = createMaterialBuilder('spirit_attuned_gem')
+        .setCraftable(true).setSortOrder(101).setTier(1)
+        .addStats()
+        .addHead(db, 13.0, 7.0, 'minecraft:netherite')
+        .addHandle(0.1, 0.15, 0.05, 0)
+        .addPlatingHelmet(2.0, db * 0.7, 0.05, 1.0)
+        .addPlatingChestplate(4.0, db * 1.0, 0.05, 1.0)
+        .addPlatingLeggings(3.0, db * 0.9, 0.05, 1.0)
+        .addPlatingBoots(2.0, db * 0.6, 0.05, 1.0)
+        .addPlatingShield(db * 0.9, 0.05, 1.0)
         .addBinding()
         .addMaille()
         .addShieldCore()
+        .addTraits()
+        .addDefaultTrait(1, 'tconstruct:magnetic')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:projectile_protection')
+        .build()
+    registerMaterialProcess({
+        fluid: null,
+        material: 'tconstruct:spirit_attuned_gem',
+        ingot: 'occultism:spirit_attuned_gem',
+        leftover: 'techreborn:diamond_nugget',
+        units: 100,
+        temperature: 0,
+        time: 0,
+        meltIngot: false
+    })
+
+    db = 550
+    let andesite_alloy = createMaterialBuilder('andesite_alloy')
+        .setCraftable(false).setSortOrder(102).setTier(1)
+        .addStats()
+        .addHead(db, 11.0, 8.0, 'minecraft:diamond')
+        .addHandle(0.3, 0, 0, 0.2)
+        .addPlatingHelmet(2.0, db * 0.7, 0.05, 1.0)
+        .addPlatingChestplate(3.0, db * 1.0, 0.05, 1.0)
+        .addPlatingLeggings(3.0, db * 0.9, 0.05, 1.0)
+        .addPlatingBoots(2.0, db * 0.6, 0.05, 1.0)
+        .addPlatingShield(db * 0.9, 0.05, 1.0)
+        .addBinding()
+        .addMaille()
+        .addShieldCore()
+        .addTraits()
+        .addDefaultTrait(1, 'tconstruct:magnetic')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:projectile_protection')
+        .build()
+    registerMaterialProcess({
+        fluid: null,
+        material: 'tconstruct:andesite_alloy',
+        ingot: 'create:andesite_alloy',
+        leftover: 'minecraft:andesite',
+        units: 100,
+        temperature: 0,
+        time: 0,
+        meltIngot: false
+    })
+
+    db = 450
+    let bismuth = createMaterialBuilder('bismuth')
+        .setCraftable(false).setSortOrder(103).setTier(1).setNamespace('tinkers_advanced')
+        .addStats()
+        .addHead(db, 9.0, 6.0, 'minecraft:diamond')
+        .addHandle(-0.1, 0.2, 0.05, 0)
+        .addPlatingHelmet(1.0, db * 0.7, 0.05, 1.0)
+        .addPlatingChestplate(3.0, db * 1.0, 0.05, 1.0)
+        .addPlatingLeggings(3.0, db * 0.9, 0.05, 1.0)
+        .addPlatingBoots(1.0, db * 0.6, 0.05, 1.0)
+        .addPlatingShield(db * 0.9, 0.05, 1.0)
+        .addBinding()
+        .addMaille()
+        .addShieldCore()
+        .build()
+
+    db = 750
+    let red_steel = createMaterialBuilder('red_steel')
+        .setCraftable(false).setSortOrder(104).setTier(1)
+        .addStats()
+        .addHead(db, 17.0, 7.0, 'minecraft:netherite')
+        .addHandle(-0.1, 0.25, 0, 0.05)
+        .addPlatingHelmet(2.0, db * 0.7, 0.05, 1.0)
+        .addPlatingChestplate(4.0, db * 1.0, 0.05, 1.0)
+        .addPlatingLeggings(3.0, db * 0.9, 0.05, 1.0)
+        .addPlatingBoots(2.0, db * 0.6, 0.05, 1.0)
+        .addPlatingShield(db * 0.9, 0.05, 1.0)
+        .addBinding()
+        .addMaille()
+        .addShieldCore()
+        .addTraits()
         .addDefaultTrait(1, 'tconstruct:magnetic')
         .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:projectile_protection')
         .build()
@@ -419,6 +512,36 @@ ServerEvents.highPriorityData(event => {
         fluid: "tfc:metal/red_steel",
         material: "tconstruct:red_steel",
         ingot: 'tfc:metal/ingot/red_steel',
+        leftover: 'cataclysm:black_steel_nugget',
+        units: 100,
+        temperature: 900,
+        time: 100,
+        meltIngot: true
+    })
+
+    db = 850
+    let blue_steel = createMaterialBuilder('blue_steel')
+        .setCraftable(false).setSortOrder(105).setTier(1)
+        .addStats()
+        .addHead(db, 15.0, 8.0, 'minecraft:netherite')
+        .addHandle(0.3, 0.15, 0.1, 0.2)
+        .addPlatingHelmet(3.0, db * 0.7, 0.05, 1.0)
+        .addPlatingChestplate(4.0, db * 1.0, 0.05, 1.0)
+        .addPlatingLeggings(4.0, db * 0.9, 0.05, 1.0)
+        .addPlatingBoots(2.0, db * 0.6, 0.05, 1.0)
+        .addPlatingShield(db * 0.9, 0.05, 1.0)
+        .addBinding()
+        .addMaille()
+        .addShieldCore()
+        .addTraits()
+        .addDefaultTrait(1, 'tconstruct:magnetic')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:projectile_protection')
+        .build()
+    registerMaterialProcess({
+        fluid: "tfc:metal/blue_steel",
+        material: "tconstruct:blue_steel",
+        ingot: 'tfc:metal/ingot/blue_steel',
+        leftover: 'cataclysm:black_steel_nugget',
         units: 100,
         temperature: 900,
         time: 100,

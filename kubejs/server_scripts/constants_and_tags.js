@@ -55,6 +55,10 @@ ServerEvents.tags('item', event => {
         'techreborn:cell'
     )
 
+    event.add('forge:ingots/black_steel', 
+        'cataclysm:black_steel_ingot'
+    )
+
     event.add('kubejs:delivery_coordinate_blacklist',
         '@sophisticatedstorage',
         '@sophisticatedbackpacks',

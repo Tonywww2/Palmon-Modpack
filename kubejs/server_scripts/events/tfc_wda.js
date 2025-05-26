@@ -1,7 +1,7 @@
 // priority: 30
 
 ServerEvents.tags('worldgen/biome', event => {
-    console.log(global.current_buffs.has("dungeon_1"))
+    console.log("Dungeons Rising TFC: " + global.current_buffs.has("dungeon_1"))
     if (global.current_buffs && global.current_buffs.has("dungeon_1")) {
         event.add('dungeons_arise:has_structure/abandoned_temple_biomes',
             "tfc:plains",
