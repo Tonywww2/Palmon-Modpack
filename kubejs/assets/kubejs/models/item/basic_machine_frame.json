@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "kubejs:item/basic_machine_frame"
+	}
+}
