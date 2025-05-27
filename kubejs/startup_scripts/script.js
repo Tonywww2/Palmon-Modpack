@@ -8,7 +8,6 @@ StartupEvents.registry('item', event => {
 	event.create('beryllium_bronze_alloy').displayName('Reinforced Sheet').fireResistant().rarity('rare').glow(true)
 
 	event.create('baby_proofing').displayName('§m§eBaby Proofing').fireResistant().rarity('rare').glow(true)
-	event.create('vial_of_chaos').displayName('§m§dVial of Chaos').fireResistant().rarity('rare').glow(true)
 	event.create('cognitio').displayName('§m§dCognitio').fireResistant().rarity('epic').glow(true)
 
 	event.create('virtual_gold_ingot').displayName('§mVirtual Gold Ingot').fireResistant().rarity('rare')
@@ -178,13 +177,32 @@ StartupEvents.registry('fluid', event => {
 		.bucketColor(0x800080)
 		.thickTexture(0x800080)
 		.temperature(1400)
-		.temperature(1400)
 
 	event.create('methane_helium_3_fuel')
 		.displayName('Methane-Helium 3 Entropy Fuel')
 		.bucketColor(0x800080)
 		.thickTexture(0xFFC8FF)
 		.temperature(1400)
-		.temperature(1400)
+
+	// TC Materials
+	event.create('melted_andesite_alloy')
+		.displayName('Melted Andesite Alloy')
+		.bucketColor(0xdddddd)
+		.thickTexture(0xa8a8a8)
+
+	event.create('melted_virtual_gold')
+		.displayName('Melted Virtual Gold')
+		.bucketColor(0xdddddd)
+		.thickTexture(0xe642b7)
+
+	event.create('melted_ancient_netherite')
+		.displayName('Melted Ancient Netherite')
+		.bucketColor(0xdddddd)
+		.thickTexture(0x860000)
+
+	event.create('melted_terrasteel')
+		.displayName('Melted Terrasteel')
+		.bucketColor(0xdddddd)
+		.thickTexture(0x00d71d)
 
 })

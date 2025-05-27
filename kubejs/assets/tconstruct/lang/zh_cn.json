@@ -2,7 +2,54 @@
     "material.tconstruct.black_steel": "黑钢",
     "material.tconstruct.black_steel.flavor": "漆黑的钢...",
 
+    "material.tconstruct.spirit_attuned_gem": "魔灵同调宝石",
+    "material.tconstruct.spirit_attuned_gem.flavor": "来自异界",
+
+    "material.tconstruct.andesite_alloy": "安山合金",
+    "material.tconstruct.andesite_alloy.flavor": "你是机械师？",
+    "fluid.kubejs.melted_andesite_alloy": "熔融安山合金",
+    "item.kubejs.melted_andesite_alloy_bucket": "桶装熔融安山合金",
+
     "material.tconstruct.red_steel": "红钢",
-    "material.tconstruct.red_steel.flavor": "赤红新星"
+    "material.tconstruct.red_steel.flavor": "赤红新星",
+    
+    "material.tconstruct.blue_steel": "蓝钢",
+    "material.tconstruct.blue_steel.flavor": "忧郁蓝调",
+
+    "material.tconstruct.virtual_gold": "虚金",
+    "material.tconstruct.virtual_gold.flavor": "并非虚无缥缈",
+    "fluid.kubejs.melted_virtual_gold": "熔融虚金",
+    "item.kubejs.melted_virtual_gold_bucket": "桶装熔融虚金",
+
+    "material.tconstruct.iesnium": "艾瑟金属",
+    "material.tconstruct.iesnium.flavor": "上等的异界金属",
+
+    "material.tconstruct.hop_graphite": "高定向热解石墨",
+    "material.tconstruct.hop_graphite.flavor": "为什么你会想拿他当做工具材料？",
+
+    "material.tconstruct.alpha_framework": "Alpha ",
+    "material.tconstruct.alpha_framework.flavor": "第一基准点",
+
+    "material.tconstruct.blazing_quartz": "烈焰石英",
+    "material.tconstruct.blazing_quartz.flavor": "亮闪闪真好看",
+
+    "material.tconstruct.ember_crystal": "余烬晶体",
+    "material.tconstruct.ember_crystal.flavor": "这不就是橙色的煤炭......",
+
+    "material.tconstruct.dawnstone": "黎明石",
+    "material.tconstruct.dawnstone.flavor": "它们称这种合金为石头",
+
+    "material.tconstruct.beta_framework": "Beta ",
+    "material.tconstruct.beta_framework.flavor": "第二基准点",
+
+    "material.tconstruct.ancient_netherite": "远古下界合金",
+    "material.tconstruct.ancient_netherite.flavor": "真不敢相信你把它给拆了",
+    "fluid.kubejs.melted_ancient_netherite": "熔融远古下界合金",
+    "item.kubejs.melted_ancient_netherite_bucket": "桶装熔融远古下界合金",
+
+    "material.tconstruct.terrasteel": "泰拉",
+    "material.tconstruct.terrasteel.flavor": "发射激光！",
+    "fluid.kubejs.melted_terrasteel": "熔融泰拉",
+    "item.kubejs.melted_terrasteel_bucket": "桶装熔融泰拉"
     
 }

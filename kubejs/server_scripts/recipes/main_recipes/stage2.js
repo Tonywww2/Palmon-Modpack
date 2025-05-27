@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
 
-    event.shapeless('4x kubejs:ancient_netherite', ['2x #forge:ingots/netherite', 'cataclysm:monstrous_horn']).id('kubejs:ancient_netherite_1_s2')
-    event.shapeless('9x kubejs:ancient_netherite', ['3x #forge:ingots/netherite', 'cataclysm:infernal_forge']).id('kubejs:ancient_netherite_2_s2')
+    event.shapeless('4x kubejs:ancient_netherite', ['2x tinkers_advanced:blaze_netherite', 'cataclysm:monstrous_horn']).id('kubejs:ancient_netherite_1_s2')
+    event.shapeless('9x kubejs:ancient_netherite', ['2x tinkers_advanced:blaze_netherite', 'cataclysm:infernal_forge']).id('kubejs:ancient_netherite_2_s2')
 
     event.stonecutting('botania:apothecary_default', ['#kubejs:apothecary']).id('kubejs:apothecary_ex_1_s2')
     event.stonecutting('botania:apothecary_forest', ['#kubejs:apothecary']).id('kubejs:apothecary_ex_2_s2')

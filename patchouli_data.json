@@ -87,7 +87,8 @@
         "tfc:beneath/beneath",
         "tfc:mechanics/lamps",
         "tfc:firmalife/climate_station",
-        "tfc:waterflasks/recipes"
+        "tfc:waterflasks/recipes",
+        "tfc:mechanics/damage_types"
       ],
       "bookmarks": [],
       "completedManualQuests": []

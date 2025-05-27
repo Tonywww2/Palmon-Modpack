@@ -44,7 +44,7 @@
 #Configurations related to item tags.
 [itemTags]
 	#List of item tags that should not be added.
-	blacklist = []
+	blacklist = ["forge:ingots/dragonsteel_fire", "forge:ingots/dragonsteel_ice", "forge:ingots/dragonsteel_lightning"]
 	#List of item tags that should be considered as defined.
 	customDefined = []
 

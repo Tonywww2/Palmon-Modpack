@@ -227,17 +227,6 @@ ServerEvents.recipes(event => {
             D: 'industrialforegoing:machine_frame_supreme'
         })
 
-    event.shaped('kubejs:vial_of_chaos', [
-        'ABA',
-        'BCB',
-        'ABA'
-    ],
-        {
-            A: 'adventuresmod:stardust',
-            B: 'adventuresmod:mythril_ingot',
-            C: 'rats:vial_of_sentience'
-        })
-
     event.shaped('minecraft:netherite_upgrade_smithing_template', [
         'ABA',
         'ACA',
