@@ -24,21 +24,21 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | register | ResourceLocation, Consumer<Builder> |  | void | ✘ |
-| getDefaultAverageRainfallCallback |  |  | LevelPos2FloatCallback | ✘ |
-| getDefaultWindVectorCallback |  |  | WindVectorCallback | ✘ |
-| registerAdvancedClimateModel | ResourceLocation, Consumer<Builder> |  | void | ✘ |
 | registerClimateModel | ResourceLocation, Consumer<Builder> |  | void | ✘ |
 | getDefaultWaterFogCallback |  |  | LevelPosLong2FloatCallback | ✘ |
+| registerAdvancedClimateModel | ResourceLocation, Consumer<Builder> |  | void | ✘ |
+| getDefaultAverageRainfallCallback |  |  | LevelPos2FloatCallback | ✘ |
+| getDefaultWindVectorCallback |  |  | WindVectorCallback | ✘ |
 | getDefaultAirFogCallback |  |  | LevelPosLong2FloatCallback | ✘ |
-| newVec2 | float, float |  | Vec2 | ✘ |
 | getDefaultCurrentTemperatureCallback |  |  | TemperatureCallback | ✘ |
 | getDefaultAverageTemperatureCallback |  |  | LevelPos2FloatCallback | ✘ |
+| newVec2 | float, float |  | Vec2 | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| success |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
+| success |  |  | Object | ✘ |
 
 
 ### Documented members:
@@ -51,26 +51,6 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ```
 Creates a new climate model with the given name and properties
-```
-
-- `LevelPos2FloatCallback getDefaultAverageRainfallCallback()`
-```
-Deprecated
-```
-
-- `WindVectorCallback getDefaultWindVectorCallback()`
-```
-Deprecated
-```
-
-- `void registerAdvancedClimateModel(ResourceLocation var0, Consumer<Builder> var1)`
-
-  Parameters:
-  - var0: ResourceLocation
-  - var1: Consumer<Builder>
-
-```
-Deprecated, use `.register`
 ```
 
 - `void registerClimateModel(ResourceLocation var0, Consumer<Builder> var1)`
@@ -88,17 +68,27 @@ Deprecated, use `.register`
 Deprecated
 ```
 
-- `LevelPosLong2FloatCallback getDefaultAirFogCallback()`
+- `void registerAdvancedClimateModel(ResourceLocation var0, Consumer<Builder> var1)`
+
+  Parameters:
+  - var0: ResourceLocation
+  - var1: Consumer<Builder>
+
+```
+Deprecated, use `.register`
+```
+
+- `LevelPos2FloatCallback getDefaultAverageRainfallCallback()`
 ```
 Deprecated
 ```
 
-- `Vec2 newVec2(float var0, float var1)`
+- `WindVectorCallback getDefaultWindVectorCallback()`
+```
+Deprecated
+```
 
-  Parameters:
-  - var0: float
-  - var1: float
-
+- `LevelPosLong2FloatCallback getDefaultAirFogCallback()`
 ```
 Deprecated
 ```
@@ -109,6 +99,16 @@ Deprecated
 ```
 
 - `LevelPos2FloatCallback getDefaultAverageTemperatureCallback()`
+```
+Deprecated
+```
+
+- `Vec2 newVec2(float var0, float var1)`
+
+  Parameters:
+  - var0: float
+  - var1: float
+
 ```
 Deprecated
 ```
@@ -149,13 +149,6 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
 - `Object success(Object var0)`
 
   Parameters:
@@ -163,6 +156,13 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

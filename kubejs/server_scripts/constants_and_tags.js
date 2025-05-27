@@ -122,6 +122,10 @@ ServerEvents.tags('fluid', event => {
         'techreborn:helium'
     )
 
+    event.add('forge:molten_bismuth',
+        'techreborn:helium'
+    )
+
     event.remove('minecraft:water',
         'cobgyms:safe_lava'
     )

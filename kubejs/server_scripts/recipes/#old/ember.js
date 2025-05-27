@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "embers:boring",
         "dimensions": [
-          "kubejs:overworld"
+          "kubejs:tfc_planet"
         ],
         "max_height": -57,
         "output": {
@@ -18,7 +18,7 @@ ServerEvents.recipes(event => {
       event.custom({
         "type": "embers:boring",
         "dimensions": [
-          "kubejs:overworld"
+          "kubejs:tfc_planet"
         ],
         "max_height": -57,
         "output": {
@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
       event.custom({
         "type": "embers:boring",
         "dimensions": [
-          "kubejs:overworld"
+          "kubejs:tfc_planet"
         ],
         "max_height": -57,
         "output": {

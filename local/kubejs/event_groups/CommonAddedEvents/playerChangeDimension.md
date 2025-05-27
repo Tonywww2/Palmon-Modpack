@@ -20,23 +20,23 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | of | ServerPlayer, ResourceKey<Level>, ResourceKey<Level> |  | PlayerChangeDimensionEventJS | ✔ |
-| getNewLevel |  |  | Level | ✘ |
+| getEntity |  |  | Entity | ✘ |
 | getOldLevel |  |  | Level | ✘ |
-| getNewWorldKey |  |  | ResourceKey<Level> | ✘ |
+| getNewLevel |  |  | Level | ✘ |
 | getOldWorldKey |  |  | ResourceKey<Level> | ✘ |
-| getEntity |  |  | Player | ✘ |
-| getPlayer |  |  | Player | ✘ |
+| getNewWorldKey |  |  | ResourceKey<Level> | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
-| addGameStage | String |  | void | ✘ |
 | removeGameStage | String |  | void | ✘ |
+| addGameStage | String |  | void | ✘ |
+| getPlayer |  |  | Player | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| success |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
+| success |  |  | Object | ✘ |
 
 
 ### Documented members:
@@ -50,15 +50,6 @@ Note: Even if no fields are listed above, some methods are still available as fi
 Checks if the player has the specified game stage
 ```
 
-- `void addGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Adds the specified game stage to the player
-```
-
 - `void removeGameStage(String var0)`
 
   Parameters:
@@ -66,6 +57,15 @@ Adds the specified game stage to the player
 
 ```
 Removes the specified game stage from the player
+```
+
+- `void addGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Adds the specified game stage to the player
 ```
 
 - `Object exit(Object var0)`
@@ -104,13 +104,6 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
 - `Object success(Object var0)`
 
   Parameters:
@@ -118,6 +111,13 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

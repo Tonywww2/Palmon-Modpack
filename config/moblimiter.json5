@@ -1,0 +1,44 @@
+{
+  // General rules:
+  // - Limits: 0 -> no spawn, -1 -> unlimited, range -> 0-10000 (world), 0-1000 (chunk)
+  // - removal_type: "despawn" -> silent, "kill" -> drops loot
+  // - Chunk limit priority: mob (e.g., minecraft:cow) -> category (e.g., minecraft:creatures) -> namespace (e.g., minecraft:*) -> default
+  // - World limit priority: mob (e.g., minecraft:cow) -> total
+
+  // Vanilla despawn:
+  // - mode: "vanilla" -> default rules, "custom" -> use min/max_distance, "disabled" -> persistent mobs
+  // - min_distance, max_distance: despawn range (blocks, for "custom")
+  "vanilla_despawn": {
+    "mode": "vanilla",
+    "min_distance": 32.0,
+    "max_distance": 128.0
+  },
+
+  // World limits:
+  // - enabled: true/false
+  // - total: max mobs in world (-1 -> unlimited)
+  // - removal_type: excess mob removal
+  // - mobs: per-mob limits
+  "world_limits": {
+    "enabled": true,
+    "total": 500,
+    "removal_type": "despawn",
+    "mobs": {}
+  },
+
+  // Chunk limits:
+  // - enabled: true/false
+  // - default.limit: default mob cap per chunk (-1 -> unlimited)
+  // - removal_type: excess mob removal
+  // - mobs: per-mob, category, or namespace limits
+  "chunk_limits": {
+    "enabled": true,
+    "removal_type": "despawn",
+    "default": {
+      "limit": 20
+    },
+    "mobs": {
+      "aqua_creepers:aqua_creeper": 2
+    }
+  }
+}

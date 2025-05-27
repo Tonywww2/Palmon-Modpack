@@ -3,11 +3,11 @@
  */
 // v1
 // global.dimAdder = {
-//     'minecraft:overworld': [10, 2, 0],
+//     'kubejs:tfc_planet': [10, 2, 0],
 
 //     'minecraft:the_nether': [20, 14, 0],
 
-//     'kubejs:overworld': [40, 20, 0],
+//     'minecraft:overworld': [40, 20, 0],
 //     'dimdungeons:dungeon_dimension': [60, 35, 0],
 //     'ad_astra:moon': [50, 30, 0],
 
@@ -22,11 +22,11 @@
 // }
 
 // global.dimMuti = {
-//     'minecraft:overworld': [1, 0.5, 1],
+//     'kubejs:tfc_planet': [1, 0.5, 1],
 
 //     'minecraft:the_nether': [2.5, 0.7, 1],
 
-//     'kubejs:overworld': [6, 1, 1],
+//     'minecraft:overworld': [6, 1, 1],
 //     'dimdungeons:dungeon_dimension': [8, 1.4, 1],
 //     'ad_astra:moon': [7, 1.35, 1],
 //     'oceanworld:deepsea': [7, 1.35, 1],
@@ -46,11 +46,11 @@
  */
 // v2
 global.dimAdder = {
-    'minecraft:overworld': [10, 2, 8],
+    'kubejs:tfc_planet': [10, 2, 8],
 
     'minecraft:the_nether': [20, 14, 15],
 
-    'kubejs:overworld': [40, 20, 36],
+    'minecraft:overworld': [40, 20, 36],
     'dimdungeons:dungeon_dimension': [60, 35, 36],
     'ad_astra:moon': [50, 30, 36],
     'oceanworld:deepsea': [50, 30, 36],
@@ -66,11 +66,11 @@ global.dimAdder = {
 }
 
 global.dimMuti = {
-    'minecraft:overworld': [1, 0.5, 0.8],
+    'kubejs:tfc_planet': [1, 0.5, 0.8],
 
     'minecraft:the_nether': [2.5, 0.7, 1.35],
 
-    'kubejs:overworld': [7, 1, 1.75],
+    'minecraft:overworld': [7, 1, 1.75],
     'dimdungeons:dungeon_dimension': [10, 1.4, 2.25],
     'ad_astra:moon': [9, 1.35, 2.0],
     'oceanworld:deepsea': [9, 1.35, 2.0],
@@ -124,7 +124,7 @@ EntityEvents.spawned(event => {
             entity.persistentData.putString('ova_difficulty', dim)
 
             if (!global.dimAdder[dim]) {
-                dim = 'kubejs:overworld'
+                dim = 'kubejs:tfc_planet'
             }
 
 

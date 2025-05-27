@@ -266,7 +266,7 @@ PlayerEvents.advancement('dustandash:entry', event => {
      * @type {Internal.ServerPlayer}
      */
     let player = event.player
-    player.tell("第一次登陆提示")
+    // player.tell("第一次登陆提示")
 
     if (global.current_buffs.size != 0) {
         player.tell(Text.translatable('kubejs.eot.first_login_info').color(Color.AQUA))

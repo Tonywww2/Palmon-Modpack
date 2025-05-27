@@ -23,18 +23,28 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
+| simple | ResourceLocation, SimpleApplicator |  | void | ✘ |
 | withInput | ResourceLocation, ModifierApplicator |  | void | ✘ |
 | withInventory | ResourceLocation, WithInventoryApplicator |  | void | ✘ |
-| simple | ResourceLocation, SimpleApplicator |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| success |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
+| success |  |  | Object | ✘ |
 
 
 ### Documented members:
+
+- `void simple(ResourceLocation id, SimpleApplicator applicator)`
+
+  Parameters:
+  - id: ResourceLocation- The registry name of the modifier
+  - applicator: SimpleApplicator- The function that will be applied to the stack when the modifier is called
+
+```
+Creates a new item stack modifier with the given id and function
+```
 
 - `void withInput(ResourceLocation id, ModifierApplicator applicator)`
 
@@ -54,16 +64,6 @@ Creates a new item stack modifier with the given id and function. Depends on the
 
 ```
 Creates a new item stack modifier with the given id and function. Depends on the input item. The inventory may be empty if the recipe type does not support it
-```
-
-- `void simple(ResourceLocation id, SimpleApplicator applicator)`
-
-  Parameters:
-  - id: ResourceLocation- The registry name of the modifier
-  - applicator: SimpleApplicator- The function that will be applied to the stack when the modifier is called
-
-```
-Creates a new item stack modifier with the given id and function
 ```
 
 - `Object exit(Object var0)`
@@ -102,13 +102,6 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
 - `Object success(Object var0)`
 
   Parameters:
@@ -116,6 +109,13 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

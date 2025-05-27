@@ -1,8 +1,6 @@
 {
-    "planet.kubejs.overworld": "Earth",
-    "planet.ad_astra.present_earth_orbit": "Earth Orbit",
-    "planet.minecraft.overworld": "§aTFC Planet",
-    "planet.ad_astra.earth_orbit": "§aTFC Planet Orbit",
+    "planet.kubejs.tfc_planet": "§aTFC Planet",
+    "planet.ad_astra.tfc_planet_orbit": "§aTFC Planet Orbit",
     "planet.oceanworld.deepsea": "§1Deep Sea",
     "planet.oceanworld.deepsea_orbit": "§1Deep Sea Orbit"
 }

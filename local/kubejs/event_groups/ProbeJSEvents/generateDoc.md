@@ -22,18 +22,18 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | getProperty | JsonObject |  | AbstractProperty<?> | ✘ |
 | specialType | String, List<Object> |  | DocGenerationEventJS | ✘ |
 | getJavaClass | Class<?> |  | DocumentClass | ✘ |
+| addSnippet | String, List<Object> |  | DocGenerationEventJS | ✘ |
+| addSnippet | String, List<Object>, String |  | DocGenerationEventJS | ✘ |
 | transformDocument | Class<?>, Consumer<DocumentClass> |  | DocGenerationEventJS | ✘ |
 | transformByName | String, Consumer<DocumentClass> |  | DocGenerationEventJS | ✘ |
-| addSnippet | String, List<Object>, String |  | DocGenerationEventJS | ✘ |
-| addSnippet | String, List<Object> |  | DocGenerationEventJS | ✘ |
-| customSnippet | String, List<String>, List<Object> |  | DocGenerationEventJS | ✘ |
 | customSnippet | String, List<String>, List<Object>, String |  | DocGenerationEventJS | ✘ |
+| customSnippet | String, List<String>, List<Object> |  | DocGenerationEventJS | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| success |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
+| success |  |  | Object | ✘ |
 
 
 ### Documented members:
@@ -74,13 +74,6 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
 - `Object success(Object var0)`
 
   Parameters:
@@ -88,6 +81,13 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

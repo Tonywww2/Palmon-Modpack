@@ -3,8 +3,9 @@ const $ClimateRenderCache = Java.loadClass("net.dries007.tfc.client.ClimateRende
 const $Calendars = Java.loadClass("net.dries007.tfc.util.calendar.Calendars")
 const $Month = Java.loadClass("net.dries007.tfc.util.calendar.Month")
 const $ClimateClassification = Java.loadClass("net.dries007.tfc.util.climate.KoppenClimateClassification")
+const $RenderGuiEvent = Java.loadClass("net.minecraftforge.client.event.RenderGuiEvent$Pre")
 
-NativeEvents.onEvent("net.minecraftforge.client.event.RenderGuiEvent$Pre", event => {
+NativeEvents.onEvent($RenderGuiEvent, event => {
     global.renderGuiEvent(event)
 
 })

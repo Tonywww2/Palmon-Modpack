@@ -11,10 +11,10 @@ global.hurtEvent = function(event) {
     if (entity.player) {
         let dim = entity.level.dimension.location().toString()
         let damage = event.getAmount()
-        entity.tell("Damage: " + damage)
+        // entity.tell("Damage: " + damage)
         damage *= global.dimMuti[dim][2]
         event.setAmount(damage)
-        entity.tell("After Damage: " + damage)
+        // entity.tell("After Damage: " + damage)
 
     }
 

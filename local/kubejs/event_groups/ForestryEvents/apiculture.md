@@ -20,20 +20,20 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | registerSpecies | ResourceLocation, String, String, boolean, TextColor |  | IBeeSpeciesBuilder | ✘ |
-| registerFlowerType | ResourceLocation, BiPredicate<Level, BlockPos>, PlantRandomFlowerFunction, boolean |  | void | ✘ |
+| registerCustomActivityType | ResourceLocation, IsActiveFunction, InactiveErrorFunction, LightPreference, boolean |  | void | ✘ |
+| registerSwarmerMaterial | Item, float |  | void | ✘ |
 | addVillageBee | ResourceLocation, boolean, Map<IChromosome<?>, IAllele> |  | void | ✘ |
 | registerBeeEffect | ResourceLocation, UnaryOperator<IEffectData>, boolean, Function3<IGenome, IEffectData, IBeeHousing, IEffectData>, Function3<IGenome, IEffectData, IBeeHousing, IEffectData>, boolean |  | void | ✘ |
-| registerSwarmerMaterial | Item, float |  | void | ✘ |
-| registerCustomHive | ResourceLocation, IHiveGen, BlockState, Predicate<Holder<Biome>>, Predicate<HumidityType>, Predicate<TemperatureType>, float, PostGenFunction |  | IHiveBuilder | ✘ |
-| modifySpecies | ResourceLocation, Consumer<IBeeSpeciesBuilder> |  | void | ✘ |
+| registerFlowerType | ResourceLocation, BiPredicate<Level, BlockPos>, PlantRandomFlowerFunction, boolean |  | void | ✘ |
 | modifyHive | ResourceLocation, Consumer<IHiveBuilder> |  | void | ✘ |
-| registerCustomActivityType | ResourceLocation, IsActiveFunction, InactiveErrorFunction, LightPreference, boolean |  | void | ✘ |
+| modifySpecies | ResourceLocation, Consumer<IBeeSpeciesBuilder> |  | void | ✘ |
+| registerCustomHive | ResourceLocation, IHiveGen, BlockState, Predicate<Holder<Biome>>, Predicate<HumidityType>, Predicate<TemperatureType>, float, PostGenFunction |  | IHiveBuilder | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| success |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
+| success |  |  | Object | ✘ |
 
 
 ### Documented members:
@@ -74,13 +74,6 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
 - `Object success(Object var0)`
 
   Parameters:
@@ -88,6 +81,13 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```
