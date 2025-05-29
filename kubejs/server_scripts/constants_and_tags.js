@@ -59,6 +59,10 @@ ServerEvents.tags('item', event => {
         'cataclysm:black_steel_ingot'
     )
 
+    event.add('sbtwinattack:twin_attack_blacklist', 
+        'tinkers_advanced:electron_tuner'
+    )
+
     event.add('kubejs:delivery_coordinate_blacklist',
         '@sophisticatedstorage',
         '@sophisticatedbackpacks',

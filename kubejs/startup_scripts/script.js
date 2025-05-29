@@ -205,4 +205,16 @@ StartupEvents.registry('fluid', event => {
 		.bucketColor(0xdddddd)
 		.thickTexture(0x00d71d)
 
+
+
+	event.create('melted_end_steel')
+		.displayName('Melted End Steel')
+		.bucketColor(0xdddddd)
+		.thickTexture(0xf3a9ff)
+
+	event.create('melted_titanium')
+		.displayName('Melted Titanium')
+		.bucketColor(0xdddddd)
+		.thickTexture(0xebebeb)
+
 })

@@ -97,7 +97,7 @@ const health = "minecraft:generic.max_health"
 const attack = "minecraft:generic.attack_damage"
 const armor = "minecraft:generic.armor"
 
-global.entityBlackList = new Set(["cobblemon:pokemon", "dummmmmmy:target_dummy", "aqua_creepers:aqua_creeper"])
+global.entityBlackList = new Set(["entity.cobblemon.pokemon", "entity.dummmmmmy.target_dummy", "entity.aqua_creepers.aqua_creeper", "entity.distantfriends.friend"])
 
 EntityEvents.spawned(event => {
     /**
@@ -105,57 +105,62 @@ EntityEvents.spawned(event => {
      */
     let entity = event.entity
 
-    if (entity && entity.isLiving()) {
-        let name = entity.type
-        if (entity.isMonster() && !global.entityBlackList.has(name) && entity.persistentData && !entity.persistentData.contains('ova_difficulty')) {
-            let dim = event.level.dimension.location().toString()
-            let player = entity.getLevel().getNearestPlayer(entity, 240)
-            let diffNum = 1
+    if (!entity || !entity.isLiving()) return
+    let name = String(entity.type.toString())
 
-            if (player) {
-                player.stages.getAll().forEach(element => {
-                    if (element.startsWith(global.diffLevelStage)) {
-                        diffNum = Math.max(diffNum, parseInt(element.split('_')[2]))
-                    }
-                })
+    if (entity.isPlayer()) return
+    if (global.entityBlackList.has(name)) return
+    if (!entity.forgePersistentData) return
+    if (entity.forgePersistentData.contains('ova_difficulty')) return
 
+    let dim = event.level.dimension.location().toString()
+    let player = entity.getLevel().getNearestPlayer(entity, 240)
+    let diffNum = 1
+
+    if (player) {
+        player.stages.getAll().forEach(element => {
+            if (element.startsWith(global.diffLevelStage)) {
+                diffNum = Math.max(diffNum, parseInt(element.split('_')[2]))
             }
-
-            entity.persistentData.putString('ova_difficulty', dim)
-
-            if (!global.dimAdder[dim]) {
-                dim = 'kubejs:tfc_planet'
-            }
-
-
-            if (entity.attributes.hasAttribute(health)) {
-                let hpVal = entity.getAttribute(health).getBaseValue() + global.dimAdder[dim][0]
-                hpVal *= global.dimMuti[dim][0] * global.diffMuti[diffNum][0]
-
-                entity.setAttributeBaseValue(health, hpVal)
-                entity.setHealth(entity.getMaxHealth())
-
-            }
-
-            if (entity.attributes.hasAttribute(armor)) {
-                let armVal = entity.getAttribute(armor).getBaseValue() + global.dimAdder[dim][1]
-                armVal *= global.dimMuti[dim][1] * global.diffMuti[diffNum][1]
-
-                entity.setAttributeBaseValue(armor, armVal)
-
-            }
-
-            if (entity.attributes.hasAttribute(attack)) {
-                let atkVal = entity.getAttribute(attack).getBaseValue() + global.dimAdder[dim][2]
-                atkVal *= global.diffMuti[diffNum][2]
-
-                entity.setAttributeBaseValue(attack, atkVal)
-
-            }
-
-        }
+        })
 
     }
+
+    entity.persistentData.putString('ova_difficulty', dim)
+
+    if (!global.dimAdder[dim]) {
+        dim = 'kubejs:tfc_planet'
+    }
+
+
+    if (entity.attributes.hasAttribute(health)) {
+        let hpVal = entity.getAttribute(health).getBaseValue() + global.dimAdder[dim][0]
+        hpVal *= global.dimMuti[dim][0] * global.diffMuti[diffNum][0]
+
+        entity.setAttributeBaseValue(health, hpVal)
+        entity.setHealth(entity.getMaxHealth())
+
+    }
+
+    if (entity.attributes.hasAttribute(armor)) {
+        let armVal = entity.getAttribute(armor).getBaseValue() + global.dimAdder[dim][1]
+        armVal *= global.dimMuti[dim][1] * global.diffMuti[diffNum][1]
+
+        entity.setAttributeBaseValue(armor, armVal)
+
+    }
+
+    if (entity.attributes.hasAttribute(attack)) {
+        let atkVal = entity.getAttribute(attack).getBaseValue() + global.dimAdder[dim][2]
+        atkVal *= global.diffMuti[diffNum][2]
+
+        entity.setAttributeBaseValue(attack, atkVal)
+
+    }
+
+
+
+
 
 })
 

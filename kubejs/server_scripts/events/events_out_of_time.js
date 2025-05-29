@@ -1,4 +1,4 @@
-// priority: 60
+// priority: 80
 const $ClickEvent = Java.loadClass('net.minecraft.network.chat.ClickEvent');
 const $ClickEventAction = Java.loadClass('net.minecraft.network.chat.ClickEvent$Action')
 

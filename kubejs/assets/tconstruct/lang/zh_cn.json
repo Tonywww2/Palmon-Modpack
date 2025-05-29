@@ -50,6 +50,33 @@
     "material.tconstruct.terrasteel": "泰拉",
     "material.tconstruct.terrasteel.flavor": "发射激光！",
     "fluid.kubejs.melted_terrasteel": "熔融泰拉",
-    "item.kubejs.melted_terrasteel_bucket": "桶装熔融泰拉"
+    "item.kubejs.melted_terrasteel_bucket": "桶装熔融泰拉",
+
+
+    
+    "material.tconstruct.end_steel": "终末钢",
+    "material.tconstruct.end_steel.flavor": "Are you going to Scarborough Fair?",
+    "fluid.kubejs.melted_end_steel": "熔融终末钢",
+    "item.kubejs.melted_end_steel_bucket": "桶装熔融终末钢",
+    
+    "material.tconstruct.collapse_prediction": "坍缩产物",
+    "material.tconstruct.collapse_prediction.flavor": "聚三界为一体",
+    
+    "material.tconstruct.sculk_tendrils": "幽匿卷须",
+    "material.tconstruct.sculk_tendrils.flavor": "黑色触手",
+    
+    "material.tconstruct.sculk_gleam": "幽匿微光体",
+    "material.tconstruct.sculk_gleam.flavor": "黑夜中的光",
+    
+    "material.tconstruct.iridescent": "虹光",
+    "material.tconstruct.iridescent.flavor": "这简直就是彩虹的碎片",
+
+    "material.tconstruct.fusion_reactor_casing": "聚变反应堆外壳",
+    "material.tconstruct.fusion_reactor_casing.flavor": "抵御中子",
+    
+    "material.tconstruct.titanium": "钛",
+    "material.tconstruct.titanium.flavor": "很科幻，不是吗？",
+    "fluid.kubejs.melted_titanium": "熔融钛",
+    "item.kubejs.melted_titanium_bucket": "桶装熔融钛"
     
 }

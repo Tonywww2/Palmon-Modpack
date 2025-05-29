@@ -263,6 +263,31 @@
 			x: 2.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["4C273D948C0B6562"]
+			description: [
+				"本整合包支持&eDistant Horizons&r。"
+				"默认关闭渲染，推荐游戏内存分配14G或以上的玩家开启。"
+				"如果你的内存偏低，或者不希望使用该模组，建议在游戏外禁用。"
+				""
+				"本整合包支持&eChunky&r。"
+				"&eChunky&r可以非常高效的提前生成地图，极大的提升玩家的跑图体验。"
+				"建议在游玩前预先生成一定半径的地图。"
+				""
+				"本整合包半支持&eC2M引擎&r。"
+				"在地球可以正常使用，并显著提升世界生成性能。"
+				"在群峦星使用则有大概率导致区块生成错误而无法进入游戏，需要删除损坏的区块。"
+			]
+			icon: "supplementaries:globe_sepia"
+			id: "30DAABB9B87355BF"
+			tasks: [{
+				id: "019CE706CEA2CB11"
+				type: "checkmark"
+			}]
+			title: "可选模组 | Optional Mods"
+			x: 0.0d
+			y: 2.0d
+		}
 	]
 	title: "开始 \\& 介绍 | Beginning \\& Intro."
 }

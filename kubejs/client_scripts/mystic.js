@@ -13,7 +13,7 @@ NativeEvents.onEvent($RenderGuiEvent, event => {
 global.renderGuiEvent = function (event) {
     let guiGraphics = event.getGuiGraphics()
     let poseStack = guiGraphics.pose()
-    let window = Client.getWindow()
+    // let window = Client.getWindow()
 
     let climateCache = $ClimateRenderCache.INSTANCE
     let calendarsClient = $Calendars.CLIENT
@@ -49,7 +49,7 @@ global.renderGuiEvent = function (event) {
                 )
                 guiGraphics["drawString(net.minecraft.client.gui.Font,java.lang.String,float,float,int,boolean)"](
                     Client.font,
-                    Text.translate("ui.kubejs.current_dimension", Client.player.level.dimension.location()).getString(),
+                    Text.translate("ui.kubejs.current_dimension", Client.player.level.dimension.location().getPath()).getString(),
                     0, 24,
                     getColorWithRGBA(55, 255, 155, 100),
                     false

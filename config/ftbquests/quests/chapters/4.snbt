@@ -531,7 +531,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.0d
 			y: -12.0d
 		}
 		{
@@ -2839,6 +2839,17 @@
 			title: "世界线的观测者·β"
 			x: 0.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["3D68BD03828E6C01"]
+			id: "04CAD35700D84524"
+			tasks: [{
+				id: "54E895F5E237F595"
+				item: "tinkers_advanced:resonance_crystal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -12.0d
 		}
 	]
 	title: "4. 火星 | The Mars"

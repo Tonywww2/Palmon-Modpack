@@ -32,3 +32,14 @@ function loadPackData() {
 function savePackData(json) {
     JsonIO.write(PACK_DATA_PATH, json)
 }
+
+function deFusionCrafting(event, ingredients, catalyst, result, tier, total_energy, id) {
+    event.custom({
+        "type": "draconicevolution:fusion_crafting",
+        "catalyst": catalyst,
+        "ingredients": ingredients,
+        "result": result,
+        "tier": tier,
+        "total_energy": total_energy
+    }).id(id)
+}

@@ -1,5 +1,7 @@
 ServerEvents.recipes(event => {
     tcFuel('immersiveengineering:creosote', 100, 20, 1000)
+    tcFuel('tcintegrations:molten_ostrum', 400, 20, 2000)
+    tcFuel('kubejs:methane_helium_3_fuel', 400, 10, 2500)
 
     tcMelting({ "item": 'tfc:powder/native_silver' },
         { "amount": 7, "tag": "forge:molten_silver" }, 500, 10, 'kubejs:tc_melting_native_silver')

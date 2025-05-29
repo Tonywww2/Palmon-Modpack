@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "tconstruct:end_steel",
+    "tconstruct:collapse_prediction",
+    "tconstruct:sculk_tendrils",
+    "tconstruct:sculk_gleam",
+    "tconstruct:iridescent",
+    "tconstruct:whitestone",
+    "tconstruct:fusion_reactor_casing",
+    "tconstruct:titanium"
+  ]
+}

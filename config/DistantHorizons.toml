@@ -356,7 +356,7 @@ _version = 3
 				# Note: Due to current limitations, the min value is 50 
 				# and the max value is 5000. Any values outside this range 
 				# will be set to 0 (disabled).
-				earthCurveRatio = 0
+				earthCurveRatio = 50
 
 		[client.advanced.multiplayer]
 			#
@@ -684,7 +684,7 @@ _version = 3
 		#
 		# If enabled, the mod will log information about the world generation process. 
 		# This can be useful for debugging.
-		logWorldGenEvent = "LOG_INFO_TO_CHAT"
+		logWorldGenEvent = "LOG_ERROR_TO_CHAT_AND_FILE"
 		#
 		# If enabled, the mod will log performance about the world generation process. 
 		# This can be useful for debugging.

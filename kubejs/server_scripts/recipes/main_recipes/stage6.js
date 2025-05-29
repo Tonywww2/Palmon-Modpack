@@ -506,7 +506,7 @@ ServerEvents.recipes(event => {
             C: 'kubejs:epsilon_dust'
         }).id('kubejs:forge_metal_former_s6')
 
-        event.shaped('dustandash:ionizer', [
+    event.shaped('dustandash:ionizer', [
         'FBA',
         'ACA',
         'EDE'
@@ -555,5 +555,26 @@ ServerEvents.recipes(event => {
             "item": "embers:ember_crystal_cluster"
         }
     }).id('kubejs:aether_amalgam_s6')
+
+    deFusionCrafting(event, [
+        Item.of('tconstruct:ender_slime_ball').toJson(),
+        Item.of('tconstruct:ender_slime_ball').toJson(),
+        Item.of('tconstruct:ender_slime_crystal').toJson(),
+        Item.of('tconstruct:ender_slime_crystal').toJson(),
+        Item.of('tinkers_advanced:disintegrate_crystal').toJson(),
+        Item.of('tinkers_advanced:disintegrate_crystal').toJson(),
+        Item.of('tinkers_advanced:disintegrate_crystal').toJson(),
+        Item.of('tinkers_advanced:disintegrate_crystal').toJson(),
+        Item.of('#mekanism:alloys/atomic').toJson(),
+        Item.of('#mekanism:alloys/atomic').toJson(),
+        Item.of('#mekanism:alloys/atomic').toJson(),
+        Item.of('#mekanism:alloys/atomic').toJson()
+    ],
+        Item.of('draconicevolution:awakened_core').toJson(),
+        Item.of('tinkers_advanced:voltaic_crystal').toJson(),
+        "DRACONIC",
+        100000000,
+        'kubejs:voltaic_crystal_s6'
+    )
 
 })

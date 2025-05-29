@@ -1946,6 +1946,28 @@
 			x: 28.0d
 			y: 14.0d
 		}
+		{
+			dependencies: ["3EB1062703F92090"]
+			id: "748F2C98C87FE73B"
+			tasks: [{
+				id: "5BCA468C550A5D21"
+				item: "draconicevolution:awakened_crafting_injector"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["748F2C98C87FE73B"]
+			id: "7A8AFCC577E0AED4"
+			tasks: [{
+				id: "1F761A4BF81C6064"
+				item: "tinkers_advanced:voltaic_crystal"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
 	]
 	title: "6. 超越彼方 | Beyond, and Beyond"
 }

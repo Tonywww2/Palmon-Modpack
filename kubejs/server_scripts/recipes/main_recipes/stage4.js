@@ -58,6 +58,18 @@ ServerEvents.recipes(event => {
             C: 'ad_astra:ostrum_engine'
         }).id('kubejs:alfheim_portal_s4')
 
+    event.shaped('tinkers_advanced:resonance_crystal', [
+        'ADA',
+        'BCB',
+        'ADA'
+    ],
+        {
+            A: '#forge:slimeballs',
+            B: 'minecraft:echo_shard',
+            C: 'kubejs:essence_computation_frame',
+            D: '#forge:ingots/slimesteel'
+        }).id('kubejs:resonance_crystal_s4')
+
     event.recipes.thermal.smelter('2x kubejs:essence_computation_frame',
         ['ae2:cell_component_4k', 'kubejs:gamma_framework', 'jaopca:processors.elementium']
     ).energy(38400)

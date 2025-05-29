@@ -203,6 +203,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'mekanism:transmitter/logistical_transporter/basic' })
     event.remove({ id: 'techreborn:crafting_table/machine_block/advanced_machine_casing_alt' })
     event.remove({ id: 'techreborn:crafting_table/machine_block/industrial_machine_casing_alt' })
+    event.remove({ id: 'tinkers_advanced:table/resonance_crystal' })
+    event.remove({ id: 'tinkers_advanced:table/voltaic_crystal' })
 
     // s7
     event.remove({ id: 'avaritia:sculk_crafting_table' })

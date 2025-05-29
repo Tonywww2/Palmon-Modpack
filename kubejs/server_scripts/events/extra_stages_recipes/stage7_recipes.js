@@ -1,4 +1,4 @@
-// priority: 70
+// priority: 90
 
 const stage7 = function (event) {
     event.shaped('avaritia:sculk_crafting_table', [

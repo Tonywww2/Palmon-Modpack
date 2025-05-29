@@ -1,4 +1,4 @@
-// priority: 50
+// priority: 70
 
 const $long = Java.loadClass("java.lang.Long")
 
@@ -71,7 +71,7 @@ savePackData(global.jsonData)
 const random = Utils.random
 random.setSeed($long.parseLong(global.seed.replace('L', ""), 10))
 
-for (let i = 0; i < 128; i++) {
+for (let i = 0; i < 1280; i++) {
     global.levelRandomMap.push(random.nextDouble())
 }
 
