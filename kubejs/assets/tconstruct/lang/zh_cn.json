@@ -52,8 +52,34 @@
     "fluid.kubejs.melted_terrasteel": "熔融泰拉",
     "item.kubejs.melted_terrasteel_bucket": "桶装熔融泰拉",
 
+    "material.tconstruct.elementium": "源质钢",
+    "material.tconstruct.elementium.flavor": "三界之外",
+    "fluid.kubejs.melted_elementium": "熔融源质钢",
+    "item.kubejs.melted_elementium_bucket": "桶装熔融源质钢",
 
-    
+    "material.tconstruct.alfsteel": "精灵钢",
+    "material.tconstruct.alfsteel.flavor": "这也太像了...吗？",
+    "fluid.kubejs.melted_alfsteel": "熔融精灵钢",
+    "item.kubejs.melted_alfsteel_bucket": "桶装熔融精灵钢",
+
+    "material.tconstruct.intelligent_draconium": "智能龙",
+    "material.tconstruct.intelligent_draconium.flavor": "它会思考！",
+
+    "material.tconstruct.superconducting_coil_type_1": "I型超导线圈",
+    "material.tconstruct.superconducting_coil_type_1.flavor": "绝佳的导电性",
+
+    "material.tconstruct.unify_essence": "归一精华",
+    "material.tconstruct.unify_essence.flavor": "天地精华",
+
+    "material.tconstruct.delta_framework": "Delta ",
+    "material.tconstruct.delta_framework.flavor": "第四基准点",
+
+    "material.tconstruct.marid_binded_gem": "魔王束缚宝石",
+    "material.tconstruct.marid_binded_gem.flavor": "异界之缚",
+
+    "material.tconstruct.ignitium": "腾炎",
+    "material.tconstruct.ignitium.flavor": "烧尽一切！",
+
     "material.tconstruct.end_steel": "终末钢",
     "material.tconstruct.end_steel.flavor": "Are you going to Scarborough Fair?",
     "fluid.kubejs.melted_end_steel": "熔融终末钢",
@@ -77,6 +103,58 @@
     "material.tconstruct.titanium": "钛",
     "material.tconstruct.titanium.flavor": "很科幻，不是吗？",
     "fluid.kubejs.melted_titanium": "熔融钛",
-    "item.kubejs.melted_titanium_bucket": "桶装熔融钛"
+    "item.kubejs.melted_titanium_bucket": "桶装熔融钛",
+
+    "material.tconstruct.otherside_mixture": "幽冥混合物",
+    "material.tconstruct.otherside_mixture.flavor": "Made in Abyss...",
+
+    "material.tconstruct.resonarium_plate": "共振",
+    "material.tconstruct.resonarium_plate.flavor": "大脑在颤抖",
+
+    "material.tconstruct.aether_ingot": "天华锭",
+    "material.tconstruct.aether_ingot.flavor": "追逐星光...",
+    "fluid.kubejs.melted_aether_ingot": "熔融天华锭",
+    "item.kubejs.melted_aether_ingot_bucket": "桶装熔融天华锭",
+
+    "material.tconstruct.aether_gem": "天华宝石",
+    "material.tconstruct.aether_gem.flavor": "...浮光掠影",
+
+    "material.tconstruct.niobium_titanium": "铌钛合金",
+    "material.tconstruct.niobium_titanium.flavor": "更加科幻了！",
+    "fluid.kubejs.melted_niobium_titanium": "熔融铌钛合金",
+    "item.kubejs.melted_niobium_titanium_bucket": "桶装熔融铌钛合金",
+
+    "material.tconstruct.helium_3_crystal": "氦-3晶体",
+    "material.tconstruct.helium_3_crystal.flavor": "这不科学！",
+
+    "material.tconstruct.light_of_inlixaland": "无夜之光",
+    "material.tconstruct.light_of_inlixaland.flavor": "此世为神",
+
+    "material.tconstruct.alfheim_iridescent": "亚尔夫海姆之虹光",
+    "material.tconstruct.alfheim_iridescent.flavor": "彩虹桥的构成之物",
+
+    "material.tconstruct.titanium_tungsten": "钛钨合金",
+    "material.tconstruct.titanium_tungsten.flavor": "切割万物",
+    "fluid.kubejs.melted_titanium_tungsten": "熔融钛钨合金",
+    "item.kubejs.melted_titanium_tungsten_bucket": "桶装熔融钛钨合金",
+
+    "material.tconstruct.titanium_aluminum": "钛铝合金",
+    "material.tconstruct.titanium_aluminum.flavor": "轻型架构",
+    "fluid.kubejs.melted_titanium_aluminum": "熔融钛铝合金",
+    "item.kubejs.melted_titanium_aluminum_bucket": "桶装熔融钛铝合金",
+
+    "material.tconstruct.epsilon_framework": "Epsilon ",
+    "material.tconstruct.epsilon_framework.flavor": "第五基准点",
+
+    "material.tconstruct.helium_3_crystal_infinity": "氦-3晶体-∞",
+    "material.tconstruct.helium_3_crystal_infinity.flavor": "超越科学，仍为科学！",
+
+    "material.tconstruct.aether_pearl": "仪召珍珠",
+    "material.tconstruct.aether_pearl.flavor": "凝聚星空之后",
+
+    "material.tconstruct.basepoint_alloy": "奇点合金",
+    "material.tconstruct.basepoint_alloy.flavor": "试图打破这世界的基准法则",
+    "fluid.kubejs.melted_basepoint_alloy": "熔融奇点合金",
+    "item.kubejs.melted_basepoint_alloy_bucket": "桶装熔融奇点合金"
     
 }

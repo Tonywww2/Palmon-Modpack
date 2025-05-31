@@ -1,7 +1,7 @@
 // priority: 60
 
 function stage6Materials(createMaterialBuilder, registerMaterialProcess) {
-    let sortOrder = 500
+    let sortOrder = 600
     let temp = 3000
     let time = 100
 

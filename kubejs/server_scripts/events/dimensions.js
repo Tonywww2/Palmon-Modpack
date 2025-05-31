@@ -17,6 +17,14 @@ NativeEvents.onEvent($EntityTravelToDimensionEvent, /** @param {Internal.EntityT
                     player.teleportTo(player.getX(), 320, player.getZ())
                 }
                 break
+            case 'rats:ratlantis':
+                if (!event.player.stages.has(global.ratlantis)) {
+                    event.setCanceled(true)
+                    player.tell(Text.translatable('ui.kubejs.banned').gold())
+                    player.tell(Text.translatable('ui.kubejs.banned_dim').gold())
+                    player.teleportTo(player.getX(), 320, player.getZ())
+                }
+                break
 
         }
 
@@ -36,7 +44,7 @@ BlockEvents.placed('rats:chunky_cheese_token', event => {
 const ratlantis = function (event) {
     if (!event.player.stages.has(global.ratlantis)) {
         event.player.tell(Text.translatable('ui.kubejs.banned').gold())
-        event.player.tell(Text.translatable('ui.kubejs.ui.kubejs.banned_dim').gold())
+        event.player.tell(Text.translatable('ui.kubejs.banned_dim').gold())
         event.player.addItemCooldown(event.player.mainHandItem, 200)
         event.cancel()
 

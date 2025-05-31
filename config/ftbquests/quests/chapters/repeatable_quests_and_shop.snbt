@@ -13,6 +13,7 @@
 	quests: [
 		{
 			can_repeat: false
+			icon: "cobblemon:relic_coin"
 			id: "101ADB161EA2DD61"
 			rewards: [{
 				id: "182F0D3999995D72"

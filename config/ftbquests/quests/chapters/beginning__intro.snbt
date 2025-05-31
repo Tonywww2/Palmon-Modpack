@@ -30,6 +30,7 @@
 				""
 				"...在到达最终阶段后，还有最终的挑战等着你。"
 			]
+			icon: "cobblemon:poke_ball"
 			id: "4C273D948C0B6562"
 			rewards: [{
 				exclude_from_claim_all: true

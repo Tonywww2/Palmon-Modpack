@@ -2967,6 +2967,7 @@
 					type: "random"
 				}
 			]
+			shape: "hexagon"
 			subtitle: "百炼成钢"
 			tasks: [{
 				id: "2AAFE97E0E79AD0A"

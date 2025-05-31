@@ -18,6 +18,16 @@ ServerEvents.recipes(event => {
             B: '#forge:dusts/graphite'
         }).id('kubejs:nc_plate_basic_s5')
 
+    event.shaped('rats:chunky_cheese_token', [
+        'ABA',
+        'B B',
+        'ABA'
+    ],
+        {
+            A: 'rats:token_piece',
+            B: 'kubejs:reinforced_sheet'
+        }).id('kubejs:chunky_cheese_token_s5')
+
     event.shaped('nuclearcraft:manufactory', [
         'ACA',
         'BDB',

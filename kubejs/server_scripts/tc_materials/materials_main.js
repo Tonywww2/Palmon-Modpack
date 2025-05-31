@@ -392,4 +392,6 @@ ServerEvents.highPriorityData(event => {
     stage5Materials(createMaterialBuilder, registerMaterialProcess)
     stage6Materials(createMaterialBuilder, registerMaterialProcess)
 
+    basicMaterials(createMaterialBuilder, registerMaterialProcess)
+
 })

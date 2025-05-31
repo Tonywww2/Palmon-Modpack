@@ -206,6 +206,16 @@ StartupEvents.registry('fluid', event => {
 		.thickTexture(0x00d71d)
 
 
+	event.create('melted_elementium')
+		.displayName('Melted Elementium')
+		.bucketColor(0xdddddd)
+		.thickTexture(0xffa2d0)
+
+	event.create('melted_alfsteel')
+		.displayName('Melted Alfsteel')
+		.bucketColor(0xdddddd)
+		.thickTexture(0xffb062)
+
 
 	event.create('melted_end_steel')
 		.displayName('Melted End Steel')
@@ -216,5 +226,30 @@ StartupEvents.registry('fluid', event => {
 		.displayName('Melted Titanium')
 		.bucketColor(0xdddddd)
 		.thickTexture(0xebebeb)
+
+	event.create('melted_aether_ingot')
+		.displayName('Melted Aether Ingot')
+		.bucketColor(0xdddddd)
+		.thickTexture(0x569ad8)
+
+	event.create('melted_niobium_titanium')
+		.displayName('Melted Niobium Titanium')
+		.bucketColor(0xdddddd)
+		.thickTexture(0xaf94a2)
+
+	event.create('melted_titanium_tungsten')
+		.displayName('Melted Titanium Tungsten')
+		.bucketColor(0xdddddd)
+		.thickTexture(0x98999f)
+
+	event.create('melted_titanium_aluminum')
+		.displayName('Melted Titanium Aluminum')
+		.bucketColor(0xdddddd)
+		.thickTexture(0xecf7ff)
+
+	event.create('melted_basepoint_alloy')
+		.displayName('Melted Basepoint Alloy')
+		.bucketColor(0xdddddd)
+		.thickTexture(0x796fff)
 
 })

@@ -89,15 +89,15 @@ global.diffMuti = [
     [1, 0.5, 0.5],
     [1, 1, 1],
     [1.5, 1, 1.2],
-    [1.8, 1.3, 1.4],
-    [2.6, 1.6, 1.8]
+    [1.8, 1.1, 1.5],
+    [3.0, 1.2, 2.0]
 ]
 
 const health = "minecraft:generic.max_health"
 const attack = "minecraft:generic.attack_damage"
 const armor = "minecraft:generic.armor"
 
-global.entityBlackList = new Set(["entity.cobblemon.pokemon", "entity.dummmmmmy.target_dummy", "entity.aqua_creepers.aqua_creeper", "entity.distantfriends.friend"])
+global.entityBlackList = new Set(["entity.cobblemon.pokemon", "entity.dummmmmmy.target_dummy", "entity.aqua_creepers.aqua_creeper", "entity.touhou_little_maid.maid", "entity.distantfriends.friend"])
 
 EntityEvents.spawned(event => {
     /**

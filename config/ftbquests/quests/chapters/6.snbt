@@ -933,7 +933,7 @@
 				item: "draconicevolution:crafting_core"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: 4.0d
 		}
 		{
@@ -958,7 +958,7 @@
 				item: "draconicevolution:basic_crafting_injector"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: 6.0d
 		}
 		{
@@ -1967,6 +1967,40 @@
 			}]
 			x: 8.0d
 			y: 12.0d
+		}
+		{
+			dependencies: ["35835B48174A9C1F"]
+			description: ["现在你拥有了资格"]
+			id: "17103885E3945D92"
+			rewards: [{
+				auto: "invisible"
+				id: "06877F73CB0B5BAC"
+				ignore_reward_blocking: true
+				stage: "ratlantis"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "6CA136356A52AF62"
+				item: "rats:chunky_cheese_token"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["35835B48174A9C1F"]
+			id: "1D479E5C372C22C1"
+			tasks: [{
+				id: "6286F49EE1CD9E2C"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
 		}
 	]
 	title: "6. 超越彼方 | Beyond, and Beyond"
