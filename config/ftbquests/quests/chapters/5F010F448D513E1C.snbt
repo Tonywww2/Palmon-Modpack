@@ -7,28 +7,73 @@
 	id: "5F010F448D513E1C"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		description: [
-			"每当你跨越一些收束点时，不同的&e世界线&r将会相互共振"
-			""
-			"这时，你将有机会获得一些锚之碎片"
-			""
-			"收集齐一定数量的锚之碎片后，你可以在一定程度上影响其他后被观测的&e世界线&r"
-			""
-			"注意：在多人游戏中，每个玩家的锚之碎片相互独立，只能使用自己的锚之碎片"
-			""
-			"即便是这样，多人游戏中解锁加成的速率也远高于单人模式，所以请根据自己的游玩期望自行调整锚之碎片的使用"
-		]
-		id: "0714A09D27EF360F"
-		invisible: true
-		tasks: [{
-			id: "404908668F25FAF9"
-			item: "kubejs:anchor_shard"
-			type: "item"
-		}]
-		title: "E.O.T."
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			description: [
+				"每当你跨越一些收束点时，不同的&e世界线&r将会相互共振"
+				""
+				"这时，你将有机会获得一些锚之碎片"
+				""
+				"收集齐一定数量的锚之碎片后，你可以在一定程度上影响其他后被观测的&e世界线&r"
+				""
+				"注意：在多人游戏中，每个玩家的锚之碎片相互独立，只能使用自己的锚之碎片"
+				""
+				"即便是这样，多人游戏中解锁加成的速率也远高于单人模式，所以请根据自己的游玩期望自行调整锚之碎片的使用"
+			]
+			id: "0714A09D27EF360F"
+			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74465389B653B705"
+				table_id: 7740467882398974147L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "404908668F25FAF9"
+				item: "kubejs:anchor_shard"
+				type: "item"
+			}]
+			title: "E.O.T."
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0714A09D27EF360F"]
+			description: [
+				"你可以使用投递坐标将大多数的物品投递到下一个世界！"
+				""
+				"可以存储其他物品的物品都无法被投递（例如背包，潜影盒），如果有类似的物品可以被投递，请向开发团队反馈（这是一个bug）！"
+				"（强烈不建议投递可以存储其他物品的物品）"
+				""
+				"被投递的物品将会在下一个世界的每一个玩家首次进入时送达，每个人都能得到一份。"
+				""
+				"只有每一个投递坐标最后被记录的物品会被投递。"
+			]
+			icon: "kubejs:delivery_coordinate_ultimate"
+			id: "09E1FFCE4536487E"
+			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43313872C897C286"
+				table_id: 7740467882398974147L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "76D5EEBB3E420696"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:delivery_coordinates"
+					}
+				}
+				title: "Any #kubejs:delivery_coordinates"
+				type: "item"
+			}]
+			title: "投递坐标"
+			x: 0.0d
+			y: -2.0d
+		}
+	]
 	title: "时间之外的往事 | E.O.T."
 }

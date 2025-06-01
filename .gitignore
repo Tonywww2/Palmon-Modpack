@@ -19,6 +19,7 @@ config/yes_steve_model/
 crash-reports/
 kubejs/probe/
 backups/
+mods/.connector
 
 /usercache.json
 /usernamecache.json

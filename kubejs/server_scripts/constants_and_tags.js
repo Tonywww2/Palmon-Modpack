@@ -63,12 +63,19 @@ ServerEvents.tags('item', event => {
         'tinkers_advanced:electron_tuner'
     )
 
+    event.add('kubejs:delivery_coordinates', 
+        'kubejs:delivery_coordinate_gamma',
+        'kubejs:delivery_coordinate_epsilon',
+        'kubejs:delivery_coordinate_ultimate'
+    )
+
     event.add('kubejs:delivery_coordinate_blacklist',
         '@sophisticatedstorage',
         '@sophisticatedbackpacks',
         '@ae2',
         '@ae2things',
         '@create',
+        '#minecraft:shulker_boxes',
         'kubejs:delivery_coordinate_gamma',
         'kubejs:delivery_coordinate_epsilon',
         'kubejs:delivery_coordinate_ultimate',

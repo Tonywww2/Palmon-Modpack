@@ -1,20 +1,31 @@
 ForgeEvents.onEvent("net.minecraftforge.event.entity.living.LivingHurtEvent", event => {
     global.hurtEvent(event)
-})
 
-global.hurtEvent = function(event) {
+})
+/**
+ * 
+ * @param {Internal.LivingHurtEvent} event 
+ */
+global.hurtEvent = function (event) {
     /**
      * @type {Internal.LivingEntity}
      */
     let entity = event.entity
 
     if (entity.player) {
-        let dim = entity.level.dimension.location().toString()
         let damage = event.getAmount()
-        // entity.tell("Damage: " + damage)
-        damage *= global.dimMuti[dim][2]
+        if (event.source.getPlayer()) {
+            // entity.tell("Source Player Damage: " + damage)
+            damage *= 0.25
+            // entity.tell("After Damage: " + damage)
+
+        } else {
+            let dim = entity.level.dimension.location().toString()
+            // entity.tell("Damage: " + damage)
+            damage *= global.dimMuti[dim][2]
+            // entity.tell("After Damage: " + damage)
+        }
         event.setAmount(damage)
-        // entity.tell("After Damage: " + damage)
 
     }
 

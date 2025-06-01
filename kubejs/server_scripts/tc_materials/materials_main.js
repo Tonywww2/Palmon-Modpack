@@ -8,7 +8,7 @@ ServerEvents.highPriorityData(event => {
      * @returns {object}        返回一个链式调用的 builder 对象
      */
     function createMaterialBuilder(id) {
-        const definition = { craftable: false, hidden: false, sortOrder: 0, tier: 0 };
+        const definition = { craftable: false, hidden: false, sortOrder: 0, tier: 1 };
         const stats = {};
         const traits = { default: [], perStat: {} };
 
@@ -16,6 +16,12 @@ ServerEvents.highPriorityData(event => {
         let hasTraits = false
 
         let namespace = "tconstruct"
+
+        let scaleA = 1
+        let scaleB = 1
+        let scaleC = 1
+        let scaleD = 1
+        let scaleE = 1
 
         const builder = {
             /** 
@@ -44,7 +50,15 @@ ServerEvents.highPriorityData(event => {
              * @param {number} n  
              * @returns {object} builder
              */
-            setTier(n) { definition.tier = n; return builder; },
+            setTier(n) {
+                definition.tier = n;
+                scaleA = randomNextScaled(5 - n)
+                scaleB = randomNextScaled(5 - n)
+                scaleC = randomNextScaled(5 - n)
+                scaleD = randomNextScaled(5 - n)
+                scaleE = randomNextScaled(5 - n)
+                return builder;
+            },
 
             /**
              * 设置命名空间
@@ -64,9 +78,9 @@ ServerEvents.highPriorityData(event => {
              */
             addHead(durability, melee_attack, mining_speed, mining_tier) {
                 stats['tconstruct:head'] = {
-                    durability: durability,
-                    melee_attack: melee_attack,
-                    mining_speed: mining_speed,
+                    durability: fixWithScale(durability, scaleA),
+                    melee_attack: fixWithScale(melee_attack, scaleB),
+                    mining_speed: fixWithScale(mining_speed, scaleC),
                     mining_tier: mining_tier
                 };
                 return builder;
@@ -100,7 +114,7 @@ ServerEvents.highPriorityData(event => {
              */
             addPlatingHelmet(armor, durability, knockback_resistance, toughness) {
                 stats['tconstruct:plating_helmet'] = {
-                    armor: armor,
+                    armor: fixWithScale(armor, scaleE),
                     durability: durability,
                     knockback_resistance: knockback_resistance,
                     toughness: toughness
@@ -118,7 +132,7 @@ ServerEvents.highPriorityData(event => {
              */
             addPlatingChestplate(armor, durability, knockback_resistance, toughness) {
                 stats['tconstruct:plating_chestplate'] = {
-                    armor: armor,
+                    armor: fixWithScale(armor, scaleC),
                     durability: durability,
                     knockback_resistance: knockback_resistance,
                     toughness: toughness
@@ -136,7 +150,7 @@ ServerEvents.highPriorityData(event => {
              */
             addPlatingLeggings(armor, durability, knockback_resistance, toughness) {
                 stats['tconstruct:plating_leggings'] = {
-                    armor: armor,
+                    armor: fixWithScale(armor, scaleA),
                     durability: durability,
                     knockback_resistance: knockback_resistance,
                     toughness: toughness
@@ -154,7 +168,7 @@ ServerEvents.highPriorityData(event => {
              */
             addPlatingBoots(armor, durability, knockback_resistance, toughness) {
                 stats['tconstruct:plating_boots'] = {
-                    armor: armor,
+                    armor: fixWithScale(armor, scaleD),
                     durability: durability,
                     knockback_resistance: knockback_resistance,
                     toughness: toughness
@@ -395,3 +409,7 @@ ServerEvents.highPriorityData(event => {
     basicMaterials(createMaterialBuilder, registerMaterialProcess)
 
 })
+
+function fixWithScale(value, scale) {
+    return Math.round(value * scale * 10.0) / 10.0
+}

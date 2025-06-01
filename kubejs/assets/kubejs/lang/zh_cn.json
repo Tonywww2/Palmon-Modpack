@@ -120,7 +120,7 @@
     "item.kubejs.photo_of_niko": "§d⌈Niko的照片⌋",
     "item.kubejs.godricks_great_rune": "§d⌈葛瑞克的大卢恩⌋",
 
-    "fluid.kubejs.melted_voidarium": "熔融虚空",
+    "fluid.kubejs.melted_voidarium": "熔融虚空素",
     "fluid.kubejs.hybrid_fuel": "混合燃料",
 
     "fluid.kubejs.melted_refined_copper": "熔融精炼铜",
@@ -128,14 +128,13 @@
     "fluid.kubejs.melted_refined_m_steel": "熔融精炼M钢",
 
     "fluid.kubejs.melted_gaia": "熔融盖亚",
-    "fluid.kubejs.melted_ignitium": "熔融腾炎",
     "fluid.kubejs.melted_witherite": "熔融凋零合金",
     "fluid.kubejs.melted_cursium": "熔融咒魂",
 
     "fluid.kubejs.melted_beryllium_bronze_alloy": "§e熔融铍青铜合金",
     "fluid.kubejs.methane_helium_3_fuel": "§e甲烷-氦-3 熵燃料",
 
-    "item.kubejs.melted_voidarium_bucket": "桶装熔融虚空",
+    "item.kubejs.melted_voidarium_bucket": "桶装熔融虚空素",
     "item.kubejs.hybrid_fuel_bucket": "桶装混合燃料",
     
     "item.kubejs.melted_refined_copper_bucket": "桶装熔融精炼铜",
@@ -143,7 +142,6 @@
     "item.kubejs.melted_refined_m_steel_bucket": "桶装熔融精炼M钢",
 
     "item.kubejs.melted_gaia_bucket": "桶装熔融盖亚",
-    "item.kubejs.melted_ignitium_bucket": "桶装熔融腾炎",
     "item.kubejs.melted_witherite_bucket": "桶装熔融凋零合金",
     "item.kubejs.melted_cursium_bucket": "桶装熔融咒魂",
     

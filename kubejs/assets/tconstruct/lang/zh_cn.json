@@ -52,6 +52,41 @@
     "fluid.kubejs.melted_terrasteel": "熔融泰拉",
     "item.kubejs.melted_terrasteel_bucket": "桶装熔融泰拉",
 
+    "material.tconstruct.plate_basic": "基础板",
+    "material.tconstruct.plate_basic.flavor": "坚固的外壳材料，做工具一定很棒！",
+
+    "material.tconstruct.ferroboron": "硼铁合金",
+    "material.tconstruct.ferroboron.flavor": "其实他是一种钢",
+
+    "material.tconstruct.fin": "鳍",
+    "material.tconstruct.fin.flavor": "小心伤手",
+
+    "material.tconstruct.ash_steel": "烬钢",
+    "material.tconstruct.ash_steel.flavor": "这可不是简单的高碳钢",
+    "fluid.kubejs.melted_ash_steel": "熔融烬钢",
+    "item.kubejs.melted_ash_steel_bucket": "桶装熔融烬钢",
+
+    "material.tconstruct.tough_alloy": "高强合金",
+    "material.tconstruct.tough_alloy.flavor": "唔，他可真硬",
+
+    "material.tconstruct.hallowed_gold": "神圣金",
+    "material.tconstruct.hallowed_gold.flavor": "虽然他的来源有点血腥...",
+    "fluid.kubejs.melted_hallowed_gold": "熔融神圣金",
+    "item.kubejs.melted_hallowed_gold_bucket": "桶装熔融神圣金",
+
+    "material.tconstruct.present_alloy": "现世合金",
+    "material.tconstruct.present_alloy.flavor": "未来起源于现在",
+    "fluid.kubejs.melted_present_alloy": "熔融现世合金",
+    "item.kubejs.melted_present_alloy_bucket": "桶装熔融现世合金",
+
+    "material.tconstruct.fission_reactor_casing": "裂变反应堆外壳",
+    "material.tconstruct.fission_reactor_casing.flavor": "能阻挡辐射，也十分坚固",
+
+    "material.tconstruct.stable_desh": "稳态戴斯",
+    "material.tconstruct.stable_desh.flavor": "过个一百亿年都不会变质！",
+
+
+
     "material.tconstruct.elementium": "源质钢",
     "material.tconstruct.elementium.flavor": "三界之外",
     "fluid.kubejs.melted_elementium": "熔融源质钢",
@@ -79,6 +114,8 @@
 
     "material.tconstruct.ignitium": "腾炎",
     "material.tconstruct.ignitium.flavor": "烧尽一切！",
+    "fluid.kubejs.melted_ignitium": "熔融腾炎",
+    "item.kubejs.melted_ignitium_bucket": "桶装熔融腾炎",
 
     "material.tconstruct.end_steel": "终末钢",
     "material.tconstruct.end_steel.flavor": "Are you going to Scarborough Fair?",

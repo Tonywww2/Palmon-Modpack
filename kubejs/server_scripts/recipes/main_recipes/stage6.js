@@ -325,9 +325,11 @@ ServerEvents.recipes(event => {
         'techreborn:cell'
     ]).id('kubejs:oil_cell_3')
 
-    event.recipes.create.mixing(Fluid.of('kubejs:methane_helium_3_fuel', 1000), [
-        Fluid.of('techreborn:methane', 1000),
-        Fluid.of('techreborn:helium3', 500)
+    event.recipes.create.mixing(Fluid.of('kubejs:methane_helium_3_fuel', 750), [
+        Fluid.of('techreborn:methane', 500),
+        Fluid.of('tinkers_advanced:pyrotheum', 500),
+        Fluid.of('techreborn:helium3', 250),
+        Fluid.of('tinkers_advanced:plasmatic_lava', 250)
     ]).superheated().processingTime(800).id('kubejs:methane_helium_3_fuel_s6')
 
     event.recipes.create.mechanical_crafting('2x kubejs:industrial_machine_frame', [

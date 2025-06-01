@@ -77,10 +77,12 @@ for (let i = 0; i < 1280; i++) {
 
 // console.log(global.levelRandomMap)
 
+// 游戏加载后
 ServerEvents.loaded(event => {
     const { server } = event
-    let currentSeed = NBT.l(server.worldData.worldGenOptions().seed())
+    let currentSeed = String(NBT.l(server.worldData.worldGenOptions().seed()))
 
+    // 判断是否为上次进入的种子
     console.log("[ROUGELIKE RECIPES]", "Current Seed: " + currentSeed, "Catched Seed: " + global.seed)
     if (global.seed != currentSeed) {
         console.log("[ROUGELIKE RECIPES] Seeds not matched, reloading")
@@ -271,6 +273,11 @@ function randomNext(range) {
         global.randonIndex = 0
     }
     return Math.floor(global.levelRandomMap[global.randonIndex++] * range)
+}
+
+function randomNextScaled(scale) {
+    let value = randomNext(10)
+    return 1 + ((value - 5) * 0.01 * scale)
 }
 
 function randomSample(n, range) {
@@ -583,25 +590,3 @@ function s3ConvergenceRecipe(event, index1, index2) {
     }
 
 }
-
-// ItemEvents.rightClicked('cobblemon:relic_coin', event => {
-//     const random = Utils.random
-//     global.levelRandomMap = []
-//     global.randonIndex = 0
-//     for (let i = 0; i < 128; i++) {
-//         global.levelRandomMap.push(random.nextDouble())
-//     }
-//     event.player.tell(1 + " " + 4)
-//     event.player.tell(randomSample(1, 4).toLocaleString())
-//     event.player.tell(2 + " " + 4)
-//     event.player.tell(randomSample(2, 4).toLocaleString())
-//     event.player.tell(1 + " " + 6)
-//     event.player.tell(randomSample(1, 6).toLocaleString())
-//     event.player.tell(2 + " " + 6)
-//     event.player.tell(randomSample(2, 6).toLocaleString())
-//     event.player.tell(1 + " " + 8)
-//     event.player.tell(randomSample(1, 8).toLocaleString())
-//     event.player.tell(2 + " " + 8)
-//     event.player.tell(randomSample(2, 8).toLocaleString())
-
-// })

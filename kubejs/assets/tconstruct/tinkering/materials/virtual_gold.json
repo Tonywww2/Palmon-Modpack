@@ -1,61 +1,67 @@
 {
-  "color": "FFBC00CC",
-  "fallbacks": [
-    "metal"
-  ],
-  "generator": {
-    "supported_stats": [
-      "tconstruct:head",
-      "tconstruct:handle",
-      "tconstruct:armor_plating",
-      "tconstruct:plating_helmet",
-      "tconstruct:plating_chestplate",
-      "tconstruct:plating_leggings",
-      "tconstruct:plating_boots",
-      "tconstruct:plating_shield",
-      "tconstruct:grip",
-      "tconstruct:limb",
-      "tconstruct:binding",
-      "tconstruct:maille",
-      "tconstruct:bowstring",
-      "tconstruct:shield_core",
-      "tconstruct:repair_kit"
+    "color": "FFBC00CC",
+    "fallbacks":
+    [
+        "metal"
     ],
-    "transformer": {
-      "type": "tconstruct:recolor_sprite",
-      "color_mapping": {
-        "type": "tconstruct:grey_to_color",
-        "palette": [
-          {
-            "color": "FF000000",
-            "grey": 0
-          },
-          {
-            "color": "FF74007E",
-            "grey": 63
-          },
-          {
-            "color": "FFBC00CC",
-            "grey": 102
-          },
-          {
-            "color": "FFED19FF",
-            "grey": 140
-          },
-          {
-            "color": "FFF365FF",
-            "grey": 178
-          },
-          {
-            "color": "FFF9B1FF",
-            "grey": 216
-          },
-          {
-            "color": "FFFFFFFF",
-            "grey": 255
-          }
-        ]
-      }
+    "generator":
+    {
+        "supported_stats":
+        [
+            "tconstruct:head",
+            "tconstruct:handle",
+            "tconstruct:armor_plating",
+            "tconstruct:plating_helmet",
+            "tconstruct:plating_chestplate",
+            "tconstruct:plating_leggings",
+            "tconstruct:plating_boots",
+            "tconstruct:plating_shield",
+            "tconstruct:grip",
+            "tconstruct:limb",
+            "tconstruct:binding",
+            "tconstruct:maille",
+            "tconstruct:bowstring",
+            "tconstruct:shield_core",
+            "tconstruct:repair_kit"
+        ],
+        "transformer":
+        {
+            "type": "tconstruct:recolor_sprite",
+            "color_mapping":
+            {
+                "type": "tconstruct:grey_to_color",
+                "palette":
+                [
+                    {
+                        "color": "FF000000",
+                        "grey": 0
+                    },
+                    {
+                        "color": "FF74007E",
+                        "grey": 63
+                    },
+                    {
+                        "color": "FFBC00CC",
+                        "grey": 102
+                    },
+                    {
+                        "color": "FFED19FF",
+                        "grey": 140
+                    },
+                    {
+                        "color": "FFF365FF",
+                        "grey": 178
+                    },
+                    {
+                        "color": "FFF9B1FF",
+                        "grey": 216
+                    },
+                    {
+                        "color": "FFFFFFFF",
+                        "grey": 255
+                    }
+                ]
+            }
+        }
     }
-  }
 }

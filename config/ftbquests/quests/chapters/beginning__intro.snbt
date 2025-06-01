@@ -26,7 +26,7 @@
 				""
 				"每一个世界都会有不同的发展路线。在一个世界中，你或许会在群峦星领悟到如何奴役魔灵，而在另一个世界中，你或许会领悟到如何操控重型机械。"
 				""
-				"不管在哪个世界，发展到一定阶段后，你都将领悟到先前阶段的全部&e灵感&f，所以不必担心你会因为你的坏运气而损失一些内容。"
+				"不管在哪个世界，发展到一定阶段后，你都将领悟到先前阶段的绝大多数&e灵感&f，所以不必担心你会因为你的坏运气而损失一些内容。"
 				""
 				"...在到达最终阶段后，还有最终的挑战等着你。"
 			]
@@ -79,7 +79,7 @@
 			}]
 			title: "宝宝模式 | Baby Mode"
 			x: 0.0d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2A2EA0EFAED27F0D"]
@@ -164,6 +164,8 @@
 				"&a随机暴击&r初始拥有5%的概率，基础造成20%的额外伤害"
 				""
 				"&d第二暴击&r的概率只能通过特殊的饰品获得，基础造成50%的额外伤害"
+				""
+				"玩家对玩家造成伤害只有25%的效能"
 			]
 			icon: {
 				Count: 1
@@ -185,7 +187,7 @@
 			}]
 			title: "护甲 \\& 伤害机制 | Armor \\& Damage Changes"
 			x: -2.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4C273D948C0B6562"]
@@ -204,7 +206,7 @@
 			}]
 			title: "额外信息显示 | Extra Info. Display"
 			x: 2.0d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4C273D948C0B6562"]
@@ -233,7 +235,7 @@
 			}]
 			title: "拔刀剑 | Slash Blade"
 			x: -2.0d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4C273D948C0B6562"]
@@ -262,7 +264,7 @@
 			}]
 			title: "指令和作弊  | Commands and Cheat"
 			x: 2.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4C273D948C0B6562"]
@@ -286,7 +288,32 @@
 				type: "checkmark"
 			}]
 			title: "可选模组 | Optional Mods"
-			x: 0.0d
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C273D948C0B6562"]
+			description: [
+				"本整合包的武器、工具与护甲主要围绕着匠魂，你将在群峦星发展一定时间后解锁。"
+				""
+				"大多数的匠魂材料的数值会受到&e世界线变动率&f的影响，在基础属性上有少量的浮动。"
+				""
+				"这也就意味着，在两个不同的世界中，同一个材料的表现可能会有一定的差距。"
+			]
+			icon: {
+				Count: 1
+				id: "tconstruct:tinkers_anvil"
+				tag: {
+					texture: "tconstruct:slimesteel_block"
+				}
+			}
+			id: "260786FD7813CB85"
+			tasks: [{
+				id: "333E6861DC2BD47C"
+				type: "checkmark"
+			}]
+			title: "匠魂 | Tinkers' Construct"
+			x: -2.0d
 			y: 2.0d
 		}
 	]

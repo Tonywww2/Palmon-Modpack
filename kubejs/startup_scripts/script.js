@@ -118,11 +118,6 @@ StartupEvents.registry('block', event => {
 })
 
 StartupEvents.registry('fluid', event => {
-	event.create('hybrid_fuel')
-		.displayName('§eHybrid Fuel')
-		.bucketColor(0xD8D8BF)
-		.thickTexture(0xD8D8BF)
-		.temperature(300)
 
 	event.create('melted_refined_copper')
 		.displayName('Melted Refined Copper')
@@ -148,12 +143,6 @@ StartupEvents.registry('fluid', event => {
 		.thickTexture(0xFFFF55)
 		.temperature(1400)
 
-	event.create('melted_ignitium')
-		.displayName('Melted Ignitium')
-		.bucketColor(0xFFA500)
-		.thickTexture(0xFFA500)
-		.temperature(1400)
-
 	event.create('melted_witherite')
 		.displayName('Melted Witherite')
 		.bucketColor(0x8B0000)
@@ -170,7 +159,13 @@ StartupEvents.registry('fluid', event => {
 		.displayName('§eMelted Beryllium Bronze Alloy')
 		.bucketColor(0xD8BFD8)
 		.thickTexture(0xD8BFD8)
-		.temperature(1500)
+
+	// Fuels
+	event.create('hybrid_fuel')
+		.displayName('§eHybrid Fuel')
+		.bucketColor(0xD8D8BF)
+		.thickTexture(0xD8D8BF)
+		.temperature(300)
 
 	event.create('melted_voidarium')
 		.displayName('Melted Voidarium')
@@ -205,6 +200,27 @@ StartupEvents.registry('fluid', event => {
 		.bucketColor(0xdddddd)
 		.thickTexture(0x00d71d)
 
+	// s3
+	event.create('melted_ash_steel')
+		.displayName('Melted Ash Steel')
+		.bucketColor(0xdddddd)
+		.thickTexture(0x575757)
+
+	event.create('melted_hallowed_gold')
+		.displayName('Melted Hallowed Gold')
+		.bucketColor(0xdddddd)
+		.thickTexture(0xffe269)
+
+	event.create('melted_present_alloy')
+		.displayName('Melted Present Alloy')
+		.bucketColor(0xdddddd)
+		.thickTexture(0xc2f9ff)
+
+	event.create('melted_stable_desh')
+		.displayName('Melted Stable Desh')
+		.bucketColor(0xdddddd)
+		.thickTexture(0xffe3bb)
+
 
 	event.create('melted_elementium')
 		.displayName('Melted Elementium')
@@ -216,6 +232,10 @@ StartupEvents.registry('fluid', event => {
 		.bucketColor(0xdddddd)
 		.thickTexture(0xffb062)
 
+	event.create('melted_ignitium')
+		.displayName('Melted Ignitium')
+		.bucketColor(0xFFA500)
+		.thickTexture(0xFFA500)
 
 	event.create('melted_end_steel')
 		.displayName('Melted End Steel')

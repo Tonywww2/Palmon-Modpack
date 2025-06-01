@@ -3,7 +3,7 @@
 function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
     let sortOrder = 500
     let temp = 2500
-    let time = 100
+    let time = 200
 
     // 终末钢
     let db = 1300;
@@ -161,7 +161,7 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
     registerMaterialProcess({
         fluid: null,
         material: 'tconstruct:fusion_reactor_casing',
-        ingot: 'nuclearcraft:fusion_reactor_casing',
+        ingot: '#nuclearcraft:fusion_reactor_casing',
         units: 90,
         temperature: temp,
         time: time,

@@ -311,5 +311,19 @@
 			"true_ending",
 			"dungeon_1"
 		]
+	},
+	"delivery_coordinate_gamma": {
+		"item": "tconstruct:encyclopedia",
+		"count": 1,
+		"nbt": "{mantle:{book:{current_page:\"materials_harvest.tconstruct:wood\"}}}"
+	},
+	"delivery_coordinate_epsilon": {
+		"item": "minecraft:trident",
+		"count": 1,
+		"nbt": "{Damage:0}"
+	},
+	"delivery_coordinate_ultimate": {
+		"item": "immersive_weathering:enchanted_golden_moss_clump",
+		"count": 1
 	}
 }

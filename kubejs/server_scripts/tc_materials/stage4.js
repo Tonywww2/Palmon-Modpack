@@ -3,7 +3,7 @@
 function stage4Materials(createMaterialBuilder, registerMaterialProcess) {
     let sortOrder = 400
     let temp = 2000
-    let time = 100
+    let time = 150
 
     // 紫金*
     let db = 1100;
@@ -268,7 +268,7 @@ function stage4Materials(createMaterialBuilder, registerMaterialProcess) {
         units: 90,
         temperature: temp,
         time: time,
-        meltIngot: false
+        meltIngot: true
     });
 
 }
