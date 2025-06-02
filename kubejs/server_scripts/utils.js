@@ -4,6 +4,8 @@ const $AttributeModifier = Java.loadClass("net.minecraft.world.entity.ai.attribu
 const $UUID = Java.loadClass("java.util.UUID")
 const $JavaString = Java.loadClass("java.lang.String")
 
+const $TargetingConditions = Java.loadClass('net.minecraft.world.entity.ai.targeting.TargetingConditions')
+
 const $JsonObject = Java.loadClass("com.google.gson.JsonObject")
 const $JsonArray = Java.loadClass("com.google.gson.JsonArray")
 

@@ -3,7 +3,6 @@ ForgeEvents.onEvent("net.minecraftforge.event.entity.living.LivingHurtEvent", ev
 
 })
 /**
- * 
  * @param {Internal.LivingHurtEvent} event 
  */
 global.hurtEvent = function (event) {
@@ -14,7 +13,7 @@ global.hurtEvent = function (event) {
 
     if (entity.player) {
         let damage = event.getAmount()
-        if (event.source.getPlayer()) {
+        if (event.source.player) {
             // entity.tell("Source Player Damage: " + damage)
             damage *= 0.25
             // entity.tell("After Damage: " + damage)
@@ -29,6 +28,9 @@ global.hurtEvent = function (event) {
 
     }
 
+    // let d = 20
+    // console.log(d * $ALCombatRules.getArmorDamageReduction(d, 26.3, 12))
+
 }
 
-
+// let $ALCombatRules = Java.loadClass("dev.shadowsoffire.attributeslib.api.ALCombatRules")

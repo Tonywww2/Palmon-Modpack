@@ -64,7 +64,6 @@ global.dimAdder = {
 
     'rats:ratlantis': [240, 150, 72]
 }
-
 global.dimMuti = {
     'kubejs:tfc_planet': [1, 0.5, 0.8],
 
@@ -85,19 +84,20 @@ global.dimMuti = {
     'rats:ratlantis': [32, 3.5, 4.5]
 }
 
-global.diffMuti = [
+global.diffMultiplier = [
     [1, 0.5, 0.5],
     [1, 1, 1],
     [1.5, 1, 1.2],
     [1.8, 1.1, 1.5],
     [3.0, 1.2, 2.0]
 ]
+global.mutiPlayerMultiplierScaler = [0, 0, 0.15, 0.25, 0.35]
 
 const health = "minecraft:generic.max_health"
 const attack = "minecraft:generic.attack_damage"
 const armor = "minecraft:generic.armor"
 
-global.entityBlackList = new Set(["entity.cobblemon.pokemon", "entity.dummmmmmy.target_dummy", "entity.aqua_creepers.aqua_creeper", "entity.touhou_little_maid.maid", "entity.distantfriends.friend"])
+global.entityBlackList = new Set(["entity.cobblemon.pokemon", "entity.dummmmmmy.target_dummy", "entity.powerful_dummy.test_dummy", "entity.aqua_creepers.aqua_creeper", "entity.touhou_little_maid.maid", "entity.distantfriends.friend"])
 
 EntityEvents.spawned(event => {
     /**
@@ -132,19 +132,27 @@ EntityEvents.spawned(event => {
         dim = 'kubejs:tfc_planet'
     }
 
-
+    let playerCount = entity.getLevel().getNearbyPlayers(
+        $TargetingConditions.DEFAULT,
+        entity,
+        AABB.ofSize(entity.position(), 64, 64, 64)
+    ).size() - 1
+    if (playerCount < 0) playerCount = 0
+    
+    // console.log(playerCount)
+    
     if (entity.attributes.hasAttribute(health)) {
         let hpVal = entity.getAttribute(health).getBaseValue() + global.dimAdder[dim][0]
-        hpVal *= global.dimMuti[dim][0] * global.diffMuti[diffNum][0]
+        // hpVal *= global.dimMuti[dim][0] * global.diffMultiplier[diffNum][0]
+        hpVal *= global.dimMuti[dim][0] * global.diffMultiplier[diffNum][0] * (1 + (global.mutiPlayerMultiplierScaler[diffNum] * playerCount))
 
         entity.setAttributeBaseValue(health, hpVal)
         entity.setHealth(entity.getMaxHealth())
-
     }
 
     if (entity.attributes.hasAttribute(armor)) {
         let armVal = entity.getAttribute(armor).getBaseValue() + global.dimAdder[dim][1]
-        armVal *= global.dimMuti[dim][1] * global.diffMuti[diffNum][1]
+        armVal *= global.dimMuti[dim][1] * global.diffMultiplier[diffNum][1]
 
         entity.setAttributeBaseValue(armor, armVal)
 
@@ -152,7 +160,7 @@ EntityEvents.spawned(event => {
 
     if (entity.attributes.hasAttribute(attack)) {
         let atkVal = entity.getAttribute(attack).getBaseValue() + global.dimAdder[dim][2]
-        atkVal *= global.diffMuti[diffNum][2]
+        atkVal *= global.diffMultiplier[diffNum][2]
 
         entity.setAttributeBaseValue(attack, atkVal)
 

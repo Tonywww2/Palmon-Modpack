@@ -19,7 +19,7 @@ config/yes_steve_model/
 crash-reports/
 kubejs/probe/
 backups/
-mods/.connector
+mods/.connector/
 
 /usercache.json
 /usernamecache.json
@@ -27,3 +27,8 @@ mods/.connector
 /resourcepacks
 /local
 emi.json
+config/packetfixer.properties
+config/oculus.properties
+config/fabric/indigo-renderer.properties
+backups/backups.json
+Palmon-natives/
