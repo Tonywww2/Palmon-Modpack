@@ -253,6 +253,36 @@
 			x: 6.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["28EC4BBCF7C89458"]
+			icon: "mekanism:mekasuit_helmet"
+			id: "006905DDB7906B89"
+			tasks: [
+				{
+					id: "0F1D3134B2B8F6B9"
+					item: "mekanism:mekasuit_helmet"
+					type: "item"
+				}
+				{
+					id: "542481EDEDE66304"
+					item: "mekanism:mekasuit_bodyarmor"
+					type: "item"
+				}
+				{
+					id: "63D79577B093D3AA"
+					item: "mekanism:mekasuit_pants"
+					type: "item"
+				}
+				{
+					id: "0B16F52B91BC67F7"
+					item: "mekanism:mekasuit_boots"
+					type: "item"
+				}
+			]
+			title: "Meka 套装"
+			x: 10.0d
+			y: 0.0d
+		}
 	]
 	title: "7. 句点 | Full Stop"
 }

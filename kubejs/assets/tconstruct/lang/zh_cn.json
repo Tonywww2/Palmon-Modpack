@@ -85,7 +85,34 @@
     "material.tconstruct.stable_desh": "稳态戴斯",
     "material.tconstruct.stable_desh.flavor": "过个一百亿年都不会变质！",
 
+    "material.tconstruct.hallowed_soul_steel": "圣魂精钢",
+    "material.tconstruct.hallowed_soul_steel.flavor": "钢铁中回荡着圣灵余晖，每一寸皆映灵魂洪流",
+    "fluid.kubejs.melted_hallowed_soul_steel": "熔融圣魂精钢",
+    "item.kubejs.melted_hallowed_soul_steel_bucket": "桶装熔融圣魂精钢",
 
+    "material.tconstruct.ship_graveyard_echo": "海船墓地之回响",
+    "material.tconstruct.ship_graveyard_echo.flavor": "谁在吹号角？",
+
+    "material.tconstruct.gamma_framework": "Gamma ",
+    "material.tconstruct.gamma_framework.flavor": "第三基准点",
+
+    "material.tconstruct.thermoconducting": "导热合金",
+    "material.tconstruct.thermoconducting.flavor": "比极限更加极限！",
+
+    "material.tconstruct.void_tablet": "虚空石符",
+    "material.tconstruct.void_tablet.flavor": "画个圈圈诅咒你...",
+
+    "material.tconstruct.abyssal_amethyst": "深海紫水晶",
+    "material.tconstruct.abyssal_amethyst.flavor": "Who live in the pineapple under the sea?",
+
+    "material.tconstruct.boron_nitride": "六方氮化硼",
+    "material.tconstruct.boron_nitride.flavor": "防辐射，而且稳定，完美的宇航材料！",
+
+    "material.tconstruct.malignant_pewter": "恶念白镴",
+    "material.tconstruct.malignant_pewter.flavor": "恶念的化身，来自未知领域",
+
+    "material.tconstruct.ember_profile": "余烬异构",
+    "material.tconstruct.ember_profile.flavor": "相互嵌套，相互依存",
 
     "material.tconstruct.elementium": "源质钢",
     "material.tconstruct.elementium.flavor": "三界之外",

@@ -181,12 +181,13 @@
 				table_id: 1141615569593449731L
 				type: "random"
 			}]
+			subtitle: "选读"
 			tasks: [{
 				id: "5324383315F9819B"
 				type: "checkmark"
 			}]
 			title: "护甲 \\& 伤害机制 | Armor \\& Damage Changes"
-			x: -2.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -200,6 +201,7 @@
 				table_id: 1141615569593449731L
 				type: "random"
 			}]
+			subtitle: "选读"
 			tasks: [{
 				id: "20AE890BD515CBC6"
 				type: "checkmark"
@@ -228,6 +230,7 @@
 				table_id: 1141615569593449731L
 				type: "random"
 			}]
+			subtitle: "选读"
 			tasks: [{
 				id: "4D003DB9BAA04C9E"
 				item: "slashblade:proudsoul"
@@ -263,8 +266,8 @@
 				type: "checkmark"
 			}]
 			title: "指令和作弊  | Commands and Cheat"
-			x: 2.0d
-			y: 0.0d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4C273D948C0B6562"]
@@ -308,13 +311,14 @@
 				}
 			}
 			id: "260786FD7813CB85"
+			subtitle: "选读"
 			tasks: [{
 				id: "333E6861DC2BD47C"
 				type: "checkmark"
 			}]
 			title: "匠魂 | Tinkers' Construct"
 			x: -2.0d
-			y: 2.0d
+			y: 0.0d
 		}
 	]
 	title: "开始 \\& 介绍 | Beginning \\& Intro."

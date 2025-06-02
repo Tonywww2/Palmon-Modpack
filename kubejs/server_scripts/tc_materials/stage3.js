@@ -265,7 +265,7 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
     let platinum = createMaterialBuilder('platinum')
         .setCraftable(false).setSortOrder(sortOrder++).setTier(2)
         .addStats()
-        .addHead(db, 62.0, 14.0, 'minecraft:netherite') 
+        .addHead(db, 62.0, 14.0, 'minecraft:netherite')
         .addHandle(0.4, 0.5, 0.1, 0.4)
         .addPlatingHelmet(6.0, db * 0.7, 0.05, 3.0)
         .addPlatingChestplate(10.0, db * 1.0, 0.05, 3.0)
@@ -281,11 +281,11 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
     let present_alloy = createMaterialBuilder('present_alloy')
         .setCraftable(false).setSortOrder(sortOrder++).setTier(2)
         .addStats()
-        .addHead(db, 65.0, 13.0, 'minecraft:netherite') 
+        .addHead(db, 65.0, 13.0, 'minecraft:netherite')
         .addHandle(0.3, 0.5, 0.1, 0.2)
         .addPlatingHelmet(7.0, db * 0.7, 0.05, 3.0)
         .addPlatingChestplate(11.0, db * 1.0, 0.05, 3.0)
-        .addPlatingLeggings(9.0, db * 0.9, 0.05, 3.0) 
+        .addPlatingLeggings(9.0, db * 0.9, 0.05, 3.0)
         .addPlatingBoots(6.0, db * 0.6, 0.05, 3.0)
         .addPlatingShield(db * 0.9, 0.05, 3.0)
         .addBinding()
@@ -308,11 +308,11 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .setCraftable(false).setSortOrder(sortOrder++).setTier(2).setNamespace("tinkers_advanced")
         .addStats()
         .addHead(db, 64.0, 12.0, 'minecraft:diamond')
-        .addHandle(0.3, 0.5, 0.15, 0.2) 
+        .addHandle(0.3, 0.5, 0.15, 0.2)
         .addPlatingHelmet(7.0, db * 0.7, 0.05, 3.0)
         .addPlatingChestplate(11.0, db * 1.0, 0.05, 3.0)
         .addPlatingLeggings(10.0, db * 0.9, 0.05, 3.0)
-        .addPlatingBoots(6.0, db * 0.6, 0.05, 3.0) 
+        .addPlatingBoots(6.0, db * 0.6, 0.05, 3.0)
         .addPlatingShield(db * 0.9, 0.05, 3.0)
         .addBinding()
         .addMaille()
@@ -325,10 +325,10 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addStats()
         .addHead(db, 62.0, 12.0, 'minecraft:diamond')
         .addHandle(0.0, 0.55, 0.15, 0.0)
-        .addPlatingHelmet(7.0, db * 0.7, 0.05, 3.0) 
+        .addPlatingHelmet(7.0, db * 0.7, 0.05, 3.0)
         .addPlatingChestplate(11.0, db * 1.0, 0.05, 3.0)
         .addPlatingLeggings(10.0, db * 0.9, 0.05, 3.0)
-        .addPlatingBoots(6.0, db * 0.6, 0.05, 3.0) 
+        .addPlatingBoots(6.0, db * 0.6, 0.05, 3.0)
         .addPlatingShield(db * 0.9, 0.05, 3.0)
         .addBinding()
         .addMaille()
@@ -349,40 +349,31 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
     let iridium = createMaterialBuilder('iridium')
         .setCraftable(false).setSortOrder(sortOrder++).setTier(2).setNamespace("tinkers_advanced")
         .addStats()
-        .addHead(db, 68.0, 15.0, 'minecraft:netherite') 
+        .addHead(db, 68.0, 15.0, 'minecraft:netherite')
         .addHandle(0.2, 0.6, 0.15, 0.2)
-        .addPlatingHelmet(7.0, db * 0.7, 0.1, 3.0) 
-        .addPlatingChestplate(11.0, db * 1.0, 0.1, 3.0) 
+        .addPlatingHelmet(7.0, db * 0.7, 0.1, 3.0)
+        .addPlatingChestplate(11.0, db * 1.0, 0.1, 3.0)
         .addPlatingLeggings(10.0, db * 0.9, 0.1, 3.0)
         .addPlatingBoots(6.0, db * 0.6, 0.1, 3.0)
-        .addPlatingShield(db * 0.9, 0.1, 3.0) 
+        .addPlatingShield(db * 0.9, 0.1, 3.0)
         .addBinding()
-        .addMaille() 
+        .addMaille()
         .build();
-    // registerMaterialProcess({
-    //     fluid: null,
-    //     material: 'tinkers_advanced:iridium',
-    //     ingot: '#forge:ingots/iridium',
-    //     units: 90,
-    //     temperature: temp,
-    //     time: time,
-    //     meltIngot: false
-    // });
 
     // —— 稳态戴斯 ——  
     db = 1050;
     let stable_desh = createMaterialBuilder('stable_desh')
         .setCraftable(false).setSortOrder(sortOrder++).setTier(2)
         .addStats()
-        .addHead(db, 70.0, 12.0, 'minecraft:netherite') 
+        .addHead(db, 70.0, 12.0, 'minecraft:netherite')
         .addHandle(0.3, 0.5, 0.2, 0.0)
         .addPlatingHelmet(8.0, db * 0.7, 0.1, 3.0)
-        .addPlatingChestplate(12.0, db * 1.0, 0.1, 3.0) 
-        .addPlatingLeggings(11.0, db * 0.9, 0.1, 3.0) 
-        .addPlatingBoots(6.0, db * 0.6, 0.1, 3.0) 
-        .addPlatingShield(db * 0.9, 0.1, 3.0) 
+        .addPlatingChestplate(12.0, db * 1.0, 0.1, 3.0)
+        .addPlatingLeggings(11.0, db * 0.9, 0.1, 3.0)
+        .addPlatingBoots(6.0, db * 0.6, 0.1, 3.0)
+        .addPlatingShield(db * 0.9, 0.1, 3.0)
         .addBinding()
-        .addMaille() 
+        .addMaille()
         .addTraits()
         .build();
     registerMaterialProcess({
@@ -395,5 +386,260 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         meltIngot: true
     });
 
+    // l3
+    // —— 圣魂金 ——  
+    db = 800;
+    let hallowed_soul_steel = createMaterialBuilder('hallowed_soul_steel')
+        .setCraftable(false).setSortOrder(sortOrder++).setTier(2)
+        .addStats()
+        .addHead(db, 70.0, 16.0, 'minecraft:diamond')
+        .addHandle(0.1, 0.4, 0.5, 0.5)
+        .addPlatingHelmet(8.0, db * 0.7, 0.1, 3.0)
+        .addPlatingChestplate(12.0, db * 1.0, 0.1, 3.0)
+        .addPlatingLeggings(11.0, db * 0.9, 0.1, 3.0)
+        .addPlatingBoots(6.0, db * 0.6, 0.1, 3.0)
+        .addPlatingShield(db * 0.9, 0.1, 3.0)
+        .addBinding()
+        .addMaille()
+        .addTraits()
+        .build();
+    registerMaterialProcess({
+        fluid: 'kubejs:melted_hallowed_soul_steel',
+        material: 'tconstruct:hallowed_soul_steel',
+        ingot: 'kubejs:hallowed_soul_steel_ingot',
+        units: 90,
+        temperature: temp,
+        time: time,
+        meltIngot: true
+    });
+
+    // —— 海船墓地之回响 ——  
+    db = 900;
+    let ship_graveyard_echo = createMaterialBuilder('ship_graveyard_echo')
+        .setCraftable(true).setSortOrder(sortOrder++).setTier(2)
+        .addStats()
+        .addHead(db, 72.0, 12.0, 'minecraft:diamond')
+        .addHandle(0.3, 0.6, 0.15, 0.3)
+        .addPlatingHelmet(8.0, db * 0.7, 0.1, 3.0)
+        .addPlatingChestplate(12.0, db * 1.0, 0.1, 3.0)
+        .addPlatingLeggings(11.0, db * 0.9, 0.1, 3.0)
+        .addPlatingBoots(6.0, db * 0.6, 0.1, 3.0)
+        .addPlatingShield(db * 0.9, 0.1, 3.0)
+        .addBinding()
+        .addMaille()
+        .addShieldCore()
+        .addBowstring()
+        .addTraits()
+        .build();
+    registerMaterialProcess({
+        fluid: null,
+        material: 'tconstruct:ship_graveyard_echo',
+        ingot: 'aquamirae:ship_graveyard_echo',
+        units: 90,
+        temperature: temp,
+        time: time,
+        meltIngot: false
+    });
+
+    // —— Gamma框架 ——  
+    db = 1100;
+    let gamma_framework = createMaterialBuilder('gamma_framework')
+        .setCraftable(true).setSortOrder(sortOrder++).setTier(2)
+        .addStats()
+        .addHead(db, 72.0, 13.0, 'minecraft:netherite')
+        .addHandle(0.3, 0.6, 0.1, 0.3)
+        .addPlatingHelmet(9.0, db * 0.7, 0.1, 3.0)
+        .addPlatingChestplate(14.0, db * 1.0, 0.1, 3.0)
+        .addPlatingLeggings(12.0, db * 0.9, 0.1, 3.0)
+        .addPlatingBoots(7.0, db * 0.6, 0.1, 3.0)
+        .addPlatingShield(db * 0.9, 0.1, 3.0)
+        .addBinding()
+        .addMaille()
+        .addTraits()
+        .build();
+    registerMaterialProcess({
+        fluid: null,
+        material: 'tconstruct:gamma_framework',
+        ingot: 'kubejs:gamma_framework',
+        units: 90,
+        temperature: temp,
+        time: time,
+        meltIngot: false
+    });
+
+    // —— 导热合金 ——  
+    db = 1100;
+    let thermoconducting = createMaterialBuilder('thermoconducting')
+        .setCraftable(false).setSortOrder(sortOrder++).setTier(2)
+        .addStats()
+        .addHead(db, 74.0, 13.0, 'minecraft:netherite')
+        .addHandle(0.2, 0.6, 0.15, 0.0)
+        .addPlatingHelmet(9.0, db * 0.7, 0.1, 3.0)
+        .addPlatingChestplate(14.0, db * 1.0, 0.1, 3.0)
+        .addPlatingLeggings(12.0, db * 0.9, 0.1, 3.0)
+        .addPlatingBoots(7.0, db * 0.6, 0.1, 3.0)
+        .addPlatingShield(db * 0.9, 0.1, 3.0)
+        .addBinding()
+        .addMaille()
+        .addTraits()
+        .build();
+    registerMaterialProcess({
+        fluid: 'nuclearcraft:thermoconducting',
+        material: 'tconstruct:thermoconducting',
+        ingot: '#forge:ingots/thermoconducting',
+        units: 90,
+        temperature: temp,
+        time: time,
+        meltIngot: true
+    });
+
+    // —— 虚空石符 ——  
+    db = 650;
+    let void_tablet = createMaterialBuilder('void_tablet')
+        .setCraftable(true).setSortOrder(sortOrder++).setTier(2)
+        .addStats()
+        .addHead(db, 76.0, 9.0, 'minecraft:diamond')
+        .addHandle(0.0, 0.7, 0.0, 0.0)
+        .addPlatingHelmet(9.0, db * 0.7, 0.1, 3.0)
+        .addPlatingChestplate(14.0, db * 1.0, 0.1, 3.0)
+        .addPlatingLeggings(12.0, db * 0.9, 0.1, 3.0)
+        .addPlatingBoots(7.0, db * 0.6, 0.1, 3.0)
+        .addPlatingShield(db * 0.9, 0.1, 3.0)
+        .addBinding()       // row65 = 1
+        .addMaille()        // row66 = 1
+        .addTraits()
+        .build();
+    registerMaterialProcess({
+        fluid: null,
+        material: 'tconstruct:void_tablet',
+        ingot: 'malum:void_tablet',
+        units: 90,
+        temperature: temp,
+        time: time,
+        meltIngot: false
+    });
+
+    // l4
+    // 深海紫水晶 
+    db = 1150;
+    let abyssal_amethyst = createMaterialBuilder('abyssal_amethyst')
+        .setCraftable(true).setSortOrder(sortOrder++).setTier(2)
+        .addStats()
+        .addHead(db, 76.0, 14.0, 'minecraft:diamond')
+        .addHandle(0.5, 0.6, 0.0, 0.2)
+        .addPlatingHelmet(9.0, db * 0.7, 0.1, 3.0)
+        .addPlatingChestplate(14.0, db * 1.0, 0.1, 3.0)
+        .addPlatingLeggings(12.0, db * 0.9, 0.1, 3.0)
+        .addPlatingBoots(7.0, db * 0.6, 0.1, 3.0)
+        .addPlatingShield(db * 0.9, 0.1, 3.0)
+        .addBinding()
+        .addMaille()
+        .addShieldCore()
+        .addTraits()
+        .build();
+    registerMaterialProcess({
+        fluid: null,
+        material: 'tconstruct:abyssal_amethyst',
+        ingot: 'aquamirae:abyssal_amethyst',
+        units: 90,
+        temperature: temp,
+        time: time,
+        meltIngot: false
+    });
+
+    // 活化彩钢*  
+    db = 1150;
+    let activated_chromatic_steel = createMaterialBuilder('activated_chromatic_steel')
+        .setCraftable(false).setSortOrder(sortOrder++).setTier(2).setNamespace("tinkers_advanced")
+        .addStats()
+        .addHead(db, 76.0, 11.0, 'minecraft:netherite')
+        .addHandle(0.25, 0.6, 0.15, 0.25)
+        .addPlatingHelmet(9.0, db * 0.7, 0.1, 3.0)
+        .addPlatingChestplate(14.0, db * 1.0, 0.1, 3.0)
+        .addPlatingLeggings(12.0, db * 0.9, 0.1, 3.0)
+        .addPlatingBoots(7.0, db * 0.6, 0.1, 3.0)
+        .addPlatingShield(db * 0.9, 0.1, 3.0)
+        .addBinding()
+        .addMaille()
+        .build();
+
+    // 六方氮化硼 
+    db = 1200;
+    let boron_nitride = createMaterialBuilder('boron_nitride')
+        .setCraftable(true).setSortOrder(sortOrder++).setTier(2)
+        .addStats()
+        .addHead(db, 76.0, 11.0, 'minecraft:diamond')
+        .addHandle(0.4, 0.7, 0.1, 0.4)
+        .addPlatingHelmet(9.0, db * 0.7, 0.1, 4.0)
+        .addPlatingChestplate(14.0, db * 1.0, 0.1, 4.0)
+        .addPlatingLeggings(12.0, db * 0.9, 0.1, 4.0)
+        .addPlatingBoots(7.0, db * 0.6, 0.1, 4.0)
+        .addPlatingShield(db * 0.9, 0.1, 4.0)
+        .addBinding()
+        .addMaille()
+        .addTraits()
+        .build();
+    registerMaterialProcess({
+        fluid: null,
+        material: 'tconstruct:boron_nitride',
+        ingot: '#forge:gems/boron_nitride',
+        units: 90,
+        temperature: temp,
+        time: time,
+        meltIngot: false
+    });
+
+    // 恶念白镴
+    db = 1200;
+    let malignant_pewter = createMaterialBuilder('malignant_pewter')
+        .setCraftable(true).setSortOrder(sortOrder++).setTier(2)
+        .addStats()
+        .addHead(db, 76.0, 11.0, 'minecraft:diamond')
+        .addHandle(0.4, 0.65, 0.1, 0.2)
+        .addPlatingHelmet(9.0, db * 0.7, 0.1, 4.0)
+        .addPlatingChestplate(14.0, db * 1.0, 0.1, 4.0)
+        .addPlatingLeggings(12.0, db * 0.9, 0.1, 4.0)
+        .addPlatingBoots(7.0, db * 0.6, 0.1, 4.0)
+        .addPlatingShield(db * 0.9, 0.1, 4.0)
+        .addBinding()
+        .addMaille()
+        .addTraits()
+        .build();
+    registerMaterialProcess({
+        fluid: null,
+        material: 'tconstruct:malignant_pewter',
+        ingot: 'malum:malignant_pewter_ingot',
+        units: 90,
+        temperature: temp,
+        time: time,
+        meltIngot: false
+    });
+
+    // 余烬异构
+    db = 1400;
+    let ember_profile = createMaterialBuilder('ember_profile')
+        .setCraftable(true).setSortOrder(sortOrder++).setTier(2)
+        .addStats()
+        .addHead(db, 88.0, 13.0, 'minecraft:netherite')
+        .addHandle(0.5, 0.7, 0.15, 0.3)
+        .addPlatingHelmet(10.0, db * 0.7, 0.1, 5.0)
+        .addPlatingChestplate(15.0, db * 1.0, 0.1, 5.0)
+        .addPlatingLeggings(13.0, db * 0.9, 0.1, 5.0)
+        .addPlatingBoots(8.0, db * 0.6, 0.1, 5.0)
+        .addPlatingShield(db * 0.9, 0.1, 5.0)
+        .addBinding()
+        .addMaille()
+        .addShieldCore()
+        .addTraits()
+        .build();
+    registerMaterialProcess({
+        fluid: null,
+        material: 'tconstruct:ember_profile',
+        ingot: 'kubejs:ember_profile',
+        units: 90,
+        temperature: temp,
+        time: time,
+        meltIngot: false
+    });
 
 }

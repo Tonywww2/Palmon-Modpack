@@ -65,5 +65,5 @@
 	#This value changes the decimal format of the HP. Only change this value if you are familiar with how the decimal format works!
 	decimal_format = "#.##"
 	#Blacklist uses entity IDs, not their display names. Use F3 to see them in the Neat bar.
-	blacklist = ["minecraft:shulker", "minecraft:armor_stand", "minecraft:cod", "minecraft:salmon", "minecraft:pufferfish", "minecraft:tropical_fish", "minecraft:tadpole"]
+	blacklist = ["minecraft:shulker", "minecraft:armor_stand", "minecraft:cod", "minecraft:salmon", "minecraft:pufferfish", "minecraft:tropical_fish", "minecraft:tadpole", "distantfriends:friend"]
 

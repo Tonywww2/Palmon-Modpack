@@ -221,6 +221,11 @@ StartupEvents.registry('fluid', event => {
 		.bucketColor(0xdddddd)
 		.thickTexture(0xffe3bb)
 
+	event.create('melted_hallowed_soul_steel')
+		.displayName('Melted Hallowed Soul Steel')
+		.bucketColor(0xdddddd)
+		.thickTexture(0xffe5b0)
+
 
 	event.create('melted_elementium')
 		.displayName('Melted Elementium')
