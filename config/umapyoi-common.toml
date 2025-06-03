@@ -14,14 +14,14 @@
 	#Determining the max attack of umamusume soul.
 	#Set to 0 will not add any attack.
 	#Range: 0.0 ~ 1.7976931348623157E308
-	umasoul_max_strength_attack = 0.5
+	umasoul_max_strength_attack = 0.4
 	#Determines whether to add stamina bouns as a percentage.
 	#If enable, the bonus will be calculated as a percentage.
-	umasoul_stamina_percent_enable = false
+	umasoul_stamina_percent_enable = true
 	#Determining the max health of umamusume soul.
 	#Set to 0 will not add any health.
 	#Range: 0.0 ~ 1.7976931348623157E308
-	umasoul_max_stamina_health = 40.0
+	umasoul_max_stamina_health = 0.4
 	#Determines whether to add guts bouns as a percentage.
 	#If enable, the bonus will be calculated as a percentage.
 	umasoul_guts_percent_enable = false
@@ -40,7 +40,7 @@
 	#Determining the damage that will effect motivation.
 	#Set to 0 to turn off.
 	#Range: 0.0 ~ 1.7976931348623157E308
-	damage_motivation_effect = 48.0
+	damage_motivation_effect = 128.0
 	#Determining the sum of gacha probabilities.
 	#If the sum of the three gacha probabilities does not equal the expected sum, follow the default configuration.
 	#Range: > 3

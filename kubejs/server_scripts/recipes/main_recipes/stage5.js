@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
     event.shapeless('dustandash:ash_steel_cylinder', ['ad_astra:steel_tank']).id('kubejs:ash_steel_cylinder_s5')
     event.shapeless('ad_astra:steel_tank', ['dustandash:ash_steel_cylinder']).id('kubejs:steel_tank_s5')
 
-    event.shapeless('kubejs:alfheim_iridescent', ['3x mythicbotany:raw_elementium', 'kubejs:iridescent', 'botania:bifrost_perm']).id('kubejs:alfheim_iridescent_s5')
+    event.shapeless('kubejs:alfheim_iridescent', ['3x mythicbotany:raw_elementium', 'kubejs:iridescent', 'botania:bifrost_perm', Item.of('tconstruct:tool_binding', '{Material:"tconstruct:alfsteel"}').weakNBT()]).id('kubejs:alfheim_iridescent_s5')
 
     event.smithing('dustandash:centrifuge', 'dustandash:iron_structural_components', 'nuclearcraft:centrifuge', 'dustandash:ash_steel_ingot').id('kubejs:centrifuge_s5')
 

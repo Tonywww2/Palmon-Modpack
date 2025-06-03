@@ -1,6 +1,13 @@
 // priority: 50
 // By Tonywww, 原始用途：帕鲁梦整合包
 
+// 浮动范围
+global.randomScaleMap = {
+    1: 30,
+    2: 20,
+    3: 10,
+    4: 5
+}
 ServerEvents.highPriorityData(event => {
 
     /**
@@ -52,11 +59,13 @@ ServerEvents.highPriorityData(event => {
              */
             setTier(n) {
                 definition.tier = n;
-                scaleA = randomNextScaled(5 - n)
-                scaleB = randomNextScaled(5 - n)
-                scaleC = randomNextScaled(5 - n)
-                scaleD = randomNextScaled(5 - n)
-                scaleE = randomNextScaled(5 - n)
+                scaleA = randomNextScaled(global.randomScaleMap[n]) + global.tcRandomFix
+                scaleB = randomNextScaled(global.randomScaleMap[n]) + global.tcRandomFix
+                scaleC = randomNextScaled(global.randomScaleMap[n]) + global.tcRandomFix
+                scaleD = randomNextScaled(global.randomScaleMap[n]) + global.tcRandomFix
+                scaleE = randomNextScaled(global.randomScaleMap[n]) + global.tcRandomFix
+                // console.log(global.tcRandomFix)
+                // console.log(`Scale A: ${scaleA}, B: ${scaleB}, C: ${scaleC}, D: ${scaleD}, E: ${scaleE}`);
                 return builder;
             },
 

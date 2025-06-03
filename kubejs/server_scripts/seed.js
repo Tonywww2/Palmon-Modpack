@@ -22,43 +22,50 @@ global.jsonData = loadPackData()
 global.seed = global.jsonData.get("last_seed").toString()
 global.seed = global.seed.replace('\"', "")
 console.log("[ROUGELIKE RECIPES] Loading Scripts, catched Seed: " + global.seed)
+
 console.log("[EOT] All Learned Buffs: ")
+let tmp = ""
 
 let learnedArr = global.jsonData.getAsJsonArray("learned_buffs")
-
 for (let i of learnedArr) {
     let id = i.getAsString()
-    console.log(id)
+    // console.log(id)
+    tmp += i + " "
     let buff = global.all_buffs[id]
     buff.unlocked = true
 }
+console.log(tmp)
 
 let seedMap = global.jsonData.getAsJsonObject("all_seed_data")
-
 if (!seedMap.has(global.seed)) {
     // 新 seed
     console.log("[EOT] New Seed")
+    let tmp = ""
     let newArr = new $JsonArray()
     for (let i in global.all_buffs) {
         if (global.all_buffs[i].unlocked) {
             newArr["add(java.lang.String)"](i)
-            console.log(i)
+            // console.log(i)
+            tmp += i + " "
             global.current_buffs.add(i)
         }
     }
     seedMap.add(global.seed, newArr)
+    console.log(tmp)
 
 } else {
     // 旧 seed
     console.log("[EOT] Old Seed, Current Buffs: ")
+    let tmp = ""
     let existArr = seedMap.getAsJsonArray(global.seed)
     for (let i of existArr) {
         let id = String(i.getAsString())
-        console.log(id)
+        // console.log(id)
+        tmp += id + " "
         global.current_buffs.add(id)
     }
+    console.log(tmp)
 }
-
 savePackData(global.jsonData)
 
 // console.log(global.all_buffs)
@@ -76,6 +83,22 @@ for (let i = 0; i < 1280; i++) {
 }
 
 // console.log(global.levelRandomMap)
+
+// EOT: KJS效果
+let strtmp = ""
+for (let id in global.all_buffs) {
+    if (global.current_buffs.has(id)) {
+        let buff = global.all_buffs[id]
+
+        // console.log(`[EOT] ${id} apply to kjs`)
+        tmp += id + " "
+
+        buff.kjsEffect(null)
+
+    }
+}
+console.log(`[EOT] apply to kjs`)
+console.log(tmp)
 
 // 游戏加载后
 ServerEvents.loaded(event => {
@@ -276,8 +299,10 @@ function randomNext(range) {
 }
 
 function randomNextScaled(scale) {
-    let value = randomNext(10)
-    return 1 + ((value - 5) * 0.01 * scale)
+    let value = randomNext(200) - 100
+    value /= 10000.0
+    // console.log("Random Value: " + value)
+    return 1 + (value * scale)
 }
 
 function randomSample(n, range) {

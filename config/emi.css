@@ -76,7 +76,7 @@
 	/**
 	 * The unit to display fluids as.
 	 */
-	fluid-unit: millibuckets;
+	fluid-unit: droplets;
 
 	/**
 	 * Whether to use the batched render system. Batching is faster, but may have

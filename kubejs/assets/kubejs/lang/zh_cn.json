@@ -331,13 +331,13 @@
     "kubejs.eot.tank_sp_desc": "·初始携带 铜头铁臂",
 
     "kubejs.eot.speed_1_name": "[健步如飞]",
-    "kubejs.eot.speed_1_desc": "·初始携带 疾风脚镯\n·初始携带 跑鞋\n·属性 速度 * 10%",
+    "kubejs.eot.speed_1_desc": "·初始携带 疾风脚镯\n·初始携带 跑鞋\n·属性 速度 + 10%",
     
     "kubejs.eot.speed_2_name": "[风驰电掣]",
-    "kubejs.eot.speed_2_desc": "·初始携带 泰拉闪耀靴\n·属性 速度 * 10%",
+    "kubejs.eot.speed_2_desc": "·初始携带 泰拉闪耀靴\n·属性 速度 + 10%",
     
     "kubejs.eot.flight_1_name": "[上天入地]",
-    "kubejs.eot.flight_1_desc": "·初始携带 Takeoff!\n·属性 速度 * 10%\n·属性 Max Mana * 20%",
+    "kubejs.eot.flight_1_desc": "·初始携带 Takeoff!\n·属性 速度 + 10%\n·属性 Max Mana + 20%",
 
 
     "kubejs.eot.poke_1_name": "[西尔佛公司特派]",
@@ -382,6 +382,15 @@
     "kubejs.eot.relics_3_desc": "·初始携带 随机的上级异界遗物",
     
     "kubejs.eot.relics_4_name": "[上位异界同调]",
-    "kubejs.eot.relics_4_desc": "·初始携带 随机的上级异界遗物"
+    "kubejs.eot.relics_4_desc": "·初始携带 随机的上级异界遗物",
+    
+    "kubejs.eot.tcr_1_name": "[锻造专家]",
+    "kubejs.eot.tcr_1_desc": "·锻造随机数修正 + 5%\n  ¤  使所有材料的属性浮动更加正面",
+    
+    "kubejs.eot.tcr_2_name": "[铸造大师]",
+    "kubejs.eot.tcr_2_desc": "·锻造随机数修正 + 10%\n  ¤  使所有材料的属性浮动更加正面",
+    
+    "kubejs.eot.tcr_3_name": "[传说铁匠]",
+    "kubejs.eot.tcr_3_desc": "·锻造随机数修正 + 15%\n  ¤  使所有材料的属性浮动更加正面"
 
 }

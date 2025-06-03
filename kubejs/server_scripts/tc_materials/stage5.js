@@ -21,8 +21,9 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         .addMaille()
         .addShieldCore()
         .addTraits()
-        .addDefaultTrait(1, 'tconstruct:magnetic')
-        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:projectile_protection')
+        .addDefaultTrait(1, 'tconstruct:dense')
+        .addDefaultTrait(1, 'tconstruct:ductile')
+        .addDefaultTrait(1, 'etstlib:glowing')
         .build();
     registerMaterialProcess({
         fluid: 'kubejs:melted_end_steel',
@@ -48,8 +49,12 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
-        .addDefaultTrait(1, 'tconstruct:magnetic')
+        .addDefaultTrait(1, 'tinkers_advanced:unstable')
+        .addDefaultTrait(1, 'etstlib:global_traveler')
+        .addDefaultTrait(1, 'tcintegrations:livingwood')
+        .addPerStatTrait('tconstruct:armor', 1, 'tinkers_advanced:unstable')
         .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:projectile_protection')
+        .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:livingwood')
         .build();
     registerMaterialProcess({
         fluid: null,
@@ -67,7 +72,8 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         .addStats()
         .addBowstring()
         .addTraits()
-        .addDefaultTrait(1, 'tconstruct:magnetic')
+        .addDefaultTrait(1, 'tconstruct:crystalbound')
+        .addDefaultTrait(1, 'tconstruct:stringy')
         .build();
     registerMaterialProcess({
         fluid: null,
@@ -92,6 +98,9 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingBoots(6.0, db * 0.6, 0.15, 5.0)
         .addBinding()
         .addMaille()
+        .addTraits()
+        .addDefaultTrait(2, 'tinkers_advanced:metamorphium')
+        .addDefaultTrait(1, 'tconstruct:diamond')
         .build();
     registerMaterialProcess({
         fluid: null,
@@ -117,6 +126,10 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addBowstring()
+        .addTraits()
+        .addDefaultTrait(1, 'tinkers_advanced:thermal_enhance')
+        .addDefaultTrait(1, 'tinkers_advanced:edging_technology')
+        .addDefaultTrait(1, 'tconstruct:shiny')
         .build();
     registerMaterialProcess({
         fluid: null,
@@ -157,6 +170,12 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addShieldCore()
+        .addTraits()
+        .addDefaultTrait(3, 'tconstruct:invariant')
+        .addDefaultTrait(1, 'tconstruct:crumbling')
+        .addDefaultTrait(1, 'tinkers_things:fortified')
+        .addPerStatTrait('tconstruct:armor', 2, 'etstlib:radiation_shielding')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:shulking')
         .build();
     registerMaterialProcess({
         fluid: null,
@@ -183,6 +202,10 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addShieldCore()
+        .addTraits()
+        .addDefaultTrait(1, 'tinkers_advanced:platinoid_catalyst')
+        .addDefaultTrait(1, 'tinkers_advanced:transition_catalyst')
+        .addDefaultTrait(1, 'tinkers_advanced:flux_infused')
         .build();
     registerMaterialProcess({
         fluid: 'kubejs:melted_titanium',
@@ -208,10 +231,13 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
-        .addDefaultTrait(1, 'tconstruct:magnetic')
-        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:projectile_protection')
+        .addDefaultTrait(1, 'tinkers_advanced:focusing_array')
+        .addDefaultTrait(1, 'tinkers_advanced:over_hold')
+        .addDefaultTrait(1, 'tconstruct:lustrous')
+        .addPerStatTrait('tconstruct:armor', 1, 'tinkers_advanced:focusing_array')
+        .addPerStatTrait('tconstruct:armor', 1, 'tinkers_advanced:over_hold')
+        .addPerStatTrait('tconstruct:armor', 1, 'tinkers_advanced:sensor_interrupt')
         .build();
-
     registerMaterialProcess({
         fluid: null,
         material: 'tconstruct:otherside_mixture',
@@ -221,7 +247,6 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         time: time,
         meltIngot: false
     });
-
 
     // 共振板
     db = 1200;
@@ -237,10 +262,12 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
-        .addDefaultTrait(1, 'tconstruct:magnetic')
-        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:projectile_protection')
+        .addDefaultTrait(1, 'tinkers_advanced:sculk_resonance')
+        .addDefaultTrait(1, 'tconstruct:lightweight')
+        .addDefaultTrait(1, 'tconstruct:expanded')
+        .addPerStatTrait('tconstruct:armor', 2, 'tinkers_advanced:basalz_defense')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:mithridatism')
         .build();
-
     registerMaterialProcess({
         fluid: null,
         material: 'tconstruct:resonarium_plate',
@@ -250,7 +277,6 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         time: time,
         meltIngot: false
     });
-
 
     // 天华锭
     db = 1000;
@@ -267,10 +293,13 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
-        .addDefaultTrait(1, 'tconstruct:magnetic')
-        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:projectile_protection')
+        .addDefaultTrait(1, 'tconstruct:swiftstrike')
+        .addDefaultTrait(1, 'tinkers_advanced:proto_refining')
+        .addDefaultTrait(1, 'tinkers_things:fortified')
+        .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:shield_of_the_deep')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:boundless')
+        .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:ars_nouveau')
         .build();
-
     registerMaterialProcess({
         fluid: 'kubejs:melted_aether_ingot',
         material: 'tconstruct:aether_ingot',
@@ -280,7 +309,6 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         time: time,
         meltIngot: true
     });
-
 
     // 天华宝石
     db = 900;
@@ -295,10 +323,13 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingBoots(10.0, db * 0.6, 0.15, 7.0)
         .addBinding()
         .addTraits()
-        .addDefaultTrait(1, 'tconstruct:magnetic')
-        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:projectile_protection')
+        .addDefaultTrait(1, 'tinkers_advanced:proto_refining')
+        .addDefaultTrait(1, 'tcintegrations:siren')
+        .addDefaultTrait(1, 'tcintegrations:elemental')
+        .addPerStatTrait('tconstruct:armor', 1, 'etstlib:extra_dense')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:scorch_protection')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:blast_protection')
         .build();
-
     registerMaterialProcess({
         fluid: null,
         material: 'tconstruct:aether_gem',
@@ -308,7 +339,6 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         time: time,
         meltIngot: false
     });
-
 
     // 铌钛合金
     db = 1200;
@@ -325,10 +355,12 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
+        .addDefaultTrait(1, 'etstlib:energetic_attack')
         .addDefaultTrait(1, 'tconstruct:magnetic')
-        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:projectile_protection')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:depth_protection')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:boon_of_sssss')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:magnetic')
         .build();
-
     registerMaterialProcess({
         fluid: 'kubejs:niobium_titanium',
         material: 'tconstruct:niobium_titanium',
@@ -338,7 +370,6 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         time: time,
         meltIngot: true
     });
-
 
     // 氦3晶体
     db = 800;
@@ -354,10 +385,16 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
-        .addDefaultTrait(1, 'tconstruct:magnetic')
-        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:projectile_protection')
+        .addDefaultTrait(1, 'tconstruct:diamond')
+        .addDefaultTrait(1, 'tconstruct:lacerating')
+        .addDefaultTrait(1, 'tconstruct:crumbling')
+        .addPerStatTrait('tconstruct:head', 1, 'tinkers_advanced:basalz_inflict')
+        .addPerStatTrait('tconstruct:head', 1, 'etstlib:critical')
+        .addPerStatTrait('tconstruct:head', 1, 'tconstruct:lacerating')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:overgrowth')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:overcast')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:recurrent_protection')
         .build();
-
     registerMaterialProcess({
         fluid: null,
         material: 'tconstruct:helium_3_crystal',
@@ -367,7 +404,6 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         time: time,
         meltIngot: false
     });
-
 
     // 无夜之光
     db = 950;
@@ -383,10 +419,13 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
-        .addDefaultTrait(1, 'tconstruct:magnetic')
-        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:projectile_protection')
+        .addDefaultTrait(1, 'tcintegrations:soul_stained')
+        .addDefaultTrait(1, 'etstlib:magic_strike')
+        .addDefaultTrait(1, 'tinkers_advanced:echo_locating')
+        .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:soul_stained')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:gold_guard')
+        .addPerStatTrait('tconstruct:armor', 1, 'etstlib:terrafirma')
         .build();
-
     registerMaterialProcess({
         fluid: null,
         material: 'tconstruct:light_of_inlixaland',
@@ -396,7 +435,6 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         time: time,
         meltIngot: false
     });
-
 
     // 亚尔夫海姆之虹光
     db = 1050;
@@ -413,10 +451,16 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         .addMaille()
         .addTraits()
         .addBowstring()
-        .addDefaultTrait(1, 'tconstruct:magnetic')
-        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:projectile_protection')
+        .addDefaultTrait(1, 'etstlib:terra_beam')
+        .addDefaultTrait(1, 'tcintegrations:elemental')
+        .addDefaultTrait(1, 'etstlib:anisotropy')
+        .addDefaultTrait(1, 'tconstruct:shiny')
+        .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:mana')
+        .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:terrestrial')
+        .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:great_fairy')
+        .addPerStatTrait('tconstruct:armor', 1, 'tinkers_advanced:thermal_enhance')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:shiny')
         .build();
-
     registerMaterialProcess({
         fluid: null,
         material: 'tconstruct:alfheim_iridescent',
@@ -442,10 +486,12 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
-        .addDefaultTrait(1, 'tconstruct:magnetic')
-        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:projectile_protection')
+        .addDefaultTrait(2, 'tconstruct:sharpweight')
+        .addDefaultTrait(1, 'etstlib:extra_dense')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:sharpweight')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:shulking')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:kinetic')
         .build();
-
     registerMaterialProcess({
         fluid: 'kubejs:melted_titanium_tungsten',
         material: 'tconstruct:titanium_tungsten',
@@ -472,10 +518,13 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
-        .addDefaultTrait(1, 'tconstruct:magnetic')
-        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:projectile_protection')
+        .addDefaultTrait(2, 'tinkers_advanced:electric')
+        .addDefaultTrait(2, 'tconstruct:sharpness')
+        .addDefaultTrait(1, 'etstlib:atomic_decompose')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:lightspeed_armor')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:ductile')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:melee_protection')
         .build();
-
     registerMaterialProcess({
         fluid: 'kubejs:melted_titanium_aluminum',
         material: 'tconstruct:titanium_aluminum',
@@ -485,7 +534,6 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         time: time,
         meltIngot: true
     });
-
 
     // Epsilon框架
     db = 1400;
@@ -502,10 +550,13 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
-        .addDefaultTrait(1, 'tconstruct:magnetic')
-        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:projectile_protection')
+        .addDefaultTrait(1, 'etstlib:executioner')
+        .addDefaultTrait(1, 'tcintegrations:capturing')
+        .addDefaultTrait(1, 'tinkers_advanced:metamorphium')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:revitalizing')
+        .addPerStatTrait('tconstruct:armor', 1, 'tinkers_advanced:metamorphium')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:enhanced')
         .build();
-
     registerMaterialProcess({
         fluid: null,
         material: 'tconstruct:epsilon_framework',
@@ -515,7 +566,6 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         time: time,
         meltIngot: false
     });
-
 
     // 氦3晶体∞
     db = 1000;
@@ -532,10 +582,13 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
-        .addDefaultTrait(1, 'tconstruct:magnetic')
-        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:projectile_protection')
+        .addDefaultTrait(1, 'etstlib:armor_piercing')
+        .addDefaultTrait(1, 'tconstruct:piercing')
+        .addDefaultTrait(1, 'tconstruct:netherite')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:revenge')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:enderman_disguise')
+        .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:poseidon')
         .build();
-
     registerMaterialProcess({
         fluid: null,
         material: 'tconstruct:helium_3_crystal_infinity',
@@ -545,7 +598,6 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         time: time,
         meltIngot: false
     });
-
 
     // 仪召珍珠
     db = 1100;
@@ -562,8 +614,12 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
-        .addDefaultTrait(1, 'tconstruct:magnetic')
+        .addDefaultTrait(1, 'etstlib:fatal')
+        .addDefaultTrait(1, 'etstlib:rude')
+        .addDefaultTrait(1, 'tconstruct:insatiable')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:magic_protection')
         .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:projectile_protection')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:sticky')
         .build();
 
     registerMaterialProcess({
@@ -575,7 +631,6 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         time: time,
         meltIngot: false
     });
-
 
     // 奇点合金
     db = 2100;
@@ -592,10 +647,14 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
-        .addDefaultTrait(1, 'tconstruct:magnetic')
-        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:projectile_protection')
+        .addDefaultTrait(1, 'tinkers_advanced:flux_infused')
+        .addDefaultTrait(1, 'tinkers_advanced:thermal_slash')
+        .addDefaultTrait(1, 'etstlib:short_circuit')
+        .addPerStatTrait('tconstruct:armor', 1, 'tinkers_advanced:flux_infused')
+        .addPerStatTrait('tconstruct:armor', 1, 'tinkers_advanced:flux_defense')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:boundless')
+        .addPerStatTrait('tconstruct:maille', 1, 'etstlib:hardened')
         .build();
-
     registerMaterialProcess({
         fluid: 'kubejs:melted_basepoint_alloy',
         material: 'tconstruct:basepoint_alloy',
@@ -605,6 +664,5 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         time: time,
         meltIngot: true
     });
-
 
 }
