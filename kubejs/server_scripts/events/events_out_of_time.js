@@ -348,7 +348,7 @@ registerBuff("miner_2", 2, ["miner_1"], false,
     },
     empty)
 
-registerBuff("miner_3", 3, ["miner_2", "true_ending"], false,
+registerBuff("miner_3", 3, ["true_ending", "miner_2"], false,
     function (event) {
         event.player.give(Item.of('avaritia:blaze_pickaxe', '{Unbreakable:1b}'))
         event.player.give(Item.of('malum:rune_of_haste'))
@@ -357,7 +357,7 @@ registerBuff("miner_3", 3, ["miner_2", "true_ending"], false,
         global.blockReachAmmount += 2.0
     })
 
-registerBuff("miner_4", 3, ["miner_3", "master_ending"], true,
+registerBuff("miner_4", 3, ["master_ending", "miner_3"], true,
     function (event) {
         event.player.give(Item.of('occultism:dimensional_mineshaft', '{BlockEntityTag:{ForgeCaps:{},id:"occultism:dimensional_mineshaft",inputHandler:{Items:[{Count:1b,Slot:0,id:"occultism:miner_marid_master",tag:{Unbreakable:1b}}],Size:1}}}'))
     },
@@ -403,7 +403,7 @@ registerBuff("assassin_2", 1, ["assassin_1"], false,
         global.critical_chanceAmmount += 0.05
     })
 
-registerBuff("fighter_4", 3, ["fighter_3", "assassin_2", "true_ending"], false,
+registerBuff("fighter_4", 3, ["true_ending", "fighter_3", "assassin_2"], false,
     empty,
     empty,
     function (event) {
@@ -412,13 +412,31 @@ registerBuff("fighter_4", 3, ["fighter_3", "assassin_2", "true_ending"], false,
         global.critical_chanceAmmount += 0.05
     })
 
-registerBuff("fighter_5", 3, ["fighter_4", "master_ending"], true,
+registerBuff("fighter_5", 3, ["master_ending", "fighter_4"], true,
     empty,
     empty,
     function (event) {
         global.attack_damageAmmount += 5.0
         global.attack_speedAmmount += 0.1
         global.critical_chanceAmmount += 0.05
+    })
+registerBuff("slashblade_1", 1, ["fighter_3"], false,
+    empty,
+    empty,
+    function (event) {
+        global.slashblade_damageAmmount += 0.75
+    })
+registerBuff("slashblade_2", 2, ["true_ending", "slashblade_1"], false,
+    empty,
+    empty,
+    function (event) {
+        global.slashblade_damageAmmount += 0.75
+    })
+registerBuff("slashblade_3", 4, ["master_ending", "slashblade_1"], true,
+    empty,
+    empty,
+    function (event) {
+        global.slashblade_damageAmmount += 1.5
     })
 
 registerBuff("tank_1", 1, ["init"], false,
@@ -456,7 +474,7 @@ registerBuff("tank_sp", 1, ["tank_1", "sheild_1"], false,
     empty,
     empty)
 
-registerBuff("tank_3", 3, ["tank_2", "sheild_2", "true_ending"], false,
+registerBuff("tank_3", 3, ["true_ending", "tank_2", "sheild_2"], false,
     empty,
     empty,
     function (event) {
@@ -465,7 +483,7 @@ registerBuff("tank_3", 3, ["tank_2", "sheild_2", "true_ending"], false,
         global.healing_powerAmmount += 0.15
     })
 
-registerBuff("tank_4", 3, ["tank_3", "master_ending"], true,
+registerBuff("tank_4", 3, ["master_ending", "tank_3"], true,
     empty,
     empty,
     function (event) {
@@ -486,7 +504,7 @@ registerBuff("speed_1", 1, ["init"], false,
         global.movementSpeedAmmount += 0.1
     })
 
-registerBuff("speed_2", 3, ["speed_1", "true_ending"], false,
+registerBuff("speed_2", 3, ["true_ending", "speed_1"], false,
     function (event) {
         event.player.give(Item.of('confluence:terraspark_boots'))
     },
@@ -495,7 +513,7 @@ registerBuff("speed_2", 3, ["speed_1", "true_ending"], false,
         global.movementSpeedAmmount += 0.1
     })
 
-registerBuff("flight_1", 3, ["speed_1", "master_ending"], true,
+registerBuff("flight_1", 3, ["master_ending", "speed_1"], true,
     function (event) {
         event.player.give(Item.of('ars_nouveau:caster_tome', '{"ars_nouveau:caster":{current_slot:0,flavor:"Launches the caster into the air and grants temporary elytra flight!",hidden_recipe:"",is_hidden:0b,spell_count:1,spells:{spell0:{name:"Takeoff!",recipe:{part0:"ars_nouveau:glyph_self",part1:"ars_nouveau:glyph_launch",part2:"ars_nouveau:glyph_launch",part3:"ars_nouveau:glyph_glide",part4:"ars_nouveau:glyph_duration_down",size:5},sound:{pitch:1.0f,soundTag:{id:"ars_nouveau:fire_family"},volume:1.0f},spellColor:{b:180,g:25,r:255,type:"ars_nouveau:constant"}}}},display:{Name:\'{"italic":true,"color":"dark_purple","text":"Takeoff!"}\'}}'))
     },
@@ -551,7 +569,7 @@ registerBuff("thermal_1", 2, ["init"], false,
     empty,
     empty)
 
-registerBuff("thermal_2", 2, ["thermal_1", "true_ending"], false,
+registerBuff("thermal_2", 2, ["true_ending", "thermal_1"], false,
     function (event) {
         event.player.give(Item.of('2x thermal_extra:abyssal_upgrade_augment'))
     },
@@ -596,7 +614,7 @@ registerBuff("fuel_1", 1, ["init"], false,
     },
     empty)
 
-registerBuff("fuel_2", 1, ["fuel_1", "true_ending"], true,
+registerBuff("fuel_2", 1, ["true_ending", "fuel_1"], true,
     function (event) {
         event.player.give(Item.of('tfc:metal/axe/red_steel', "{Unbreakable:1b,display:{Name:'{\"text\":\"Jonny?\"}'}}").enchant('minecraft:efficiency', 5))
     },
@@ -693,23 +711,23 @@ registerBuff("tcr_1", 1, ["init"], false,
     empty,
     empty,
     function (event) {
-        global.tcRandomFix += 0.05
+        global.tcRandomFix += 0.005
         // console.log(global.tcRandomFix)
     })
 
-registerBuff("tcr_2", 3, ["true_ending", "tcr_1"], false,
+registerBuff("tcr_2", 2, ["true_ending", "tcr_1"], false,
     empty,
     empty,
     function (event) {
-        global.tcRandomFix += 0.1
+        global.tcRandomFix += 0.005
         // console.log(global.tcRandomFix)
     })
 
-registerBuff("tcr_3", 5, ["master_ending", "tcr_2"], false,
+registerBuff("tcr_3", 4, ["master_ending", "tcr_2"], false,
     empty,
     empty,
     function (event) {
-        global.tcRandomFix += 0.15
+        global.tcRandomFix += 0.01
         // console.log(global.tcRandomFix)
     })
 

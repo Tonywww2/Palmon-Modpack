@@ -65,6 +65,11 @@ function stage4Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingShield(db * 0.9, 0.1, 4.0)
         .addBinding()
         .addMaille()
+        .addTraits()
+        .addDefaultTrait(1, 'tcintegrations:mana')
+        .addDefaultTrait(1, 'tcintegrations:alf')
+        .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:mana')
+        .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:great_fairy')
         .build();
     registerMaterialProcess({
         fluid: 'kubejs:melted_elementium',
@@ -75,7 +80,6 @@ function stage4Materials(createMaterialBuilder, registerMaterialProcess) {
         time: time,
         meltIngot: true
     });
-
 
     // 耐热*
     db = 1150;
@@ -107,6 +111,15 @@ function stage4Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingShield(db * 0.9, 0.1, 4.0)
         .addBinding()
         .addMaille()
+        .addTraits()
+        .addDefaultTrait(1, 'tcintegrations:mana')
+        .addDefaultTrait(1, 'tcintegrations:alf')
+        .addDefaultTrait(1, 'tcintegrations:terra')
+        .addDefaultTrait(1, 'etstlib:energetic_attack')
+        .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:mana')
+        .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:great_fairy')
+        .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:terrestrial')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:magic_protection')
         .build();
     registerMaterialProcess({
         fluid: 'kubejs:melted_alfsteel',
@@ -117,7 +130,6 @@ function stage4Materials(createMaterialBuilder, registerMaterialProcess) {
         time: time,
         meltIngot: true
     });
-
 
     // 智能龙
     db = 1200;
@@ -132,6 +144,13 @@ function stage4Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingBoots(8.0, db * 0.6, 0.1, 4.0)
         .addBinding()
         .addMaille()
+        .addTraits()
+        .addDefaultTrait(1, 'tinkers_advanced:flux_infused')
+        .addDefaultTrait(1, 'tinkers_advanced:disintegrate')
+        .addDefaultTrait(1, 'tconstruct:swiftstrike')
+        .addPerStatTrait('tconstruct:armor', 1, 'tinkers_advanced:flux_infused')
+        .addPerStatTrait('tconstruct:armor', 1, 'tinkers_advanced:piezoelectric_effect')
+        .addPerStatTrait('tconstruct:armor', 1, 'etstlib:energy_shield')
         .build();
     registerMaterialProcess({
         fluid: null,
@@ -142,7 +161,6 @@ function stage4Materials(createMaterialBuilder, registerMaterialProcess) {
         time: time,
         meltIngot: false
     });
-
 
     // 超导线圈1
     db = 1150;
@@ -157,6 +175,10 @@ function stage4Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingBoots(9.0, db * 0.6, 0.1, 5.0)
         .addBinding()
         .addMaille()
+        .addTraits()
+        .addDefaultTrait(1, 'tinkers_things:fortified')
+        .addDefaultTrait(1, 'tinkers_advanced:electric_food')
+        .addDefaultTrait(1, 'tinkers_things:hemodynamic')
         .build();
     registerMaterialProcess({
         fluid: null,
@@ -167,7 +189,6 @@ function stage4Materials(createMaterialBuilder, registerMaterialProcess) {
         time: time,
         meltIngot: false
     });
-
 
     // 归一精华
     db = 900;
@@ -185,6 +206,11 @@ function stage4Materials(createMaterialBuilder, registerMaterialProcess) {
         .addMaille()
         .addShieldCore()
         .addBowstring()
+        .addTraits()
+        .addDefaultTrait(1, 'tconstruct:overslime')
+        .addDefaultTrait(1, 'tconstruct:overlord')
+        .addDefaultTrait(1, 'tconstruct:overcast')
+        .addDefaultTrait(1, 'tconstruct:overgrowth')
         .build();
     registerMaterialProcess({
         fluid: null,
@@ -210,6 +236,10 @@ function stage4Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingShield(db * 0.9, 0.1, 6.0)
         .addBinding()
         .addMaille()
+        .addTraits()
+        .addDefaultTrait(1, 'tinkers_advanced:elastic')
+        .addDefaultTrait(1, 'etstlib:glowing')
+        .addDefaultTrait(1, 'tconstruct:dwarven')
         .build();
     registerMaterialProcess({
         fluid: null,
@@ -235,6 +265,13 @@ function stage4Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingShield(db * 0.9, 0.1, 6.0)
         .addBinding()
         .addMaille()
+        .addTraits()
+        .addDefaultTrait(1, 'tconstruct:shiny')
+        .addDefaultTrait(1, 'tconstruct:autosmelt')
+        .addDefaultTrait(1, 'tcintegrations:livingwood')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:shiny')
+        .addPerStatTrait('tconstruct:armor', 1, 'etstlib:crystal_armor')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:flamewake')
         .build();
     registerMaterialProcess({
         fluid: null,
@@ -260,6 +297,15 @@ function stage4Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingShield(db * 0.9, 0.1, 6.0)
         .addBinding()
         .addMaille()
+        .addTraits()
+        .addDefaultTrait(1, 'tconstruct:scorching')
+        .addDefaultTrait(1, 'tconstruct:netherite')
+        .addPerStatTrait('tconstruct:head', 1, 'tconstruct:scorching')
+        .addPerStatTrait('tconstruct:head', 1, 'tinkers_advanced:basalz_inflict')
+        .addPerStatTrait('tconstruct:head', 1, 'tconstruct:pierce')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:scorch_protection')
+        .addPerStatTrait('tconstruct:armor', 1, 'tinkers_advanced:basalz_defense')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:netherite')
         .build();
     registerMaterialProcess({
         fluid: null,

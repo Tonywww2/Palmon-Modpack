@@ -38,6 +38,10 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
+        .addDefaultTrait(1, 'tinkers_things:fortified')
+        .addDefaultTrait(1, 'tconstruct:trueshot')
+        .addPerStatTrait('tconstruct:armor', 1, 'etstlib:radiation_shielding')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:tanned')
         .build();
     registerMaterialProcess({
         fluid: null,
@@ -64,6 +68,12 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
+        .addDefaultTrait(1, 'tconstruct:heavy')
+        .addDefaultTrait(1, 'etstlib:critical')
+        .addPerStatTrait('tconstruct:head', 1, 'tinkers_advanced:tetanus')
+        .addPerStatTrait('tconstruct:head', 1, 'tcintegrations:hellish')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:recurrent_protection')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:ductile')
         .build();
     registerMaterialProcess({
         fluid: 'nuclearcraft:ferroboron',
@@ -106,6 +116,10 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
+        .addDefaultTrait(1, 'tconstruct:hydraulic')
+        .addDefaultTrait(1, 'tinkers_advanced:blizz_inflict')
+        .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:water_powered')
+        .addPerStatTrait('tconstruct:armor', 1, 'tinkers_advanced:blizz_defense')
         .build();
     registerMaterialProcess({
         fluid: null,
@@ -132,6 +146,10 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
+        .addDefaultTrait(1, 'etstlib:extra_dense')
+        .addDefaultTrait(1, 'tconstruct:magnetic')
+        .addPerStatTrait('tconstruct:armor', 1, 'etstlib:extra_dense')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:blast_protection')
         .build();
     registerMaterialProcess({
         fluid: 'kubejs:melted_ash_steel',
@@ -190,6 +208,8 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
+        .addDefaultTrait(1, 'etstlib:extra_dense')
+        .addDefaultTrait(1, 'tconstruct:kinetic')
         .build();
     registerMaterialProcess({
         fluid: 'nuclearcraft:tough_alloy',
@@ -217,6 +237,8 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
+        .addDefaultTrait(1, 'tconstruct:worldbound')
+        .addDefaultTrait(1, 'tconstruct:enhanced')
         .build();
     registerMaterialProcess({
         fluid: 'kubejs:melted_hallowed_gold',
@@ -291,6 +313,10 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
+        .addDefaultTrait(1, 'tconstruct:invariant')
+        .addDefaultTrait(1, 'tinkers_advanced:blitz_inflict')
+        .addPerStatTrait('tconstruct:armor', 1, 'tinkers_things:venom')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:solar_powered')
         .build();
     registerMaterialProcess({
         fluid: 'kubejs:melted_present_alloy',
@@ -333,6 +359,10 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
+        .addDefaultTrait(1, 'etstlib:anisotropy')
+        .addDefaultTrait(1, 'tinkers_things:fortified')
+        .addPerStatTrait('tconstruct:armor', 2, 'etstlib:radiation_shielding')
+        .addPerStatTrait('tconstruct:armor', 1, 'etstlib:secondary_armor')
         .build();
     registerMaterialProcess({
         fluid: null,
@@ -375,6 +405,10 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
+        .addDefaultTrait(1, 'tcintegrations:oxygenated')
+        .addDefaultTrait(1, 'tconstruct:invariant')
+        .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:oxygenated')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:melee_protection')
         .build();
     registerMaterialProcess({
         fluid: 'kubejs:melted_stable_desh',
@@ -402,6 +436,10 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
+        .addDefaultTrait(1, 'tcintegrations:soul_stained')
+        .addDefaultTrait(1, 'tconstruct:enhanced')
+        // .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:soul_stained')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:golden')
         .build();
     registerMaterialProcess({
         fluid: 'kubejs:melted_hallowed_soul_steel',
@@ -430,6 +468,10 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addShieldCore()
         .addBowstring()
         .addTraits()
+        .addDefaultTrait(1, 'etstlib:energetic_attack')
+        .addDefaultTrait(1, 'tconstruct:stringy')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:revenge')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:stringy')
         .build();
     registerMaterialProcess({
         fluid: null,
@@ -456,6 +498,10 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
+        .addDefaultTrait(1, 'tconstruct:heavy')
+        .addDefaultTrait(1, 'tconstruct:ductile')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:revenge')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:ductile')
         .build();
     registerMaterialProcess({
         fluid: null,
@@ -482,6 +528,10 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
+        .addDefaultTrait(1, 'tconstruct:conducting')
+        .addDefaultTrait(1, 'tconstruct:temperate')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:blaze_disguise')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:scorch_protection')
         .build();
     registerMaterialProcess({
         fluid: 'nuclearcraft:thermoconducting',
@@ -505,9 +555,11 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingLeggings(12.0, db * 0.9, 0.1, 3.0)
         .addPlatingBoots(7.0, db * 0.6, 0.1, 3.0)
         .addPlatingShield(db * 0.9, 0.1, 3.0)
-        .addBinding()       // row65 = 1
-        .addMaille()        // row66 = 1
+        .addBinding()
+        .addMaille()
         .addTraits()
+        // .addDefaultTrait(1, 'tcintegrations:soul_stained')
+        .addDefaultTrait(1, 'tconstruct:stoneshield')
         .build();
     registerMaterialProcess({
         fluid: null,
@@ -536,6 +588,12 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addMaille()
         .addShieldCore()
         .addTraits()
+        .addDefaultTrait(1, 'tcintegrations:siren')
+        .addDefaultTrait(1, 'tconstruct:hydraulic')
+        .addDefaultTrait(1, 'tinkers_things:hemodynamic')
+        .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:poseidon')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:turtle_shell')
+        .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:water_powered')
         .build();
     registerMaterialProcess({
         fluid: null,
@@ -578,6 +636,10 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
+        .addDefaultTrait(1, 'tconstruct:lacerating')
+        .addDefaultTrait(1, 'tconstruct:sharpness')
+        .addPerStatTrait('tconstruct:armor', 1, 'etstlib:extra_dense')
+        .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:livingwood')
         .build();
     registerMaterialProcess({
         fluid: null,
@@ -604,6 +666,10 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
+        .addDefaultTrait(1, 'tcintegrations:soul_stained')
+        .addDefaultTrait(1, 'tconstruct:enderference')
+        // .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:soul_stained')
+        .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:ars_nouveau')
         .build();
     registerMaterialProcess({
         fluid: null,
@@ -631,6 +697,10 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addMaille()
         .addShieldCore()
         .addTraits()
+        .addDefaultTrait(1, 'tconstruct:dense')
+        .addDefaultTrait(1, 'tconstruct:lustrous')
+        .addPerStatTrait('tconstruct:head', 1, 'tinkers_advanced:basalz_inflict')
+        .addPerStatTrait('tconstruct:head', 1, 'tconstruct:lustrous')
         .build();
     registerMaterialProcess({
         fluid: null,

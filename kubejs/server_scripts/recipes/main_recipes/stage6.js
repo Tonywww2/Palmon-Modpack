@@ -276,7 +276,8 @@ ServerEvents.recipes(event => {
         '8x #forge:ingots/tin',
         '4x #forge:ingots/aluminum',
         '3x #forge:ingots/draconium',
-        '3x dustandash:ash_steel_ingot'
+        '3x dustandash:ash_steel_ingot',
+        Fluid.of('tinkers_advanced:molten_activated_chromatic_steel', 180)
     ]).superheated().id('kubejs:mixed_metal_ingot_s6')
 
     event.recipes.mekanism.metallurgic_infusing('mekanism:alloy_infused',

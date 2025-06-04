@@ -18,7 +18,7 @@ NativeEvents.onEvent($EntityTravelToDimensionEvent, /** @param {Internal.EntityT
                 }
                 break
             case 'rats:ratlantis':
-                if (!event.player.stages.has(global.ratlantis)) {
+                if (!player.stages.has(global.ratlantis)) {
                     event.setCanceled(true)
                     player.tell(Text.translatable('ui.kubejs.banned').gold())
                     player.tell(Text.translatable('ui.kubejs.banned_dim').gold())

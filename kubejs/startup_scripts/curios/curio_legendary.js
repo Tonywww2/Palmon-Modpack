@@ -422,13 +422,13 @@ StartupEvents.registry('item', event => {
                 let player = context.entity()
 
                 if (player && !player.level.isClientSide()) {
-                    if (player.age % 200 == 0) {
-                        switch (player.random.nextInt() * 10) {
+                    if (player.age % 300 == 42) {
+                        switch (player.random.nextInt(10)) {
                             case 0:
-                                player.heal(10)
+                                player.heal(player.maxHealth * 0.1)
                                 break;
                             case 1:
-                                player.potionEffects.add("minecraft:regeneration", 160, 1)
+                                player.potionEffects.add("minecraft:regeneration", 160, 2)
                                 break;
                             case 2:
                                 player.potionEffects.add("minecraft:absorption", 160, 2)
@@ -440,13 +440,13 @@ StartupEvents.registry('item', event => {
                                 player.potionEffects.add("minecraft:strength", 160, 2)
                                 break;
                             case 5:
-                                player.potionEffects.add("minecraft:resistance", 160, 2)
+                                player.potionEffects.add("minecraft:resistance", 100, 1)
                                 break;
                             case 6:
                                 player.potionEffects.add("minecraft:luck", 320, 5)
                                 break;
                             case 7:
-                                player.potionEffects.add("minecraft:saturation", 40, 0)
+                                player.potionEffects.add("minecraft:saturation", 20, 0)
                                 break;
                             case 8:
                                 player.potionEffects.add("cofh_core:magic_resistance", 160, 2)
@@ -668,7 +668,7 @@ StartupEvents.registry('item', event => {
             )
             .modifyAttribute(
                 "minecraft:generic.attack_damage",
-                "rune_attack_damage_multiply_total",
+                "rune_attack_damage_multiply_base",
                 0.5,
                 "multiply_base"
             )
@@ -710,6 +710,53 @@ StartupEvents.registry('item', event => {
             )
         )
         .displayName("§d⌈Godrick's Great Rune⌋")
+        .unstackable()
+        .fireResistant()
+        .glow(true)
+        .rarity('epic')
+        .tag("curios:otherworld_relics")
+
+    event.create('izanagis_burden')
+        .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
+            .canEquip((item, context) => {
+                return true
+            })
+            .canUnequip((item, context) => {
+                return true
+            })
+            .onEquip((item1, context, item2) => {
+                // context.entity().tell("On Equip")
+            })
+            .onUnequip((item1, context, item2) => {
+            })
+            .curioTick((item, context) => {
+            })
+            .modifyAttribute(
+                "slashblade:slashblade_damage",
+                "izanagi_slashblade_damage_multiply_base",
+                1.75,
+                "multiply_base"
+            )
+            .modifyAttribute(
+                "malum:scythe_proficiency",
+                "izanagi_scythe_proficiency_multiply_total",
+                14.75,
+                "multiply_total"
+            )
+            .modifyAttribute(
+                "minecraft:generic.attack_damage",
+                "izanagi_attack_damage_multiply_base",
+                0.1,
+                "multiply_base"
+            )
+            .modifyAttribute(
+                "obscure_api:critical_hit",
+                "izanagi_critical_hit_addition",
+                0.1,
+                "addition"
+            )
+        )
+        .displayName("§d⌈Izanagi's burden⌋")
         .unstackable()
         .fireResistant()
         .glow(true)

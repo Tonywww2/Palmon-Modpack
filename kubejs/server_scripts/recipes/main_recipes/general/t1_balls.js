@@ -67,6 +67,14 @@ ServerEvents.recipes(event => {
         { "item": "palmon:stone", "count": 3 }
     ])
 
+    event.shapeless('cobblemon:ancient_feather_ball', ['#forge:feathers', 'cobblemon:ancient_azure_ball']).id('kubejs:ancient_feather_ball_s1')
+    event.shapeless('cobblemon:ancient_wing_ball', ['#forge:feathers', 'cobblemon:ancient_great_ball']).id('kubejs:ancient_wing_ball_s1')
+    event.shapeless('cobblemon:ancient_jet_ball', ['#forge:feathers', 'cobblemon:ancient_ultra_ball']).id('kubejs:ancient_jet_ball_s1')
+
+    event.shapeless('cobblemon:ancient_heavy_ball', ['palmon:stone', 'cobblemon:ancient_slate_ball']).id('kubejs:ancient_heavy_ball_s1')
+    event.shapeless('cobblemon:ancient_leaden_ball', ['palmon:stone', 'cobblemon:ancient_great_ball']).id('kubejs:ancient_leaden_ball_s1')
+    event.shapeless('cobblemon:ancient_gigaton_ball', ['palmon:stone', 'cobblemon:ancient_ultra_ball']).id('kubejs:ancient_gigaton_ball_s1')
+
     // tier 1 balls
     function ballTier1(output, inputs) {
         event.custom({
@@ -103,7 +111,7 @@ ServerEvents.recipes(event => {
             "result_items": [
                 {
                     "item": output,
-                    "count": 3
+                    "count": 6
                 }
             ]
         }).id('kubejs:' + output.split(':')[1])

@@ -8,6 +8,10 @@ ServerEvents.recipes(event => {
     oreProduction("nickel", "garnierite")
     oreProduction("zinc", "sphalerite")
 
+    event.recipes.occultism.miner(
+        Item.of('malum:deepslate_soulstone_ore').withChance(250),
+        '#occultism:miners/deeps'
+    )
 
     function oreProduction(ore, ore_item) {
         event.custom({
@@ -39,7 +43,7 @@ ServerEvents.recipes(event => {
             "result_fluid": null
         }
         ).id('kubejs:' + ore + '_1')
-    
+
         event.custom({
             "type": "palmon:production",
             "category": "misc",
@@ -69,7 +73,7 @@ ServerEvents.recipes(event => {
             "result_fluid": null
         }
         ).id('kubejs:' + ore + '_2')
-    
+
         event.custom({
             "type": "palmon:production",
             "category": "misc",

@@ -2,5 +2,5 @@
 [DeathButThree]
 	#Before ';': boss' registry name
 	#After ';': its max death times
-	ValidBossesAndMaxDeathTimes = ["cataclysm:ignis;3", "minecraft:wither;3", "cataclysm:netherite_monstrosity;3", "cataclysm:the_leviathan;3", "cataclysm:the_prowler;3", "cataclysm:the_harbinger;3", "cataclysm:the_harbinger;3", "cataclysm:ender_guardian;3", "cataclysm:maledictus;3", "cataclysm:coral_golem;3"]
+	ValidBossesAndMaxDeathTimes = ["cataclysm:ignis;3", "minecraft:wither;3", "minecraft:ender_dragon;3", "cataclysm:netherite_monstrosity;3", "cataclysm:the_leviathan;3", "cataclysm:the_prowler;3", "cataclysm:the_harbinger;3", "cataclysm:the_harbinger;3", "cataclysm:ender_guardian;3", "cataclysm:maledictus;3", "cataclysm:coral_golem;3"]
 

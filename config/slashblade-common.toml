@@ -33,7 +33,7 @@
 	refine_level_cost = 1
 	#Blade Damage: Base Damage × Multiplier.[Default: 1.0D]
 	#Range: 0.0 ~ 1024.0
-	slashblade_damage_multiplier = 1.0
+	slashblade_damage_multiplier = 1.25
 	#S-Rank Refine Bonus: Each Refine × Multiplier'value Damage.[Default: 1.D]
 	#Range: 0.0 ~ 1024.0
 	refine_damage_multiplier = 1.0

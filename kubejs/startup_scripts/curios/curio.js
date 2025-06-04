@@ -327,7 +327,7 @@ StartupEvents.registry('item', event => {
                                 '#cobblemon:tier_4_poke_balls'
                             ]).getItemIds()
 
-                            let stack = Item.of(pokeBallList[Math.floor(player.random.nextDouble() * pokeBallList.length)])
+                            let stack = Item.of(pokeBallList[player.random.nextInt(pokeBallList.length)])
                             if (player.addItem(stack)) {
                                 player.tell(Text.translatable('ui.kubejs.compact_pal_factory_4').append(stack.getDisplayName()).gold())
                             
@@ -459,8 +459,8 @@ StartupEvents.registry('item', event => {
 
 
                     }
-                    if (player.age % 400 == 0) {
-                        player.attack(player.random.nextDouble() * 8)
+                    if (player.age % 400 == 37) {
+                        player.attack(player.maxHealth * player.random.nextDouble() * 0.1)
                     }
                 }
             })

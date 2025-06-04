@@ -1,67 +1,61 @@
 {
-    "color": "FF666666",
-    "fallbacks":
-    [
-        "metal"
+  "color": "FFC4C4C4",
+  "fallbacks": [
+    "metal"
+  ],
+  "generator": {
+    "supported_stats": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:armor_plating",
+      "tconstruct:plating_helmet",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_shield",
+      "tconstruct:grip",
+      "tconstruct:limb",
+      "tconstruct:binding",
+      "tconstruct:maille",
+      "tconstruct:bowstring",
+      "tconstruct:shield_core",
+      "tconstruct:repair_kit"
     ],
-    "generator":
-    {
-        "supported_stats":
-        [
-            "tconstruct:head",
-            "tconstruct:handle",
-            "tconstruct:armor_plating",
-            "tconstruct:plating_helmet",
-            "tconstruct:plating_chestplate",
-            "tconstruct:plating_leggings",
-            "tconstruct:plating_boots",
-            "tconstruct:plating_shield",
-            "tconstruct:grip",
-            "tconstruct:limb",
-            "tconstruct:binding",
-            "tconstruct:maille",
-            "tconstruct:bowstring",
-            "tconstruct:shield_core",
-            "tconstruct:repair_kit"
-        ],
-        "transformer":
-        {
-            "type": "tconstruct:recolor_sprite",
-            "color_mapping":
-            {
-                "type": "tconstruct:grey_to_color",
-                "palette":
-                [
-                    {
-                        "color": "FF000000",
-                        "grey": 0
-                    },
-                    {
-                        "color": "FF3F3F3F",
-                        "grey": 63
-                    },
-                    {
-                        "color": "FF666666",
-                        "grey": 102
-                    },
-                    {
-                        "color": "FF8C8C8C",
-                        "grey": 140
-                    },
-                    {
-                        "color": "FFB2B2B2",
-                        "grey": 178
-                    },
-                    {
-                        "color": "FFD8D8D8",
-                        "grey": 216
-                    },
-                    {
-                        "color": "FFFFFFFF",
-                        "grey": 255
-                    }
-                ]
-            }
-        }
+    "transformer": {
+      "type": "tconstruct:recolor_sprite",
+      "color_mapping": {
+        "type": "tconstruct:grey_to_color",
+        "palette": [
+          {
+            "color": "FF000000",
+            "grey": 0
+          },
+          {
+            "color": "FF303030",
+            "grey": 63
+          },
+          {
+            "color": "FF4E4E4E",
+            "grey": 102
+          },
+          {
+            "color": "FF6C6C6C",
+            "grey": 140
+          },
+          {
+            "color": "FF898989",
+            "grey": 178
+          },
+          {
+            "color": "FFA6A6A6",
+            "grey": 216
+          },
+          {
+            "color": "FFC4C4C4",
+            "grey": 255
+          }
+        ]
+      }
     }
+  }
 }

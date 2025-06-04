@@ -422,7 +422,7 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         .addDefaultTrait(1, 'tcintegrations:soul_stained')
         .addDefaultTrait(1, 'etstlib:magic_strike')
         .addDefaultTrait(1, 'tinkers_advanced:echo_locating')
-        .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:soul_stained')
+        // .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:soul_stained')
         .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:gold_guard')
         .addPerStatTrait('tconstruct:armor', 1, 'etstlib:terrafirma')
         .build();
@@ -550,10 +550,9 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
+        .addDefaultTrait(2, 'tinkers_advanced:metamorphium')
         .addDefaultTrait(1, 'etstlib:executioner')
-        .addDefaultTrait(1, 'tcintegrations:capturing')
-        .addDefaultTrait(1, 'tinkers_advanced:metamorphium')
-        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:revitalizing')
+        .addPerStatTrait('tconstruct:armor', 2, 'tconstruct:revitalizing')
         .addPerStatTrait('tconstruct:armor', 1, 'tinkers_advanced:metamorphium')
         .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:enhanced')
         .build();

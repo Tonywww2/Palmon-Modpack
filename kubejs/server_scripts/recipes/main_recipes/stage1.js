@@ -17,9 +17,46 @@ ServerEvents.recipes(event => {
 
     event.shapeless('tfc:kaolin_clay', ['tfc_ie_addon:powder/bauxite', '#forge:clay']).id('kubejs:kaolin_clay_s1')
 
+    event.shapeless('4x tfc:wood/planks/douglas_fir', ['palmon:wood']).id('kubejs:palmon_wood_to_planks_s1')
+    event.shapeless('palmon:empty_contract', ['minecraft:paper', 'cobblemon:red_apricorn', 'tfc:volcanic_glass_bottle', 'minecraft:black_dye']).id('kubejs:empty_contract_s1')
+    event.shapeless('minecraft:gravel', ['#forge:gravel']).id('kubejs:gravel_to_minecraft_s1')
+    event.shapeless('thermal:enderium_coin', ['4x thermal:signalum_coin']).id('kubejs:signalum_to_enderium_coin_s1')
+    event.shapeless('4x thermal:signalum_coin', ['thermal:enderium_coin']).id('kubejs:enderium_to_signalum_coin_s1')
+    event.shapeless('palmon:stone', ['2x tfc:rock/smooth/granite', '2x tfc:rock/smooth/diorite', '2x tfc:rock/smooth/andesite', '2x tfc:rock/smooth/dacite']).id('kubejs:palmon_stone_s1')
+
     event.stonecutting('minecraft:crafting_table', ['#minecraft:logs']).id('kubejs:crafting_table_s1')
     event.smelting('minecraft:dried_kelp', ['tfc:plant/winged_kelp', 'tfc:plant/leafy_kelp'], 200, 10).id('kubejs:kelp_s1')
     event.smithing('mekanism:configurator', '#forge:gems/lapis', 'thermal:wrench', '#forge:plates/steel').id('kubejs:configurator_s1')
+
+    event.shaped('minecraft:furnace', [
+        'AAA',
+        'B B',
+        'ADA'
+    ],
+        {
+            A: '#forge:cobblestone',
+            B: '#forge:rods/red_steel',
+            D: 'minecraft:glowstone'
+        }).id('kubejs:furnace_s1')
+
+    event.shaped('minecraft:bucket', [
+        'ABA',
+        ' A '
+    ],
+        {
+            A: '#forge:plates/steel',
+            B: 'minecraft:barrel'
+        }).id('kubejs:bucket_s1')
+
+    event.shaped('minecraft:anvil', [
+        'AAA',
+        ' B ',
+        'BBB'
+    ],
+        {
+            A: '#forge:storage_blocks/iron',
+            B: '#forge:ingots/cast_iron'
+        }).id('kubejs:anvil_s1')
 
     event.shaped('4x mekanism:basic_logistical_transporter', [
         'ABA',

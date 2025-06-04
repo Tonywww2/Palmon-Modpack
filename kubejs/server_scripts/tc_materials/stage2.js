@@ -18,8 +18,10 @@ function stage2Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingBoots(2.0, db * 0.6, 0, 1.0)
         .addBinding()
         .addTraits()
-        .addDefaultTrait(1, 'tconstruct:magnetic')
-        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:projectile_protection')
+        .addDefaultTrait(1, 'tconstruct:fiery')
+        .addDefaultTrait(1, 'tconstruct:lightweight')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:flame_barrier')
+        .addPerStatTrait('tconstruct:armor', 1, 'tinkers_advanced:flame_adaptive')
         .build();
     registerMaterialProcess({
         fluid: null,
@@ -45,8 +47,10 @@ function stage2Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingBoots(2.0, db * 0.6, 0, 1.0)
         .addBinding()
         .addTraits()
-        .addDefaultTrait(1, 'tconstruct:magnetic')
-        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:projectile_protection')
+        .addDefaultTrait(1, 'tconstruct:blasting')
+        .addDefaultTrait(1, 'tinkers_things:weakness')
+        .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:sculking')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:blast_protection')
         .build();
     registerMaterialProcess({
         fluid: null,
@@ -154,8 +158,12 @@ function stage2Materials(createMaterialBuilder, registerMaterialProcess) {
         .addMaille()
         .addShieldCore()
         .addTraits()
-        .addDefaultTrait(1, 'tconstruct:magnetic')
-        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:projectile_protection')
+        .addDefaultTrait(1, 'etstlib:glowing')
+        .addDefaultTrait(1, 'tconstruct:dwarven')
+        .addPerStatTrait('tconstruct:head', 1, 'tconstruct:breathtaking')
+        .addPerStatTrait('tconstruct:head', 1, 'etstlib:momentum_accelerate')
+        .addPerStatTrait('tconstruct:armor', 1, 'etstlib:glowing')
+        .addPerStatTrait('tconstruct:armor', 1, 'etstlib:clearing')
         .build();
     registerMaterialProcess({
         fluid: 'embers:molten_dawnstone',
@@ -230,7 +238,9 @@ function stage2Materials(createMaterialBuilder, registerMaterialProcess) {
         .addMaille()
         .addShieldCore()
         .addTraits()
-        .addDefaultTrait(1, 'tconstruct:magnetic')
+        .addDefaultTrait(1, 'tinkers_things:fortified')
+        .addDefaultTrait(1, 'tconstruct:piercing')
+        .addPerStatTrait('tconstruct:armor', 1, 'etstlib:secondary_armor')
         .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:projectile_protection')
         .build();
     registerMaterialProcess({
@@ -260,8 +270,10 @@ function stage2Materials(createMaterialBuilder, registerMaterialProcess) {
         .addMaille()
         .addShieldCore()
         .addTraits()
-        .addDefaultTrait(1, 'tconstruct:magnetic')
-        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:projectile_protection')
+        .addDefaultTrait(1, 'tconstruct:netherite')
+        .addDefaultTrait(1, 'tconstruct:insatiable')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:netherite')
+        .addPerStatTrait('tconstruct:armor', 1, 'etstlib:inert_metal')
         .build();
     registerMaterialProcess({
         fluid: 'kubejs:melted_ancient_netherite',
@@ -289,8 +301,12 @@ function stage2Materials(createMaterialBuilder, registerMaterialProcess) {
         .addMaille()
         .addShieldCore()
         .addTraits()
-        .addDefaultTrait(1, 'tconstruct:magnetic')
-        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:projectile_protection')
+        .addDefaultTrait(1, 'tcintegrations:mana')
+        .addDefaultTrait(1, 'etstlib:terra_beam')
+        .addDefaultTrait(1, 'tcintegrations:alf')
+        .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:mana')
+        .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:terrestrial')
+        .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:recurrent_protection')
         .build();
     registerMaterialProcess({
         fluid: 'kubejs:melted_terrasteel',

@@ -206,6 +206,11 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'tinkers_advanced:table/resonance_crystal' })
     event.remove({ id: 'tinkers_advanced:table/voltaic_crystal' })
 
+    event.remove({ id: 'sophisticatedbackpacks:feeding_upgrade' })
+    event.remove({ id: 'sophisticatedstorage:backpack_feeding_upgrade_from_storage_feeding_upgrade' })
+    event.remove({ id: 'sophisticatedstorage:advanced_feeding_upgrade' })
+    event.remove({ id: 'sophisticatedstorage:storage_advanced_feeding_upgrade_from_backpack_advanced_feeding_upgrade' })
+
     // s7
     event.remove({ id: 'avaritia:sculk_crafting_table' })
     event.remove({ id: 'techreborn:crafting_table/parts/iridium_neutron_reflector' })

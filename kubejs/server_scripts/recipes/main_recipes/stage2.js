@@ -16,6 +16,29 @@ ServerEvents.recipes(event => {
     event.stonecutting('botania:apothecary_livingrock', ['#kubejs:apothecary']).id('kubejs:apothecary_ex_11_s2')
     event.stonecutting('botania:apothecary_deepslate', ['#kubejs:apothecary']).id('kubejs:apothecary_ex_12_s2')
 
+    event.shaped('palmon:boost_frame_5', [
+        'ABA',
+        'ACA',
+        'ADA'
+    ],
+        {
+            A: 'palmon:refined_m_steel_ingot',
+            B: 'botania:gaia_ingot',
+            C: 'palmon:boost_frame_4',
+            D: 'industrialforegoing:machine_frame_supreme'
+        }).id('kubejs:boost_frame_5_s2')
+
+    event.shaped('minecraft:netherite_upgrade_smithing_template', [
+        'ABA',
+        'ACA',
+        'AAA'
+    ],
+        {
+            A: '#forge:gems/diamond',
+            B: '#forge:ingots/netherite_scrap',
+            C: '#forge:netherrack'
+        }).id('kubejs:netherite_upgrade_smithing_template_s2')
+
     event.shaped('cobblefordays:tier_3', [
         'AAA',
         'BDC',
@@ -126,5 +149,53 @@ ServerEvents.recipes(event => {
             D: 'ad_astra:engine_frame',
             E: 'ad_astra:fan'
         }).id('kubejs:steel_engine_s2')
+
+    event.custom({
+        "type": "embers:boring",
+        "dimensions": [
+            "kubejs:tfc_planet"
+        ],
+        "max_height": -57,
+        "output": {
+            "item": "embers:ember_crystal"
+        },
+        "required_block": {
+            "amount": 3,
+            "block_tag": "embers:world_bottom"
+        },
+        "weight": 20
+    }).id("kubejs:ember_crystal_1_s2")
+
+    event.custom({
+        "type": "embers:boring",
+        "dimensions": [
+            "kubejs:tfc_planet"
+        ],
+        "max_height": -57,
+        "output": {
+            "item": "embers:ember_grit"
+        },
+        "required_block": {
+            "amount": 3,
+            "block_tag": "embers:world_bottom"
+        },
+        "weight": 20
+    }).id("kubejs:ember_grit_1_s2")
+
+    event.custom({
+        "type": "embers:boring",
+        "dimensions": [
+            "kubejs:tfc_planet"
+        ],
+        "max_height": -57,
+        "output": {
+            "item": "embers:ember_shard"
+        },
+        "required_block": {
+            "amount": 3,
+            "block_tag": "embers:world_bottom"
+        },
+        "weight": 60
+    }).id("kubejs:ember_shard_1_s2")
 
 })

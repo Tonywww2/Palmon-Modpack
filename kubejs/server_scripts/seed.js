@@ -298,11 +298,15 @@ function randomNext(range) {
     return Math.floor(global.levelRandomMap[global.randonIndex++] * range)
 }
 
-function randomNextScaled(scale) {
+/**
+ * 生成一个随机数，范围为 -0.01 到 0.01
+ * @return {float} 返回一个随机数，范围为 -0.01 到 0.01
+ * */
+function randomNextScaled() {
     let value = randomNext(200) - 100
     value /= 10000.0
     // console.log("Random Value: " + value)
-    return 1 + (value * scale)
+    return value
 }
 
 function randomSample(n, range) {

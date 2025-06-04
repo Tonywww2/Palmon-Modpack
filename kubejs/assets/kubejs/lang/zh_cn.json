@@ -119,6 +119,7 @@
     "item.kubejs.sun": "§d⌈太阳⌋",
     "item.kubejs.photo_of_niko": "§d⌈Niko的照片⌋",
     "item.kubejs.godricks_great_rune": "§d⌈葛瑞克的大卢恩⌋",
+    "item.kubejs.izanagis_burden": "§d⌈伊邪那岐的重担⌋",
 
     "fluid.kubejs.melted_voidarium": "熔融虚空素",
     "fluid.kubejs.hybrid_fuel": "混合燃料",
@@ -193,6 +194,7 @@
     "ui.kubejs.sun": "⌈One Shot⌋ 世界机器",
     "ui.kubejs.photo_of_niko": "⌈One Shot⌋ \nNot a cat!\nA backup!\n3rd time's the charm?\nThis is kind of fun.\nLookin' Good.\nNiko blinked in this one. \nNice.\nVery photogenic.\nCan't have too much of a good thing!\nThe ultimate photo.",
     "ui.kubejs.godricks_great_rune": "⌈Elden Ring⌋ “艾尔登之王”葛孚雷与其后代子孙—— \n黄金一族是最先出现的半神",
+    "ui.kubejs.izanagis_burden": "⌈Destiny⌋ 耻辱、存罪、恐惧。\n我们都在承受。将悔恨收集，尽可能清除它们吧。\n让敌人感受到你身上重担的重量吧。",
  
     "ui.kubejs.compact_pal_factory_2": "经过极限压缩后，能完全自给自足的帕鲁工厂",
     "ui.kubejs.compact_pal_factory_3": "每隔一段时间，在背包内生成一个随机的精灵球",
@@ -308,6 +310,15 @@
     
     "kubejs.eot.fighter_5_name": "[无名王者]",
     "kubejs.eot.fighter_5_desc": "·属性 攻击伤害 + 5\n·属性 攻击速度 + 10%\n·属性 暴击率 + 0.05",
+    
+    "kubejs.eot.slashblade_1_name": "[拔刀术]",
+    "kubejs.eot.slashblade_1_desc": "·属性 拔刀剑伤害系数 + 75%",
+    
+    "kubejs.eot.slashblade_2_name": "[刀剑精通]",
+    "kubejs.eot.slashblade_2_desc": "·属性 拔刀剑伤害系数 + 75%",
+    
+    "kubejs.eot.slashblade_3_name": "[剑术大师]",
+    "kubejs.eot.slashblade_3_desc": "·属性 拔刀剑伤害系数 + 150%",
 
     "kubejs.eot.tank_1_name": "[学徒坦克]",
     "kubejs.eot.tank_1_desc": "·属性 生命值 + 5%",
@@ -384,13 +395,13 @@
     "kubejs.eot.relics_4_name": "[上位异界同调]",
     "kubejs.eot.relics_4_desc": "·初始携带 随机的上级异界遗物",
     
-    "kubejs.eot.tcr_1_name": "[锻造专家]",
-    "kubejs.eot.tcr_1_desc": "·锻造随机数修正 + 5%\n  ¤  使所有材料的属性浮动更加正面",
+    "kubejs.eot.tcr_1_name": "[锻造大师]",
+    "kubejs.eot.tcr_1_desc": "·材料品质修正 + 0.005\n  ¤  使所有材料的属性浮动更加正面",
     
-    "kubejs.eot.tcr_2_name": "[铸造大师]",
-    "kubejs.eot.tcr_2_desc": "·锻造随机数修正 + 10%\n  ¤  使所有材料的属性浮动更加正面",
+    "kubejs.eot.tcr_2_name": "[伏尔甘之焰]",
+    "kubejs.eot.tcr_2_desc": "·材料品质修正 + 0.005\n  ¤  使所有材料的属性浮动更加正面",
     
-    "kubejs.eot.tcr_3_name": "[传说铁匠]",
-    "kubejs.eot.tcr_3_desc": "·锻造随机数修正 + 15%\n  ¤  使所有材料的属性浮动更加正面"
+    "kubejs.eot.tcr_3_name": "[赫菲斯托斯之祝]",
+    "kubejs.eot.tcr_3_desc": "·材料品质修正 + 0.01\n  ¤  使所有材料的属性浮动更加正面"
 
 }

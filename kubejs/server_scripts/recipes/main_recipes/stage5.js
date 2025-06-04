@@ -447,7 +447,8 @@ ServerEvents.recipes(event => {
             '4x createaddition:biomass_pellet',
             '3x hostilenetworks:overworld_prediction',
             '2x hostilenetworks:nether_prediction',
-            'hostilenetworks:end_prediction'
+            'hostilenetworks:end_prediction',
+            Fluid.of('tinkers_advanced:molten_activated_chromatic_steel', 15),
         ]
     ).superheated()
         .id('kubejs:collapse_prediction_s5')

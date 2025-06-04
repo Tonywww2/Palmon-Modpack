@@ -24,8 +24,8 @@ let curiosList = [
     'kubejs:the_necklace_of_krosa',
     'kubejs:sun',
     'kubejs:photo_of_niko',
-    'kubejs:godricks_great_rune'
-
+    'kubejs:godricks_great_rune',
+    'kubejs:izanagis_burden',
 ]
 let itemList = [
     'kubejs:helium_3_crystal_infinity',

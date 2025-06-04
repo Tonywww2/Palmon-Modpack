@@ -1,3 +1,5 @@
+// priority: 80
+
 /**
  * @param {string} attributeKey  要修改的属性名
  * @param {string} modifierKey   用来生成 UUID 的 key
@@ -126,8 +128,16 @@ const healing_powerModifier = createConstantAttributeApplier(
     "multiply_total"
 )
 
+global.slashblade_damageAmmount = 0.0
+const slashblade_damageModifier = createConstantAttributeApplier(
+    "slashblade:slashblade_damage",
+    "slashblade_damage_modifier",
+    () => global.slashblade_damageAmmount,
+    "multiply_base"
+)
+
 PlayerEvents.tick(event => {
-    if (event.player.age % 20 === 0) {
+    if (event.player.age % 80 == 9) {
         armorModifier(event.player)
         armor_toughnessModifier(event.player)
         movementSpeedModifier(event.player)
@@ -140,6 +150,7 @@ PlayerEvents.tick(event => {
         crit_damage2Modifier(event.player)
         max_healthModifier(event.player)
         healing_powerModifier(event.player)
+        slashblade_damageModifier(event.player)
 
     }
 })
