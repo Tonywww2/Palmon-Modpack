@@ -32,25 +32,6 @@
 			y: 0.0d
 		}
 		{
-			can_repeat: false
-			icon: "cobblemon:relic_coin_pouch"
-			id: "0B1E307D391B0FA7"
-			rewards: [{
-				id: "2BA719ACA4654B51"
-				item: "thermal:signalum_coin"
-				type: "item"
-			}]
-			shape: "rsquare"
-			subtitle: "在这里，你可以使用一些材料来抽取不同的道具 \\n | \\nHere you can use some materials to get different items"
-			tasks: [{
-				id: "74281ACD84CE2832"
-				type: "checkmark"
-			}]
-			title: "商店 | Shop"
-			x: 0.0d
-			y: 2.0d
-		}
-		{
 			can_repeat: true
 			icon: {
 				Count: 1
@@ -71,8 +52,8 @@
 				type: "item"
 			}]
 			title: "泰拉饰品抽奖"
-			x: 4.0d
-			y: 4.0d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			can_repeat: true
@@ -91,8 +72,8 @@
 				type: "item"
 			}]
 			title: "奇异饰品抽奖"
-			x: 4.0d
-			y: 6.0d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
 			can_repeat: true
@@ -110,8 +91,8 @@
 				type: "item"
 			}]
 			title: "专注池抽奖"
-			x: -2.0d
-			y: 4.0d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			id: "78D43025B8DDA7E7"
@@ -127,8 +108,8 @@
 				type: "item"
 			}]
 			title: "限定池抽奖"
-			x: -4.0d
-			y: 4.0d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			id: "497DA3AFBE949F85"
@@ -146,7 +127,7 @@
 			}]
 			title: "限定池自选"
 			x: -4.0d
-			y: 6.0d
+			y: 0.0d
 		}
 		{
 			id: "2729755EF2088E3E"
@@ -162,8 +143,8 @@
 				type: "item"
 			}]
 			title: "宝可梦抽奖1"
-			x: 0.0d
-			y: 4.0d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			id: "5377DC80FF91D428"
@@ -179,8 +160,8 @@
 				type: "item"
 			}]
 			title: "宝可梦抽奖2"
-			x: 2.0d
-			y: 4.0d
+			x: 4.0d
+			y: 0.0d
 		}
 	]
 	title: "重复任务 | Repeatable Quests"

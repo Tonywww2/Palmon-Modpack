@@ -2163,6 +2163,28 @@
 			x: 16.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["0E4E60BCE9A66B27"]
+			description: ["为匠魂工具加上该强化后，可以使你的工具慢慢升级！ "]
+			icon: "minecraft:nether_star"
+			id: "24DD7A69C59FB5E7"
+			tasks: [
+				{
+					id: "3EB44EFFA7EFD575"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3A443E07995D8BD3"
+					item: { Count: 4, id: "minecraft:experience_bottle" }
+					type: "item"
+				}
+			]
+			title: "强化：可改进"
+			x: 0.0d
+			y: -2.0d
+		}
 	]
 	title: "2. 群峦之下 | Beneath the World"
 }
