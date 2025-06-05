@@ -2,7 +2,7 @@
 #Friends
 [friends]
 	#A list of users who can be chosen when it spawns a distant friend
-	friends = [tartaric_acid", "Syameimaru_Zheng", "Tonywww", "Uncle_Red", "Notch", "Jeb_"]
+	friends = ["tartaric_acid", "Syameimaru_Zheng", "Tonywww", "Uncle_Red", "Notch", "Jeb_"]
 	#Add the players from the whitelist to the Friends list [default: true]
 	addWhitelistPlayers = true
 

@@ -12,6 +12,16 @@ ServerEvents.recipes(event => {
 
     event.shapeless('occultism:chalk_red_impure', ['occultism:chalk_white_impure', 'occultism:afrit_essence', '#forge:dusts/blaze', 'kubejs:epsilon_dust']).id('kubejs:chalk_red_impure_s6')
 
+    event.shaped('4x mekanism:thermal_evaporation_block', [
+        'ABA',
+        'BCB',
+        'ABA'
+    ], {
+        A: 'kubejs:present_alloy',
+        B: '#forge:plates/advanced_alloy',
+        C: 'mekanism:steel_casing'
+    }).id('kubejs:thermal_evaporation_block_s6')
+
     event.shaped('mekanism:electrolytic_separator', [
         'IHI',
         'ARA',
@@ -22,7 +32,7 @@ ServerEvents.recipes(event => {
         A: '#mekanism:alloys/infused',
         H: 'mekanism:electrolytic_core',
         S: 'mekanism:steel_casing'
-    }).id('kubejs:electrolytic_separator_s6');
+    }).id('kubejs:electrolytic_separator_s6')
 
     event.shaped('mekanism:isotopic_centrifuge', [
         'III',

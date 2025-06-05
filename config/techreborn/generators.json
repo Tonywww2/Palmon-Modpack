@@ -2,11 +2,11 @@
   "lightning_rod": {
     "LightningRodChanceOfStrike": {
       "comment": "Chance of lightning striking a rod (Range: 0-70)",
-      "value": 24
+      "value": 48
     },
     "LightningRodMaxOutput": {
       "comment": "Lightning Rod Max Output (Energy per tick)",
-      "value": 2048
+      "value": 20480
     },
     "LightningRodMaxEnergy": {
       "comment": "Lightning Rod Max Energy",
@@ -14,17 +14,17 @@
     },
     "LightningRodBaseStrikeEnergy": {
       "comment": "Base amount of Energy per strike",
-      "value": 262144
+      "value": 2621440
     }
   },
   "dragon_egg_siphoner": {
     "DragonEggSiphonerMaxEnergy": {
       "comment": "Dragon Egg Siphoner Max Energy",
-      "value": 1000
+      "value": 10000
     },
     "DragonEggSiphonerMaxOutput": {
       "comment": "Dragon Egg Siphoner Max Output (Energy per tick)",
-      "value": 128
+      "value": 1280
     },
     "DragonEggSiphonerEnergyPerTick": {
       "comment": "Dragon Egg Siphoner Energy Per Tick",
@@ -34,11 +34,11 @@
   "water_mill": {
     "WaterMillMaxOutput": {
       "comment": "Water Mill Max Output (Energy per tick)",
-      "value": 32
+      "value": 320
     },
     "WaterMillMaxEnergy": {
       "comment": "Water Mill Max Energy",
-      "value": 1000
+      "value": 10000
     },
     "WaterMillEnergyPerTick": {
       "comment": "Water Mill generation rate per water block (Energy per tick)",
@@ -48,15 +48,15 @@
   "wind_mill": {
     "WindMillMaxEnergy": {
       "comment": "Wind Mill Max Energy",
-      "value": 10000
+      "value": 100000
     },
     "WindMillMaxOutput": {
       "comment": "Wind Mill Max Output (Energy per tick)",
-      "value": 128
+      "value": 1280
     },
     "WindMillEnergyPerTick": {
       "comment": "Wind Mill generation rate (Energy Per Tick)",
-      "value": 2
+      "value": 20
     },
     "WindMillThunderMultiplier": {
       "comment": "Wind Mill Thunder Multiplier",
@@ -66,11 +66,11 @@
   "plasma_generator": {
     "PlasmaGeneratorEnergyPerTick": {
       "comment": "Plasma Generator Energy Per Tick",
-      "value": 400
+      "value": 40000
     },
     "PlasmaGeneratorMaxOutput": {
       "comment": "Plasma Generator Max Output (Energy per tick)",
-      "value": 2048
+      "value": 20480
     },
     "PlasmaGeneratorMaxEnergy": {
       "comment": "Plasma Generator Max Energy",
@@ -80,11 +80,11 @@
   "solarPanelBasic": {
     "basicNightRate": {
       "comment": "Generation rate during night for Basic Solar Panel (Energy per tick)",
-      "value": 0
+      "value": 10
     },
     "basicDayRate": {
       "comment": "Generation rate during day for Basic Solar Panel (Energy per tick)",
-      "value": 3
+      "value": 300
     }
   },
   "thermal_generator": {
@@ -94,47 +94,47 @@
     },
     "ThermalGeneratorEnergyPerTick": {
       "comment": "Thermal Generator Energy Per Tick",
-      "value": 16
+      "value": 160
     },
     "ThermalGeneratorMaxOutput": {
       "comment": "Thermal Generator Max Output (Energy per tick)",
-      "value": 128
+      "value": 1280
     }
   },
   "solarPanelAdvanced": {
     "advancedNightRate": {
       "comment": "Generation rate during night for Advanced Solar Panel (Energy per tick)",
-      "value": 0
+      "value": 50
     },
     "advancedDayRate": {
       "comment": "Generation rate during day for Advanced Solar Panel (Energy per tick)",
-      "value": 12
+      "value": 1200
     }
   },
   "solarPanelQuantum": {
     "quantumNightRate": {
       "comment": "Generation rate during night for Quantum Solar Panel (Energy per tick)",
-      "value": 32
+      "value": 3200
     },
     "quantumDayRate": {
       "comment": "Generation rate during day for Quantum Solar Panel (Energy per tick)",
-      "value": 512
+      "value": 51200
     }
   },
   "solarPanelIndustrial": {
     "industrialNightRate": {
       "comment": "Generation rate during night for Industrial Solar Panel (Energy per tick)",
-      "value": 4
+      "value": 400
     },
     "industrialDayRate": {
       "comment": "Generation rate during day for Industrial Solar Panel (Energy per tick)",
-      "value": 24
+      "value": 2400
     }
   },
   "generator": {
     "GeneratorMaxOutput": {
       "comment": "Solid Fuel Generator Max Output (Energy per tick)",
-      "value": 32
+      "value": 320
     },
     "GeneratorMaxEnergy": {
       "comment": "Solid Fuel Generator Max Energy",
@@ -142,7 +142,7 @@
     },
     "GeneratorEnergyOutput": {
       "comment": "Solid Fuel Generator Energy Per Tick",
-      "value": 10
+      "value": 100
     }
   },
   "semifluid_generator": {
@@ -152,55 +152,55 @@
     },
     "SemifluidGeneratorMaxOutput": {
       "comment": "Semifluid Generator Max Output (Energy per tick)",
-      "value": 128
+      "value": 1280
     },
     "SemifluidGeneratorEnergyPerTick": {
       "comment": "Semifluid Generator Energy Per Tick",
-      "value": 8
+      "value": 80
     }
   },
   "gas_generator": {
     "GasGeneratorMaxEnergy": {
       "comment": "Gas Generator Max Energy",
-      "value": 1000000
+      "value": 100000000
     },
     "GasGeneratorMaxOutput": {
       "comment": "Gas Generator Max Output (Energy per tick)",
-      "value": 128
+      "value": 12800
     },
     "GasGeneratorEnergyPerTick": {
       "comment": "Gas Generator Energy Per Tick",
-      "value": 16
+      "value": 1600
     }
   },
   "solarPanelGeneral": {
     "internalCapacity": {
       "comment": "Multiplier for internal capacity of solar panels (multiplier * day generation rate)",
-      "value": 2000
+      "value": 20000
     }
   },
   "solarPanelUltimate": {
     "ultimateDayRate": {
       "comment": "Generation rate during day for Ultimate Solar Panel (Energy per tick)",
-      "value": 48
+      "value": 4800
     },
     "ultimateNightRate": {
       "comment": "Generation rate during night for Ultimate Solar Panel (Energy per tick)",
-      "value": 8
+      "value": 800
     }
   },
   "diesel_generator": {
     "DieselGeneratorMaxEnergy": {
       "comment": "Diesel Generator Max Energy",
-      "value": 10000
+      "value": 1000000
     },
     "DieselGeneratorMaxOutput": {
       "comment": "Diesel Generator Max Output (Energy per tick)",
-      "value": 32
+      "value": 3200
     },
     "DieselGeneratorEnergyPerTick": {
       "comment": "Diesel Generator Energy Per Tick",
-      "value": 20
+      "value": 2000
     }
   }
 }

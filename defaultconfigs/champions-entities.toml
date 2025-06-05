@@ -19,7 +19,7 @@
 [[entities]]
 	entity = "minecraft:wither"
 	minTier = 1
-	maxTier = 7
+	maxTier = 3
 	presetAffixes = []
 	affixList = ["champions:shielding"]
 	affixPermission = "BLACKLIST" 
@@ -34,40 +34,40 @@
 
 [[entities]]
 	entity = "cataclysm:the_harbinger"
-	minTier = 3
-	maxTier = 7
+	minTier = 1
+	maxTier = 4
 	presetAffixes = []
 	affixList = ["champions:shielding"]
 	affixPermission = "BLACKLIST"
 
 [[entities]]
 	entity = "cataclysm:ancient_remnant"
-	minTier = 4
-	maxTier = 7
+	minTier = 2
+	maxTier = 5
 	presetAffixes = []
 	affixList = ["champions:shielding"]
 	affixPermission = "BLACKLIST"
 
 [[entities]]
 	entity = "cataclysm:maledictus"
-	minTier = 5
-	maxTier = 7
+	minTier = 3
+	maxTier = 6
 	presetAffixes = []
 	affixList = ["champions:shielding"]
 	affixPermission = "BLACKLIST"
 
 [[entities]]
 	entity = "cataclysm:the_leviathan"
-	minTier = 5
-	maxTier = 7
+	minTier = 1
+	maxTier = 4
 	presetAffixes = []
 	affixList = ["champions:shielding"]
 	affixPermission = "BLACKLIST"
 		
 [[entities]]
 	entity = "cataclysm:ignis"
-	minTier = 5
-	maxTier = 7
+	minTier = 2
+	maxTier = 6
 	presetAffixes = []
 	affixList = ["champions:shielding"]
 	affixPermission = "BLACKLIST"

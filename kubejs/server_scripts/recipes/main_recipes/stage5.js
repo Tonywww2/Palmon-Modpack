@@ -513,10 +513,10 @@ ServerEvents.recipes(event => {
 
     event.custom({
         "type": "techreborn:fusion_reactor",
-        "power": 32767,
-        "time": 32767,
+        "power": 65534,
+        "time": 8192,
         "start-power": 400000,
-        "min-size": 1,
+        "min-size": 24,
         "ingredients": [
             Item.of('kubejs:helium_3_crystal_infinity').toJson(),
             {

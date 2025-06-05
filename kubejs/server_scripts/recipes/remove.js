@@ -223,6 +223,12 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'thermal:lumium_coin' })
 
     event.remove({ output: 'ars_nouveau:ritual_flight' })
+    
+    event.remove({ id: 'mekanism:thermal_evaporation/block' })
+    event.remove({ id: 'mekanism_extras:infusion_conversion/radiance/from_dust' })
+    event.remove({ id: 'mekanism_extras:enriching/enriched/dust_radiance' })
+    event.remove({ id: 'nuclearcraft:crystallizer/uranium_oxide' })
+    event.remove({ id: 'packagedauto:package_component' })
 
     event.remove({ output: 'techreborn:advanced_alloy_ingot', not: { type: 'minecraft:crafting_shapeless' } })
     event.remove({ output: 'draconicevolution:awakened_draconium_ingot', not: { type: 'minecraft:crafting_shapeless' } })

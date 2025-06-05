@@ -100,7 +100,8 @@
 		{
 			dependencies: [
 				"2200A949C365431B"
-				"575F79DEE4162818"
+				"1938362CF4F8BBC5"
+				"36A16BE3126DCB89"
 			]
 			id: "4845A3C2AB53B2C4"
 			tasks: [{
@@ -132,8 +133,8 @@
 			]
 			id: "0F543650AF297B4D"
 			tasks: [{
-				id: "39F06C45456D9C81"
-				item: "mekanism_extras:dust_radiance"
+				id: "5E3C43B8B28E1E13"
+				item: "mekanism_extras:enriched_radiance"
 				type: "item"
 			}]
 			x: -2.0d
@@ -282,6 +283,17 @@
 			title: "Meka 套装"
 			x: 10.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["575F79DEE4162818"]
+			id: "1938362CF4F8BBC5"
+			tasks: [{
+				id: "4A66A2A9C9DE4419"
+				item: "avaritia:neutron_pile"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
 		}
 	]
 	title: "7. 句点 | Full Stop"
