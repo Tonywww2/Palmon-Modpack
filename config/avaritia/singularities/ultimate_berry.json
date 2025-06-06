@@ -1,0 +1,15 @@
+{
+    "name": "singularity.avaritia.ultimate_berry",
+    "colors":
+    [
+        "eefdff",
+        "000000"
+    ],
+    "timeRequired": 240,
+    "ingredient":
+    {
+        "item": "kubejs:ultimate_berry"
+    },
+    "enabled": true,
+    "recipeDisabled": true
+}

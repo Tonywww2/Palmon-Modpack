@@ -211,6 +211,13 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'sophisticatedstorage:advanced_feeding_upgrade' })
     event.remove({ id: 'sophisticatedstorage:storage_advanced_feeding_upgrade_from_backpack_advanced_feeding_upgrade' })
 
+    event.remove({ id: 'ae2things:cells/disk_drive_256k' })
+    event.remove({ id: 'ae2things:cells/disk_drive_64k' })
+    event.remove({ id: 'ae2things:cells/disk_drive_16k' })
+    event.remove({ id: 'ae2things:cells/disk_drive_4k' })
+    event.remove({ id: 'ae2things:cells/disk_drive_1k' })
+    event.remove({ id: 'ae2things:cells/disk_housing' })
+
     // s7
     event.remove({ id: 'avaritia:sculk_crafting_table' })
     event.remove({ id: 'techreborn:crafting_table/parts/iridium_neutron_reflector' })
@@ -229,6 +236,24 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'mekanism_extras:enriching/enriched/dust_radiance' })
     event.remove({ id: 'nuclearcraft:crystallizer/uranium_oxide' })
     event.remove({ id: 'packagedauto:package_component' })
+    event.remove({ id: 'packagedauto:me_package_component' })
+    event.remove({ id: 'avaritia:neutron_collector' })
+    event.remove({ id: 'avaritia:neutron_compressor' })
+    event.remove({ id: 'mekanism_extras:processing/enriched_spectrum/from_enriched_shining' })
+
+    event.remove({ id: 'mekanism:mekasuit_helmet' })
+    event.remove({ id: 'mekanism:mekasuit_bodyarmor' })
+    event.remove({ id: 'mekanism:mekasuit_pants' })
+    event.remove({ id: 'mekanism:mekasuit_boots' })
+
+    event.remove({ id: 'bfr:reactor/frame' })
+    event.remove({ id: 'mekanism:fluidic_plenisher' })
+    event.remove({ id: 'mekanism_extras:upgrade/filter' })
+
+    event.remove({ id: 'avaritia:record_fragment' })
+    event.remove({ id: 'nuclearcraft:irradiator/ingots_platinum' })
+    event.remove({ id: 'mekanism_extras:naquadah_reactor/controller' })
+    event.remove({ id: 'nuclearcraft:chamber_terminal' })
 
     event.remove({ output: 'techreborn:advanced_alloy_ingot', not: { type: 'minecraft:crafting_shapeless' } })
     event.remove({ output: 'draconicevolution:awakened_draconium_ingot', not: { type: 'minecraft:crafting_shapeless' } })
@@ -243,6 +268,8 @@ ServerEvents.recipes(event => {
 
 MoreJSEvents.villagerTrades(event => {
     event.removeModdedTrades(["ars_nouveau:shady_wizard"], 3)
-    event.removeModdedTrades(['techreborn:metallurgist'], 4)
+    event.removeModdedTrades(["techreborn:metallurgist"], 4)
+    event.removeModdedTrades(["nuclearcraft:nuclear_scientist"], 4)
+    event.removeModdedTrades(["nuclearcraft:nuclear_scientist"], 5)
 
 })

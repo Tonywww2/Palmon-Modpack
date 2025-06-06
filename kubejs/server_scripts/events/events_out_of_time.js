@@ -723,7 +723,7 @@ registerBuff("tcr_2", 2, ["true_ending", "tcr_1"], false,
         // console.log(global.tcRandomFix)
     })
 
-registerBuff("tcr_3", 4, ["master_ending", "tcr_2"], false,
+registerBuff("tcr_3", 4, ["master_ending", "tcr_2"], true,
     empty,
     empty,
     function (event) {

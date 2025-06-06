@@ -1,6 +1,59 @@
 // priority: 90
 
 const stage7 = function (event) {
+
+    event.shaped('mekanism:mekasuit_helmet', [
+        'PCP',
+        'BDB',
+        'AEA'
+    ], {
+        D: Item.of('tconstruct:helmet_plating', '{Material:"tinkers_advanced:protocite"}').weakNBT(),
+        A: 'avaritia:neutron_gear',
+        C: '#forge:circuits/infinite',
+        E: 'draconicevolution:energy_core',
+        P: 'mekanism:sps_casing',
+        B: 'kubejs:superconducting_coil_type_2'
+    }).id('kubejs:mekasuit_helmet_s7')
+
+    event.shaped('mekanism:mekasuit_bodyarmor', [
+        'PCP',
+        'BDB',
+        'AEA'
+    ], {
+        D: Item.of('tconstruct:chestplate_plating', '{Material:"tinkers_advanced:protocite"}').weakNBT(),
+        A: 'avaritia:neutron_gear',
+        C: '#forge:circuits/infinite',
+        E: 'draconicevolution:energy_core',
+        P: 'mekanism:sps_casing',
+        B: 'kubejs:superconducting_coil_type_2'
+    }).id('kubejs:mekasuit_bodyarmor_s7')
+
+    event.shaped('mekanism:mekasuit_pants', [
+        'PCP',
+        'BDB',
+        'AEA'
+    ], {
+        D: Item.of('tconstruct:leggings_plating', '{Material:"tinkers_advanced:protocite"}').weakNBT(),
+        A: 'avaritia:neutron_gear',
+        C: '#forge:circuits/infinite',
+        E: 'draconicevolution:energy_core',
+        P: 'mekanism:sps_casing',
+        B: 'kubejs:superconducting_coil_type_2'
+    }).id('kubejs:mekasuit_pants_s7')
+
+    event.shaped('mekanism:mekasuit_boots', [
+        'PCP',
+        'BDB',
+        'AEA'
+    ], {
+        D: Item.of('tconstruct:boots_plating', '{Material:"tinkers_advanced:protocite"}').weakNBT(),
+        A: 'avaritia:neutron_gear',
+        C: '#forge:circuits/infinite',
+        E: 'draconicevolution:energy_core',
+        P: 'mekanism:sps_casing',
+        B: 'kubejs:superconducting_coil_type_2'
+    }).id('kubejs:mekasuit_boots_s7')
+
     event.shaped('avaritia:sculk_crafting_table', [
         'ABA',
         'CDC',
@@ -96,12 +149,254 @@ const stage7 = function (event) {
         }
     ).id('kubejs:package_component_s7')
 
+    event.recipes.avaritia.shaped_table(
+        4,
+        'avaritia:neutron_collector',
+        [
+            'IIIIIIIII',
+            'I QAAAQ I',
+            'I HRRRH I',
+            'CGRRDRRGC',
+            'IGRFCFRGI',
+            'CGRRERRGC',
+            'I HRRRH I',
+            'I  GGG  I',
+            'IIICICIII'
+        ],
+        {
+            C: "avaritia:crystal_matrix_ingot",
+            I: 'dustandash:fission_reactor_casing',
+            Q: 'mekanismgenerators:fission_reactor_casing',
+            R: "minecraft:redstone_block",
+            D: 'packagedauto:me_package_component',
+            E: '#nuclearcraft:isotopes/californium/250',
+            F: '#forge:dusts/promethium_147',
+            G: '#mekanism_extras:alloys/thermonuclear',
+            H: '#forge:plates/iridium_alloy',
+            A: 'minecraft:anvil'
+        }
+    ).id('kubejs:neutron_collector_s7')
+
+    event.recipes.avaritia.shaped_table(
+        4,
+        'avaritia:neutron_compressor',
+        [
+            'IIIHHHIII',
+            'CBNAAANBC',
+            'IBN   NBI',
+            'CAN   NAC',
+            'RNN O NNR',
+            'CAN   NAC',
+            'IBN   NBI',
+            'CBNAAANBC',
+            'IIICICIII'
+        ],
+        {
+            C: "avaritia:crystal_matrix_ingot",
+            H: "minecraft:hopper",
+            I: 'avaritia:blaze_cube_block',
+            N: "avaritia:neutron_ingot",
+            O: 'avaritia:dense_neutron_collector',
+            R: "minecraft:redstone_block",
+            A: 'avaritia:blaze_cube_block',
+            B: 'sophisticatedbackpacks:stack_upgrade_tier_1'
+        }
+    ).id('kubejs:neutron_compressor_s7')
+
+    event.recipes.avaritia.shaped_table(
+        4,
+        '4x bfr:fusion_reactor_frame',
+        [
+            'AAABBBAAA',
+            'ACCDEDCCA',
+            'AC DED CA',
+            'BDDDJDDDB',
+            'BEEILIEEB',
+            'BDDDMDDDB',
+            'AC DED CA',
+            'ACCDEDCCA',
+            'AAABBBAAA'
+        ],
+        {
+            A: "mekanismgenerators:fission_reactor_casing",
+            B: '#mekanism_extras:alloys/thermonuclear',
+            C: Item.of("tconstruct:large_plate", '{Material:"tinkers_advanced:osgloglas"}').weakNBT(),
+            D: "techreborn:iridium_reinforced_stone_storage_block",
+            E: "nuclearcraft:heavy",
+            I: "forestry:royal_jelly",
+            J: 'mekanism_extras:supreme_induction_cell',
+            L: "mekanism:sps_casing",
+            M: Item.of("tinkers_advanced:flux_core", '{Material:"tinkers_advanced:densium"}').weakNBT()
+        }
+    ).id('kubejs:fusion_reactor_frame_s7')
+
+    event.recipes.avaritia.shaped_table(
+        4,
+        'mekanism_extras:naquadah_reactor_controller',
+        [
+            'AAAA AAAA',
+            'ABBBCBBBA',
+            'ABDBBBDBA',
+            'ABBBBBBBA',
+            ' EBFBFBE ',
+            'AGBBBBBGA',
+            'AGBBHBBGA',
+            'AIGBBBGIA',
+            'AAAA AAAA'
+        ],
+        {
+            A: "mekanism_extras:naquadah_reactor_casing",
+            B: '#forge:ingots/neutronium',
+            C: "packagedavaritia:extreme_crafter",
+            D: '#forge:circuits/cosmic',
+            E: "avaritia:crystal_matrix",
+            F: "kubejs:superconducting_coil_type_3",
+            G: "draconicevolution:draconic_energy_core",
+            H: "mekanism_extras:absolute_chemical_tank",
+            I: "mekanism_extras:upgrade_ionic_membrane"
+        }
+    ).id('kubejs:naquadah_reactor_controller_s7')
+
+    event.recipes.avaritia.shaped_table(
+        4,
+        'nuclearcraft:chamber_terminal',
+        [
+            'AABBBBBAA',
+            'ACEAAAECA',
+            'BEGHHHGEB',
+            'BAHGIGHAB',
+            'BAHIJIHAB',
+            'BAHGIGHAB',
+            'BEGHHHGEB',
+            'ACEAAAECA',
+            'AABBBBBAA'
+        ],
+        {
+            A: "nuclearcraft:neutronium_frame",
+            B: "nuclearcraft:plate_extreme",
+            C: "nuclearcraft:basic_electric_circuit",
+            E: '#forge:circuits/infinite',
+            G: '#mekanism_extras:alloys/spectrum',
+            H: "avaritia:crystal_matrix",
+            I: 'kubejs:beryllium_bronze_alloy',
+            J: "mekanism_extras:upgrade_ionic_membrane"
+        }
+    ).id('kubejs:chamber_terminal_s7')
+
+    event.recipes.avaritia.shapeless_table(
+        4,
+        '3x kubejs:ultimate_berry',
+        [
+            'cobblemon:oran_berry', 'cobblemon:cheri_berry', 'cobblemon:chesto_berry', 'cobblemon:pecha_berry', 'cobblemon:rawst_berry', 'cobblemon:aspear_berry', 'cobblemon:persim_berry', 'cobblemon:razz_berry', 'cobblemon:bluk_berry', 'cobblemon:nanab_berry', 'cobblemon:wepear_berry', 'cobblemon:pinap_berry', 'cobblemon:occa_berry', 'cobblemon:passho_berry', 'cobblemon:wacan_berry', 'cobblemon:rindo_berry', 'cobblemon:yache_berry', 'cobblemon:chople_berry', 'cobblemon:kebia_berry', 'cobblemon:shuca_berry', 'cobblemon:coba_berry', 'cobblemon:payapa_berry', 'cobblemon:tanga_berry', 'cobblemon:charti_berry'
+        ]
+    ).id('kubejs:ultimate_berry_s7')
+
+    event.recipes.avaritia
+        .compressor("kubejs:ultimate_berry", Item.of("avaritia:singularity", '{Id:"avaritia:ultimate_berry"}'))
+        .timeCost(600)
+        .inputCount(16)
+        .id('kubejs:ultimate_berry_s7_compressor')
+
+    event.custom({
+        "type": "nuclearcraft:kugelblitz_chamber",
+        "input": [
+            {
+                "item": 'avaritia:record_fragment'
+            }
+        ],
+        "output": [
+            {
+                "item": 'avaritia:record_fragment'
+            }
+        ],
+        "powerModifier": 1.0,
+        "radiation": 1.0,
+        "timeModifier": 1.0
+    }).id('kubejs:record_fragment_s7')
+
+    event.custom({
+        "type": "dustandash:milling",
+        "step1": false,
+        "pattern": [
+            "#AAA#",
+            "#BCB#",
+            "#DED#",
+            "#BCB#",
+            "#AAA#"
+        ],
+        "key": {
+            "catalyst":
+            {
+                "item": 'kubejs:superconducting_coil_type_3'
+            },
+            "#":
+            {
+                "item": "dustandash:titanium_plate_scrap"
+            },
+            "A":
+            {
+                "item": 'malum:eldritch_spirited_glass'
+            },
+            "B":
+            {
+                "tag": 'mekanism_extras:alloys/spectrum'
+            },
+            "C":
+            {
+                "item": 'mekanism:upgrade_filter'
+            },
+            "D":
+            {
+                "item": 'mekanism_extras:cosmic_control_circuit'
+            },
+            "E":
+            {
+                "item": 'bfr:fusion_reactor_frame'
+            }
+        },
+        "output": {
+            "item": 'mekanism_extras:upgrade_ionic_membrane',
+            "count": 2
+        }
+
+    }).id('kubejs:upgrade_ionic_membrane_s7')
+
+    event.custom({
+        "type": "techreborn:fusion_reactor",
+        "power": -409600,
+        "time": 800,
+        "start-power": 4000000,
+        "min-size": 10,
+        "ingredients": [
+            Ingredient.of('kubejs:scranton_reality_anchor').toJson(),
+            Item.of('mekanism_extras:upgrade_ionic_membrane').toJson()
+        ],
+        "results": [
+            Item.of('3x kubejs:beryllium_bronze_alloy').toJson()
+        ]
+    }).id('kubejs:beryllium_bronze_alloy_s7')
+
     event.custom({
         "type": "techreborn:fusion_reactor",
         "power": -8192,
         "time": 400,
         "start-power": 400000,
-        "min-size": 28,
+        "min-size": 10,
+        "ingredients": [
+            Ingredient.of('#expatternprovider:oversize_interface').toJson(),
+            Item.of('packagedauto:package_component').toJson()
+        ],
+        "results": [
+            Item.of('packagedauto:me_package_component').toJson()
+        ]
+    }).id('kubejs:me_package_component_s7')
+
+    event.custom({
+        "type": "techreborn:fusion_reactor",
+        "power": -8192,
+        "time": 400,
+        "start-power": 400000,
+        "min-size": 10,
         "ingredients": [
             Item.of('4x kubejs:gamma_framework').toJson(),
             Item.of('mekanism:basic_induction_cell').toJson()
@@ -116,7 +411,7 @@ const stage7 = function (event) {
         "power": -10240,
         "time": 800,
         "start-power": 400000,
-        "min-size": 28,
+        "min-size": 10,
         "ingredients": [
             Item.of('32x ae2:singularity').toJson(),
             Item.of('kubejs:basepoint_alloy').toJson()
@@ -148,5 +443,61 @@ const stage7 = function (event) {
         "costElectrodes": true,
         "outputBlock": "jaopca:storage_blocks.ash"
     }).id('kubejs:enriched_radiance_s7')
+
+    event.custom({
+        "type": "palmon:processing",
+        "category": "misc",
+        "focus_stat": "HP",
+        "min_level": 100,
+        "required_type": "psychic",
+        "base_hp": 100,
+        "base_atk": 100,
+        "base_def": 100,
+        "base_spa": 100,
+        "base_spd": 100,
+        "base_spe": 100,
+        "area_blocks": [
+            {
+                "item": 'avaritia:diamond_lattice_block'
+            },
+            {
+                "item": 'avaritia:double_compressed_crafting_table'
+            },
+            {
+                "item": 'avaritia:crystal_matrix'
+            }
+        ],
+        "block_count": 4,
+        "input_items": [
+            Item.of('6x mekanism_extras:enriched_shining').toJson(),
+            Item.of('mekanism:pellet_antimatter', 1).toJson(),
+            Item.of('palmon:polymer_plate', 1).toJson(),
+            {
+                "type": "forge:partial_nbt",
+                "item": "avaritia:singularity",
+                "nbt": "{Id:\"avaritia:ultimate_berry\"}",
+                "count": 1
+            }
+        ],
+        "input_power": 4096000,
+        "input_fluid": null,
+        "tick": 600,
+        "result_items": [
+            Item.of('6x mekanism_extras:enriched_spectrum').toJson()
+        ]
+    }).id('kubejs:enriched_spectrum_s7')
+
+    deFusionCrafting(event, [
+        Item.of('kubejs:superconducting_coil_type_2').toJson(),
+        Item.of('kubejs:superconducting_coil_type_2').toJson(),
+        Ingredient.of('#forge:circuits/infinite').toJson(),
+        Item.of('draconicevolution:awakened_core').toJson()
+    ],
+        Item.of('techreborn:fusion_coil').toJson(),
+        Item.of('kubejs:superconducting_coil_type_3').toJson(),
+        "DRACONIC",
+        400000000,
+        'kubejs:superconducting_coil_type_3_s7'
+    )
 
 }

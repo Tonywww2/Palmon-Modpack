@@ -438,7 +438,7 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addTraits()
         .addDefaultTrait(1, 'tcintegrations:soul_stained')
         .addDefaultTrait(1, 'tconstruct:enhanced')
-        // .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:soul_stained')
+        .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:soul_stained')
         .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:golden')
         .build();
     registerMaterialProcess({
@@ -558,7 +558,7 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
-        // .addDefaultTrait(1, 'tcintegrations:soul_stained')
+        .addDefaultTrait(1, 'tcintegrations:soul_stained')
         .addDefaultTrait(1, 'tconstruct:stoneshield')
         .build();
     registerMaterialProcess({
@@ -668,7 +668,7 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addTraits()
         .addDefaultTrait(1, 'tcintegrations:soul_stained')
         .addDefaultTrait(1, 'tconstruct:enderference')
-        // .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:soul_stained')
+        .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:soul_stained')
         .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:ars_nouveau')
         .build();
     registerMaterialProcess({

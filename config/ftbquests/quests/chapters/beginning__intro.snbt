@@ -87,6 +87,12 @@
 			icon: "minecraft:barrier"
 			id: "1CCD3B88F6DFB3C1"
 			incompatible: ["57E321E75E073C53"]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65E47872CBFAEB0A"
+				table_id: 8044557412893536476L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "0E33E205B35726E6"
 				type: "checkmark"
@@ -327,10 +333,26 @@
 				""
 				"匠魂的远程材料还未实装。"
 				""
+				"总体战斗数值正在测试中。"
 				""
-				"总体战斗数值正在测试中，如果有意见请带着可行的解决方案反馈。"
+				"流程方面，标准流程完成，真结局处于收尾阶段，专家结局还未开始制作。"
+				""
+				"细节方面也在持续调整（如任务，任务描述，任务奖励等）"
+				""
+				"有英化计划"
+				""
+				"宝宝模式目前只做到群峦"
+				""
+				"如果有任何的提议或者反馈请前往Github并带着一个可行的改进方向反馈。"
 			]
 			id: "3522E843DB32AEC8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A5B396571490D28"
+				table_id: 8044557412893536476L
+				type: "loot"
+			}]
+			subtitle: "Lalalalila"
 			tasks: [{
 				id: "7D708F26502BA8DD"
 				type: "checkmark"

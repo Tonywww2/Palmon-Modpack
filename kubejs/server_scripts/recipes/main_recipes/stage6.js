@@ -297,7 +297,7 @@ ServerEvents.recipes(event => {
         '#forge:gears/osmium', '40x mekanism:redstone').id('kubejs:basic_control_circuit_s6')
 
     event.recipes.thermal.smelter('2x kubejs:superconducting_coil_type_2',
-        ['2x kubejs:superconducting_coil_type_1', '2x #forge:ingots/hot_tungstensteel', '4x #forge:gems/boron_nitride']
+        ['3x kubejs:superconducting_coil_type_1', '2x #forge:ingots/hot_tungstensteel', '4x #forge:gems/boron_nitride']
     ).energy(409600)
         .id('kubejs:superconducting_coil_type_2_s6')
 
@@ -586,7 +586,7 @@ ServerEvents.recipes(event => {
         Item.of('draconicevolution:awakened_core').toJson(),
         Item.of('tinkers_advanced:voltaic_crystal').toJson(),
         "DRACONIC",
-        100000000,
+        10000000,
         'kubejs:voltaic_crystal_s6'
     )
 

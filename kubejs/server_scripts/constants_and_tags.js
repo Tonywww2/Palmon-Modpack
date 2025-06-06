@@ -58,6 +58,9 @@ ServerEvents.tags('item', event => {
     event.add('forge:ingots/black_steel', 
         'cataclysm:black_steel_ingot'
     )
+    event.add('forge:ingots/neutronium', 
+        '#forge:ingot/neutronium'
+    )
 
     event.add('sbtwinattack:twin_attack_blacklist', 
         'tinkers_advanced:electron_tuner'
@@ -112,6 +115,13 @@ ServerEvents.tags('item', event => {
         'mekanism:personal_chest',
         'supplementaries:safe',
         'immersiveengineering:toolbox'
+    )
+
+})
+
+ServerEvents.tags('fluid', event => {
+    event.add('ae2:growth_acceleratable',
+        '#cobblemon:berries'
     )
 
 })

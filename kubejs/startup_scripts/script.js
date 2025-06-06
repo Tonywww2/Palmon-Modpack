@@ -55,12 +55,21 @@ StartupEvents.registry('item', event => {
 	event.create('basepoint_alloy').displayName('§lBasepoint Alloy').fireResistant().rarity('epic')
 	event.create('yin_yang_steel').displayName('§lYin & Yang Steel Ingot').fireResistant().rarity('epic')
 
+	let ultimate_berry = event.create('ultimate_berry')
+	ultimate_berry.displayName('§lUltimate Berry').fireResistant().rarity('epic')
+		.food(food => {
+			food.hunger(24)
+			food.saturation(2.4)
+			food.alwaysEdible()
+			food.fastToEat()
+		})
+
 	let anchorgleam = event.create('anchorgleam')
 	anchorgleam.displayName('§aAnchorgleam™').fireResistant().rarity('epic')
 		.food(food => {
 			food.hunger(1)
 			food.saturation(0.1)
-			food.effect("minecraft:haste", 160, 0, 1)
+			food.effect("minecraft:haste", 60, 0, 1)
 			food.alwaysEdible()
 			food.fastToEat()
 		})

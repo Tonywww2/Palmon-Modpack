@@ -42,6 +42,20 @@ ServerEvents.recipes(event => {
     )
 
     event.replaceInput([
+        { mod: 'bfr'}
+    ],
+        '#forge:circuits/ultimate',
+        '#forge:circuits/cosmic'
+    )
+
+    event.replaceInput([
+        { id: 'packagedavaritia:extreme_crafter_ae'}
+    ],
+        'minecraft:hopper',
+        Item.of('avaritia:singularity', '{Id:"avaritia:steel"}').weakNBT()
+    )
+
+    event.replaceInput([
         { id: 'mekanism:metallurgic_infuser'}
     ],
         '#forge:ingots/osmium',
@@ -116,6 +130,13 @@ ServerEvents.recipes(event => {
     ],
         'minecraft:anvil',
         '#minecraft:anvil'
+    )
+
+    event.replaceInput([
+        {}
+    ],
+        'nuclearcraft:neutronium_ingot',
+        '#forge:ingots/neutronium'
     )
 
 })

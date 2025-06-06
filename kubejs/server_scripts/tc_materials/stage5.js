@@ -422,7 +422,7 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         .addDefaultTrait(1, 'tcintegrations:soul_stained')
         .addDefaultTrait(1, 'etstlib:magic_strike')
         .addDefaultTrait(1, 'tinkers_advanced:echo_locating')
-        // .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:soul_stained')
+        .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:soul_stained')
         .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:gold_guard')
         .addPerStatTrait('tconstruct:armor', 1, 'etstlib:terrafirma')
         .build();

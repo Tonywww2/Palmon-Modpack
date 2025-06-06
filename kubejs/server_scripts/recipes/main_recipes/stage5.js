@@ -552,7 +552,6 @@ ServerEvents.recipes(event => {
         "timeModifier": 1.5
     }).id('kubejs:helium_3_crystal_s5')
 
-
     event.custom({
         "type": "palmon:processing",
         "category": "misc",

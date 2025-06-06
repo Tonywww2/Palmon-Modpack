@@ -176,7 +176,7 @@
 		{
 			dependencies: [
 				"11EC5F69F241EBF3"
-				"16F6006C886E29AB"
+				"5567C76A6C2B9D0F"
 			]
 			id: "5B9D28343D5571D2"
 			tasks: [{
@@ -216,6 +216,7 @@
 			dependencies: [
 				"4BE9AD9B18D942E2"
 				"4845A3C2AB53B2C4"
+				"7C7D50F5EC99C13C"
 			]
 			id: "16F6006C886E29AB"
 			tasks: [{
@@ -229,7 +230,7 @@
 		{
 			dependencies: [
 				"4845A3C2AB53B2C4"
-				"16F6006C886E29AB"
+				"47A8E0C6ED4F8DEB"
 			]
 			id: "595CEDC6ED211041"
 			tasks: [{
@@ -294,6 +295,107 @@
 			}]
 			x: -4.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["4BE9AD9B18D942E2"]
+			id: "7C7D50F5EC99C13C"
+			tasks: [{
+				id: "217C160AFBFEBED5"
+				item: "avaritia:neutron_collector"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["16F6006C886E29AB"]
+			id: "5567C76A6C2B9D0F"
+			tasks: [{
+				id: "6EF5BDD50DC921A2"
+				item: {
+					Count: 1
+					id: "avaritia:singularity"
+					tag: {
+						Id: "avaritia:ultimate_berry"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["16F6006C886E29AB"]
+			id: "47A8E0C6ED4F8DEB"
+			tasks: [{
+				id: "58EDF560F3F33804"
+				item: {
+					Count: 1
+					id: "avaritia:singularity"
+					tag: {
+						Id: "avaritia:steel"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["36A16BE3126DCB89"]
+			id: "350A5973334AE1D3"
+			subtitle: "炉中恒星"
+			tasks: [{
+				id: "49D755CD4CE9701A"
+				item: "bfr:fusion_reactor_controller"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28EC4BBCF7C89458"]
+			id: "3CA6AE44449E9C8F"
+			tasks: [{
+				id: "6384BD010327E4BC"
+				item: "mekanism_extras:upgrade_ionic_membrane"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3CA6AE44449E9C8F"]
+			id: "4389446C13F3FFED"
+			tasks: [{
+				id: "0253C3C217A0D46F"
+				item: "nuclearcraft:chamber_terminal"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3CA6AE44449E9C8F"]
+			id: "2279B4015A4580C8"
+			tasks: [{
+				id: "43817320F4148842"
+				item: "mekanism_extras:naquadah_reactor_controller"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4389446C13F3FFED"]
+			id: "675C3BF94A1A5596"
+			tasks: [{
+				id: "67FEF77FC1D78C0E"
+				item: "avaritia:record_fragment"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
 		}
 	]
 	title: "7. 句点 | Full Stop"
