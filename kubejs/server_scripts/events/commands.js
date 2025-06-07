@@ -43,21 +43,20 @@ ServerEvents.commandRegistry(event => {
 ServerEvents.commandRegistry(event => {
     const { commands: Commands, arguments: Arguments, CommandSourceStack } = event
 
-    event.register(
-        Commands.literal('eot_give_anchor_shard')
-            .then(
-                Commands.argument('target', Arguments.PLAYER.create(event))
-                    .then(
-                        Commands.argument('num', Arguments.INTEGER.create(event))
-                            .executes(ctx => {
-                                let player = Arguments.PLAYER.getResult(ctx, 'target')
-                                let num = Arguments.INTEGER.getResult(ctx, 'num')
+    event.register(Commands.literal('eot_give_anchor_shard')
+        .requires(s => s.hasPermission(2))
+        .then(
+            Commands.argument('target', Arguments.PLAYER.create(event))
+                .then(
+                    Commands.argument('num', Arguments.INTEGER.create(event))
+                        .executes(ctx => {
+                            let player = Arguments.PLAYER.getResult(ctx, 'target')
+                            let num = Arguments.INTEGER.getResult(ctx, 'num')
 
-
-                                return giveAnchorShard(player, num)
-                            })
-                    )
-            )
+                            return giveAnchorShard(player, num)
+                        })
+                )
+        )
     )
 })
 

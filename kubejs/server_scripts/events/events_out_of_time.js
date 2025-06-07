@@ -282,7 +282,7 @@ PlayerEvents.advancement('dustandash:entry', event => {
         if (global.current_buffs.has(id)) {
             let buff = global.all_buffs[id]
 
-            // console.log(`[EOT] ${id} apply to ${player.name}`)
+            console.log(`[EOT] ${id} apply to ${player.name}`)
             player.tell(Text.of('   ')
                 .append(Text.translatable(`kubejs.eot.${id}_name`).color(Color.LIGHT_PURPLE).hover(getHover(buff)))
             )
@@ -291,7 +291,6 @@ PlayerEvents.advancement('dustandash:entry', event => {
 
         }
     }
-    console.log(`[EOT] ${Array.from(global.current_buffs.keys).join(', ')} apply to ${player.name}`)
 
 })
 
@@ -705,6 +704,27 @@ registerBuff("relics_4", 5, ["master_ending", "relics_3"], true,
         event.player.give(Item.of('ftbquests:lootcrate', '{type:"limit"}'))
     },
     empty,
+    empty)
+
+
+registerBuff("survive_1", 2, ["init"], false,
+    empty,
+    function (event) {
+        event.shapeless('tconstruct:crafting_station', ['#forge:workbenches', 'tconstruct:pattern']).id('kubejs:survive_1_crafting_station')
+        event.shapeless('6x tfc:wood/lumber/douglas_fir', ['#minecraft:logs', '#forge:rods/wooden']).id('kubejs:survive_1_lumber_from_logs')
+
+        event.shaped('minecraft:furnace', [
+            'AAA',
+            'A A',
+            'AAA'
+        ],
+            {
+                A: '#forge:cobblestone'
+            }).id('kubejs:survive_1_furnace')
+
+        event.smelting('tfc:metal/ingot/steel', ['#forge:ingots/refined_iron'], 1, 400).id('kubejs:survive_1_smelting_steel')
+
+    },
     empty)
 
 registerBuff("tcr_1", 1, ["init"], false,

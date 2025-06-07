@@ -24,7 +24,9 @@ ServerEvents.recipes(event => {
     event.shapeless('4x thermal:signalum_coin', ['thermal:enderium_coin']).id('kubejs:enderium_to_signalum_coin_s1')
     event.shapeless('palmon:stone', ['2x tfc:rock/smooth/granite', '2x tfc:rock/smooth/diorite', '2x tfc:rock/smooth/andesite', '2x tfc:rock/smooth/dacite']).id('kubejs:palmon_stone_s1')
 
-    event.stonecutting('minecraft:crafting_table', ['#minecraft:logs']).id('kubejs:crafting_table_s1')
+    event.shapeless('minecraft:crafting_table',['#tfc:workbenches']).id('kubejs:crafting_table_shapeless_s1')
+
+    event.stonecutting('minecraft:crafting_table', ['#minecraft:logs']).id('kubejs:crafting_table_stonecutting_s1')
     event.smelting('minecraft:dried_kelp', ['tfc:plant/winged_kelp', 'tfc:plant/leafy_kelp'], 200, 10).id('kubejs:kelp_s1')
     event.smithing('mekanism:configurator', '#forge:gems/lapis', 'thermal:wrench', '#forge:plates/steel').id('kubejs:configurator_s1')
 

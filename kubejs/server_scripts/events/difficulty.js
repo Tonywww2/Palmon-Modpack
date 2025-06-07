@@ -166,9 +166,5 @@ EntityEvents.spawned(event => {
 
     }
 
-
-
-
-
 })
 

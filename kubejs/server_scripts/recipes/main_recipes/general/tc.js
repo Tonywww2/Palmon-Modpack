@@ -41,7 +41,7 @@ ServerEvents.recipes(event => {
     tcAlloy([{ "amount": 90, "tag": "tfc:black_bronze" }, { "amount": 90, "tag": "forge:molten_nickel" }, { "amount": 180, "tag": "forge:molten_steel" }],
         { "amount": 360, "tag": "tfc:weak_steel" }, 800, 'kubejs:tc_alloy_weak_steel')
     tcAlloy([{ "amount": 90, "tag": "tfc:weak_steel" }, { "amount": 90, "tag": "tconstruct:molten_pig_iron" }],
-        { "amount": 90, "tag": "tfc:" }, 800, 'kubejs:tc_alloy_black_steel')
+        { "amount": 90, "tag": "tfc:black_steel" }, 800, 'kubejs:tc_alloy_black_steel')
 
     tcAlloy([{ "amount": 40, "tag": "tfc:black_steel" }, { "amount": 10, "tag": "forge:molten_rose_gold" }, { "amount": 10, "tag": "forge:molten_brass" }, { "amount": 30, "tag": "forge:molten_steel" }],
         { "amount": 90, "tag": "tfc:weak_red_steel" }, 800, 'kubejs:tc_alloy_weak_red_steel')

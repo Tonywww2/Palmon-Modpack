@@ -123,6 +123,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'ars_nouveau:novice_spell_book' })
     event.remove({ id: 'ars_nouveau:apprentice_spell_book_upgrade' })
     event.remove({ id: 'ars_nouveau:ritual_brazier' })
+    event.remove({ id: 'tfc:crafting/vanilla/crafting_table' })
 
     event.remove({ id: 'draconicevolution:components/draconium_core' })
     event.remove({ id: 'draconicevolution:components/wyvern_energy_core' })
