@@ -424,6 +424,21 @@
 					table_id: 1141615569593449731L
 					type: "random"
 				}
+				{
+					count: 10
+					id: "67657C8749B3C259"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:ore/normal_native_copper"
+					}
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			subtitle: "制作任意一种镐"

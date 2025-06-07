@@ -143,7 +143,11 @@
 		}
 		{
 			dependencies: ["36D2E1C2BF0663D7"]
-			description: ["在此阶段，你将会解锁随机的两份补给。"]
+			description: [
+				"在此阶段，你将会解锁随机的两份补给。"
+				""
+				"这一阶段的补给卷需要使用Beta 框架制作。"
+			]
 			icon: "kubejs:anchor_shard"
 			id: "6D2DCDB27DF13C81"
 			rewards: [

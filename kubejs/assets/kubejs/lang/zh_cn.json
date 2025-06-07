@@ -239,9 +239,9 @@
     "ui.kubejs.anchor_shard": "使用它干涉世界......",
     "ui.kubejs.cognitio": "我思，故我在。",
 
-    "ui.kubejs.marker": "Palmon - by Tonywww",
+    "ui.kubejs.marker": "RePalmon - by Tonywww",
     "ui.kubejs.current_dimension": "当前星球/维度：%s",
-    "kubejs.modpack_name": "帕鲁梦",
+    "kubejs.modpack_name": "Re帕鲁梦",
 
     "kubejs.eot.list_prefix": "[EOT]列表：",
     "kubejs.eot.unlocked": "已解锁",
@@ -397,6 +397,10 @@
     
     "kubejs.eot.relics_4_name": "[上位异界同调]",
     "kubejs.eot.relics_4_desc": "·初始携带 随机的上级异界遗物",
+
+    
+    "kubejs.eot.survive_1_name": "[生存者]",
+    "kubejs.eot.survive_1_desc": "·允许直接制作工作站\n·允许直接制作熔炉\n·允许直接将原木分解为木材\n·允许直接将精炼铁锭煅烧成钢锭",
     
     "kubejs.eot.tcr_1_name": "[锻造大师]",
     "kubejs.eot.tcr_1_desc": "·材料品质修正 + 0.005\n  ¤  使所有材料的属性浮动更加正面",

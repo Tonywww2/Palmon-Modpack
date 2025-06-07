@@ -403,6 +403,11 @@
 		}
 		{
 			dependencies: ["3D68BD03828E6C01"]
+			description: [
+				"在此阶段，你将会解锁随机的两份补给。"
+				""
+				"这一阶段的补给卷需要使用源质计算框架制作。"
+			]
 			hide_dependency_lines: true
 			icon: "kubejs:anchor_shard"
 			id: "3D4DF2C3EA0892F3"

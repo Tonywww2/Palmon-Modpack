@@ -32,3 +32,7 @@ config/oculus.properties
 config/fabric/indigo-renderer.properties
 backups/backups.json
 Palmon-natives/
+/modernfix
+servers.dat
+servers.dat_old
+/backups

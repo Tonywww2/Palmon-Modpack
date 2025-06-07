@@ -476,6 +476,11 @@
 		}
 		{
 			dependencies: ["6B46BCE6AEDB7159"]
+			description: [
+				"在此阶段，你将会解锁随机的两份补给。"
+				""
+				"这一阶段的补给卷需要使用终末钢制作。"
+			]
 			hide_until_deps_complete: true
 			icon: "kubejs:anchor_shard"
 			id: "7433CEDE4D39BDFC"

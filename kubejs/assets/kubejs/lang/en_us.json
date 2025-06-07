@@ -45,7 +45,9 @@
     "ui.kubejs.godricks_great_rune": "⌈Elden Ring⌋ The first demigods were The Elden Lord Godfrey and his offspring, the golden lineage",
     "ui.kubejs.izanagis_burden": "⌈Destiny⌋ Shame. Guilt. Fear. \nWe all bear them. Gather your regrets, purge them as best you can. \nLet your enemies feel the weight of your burdens.",
 
-    "ui.kubejs.marker": "Palmon - by Tonywww",
+    "ui.kubejs.marker": "RePalmon - by Tonywww",
+    "ui.kubejs.current_dimension": "Current Dimension：%s",
+    "kubejs.modpack_name": "RePalmon",
     
     "ui.kubejs.compact_pal_factory_2": "Fully self-sufficient Pal Factory after extreme compression",
     "ui.kubejs.compact_pal_factory_3": "Generate a random Pokeball every once in a while",

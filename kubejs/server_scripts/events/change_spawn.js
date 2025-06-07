@@ -1,4 +1,7 @@
-const spawnPoint = new BlockPos(0, 72, -1000)
+const x = 0
+const y = 72
+const z = -1000
+const spawnPoint = new BlockPos(x, y, z)
 
 PlayerEvents.advancement('dustandash:entry', event => {
     /**
@@ -7,27 +10,29 @@ PlayerEvents.advancement('dustandash:entry', event => {
     let player = event.player
     let dim = player.server.getLevel('kubejs:tfc_planet')
 
-    for (let x = 2; x >= -2; x--) {
-        for (let y = 60; y <= 71; y++) {
-            for (let z = -1002; z <= -998; z++) {
-                dim.setBlock(new BlockPos(x, y, z),
+    player.teleportTo(dim.dimension, x, y, z, 0, 0)
+    player.setRespawnPosition(dim.dimension, spawnPoint, 0, true, false)
+
+    for (let dx = 2; dx >= -2; dx--) {
+        for (let dy = -12; dy <= -1; dy++) {
+            for (let dz = -2; dz <= 2; dz++) {
+                dim.setBlock(new BlockPos(x + dx, y + dy, z + dz),
                     Block.getBlock('tfc:rock/raw/granite').defaultBlockState(),
                     3, 256)
             }
         }
     }
 
-    for (let x = 2; x >= -2; x--) {
-        for (let y = 72; y <= 80; y++) {
-            for (let z = -1002; z <= -998; z++) {
-                dim.setBlock(new BlockPos(x, y, z),
+    for (let dx = 2; dx >= -2; dx--) {
+        for (let dy = 0; dy <= 8; dy++) {
+            for (let dz = -2; dz <= 2; dz++) {
+                dim.setBlock(new BlockPos(x + dx, y + dy, z + dz),
                     Blocks.AIR.defaultBlockState(),
                     3, 256)
             }
         }
     }
 
-    player.setRespawnPosition(dim.dimension, spawnPoint, 0, false, false)
-    player.teleportTo(dim.dimension, 0, 72, -1000, 0, 0)
+    player.server.runCommandSilent(`execute in kubejs:tfc_planet run setworldspawn ${x} ${y} ${z}`)
 
 })
