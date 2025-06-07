@@ -41,3 +41,7 @@ servers.dat_old
 /tlm_custom_pack/touhou_little_maid-1.0.0
 /modernfix/structureCacheV1
 /local/ftbchunks/data
+config/packetfixer.properties
+config/oculus.properties
+config/fabric/indigo-renderer.properties
+config/cobblemon/main.json
