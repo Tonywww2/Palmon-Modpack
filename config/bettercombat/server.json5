@@ -89,11 +89,5 @@
 	// Try to guess and apply a preset for items without weapon attributes data file
 	"fallback_compatibility_enabled": true,
 	// Allow printing the content of weapon attributes registry
-	"weapon_registry_logging": false,
-	// 全局增加攻击距离
-	"globallyIncreaseAttackRange": 0.5,
-	// 启用冷却不完全提前攻击
-	"enableIncompleteCooldownPreemptiveAttack": false,
-	// 启用冷却不完全无AOE
-	"enableIncompleteCoolingWithoutAOE": true
+	"weapon_registry_logging": false
 }

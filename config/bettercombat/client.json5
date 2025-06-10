@@ -12,11 +12,5 @@
 	"weaponSwingSoundVolume": 100,
 	"isDebugOBBEnabled": true,
 	"swingThruGrassBlacklist": "farmersdelight",
-	"mineWithWeaponBlacklist": "",
-	// 禁用第一人称动画
-	"disableFirstPersonAnimation": false,
-	// 禁用身体大部分动画
-	"disableMostBodyAnimations": false,
-	// 禁用所有动画
-	"disableAllAnimation": false
+	"mineWithWeaponBlacklist": ""
 }
