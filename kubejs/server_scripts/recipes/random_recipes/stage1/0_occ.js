@@ -2,6 +2,8 @@
  * @param {Internal.RecipesEventJS} event
  */
 function s1Occ(event) {
+    global.occ_trigger = true
+
     event.shaped('supplementaries:planter', [
         'ABA',
         'ABA',

@@ -89,7 +89,8 @@
         "tfc:firmalife/climate_station",
         "tfc:waterflasks/recipes",
         "tfc:mechanics/damage_types",
-        "tfc:mechanics/gems"
+        "tfc:mechanics/gems",
+        "tfc:mechanics/chisel"
       ],
       "bookmarks": [],
       "completedManualQuests": []

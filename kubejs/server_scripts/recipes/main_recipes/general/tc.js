@@ -34,6 +34,8 @@ ServerEvents.recipes(event => {
         { "amount": 100, "tag": "tfc:black_bronze" }, 500, 100, 'kubejs:tc_melting_black_bronze')
     tcMelting({ "tag": 'forge:ingots/bismuth_bronze' },
         { "amount": 100, "tag": "tfc:bismuth_bronze" }, 500, 100, 'kubejs:tc_melting_bismuth_bronze')
+    tcMelting({ "tag": 'forge:ingots/sterling_silver' },
+        { "amount": 100, "tag": "tfc:sterling_silver" }, 500, 100, 'kubejs:tc_melting_sterling_silver')
 
     tcMelting({ "tag": 'forge:ingots/weak_steel' },
         { "amount": 100, "tag": "tfc:weak_steel" }, 500, 100, 'kubejs:tc_melting_weak_steel')
@@ -56,6 +58,8 @@ ServerEvents.recipes(event => {
         { "amount": 180, "tag": "tfc:black_bronze" }, 800, 'kubejs:tc_alloy_black_bronze_2')
     tcAlloy([{ "amount": 30, "tag": "forge:molten_copper" }, { "amount": 30, "tag": "forge:molten_brass" }, { "amount": 30, "tag": "forge:molten_bismuth" }],
         { "amount": 90, "tag": "tfc:bismuth_bronze" }, 800, 'kubejs:tc_alloy_bismuth_bronze')
+    tcAlloy([{ "amount": 30, "tag": "forge:molten_copper" }, { "amount": 60, "tag": 'forge:molten_silver' }],
+        { "amount": 90, "tag": 'tfc:sterling_silver' }, 800, 'kubejs:tc_alloy_sterling_silver')
 
     tcAlloy([{ "amount": 90, "tag": "tfc:black_bronze" }, { "amount": 90, "tag": "forge:molten_nickel" }, { "amount": 180, "tag": "forge:molten_steel" }],
         { "amount": 360, "tag": "tfc:weak_steel" }, 800, 'kubejs:tc_alloy_weak_steel')

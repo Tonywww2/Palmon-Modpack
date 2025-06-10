@@ -150,6 +150,7 @@ ServerEvents.recipes(event => {
             E: 'ad_astra:fan'
         }).id('kubejs:steel_engine_s2')
 
+    // TODO 二测修改维度
     event.custom({
         "type": "embers:boring",
         "dimensions": [

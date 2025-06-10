@@ -25,6 +25,15 @@ NativeEvents.onEvent($EntityTravelToDimensionEvent, /** @param {Internal.EntityT
                     player.teleportTo(player.getX(), 320, player.getZ())
                 }
                 break
+                // TODO 修改世界bug, 二测移除该部分
+            case 'minecraft:overworld':
+                if (!player.stages.has("overworld")) {
+                    event.setCanceled(true)
+                    player.tell(Text.translatable('ui.kubejs.banned').gold())
+                    player.tell(Text.translatable('ui.kubejs.banned_dim').gold())
+
+                }
+                break
 
         }
 

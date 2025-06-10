@@ -4,6 +4,7 @@ const z = -1000
 const spawnPoint = new BlockPos(x, y, z)
 
 PlayerEvents.advancement('dustandash:entry', event => {
+    // TODO 二测修改维度
     /**
      * @type {Internal.ServerPlayer}
      */

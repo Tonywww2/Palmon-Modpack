@@ -222,6 +222,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'forestry:ingot_bronze_alloying' })
     event.remove({ id: 'tfc:crafting/blast_furnace' })
     event.remove({ id: 'tfc:crafting/bloomery' })
+    event.remove({ id: 'thermal:machines/press/unpacking/press_wheat_unpacking' })
 
     // s7
     event.remove({ id: 'avaritia:sculk_crafting_table' })

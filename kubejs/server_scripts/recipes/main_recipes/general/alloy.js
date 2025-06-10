@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
         { "tag": 'forge:ingots/electrum', "count": 1 }],
         'thermal:electrum_ingot',
         2,
-        700
+        400
     )
 
     alloy([
@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
         { "tag": 'forge:ingots/bismuth_bronze', "count": 1 }],
         'tfc:metal/ingot/bismuth_bronze',
         2,
-        700
+        400
     )
     alloy([
         { "item": 'tfc:powder/tetrahedrite', "count": 9 },
@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
         { "tag": 'forge:ingots/bismuth_bronze', "count": 1 }],
         'tfc:metal/ingot/bismuth_bronze',
         2,
-        700
+        400
     )
     alloy([
         { "item": 'tfc:powder/malachite', "count": 9 },
@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
         { "tag": 'forge:ingots/bismuth_bronze', "count": 1 }],
         'tfc:metal/ingot/bismuth_bronze',
         2,
-        700
+        400
     )
 
     alloy([
@@ -44,7 +44,7 @@ ServerEvents.recipes(event => {
         { "tag": 'forge:ingots/black_bronze', "count": 1 }],
         'tfc:metal/ingot/black_bronze',
         2,
-        700
+        400
     )
     alloy([
         { "item": 'tfc:powder/tetrahedrite', "count": 10 },
@@ -53,7 +53,7 @@ ServerEvents.recipes(event => {
         { "tag": 'forge:ingots/black_bronze', "count": 1 }],
         'tfc:metal/ingot/black_bronze',
         2,
-        700
+        400
     )
     alloy([
         { "item": 'tfc:powder/malachite', "count": 10 },
@@ -62,7 +62,7 @@ ServerEvents.recipes(event => {
         { "tag": 'forge:ingots/black_bronze', "count": 1 }],
         'tfc:metal/ingot/black_bronze',
         2,
-        700
+        400
     )
 
     alloy([
@@ -71,7 +71,7 @@ ServerEvents.recipes(event => {
         { "tag": 'forge:ingots/bronze', "count": 1 }],
         'thermal:bronze_ingot',
         2,
-        700
+        400
     )
     alloy([
         { "item": 'tfc:powder/tetrahedrite', "count": 16 },
@@ -79,7 +79,7 @@ ServerEvents.recipes(event => {
         { "tag": 'forge:ingots/bronze', "count": 1 }],
         'thermal:bronze_ingot',
         2,
-        700
+        400
     )
     alloy([
         { "item": 'tfc:powder/malachite', "count": 16 },
@@ -87,7 +87,7 @@ ServerEvents.recipes(event => {
         { "tag": 'forge:ingots/bronze', "count": 1 }],
         'thermal:bronze_ingot',
         2,
-        700
+        400
     )
 
     alloy([
@@ -96,7 +96,7 @@ ServerEvents.recipes(event => {
         { "tag": 'forge:ingots/brass', "count": 1 }],
         'create:brass_ingot',
         2,
-        700
+        400
     )
     alloy([
         { "item": 'tfc:powder/tetrahedrite', "count": 16 },
@@ -104,7 +104,7 @@ ServerEvents.recipes(event => {
         { "tag": 'forge:ingots/brass', "count": 1 }],
         'create:brass_ingot',
         2,
-        700
+        400
     )
     alloy([
         { "item": 'tfc:powder/malachite', "count": 16 },
@@ -112,7 +112,7 @@ ServerEvents.recipes(event => {
         { "tag": 'forge:ingots/brass', "count": 1 }],
         'create:brass_ingot',
         2,
-        700
+        400
     )
 
     alloy([
@@ -121,7 +121,7 @@ ServerEvents.recipes(event => {
         { "tag": 'forge:ingots/rose_gold', "count": 1 }],
         'tfc:metal/ingot/rose_gold',
         2,
-        700
+        400
     )
     alloy([
         { "item": 'tfc:powder/tetrahedrite', "count": 4 },
@@ -129,7 +129,7 @@ ServerEvents.recipes(event => {
         { "tag": 'forge:ingots/rose_gold', "count": 1 }],
         'tfc:metal/ingot/rose_gold',
         2,
-        700
+        400
     )
     alloy([
         { "item": 'tfc:powder/malachite', "count": 4 },
@@ -137,7 +137,7 @@ ServerEvents.recipes(event => {
         { "tag": 'forge:ingots/rose_gold', "count": 1 }],
         'tfc:metal/ingot/rose_gold',
         2,
-        700
+        400
     )
 
     alloy([
@@ -146,7 +146,7 @@ ServerEvents.recipes(event => {
         { "tag": 'forge:ingots/sterling_silver', "count": 1 }],
         'tfc:metal/ingot/sterling_silver',
         2,
-        700
+        400
     )
     alloy([
         { "item": 'tfc:powder/tetrahedrite', "count": 4 },
@@ -154,7 +154,7 @@ ServerEvents.recipes(event => {
         { "tag": 'forge:ingots/sterling_silver', "count": 1 }],
         'tfc:metal/ingot/sterling_silver',
         2,
-        700
+        400
     )
     alloy([
         { "item": 'tfc:powder/malachite', "count": 4 },
@@ -162,7 +162,7 @@ ServerEvents.recipes(event => {
         { "tag": 'forge:ingots/sterling_silver', "count": 1 }],
         'tfc:metal/ingot/sterling_silver',
         2,
-        700
+        400
     )
 
     alloy([
@@ -171,7 +171,7 @@ ServerEvents.recipes(event => {
         { "tag": 'forge:ingots/constantan', "count": 1 }],
         'thermal:constantan_ingot',
         2,
-        700
+        400
     )
     alloy([
         { "item": 'tfc:powder/tetrahedrite', "count": 9 },
@@ -179,7 +179,7 @@ ServerEvents.recipes(event => {
         { "tag": 'forge:ingots/constantan', "count": 1 }],
         'thermal:constantan_ingot',
         2,
-        700
+        400
     )
     alloy([
         { "item": 'tfc:powder/malachite', "count": 9 },
@@ -187,7 +187,18 @@ ServerEvents.recipes(event => {
         { "tag": 'forge:ingots/constantan', "count": 1 }],
         'thermal:constantan_ingot',
         2,
-        700
+        400
+    )
+
+    alloy([
+        { "tag": 'forge:ingots/steel', "count": 2 },
+        { "tag": 'forge:ingots/black_bronze', "count": 1 },
+        { "tag": 'forge:ingots/nickel', "count": 1 },
+        { "item": 'tfc:powder/flux', "count": 1 },
+        { "tag": 'forge:ingots/weak_steel', "count": 1 }],
+        'tfc:metal/ingot/weak_steel',
+        5,
+        800
     )
 
     alloy([
@@ -198,7 +209,7 @@ ServerEvents.recipes(event => {
         { "tag": 'forge:ingots/weak_steel', "count": 1 }],
         'tfc:metal/ingot/weak_steel',
         5,
-        1200
+        800
     )
 
     alloy([
@@ -208,7 +219,7 @@ ServerEvents.recipes(event => {
         { "tag": 'forge:ingots/black_steel', "count": 1 }],
         'tfc:metal/ingot/black_steel',
         3,
-        1400
+        900
     )
     alloy([
         { "tag": 'forge:ingots/weak_steel', "count": 1 },
@@ -217,7 +228,7 @@ ServerEvents.recipes(event => {
         { "tag": 'forge:ingots/black_steel', "count": 1 }],
         'tfc:metal/ingot/black_steel',
         3,
-        1400
+        900
     )
 
     alloy([
@@ -229,7 +240,7 @@ ServerEvents.recipes(event => {
         { "tag": 'forge:ingots/weak_blue_steel', "count": 1 }],
         'tfc:metal/ingot/weak_blue_steel',
         5,
-        1600
+        1000
     )
 
     alloy([
@@ -241,7 +252,7 @@ ServerEvents.recipes(event => {
         { "tag": 'forge:ingots/weak_red_steel', "count": 1 }],
         'tfc:metal/ingot/weak_red_steel',
         5,
-        1600
+        1000
     )
 
 

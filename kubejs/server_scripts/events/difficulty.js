@@ -44,6 +44,7 @@
 /**
  * hp, armor, attack
  */
+// TODO 二测修改维度
 // v2
 global.dimAdder = {
     'kubejs:tfc_planet': [10, 0, 6],
