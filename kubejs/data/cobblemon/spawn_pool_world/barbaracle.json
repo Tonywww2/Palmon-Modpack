@@ -1,0 +1,26 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "barbaracle-1",
+            "pokemon": "barbaracle",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "45-52",
+            "weight": 6.2,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_beach"
+                ]
+            }
+        }
+    ]
+ 
+}

@@ -1,0 +1,31 @@
+{
+    "target": "cobblemon:celebi",
+        "behaviour": {
+        "resting": {
+            "canSleep": false,
+            "depth": "normal",
+            "light": "4-15"
+        },
+        "moving": {
+            "canLook": false,
+            "walk": {
+                "canWalk": false,
+                "avoidsLand": false
+            },
+            "swim": {
+                "swimSpeed": 0.1,
+                "canSwimInWater": false,
+                "canBreatheUnderwater": false
+            },
+			"fly": {
+			"canFly": true
+			}
+        }
+    },
+    "baseScale": 0.5,
+    "hitbox": {
+        "width": 0.5,
+        "height": 1.4,
+        "fixed": false
+    }
+}

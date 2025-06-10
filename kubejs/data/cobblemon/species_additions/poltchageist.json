@@ -1,0 +1,34 @@
+{
+    "target": "cobblemon:poltchageist",
+    "drops": {
+        "amount": "1",
+        "entries": [
+        {"item": "minecraft:green_dye", "quantityRange": "1-2", "percentage": 50}
+        ]
+    },
+	    "evolutions": [
+        {
+            "id": "poltchageist_sinistcha",
+            "variant": "level_up",
+            "result": "sinistcha",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+			"requirements": [
+			{
+          "variant": "held_item",
+          "itemCondition": "cobblemon:cracked_pot"
+			},
+			{
+          "variant": "level",
+          "minLevel": 1
+			}
+        ]
+    }
+ ],      
+    "baseScale": 0.4,
+    "hitbox": {
+        "width": 0.5,
+        "height": 1.0,
+        "fixed": false
+    }
+}

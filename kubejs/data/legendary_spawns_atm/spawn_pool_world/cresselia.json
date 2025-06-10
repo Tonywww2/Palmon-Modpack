@@ -1,0 +1,26 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "cresselia",
+            "pokemon": "cresselia",
+            "presets": [
+                "natural",
+				"wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "70",
+            "weight": 4.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_floral"
+                ],
+				"moonPhase": 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "target": "cobblemon:azurill",
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 0.5,
+    "height": 0.5,
+    "fixed": false
+  }
+}

@@ -1,0 +1,28 @@
+{
+    "implemented": true,
+    "target": "cobblemon:zeraora",   
+    "shoulderMountable": false,
+    "baseScale": 0.7,
+    "hitbox": {
+      "width": 0.7,
+      "height": 2.4,
+      "fixed": false
+    },
+    "drops": {
+    "amount": "1",
+      "entries": [
+        {
+          "item": "minecraft:nether_star",
+          "percentage": 100
+        }
+      ]
+    },
+    "behaviour": {
+      "resting": {
+        "canSleep": true,
+        "willSleepOnBed": true,
+        "depth": "normal",
+        "light": "0-4"
+      }
+    }
+   }

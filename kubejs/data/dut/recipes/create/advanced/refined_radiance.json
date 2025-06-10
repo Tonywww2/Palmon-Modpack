@@ -1,0 +1,37 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:sturdy_sheet"
+    },
+    {
+      "item": "create:sturdy_sheet"
+    },
+    {
+      "item": "create:sturdy_sheet"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "create:polished_rose_quartz"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:chromatic_compound",
+      "chance":0.8
+    },
+    {
+      "item":"create:sturdy_sheet",
+      "chance":0.2
+    }
+  ],
+  "heatRequirement": "superheated"
+}

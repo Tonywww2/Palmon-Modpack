@@ -1,0 +1,26 @@
+{
+   "enabled": true,
+   "neededInstalledMods": [],
+   "neededUninstalledMods": [],
+   "spawns": [
+       {
+           "id": "latias-1",
+           "pokemon": "latias",
+           "presets": [
+               "natural"
+           ],
+           "type": "pokemon",
+           "context": "grounded",
+           "bucket": "ultra-rare",
+           "level": "70",
+           "weight": 4.0,
+           "condition": {
+                "minY": 120,
+                "isRaining": false,
+                "biomes": [
+                   "#cobblemon:is_overworld"
+               ]
+           }
+       }
+   ]
+}

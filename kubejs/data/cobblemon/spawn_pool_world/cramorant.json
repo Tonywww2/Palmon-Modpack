@@ -1,0 +1,37 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "cramorant-1",
+            "pokemon": "cramorant",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "25-45",
+            "weight": 7.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#minecraft:is_beach"
+                ]
+            }
+        },
+        {
+            "id": "cramorant-2",
+            "pokemon": "cramorant",
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "uncommon",
+            "level": "25-45",
+            "weight": 5.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        }
+    ]
+}

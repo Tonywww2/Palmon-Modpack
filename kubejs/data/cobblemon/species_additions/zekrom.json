@@ -1,0 +1,29 @@
+{
+  "target": "cobblemon:zekrom",
+
+  "baseScale":1.0,
+  "hitbox": {
+    "width": 4,
+    "height": 5,
+    "fixed": false
+  },
+
+  "behaviour": {
+      "moving": {
+        "canLook": true,
+        "walk": {
+          "walkSpeed": 0.3,
+          "canWalk": true,
+          "avoidsLand": false
+        },
+      "fly": {
+        "canFly": true
+      },
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      }
+    }
+  }
+}

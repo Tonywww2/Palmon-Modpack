@@ -1,0 +1,33 @@
+{
+  "name": "bca:custom_village",
+  "fallback": "minecraft:empty",
+  "elements": [
+      {
+          "element": {
+              "element_type": "minecraft:single_pool_element",
+              "location": "bca:centers/center_battlepad",
+              "processors": "minecraft:empty",
+              "projection": "rigid"
+          },
+          "weight": 4
+      },
+      {
+          "element": {
+              "element_type": "minecraft:single_pool_element",
+              "location": "bca:centers/center_small_battlepad_road",
+              "processors": "minecraft:empty",
+              "projection": "terrain_matching"
+          },
+          "weight": 2
+      },
+      {
+          "element": {
+              "element_type": "minecraft:single_pool_element",
+              "location": "bca:centers/center_department_store",
+              "processors": "minecraft:empty",
+              "projection": "rigid"
+          },
+          "weight": 1
+      }
+  ]
+}

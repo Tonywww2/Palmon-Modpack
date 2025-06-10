@@ -26,9 +26,43 @@ ServerEvents.recipes(event => {
 
     event.shapeless('minecraft:crafting_table',['#tfc:workbenches']).id('kubejs:crafting_table_shapeless_s1')
 
+    event.shapeless('minecraft:glass',['4x #forge:glass_panes']).id('kubejs:glass_s1')
+    event.shapeless('tfc:papyrus',['2x #forge:rods/wooden', 'tfc:food/sugarcane']).id('kubejs:papyrus_s1')
+
     event.stonecutting('minecraft:crafting_table', ['#minecraft:logs']).id('kubejs:crafting_table_stonecutting_s1')
     event.smelting('minecraft:dried_kelp', ['tfc:plant/winged_kelp', 'tfc:plant/leafy_kelp'], 200, 10).id('kubejs:kelp_s1')
     event.smithing('mekanism:configurator', '#forge:gems/lapis', 'thermal:wrench', '#forge:plates/steel').id('kubejs:configurator_s1')
+
+    event.shaped('tfc:bloomery', [
+        'DBD',
+        'C C',
+        'DBD'
+    ],
+        {
+            B: '#forge:double_sheets/any_bronze',
+            C: ['#forge:double_ingots/black_bronze', 'tfc:metal/double_ingot/bismuth_bronze', 'tfc:metal/double_ingot/bronze'],
+            D: '#forge:ingots/brick'
+        }).id('kubejs:tfc_bloomery_s1')
+
+    event.shaped('tfc:blast_furnace', [
+        'DBD',
+        'CAC',
+        'DBD'
+    ],
+        {
+            A: 'tfc:crucible',
+            B: '#forge:sheets/wrought_iron',
+            C: '#forge:ingots/cast_iron',
+            D: '#forge:stone_bricks'
+        }).id('kubejs:tfc_blast_furnace_s1')
+
+    event.shaped('4x tfc:metal/rod/brass', [
+        'A ',
+        ' A'
+    ],
+        {
+            A: '#forge:ingots/brass'
+        }).id('kubejs:brass_rods_s1')
 
     event.shaped('minecraft:furnace', [
         'AAA',
@@ -124,16 +158,16 @@ ServerEvents.recipes(event => {
         .inputs('32x #forge:dusts/redstone', TFC.fluidStackIngredient('immersiveengineering:creosote', 2000))
         .id('kubejs:fuel_s1')
 
-    event.shaped('2x palmon:working_station', [
+    event.shaped('palmon:working_station', [
         'AAA',
         'BCB',
         'DDD'
     ],
         {
-            A: '#forge:sheets/gold',
+            A: '#forge:ingots/gold',
             B: 'palmon:wood',
-            C: 'tfcgroomer:copper_grooming_station',
-            D: '#forge:sheets/wrought_iron'
+            C: 'nuclearcraft:coil_copper',
+            D: '#forge:ingots/cast_iron'
         }).id('kubejs:working_station_s1')
 
     event.shaped('palmon:production_machine', [
@@ -142,11 +176,11 @@ ServerEvents.recipes(event => {
         'EEE'
     ],
         {
-            A: '#forge:sheets/brass',
+            A: ['#forge:sheets/brass', '#forge:gears/brass'],
             B: 'minecraft:crafting_table',
             C: ['minecraft:hopper', 'woodenhopper:wooden_hopper'],
-            D: 'tfc:metal/pickaxe/wrought_iron',
-            E: '#forge:sheets/wrought_iron'
+            D: ['tfc:metal/pickaxe/wrought_iron', 'minecraft:diamond_pickaxe'],
+            E: '#forge:ingots/cast_iron'
         }).id('kubejs:production_machine_s1')
 
     event.shaped('palmon:processing_station', [
@@ -155,11 +189,11 @@ ServerEvents.recipes(event => {
         'EEE'
     ],
         {
-            A: '#forge:sheets/wrought_iron',
+            A: '#forge:ingots/cast_iron',
             B: 'tfc:bellows',
             C: 'minecraft:hopper',
             D: 'minecraft:smithing_table',
-            E: '#forge:sheets/black_steel'
+            E: '#forge:ingots/black_steel'
         }).id('kubejs:processing_station_s1')
 
     event.shaped('tconstruct:crafting_station', [

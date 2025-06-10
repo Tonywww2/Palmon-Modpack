@@ -1,0 +1,40 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "gothitelle-1",
+            "pokemon": "gothitelle",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "12-35",
+            "weight": 1.0,
+            "condition": {
+                "timeRange": "night",
+                "biomes": [
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "gothitelle-2",
+            "pokemon": "gothitelle",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "5-35",
+            "weight": 3.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#minecraft:is_end"
+                ]
+            }
+        }
+    ]
+}

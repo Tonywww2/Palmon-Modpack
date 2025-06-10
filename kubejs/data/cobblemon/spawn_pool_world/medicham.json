@@ -1,0 +1,26 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "medicham-1",
+            "pokemon": "medicham",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "39-45",
+            "weight": 0.8,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end"
+
+                ]
+            }
+        }
+    ]
+}

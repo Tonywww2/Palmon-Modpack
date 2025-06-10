@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "minecraft:cobbled_deepslate"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:deepslate"
+    }
+  ]
+}

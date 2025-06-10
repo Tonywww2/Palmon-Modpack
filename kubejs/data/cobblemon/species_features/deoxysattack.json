@@ -1,0 +1,6 @@
+{
+  "keys": ["deoxysattack"],
+  "type": "flag",
+  "isAspect": true,
+  "default": false
+}

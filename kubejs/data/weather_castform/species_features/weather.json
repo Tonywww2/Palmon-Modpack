@@ -1,0 +1,12 @@
+{
+  "type": "choice",
+  "keys": ["weather"],
+  "default": "false",
+  "choices": [
+    "sunny",
+    "rainy",
+    "snowy"
+  ],
+  "isAspect": true,
+  "aspectFormat": "{{choice}}"
+}

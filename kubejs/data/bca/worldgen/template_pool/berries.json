@@ -1,0 +1,645 @@
+{
+  "name": "bca:berries",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_4",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_5",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_6",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_7",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_8",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_9",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_10",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_11",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_12",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_13",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_14",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_15",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_16",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_17",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_18",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_19",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_20",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_21",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_22",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_23",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_24",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_25",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_26",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_27",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_28",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_29",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_30",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_31",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_32",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_33",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_34",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_35",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_36",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_37",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_38",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_39",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_40",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_41",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_42",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_45",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_46",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_47",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_48",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_49",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_50",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_51",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_52",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_53",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_54",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_55",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_56",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_57",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_58",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_59",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_60",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_61",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_62",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_63",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_64",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_65",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_66",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_67",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_68",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_69",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_70",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_71",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_72",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:berries/berry_73",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "single_pool_element"
+      }
+    }
+  ]
+}

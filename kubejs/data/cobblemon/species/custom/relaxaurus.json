@@ -1,0 +1,84 @@
+{
+	"implemented": true,
+	"name": "relaxaurus",
+	"labels": [ "custom" ],
+	"primaryType": "dragon",
+	"secondaryType": "water",
+	"abilities": [
+		"gluttony",
+		"waterabsorb",
+		"h:unaware"
+	],
+	"baseStats": {
+		"hp": 110,
+		"attack": 110,
+		"defence": 70,
+		"special_attack": 100,
+		"special_defence": 70,
+		"speed": 65
+	},
+	"catchRate": 45,
+	"maleRatio": 0.5,
+	"shoulderMountable": false,
+	"forms": [],
+	"baseExperienceYield": 200,
+	"experienceGroup": "slow",
+	"eggCycles": 25,
+	"eggGroups": [
+		"water_1",
+		"dragon"
+	],
+	"behaviour": {
+		"moving": {
+			"canLook": true
+		},
+		"swim": {
+			"swimSpeed": 0.8,
+			"canSwimInWater": true,
+			"canBreatheUnderwater": false
+		}
+	},
+	
+	"moves": [
+		"1:dragonbreath",
+		"7:watergun",
+		"15:dragontail",
+		"tm:dragondance",
+		"22:bubblebeam",
+		"30:dragonpulse",
+		"40:aquatail",
+		"tm:breakingswipe",
+		"tm:icefang",
+		"20:stockpile",
+		"20:swallow",
+		"20:spitup",
+		"tm:surf",
+		"tm:bubble",
+		"tm:bodyslam",
+		"tm:dragonenergy",
+		"tm:rest",
+		"tm:bite",
+		"tm:raindance",
+		"100:dragonenergy",
+		"egg:outrage",
+		"egg:hydropump",
+		"egg:icebeam",
+		"50:dracometeor"
+	],
+	"baseScale": 1,
+	"hitbox": {
+		"width": 2.0,
+		"height": 4.0,
+		"fixed": false
+	},
+	"baseFriendship": 30,
+	"evYield": {
+		"hp": 2,
+		"attack": 1
+	},
+	"height": 20,
+	"weight": 700
+
+
+
+}

@@ -46,7 +46,7 @@
  */
 // v2
 global.dimAdder = {
-    'kubejs:tfc_planet': [10, 2, 8],
+    'kubejs:tfc_planet': [10, 0, 6],
 
     'minecraft:the_nether': [20, 14, 15],
 

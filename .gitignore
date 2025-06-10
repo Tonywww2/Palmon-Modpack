@@ -45,3 +45,5 @@ config/packetfixer.properties
 config/oculus.properties
 config/fabric/indigo-renderer.properties
 config/cobblemon/main.json
+servers.dat
+servers.dat_old

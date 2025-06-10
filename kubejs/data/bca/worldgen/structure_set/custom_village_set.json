@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "bca:custom_village",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 48,
+    "separation": 36,
+    "salt": 3121992
+  }
+}

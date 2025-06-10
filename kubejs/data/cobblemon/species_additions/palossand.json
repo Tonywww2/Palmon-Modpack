@@ -1,0 +1,39 @@
+{
+    "target": "cobblemon:palossand",
+    "behaviour": {
+        "resting": {
+            "canSleep": true,
+            "depth": "normal",
+            "light": "0-4"
+        },
+        "moving": {
+            "canLook": false,
+            "walk": {
+                "walkSpeed": 0.175,
+                "canWalk": true,
+                "avoidsLand": false
+            },
+            "swim": {
+                "swimSpeed": 0.1,
+                "canSwimInWater": false,
+                "canBreatheUnderwater": false
+            }
+        }
+    },
+    "forms": [
+        {
+            "name": "redsand",
+            "aspects": [
+                "redsand"
+            ],
+            "preEvolution": "sandygast form=redsand"
+        }
+    ],
+    "baseScale": 1,
+    "hitbox": {
+        "width": 0.4,
+        "height": 0.8,
+        "fixed": false
+    },
+	"features": ["redsand"]
+}

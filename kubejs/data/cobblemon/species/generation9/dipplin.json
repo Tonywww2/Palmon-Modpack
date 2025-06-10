@@ -1,0 +1,131 @@
+{
+  "implemented": true,
+  "name": "Dipplin",
+  "nationalPokedexNumber": 1011,
+  "primaryType": "grass",
+  "secondaryType": "dragon",
+  "abilities": ["supersweetsyrup", "gluttony", "h:stickyhold"],
+  "baseStats": {
+    "hp": 80,
+    "attack": 80,
+    "defence": 110,
+    "special_attack": 95,
+    "special_defence": 80,
+    "speed": 40
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 0,
+  "baseFriendship": 0,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "experienceGroup": "slow",
+  "shoulderMountable": true,
+  "eggCycles": 20,
+  "eggGroups": ["grass", "dragon"],
+  "moves": [
+    "1:astonish",
+    "1:infestation",
+    "1:recycle",
+    "1:sweetscent",
+    "1:withdraw",
+    "4:dragontail",
+    "8:growth",
+    "12:dragonbreath",
+    "16:protect",
+    "20:bulletseed",
+    "28:syrupbomb",
+    "32:dragonpulse",
+    "36:recover",
+    "40:energyball",
+    "44:substitute",
+    "50:dragoncheer",
+    "tm:bodyslam",
+    "tm:bugbite",
+    "tm:bulletseed",
+    "tm:dracometeor",
+    "tm:dragoncheer",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:gyroball",
+    "tm:hyperbeam",
+    "tm:leafstorm",
+    "tm:outrage",
+    "tm:pollenpuff",
+    "tm:pounce",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:terablast"
+  ],
+  "labels": ["gen9"],
+  "baseScale": 0.5,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "aspects": [],
+  "height": 4,
+  "weight": 44,
+  "preEvolution": "applin",
+  "evolutions": [
+    {
+      "id": "dipplin_hydrapple",
+      "variant": "level_up",
+      "result": "hydrapple",
+      "consumeHeldItem": false,
+      "learnableMoves": ["ficklebeam"],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:dragon_breath"
+        }
+      ]
+    }
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4"
+    },
+    "moving": {
+      "canLook": false,
+      "walk": {
+        "walkSpeed": 0.145,
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "cannotDynamax": false,
+  "pokedex": [
+    "Dipplin is two creatures in one Pokémon. Its evolution was triggered by a special apple grown only in one place."
+  ]
+}

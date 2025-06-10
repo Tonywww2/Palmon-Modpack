@@ -1,0 +1,40 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "slowbro-1",
+            "pokemon": "slowbro",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "37-49",
+            "weight": 0.54,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_beach"
+                ]
+            }
+        },
+   {
+     "id": "slowbro-2",
+     "pokemon": "slowbro galarian",
+     "presets": [ "natural" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "rare",
+     "level": "30-50",
+     "weight": 2.0,
+     "condition":  {
+      "biomes": [
+          "minecraft:mangrove_swamp"
+      ]
+  }
+}
+    ]
+}

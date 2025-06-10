@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "screamtail-1",
+            "pokemon": "screamtail",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "40-65",
+            "weight": 3.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_floral"
+                ],
+            "isRaining": true
+            }
+        }
+    ]
+}

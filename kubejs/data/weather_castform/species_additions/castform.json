@@ -1,0 +1,6 @@
+{
+    "target": "cobblemon:castform",
+    "features": [
+        "weather"
+    ]
+}

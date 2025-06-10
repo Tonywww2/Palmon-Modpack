@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "chienpao-1",
+            "pokemon": "chienpao",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "65",
+            "weight": 5,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                ],
+                "timeRange": "night"
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "target": "cobblemon:corsola",
+    "behaviour": {
+        "resting": {
+            "canSleep": true,
+            "depth": "normal",
+            "light": "0-4"
+        },
+        "moving": {
+            "canLook": false,
+            "walk": {
+                "walkSpeed": 0.175,
+                "canWalk": true,
+                "avoidsLand": false
+            },
+            "swim": {
+                "swimSpeed": 0.1,
+                "canSwimInWater": true,
+                "canBreatheUnderwater": true
+            }
+        }
+    },
+    "baseScale": 0.6,
+    "hitbox": {
+        "width": 0.6,
+        "height": 0.6,
+        "fixed": false
+    }
+}

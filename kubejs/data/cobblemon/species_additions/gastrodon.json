@@ -1,0 +1,41 @@
+{
+    "target": "cobblemon:gastrodon",
+    "behaviour": {
+        "resting": {
+            "canSleep": true,
+            "depth": "normal",
+            "light": "0-4"
+        },
+        "moving": {
+            "canLook": false,
+            "walk": {
+				"walkSpeed": 0.200,
+                "canWalk": true,
+                "avoidsLand": false
+            },
+            "swim": {
+                "swimSpeed": 0.1,
+                "canSwimInWater": true,
+                "canBreatheUnderwater": true
+            }
+        }
+    },
+    "forms": [
+        {
+            "name": "west",
+      "aspects": [
+        "west"
+      ],
+  "preEvolution": "shellos form=west"
+        }
+    ],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1,
+    "height": 0.7,
+    "fixed": false
+  },
+	  	  "features": [
+        "west"
+    ]
+}

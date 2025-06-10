@@ -1,0 +1,150 @@
+{
+  "name": "bca:store_workers",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:store_workers/nurse_joy",
+        "element_type":"single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:store_workers/shopkeeper_ds_general",
+        "element_type":"single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:store_workers/shopkeeper_ds_battle_items",
+        "element_type":"single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:store_workers/shopkeeper_ds_vitamins",
+        "element_type":"single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:store_workers/shopkeeper_ds_apricorns",
+        "element_type":"single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:store_workers/shopkeeper_ds_xp",
+        "element_type":"single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:store_workers/shopkeeper_ds_ev-stone",
+        "element_type":"single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:store_workers/shopkeeper_ds_ev-stone_2",
+        "element_type":"single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:store_workers/shopkeeper_ds_held_items",
+        "element_type":"single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:store_workers/shopkeeper_ds_held_items_2",
+        "element_type":"single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:store_workers/shopkeeper_ds_special_balls",
+        "element_type":"single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:store_workers/shopkeeper_ds_mulch",
+        "element_type":"single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:store_workers/shopkeeper_ds_food",
+        "element_type":"single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:store_workers/shopkeeper_ds_tech",
+        "element_type":"single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:store_workers/pokemart_shopkeeper",
+        "element_type":"single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bca:store_workers/general_villager",
+        "element_type":"single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

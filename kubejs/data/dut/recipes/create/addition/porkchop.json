@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:structure_void"
+    },
+    {
+      "item": "minecraft:red_dye"
+    },
+    {
+      "item": "create:dough"
+    },
+    {
+      "fluid": "createaddition:seed_oil",
+      "nbt": {},
+      "amount":125
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:structure_void"
+    },
+    {
+      "item": "minecraft:porkchop",
+      "count":2
+    }
+  ]
+}

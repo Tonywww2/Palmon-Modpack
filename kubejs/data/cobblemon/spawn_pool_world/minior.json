@@ -1,0 +1,147 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "minior-1",
+            "pokemon": "minior core=shielded",
+            "presets": [
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-30",
+            "weight": 5.0,
+            "condition": {
+		"timeRange": "night",
+		"biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "minior-2",
+            "pokemon": "minior core=red",
+            "presets": [
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-30",
+            "weight": 2.35,
+            "condition": {
+		"biomes": [
+                    "#minecraft:is_nether"
+                ]  
+            }
+        },
+        {
+            "id": "minior-3",
+            "pokemon": "minior core=orange",
+            "presets": [
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-30",
+            "weight": 2.35,
+            "condition": {
+                "timeRange": "night",
+                "biomes": [
+                    "#cobblemon:is_savanna"
+                ]
+                
+            }
+        },
+        {
+            "id": "minior-4",
+            "pokemon": "minior core=yellow",
+            "presets": [
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-30",
+            "weight": 2.35,
+            "condition": {
+                "timeRange": "night",
+                "biomes": [
+                    "#cobblemon:is_sandy"
+                ]
+                
+            }
+        },
+        {
+            "id": "minior-5",
+            "pokemon": "minior core=green",
+            "presets": [
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-30",
+            "weight": 2.35,
+            "condition": {
+                "timeRange": "night",
+                "biomes": [
+                    "#cobblemon:is_jungle"
+                ]
+                
+            }
+        },
+        {
+            "id": "minior-6",
+            "pokemon": "minior core=blue",
+            "presets": [
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-30",
+            "weight": 2.35,
+            "condition": {
+                "timeRange": "night",
+                "biomes": [
+                    "#cobblemon:is_freshwater",
+		    "#cobblemon:is_coast"
+                ]
+                
+            }
+        },
+        {
+            "id": "minior-7",
+            "pokemon": "minior core=indigo",
+            "presets": [
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-30",
+            "weight": 2.35,
+            "condition": {
+                "timeRange": "night",
+                "biomes": [
+                    "#cobblemon:is_glacial"
+                ]
+                
+            }
+        },
+        {
+            "id": "minior-8",
+            "pokemon": "minior core=violet",
+            "presets": [
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-30",
+            "weight": 2.35,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end"
+                ]
+            }
+        }
+    ]
+}

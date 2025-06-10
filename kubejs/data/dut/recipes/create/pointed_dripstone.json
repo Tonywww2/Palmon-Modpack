@@ -1,0 +1,17 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "minecraft:calcite"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:pointed_dripstone"
+    },
+    {
+      "item": "minecraft:pointed_dripstone",
+      "chance":0.75
+    }
+  ]
+}

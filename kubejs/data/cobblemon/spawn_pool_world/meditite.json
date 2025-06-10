@@ -1,0 +1,26 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "meditite-1",
+            "pokemon": "meditite",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "8-22",
+            "weight": 2.5,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end"
+
+                ]
+            }
+        }
+    ]
+}

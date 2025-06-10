@@ -1,0 +1,86 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "castform-1",
+            "pokemon": "castform weather=rainy",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "15-65",
+            "weight": 2,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_beach"
+                ],
+                "isRaining": true
+            }
+        },
+        {
+            "id": "castform-2",
+            "pokemon": "castform weather=snowy",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "15-65",
+            "weight": 2,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_freezing"
+                
+                ],
+                "isRaining": true
+
+            }
+        },
+{
+            "id": "castform-3",
+            "pokemon": "castform weather=sunny",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "15-65",
+            "weight": 2,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_arid"
+                
+                ],
+                "timeRange": "day"
+
+            }
+        },
+
+        {
+            "id": "castform-4",
+            "pokemon": "castform",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "15-65",
+            "weight": 2,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_overworld"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "relaxaurus-1",
+      "pokemon": "relaxaurus",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "22-47",
+      "weight": 35.0,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [ "#minecraft:is_forest" ]
+      }
+    },
+    {
+      "id": "relaxaurus-2",
+      "pokemon": "relaxaurus",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "15-32",
+      "weight": 25.0,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_taiga",
+          "minecraft:snowy_plains"
+        ]
+      }
+    }
+  ]
+}

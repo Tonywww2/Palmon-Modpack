@@ -1,0 +1,37 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "amoonguss-1",
+            "pokemon": "amoonguss",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "35-48",
+            "weight": 5.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_mushroom"
+                ]
+            }
+        },
+        {
+            "id": "amoonguss-2",
+            "pokemon": "amoonguss",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "35-48",
+            "weight": 3.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "minecraft:dark_forest"
+                ]
+            }
+        }
+    ]
+}

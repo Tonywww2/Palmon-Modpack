@@ -1,0 +1,42 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "dewpider-1",
+            "pokemon": "dewpider",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-21",
+            "weight": 2.5,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+					"#cobblemon:is_coast",
+					"#cobblemon:is_island"
+                ]
+			}
+		},
+		{
+			"id": "dewpider-2",
+            "pokemon": "dewpider",
+			"presets": [
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "6-21",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_river",
+					"#cobblemon:is_freshwater"
+                ]
+            }
+        }
+    ]
+}

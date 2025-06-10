@@ -1,0 +1,18 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+        {
+        "item": "ae2:certus_quartz_dust"
+        },
+        {
+        "amount": 125,
+        "fluid": "minecraft:water",
+        "nbt": {}
+        }
+    ],
+    "results": [
+        {
+        "item": "ae2:small_quartz_bud"
+        }
+    ]
+}

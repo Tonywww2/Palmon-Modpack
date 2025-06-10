@@ -1,0 +1,22 @@
+{
+  "name": "bca:general_structures",
+  "fallback": "minecraft:empty",
+  "elements": [
+    { "weight": 5, "element": { "location": "bca:general_structures/snug_spruce_retreat", "processors": "minecraft:empty", "projection": "rigid", "element_type": "single_pool_element" } },
+    { "weight": 5, "element": { "location": "bca:general_structures/the_summer_cottage", "processors": "minecraft:empty", "projection": "rigid", "element_type": "single_pool_element" } },
+    { "weight": 5, "element": { "location": "bca:general_structures/berrybush_bungalow", "processors": "minecraft:empty", "projection": "rigid", "element_type": "single_pool_element" } },
+    { "weight": 5, "element": { "location": "bca:general_structures/blossom_balcony", "processors": "minecraft:empty", "projection": "rigid", "element_type": "single_pool_element" } },
+    { "weight": 5, "element": { "location": "bca:general_structures/the_clover_cottage", "processors": "minecraft:empty", "projection": "rigid", "element_type": "single_pool_element" } },
+    { "weight": 5, "element": { "location": "bca:general_structures/the_lanturn_lodge", "processors": "minecraft:empty", "projection": "rigid", "element_type": "single_pool_element" } },
+    { "weight": 5, "element": { "location": "bca:general_structures/the_cozy_cranny", "processors": "minecraft:empty", "projection": "rigid", "element_type": "single_pool_element" } },
+    { "weight": 5, "element": { "location": "bca:general_structures/pebble_roof_manor", "processors": "minecraft:empty", "projection": "rigid", "element_type": "single_pool_element" } },
+    { "weight": 5, "element": { "location": "bca:general_structures/the_miners_den", "processors": "minecraft:empty", "projection": "rigid", "element_type": "single_pool_element" } },
+    { "weight": 1, "element": { "location": "bca:general_structures/the_chimney_loft", "processors": "minecraft:empty", "projection": "rigid", "element_type": "single_pool_element" } },
+    { "weight": 5, "element": { "location": "bca:general_structures/fern_and_flower_cottage", "processors": "minecraft:empty", "projection": "rigid", "element_type": "single_pool_element" } },
+    { "weight": 5, "element": { "location": "bca:general_structures/mossy_meadow_home", "processors": "minecraft:empty", "projection": "rigid", "element_type": "single_pool_element" } },
+    { "weight": 5, "element": { "location": "bca:general_structures/honeycomb_haven_apiary", "processors": "minecraft:empty", "projection": "rigid", "element_type": "single_pool_element" } },
+    { "weight": 5, "element": { "location": "bca:general_structures/the_ivyclad_cottage", "processors": "minecraft:empty", "projection": "rigid", "element_type": "single_pool_element" } },
+    { "weight": 5, "element": { "location": "bca:general_structures/winding_willow_house", "processors": "minecraft:empty", "projection": "rigid", "element_type": "single_pool_element" } },
+    { "weight": 5, "element": { "location": "bca:general_structures/sunflower_shack", "processors": "minecraft:empty", "projection": "rigid", "element_type": "single_pool_element" } }
+  ]
+}

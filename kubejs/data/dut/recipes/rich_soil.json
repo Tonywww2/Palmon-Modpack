@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item":"minecraft:dirt"
+    },
+    {
+      "item":"minecraft:wheat"
+    },
+    {
+      "item":"minecraft:wheat"
+    },
+    {
+      "item":"minecraft:wheat"
+    },
+    {
+      "item":"minecraft:wheat"
+    },
+    {
+      "item":"minecraft:bone_meal"
+    },
+    {
+      "item":"minecraft:bone_meal"
+    },
+    {
+      "item":"minecraft:bone_meal"
+    },
+    {
+      "item":"minecraft:bone_meal"
+    }
+  ],
+  "result": {
+    "item": "farmersdelight:rich_soil",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "createaddition:biomass_pellet"
+    },
+    {
+      "amount": 75,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "createaddition:biomass"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+ "target": "cobblemon:orbeetle",
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 1.4,
+    "height": 1.6,
+    "fixed": false
+  }
+}

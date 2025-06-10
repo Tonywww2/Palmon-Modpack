@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:reuniclus",
+  "implemented": true,
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 1.9,
+    "height": 2.2,
+    "fixed": false
+  }
+}

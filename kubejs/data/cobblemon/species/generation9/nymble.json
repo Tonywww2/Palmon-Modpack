@@ -1,0 +1,119 @@
+{
+  "implemented": true,
+  "name": "nymble",
+  "nationalPokedexNumber": 919,
+  "primaryType": "bug",
+
+  "evolutions": [
+    {
+      "id": "nymble_lokix_level",
+      "variant": "level_up",
+      "result": "lokix",
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 24
+        }
+      ]
+    }
+  ],
+
+  "abilities": ["swarm", "h:tintedlens"],
+  "baseStats": {
+    "hp": 33,
+    "attack": 46,
+    "defence": 40,
+    "special_attack": 21,
+    "special_defence": 25,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "times": "night",
+      "light": "0-7"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "wanderChance": 1
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+
+  "baseExperienceYield": 42,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 20,
+  "eggGroups": ["bug"],
+
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "4:strugglebug",
+    "6:antonish",
+    "9:assurance",
+    "11:doublekick",
+    "14:screech",
+    "18:endure",
+    "22:bugbite",
+    "26:feint",
+    "30:agility",
+    "38:suckerpunch",
+    "41:firstimpression",
+    "egg:counter",
+    "egg:skittersmack",
+    "tm:takedown",
+    "tm:agility",
+    "tm:protect",
+    "tm:strugglebug",
+    "tm:thief",
+    "tm:trailblaze",
+    "tm:pounce",
+    "tm:facade",
+    "tm:endure",
+    "tm:sunnyday",
+    "tm:raindance",
+    "tm:uturn",
+    "tm:sleeptalk",
+    "tm:rest",
+    "tm:leechlife",
+    "tm:substitute",
+    "tm:xscissor",
+    "tm:bugbuzz",
+    "tm:terablast"
+  ],
+  "labels": ["custom"],
+  "pokedex": [
+    "cobblemon.species.nymble.desc1",
+    "cobblemon.species.nymble.desc2"
+  ],
+
+  "baseScale": 0.6,
+  "hitbox": {
+    "width": 0.4,
+    "height": 0.5,
+    "fixed": false
+  },
+  "baseFriendship": 20,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 1.8
+}

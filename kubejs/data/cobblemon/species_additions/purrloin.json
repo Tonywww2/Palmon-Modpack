@@ -1,0 +1,36 @@
+{
+    "implemented": true,
+    "target": "cobblemon:purrloin",   
+    "shoulderMountable": true,
+    "baseScale": 0.7,
+    "hitbox": {
+      "width": 0.6,
+      "height": 0.8,
+      "fixed": false
+    },
+    "drops": {
+    "amount": "3",
+      "entries": [
+        {
+          "item": "minecraft:rotten_flesh",
+          "quantityRange": "0-1"
+        },
+        {
+          "item": "cobblemon:bluk_berry",
+          "percentage": 2.5
+        },
+        {
+          "item": "minecraft:raw_cod",
+          "percentage": 33
+        }
+      ]
+    },
+    "behaviour": {
+      "resting": {
+        "canSleep": true,
+        "willSleepOnBed": true,
+        "depth": "normal",
+        "light": "0-4"
+      }
+    }
+   }

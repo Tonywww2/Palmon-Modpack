@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:gothorita",
+  "implemented": true,
+  "baseScale": 0.55,
+  "hitbox": {
+    "width": 1,
+    "height": 2.15,
+    "fixed": false
+  }
+}

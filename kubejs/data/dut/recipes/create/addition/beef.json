@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:red_dye"
+    },
+    {
+      "item": "minecraft:structure_void"
+    },
+    {
+      "item": "create:dough"
+    },
+    {
+      "fluid": "createaddition:seed_oil",
+      "nbt": {},
+      "amount":100
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:structure_void"
+    },
+    {
+      "item": "minecraft:beef",
+      "count":2
+    }
+  ]
+}

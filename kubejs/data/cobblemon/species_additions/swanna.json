@@ -1,0 +1,24 @@
+{
+ "target": "cobblemon:swanna",
+ "baseScale": 0.7,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+   "behaviour": {
+    "moving": {
+      "swim": {
+        "canWalkOnWater": true,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": true
+      },
+      "walk": {
+        "walkSpeed": 0.4
+      }
+    }
+  }
+  }

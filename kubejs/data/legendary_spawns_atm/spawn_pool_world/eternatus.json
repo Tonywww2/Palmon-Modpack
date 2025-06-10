@@ -1,0 +1,26 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "eternatus-1",
+            "pokemon": "eternatus",
+            "presets": [
+                "natural",
+				"wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "80",
+            "weight": 1.5,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end"
+                ]
+            }
+
+        }
+    ]
+}

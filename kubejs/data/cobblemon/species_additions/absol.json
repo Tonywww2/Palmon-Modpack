@@ -1,0 +1,22 @@
+{
+ "target": "cobblemon:absol",
+	"baseScale": 0.7,
+	"hitbox": {
+		"width": 1.5,
+		"height": 2,
+		"fixed": false
+	  },
+	"behaviour": {
+		"moving": {
+		  "canLook": false,
+		  "walk": {
+			"avoidsLand": false
+		  },
+		  "swim": {
+			"swimSpeed": 0.1,
+			"canSwimInWater": true,
+			"canBreatheUnderwater": false
+		  }
+		}
+	  }
+}

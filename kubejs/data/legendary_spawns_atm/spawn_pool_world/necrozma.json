@@ -1,0 +1,27 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "necrozma",
+            "pokemon": "necrozma",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "70",
+            "weight": 2.3,
+            "condition": {
+                "biomes": [ 
+                  "#minecraft:is_end"
+                   ],
+                   "neededBaseBlocks": [
+                    "minecraft:end_stone"
+                ]
+              }
+        }
+    ]
+}

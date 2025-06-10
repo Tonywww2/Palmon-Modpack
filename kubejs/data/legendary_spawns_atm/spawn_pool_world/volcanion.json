@@ -1,0 +1,28 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+      {
+          "id": "volcanion-1",
+          "pokemon": "volcanion",
+          "presets": [
+              "natural"
+          ],
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "ultra-rare",
+          "canSeeSky":"true",
+          "level": "70",
+          "weight": 5.0,
+          "condition": {
+              "biomes": [
+                  "#cobblemon:is_ocean"
+              ],
+              "neededNearbyBlocks": [
+                "minecraft:lava"
+              ]
+          }
+      }
+  ]
+}

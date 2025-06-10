@@ -1,0 +1,12 @@
+{
+    "target": "cobblemon:eelektrik",
+ "behaviour": {
+    "moving": {
+      "swim": {
+        "swimSpeed": 1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  }
+}

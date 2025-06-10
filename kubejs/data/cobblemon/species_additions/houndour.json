@@ -1,0 +1,10 @@
+{
+ "target": "cobblemon:houndour",
+ "baseScale": 0.4,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  }
+
+  }

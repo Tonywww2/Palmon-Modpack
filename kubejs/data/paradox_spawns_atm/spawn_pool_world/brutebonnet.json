@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "brutebonnet-1",
+      "pokemon": "brutebonnet",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "40-65",
+      "weight": 2.0,
+      "condition": {
+        "biomes": [ "#cobblemon:is_jungle" ]
+      }
+    }
+  ]
+}

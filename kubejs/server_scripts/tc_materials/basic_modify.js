@@ -244,7 +244,7 @@ function basicMaterials(createMaterialBuilder, registerMaterialProcess) {
     // —— 黄铜* ——
     db = 300;
     let brass = createMaterialBuilder('brass')
-        .setCraftable(false).setSortOrder(sortOrder++).setTier(1)
+        .setCraftable(false).setSortOrder(sortOrder++).setTier(1).setNamespace("tcintegrations")
         .addStats()
         .addHead(db, 7, 5, 'minecraft:gold')
         .addHandle(0, -0.1, 0, 0.4)

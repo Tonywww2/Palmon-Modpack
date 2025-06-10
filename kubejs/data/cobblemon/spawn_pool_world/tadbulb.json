@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "tadbulb-1",
+            "pokemon": "tadbulb",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "15-32",
+            "weight": 3.8,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "minecraft:mangrove_swamp"
+                ]
+            }
+        }
+    ]
+}

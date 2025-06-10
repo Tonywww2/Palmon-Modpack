@@ -1,0 +1,83 @@
+{
+	"implemented": true,
+	"name": "relaxauruslux",
+	"labels": [ "custom" ],
+	"primaryType": "dragon",
+	"secondaryType": "electric",
+	"abilities": [
+		"gluttony",
+		"voltabsorb",
+		"h:unaware"
+	],
+	"baseStats": {
+		"hp": 110,
+		"attack": 110,
+		"defence": 75,
+		"special_attack": 110,
+		"special_defence": 75,
+		"speed": 65
+	},
+	"catchRate": 45,
+	"maleRatio": 0.5,
+	"shoulderMountable": false,
+	"forms": [],
+	"baseExperienceYield": 200,
+	"experienceGroup": "slow",
+	"eggCycles": 25,
+	"eggGroups": [
+		"water_1",
+		"dragon"
+	],
+	"behaviour": {
+		"moving": {
+			"canLook": true
+		},
+		"swim": {
+			"swimSpeed": 0.8,
+			"canSwimInWater": true,
+			"canBreatheUnderwater": false
+		}
+	},
+	
+	"moves": [
+		"1:thundershock",
+		"7:dragonbreath",
+		"15:shockwave",
+		"tm:dragondance",
+		"22:doubleshock",
+		"25:stockpile",
+		"25:swallow",
+		"25:spitup",
+		"30:dragonpulse",
+		"40:thunderbolt",
+		"tm:breakingswipe",
+		"tm:thunderfang",
+		"50:thunder",
+		"tm:thunder",
+		"tm:bodyslam",
+		"tm:dragonenergy",
+		"tm:rest",
+		"tm:bite",
+		"egg:outrage",
+		"egg:voltswitch",
+		"egg:nuzzle",
+		"100:dragonenergy",
+		"tm:earthquake"
+	],
+	"baseScale": 1,
+	"hitbox": {
+		"width": 2.0,
+		"height": 4.0,
+		"fixed": false
+	},
+	"baseFriendship": 30,
+	"evYield": {
+		"hp": 2,
+		"attack": 1
+	},
+	"height": 20,
+	"weight": 700
+
+
+
+}

@@ -1,0 +1,48 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:cinder_flour"
+    },
+    {
+      "item": "create:cinder_flour"
+    },
+    {
+      "item": "create:cinder_flour"
+    },
+    {
+      "item": "create:cinder_flour"
+    },
+    {
+      "item": "create:cinder_flour"
+    },
+    {
+      "item": "create:cinder_flour"
+    },
+    {
+      "item": "create:cinder_flour"
+    },
+    {
+      "item": "create:cinder_flour"
+    },
+    {
+      "item": "create:sturdy_sheet"
+    },
+    {
+      "item": "create:sturdy_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item":"thermal:rich_slag"
+    },
+    {
+      "item":"thermal:rich_slag"
+    },
+    {
+      "item":"thermal:rich_slag",
+      "chance":0.25
+    }
+  ],
+  "heatRequirement": "superheated"
+}

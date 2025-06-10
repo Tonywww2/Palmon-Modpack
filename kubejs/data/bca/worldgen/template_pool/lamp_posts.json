@@ -1,0 +1,11 @@
+{
+  "name": "bca:lamp_posts",
+  "fallback": "minecraft:empty",
+  "elements": [
+    { "weight": 1, "element": { "location": "bca:lamp_posts/lamp_post_bench", "processors": "minecraft:empty", "projection": "rigid", "element_type": "single_pool_element" } },
+    { "weight": 1, "element": { "location": "bca:lamp_posts/lamp_post_2", "processors": "minecraft:empty", "projection": "rigid", "element_type": "single_pool_element" } },
+    { "weight": 1, "element": { "location": "bca:lamp_posts/large_lamp_post_3", "processors": "minecraft:empty", "projection": "rigid", "element_type": "single_pool_element" } },
+    { "weight": 1, "element": { "location": "bca:lamp_posts/lamp_post_4", "processors": "minecraft:empty", "projection": "rigid", "element_type": "single_pool_element" } },
+    { "weight": 1, "element": { "location": "bca:lamp_posts/lamp_post_5", "processors": "minecraft:empty", "projection": "rigid", "element_type": "single_pool_element" } }
+  ]
+}

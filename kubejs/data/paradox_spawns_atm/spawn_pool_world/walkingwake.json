@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "walkingwake-1",
+            "pokemon": "walkingwake",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "60-75",
+            "weight": 4.5,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_mountain"
+                ],
+            "isRaining": true
+            }
+        }
+    ]
+}

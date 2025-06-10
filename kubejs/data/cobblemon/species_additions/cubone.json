@@ -1,0 +1,43 @@
+{
+    "target": "cobblemon:cubone",
+  "evolutions": [
+    {
+      "id": "cubone_marowak",
+      "variant": "level_up",
+      "result": "marowak",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 28
+        }
+      ]
+    },
+    {
+      "id": "cubone_marowak_alolan",
+      "variant": "level_up",
+      "result": "marowak alolan",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "shadowbone"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 28
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ]
+    }
+  ],
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 0.5,
+    "height": 0.8,
+    "fixed": false
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+        {
+        "item": "minecraft:cobblestone"
+        },
+        {
+        "amount": 150,
+        "fluid": "minecraft:lava",
+        "nbt": {}
+        }
+    ],
+    "results": [
+        {
+        "item": "minecraft:netherrack"
+        }
+    ]
+}

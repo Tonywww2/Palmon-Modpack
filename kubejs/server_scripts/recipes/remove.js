@@ -7,7 +7,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'quark:building/crafting/furnaces/deepslate_furnace' })
     event.remove({ id: 'nethersdelight:blackstone_furnace' })
     event.remove({ id: 'quark:building/crafting/furnaces/blackstone_furnace' })
-    event.remove({ id: 'palmon:crafting/shapeless/empty_contract' })
     event.remove({ id: 'palmon:crafting/shaped/processing_station' })
     event.remove({ id: 'palmon:crafting/shaped/production_machine' })
     event.remove({ id: 'ad_astra:nasa_workbench' })
@@ -218,6 +217,11 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'ae2things:cells/disk_drive_4k' })
     event.remove({ id: 'ae2things:cells/disk_drive_1k' })
     event.remove({ id: 'ae2things:cells/disk_housing' })
+    
+    event.remove({ id: 'techreborn:crafting_table/machine/iron_furnace' })
+    event.remove({ id: 'forestry:ingot_bronze_alloying' })
+    event.remove({ id: 'tfc:crafting/blast_furnace' })
+    event.remove({ id: 'tfc:crafting/bloomery' })
 
     // s7
     event.remove({ id: 'avaritia:sculk_crafting_table' })
@@ -255,6 +259,9 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'nuclearcraft:irradiator/ingots_platinum' })
     event.remove({ id: 'mekanism_extras:naquadah_reactor/controller' })
     event.remove({ id: 'nuclearcraft:chamber_terminal' })
+
+    event.remove({ id: 'mekanismgenerators:reactor/controller' })
+    event.remove({ id: 'mekanismgenerators:reactor/frame' })
 
     event.remove({ output: 'techreborn:advanced_alloy_ingot', not: { type: 'minecraft:crafting_shapeless' } })
     event.remove({ output: 'draconicevolution:awakened_draconium_ingot', not: { type: 'minecraft:crafting_shapeless' } })

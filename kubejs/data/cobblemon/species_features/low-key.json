@@ -1,0 +1,6 @@
+{
+  "keys": ["low-key"],
+  "type": "flag",
+  "isAspect": true,
+  "default": false
+}

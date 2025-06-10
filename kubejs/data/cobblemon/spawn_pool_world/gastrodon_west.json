@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "gastrodon-west",
+            "pokemon": "gastrodon west=true",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "30-40",
+            "weight": 4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#minecraft:is_beach"
+                ]
+            }
+        }
+    ]
+}

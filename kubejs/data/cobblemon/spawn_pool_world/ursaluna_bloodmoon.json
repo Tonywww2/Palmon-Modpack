@@ -1,0 +1,26 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "ursaluna-3",
+            "pokemon": "ursaluna bloodmoon",
+            "presets": [
+                "natural",
+				"wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "50-65",
+            "weight": 0.5,
+            "condition": {
+                "biomes": [
+                    "minecraft:dark_forest"
+                ],
+                "timeRange": "night"
+            }
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item":"minecraft:coarse_dirt"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:dirt",
+      "count":1
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+    "implemented": true,
+    "target": "cobblemon:espurr",   
+    "shoulderMountable": true,
+    "baseScale": 0.7,
+    "hitbox": {
+      "width": 0.4,
+      "height": 0.7,
+      "fixed": false
+    },
+    "drops": {
+    "amount": "2",
+      "entries": [
+        {
+          "item": "minecraft:ender_pearl",
+          "quantityRange": "0-1",
+          "percentage": 33
+        },
+        {
+          "item": "cobblemon:colbur_berry",
+          "percentage": 2.5
+        }
+  
+      ]
+    },
+    "behaviour": {
+      "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,
+        "depth": "normal",
+        "light": "0-4"
+      }
+    }
+   }

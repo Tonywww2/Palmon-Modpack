@@ -1,0 +1,28 @@
+{
+    "target": "cobblemon:veluza",
+    "baseScale": 1.0,
+    "hitbox": {
+        "width": 0.5,
+        "height": 1.0,
+        "fixed": false
+    },
+	    "behaviour": {
+        "resting": {
+            "canSleep": false,
+            "depth": "normal",
+            "light": "0-4"
+        },
+        "moving": {
+            "canLook": false,
+            "walk": {
+                "canWalk": true,
+                "avoidsLand": true
+            },
+            "swim": {
+                "swimSpeed": 0.12,
+                "canSwimInWater": true,
+                "canBreatheUnderwater": true
+            }
+        }
+    }
+}

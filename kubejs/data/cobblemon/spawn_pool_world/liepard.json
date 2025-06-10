@@ -1,0 +1,36 @@
+{
+
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+        "id": "liepard-1",
+        "pokemon": "liepard",
+        "presets": [                
+            "natural"
+        ],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "uncommon",
+        "level": "20-55",
+        "weight": 8.0,
+        "weightMultiplier": {
+            "multiplier": 1.5,
+            "condition": {
+                "timeRange": "night"
+            }
+        },
+        "condition": {
+            "canSeeSky": true,
+            "biomes": [
+                "#cobblemon:is_desert",
+                "#cobblemon:is_savanna",
+                "#cobblemon:is_jungle"
+            ],
+            "isRaining": false
+        }
+
+      }
+    ]
+}

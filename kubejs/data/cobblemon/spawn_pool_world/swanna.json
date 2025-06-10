@@ -1,0 +1,26 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "swanna-1",
+            "pokemon": "swanna",
+            "presets": [
+               "freshwater"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "14-32",
+            "weight": 1,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_river"
+                ],
+                "timeRange": "day"
+            }
+      	  }
+		  ]
+}

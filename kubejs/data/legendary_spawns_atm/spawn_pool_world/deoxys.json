@@ -1,0 +1,28 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deoxys-1",
+      "pokemon": "deoxys",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 3.0,
+      "condition": {
+        "biomes": [ 
+          "#minecraft:is_end"
+           ],
+           "neededBaseBlocks": [
+            "minecraft:end_stone"
+        ]
+      }
+    }
+  ]
+}
+ 

@@ -1,0 +1,33 @@
+{
+    "name": "bca:fallback",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 5,
+        "element": {
+          "location": "bca:one_off/pokecenter",
+          "element_type": "single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "bca:one_off/structure_pokemart",
+          "element_type": "single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "bca:one_off/one_off_small_battlepad",
+          "element_type": "single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      }          
+    ]
+  }

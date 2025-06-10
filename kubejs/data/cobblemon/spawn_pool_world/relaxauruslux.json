@@ -1,0 +1,38 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "relaxauruslux-1",
+      "pokemon": "relaxauruslux",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "22-57",
+      "weight": 35.0,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [ "#cobblemon:is_savanna",
+		    "#cobblemon:is_plains" 
+	]
+      }
+    },
+    {
+      "id": "relaxauruslux-2",
+      "pokemon": "relaxauruslux",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "15-32",
+      "weight": 75.0,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_taiga",
+          "minecraft:snowy_plains"
+        ]
+      }
+    }
+  ]
+}

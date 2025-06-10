@@ -1,0 +1,8 @@
+{ "values": [
+	"minecraft:beach",
+	"minecraft:river",
+	{
+		"id": "terralith:warm_river",
+		"required": false
+	}
+]}

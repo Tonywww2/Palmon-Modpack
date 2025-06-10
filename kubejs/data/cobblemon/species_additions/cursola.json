@@ -1,0 +1,26 @@
+{
+    "target": "cobblemon:cursola",
+  	"behaviour": {
+    "moving": {
+      "canLook": false,
+		"walk": {
+			"walkSpeed": 0.200,
+            "canWalk": true,
+            "avoidsLand": false
+				},
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
+    "preEvolution": "corsola form=galar",
+  "evolutions": [],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  }
+}
