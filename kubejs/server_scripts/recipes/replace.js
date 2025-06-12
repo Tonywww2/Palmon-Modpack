@@ -49,6 +49,13 @@ ServerEvents.recipes(event => {
     )
 
     event.replaceInput([
+        { id: 'constructionwand:core_destruction'}
+    ],
+        'minecraft:diamond_pickaxe',
+        'kubejs:end_steel'
+    )
+
+    event.replaceInput([
         { id: 'packagedavaritia:extreme_crafter_ae'}
     ],
         'minecraft:hopper',

@@ -28,6 +28,17 @@ ServerEvents.recipes(event => {
       B: 'minecraft:chiseled_stone_bricks'
     }).id('kubejs:block_gilded_portal_s3')
 
+  event.shaped('immersiveengineering:wirecutter', [
+    'C C',
+    ' A ',
+    'B B'
+  ],
+    {
+      A: 'kubejs:present_alloy',
+      B: '#forge:rods',
+      C: 'create:andesite_alloy'
+    }).id('kubejs:wirecutter_s3')
+
   event.shaped('immersiveengineering:hammer', [
     ' AC',
     ' BA',

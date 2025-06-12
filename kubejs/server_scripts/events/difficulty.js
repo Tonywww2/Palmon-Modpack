@@ -70,10 +70,10 @@ global.dimMuti = {
 
     'minecraft:the_nether': [2.5, 0.7, 1.35],
 
-    'minecraft:overworld': [7, 1, 1.75],
-    'dimdungeons:dungeon_dimension': [10, 1.4, 2.25],
-    'ad_astra:moon': [9, 1.35, 2.0],
-    'oceanworld:deepsea': [9, 1.35, 2.0],
+    'minecraft:overworld': [7, 1, 1.35],
+    'dimdungeons:dungeon_dimension': [10, 1.4, 1.75],
+    'ad_astra:moon': [9, 1.35, 1.5],
+    'oceanworld:deepsea': [9, 1.35, 1.5],
 
     'ad_astra:mars': [13, 1.6, 2.65],
     'ad_astra:venus': [15, 2, 2.75],

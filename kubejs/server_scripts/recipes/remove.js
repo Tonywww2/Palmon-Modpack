@@ -223,6 +223,10 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'tfc:crafting/blast_furnace' })
     event.remove({ id: 'tfc:crafting/bloomery' })
     event.remove({ id: 'thermal:machines/press/unpacking/press_wheat_unpacking' })
+    event.remove({ id: 'sakura:lumber_bamboo' })
+    event.remove({ id: 'sakura:papers_from_lumbers' })
+    
+    event.remove({ id: 'nuclearcraft:alloy_smelter' })
 
     // s7
     event.remove({ id: 'avaritia:sculk_crafting_table' })
@@ -272,6 +276,8 @@ ServerEvents.recipes(event => {
 
     event.remove({ type: 'minecraft:crafting_shaped', output: '#forge:gears' })
     event.remove({ type: 'minecraft:crafting_shapeless', input: 'embers:tinker_hammer' })
+
+    event.remove({ type: 'tconstruct:melting', input: '#forge:gears' })
 
 })
 

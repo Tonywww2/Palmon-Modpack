@@ -20,7 +20,7 @@
   // - removal_type: excess mob removal
   // - mobs: per-mob limits
   "world_limits": {
-    "enabled": true,
+    "enabled": false,
     "total": 500,
     "removal_type": "despawn",
     "mobs": {}
@@ -35,7 +35,7 @@
     "enabled": true,
     "removal_type": "despawn",
     "default": {
-      "limit": 20
+      "limit": 200
     },
     "mobs": {
       "aqua_creepers:aqua_creeper": 2

@@ -117,11 +117,15 @@ ServerEvents.tags('item', event => {
         'immersiveengineering:toolbox'
     )
 
+    event.add('ae2:growth_acceleratable',
+        '#cobblemon:berries'
+    )
+
 })
 
 ServerEvents.tags('fluid', event => {
-    event.add('ae2:growth_acceleratable',
-        '#cobblemon:berries'
+    event.add('tfc:usable_in_barrel',
+        'ad_astra:fuel'
     )
 
 })

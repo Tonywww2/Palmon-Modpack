@@ -24,4 +24,17 @@ function s3NC(event) {
             E: 'nuclearcraft:coil_copper'
         }).id('kubejs:nc_manufactory_s3')
 
+    event.shaped('nuclearcraft:alloy_smelter', [
+        'ACA',
+        'BDB',
+        'AEA'
+    ],
+        {
+            A: '#forge:ingots/lead',
+            B: '#forge:ingots/brick',
+            C: '#forge:dusts/redstone',
+            D: 'minecraft:blast_furnace',
+            E: 'nuclearcraft:coil_copper'
+        }).id('kubejs:nc_alloy_smelter_s3')
+
 }

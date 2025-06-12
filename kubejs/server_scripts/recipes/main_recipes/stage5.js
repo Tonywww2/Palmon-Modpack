@@ -28,6 +28,19 @@ ServerEvents.recipes(event => {
             B: 'kubejs:reinforced_sheet'
         }).id('kubejs:chunky_cheese_token_s5')
 
+    event.shaped('nuclearcraft:alloy_smelter', [
+        'ACA',
+        'BDB',
+        'AEA'
+    ],
+        {
+            A: '#forge:ingots/lead',
+            B: 'kubejs:end_steel',
+            C: '#forge:dusts/redstone',
+            D: 'minecraft:blast_furnace',
+            E: 'nuclearcraft:coil_copper'
+        }).id('kubejs:nc_alloy_smelter_s5')
+
     event.shaped('nuclearcraft:manufactory', [
         'ACA',
         'BDB',

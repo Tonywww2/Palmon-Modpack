@@ -117,6 +117,8 @@ ServerEvents.loaded(event => {
         savePackData(jsonData)
 
         server.scheduleInTicks(10, () => server.runCommandSilent("reload"))
+        // mohist 特供
+        server.scheduleInTicks(10, () => server.runCommandSilent("minecraft:reload"))
 
     } else {
         console.log("[ROUGELIKE RECIPES] Seeds matched")

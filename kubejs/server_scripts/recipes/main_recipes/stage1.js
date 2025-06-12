@@ -24,10 +24,12 @@ ServerEvents.recipes(event => {
     event.shapeless('4x thermal:signalum_coin', ['thermal:enderium_coin']).id('kubejs:enderium_to_signalum_coin_s1')
     event.shapeless('palmon:stone', ['2x tfc:rock/smooth/granite', '2x tfc:rock/smooth/diorite', '2x tfc:rock/smooth/andesite', '2x tfc:rock/smooth/dacite']).id('kubejs:palmon_stone_s1')
 
-    event.shapeless('minecraft:crafting_table',['#tfc:workbenches']).id('kubejs:crafting_table_shapeless_s1')
+    event.shapeless('minecraft:crafting_table', ['#tfc:workbenches']).id('kubejs:crafting_table_shapeless_s1')
 
-    event.shapeless('minecraft:glass',['4x #forge:glass_panes']).id('kubejs:glass_s1')
-    event.shapeless('tfc:papyrus',['2x #forge:rods/wooden', 'tfc:food/sugarcane']).id('kubejs:papyrus_s1')
+    event.shapeless('minecraft:glass', ['4x #forge:glass_panes']).id('kubejs:glass_s1')
+    event.shapeless('tfc:papyrus', ['2x #forge:rods/wooden', 'tfc:food/sugarcane']).id('kubejs:papyrus_s1')
+    event.shapeless('sakura:lumber_bamboo', ['2x #forge:bamboo']).id('kubejs:lumber_bamboo_s1')
+    event.shapeless('minecraft:paper', ['6x sakura:lumber_bamboo']).id('kubejs:bamboo_paper_s1')
 
     event.stonecutting('minecraft:crafting_table', ['#minecraft:logs']).id('kubejs:crafting_table_stonecutting_s1')
     event.smelting('minecraft:dried_kelp', ['tfc:plant/winged_kelp', 'tfc:plant/leafy_kelp'], 200, 10).id('kubejs:kelp_s1')
@@ -154,9 +156,33 @@ ServerEvents.recipes(event => {
         .id('kubejs:creosote_s1')
 
     event.recipes.tfc.barrel_sealed(4800)
+        .outputItem('tfc:powder/lime')
         .outputFluid(Fluid.of('ad_astra:fuel', 1000))
         .inputs('32x #forge:dusts/redstone', TFC.fluidStackIngredient('immersiveengineering:creosote', 2000))
         .id('kubejs:fuel_s1')
+
+    event.recipes.tfc.barrel_sealed(4800)
+        .outputItem('cobblemon:red_apricorn_seed')
+        .inputs('#forge:fruits/apple', TFC.fluidStackIngredient('tfc:limewater', 1000))
+        .id('kubejs:red_apricorn_seed_1_s1')
+
+    event.recipes.tfc.barrel_sealed(4800)
+        .outputItem('cobblemon:red_apricorn_seed')
+        .inputs('#forge:berries', TFC.fluidStackIngredient('tfc:limewater', 1000))
+        .id('kubejs:red_apricorn_seed_2_s1')
+
+    event.recipes.tfc.barrel_sealed(2400)
+        .outputItem('tfc:ore/graphite')
+        .inputs('#forge:coal', TFC.fluidStackIngredient('minecraft:water', 150))
+        .id('kubejs:graphite_s1')
+
+    event.recipes.tfc.pot(['cobblemon:medicinal_leek', 'cobblemon:medicinal_leek', 'cobblemon:medicinal_leek', 'cobblemon:medicinal_leek'], Fluid.of('minecraft:water', 1000), 200, 500)
+        .outputs(['cobblemon:potion', 'cobblemon:potion'], Fluid.of('minecraft:water', 0))
+        .id('kubejs:medicinal_leek_potion_s1')
+
+    event.recipes.tfc.pot(['cobblemon:potion', 'cobblemon:medicinal_leek', 'cobblemon:medicinal_leek', 'cobblemon:medicinal_leek', 'cobblemon:medicinal_leek'], Fluid.of('minecraft:water', 1000), 200, 500)
+        .outputs(['cobblemon:ether', 'cobblemon:ether', 'cobblemon:ether'], Fluid.of('minecraft:water', 0))
+        .id('kubejs:ether_potion_g')
 
     event.shaped('palmon:working_station', [
         'AAA',
