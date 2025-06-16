@@ -15,7 +15,7 @@ global.hurtEvent = function (event) {
         let damage = event.getAmount()
         if (event.source.player) {
             // entity.tell("Source Player Damage: " + damage)
-            damage *= 0.25
+            damage *= 0.5
             // entity.tell("After Damage: " + damage)
 
         } else {
@@ -27,9 +27,6 @@ global.hurtEvent = function (event) {
         event.setAmount(damage)
 
     }
-
-    // let d = 20
-    // console.log(d * $ALCombatRules.getArmorDamageReduction(d, 26.3, 12))
 
 }
 

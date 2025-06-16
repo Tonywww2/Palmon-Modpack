@@ -148,7 +148,7 @@ ServerEvents.tags('fluid', event => {
     )
 
     event.add('forge:molten_bismuth',
-        'techreborn:helium'
+        'tfc:metal/bismuth'
     )
 
     event.remove('minecraft:water',

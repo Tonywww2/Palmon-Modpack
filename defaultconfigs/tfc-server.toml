@@ -750,14 +750,14 @@ familiarityDecayLimit = 0.3
 		# Setting this to zero will cause decay not to apply.
 		# Note that if you set this to zero **food items will lose their creation dates!!**. This is not reversible!
 		#Range: 0.0 ~ 1000.0
-		foodDecayModifier = 0.75
+		foodDecayModifier = 0.0
 		#
 		# Enables negative effects from carrying too many very heavy items, including potion effects.
 		enableOverburdening = true
 		#
 		# A multiplier for the minimum health that the player will obtain, based on their nutrition
 		#Range: 0.001 ~ 1000.0
-		nutritionMinimumHealthModifier = 0.4
+		nutritionMinimumHealthModifier = 0.6
 		#
 		# A multiplier for the default health that the player will have (this is at a average nutrition of 40%, aka the starting nutrition.
 		# Nutrition above this value will linearly scale to the maximum multiplier.

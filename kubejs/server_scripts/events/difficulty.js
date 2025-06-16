@@ -1,60 +1,36 @@
 /**
  * hp, armor, attack
  */
-// v1
-// global.dimAdder = {
-//     'kubejs:tfc_planet': [10, 2, 0],
-
-//     'minecraft:the_nether': [20, 14, 0],
-
-//     'minecraft:overworld': [40, 20, 0],
-//     'dimdungeons:dungeon_dimension': [60, 35, 0],
-//     'ad_astra:moon': [50, 30, 0],
-
-//     'ad_astra:mars': [80, 60, 0],
-//     'ad_astra:venus': [100, 80, 0],
-//     'ad_astra:mercury': [110, 90, 0],
-
-//     'minecraft:the_end': [140, 100, 10],
-//     'deeperdarker:otherside': [180, 120, 10],
-
-//     'rats:ratlantis': [240, 150, 10]
-// }
-
-// global.dimMuti = {
-//     'kubejs:tfc_planet': [1, 0.5, 1],
-
-//     'minecraft:the_nether': [2.5, 0.7, 1],
-
-//     'minecraft:overworld': [6, 1, 1],
-//     'dimdungeons:dungeon_dimension': [8, 1.4, 1],
-//     'ad_astra:moon': [7, 1.35, 1],
-//     'oceanworld:deepsea': [7, 1.35, 1],
-
-//     'ad_astra:mars': [9, 1.6, 1],
-//     'ad_astra:venus': [11, 2, 1],
-//     'ad_astra:mercury': [12, 2.1, 1],
-
-//     'minecraft:the_end': [14, 2.5, 1],
-//     'deeperdarker:otherside': [17, 3, 1],
-
-//     'rats:ratlantis': [21, 3.5, 1]
-// }
-
-/**
- * hp, armor, attack
- */
 // TODO 二测修改维度
 // v2
+// global.dimAdder = {
+//     'kubejs:tfc_planet': [10, 0, 6],
+
+//     'minecraft:the_nether': [20, 14, 15],
+
+//     'minecraft:overworld': [40, 20, 24],
+//     'dimdungeons:dungeon_dimension': [60, 35, 36],
+//     'ad_astra:moon': [50, 30, 28],
+//     'oceanworld:deepsea': [50, 30, 28],
+
+//     'ad_astra:mars': [80, 60, 36],
+//     'ad_astra:venus': [100, 80, 42],
+//     'ad_astra:mercury': [110, 90, 44],
+
+//     'minecraft:the_end': [140, 100, 52],
+//     'deeperdarker:otherside': [180, 120, 64],
+
+//     'rats:ratlantis': [240, 150, 72]
+// }
 global.dimAdder = {
-    'kubejs:tfc_planet': [10, 0, 6],
+    'kubejs:tfc_planet': [10, 0, 4],
 
-    'minecraft:the_nether': [20, 14, 15],
+    'minecraft:the_nether': [20, 14, 11],
 
-    'minecraft:overworld': [40, 20, 36],
-    'dimdungeons:dungeon_dimension': [60, 35, 36],
-    'ad_astra:moon': [50, 30, 36],
-    'oceanworld:deepsea': [50, 30, 36],
+    'minecraft:overworld': [40, 20, 16],
+    'dimdungeons:dungeon_dimension': [60, 35, 24],
+    'ad_astra:moon': [50, 30, 18],
+    'oceanworld:deepsea': [50, 30, 18],
 
     'ad_astra:mars': [80, 60, 36],
     'ad_astra:venus': [100, 80, 42],
@@ -68,12 +44,12 @@ global.dimAdder = {
 global.dimMuti = {
     'kubejs:tfc_planet': [1, 0.5, 0.8],
 
-    'minecraft:the_nether': [2.5, 0.7, 1.35],
+    'minecraft:the_nether': [2.5, 0.7, 1.2],
 
-    'minecraft:overworld': [7, 1, 1.35],
-    'dimdungeons:dungeon_dimension': [10, 1.4, 1.75],
-    'ad_astra:moon': [9, 1.35, 1.5],
-    'oceanworld:deepsea': [9, 1.35, 1.5],
+    'minecraft:overworld': [7, 1, 1.4],
+    'dimdungeons:dungeon_dimension': [10, 1.4, 2.00],
+    'ad_astra:moon': [9, 1.35, 1.75],
+    'oceanworld:deepsea': [9, 1.35, 1.75],
 
     'ad_astra:mars': [13, 1.6, 2.65],
     'ad_astra:venus': [15, 2, 2.75],

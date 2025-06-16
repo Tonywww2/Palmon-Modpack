@@ -31,6 +31,8 @@ ServerEvents.recipes(event => {
     event.shapeless('sakura:lumber_bamboo', ['2x #forge:bamboo']).id('kubejs:lumber_bamboo_s1')
     event.shapeless('minecraft:paper', ['6x sakura:lumber_bamboo']).id('kubejs:bamboo_paper_s1')
 
+    event.shapeless('minecraft:composter', ['tfc:composter']).id('kubejs:composter_s1')
+
     event.stonecutting('minecraft:crafting_table', ['#minecraft:logs']).id('kubejs:crafting_table_stonecutting_s1')
     event.smelting('minecraft:dried_kelp', ['tfc:plant/winged_kelp', 'tfc:plant/leafy_kelp'], 200, 10).id('kubejs:kelp_s1')
     event.smithing('mekanism:configurator', '#forge:gems/lapis', 'thermal:wrench', '#forge:plates/steel').id('kubejs:configurator_s1')

@@ -242,17 +242,6 @@
         "value": 1024
       }
     },
-    "celestial_core:arrow_speed": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "tacz:tacz.bullet_resistance": {
       "enabled": false,
       "min": {
@@ -440,17 +429,6 @@
         "value": 100
       }
     },
-    "celestial_core:armor_penetration": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
-      }
-    },
     "forge:block_reach": {
       "enabled": false,
       "min": {
@@ -537,17 +515,6 @@
       "max": {
         "default": 1024,
         "value": 1024
-      }
-    },
-    "celestial_core:arrow_knock": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 64,
-        "value": 64
       }
     },
     "pasterdream:meltdreamenergy": {
@@ -713,17 +680,6 @@
       "max": {
         "default": 10,
         "value": 10
-      }
-    },
-    "celestial_core:regen_rate": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 64,
-        "value": 64
       }
     },
     "minecraft:horse.jump_strength": {
@@ -1032,17 +988,6 @@
       "max": {
         "default": 100000,
         "value": 100000
-      }
-    },
-    "celestial_core:toughness_penetration": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
       }
     },
     "obscure_api:healing_power": {

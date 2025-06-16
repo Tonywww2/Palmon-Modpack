@@ -20,11 +20,17 @@
     "minecraft:the_end": true
   },
   "entities": {
-    "fromanotherworld:starship": false,
+    "minecraft:wither": false,
+    "minecraft:wither_skull": false,
     "minecraft:player": false,
     "minecraft:arrow": false,
     "create": false,
-    "minecraft:ender_dragon": false
+    "minecraft:ender_dragon": false,
+    "tfc": false,
+    "cobblemon": true,
+    "minecraft:wither_skeleton": false,
+    "distantfriends:friend": false,
+    "occultism": false
   },
   "version": 2,
   "name": "immersive_optimization"

@@ -29,7 +29,10 @@ ServerEvents.recipes(event => {
         { "amount": 7, "tag": "forge:molten_iron" }, 500, 10, 'kubejs:tc_melting_limonite')
     tcMelting({ "item": 'tfc:powder/hematite' },
         { "amount": 7, "tag": "forge:molten_iron" }, 500, 10, 'kubejs:tc_melting_hematite')
-            
+
+    tcMelting({ "item": 'tfc:powder/bismuth' },
+        { "amount": 90, "tag": "forge:bismuth" }, 500, 10, 'kubejs:tc_melting_garnierite')
+
     tcMelting({ "tag": 'forge:ingots/black_bronze' },
         { "amount": 100, "tag": "tfc:black_bronze" }, 500, 100, 'kubejs:tc_melting_black_bronze')
     tcMelting({ "tag": 'forge:ingots/bismuth_bronze' },
@@ -77,7 +80,7 @@ ServerEvents.recipes(event => {
         { "amount": 90, "tag": "tfc:blue_steel" }, 800, 'kubejs:tc_alloy_blue_steel')
 
     // nice tfc, you units are not unified. 2025/03/12
-    tcTFCCastPureIngot({ "amount": 100, "tag": "tfc:bismuth" }, 'tfc:metal/ingot/bismuth')
+    tcTFCCastPureIngot({ "amount": 90, "tag": "tfc:bismuth" }, 'tfc:metal/ingot/bismuth')
 
     tcTFCCastIngot('sterling_silver')
     tcTFCCastIngot('black_bronze')

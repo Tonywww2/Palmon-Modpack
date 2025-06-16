@@ -296,9 +296,8 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         .addDefaultTrait(1, 'tconstruct:swiftstrike')
         .addDefaultTrait(1, 'tinkers_advanced:proto_refining')
         .addDefaultTrait(1, 'tinkers_things:fortified')
-        .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:shield_of_the_deep')
         .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:boundless')
-        .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:ars_nouveau')
+        .addPerStatTrait('tconstruct:armor', 2, 'tcintegrations:ars_nouveau')
         .build();
     registerMaterialProcess({
         fluid: 'kubejs:melted_aether_ingot',

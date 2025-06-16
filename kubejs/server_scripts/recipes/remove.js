@@ -227,6 +227,18 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'sakura:papers_from_lumbers' })
     
     event.remove({ id: 'nuclearcraft:alloy_smelter' })
+    event.remove({ id: 'dustandash:crafting/iron_nugget' })
+    event.remove({ id: 'tconstruct:smeltery/casting/metal/iron/nugget_sand_cast' })
+    event.remove({ id: 'tconstruct:smeltery/casting/metal/iron/nugget_gold_cast' })
+    event.remove({ id: 'create:splashing/gravel' })
+    event.remove({ id: 'cookingforblockheads:sink' })
+    event.remove({ id: 'jaopca:thermal_expansion.material_to_plate.cast_iron' })
+    event.remove({ id: 'tconstruct:smeltery/melting/metal/iron/nugget_3' })
+    event.remove({ id: 'tconstruct:smeltery/melting/metal/gold/powered_rail' })
+    event.remove({ id: 'tconstruct:smeltery/melting/metal/iron/ingot_1' })
+    event.remove({ id: 'nuclearcraft:manufactory/ender_pearl' })
+    event.remove({ id: 'jaopca:thermal_expansion.material_to_gear.cast_iron' })
+    event.remove({ id: 'jaopca:thermal_expansion.material_to_storage_block.cast_iron' })
 
     // s7
     event.remove({ id: 'avaritia:sculk_crafting_table' })

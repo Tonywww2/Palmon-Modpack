@@ -18,6 +18,17 @@ ServerEvents.recipes(event => {
     'forestry:apiary'
   )
 
+  event.shaped('minecraft:enchanting_table', [
+    ' A ',
+    'BCB',
+    'CCC'
+  ],
+    {
+      A: 'minecraft:book',
+      B: 'kubejs:stable_desh_ingot',
+      C: '#forge:obsidian'
+    }).id('kubejs:enchanting_table_s3')
+
   event.shaped('dimdungeons:block_gilded_portal', [
     ' A ',
     'ABA',
@@ -72,9 +83,14 @@ ServerEvents.recipes(event => {
     .id('kubejs:andesite_alloy_s3')
 
   event.recipes.thermal.smelter('2x kubejs:stable_desh_ingot',
-    ['2x #forge:plates/desh', 'kubejs:present_alloy', 'celestial_core:ocean_ingot']
+    ['2x #forge:plates/desh', 'kubejs:present_alloy', '#forge:gems/prismarine']
   ).energy(12800)
     .id('kubejs:stable_desh_ingot_s3')
+
+  event.recipes.thermal.smelter('tfc:ceramic/fire_brick',
+    ['12x tfc:kaolin_clay', '4x #forge:dusts/graphite', '#forge:clay']
+  ).energy(19200)
+    .id('kubejs:fire_brick_s3')
 
   event.custom({
     "type": "malum:spirit_infusion",

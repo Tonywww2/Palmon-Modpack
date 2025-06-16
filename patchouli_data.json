@@ -137,7 +137,11 @@
     },
     "umapyoi:trainers_manual": {
       "viewedEntries": [
-        "umapyoi:prologue/prologue"
+        "umapyoi:prologue/prologue",
+        "umapyoi:inherit/wish",
+        "umapyoi:training/status",
+        "umapyoi:inherit/inherit",
+        "umapyoi:inherit/register_table"
       ],
       "bookmarks": [],
       "completedManualQuests": []

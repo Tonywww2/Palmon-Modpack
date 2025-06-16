@@ -11,7 +11,7 @@
   "vanilla_despawn": {
     "mode": "vanilla",
     "min_distance": 32.0,
-    "max_distance": 128.0
+    "max_distance": 192.0
   },
 
   // World limits:
@@ -35,10 +35,10 @@
     "enabled": true,
     "removal_type": "despawn",
     "default": {
-      "limit": 200
+      "limit": 50
     },
     "mobs": {
-      "aqua_creepers:aqua_creeper": 2
+      "aqua_creepers:aqua_creeper": 1
     }
   }
 }

@@ -30,7 +30,7 @@
 	maxLevel = 15
 	#Base amount of experience required to reach next level.
 	#Range: > 1
-	baseExperience = 250
+	baseExperience = 2500
 	#How much the amount of experience required to reach next level will be multiplied per level.
 	#Range: 1.0 ~ 10.0
 	requiredXpMultiplier = 1.5

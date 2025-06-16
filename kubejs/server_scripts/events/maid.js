@@ -7,7 +7,7 @@ EntityEvents.spawned('touhou_little_maid:maid', event => {
         entity.persistentData.putBoolean('maid_dix', true)
 
         if (entity.attributes.hasAttribute(health)) {
-            let hpVal = entity.getAttribute(health).getBaseValue() * 4
+            let hpVal = entity.getAttribute(health).getBaseValue() * 10
             entity.setAttributeBaseValue(health, hpVal)
             entity.setHealth(entity.getMaxHealth())
         }

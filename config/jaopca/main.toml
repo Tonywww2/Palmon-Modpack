@@ -44,9 +44,9 @@
 #Configurations related to item tags.
 [itemTags]
 	#List of item tags that should not be added.
-	blacklist = ["forge:ingots/dragonsteel_fire", "forge:ingots/dragonsteel_ice", "forge:ingots/dragonsteel_lightning"]
+	blacklist = ["forge:ingots/neutronium", "forge:ingots/dragonsteel_fire", "forge:ingots/dragonsteel_ice", "forge:ingots/dragonsteel_lightning", "forge:ingots/cast_iron"]
 	#List of item tags that should be considered as defined.
-	customDefined = ["forge:ingots/neutronium"]
+	customDefined = ["forge:ingots/neutronium", "forge:ingots/dragonsteel_fire", "forge:ingots/dragonsteel_ice", "forge:ingots/dragonsteel_lightning", "forge:ingots/cast_iron"]
 
 #Configurations related to fluid tags.
 [fluidTags]

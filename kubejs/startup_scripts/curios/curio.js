@@ -467,8 +467,8 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.max_health",
                 "sages_health",
-                -16,
-                "addition"
+                0.75,
+                "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.armor",
