@@ -16,6 +16,20 @@ ServerEvents.recipes(event => {
     event.stonecutting('botania:apothecary_livingrock', ['#kubejs:apothecary']).id('kubejs:apothecary_ex_11_s2')
     event.stonecutting('botania:apothecary_deepslate', ['#kubejs:apothecary']).id('kubejs:apothecary_ex_12_s2')
 
+    event.recipes.botania.pure_daisy('botania:livingwood_log', 'forestry:log_pile').id('kubejs:bot_livingwood_s2')
+    event.recipes.botania.pure_daisy('botania:livingrock', 'minecraft:nether_bricks').id('kubejs:bot_livingrock_s2')
+
+    event.shaped('botania:mana_pool', [
+        ' B ',
+        'ACA',
+        ' A '
+    ],
+        {
+            A: 'botania:livingrock',
+            B: 'botania:mana_powder',
+            C: 'botania:diluted_pool'
+        }).id('kubejs:bot_mana_pool_s2')
+
     event.shaped('palmon:boost_frame_5', [
         'ABA',
         'ACA',

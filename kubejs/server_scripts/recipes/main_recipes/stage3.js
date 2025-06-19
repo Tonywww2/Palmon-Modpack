@@ -18,6 +18,18 @@ ServerEvents.recipes(event => {
     'forestry:apiary'
   )
 
+  event.shaped('cobblefordays:tier_4', [
+    'AAA',
+    'BDC',
+    'AAA'
+  ],
+    {
+      A: 'kubejs:stable_desh_ingot',
+      B: 'minecraft:water_bucket',
+      C: 'minecraft:lava_bucket',
+      D: 'cobblefordays:tier_3'
+    }).id('kubejs:cobble_t4_s3')
+
   event.shaped('minecraft:enchanting_table', [
     ' A ',
     'BCB',

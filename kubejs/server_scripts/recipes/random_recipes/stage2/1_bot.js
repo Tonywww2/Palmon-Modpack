@@ -15,17 +15,6 @@ function s2Bot(event) {
             B: 'embers:dawnstone_aspectus'
         }).id('kubejs:bot_apothecary_s2')
 
-    event.shaped('botania:mana_pool', [
-        ' B ',
-        'ACA',
-        ' A '
-    ],
-        {
-            A: 'botania:livingrock',
-            B: 'botania:mana_powder',
-            C: 'botania:diluted_pool'
-        }).id('kubejs:bot_mana_pool_s2')
-
     event.shaped('botania:terra_plate', [
         'AAA',
         'BCB',
@@ -37,6 +26,4 @@ function s2Bot(event) {
             C: '#forge:storage_blocks/manasteel'
         }).id('kubejs:terra_plate_s2')
 
-    event.recipes.botania.pure_daisy('botania:livingwood_log', 'forestry:log_pile').id('kubejs:bot_livingwood_s2')
-    event.recipes.botania.pure_daisy('botania:livingrock', 'minecraft:nether_bricks').id('kubejs:bot_livingrock_s2')
 }

@@ -3,6 +3,18 @@ ServerEvents.recipes(event => {
     event.shapeless('ars_nouveau:apprentice_spell_book', ['ars_nouveau:novice_spell_book', '2x minecraft:diamond', '2x minecraft:blaze_rod', 'kubejs:unify_essence', 'minecraft:crying_obsidian', 'minecraft:quartz_block', 'botania:mana_quartz']).id('kubejs:apprentice_spell_book_s4')
     event.shapeless('ars_nouveau:ritual_brazier', ['ars_nouveau:arcane_pedestal', '4x #forge:ingots/gold', 'kubejs:unify_essence', '#forge:storage_blocks/source_gem']).id('kubejs:ritual_brazier_s4')
 
+    event.shaped('cobblefordays:tier_5', [
+        'AAA',
+        'BDC',
+        'AAA'
+    ],
+        {
+            A: '#forge:ingots/ostrum',
+            B: 'minecraft:water_bucket',
+            C: 'minecraft:lava_bucket',
+            D: 'cobblefordays:tier_4'
+        }).id('kubejs:cobble_t5_s4')
+
     event.shaped('ae2things:disk_housing', [
         'ADA',
         'BEB',
@@ -17,7 +29,7 @@ ServerEvents.recipes(event => {
             F: '#industrialforegoing:machine_frame/simple'
         }).id('kubejs:disk_housing_s4')
 
-    event.shaped('industrialforegoing:machine_frame_pity', [
+    event.shaped('3x industrialforegoing:machine_frame_pity', [
         'ACA',
         'BDB',
         'ACA'

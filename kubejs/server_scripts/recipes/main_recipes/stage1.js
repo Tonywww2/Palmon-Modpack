@@ -37,6 +37,26 @@ ServerEvents.recipes(event => {
     event.smelting('minecraft:dried_kelp', ['tfc:plant/winged_kelp', 'tfc:plant/leafy_kelp'], 200, 10).id('kubejs:kelp_s1')
     event.smithing('mekanism:configurator', '#forge:gems/lapis', 'thermal:wrench', '#forge:plates/steel').id('kubejs:configurator_s1')
 
+    event.shaped('minecraft:fishing_rod', [
+        '  A',
+        ' AB',
+        'A C'
+    ],
+        {
+            A: '#forge:rods/wooden',
+            B: '#forge:string',
+            C: '#forge:nuggets/iron'
+        }).id('kubejs:fishing_rod_s1')
+
+    event.shaped('create:belt_connector', [
+        'ABA',
+        'AAA'
+    ],
+        {
+            A: '#forge:food/dried_kelp',
+            B: '#forge:nuggets/iron'
+        }).id('kubejs:belt_connector_s1')
+
     event.shaped('tfc:bloomery', [
         'DBD',
         'C C',

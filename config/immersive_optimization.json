@@ -30,7 +30,9 @@
     "cobblemon": true,
     "minecraft:wither_skeleton": false,
     "distantfriends:friend": false,
-    "occultism": false
+    "occultism": false,
+    "botania": false,
+    "immersive_weathering": false
   },
   "version": 2,
   "name": "immersive_optimization"

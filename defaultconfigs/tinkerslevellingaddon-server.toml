@@ -30,7 +30,7 @@
 	maxLevel = 15
 	#Base amount of experience required to reach next level.
 	#Range: > 1
-	baseExperience = 2500
+	baseExperience = 100
 	#How much the amount of experience required to reach next level will be multiplied per level.
 	#Range: 1.0 ~ 10.0
 	requiredXpMultiplier = 1.5
@@ -166,11 +166,11 @@
 [toolLevelling]
 	#Melee only!
 	#If true, base experience value gained for attacking is equal to damage dealt (rounded to whole number), otherwise 1.
-	damageDealt = true
+	damageDealt = false
 	#If true, base experience value gained for taking damage is equal to damage taken (rounded to whole number), otherwise 1.
-	damageTaken = true
+	damageTaken = false
 	#If true, base experience value gained for blocking damage is equal to damage blocked (rounded to whole number), otherwise 1.
-	damageBlocked = true
+	damageBlocked = false
 	#If true, allows to gain experience from dealing damage to or taking damage from other players.
 	pvp = true
 	#The time (in ticks) of continuous flight using an elytra after which experience points will be awarded.

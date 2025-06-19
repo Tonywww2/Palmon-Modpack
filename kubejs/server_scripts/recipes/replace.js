@@ -49,6 +49,13 @@ ServerEvents.recipes(event => {
     )
 
     event.replaceInput([
+        { id: 'mekanism:logistical_sorter'}
+    ],
+        '#forge:circuits/basic',
+        'kubejs:stable_desh_ingot'
+    )
+
+    event.replaceInput([
         { id: 'constructionwand:core_destruction'}
     ],
         'minecraft:diamond_pickaxe',

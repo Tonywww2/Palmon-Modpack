@@ -5,7 +5,7 @@ function e3MR(event) {
     event.shapeless('kubejs:voucher_3_0', ['cobblemon:relic_coin', 'kubejs:beta_framework'])
         .id('kubejs:voucher_3_0')
 
-    event.shaped('modularrouters:modular_router', [
+    event.shaped('2x modularrouters:modular_router', [
         'CAC',
         'ABA',
         'CAC'
@@ -36,7 +36,7 @@ function e3SFM(event) {
             D: '#forge:plates/steel'
         }).id('kubejs:sfm_cable_s3')
 
-    event.shaped('sfm:manager', [
+    event.shaped('2x sfm:manager', [
         'CAC',
         'ABA',
         'DAE'
@@ -72,7 +72,7 @@ function e3RFT(event) {
     event.shapeless('kubejs:voucher_3_3', ['cobblemon:relic_coin', 'kubejs:beta_framework'])
         .id('kubejs:voucher_3_3')
 
-    event.shaped('rftoolsbase:machine_frame', [
+    event.shaped('2x rftoolsbase:machine_frame', [
         'ACA',
         'BDB',
         'ACA'

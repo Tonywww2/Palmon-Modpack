@@ -230,7 +230,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'dustandash:crafting/iron_nugget' })
     event.remove({ id: 'tconstruct:smeltery/casting/metal/iron/nugget_sand_cast' })
     event.remove({ id: 'tconstruct:smeltery/casting/metal/iron/nugget_gold_cast' })
-    event.remove({ id: 'create:splashing/gravel' })
     event.remove({ id: 'cookingforblockheads:sink' })
     event.remove({ id: 'jaopca:thermal_expansion.material_to_plate.cast_iron' })
     event.remove({ id: 'tconstruct:smeltery/melting/metal/iron/nugget_3' })
@@ -239,6 +238,14 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'nuclearcraft:manufactory/ender_pearl' })
     event.remove({ id: 'jaopca:thermal_expansion.material_to_gear.cast_iron' })
     event.remove({ id: 'jaopca:thermal_expansion.material_to_storage_block.cast_iron' })
+
+    event.remove({ id: 'create:crafting/kinetics/belt_connector' })
+    event.remove({ id: 'tconstruct:tables/tinkers_anvil' })
+    event.remove({ id: 'tconstruct:tables/scorched_anvil' })
+
+    event.remove({ id: 'industrialforegoing:dissolution_chamber/speed_addon_2' })
+    event.remove({ id: 'industrialforegoing:dissolution_chamber/efficiency_addon_2' })
+    event.remove({ id: 'industrialforegoing:dissolution_chamber/processing_addon_2' })
 
     // s7
     event.remove({ id: 'avaritia:sculk_crafting_table' })
