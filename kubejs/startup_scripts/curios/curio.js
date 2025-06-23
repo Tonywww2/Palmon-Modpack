@@ -90,7 +90,7 @@ StartupEvents.registry('item', event => {
                 "multiply_total"
             )
             .modifyAttribute(
-                "l2damagetracker:crit_damage",
+                "attributeslib:crit_damage",
                 "soul_of_light_critical_damage",
                 0.1,
                 "multiply_total"
@@ -123,7 +123,7 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.max_health",
                 "pure_darkness_max_health",
-                0.2,
+                0.15,
                 "multiply_total"
             )
             .modifyAttribute(
@@ -241,31 +241,31 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.movement_speed",
                 "laevatain_movement_speed",
-                -0.3,
+                -0.2,
                 "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.flying_speed",
                 "laevatain_flying_speed",
-                -0.3,
+                -0.2,
                 "multiply_total"
             )
             .modifyAttribute(
                 "forge:swim_speed",
                 "laevatain_swim_speed",
-                -0.3,
+                -0.2,
                 "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.max_health",
                 "laevatain_max_health",
-                -0.3,
+                -0.2,
                 "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.armor",
                 "laevatain_armor",
-                -0.4,
+                -0.2,
                 "multiply_total"
             )
             .modifyAttribute(
@@ -277,13 +277,13 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.attack_damage",
                 "laevatain_attack_damage",
-                0.3,
+                0.25,
                 "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.attack_speed",
                 "laevatain_attack_speed",
-                0.3,
+                0.2,
                 "multiply_total"
             )
         )
@@ -330,7 +330,7 @@ StartupEvents.registry('item', event => {
                             let stack = Item.of(pokeBallList[player.random.nextInt(pokeBallList.length)])
                             if (player.addItem(stack)) {
                                 player.tell(Text.translatable('ui.kubejs.compact_pal_factory_4').append(stack.getDisplayName()).gold())
-                            
+
                             }
                         }
 
@@ -347,7 +347,7 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.armor",
                 "factory_armor",
-                0.35,
+                0.25,
                 "multiply_total"
             )
             .modifyAttribute(
@@ -383,13 +383,13 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.max_health",
                 "kit_max_health",
-                2.75,
+                2.0,
                 "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.armor",
                 "kit_armor",
-                -0.75,
+                -0.5,
                 "multiply_total"
             )
             .modifyAttribute(
@@ -459,21 +459,21 @@ StartupEvents.registry('item', event => {
 
 
                     }
-                    if (player.age % 400 == 37) {
-                        player.attack(player.maxHealth * player.random.nextDouble() * 0.1)
+                    if (player.age % 300 == 37) {
+                        player.attack(player.damageSources().fellOutOfWorld(), player.maxHealth * ((player.random.nextDouble() * 0.2) + 0.05))
                     }
                 }
             })
             .modifyAttribute(
                 "minecraft:generic.max_health",
                 "sages_health",
-                0.75,
+                -0.2,
                 "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.armor",
                 "sages_armor",
-                -0.95,
+                -0.96,
                 "multiply_total"
             )
             .modifyAttribute(
@@ -555,7 +555,7 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.attack_damage",
                 "soda_attack_damage",
-                0.25,
+                0.2,
                 "multiply_base"
             )
         )
@@ -595,7 +595,7 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "obscure_api:critical_hit",
                 "white_mask_critical_hit",
-                0.3,
+                0.2,
                 "addition"
             )
             .modifyAttribute(
@@ -681,7 +681,7 @@ StartupEvents.registry('item', event => {
                 let player = context.entity()
 
                 if (player && !player.level.isClientSide()) {
-                    if (player.age % 2400 == 0) {
+                    if (player.age % 28800 == 63) {
                         let arr = player.level.getSeed().toString().split('')
                         player.tell(Text.literal(arr[0] + '.' + arr[1] + arr[2] + arr[3] + arr[4] + arr[5] + arr[6] + '%').gold())
 
@@ -703,7 +703,7 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.attack_damage",
                 "divergence_meter_attack_damage",
-                0.25,
+                0.2,
                 "multiply_base"
             )
         )

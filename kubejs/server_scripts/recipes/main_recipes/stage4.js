@@ -115,13 +115,18 @@ ServerEvents.recipes(event => {
         ],
         'occultism:book_of_binding_bound_marid',
         'occultism:craft_marid',
-        200
+        80
     ).id("kubejs:occ_marid_binded_gem_0")
 
     event.recipes.thermal.smelter('2x kubejs:superconducting_coil_type_1',
-        ['7x techreborn:cupronickel_heating_coil', '5x thermal:rf_coil', '3x techreborn:electronic_circuit']
-    ).energy(76800)
+        ['21x techreborn:cupronickel_heating_coil', '15x thermal:rf_coil', '12x techreborn:electronic_circuit']
+    ).energy(2048000)
         .id('kubejs:superconducting_coil_type_1_s4')
+
+    event.recipes.thermal.smelter('3x tfc:powder/flux',
+        ['3x #forge:small_dusts/marble', '#forge:small_dusts/calcite']
+    ).energy(76800)
+        .id('kubejs:powder_flux_s4')
 
     event.recipes.ars_nouveau.imbuement(
         '#forge:gems/source_gem',
@@ -202,6 +207,69 @@ ServerEvents.recipes(event => {
             }
         ]
     }).id('kubejs:ancient_debris_s4')
+
+    event.custom({
+        "type": "industrialforegoing:dissolution_chamber",
+        "input": [
+            Item.of('occultism:storage_stabilizer_tier3').toJson(),
+            Item.of('#forge:storage_blocks/iesnium').toJson(),
+            Item.of('occultism:spirit_attuned_crystal').toJson(),
+            Item.of('minecraft:end_rod').toJson(),
+            Item.of('minecraft:shulker_shell').toJson(),
+            Item.of('minecraft:end_crystal').toJson(),
+            Item.of('minecraft:dragon_breath').toJson(),
+            Item.of('occultism:book_of_binding_bound_marid').toJson(),
+        ],
+        "inputFluid": "{Amount:8000,FluidName:\"tinkers_advanced:over_heated_lava\"}",
+        "output": Item.of('occultism:storage_stabilizer_tier4').toJson(),
+        "processingTime": 200
+    }).id('kubejs:storage_stabilizer_tier4_s4')
+
+    event.custom({
+        "type": "industrialforegoing:dissolution_chamber",
+        "input": [
+            Item.of('occultism:storage_stabilizer_tier2').toJson(),
+            Item.of('#forge:storage_blocks/gold').toJson(),
+            Item.of('occultism:spirit_attuned_crystal').toJson(),
+            Item.of('occultism:spirit_attuned_crystal').toJson(),
+            Item.of('occultism:spirit_attuned_crystal').toJson(),
+            Item.of('minecraft:beacon').toJson(),
+            Item.of('occultism:book_of_binding_bound_afrit').toJson(),
+        ],
+        "inputFluid": "{Amount:4000,FluidName:\"tinkers_advanced:over_heated_lava\"}",
+        "output": Item.of('occultism:storage_stabilizer_tier3').toJson(),
+        "processingTime": 150
+    }).id('kubejs:storage_stabilizer_tier3_s4')
+
+    event.custom({
+        "type": "industrialforegoing:dissolution_chamber",
+        "input": [
+            Item.of('occultism:storage_stabilizer_tier1').toJson(),
+            Item.of('#forge:storage_blocks/silver').toJson(),
+            Item.of('occultism:spirit_attuned_crystal').toJson(),
+            Item.of('occultism:spirit_attuned_crystal').toJson(),
+            Item.of('cobblemon:reaper_cloth').toJson(),
+            Item.of('occultism:book_of_binding_bound_djinni').toJson(),
+        ],
+        "inputFluid": "{Amount:2000,FluidName:\"tinkers_advanced:over_heated_lava\"}",
+        "output": Item.of('occultism:storage_stabilizer_tier2').toJson(),
+        "processingTime": 100
+    }).id('kubejs:storage_stabilizer_tier2_s4')
+
+    event.custom({
+        "type": "industrialforegoing:dissolution_chamber",
+        "input": [
+            Item.of('occultism:otherstone_pedestal').toJson(),
+            Item.of('#forge:storage_blocks/copper').toJson(),
+            Item.of('occultism:spirit_attuned_crystal').toJson(),
+            Item.of('occultism:spirit_attuned_crystal').toJson(),
+            Item.of('#forge:rods/blaze').toJson(),
+            Item.of('occultism:book_of_binding_bound_foliot').toJson(),
+        ],
+        "inputFluid": "{Amount:1000,FluidName:\"tinkers_advanced:over_heated_lava\"}",
+        "output": Item.of('occultism:storage_stabilizer_tier1').toJson(),
+        "processingTime": 100
+    }).id('kubejs:storage_stabilizer_tier1_s4')
 
     event.custom({
         "type": "industrialforegoing:dissolution_chamber",

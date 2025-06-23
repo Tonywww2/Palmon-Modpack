@@ -7,21 +7,21 @@
 	#Determining the max speed of umamusume soul.
 	#Set to 0 will not add any speed.
 	#Range: 0.0 ~ 1.7976931348623157E308
-	umasoul_max_speed = 0.4
+	umasoul_max_speed = 0.35
 	#Determines whether to add strength bouns as a percentage.
 	#If enable, the bonus will be calculated as a percentage.
 	umasoul_strength_percent_enable = true
 	#Determining the max attack of umamusume soul.
 	#Set to 0 will not add any attack.
 	#Range: 0.0 ~ 1.7976931348623157E308
-	umasoul_max_strength_attack = 0.4
+	umasoul_max_strength_attack = 0.25
 	#Determines whether to add stamina bouns as a percentage.
 	#If enable, the bonus will be calculated as a percentage.
 	umasoul_stamina_percent_enable = true
 	#Determining the max health of umamusume soul.
 	#Set to 0 will not add any health.
 	#Range: 0.0 ~ 1.7976931348623157E308
-	umasoul_max_stamina_health = 0.4
+	umasoul_max_stamina_health = 0.25
 	#Determines whether to add guts bouns as a percentage.
 	#If enable, the bonus will be calculated as a percentage.
 	umasoul_guts_percent_enable = false

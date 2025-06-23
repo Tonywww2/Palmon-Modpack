@@ -93,13 +93,12 @@ ServerEvents.recipes(event => {
         }).id('kubejs:advanced_machine_frame_s6')
 
     event.shaped('kubejs:basic_machine_frame', [
-        'ABA',
         'ACA',
-        'ADA'
+        'ADA',
+        'ACA'
     ],
         {
             A: 'techreborn:insulated_copper_cable',
-            B: 'kubejs:essence_computation_frame',
             C: 'techreborn:basic_machine_frame',
             D: 'kubejs:epsilon_dust'
         }).id('kubejs:basic_machine_frame_s6')

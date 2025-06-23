@@ -34,26 +34,26 @@ ServerEvents.recipes(event => {
         { "amount": 90, "tag": "forge:bismuth" }, 500, 10, 'kubejs:tc_melting_garnierite')
 
     tcMelting({ "tag": 'forge:ingots/black_bronze' },
-        { "amount": 100, "tag": "tfc:black_bronze" }, 500, 100, 'kubejs:tc_melting_black_bronze')
+        { "amount": 100, "tag": "tfc:black_bronze" }, 500, 80, 'kubejs:tc_melting_black_bronze')
     tcMelting({ "tag": 'forge:ingots/bismuth_bronze' },
-        { "amount": 100, "tag": "tfc:bismuth_bronze" }, 500, 100, 'kubejs:tc_melting_bismuth_bronze')
+        { "amount": 100, "tag": "tfc:bismuth_bronze" }, 500, 80, 'kubejs:tc_melting_bismuth_bronze')
     tcMelting({ "tag": 'forge:ingots/sterling_silver' },
-        { "amount": 100, "tag": "tfc:sterling_silver" }, 500, 100, 'kubejs:tc_melting_sterling_silver')
+        { "amount": 100, "tag": "tfc:sterling_silver" }, 500, 80, 'kubejs:tc_melting_sterling_silver')
 
     tcMelting({ "tag": 'forge:ingots/weak_steel' },
-        { "amount": 100, "tag": "tfc:weak_steel" }, 500, 100, 'kubejs:tc_melting_weak_steel')
+        { "amount": 100, "tag": "tfc:weak_steel" }, 500, 80, 'kubejs:tc_melting_weak_steel')
     // tcMelting({ "tag": 'forge:ingots/black_steel' },
     //     { "amount": 100, "tag": "tfc:black_steel" }, 500, 100, 'kubejs:tc_melting_black_steel')
 
     tcMelting({ "tag": 'forge:ingots/weak_red_steel' },
-        { "amount": 100, "tag": "tfc:weak_red_steel" }, 500, 100, 'kubejs:tc_melting_weak_red_steel')
+        { "amount": 100, "tag": "tfc:weak_red_steel" }, 500, 80, 'kubejs:tc_melting_weak_red_steel')
     tcMelting({ "tag": 'forge:ingots/weak_blue_steel' },
-        { "amount": 100, "tag": "tfc:weak_blue_steel" }, 500, 100, 'kubejs:tc_melting_weak_blue_steel')
+        { "amount": 100, "tag": "tfc:weak_blue_steel" }, 500, 80, 'kubejs:tc_melting_weak_blue_steel')
 
     // tcMelting({ "tag": 'forge:ingots/red_steel' },
-    //     { "amount": 100, "tag": "tfc:red_steel" }, 500, 100, 'kubejs:tc_melting_red_steel')
+    //     { "amount": 100, "tag": "tfc:red_steel" }, 500, 80, 'kubejs:tc_melting_red_steel')
     // tcMelting({ "tag": 'forge:ingots/blue_steel' },
-    //     { "amount": 100, "tag": "tfc:blue_steel" }, 500, 100, 'kubejs:tc_melting_blue_steel')
+    //     { "amount": 100, "tag": "tfc:blue_steel" }, 500, 80, 'kubejs:tc_melting_blue_steel')
 
     tcAlloy([{ "amount": 90, "tag": "forge:molten_electrum" }, { "amount": 90, "tag": "forge:molten_copper" }],
         { "amount": 180, "tag": "tfc:black_bronze" }, 800, 'kubejs:tc_alloy_black_bronze_1')
@@ -93,7 +93,6 @@ ServerEvents.recipes(event => {
     tcTFCCastIngot('red_steel')
     tcTFCCastIngot('blue_steel')
 
-    tcCastingTable({ "item": 'tfc:metal/sheet/blue_steel' }, true, 200, { "amount": 180, "tag": "tfc:red_steel" }, 'kubejs:virtual_gold_ingot', 'kubejs:virtual_gold_ingot')
     tcCastingTable({ "tag": 'forge:sheets' }, true, 200, { "amount": 90, "tag": "forge:molten_gold" }, 'tconstruct:plate_cast', 'kubejs:plate_cast_tfc')
 
     function tcFuel(fluid, duration, rate, temp) {

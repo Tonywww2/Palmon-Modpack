@@ -139,7 +139,7 @@
 		#The minimum energy transfer rate per tick.
 		minEnergyRate = 2000
 		#The default capacity of an energy battery.
-		capacity = 1000000
+		capacity = 200000
 		#The maximum capacity shown in creative tabs. (Make sure that you do not cross the max int size)
 		maxCreativeTabCapacity = 655360000
 

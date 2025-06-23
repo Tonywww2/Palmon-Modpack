@@ -5,7 +5,7 @@ contractAttributeHpMultiplier = 0.5
 #
 #The multiplier of the ATTACK.
 #Range: 0.0 ~ 1000.0
-contractAttributeAttackMultiplier = 0.75
+contractAttributeAttackMultiplier = 0.5
 #
 #The multiplier of the DEFENCE.
 #Range: 0.0 ~ 1000.0
@@ -17,21 +17,21 @@ contractAttributeSpAttackMultiplier = 1.0
 #
 #The multiplier of the SP DEFENCE.
 #Range: 0.0 ~ 1000.0
-contractAttributeSpDefenceMultiplier = 0.75
+contractAttributeSpDefenceMultiplier = 0.5
 #
 #The multiplier of the SPEED.
 #Range: 0.0 ~ 1000.0
-contractAttributeSpeedMultiplier = 0.75
+contractAttributeSpeedMultiplier = 0.5
 #
 #The multiplier of the SP ATTACK with mod Confluence loaded.
 #Range: 0.0 ~ 1000.0
-contractAttributeSpAttackMultiplierConfluence = 8.0
+contractAttributeSpAttackMultiplierConfluence = 24.0
 #
 #The multiplier of the SP DEFENCE with mod Confluence loaded.
 #Range: 0.0 ~ 1000.0
-contractAttributeSpDefenceMultiplierConfluence = 0.75
+contractAttributeSpDefenceMultiplierConfluence = 0.5
 #
 #The multiplier of the SPEED with mod Confluence loaded.
 #Range: 0.0 ~ 1000.0
-contractAttributeSpeedMultiplierConfluence = 0.2
+contractAttributeSpeedMultiplierConfluence = 0.15
 

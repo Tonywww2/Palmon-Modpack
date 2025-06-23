@@ -28,6 +28,7 @@ global.dimAdder = {
     'minecraft:the_nether': [20, 14, 11],
 
     'minecraft:overworld': [40, 20, 16],
+    'compactmachines:compact_world': [40, 20, 16],
     'dimdungeons:dungeon_dimension': [60, 35, 24],
     'ad_astra:moon': [50, 30, 18],
     'oceanworld:deepsea': [50, 30, 18],
@@ -44,21 +45,22 @@ global.dimAdder = {
 global.dimMuti = {
     'kubejs:tfc_planet': [1, 0.5, 0.8],
 
-    'minecraft:the_nether': [2.5, 0.7, 1.2],
+    'minecraft:the_nether': [3.0, 0.7, 1.2],
 
-    'minecraft:overworld': [7, 1, 1.4],
-    'dimdungeons:dungeon_dimension': [10, 1.4, 2.00],
-    'ad_astra:moon': [9, 1.35, 1.75],
-    'oceanworld:deepsea': [9, 1.35, 1.75],
+    'minecraft:overworld': [10, 1, 1.4],
+    'compactmachines:compact_world': [10, 1, 1.4],
+    'dimdungeons:dungeon_dimension': [13, 1.4, 2.00],
+    'ad_astra:moon': [12, 1.35, 1.75],
+    'oceanworld:deepsea': [12, 1.35, 1.75],
 
-    'ad_astra:mars': [13, 1.6, 2.65],
-    'ad_astra:venus': [15, 2, 2.75],
-    'ad_astra:mercury': [18, 2.1, 3.0],
+    'ad_astra:mars': [18, 1.6, 2.65],
+    'ad_astra:venus': [20, 2, 2.75],
+    'ad_astra:mercury': [23, 2.1, 3.0],
 
-    'minecraft:the_end': [21, 2.5, 3.5],
-    'deeperdarker:otherside': [26, 3, 4.0],
+    'minecraft:the_end': [30, 2.5, 3.5],
+    'deeperdarker:otherside': [35, 3, 4.0],
 
-    'rats:ratlantis': [32, 3.5, 4.5]
+    'rats:ratlantis': [42, 3.5, 4.5]
 }
 
 global.diffMultiplier = [

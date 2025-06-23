@@ -55,18 +55,18 @@ ServerEvents.tags('item', event => {
         'techreborn:cell'
     )
 
-    event.add('forge:ingots/black_steel', 
+    event.add('forge:ingots/black_steel',
         'cataclysm:black_steel_ingot'
     )
-    event.add('forge:ingots/neutronium', 
+    event.add('forge:ingots/neutronium',
         '#forge:ingot/neutronium'
     )
 
-    event.add('sbtwinattack:twin_attack_blacklist', 
+    event.add('sbtwinattack:twin_attack_blacklist',
         'tinkers_advanced:electron_tuner'
     )
 
-    event.add('kubejs:delivery_coordinates', 
+    event.add('kubejs:delivery_coordinates',
         'kubejs:delivery_coordinate_gamma',
         'kubejs:delivery_coordinate_epsilon',
         'kubejs:delivery_coordinate_ultimate'
@@ -117,20 +117,31 @@ ServerEvents.tags('item', event => {
         'immersiveengineering:toolbox'
     )
 
-    event.add('ae2:growth_acceleratable',
-        '#cobblemon:berries'
+    event.add("forge:sandstone/venus_sandstone",
+        'ad_astra:venus_sandstone'
     )
 
 })
 
+ServerEvents.tags('block', event => {
+
+    event.add('ae2:growth_acceleratable',
+        '#cobblemon:berries'
+    )
+    
+    event.add("forge:sandstone/venus_sandstone",
+        'ad_astra:venus_sandstone'
+    )
+
+
+})
+
 ServerEvents.tags('fluid', event => {
+
     event.add('tfc:usable_in_barrel',
         'ad_astra:fuel'
     )
 
-})
-
-ServerEvents.tags('fluid', event => {
     event.add('kubejs:hybrid_fuel',
         'kubejs:hybrid_fuel'
     )

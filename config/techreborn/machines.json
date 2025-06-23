@@ -6,7 +6,7 @@
     },
     "ElevatorMaxInput": {
       "comment": "Elevator Max Input (Energy per tick)",
-      "value": 3200
+      "value": 32000
     },
     "ElevatorEnergyPerBlock": {
       "comment": "Elevator Energy used per vertical block of transportation",
@@ -24,7 +24,7 @@
     },
     "LesuExtraIO": {
       "comment": "LESU Extra I/O Multiplier",
-      "value": 100
+      "value": 1000
     },
     "LesuBaseOutput": {
       "comment": "LESU Base Output",
@@ -38,7 +38,7 @@
     },
     "BlockPlacerMaxInput": {
       "comment": "Block Placer Max Input (Energy per tick)",
-      "value": 32
+      "value": 320
     },
     "BlockPlacerBaseBreakTime": {
       "comment": "How many ticks a block of hardness 1 requires to be placed",
@@ -56,7 +56,7 @@
     },
     "RollingMachineMaxInput": {
       "comment": "Rolling Machine Max Input (Energy per tick)",
-      "value": 3200
+      "value": 32000
     }
   },
   "assembling_machine": {
@@ -66,7 +66,7 @@
     },
     "AssemblingMachineMaxInput": {
       "comment": "Assembling Machine Max Input (Energy per tick)",
-      "value": 12800
+      "value": 128000
     }
   },
   "vacuumfreezer": {
@@ -76,7 +76,7 @@
     },
     "VacuumFreezerInput": {
       "comment": "Vacuum Freezer Max Input (Energy per tick)",
-      "value": 6400
+      "value": 64000
     }
   },
   "launchpad": {
@@ -110,7 +110,7 @@
     },
     "LaunchpadMaxInput": {
       "comment": "Launchpad Max Input (Energy per tick)",
-      "value": 128
+      "value": 1280
     },
     "LaunchpadSpeedHigh": {
       "comment": "Launchpad High Speed",
@@ -178,7 +178,7 @@
     },
     "MatterFabricatorMaxInput": {
       "comment": "Matter Fabricator Max Input (Energy per tick)",
-      "value": 819200
+      "value": 8192000
     },
     "MatterFabricatorMaxEnergy": {
       "comment": "Matter Fabricator Max Energy",
@@ -192,13 +192,13 @@
     },
     "DistillationTowerMaxInput": {
       "comment": "Distillation Tower Max Input (Energy per tick)",
-      "value": 12800
+      "value": 128000
     }
   },
   "grinder": {
     "GrinderInput": {
       "comment": "Grinder Max Input (Energy per tick)",
-      "value": 3200
+      "value": 32000
     },
     "GrinderMaxEnergy": {
       "comment": "Grinder Max Energy",
@@ -216,7 +216,7 @@
     },
     "FishingStationMaxInput": {
       "comment": "Fishing Station Max Input (Energy per tick)",
-      "value": 128
+      "value": 1280
     },
     "FishingStationMaxEnergy": {
       "comment": "Fishing Station Max Energy",
@@ -230,7 +230,7 @@
     },
     "CompressorInput": {
       "comment": "Compressor Max Input (Energy per tick)",
-      "value": 3200
+      "value": 32000
     }
   },
   "fluidreplicator": {
@@ -240,13 +240,13 @@
     },
     "FluidReplicatorMaxInput": {
       "comment": "Fluid Replicator Max Input (Energy per tick)",
-      "value": 25600
+      "value": 256000
     }
   },
   "charge_bench": {
     "ChargeBenchMaxInput": {
       "comment": "Charge Bench Max Input (Energy per tick)",
-      "value": 51200
+      "value": 512000
     },
     "ChargeBenchMaxEnergy": {
       "comment": "Charge Bench Max Energy",
@@ -260,7 +260,7 @@
   "pump": {
     "PumpMaxInput": {
       "comment": "Pump Max Input (Energy per tick)",
-      "value": 128
+      "value": 1280
     },
     "PumpEnergyToCollect": {
       "comment": "Base amount of Energy to collect a block of fluid",
@@ -286,7 +286,7 @@
     },
     "ElectricFurnaceInput": {
       "comment": "Electric Furnace Max Input (Energy per tick)",
-      "value": 320
+      "value": 3200
     }
   },
   "player_detector": {
@@ -300,7 +300,7 @@
     },
     "PlayerDetectorMaxInput": {
       "comment": "Player Detector Max Input (Energy per tick)",
-      "value": 32
+      "value": 320
     },
     "PlayerDetectorMaxRadius": {
       "comment": "Player Detector maximum detection radius",
@@ -310,7 +310,7 @@
   "implosion_compressor": {
     "ImplosionCompressorMaxInput": {
       "comment": "Implosion Compressor Max Input (Energy per tick)",
-      "value": 6400
+      "value": 64000
     },
     "ImplosionCompressorMaxEnergy": {
       "comment": "Implosion Compressor Max Energy",
@@ -346,13 +346,13 @@
     },
     "GreenhouseControllerMaxInput": {
       "comment": "Greenhouse Controller Max Input (Energy per tick)",
-      "value": 3200
+      "value": 32000
     }
   },
   "industrial_furnace": {
     "IndustrialFurnaceMaxInput": {
       "comment": "Industrial Blast Furnace Max Input (Energy per tick)",
-      "value": 12800
+      "value": 128000
     },
     "IndustrialFurnaceMaxEnergy": {
       "comment": "Industrial Blast Furnace Max Energy",
@@ -362,7 +362,7 @@
   "chemical_reactor": {
     "ChemicalReactorMaxInput": {
       "comment": "Chemical Reactor Max Input (Energy per tick)",
-      "value": 12800
+      "value": 128000
     },
     "ChemicalReactorMaxEnergy": {
       "comment": "Chemical Reactor Max Energy",
@@ -372,7 +372,7 @@
   "recycler": {
     "RecyclerInput": {
       "comment": "Recycler Max Input (Energy per tick)",
-      "value": 3200
+      "value": 32000
     },
     "RecyclerChance": {
       "comment": "Recycler Chance to produce scrap (1 out of chance)",
@@ -397,7 +397,7 @@
     },
     "IndustrialGrinderMaxInput": {
       "comment": "Industrial Grinder Max Input (Energy per tick)",
-      "value": 12800
+      "value": 128000
     }
   },
   "aesu": {
@@ -409,7 +409,7 @@
   "alloy_smelter": {
     "AlloySmelterMaxInput": {
       "comment": "Alloy Smelter Max Input (Energy per tick)",
-      "value": 3200
+      "value": 32000
     },
     "AlloySmelterMaxEnergy": {
       "comment": "Alloy Smelter Max Energy",
@@ -423,7 +423,7 @@
     },
     "IndustrialElectrolyzerMaxInput": {
       "comment": "Industrial Electrolyzer Max Input (Energy per tick)",
-      "value": 12800
+      "value": 128000
     }
   },
   "fusion_reactor": {
@@ -437,7 +437,7 @@
     },
     "FusionReactorMaxInput": {
       "comment": "Fusion Reactor Max Input (Energy per tick)",
-      "value": 81920
+      "value": 819200
     },
     "FusionReactorMaxCoilSize": {
       "comment": "Fusion Reactor Max Coil size (Radius)",
@@ -451,7 +451,7 @@
     },
     "CentrifugeMaxInput": {
       "comment": "Centrifuge Max Input (Energy per tick)",
-      "value": 3200
+      "value": 32000
     }
   },
   "drain": {
@@ -467,7 +467,7 @@
     },
     "IndustrialSawmillMaxInput": {
       "comment": "Industrial Sawmill Max Input (Energy per tick)",
-      "value": 1280
+      "value": 12800
     }
   },
   "scrapboxinator": {
@@ -477,7 +477,7 @@
     },
     "ScrapboxinatorMaxInput": {
       "comment": "Scrapboxinator Max Input (Energy per tick)",
-      "value": 320
+      "value": 3200
     }
   },
   "block_breaker": {
@@ -491,7 +491,7 @@
     },
     "BlockBreakerMaxInput": {
       "comment": "Block Breaker Max Input (Energy per tick)",
-      "value": 32
+      "value": 320
     },
     "BlockBreakerMaxEnergy": {
       "comment": "Block Breaker Max Energy",
@@ -505,13 +505,13 @@
     },
     "solidCanningMachineMaxInput": {
       "comment": "Solid Canning Machine Max Input (Energy per tick)",
-      "value": 320
+      "value": 3200
     }
   },
   "extractor": {
     "ExtractorInput": {
       "comment": "Extractor Max Input (Energy per tick)",
-      "value": 3200
+      "value": 32000
     },
     "ExtractorMaxEnergy": {
       "comment": "Extractor Max Energy",
@@ -527,7 +527,7 @@
   "autocrafter": {
     "AutoCrafterInput": {
       "comment": "AutoCrafting Table Max Input (Energy per tick)",
-      "value": 32
+      "value": 320
     },
     "AutoCrafterMaxEnergy": {
       "comment": "AutoCrafting Table Max Energy",

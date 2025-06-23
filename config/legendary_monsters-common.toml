@@ -7,7 +7,7 @@
 		"Chorusling Damage Multiplier" = 4.0
 		#Multiplies health of Chorusling
 		#Range: 0.0 ~ 1000.0
-		"Chorusling Health Multiplier" = 40.0
+		"Chorusling Health Multiplier" = 50.0
 
 	["Mob Settings"."Endersent Settings"]
 		#Multiplies damage dealt by Endersent
@@ -15,7 +15,7 @@
 		"Endersent Damage Multiplier" = 4.0
 		#Multiplies health of Endersent
 		#Range: 0.0 ~ 1000.0
-		"Endersent Health Multiplier" = 40.0
+		"Endersent Health Multiplier" = 50.0
 
 	["Mob Settings"."Spiky Worm Settings"]
 		#Multiplies damage dealt by Spiky Worm
@@ -23,7 +23,7 @@
 		"Spiky Worm Damage Multiplier" = 2.5
 		#Multiplies health of Spiky Worm
 		#Range: 0.0 ~ 1000.0
-		"Spiky Worm Health Multiplier" = 20.0
+		"Spiky Worm Health Multiplier" = 30.0
 
 	["Mob Settings"."Ambusher Settings"]
 		#Multiplies damage dealt by Ambusher
@@ -31,7 +31,7 @@
 		"Ambusher Damage Multiplier" = 2.5
 		#Multiplies health of Ambusher
 		#Range: 0.0 ~ 1000.0
-		"Ambusher Health Multiplier" = 20.0
+		"Ambusher Health Multiplier" = 30.0
 		#Enables Projectile Damage For Ambusher
 		"Allow Ambusher Projectile Damage" = true
 
@@ -41,7 +41,7 @@
 		"Stratling Damage Multiplier" = 2.5
 		#Multiplies health of Stratling
 		#Range: 0.0 ~ 1000.0
-		"Stratling Health Multiplier" = 20.0
+		"Stratling Health Multiplier" = 30.0
 
 	["Mob Settings"."Ancient Guardian Settings"]
 		#Multiplies damage dealt by Ancient Guardian
@@ -49,7 +49,7 @@
 		"Ancient Guardian Damage Multiplier" = 2.5
 		#Multiplies health of Ancient Guardian
 		#Range: 0.0 ~ 1000.0
-		"Ancient Guardian Health Multiplier" = 20.0
+		"Ancient Guardian Health Multiplier" = 30.0
 		#Enables/Disables Stun Ability for Ancient Guardian. §cNOTE: Disabling This may make the bossfight less fun.
 		"Allow Ancient Guardian Stun Ability" = true
 		#Enables Projectile Damage for Ancient Guardian
@@ -61,7 +61,7 @@
 		"Haunted Knight Damage Multiplier" = 2.5
 		#Multiplies health of Haunted Knight
 		#Range: 0.0 ~ 1000.0
-		"Haunted Knight Health Multiplier" = 20.0
+		"Haunted Knight Health Multiplier" = 30.0
 		#Enables Projectile Damage For Haunted Knight
 		"Allow Haunted Knight Projectile Damage" = true
 
@@ -71,7 +71,7 @@
 		"Haunted Guard Damage Multiplier" = 2.5
 		#Multiplies health of Haunted Guard
 		#Range: 0.0 ~ 1000.0
-		"Haunted Guard Health Multiplier" = 20.0
+		"Haunted Guard Health Multiplier" = 30.0
 		#Enables Projectile Damage For Haunted Guard
 		"Allow Haunted Guard Projectile Damage" = true
 
@@ -81,7 +81,7 @@
 		"Posessed Paladin Damage Multiplier" = 2.5
 		#Multiplies health of Posessed Paladin. §cNOTE: Disabling This may make the bossfight less fun.
 		#Range: 0.0 ~ 1000.0
-		"Posessed Paladin Health Multiplier" = 20.0
+		"Posessed Paladin Health Multiplier" = 30.0
 		#Enables/Disables Stun Ability for Posessed Paladin
 		"Allow Posessed Paladin Stun Ability" = true
 		#Enables Projectile Damage Posessed Paladin
@@ -93,7 +93,7 @@
 		"Overgrown Colosuss Damage Multiplier" = 2.5
 		#Multiplies health of Overgrown Colosuss
 		#Range: 0.0 ~ 1000.0
-		"Overgrown Colosuss Health Multiplier" = 20.0
+		"Overgrown Colosuss Health Multiplier" = 30.0
 		#Enables/Disables Stun Ability for Overgrown Colosuss. §cNOTE: Disabling This may make the bossfight less fun.
 		"Allow Overgrown Colosuss Stun Ability" = true
 		#Enables Projectile Damage for Overgrown Colosuss
@@ -105,7 +105,7 @@
 		"Mossy Golem Damage Multiplier" = 2.5
 		#Multiplies health of Mossy Golem
 		#Range: 0.0 ~ 1000.0
-		"Mossy Golem Health Multiplier" = 20.0
+		"Mossy Golem Health Multiplier" = 30.0
 		#Enables Projectile Damage for Dune Sentinel
 		"Allow Dune Sentinel Projectile Damage" = true
 
@@ -115,7 +115,7 @@
 		"Cloud Golem Damage Multiplier" = 2.5
 		#Multiplies health of Cloud Golem
 		#Range: 0.0 ~ 1000.0
-		"Cloud Golem Health Multiplier" = 20.0
+		"Cloud Golem Health Multiplier" = 30.0
 		#Enables Projectile Damage for Cloud Golem
 		"Allow Cloud Golem Projectile Damage" = true
 		#Enables Boss Music for Cloud Golem
@@ -144,7 +144,7 @@
 		"Frostbitten Golem Damage Multiplier" = 2.5
 		#Multiplies health of Frostbitten Golem
 		#Range: 0.0 ~ 1000.0
-		"Frostbitten Golem Health Multiplier" = 20.0
+		"Frostbitten Golem Health Multiplier" = 30.0
 		#Enables Projectile Damage for Frostbitten Golem
 		"Allow Frostbitten Golem Projectile Damage" = true
 
@@ -154,7 +154,7 @@
 		"Dune Sentinel Damage Multiplier" = 2.5
 		#Multiplies health of Dune Sentinel
 		#Range: 0.0 ~ 1000.0
-		"Dune Sentinel Health Multiplier" = 20.0
+		"Dune Sentinel Health Multiplier" = 30.0
 		#Multiplies damage dealt by Bomber
 		#Range: 0.0 ~ 1000.0
 		"Bomber Damage Multiplier" = 2.5
@@ -168,7 +168,7 @@
 		"Skeletosaurus Damage Multiplier" = 2.5
 		#Multiplies health of Skeletosaurus
 		#Range: 0.0 ~ 1000.0
-		"Skeletosaurus Health Multiplier" = 20.0
+		"Skeletosaurus Health Multiplier" = 30.0
 
 	["Mob Settings"."Lava Eater Settings"]
 		#Multiplies damage dealt by Lava Eater
@@ -176,7 +176,7 @@
 		"Lava Eater Damage Multiplier" = 2.5
 		#Multiplies health of Lava Eater
 		#Range: 0.0 ~ 1000.0
-		"Lava Eater Health Multiplier" = 2.0
+		"Lava Eater Health Multiplier" = 10.0
 		#Enables Projectile Damage for Lava Eater
 		"Allow Lava Eater Projectile Damage" = true
 
@@ -186,7 +186,7 @@
 		"Warped Fungussus Damage Multiplier" = 2.5
 		#Multiplies health of Warped Fungussus
 		#Range: 0.0 ~ 1000.0
-		"Warped Fungussus Health Multiplier" = 20.0
+		"Warped Fungussus Health Multiplier" = 30.0
 
 	["Mob Settings"."Withered Abomination Settings"]
 		#Multiplies damage dealt by Withered Abomination
@@ -194,7 +194,7 @@
 		"Withered Abomination Damage Multiplier" = 2.5
 		#Multiplies health of Withered Abomination
 		#Range: 0.0 ~ 1000.0
-		"Withered Abomination Health Multiplier" = 20.0
+		"Withered Abomination Health Multiplier" = 30.0
 		#Enables/Disables Stun Ability for Withered Abomination
 		"Allow Withered Abomination Stun Ability" = false
 
@@ -204,7 +204,7 @@
 		"Shulker Mimic Damage Multiplier" = 4.0
 		#Multiplies health of Shulker Mimic
 		#Range: 0.0 ~ 1000.0
-		"Shulker Mimic Health Multiplier" = 40.0
+		"Shulker Mimic Health Multiplier" = 50.0
 		#Enables Projectile Damage for Shulker Mimic
 		"Allow Shulker Mimic Projectile Damage" = true
 
@@ -214,7 +214,7 @@
 		"Knight Damage Multiplier" = 2.5
 		#Multiplies health of Knight
 		#Range: 0.0 ~ 100.0
-		"Knight Health Multiplier" = 20.0
+		"Knight Health Multiplier" = 30.0
 
 	["Mob Settings"."Tamable Guard Settings"]
 		#Multiplies damage dealt by Guard
@@ -222,7 +222,7 @@
 		"Guard Damage Multiplier" = 2.5
 		#Multiplies health of Guard
 		#Range: 0.0 ~ 1000.0
-		"Guard Health Multiplier" = 20.0
+		"Guard Health Multiplier" = 30.0
 
 	["Mob Settings"."Skeloraptor Settings"]
 		#Multiplies damage dealt by Skeloraptor
@@ -230,5 +230,5 @@
 		"Skeloraptor Damage Multiplier" = 2.5
 		#Multiplies health of Skeloraptor
 		#Range: 0.0 ~ 1000.0
-		"Skeloraptor Health Multiplier" = 20.0
+		"Skeloraptor Health Multiplier" = 30.0
 

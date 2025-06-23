@@ -208,11 +208,11 @@ function e4PLM(event) {
     event.shapeless('kubejs:voucher_4_4', ['cobblemon:relic_coin', 'kubejs:essence_computation_frame'])
         .id('kubejs:voucher_4_4')
 
-    s4PLMRec([{ "tag": 'forge:ingots/lumium', "count": 1 }, { "tag": 'forge:ingots/signalum', "count": 1 }, { "tag": 'forge:ingots/enderium', "count": 1 }], 'kubejs:present_alloy', 2, 1000, 'ATTACK', 40, 40)
-    s4PLMRec([{ "item": 'kubejs:present_alloy', "count": 1 }, { "item": 'ad_astra:desh_ingot', "count": 1 }], 'kubejs:stable_desh_ingot', 2, 1000, 'DEFENCE', 45, 50)
-    s4PLMRec([{ "item": 'ae2:cell_component_1k', "count": 2 }, { "item": 'jaopca:processors.elementium', "count": 1 }, { "item": 'kubejs:gamma_framework', "count": 1 }], 'kubejs:essence_computation_frame', 2, 600, 'SPECIAL_ATTACK', 35, 25)
-    s4PLMRec([{ "tag": 'cobblemon:tier_4_poke_balls', "count": 16 }, { "item": 'ae2:cell_component_64k', "count": 1 }, { "item": 'kubejs:present_alloy', "count": 8 }, { "item": 'palmon:refined_m_steel_ingot', "count": 2 }], 'cobblemon:master_ball', 1, 6000, 'SPECIAL_DEFENCE', 75, 75)
-    s4PLMRec([{ "item": 'kubejs:present_alloy', "count": 16 }, { "item": 'palmon:refined_m_steel_ingot', "count": 12 }, { "item": 'botania:flask', "count": 4 }], 'unimplemented_items:bottle_cap', 1, 3000, 'SPEED', 55, 60)
+    s4PLMRec([{ "tag": 'forge:ingots/lumium', "count": 1 }, { "tag": 'forge:ingots/signalum', "count": 1 }, { "tag": 'forge:ingots/enderium', "count": 1 }], 'kubejs:present_alloy', 2, 600, 'ATTACK', 40, 40)
+    s4PLMRec([{ "item": 'kubejs:present_alloy', "count": 1 }, { "item": 'ad_astra:desh_ingot', "count": 1 }], 'kubejs:stable_desh_ingot', 2, 600, 'DEFENCE', 45, 50)
+    s4PLMRec([{ "item": 'ae2:cell_component_1k', "count": 2 }, { "item": 'jaopca:processors.elementium', "count": 1 }, { "item": 'kubejs:gamma_framework', "count": 1 }], 'kubejs:essence_computation_frame', 3, 600, 'SPECIAL_ATTACK', 35, 25)
+    s4PLMRec([{ "tag": 'cobblemon:tier_4_poke_balls', "count": 16 }, { "item": 'ae2:cell_component_64k', "count": 1 }, { "item": 'kubejs:present_alloy', "count": 8 }, { "item": 'palmon:refined_m_steel_ingot', "count": 2 }], 'cobblemon:master_ball', 1, 2400, 'SPECIAL_DEFENCE', 75, 75)
+    s4PLMRec([{ "item": 'kubejs:present_alloy', "count": 16 }, { "item": 'palmon:refined_m_steel_ingot', "count": 12 }, { "item": 'botania:flask', "count": 4 }], 'unimplemented_items:bottle_cap', 1, 1600, 'SPEED', 55, 60)
 
     function s4PLMRec(inputs, output, count, tick, stat, stats, level) {
         inputs.push({ "item": 'kubejs:essence_computation_frame', "count": 1 })

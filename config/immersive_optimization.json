@@ -29,10 +29,12 @@
     "tfc": false,
     "cobblemon": true,
     "minecraft:wither_skeleton": false,
-    "distantfriends:friend": false,
+    "distantfriends": false,
     "occultism": false,
     "botania": false,
-    "immersive_weathering": false
+    "immersive_weathering": false,
+    "slashblade_addon": false,
+    "slashblade": false
   },
   "version": 2,
   "name": "immersive_optimization"

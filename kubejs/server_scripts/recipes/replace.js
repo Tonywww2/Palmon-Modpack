@@ -49,6 +49,20 @@ ServerEvents.recipes(event => {
     )
 
     event.replaceInput([
+        { id: 'mekanism:dictionary'}
+    ],
+        '#forge:circuits/basic',
+        'kubejs:stable_desh_ingot'
+    )
+
+    event.replaceInput([
+        { id: 'mekanism:oredictionificator'}
+    ],
+        '#forge:circuits/basic',
+        'kubejs:stable_desh_ingot'
+    )
+
+    event.replaceInput([
         { id: 'mekanism:logistical_sorter'}
     ],
         '#forge:circuits/basic',

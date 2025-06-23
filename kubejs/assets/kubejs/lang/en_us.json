@@ -1,5 +1,8 @@
 {
     "singularity.avaritia.ultimate_berry": "§lInterstellar Light",
+    
+    "item.jaopca.dusts.ostrum": "Ostrum Dust",
+    "item.jaopca.dusts.desh": "Desh Dust",
 
     "ui.kubejs.slashblade": "You have not learned the Soul of the Blade. ",
     "ui.kubejs.banned": "You are not destined! ",

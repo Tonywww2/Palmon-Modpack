@@ -1,5 +1,6 @@
 TFCEvents.data(event => {
     // p0
+    food('#minecraft:fishes', 2, 2, 0, 3, 0, 0, 0, 1, 0)
     food('kubejs:ultimate_berry', 24, 24, 20, 0, 0, 10, 5, 0, 0)
     food('kubejs:anchorgleam', 1, 1, 40, 0, 0, 0.5, 0.5, 0, 0)
     food('cobblemon:medicinal_leek', 1, 2, 2, 0.25, 0, 0.6, 0.6, 0, 0)

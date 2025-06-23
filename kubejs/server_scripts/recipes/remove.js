@@ -246,6 +246,26 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'industrialforegoing:dissolution_chamber/speed_addon_2' })
     event.remove({ id: 'industrialforegoing:dissolution_chamber/efficiency_addon_2' })
     event.remove({ id: 'industrialforegoing:dissolution_chamber/processing_addon_2' })
+    event.remove({ id: 'botanicalmachinery:mana_infusion/mana_emerald' })
+    event.remove({ id: 'botania:elven_trade/elementium_block' })
+
+    event.remove({ id: 'sophisticatedstorage:backpack_stack_upgrade_omega_tier_from_storage_stack_upgrade_omega_tier' })
+    event.remove({ id: 'sophisticatedbackpacks:stack_upgrade_omega_tier' })
+    event.remove({ id: 'sophisticatedstorage:storage_stack_upgrade_omega_tier_from_backpack_stack_upgrade_omega_tier' })
+    event.remove({ id: 'sophisticatedstorage:stack_upgrade_omega_tier' })
+
+    event.remove({ id: 'jaopca:storage_blocks.to_storage_block.cast_iron' })
+    event.remove({ id: 'jaopca:storage_blocks.to_storage_block.cast_iron' })
+    event.remove({ id: 'techreborn:smelting/platinum_ingot_from_c_sheldonite_ores' })
+    event.remove({ id: 'techreborn:smelting/platinum_ingot_from_c_platinum_dusts' })
+    event.remove({ id: 'techreborn:blasting/platinum_ingot_from_c_sheldonite_ores' })
+    event.remove({ id: 'techreborn:blasting/platinum_ingot_from_c_platinum_dusts' })
+    event.remove({ id: 'techreborn:crafting_table/ingot/platinum_ingot_from_nugget' })
+    event.remove({ id: 'techreborn:crafting_table/ingot/platinum_ingot_from_block' })
+    event.remove({ id: 'techreborn:crafting_table/nugget/platinum_nugget' })
+
+    event.remove({ id: 'dustandash:centrifuge/netherite_scrap' })
+    event.remove({ id: 'botania:flighttiara_0' })
 
     // s7
     event.remove({ id: 'avaritia:sculk_crafting_table' })
