@@ -207,9 +207,13 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'tinkers_advanced:table/voltaic_crystal' })
 
     event.remove({ id: 'sophisticatedbackpacks:feeding_upgrade' })
+    event.remove({ id: 'sophisticatedbackpacks:advanced_feeding_upgrade' })
     event.remove({ id: 'sophisticatedstorage:backpack_feeding_upgrade_from_storage_feeding_upgrade' })
+    event.remove({ id: 'sophisticatedstorage:backpack_advanced_feeding_upgrade_from_storage_advanced_feeding_upgrade' })
     event.remove({ id: 'sophisticatedstorage:advanced_feeding_upgrade' })
+    event.remove({ id: 'sophisticatedstorage:feeding_upgrade' })
     event.remove({ id: 'sophisticatedstorage:storage_advanced_feeding_upgrade_from_backpack_advanced_feeding_upgrade' })
+    event.remove({ id: 'sophisticatedstorage:storage_feeding_upgrade_from_backpack_feeding_upgrade' })
 
     event.remove({ id: 'ae2things:cells/disk_drive_256k' })
     event.remove({ id: 'ae2things:cells/disk_drive_64k' })

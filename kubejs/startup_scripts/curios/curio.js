@@ -182,7 +182,7 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.armor",
                 "gungnir_armor",
-                -0.4,
+                -0.2,
                 "multiply_base"
             )
             .modifyAttribute(

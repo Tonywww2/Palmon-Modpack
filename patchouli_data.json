@@ -17,7 +17,11 @@
         "botania:alfheim/alfheim_landscape",
         "botania:alfheim/andwari",
         "botania:mythic_botany/infuser",
-        "botania:devices/mana_conjuration"
+        "botania:devices/mana_conjuration",
+        "botania:alfhomancy/gaia_ritual",
+        "botania:alfhomancy/relics",
+        "botania:mythic_botany/pylons",
+        "botania:alfhomancy/thor_ring"
       ],
       "bookmarks": [],
       "completedManualQuests": []

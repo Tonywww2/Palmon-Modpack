@@ -37,8 +37,8 @@ global.dimAdder = {
     'ad_astra:venus': [100, 80, 42],
     'ad_astra:mercury': [110, 90, 44],
 
-    'minecraft:the_end': [140, 100, 52],
-    'deeperdarker:otherside': [180, 120, 64],
+    'minecraft:the_end': [130, 100, 52],
+    'deeperdarker:otherside': [160, 120, 64],
 
     'rats:ratlantis': [240, 150, 72]
 }
@@ -57,20 +57,26 @@ global.dimMuti = {
     'ad_astra:venus': [20, 2, 2.75],
     'ad_astra:mercury': [23, 2.1, 3.0],
 
-    'minecraft:the_end': [30, 2.5, 3.5],
-    'deeperdarker:otherside': [35, 3, 4.0],
+    'minecraft:the_end': [28, 2.5, 3.5],
+    'deeperdarker:otherside': [33, 3, 4.0],
 
     'rats:ratlantis': [42, 3.5, 4.5]
 }
 
 global.diffMultiplier = [
-    [1, 0.5, 0.5],
+    [1, 0.75, 0.5],
     [1, 1, 1],
     [1.5, 1, 1.2],
-    [1.8, 1.1, 1.5],
-    [3.0, 1.2, 2.0]
+    [2.0, 1.2, 1.5],
+    [3.0, 1.4, 2.0]
 ]
-global.mutiPlayerMultiplierScaler = [0, 0, 0.15, 0.25, 0.35]
+global.mutiPlayerMultiplierScaler = [
+    0,
+    0.1,
+    0.25,
+    0.45,
+    0.75
+]
 
 const health = "minecraft:generic.max_health"
 const attack = "minecraft:generic.attack_damage"
@@ -117,9 +123,9 @@ EntityEvents.spawned(event => {
         AABB.ofSize(entity.position(), 64, 64, 64)
     ).size() - 1
     if (playerCount < 0) playerCount = 0
-    
+
     // console.log(playerCount)
-    
+
     if (entity.attributes.hasAttribute(health)) {
         let hpVal = entity.getAttribute(health).getBaseValue() + global.dimAdder[dim][0]
         // hpVal *= global.dimMuti[dim][0] * global.diffMultiplier[diffNum][0]

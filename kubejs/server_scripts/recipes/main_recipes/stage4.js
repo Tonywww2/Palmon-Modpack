@@ -153,7 +153,7 @@ ServerEvents.recipes(event => {
         'A BCB A',
         ' AAAAA '
     ], {
-        A: 'nuclearcraft:plate_elite',
+        A: Item.of('tconstruct:large_plate', '{Material:"tconstruct:lead"}').weakNBT(),
         B: '#forge:storage_blocks/draconium',
         C: 'kubejs:essence_computation_frame',
         D: 'mythicbotany:alfsteel_ingot',

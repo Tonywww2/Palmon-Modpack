@@ -130,17 +130,41 @@
 	#Range: 0.0 ~ 2.147483647E9
 	annihilation_attack_self_multiplier = 2.5
 	#Basic FE/t for each level of Smeltery Generator modifier, 300 by default
-	#基础的每tick能量产出。默认300 FE/t。
+	#冶炼炉能量模块基础的每tick能量产出。默认300 FE/t。
 	#Range: > 0
 	smeltery_generator_generation = 300
 	#Energy per burning time, 10000 by default.
-	#每tick燃烧时长带来的总能量产出。默认10 kFE。
+	#每tick燃烧时长带来的总能量产出。默认10kFE。
 	#Range: > 0
 	smeltery_generator_generation_for_time = 10000
 	#Power multiplier for fuel temp, 0.001 by default , meaning that a 2000℃ fuel makes FE/t times 2.
 	#燃料温度对产能速率的影响。默认0.001，意味着2000℃的燃料会带来2倍的产能速度。
 	#Range: 0.0 ~ 2.147483647E9
 	smeltery_generator_temperature_multiplier = 0.001
+	#Disintegrate
+	#解离
+	#Bonus each block mined (%), 20(%) by default
+	#挖掘每个方块带来的加成（单位为%），默认20%。注：耐久惩罚是加成的一半。
+	#Range: > 0
+	disintegrate_each_bonus = 20
+	#Max bonus, 2000% by default.
+	#最大加成（单位为%），默认2000%。
+	#Range: > 0
+	disintegrate_max_bonus = 2000
+	#Bonus decrease each second, 5% by default.
+	#每秒减少的加成（单位为%），默认5%。
+	#Range: > 0
+	disintegrate_each_decrease = 5
+	#Void Dodging
+	#虚无闪避
+	#Chance for dodging arrow each level, 0.25 by default.
+	#每级闪避箭矢的概率，默认0.25。
+	#Range: 0.0 ~ 1.0
+	void_dodging_chance = 0.25
+	#Basic FE/t for each level of Compressed Air Generator modifier, 200 by default
+	#气动能量模块基础的每tick能量产出，默认50FE/t。注：最终产能会乘以工具压力。
+	#Range: > 0
+	compressed_air_generator_generation = 50
 
 #Tool Behaviour
 #工具行为
@@ -175,11 +199,11 @@
 	#The multiplier of fluid consumption of Ionized Cannon, 1.0 by default.
 	#等离子射线炮的定性流体消耗倍率，默认1.0x。
 	#Range: 0.0 ~ 2.147483647E9
-	ionized_cannon_fluid_factor = 1.0
+	ionized_cannon_fluid_factor = 8.0
 	#Damage multiplier for Ionized Cannon when using correct fluids, 4.0 by default.
 	#当有合适流体时等离子射线炮的伤害倍率，默认4.0x。
 	#Range: 1.0 ~ 2.147483647E9
-	ionized_cannon_damage_bonus = 4.0
+	ionized_cannon_damage_bonus = 1.25
 	#Base explosion scale efficiency for Ionized Cannon, 1.0 by default.
 	#等离子射线炮的基础效果范围，默认1.0。
 	#Range: 0.0 ~ 2.147483647E9
@@ -216,7 +240,7 @@
 	#The basic energy consumption when attacking for Electron Tuner, 250 by default.
 	#环流电子调谐剑攻击的能耗，默认250FE。
 	#Range: > 0
-	electron_tuner_consumption = 250
+	electron_tuner_consumption = 25000
 
 #Worldgen
 #世界生成
