@@ -33,6 +33,13 @@ let itemList = [
 ]
 let deliveryCoordinate = ['kubejs:delivery_coordinate_gamma', 'kubejs:delivery_coordinate_epsilon', 'kubejs:delivery_coordinate_ultimate']
 
+const enchantMap = {
+    'ad_astra_giselle_addon:space_breathing': 3,
+    'ad_astra_giselle_addon:space_fire_proof': 2,
+    'ad_astra_giselle_addon:acid_rain_proof': 2,
+    'ad_astra_giselle_addon:gravity_normalizing': 0
+}
+
 ItemEvents.tooltip(event => {
     /**
      * @type {Internal.ClientPlayerKJS}
@@ -153,28 +160,34 @@ ItemEvents.tooltip(event => {
     })
 
     event.add('thermal:lumium_coin', Text.translatable('ui.kubejs.lumium_coin').gold())
+    event.add("embers:alchemy_pedestal", Text.translatable('ui.kubejs.pedestal').gold())
 
     event.addAdvanced('deeperdarker:heart_of_the_deep', (item, advanced, text) => {
-        if (player.stages.has('deeperanddarker')) {
-            text.add(1, Text.translate("ui.kubejs.heart_of_the_deep").gold())
-        } else {
-            text.add(1, Text.translate("ui.kubejs.heart_of_the_deep_2").gold())
-        }
+        text.add(1, Text.translate("ui.kubejs.heart_of_the_deep").gold())
 
     })
 
     event.addAdvanced('deeperdarker:reinforced_echo_shard', (item, advanced, text) => {
-        if (player.stages.has('deeperanddarker')) {
-            text.add(1, Text.translate("ui.kubejs.reinforced_echo_shard").gold())
-        } else {
-            text.add(1, Text.translate("ui.kubejs.banned_seed").gold())
-        }
+        text.add(1, Text.translate("ui.kubejs.reinforced_echo_shard").gold())
 
     })
 
     event.addAdvanced(Ingredient.all, (item, advanced, text) => {
         if (event.alt && item.nbt) {
             text.add(Text.of('NBT: ').append(Text.prettyPrintNbt(item.nbt)))
+        }
+    })
+
+    event.addAdvanced('minecraft:enchanted_book', (item, advanced, text) => {
+        let flag = false
+        for (let key in enchantMap) {
+            if (item.getEnchantments().containsKey(key)) {
+                flag = true
+                break
+            }
+        }
+        if (flag) {
+            text.add(1, Text.translatable("ui.kubejs.enchant").gold())
         }
     })
 

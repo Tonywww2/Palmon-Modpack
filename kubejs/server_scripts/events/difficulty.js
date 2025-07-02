@@ -37,10 +37,10 @@ global.dimAdder = {
     'ad_astra:venus': [100, 80, 42],
     'ad_astra:mercury': [110, 90, 44],
 
-    'minecraft:the_end': [130, 100, 52],
-    'deeperdarker:otherside': [160, 120, 64],
+    'minecraft:the_end': [130, 100, 48],
+    'deeperdarker:otherside': [160, 120, 52],
 
-    'rats:ratlantis': [240, 150, 72]
+    'rats:ratlantis': [240, 150, 64]
 }
 global.dimMuti = {
     'kubejs:tfc_planet': [1, 0.5, 0.8],

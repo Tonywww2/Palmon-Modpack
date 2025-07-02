@@ -13,6 +13,7 @@ global.hurtEvent = function (event) {
 
     if (entity.player) {
         let damage = event.getAmount()
+        // entity.tell("damagesource: " + event.source.getType())
         if (event.source.player) {
             // entity.tell("Source Player Damage: " + damage)
             damage *= 0.3
@@ -23,6 +24,12 @@ global.hurtEvent = function (event) {
             // entity.tell("Damage: " + damage)
             damage *= global.dimMuti[dim][2]
             // entity.tell("After Damage: " + damage)
+            if (event.source.getType() == "oxygen") {
+                damage += entity.getMaxHealth() * 0.2
+            }
+            if (event.source.getType() == "freeze") {
+                damage += entity.getMaxHealth() * 0.05
+            }
         }
         event.setAmount(damage)
 

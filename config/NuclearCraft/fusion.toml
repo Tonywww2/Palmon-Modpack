@@ -18,7 +18,7 @@
 	rf_amplification_multiplier = 5.0
 	#Affects plasma energy to FE converion rate.
 	#Range: 0.01 ~ 10.0
-	plasma_to_energy_convertion = 1.0
+	plasma_to_energy_convertion = 4.0
 
 #Settings for Electromagnets
 [electromagnets]

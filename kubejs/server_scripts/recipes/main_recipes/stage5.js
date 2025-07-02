@@ -318,6 +318,120 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "palmon:processing",
         "category": "misc",
+        "focus_stat": "HP",
+        "min_level": 60,
+        "required_type": "poison",
+        "base_hp": 90,
+        "base_atk": 0,
+        "base_def": 0,
+        "base_spa": 0,
+        "base_spd": 0,
+        "base_spe": 0,
+        "area_blocks": [
+            {
+                "item": 'aetherworks:aether_forge'
+            },
+            {
+                "item": 'aetherworks:forge_metal_former'
+            },
+            {
+                "item": 'aetherworks:forge_vent'
+            }
+        ],
+        "block_count": 1,
+        "input_items": [
+            Item.of('2x #forge:ingots/dawnstone').toJson()
+        ],
+        "input_power": 0,
+        "input_fluid": {
+            "fluid": "aetherworks:aether_gas",
+            "amount": 160
+        },
+        "tick": 600,
+        "result_items": [
+            Item.of('aetherworks:ingot_aether').toJson()
+        ]
+    }).id('kubejs:ingot_aether_s5')
+
+    event.custom({
+        "type": "palmon:processing",
+        "category": "misc",
+        "focus_stat": "HP",
+        "min_level": 60,
+        "required_type": "poison",
+        "base_hp": 90,
+        "base_atk": 0,
+        "base_def": 0,
+        "base_spa": 0,
+        "base_spd": 0,
+        "base_spe": 0,
+        "area_blocks": [
+            {
+                "item": 'aetherworks:aether_forge'
+            },
+            {
+                "item": 'aetherworks:forge_metal_former'
+            },
+            {
+                "item": 'aetherworks:forge_vent'
+            }
+        ],
+        "block_count": 1,
+        "input_items": [
+            Item.of('#forge:gems/diamond').toJson()
+        ],
+        "input_power": 0,
+        "input_fluid": {
+            "fluid": "aetherworks:aether_gas",
+            "amount": 320
+        },
+        "tick": 800,
+        "result_items": [
+            Item.of('aetherworks:gem_aether').toJson()
+        ]
+    }).id('kubejs:gem_aether_1_s5')
+
+    event.custom({
+        "type": "palmon:processing",
+        "category": "misc",
+        "focus_stat": "HP",
+        "min_level": 60,
+        "required_type": "poison",
+        "base_hp": 90,
+        "base_atk": 0,
+        "base_def": 0,
+        "base_spa": 0,
+        "base_spd": 0,
+        "base_spe": 0,
+        "area_blocks": [
+            {
+                "item": 'aetherworks:aether_forge'
+            },
+            {
+                "item": 'aetherworks:forge_metal_former'
+            },
+            {
+                "item": 'aetherworks:forge_vent'
+            }
+        ],
+        "block_count": 1,
+        "input_items": [
+            Item.of('minecraft:emerald').toJson()
+        ],
+        "input_power": 0,
+        "input_fluid": {
+            "fluid": "aetherworks:aether_gas",
+            "amount": 320
+        },
+        "tick": 800,
+        "result_items": [
+            Item.of('aetherworks:gem_aether').toJson()
+        ]
+    }).id('kubejs:gem_aether_2_s5')
+
+    event.custom({
+        "type": "palmon:processing",
+        "category": "misc",
         "focus_stat": "ATTACK",
         "min_level": 60,
         "required_type": null,
@@ -409,10 +523,7 @@ ServerEvents.recipes(event => {
             },
             {
                 "item": 'cobblemon:monitor'
-            },
-            {
-                "item": 'cobblemon:relic_coin_sack'
-            },
+            }
         ],
         "block_count": 4,
         "input_items": [

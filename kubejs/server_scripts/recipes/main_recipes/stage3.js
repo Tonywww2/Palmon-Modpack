@@ -18,6 +18,14 @@ ServerEvents.recipes(event => {
     'forestry:apiary'
   )
 
+  event.shaped('minecraft:iron_trapdoor', [
+    'AA',
+    'AA'
+  ],
+    {
+      A: '#forge:ingots/cast_iron'
+    }).id('kubejs:iron_trapdoor_s3')
+
   event.shaped('cobblefordays:tier_4', [
     'AAA',
     'BDC',
@@ -83,6 +91,61 @@ ServerEvents.recipes(event => {
       B: '#forge:gears/tin',
       C: 'kubejs:beta_framework'
     }).id('kubejs:machine_frame_s3')
+
+  event.custom({
+  "type": "thermal_extra:component_assembly",
+  "energy": 25000,
+  "ingredients": [
+    {
+      "count": 4,
+      "tag": 'forge:tar'
+    },
+    {
+      "count": 1,
+      "item": 'minecraft:bucket'
+    },
+    {
+      "amount": 1000,
+      "fluid": 'ad_astra:oil'
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": 'thermal:crude_oil_bucket'
+    }
+  ]
+}).id('kubejs:crude_oil_1_s3')
+
+  event.custom({
+  "type": "thermal_extra:component_assembly",
+  "energy": 25000,
+  "ingredients": [
+    {
+      "count": 4,
+      "tag": 'forge:tar'
+    },
+    {
+      "count": 1,
+      "item": 'minecraft:bucket'
+    },
+    {
+      "amount": 1000,
+      "fluid": 'techreborn:oil'
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": 'thermal:crude_oil_bucket'
+    }
+  ]
+}).id('kubejs:crude_oil_2_s3')
+
+  event.recipes.thermal.pulverizer('2x minecraft:scute', 
+    ['minecraft:turtle_helmet']
+  ).energy(9600)
+    .id('kubejs:scute_s3')
 
   event.recipes.thermal.smelter('2x kubejs:present_alloy',
     ['3x #forge:ingots/signalum', '2x #forge:ingots/lumium', '#forge:ingots/enderium']

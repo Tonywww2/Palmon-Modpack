@@ -1,0 +1,12 @@
+{
+    "replace": true,
+    "values":
+    [
+        "minecraft:dark_forest",
+        "minecraft:taiga",
+        {
+            "id": "biomesoplenty:coniferous_forest",
+            "required": false
+        }
+    ]
+}

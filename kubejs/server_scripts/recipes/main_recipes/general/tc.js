@@ -30,9 +30,6 @@ ServerEvents.recipes(event => {
     tcMelting({ "item": 'tfc:powder/hematite' },
         { "amount": 7, "tag": "forge:molten_iron" }, 500, 10, 'kubejs:tc_melting_hematite')
 
-    tcMelting({ "item": 'tfc:powder/bismuth' },
-        { "amount": 90, "tag": "forge:bismuth" }, 500, 10, 'kubejs:tc_melting_garnierite')
-
     tcMelting({ "tag": 'forge:ingots/black_bronze' },
         { "amount": 100, "tag": "tfc:black_bronze" }, 500, 80, 'kubejs:tc_melting_black_bronze')
     tcMelting({ "tag": 'forge:ingots/bismuth_bronze' },

@@ -156,6 +156,12 @@
 
     "item.kubejs.methane_helium_3_fuel_bucket": "§e桶装甲烷-氦-3 熵燃料",
 
+    "kubejs.enchant.no_armor": "你需要装备对应的护甲",
+    "kubejs.enchant.applied": "附魔安装成功",
+    
+    "ui.kubejs.enchant": "使用这本附魔书，为正在穿戴的护甲安装附魔",
+    "ui.kubejs.pedestal": "炼金基座只能使用自动化方式访问（如漏斗）",
+
     "ui.kubejs.slashblade": "你还未领悟§e剑之魂",
     "ui.kubejs.banned": "你没资格啊你没资格，正因为如此你没资格啊你没资格",
     "ui.kubejs.relic_coin": "来自古代的硬币，可以用于合成不同的补给卷",
@@ -169,9 +175,8 @@
     
     "ui.kubejs.lumium_coin": "使用该物品，可以将你的异界遗物栏位数量设置为2",
 
-    "ui.kubejs.heart_of_the_deep": "与强化回响碎片结合使用...",
-    "ui.kubejs.heart_of_the_deep_2": "与Epsilon 框架结合使用...",
-    "ui.kubejs.reinforced_echo_shard": "主手持深渊之心，副手持该物品，潜行时使用后，将会在时空中撕开一道裂缝......",
+    "ui.kubejs.heart_of_the_deep": "与强化回响碎片/Epsilon 框架结合使用...",
+    "ui.kubejs.reinforced_echo_shard": "若你与该物品有缘：主手持深渊之心，副手持该物品，潜行时使用后，将会在时空中撕开一道裂缝......",
 
     "ui.kubejs.no_dulp_curio": "仅第一个佩戴的该饰品生效",
 

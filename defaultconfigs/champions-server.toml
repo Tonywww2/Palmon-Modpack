@@ -20,7 +20,7 @@
 	maxHealthModifierOperation = "MULTIPLY_TOTAL"
 	#The percent increase in attack damage multiplied by the growth factor
 	#Range: 0.0 ~ 1.7976931348623157E308
-	attackGrowth = 0.1
+	attackGrowth = 0.05
 	#The attackGrowth operation. Effect how attack growth calculate
 	#Allowed Values: ADDITION, MULTIPLY_BASE, MULTIPLY_TOTAL
 	attackModifierOperation = "MULTIPLY_TOTAL"

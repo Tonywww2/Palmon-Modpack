@@ -51,4 +51,10 @@
 	#Determining the base exp cost for slashblade's self-repair.
 	#Range: > 1
 	bewitched_exp_cost = 1
+	#Determining the count for proud soul when blade be broken.
+	#Range: 1 ~ 64
+	max_proudsoul_drop = 10
+	#Determining the count for enchanted proud soul when blade be broken.
+	#Range: 1 ~ 64
+	max_enchanted_proudsoul_drop = 10
 

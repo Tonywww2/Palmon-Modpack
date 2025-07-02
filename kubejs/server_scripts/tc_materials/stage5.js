@@ -21,7 +21,7 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         .addMaille()
         .addShieldCore()
         .addTraits()
-        .addDefaultTrait(1, 'tconstruct:dense')
+        .addDefaultTrait(1, 'tconstruct:enderference')
         .addDefaultTrait(1, 'tconstruct:ductile')
         .addDefaultTrait(1, 'etstlib:glowing')
         .build();

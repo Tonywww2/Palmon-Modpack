@@ -328,8 +328,9 @@ StartupEvents.registry('item', event => {
                             ]).getItemIds()
 
                             let stack = Item.of(pokeBallList[player.random.nextInt(pokeBallList.length)])
+                            let name = stack.getDisplayName()
                             if (player.addItem(stack)) {
-                                player.tell(Text.translatable('ui.kubejs.compact_pal_factory_4').append(stack.getDisplayName()).gold())
+                                player.tell(Text.translatable('ui.kubejs.compact_pal_factory_4').append(name).gold())
 
                             }
                         }

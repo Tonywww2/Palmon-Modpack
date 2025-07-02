@@ -12,8 +12,17 @@
 	#
 	#The cooldown multiplier of the twin attack. Range[0, 512] Default: 1.0
 	#Range: 0.0 ~ 512.0
-	twinAttackCDMultiplier = 1.0
+	twinAttackCDMultiplier = 1.5
 	#
 	#Enable debug information or not.
-	debugInfo = false
+	debugInfo = true
+	#
+	#Check if the attack event result is true.
+	checkAttackEventResult = false
+	#
+	#Check if the target is attackable.
+	checkIsAttackable = true
+	#
+	#Consume durability when twin attack.
+	consumeDurability = true
 

@@ -1,3 +1,15 @@
+// Config Area: 
+
+// Default: 22, 84 if you want the oxygen tanks not to overlap with the infos
+const xPos = 22
+// Default: 28
+const yPos = 28
+// Default: 0
+const zPos = 0
+
+const enableInfoDisplay = true
+
+// Do not edit below this line | 不要编辑此行以下的内容
 const $GuiGraphics = Java.loadClass("net.minecraft.client.gui.GuiGraphics")
 const $ClimateRenderCache = Java.loadClass("net.dries007.tfc.client.ClimateRenderCache")
 const $Calendars = Java.loadClass("net.dries007.tfc.util.calendar.Calendars")
@@ -23,7 +35,7 @@ global.renderGuiEvent = function (event) {
     tickCount++
     if (tickCount % 20 == 0) {
         let climateCache = $ClimateRenderCache.INSTANCE
-        let calendarsClient = $Calendars.CLIENT
+        let calendarsClient = $Calendars.get(true)
 
         cachedClimate.rainFall = climateCache.getRainfall()
         cachedClimate.avgTemp = climateCache.getAverageTemperature()
@@ -40,7 +52,7 @@ global.renderGuiEvent = function (event) {
 
     poseStack.pushPose()
     {
-        poseStack.translate(22, 28, 0)
+        poseStack.translate(xPos, yPos, zPos)
         poseStack.pushPose()
         {
             poseStack.translate(-15, -10, 0)
@@ -52,7 +64,7 @@ global.renderGuiEvent = function (event) {
                 false
             )
             // 开关信息显示
-            if (true) {
+            if (enableInfoDisplay) {
                 if (cachedCalendarDate) {
                     guiGraphics["drawString(net.minecraft.client.gui.Font,java.lang.String,float,float,int,boolean)"](
                         Client.font,

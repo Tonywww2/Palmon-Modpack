@@ -270,6 +270,8 @@ ServerEvents.recipes(event => {
 
     event.remove({ id: 'dustandash:centrifuge/netherite_scrap' })
     event.remove({ id: 'botania:flighttiara_0' })
+    event.remove({ id: 'thermal_extra:machine/component_assembly/redstone_servo1' })
+    event.remove({ id: 'integrateddynamics:squeezer/ore/netherrite_scrap' })
 
     // s7
     event.remove({ id: 'avaritia:sculk_crafting_table' })

@@ -4,6 +4,12 @@
     "item.jaopca.dusts.ostrum": "Ostrum Dust",
     "item.jaopca.dusts.desh": "Desh Dust",
 
+    "kubejs.enchant.no_armor": "You need to wear the corresponding armor",
+    "kubejs.enchant.applied": "Enchantment applied successfully",
+
+    "ui.kubejs.enchant": "Use this book to install enchantment on the armor that you are wearing",
+    "ui.kubejs.pedestal": "The Alchemy Pedestal can only be accessed through automation (e.g. Hoppers)",
+
     "ui.kubejs.slashblade": "You have not learned the Soul of the Blade. ",
     "ui.kubejs.banned": "You are not destined! ",
     "ui.kubejs.relic_coin": "Ancient coins that can be used to synthesize different Vouchers",
@@ -16,9 +22,8 @@
         
     "ui.kubejs.lumium_coin": "Use this item to set the number of your Otherworld Relics slots to 2",
 
-    "ui.kubejs.heart_of_the_deep": "Used in combination with Reinforced Echo Shard...",
-    "ui.kubejs.heart_of_the_deep_2": "Used in combination with Epsilon Framework...",
-    "ui.kubejs.reinforced_echo_shard": "With the Heart of the Deep in the mainhand and the item in the offhand, a rift will be torn through time and space when used while sneaking ......",
+    "ui.kubejs.heart_of_the_deep": "Used in combination with Reinforced Echo Shard/Epsilon Framework...",
+    "ui.kubejs.reinforced_echo_shard": "If you have connection to this item: With the Heart of the Deep in the mainhand and the item in the offhand, a rift will be torn through time and space when used while sneaking......",
 
     "ui.kubejs.no_dulp_curio": "Only one will be activated. ",
 

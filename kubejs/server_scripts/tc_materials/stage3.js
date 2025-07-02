@@ -70,8 +70,7 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addTraits()
         .addDefaultTrait(1, 'tconstruct:heavy')
         .addDefaultTrait(1, 'etstlib:critical')
-        .addPerStatTrait('tconstruct:head', 1, 'tinkers_advanced:tetanus')
-        .addPerStatTrait('tconstruct:head', 1, 'tcintegrations:hellish')
+        .addPerStatTrait('tconstruct:head', 2, 'tinkers_advanced:tetanus')
         .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:recurrent_protection')
         .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:ductile')
         .build();

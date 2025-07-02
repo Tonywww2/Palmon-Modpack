@@ -359,10 +359,7 @@ function s5ConvergenceRecipe(event, index1, index2, index3) {
             },
             {
                 "item": 'cobblemon:monitor'
-            },
-            {
-                "item": 'cobblemon:relic_coin_sack'
-            },
+            }
         ],
         "block_count": 4,
         "input_items": [

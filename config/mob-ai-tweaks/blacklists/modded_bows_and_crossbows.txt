@@ -1,1 +1,6 @@
 #Dual blacklist for modded bows and crossbows, takes their in-game ID (e.g. mob-ai-tweaks:modded_bow_or_crossbow_item)
+draconicevolution:chaotic_bow
+draconicevolution:draconic_bow
+draconicevolution:wyvern_bow
+avaritia:infinity_bow
+avaritia:infinity_crossbow

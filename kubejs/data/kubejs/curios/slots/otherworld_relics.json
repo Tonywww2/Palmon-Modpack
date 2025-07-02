@@ -1,6 +1,6 @@
 {
     "replace": true,
-    "size": 2,
+    "size": 1,
     "order": 1433,
     "icon": "kubejs:slot/otherworld_relics_slot",
     "add_cosmetic": true,

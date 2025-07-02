@@ -1,1 +1,7 @@
 #Blacklist for items allays can use in combat, takes their in-game ID (e.g. mob-ai-tweaks:item_to_blacklist)
+avaritia:infinity_sword
+avaritia:crystal_sword
+avaritia:blaze_sword
+draconicevolution:chaotic_sword
+draconicevolution:draconic_sword
+draconicevolution:wyvern_sword
