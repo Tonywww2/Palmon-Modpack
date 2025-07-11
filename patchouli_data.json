@@ -21,7 +21,10 @@
         "botania:alfhomancy/gaia_ritual",
         "botania:alfhomancy/relics",
         "botania:mythic_botany/pylons",
-        "botania:alfhomancy/thor_ring"
+        "botania:alfhomancy/thor_ring",
+        "botania:generating_flowers/spectrolus",
+        "botania:functional_flowers/marimorphosis",
+        "botania:functional_flowers/jaded_amaranthus"
       ],
       "bookmarks": [],
       "completedManualQuests": []
@@ -163,6 +166,18 @@
         "umapyoi:training/status",
         "umapyoi:inherit/inherit",
         "umapyoi:inherit/register_table"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "ars_nouveau:worn_notebook": {
+      "viewedEntries": [
+        "ars_nouveau:source/relay",
+        "ars_nouveau:machines/mob_jar",
+        "ars_nouveau:rituals/ritual_containment",
+        "ars_nouveau:source/source_jar",
+        "ars_nouveau:enchantments/how_to_enchant",
+        "ars_nouveau:machines/enchanting_apparatus"
       ],
       "bookmarks": [],
       "completedManualQuests": []

@@ -1,21 +1,25 @@
 {
     "entity": "minecraft:magma_cube",
-    "variants": [],
+    "variants":
+    [],
     "name": "entity.minecraft.magma_cube",
     "name_color": "#CC2200",
     "gui_scale": 2,
     "gui_x_offset": 0,
     "gui_y_offset": 0,
     "gui_z_offset": 0,
-    "sim_cost": 256,
-    "input": {
+    "sim_cost": 2048,
+    "input":
+    {
         "item": "hostilenetworks:prediction_matrix"
     },
-    "base_drop": {
+    "base_drop":
+    {
         "item": "hostilenetworks:nether_prediction"
     },
     "trivia": "hostilenetworks.trivia.magma_cube",
-    "fabricator_drops": [
+    "fabricator_drops":
+    [
         {
             "item": "minecraft:magma_cream",
             "count": 32

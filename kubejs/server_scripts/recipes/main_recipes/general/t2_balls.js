@@ -138,7 +138,7 @@ ServerEvents.recipes(event => {
             "result_items": [
                 {
                     "item": output,
-                    "count": 6
+                    "count": 16
                 }
             ]
         }).id('kubejs:' + output.split(':')[1])

@@ -31,7 +31,7 @@
 			
 			# Constrain maximum map zoom-out based on number of explored regions and available memory
 			# Default: true
-			max_zoom_constraint: true
+			max_zoom_constraint: false
 			
 			# Periodically release region data for non-recently-used regions to save memory (units of seconds, 0 disables releasing
 			# Default: 300
@@ -221,7 +221,7 @@
 		
 		# Enables creation of death waypoints
 		# Default: true
-		death_waypoints: true
+		death_waypoints: false
 		
 		# Show waypoints in world
 		# Default: true

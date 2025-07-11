@@ -29,8 +29,11 @@ ServerEvents.recipes(event => {
             let rid = recipe.getId()
             event.remove({id: rid})
 
+            // console.log(originalRecipe)
+
             let power = originalRecipe.get("power").getAsInt() * 8
-            power = $Integer.valueOf((power + '').split('.')[0])
+            // power = $Integer.valueOf((power + '').split('.')[0])
+            power = new $Double(power).intValue()
             originalRecipe["addProperty(java.lang.String,java.lang.Number)"]("power", power)
             // console.log(originalRecipe)
 

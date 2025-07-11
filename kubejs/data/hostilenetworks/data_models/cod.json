@@ -1,23 +1,27 @@
 {
     "entity": "minecraft:cod",
-    "variants": [],
+    "variants":
+    [],
     "name": "entity.minecraft.cod",
     "name_color": "#A52A2A",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
     "gui_z_offset": 0.0,
-    "sim_cost": 32,
-    "input": {
+    "sim_cost": 2560,
+    "input":
+    {
         "item": "hostilenetworks:prediction_matrix",
         "count": 1
     },
-    "base_drop": {
+    "base_drop":
+    {
         "item": "hostilenetworks:overworld_prediction",
         "count": 1
     },
     "trivia": "hostilenetworks.trivia.cod",
-    "fabricator_drops": [
+    "fabricator_drops":
+    [
         {
             "optional": true,
             "item": "croptopia:roe",
@@ -32,13 +36,15 @@
             "count": 2
         }
     ],
-    "tier_data": [
+    "tier_data":
+    [
         6,
         54,
         354,
         1254
     ],
-    "data_per_kill": [
+    "data_per_kill":
+    [
         1,
         4,
         10,

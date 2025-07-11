@@ -1,6 +1,7 @@
 {
     "entity": "minecraft:ghast",
-    "variants": [
+    "variants":
+    [
         "twilightforest:carminite_ghastguard",
         "twilightforest:carminite_ghastling"
     ],
@@ -10,15 +11,18 @@
     "gui_x_offset": 0,
     "gui_y_offset": 4,
     "gui_z_offset": 0,
-    "sim_cost": 256,
-    "input": {
+    "sim_cost": 2560,
+    "input":
+    {
         "item": "hostilenetworks:prediction_matrix"
     },
-    "base_drop": {
+    "base_drop":
+    {
         "item": "hostilenetworks:nether_prediction"
     },
     "trivia": "hostilenetworks.trivia.ghast",
-    "fabricator_drops": [
+    "fabricator_drops":
+    [
         {
             "item": "minecraft:ghast_tear",
             "count": 16

@@ -203,7 +203,7 @@
 	#Damage multiplier for Ionized Cannon when using correct fluids, 4.0 by default.
 	#当有合适流体时等离子射线炮的伤害倍率，默认4.0x。
 	#Range: 1.0 ~ 2.147483647E9
-	ionized_cannon_damage_bonus = 2.5
+	ionized_cannon_damage_bonus = 3.0
 	#Base explosion scale efficiency for Ionized Cannon, 1.0 by default.
 	#等离子射线炮的基础效果范围，默认1.0。
 	#Range: 0.0 ~ 2.147483647E9

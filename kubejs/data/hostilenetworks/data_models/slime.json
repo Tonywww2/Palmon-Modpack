@@ -1,6 +1,7 @@
 {
     "entity": "minecraft:slime",
-    "variants": [
+    "variants":
+    [
         "tconstruct:earth_slime",
         "twilightforest:maze_slime",
         "twilightforest:slime_beetle"
@@ -11,15 +12,18 @@
     "gui_x_offset": 0,
     "gui_y_offset": 0,
     "gui_z_offset": 0,
-    "sim_cost": 128,
-    "input": {
+    "sim_cost": 1024,
+    "input":
+    {
         "item": "hostilenetworks:prediction_matrix"
     },
-    "base_drop": {
+    "base_drop":
+    {
         "item": "hostilenetworks:overworld_prediction"
     },
     "trivia": "hostilenetworks.trivia.slime",
-    "fabricator_drops": [
+    "fabricator_drops":
+    [
         {
             "item": "minecraft:slime_ball",
             "count": 32

@@ -13,10 +13,11 @@ global.hurtEvent = function (event) {
 
     if (entity.player) {
         let damage = event.getAmount()
+        if (damage <= 0) return
         // entity.tell("damagesource: " + event.source.getType())
         if (event.source.player) {
             // entity.tell("Source Player Damage: " + damage)
-            damage *= 0.3
+            damage /= (0.75 * Math.log(1 + damage)) + 1
             // entity.tell("After Damage: " + damage)
 
         } else {

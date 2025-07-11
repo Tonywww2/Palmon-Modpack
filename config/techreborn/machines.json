@@ -178,7 +178,7 @@
     },
     "MatterFabricatorMaxInput": {
       "comment": "Matter Fabricator Max Input (Energy per tick)",
-      "value": 8192000
+      "value": 500000000
     },
     "MatterFabricatorMaxEnergy": {
       "comment": "Matter Fabricator Max Energy",

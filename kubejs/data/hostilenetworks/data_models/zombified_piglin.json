@@ -1,6 +1,7 @@
 {
     "entity": "minecraft:zombified_piglin",
-    "variants": [
+    "variants":
+    [
         "minecraft:piglin"
     ],
     "name": "entity.minecraft.zombified_piglin",
@@ -9,15 +10,18 @@
     "gui_x_offset": 0,
     "gui_y_offset": 0,
     "gui_z_offset": 0,
-    "sim_cost": 256,
-    "input": {
+    "sim_cost": 1024,
+    "input":
+    {
         "item": "hostilenetworks:prediction_matrix"
     },
-    "base_drop": {
+    "base_drop":
+    {
         "item": "hostilenetworks:nether_prediction"
     },
     "trivia": "hostilenetworks.trivia.zombified_piglin",
-    "fabricator_drops": [
+    "fabricator_drops":
+    [
         {
             "item": "minecraft:rotten_flesh",
             "count": 64

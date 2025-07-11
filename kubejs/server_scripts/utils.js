@@ -10,6 +10,7 @@ const $JsonObject = Java.loadClass("com.google.gson.JsonObject")
 const $JsonArray = Java.loadClass("com.google.gson.JsonArray")
 
 const $Integer = Java.loadClass("java.lang.Integer")
+const $Double = Java.loadClass("java.lang.Double")
 
 const PACK_DATA_PATH = "kubejs\\packdata\\palmon_pack_data.json"
 

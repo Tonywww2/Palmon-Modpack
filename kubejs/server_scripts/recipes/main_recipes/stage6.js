@@ -1,16 +1,58 @@
 ServerEvents.recipes(event => {
     event.recipes.create.crushing([
         Item.of('kubejs:epsilon_dust'),
-        Item.of('kubejs:epsilon_dust').withChance(0.75),
+        Item.of('kubejs:epsilon_dust').withChance(0.8),
+        Item.of('kubejs:epsilon_dust').withChance(0.6),
         Item.of('kubejs:epsilon_dust').withChance(0.5),
         Item.of('kubejs:epsilon_dust').withChance(0.4),
         Item.of('kubejs:epsilon_dust').withChance(0.3),
-        Item.of('kubejs:epsilon_dust').withChance(0.2),
-        Item.of('kubejs:epsilon_dust').withChance(0.1)
+        Item.of('kubejs:epsilon_dust').withChance(0.2)
     ], 'kubejs:epsilon_framework')
         .id('kubejs:epsilon_dust_s6')
 
     event.shapeless('occultism:chalk_red_impure', ['occultism:chalk_white_impure', 'occultism:afrit_essence', '#forge:dusts/blaze', 'kubejs:epsilon_dust']).id('kubejs:chalk_red_impure_s6')
+    event.shapeless('embers:alchemical_waste', ['embers:ember_shard', '8x #forge:ash']).id('kubejs:alchemical_waste_s6')
+
+    event.shaped('mekanism:basic_energy_cube',
+        [
+            'AEA',
+            'IPI',
+            'AEA'
+        ],
+        {
+            A: '#mekanism:alloys/basic',
+            E: 'mekanism:energy_tablet',
+            I: '#forge:ingots/iron',
+            P: 'integrateddynamics:energy_battery'
+        }
+    ).id('kubejs:basic_energy_cube_s6');
+
+    event.shaped(Item.of('techreborn:industrial_machine_casing', 1),
+        [
+            'RRR',
+            'CAC',
+            'RRR'
+        ],
+        {
+            A: 'techreborn:industrial_machine_frame',
+            R: '#c:chromium_plates',
+            C: 'techreborn:data_storage_core'
+        }
+    ).id('kubejs:industrial_machine_casing_s6')
+
+    event.shaped(Item.of('techreborn:advanced_machine_casing', 9),
+        [
+            'RBR',
+            'CAC',
+            'RBR'
+        ],
+        {
+            A: 'kubejs:advanced_machine_frame',
+            R: '#c:steel_plates',
+            C: 'techreborn:advanced_circuit',
+            B: 'techreborn:basic_machine_casing'
+        }
+    ).id('kubejs:advanced_machine_casing_s6')
 
     event.shaped('4x mekanism:thermal_evaporation_block', [
         'ABA',
@@ -67,7 +109,7 @@ ServerEvents.recipes(event => {
         T: 'draconicevolution:draconic_energy_core'
     }).id('kubejs:chemical_oxidizer_s6')
 
-    event.shaped('2x mekanismgenerators:fission_reactor_casing', [
+    event.shaped('5x mekanismgenerators:fission_reactor_casing', [
         'ACA',
         'BDB',
         'AEA'
@@ -80,7 +122,7 @@ ServerEvents.recipes(event => {
             E: Item.of('tconstruct:large_plate', '{Material:"tconstruct:lead"}').weakNBT()
         }).id('kubejs:fission_reactor_casing_s6')
 
-    event.shaped('kubejs:advanced_machine_frame', [
+    event.shaped('3x kubejs:advanced_machine_frame', [
         'ADA',
         'BCB',
         'BAB'
@@ -92,7 +134,7 @@ ServerEvents.recipes(event => {
             D: 'kubejs:epsilon_dust'
         }).id('kubejs:advanced_machine_frame_s6')
 
-    event.shaped('kubejs:basic_machine_frame', [
+    event.shaped('3x kubejs:basic_machine_frame', [
         'ACA',
         'ADA',
         'ACA'
@@ -103,7 +145,7 @@ ServerEvents.recipes(event => {
             D: 'kubejs:epsilon_dust'
         }).id('kubejs:basic_machine_frame_s6')
 
-    event.shaped('ars_nouveau:imbuement_chamber', [
+    event.shaped('2x ars_nouveau:imbuement_chamber', [
         'ACA',
         'BDB',
         'BEB'
@@ -125,14 +167,14 @@ ServerEvents.recipes(event => {
         'ars_nouveau:amethyst_golem_charm',
         'ars_elemental:siren_charm',
         'ars_elemental:firenando_charm'
-    ], 'draconicevolution:awakened_core', 'kubejs:cognitio', 40000).id('kubejs:cognitio_s6')
+    ], 'draconicevolution:awakened_core', 'kubejs:cognitio', 10000).id('kubejs:cognitio_s6')
 
-    event.recipes.thermal.smelter('16x kubejs:intelligent_draconium_ingot',
-        ['kubejs:epsilon_dust', '16x jaopca:processors.draconium']
+    event.recipes.thermal.smelter('64x kubejs:intelligent_draconium_ingot',
+        ['kubejs:epsilon_dust', '32x jaopca:processors.draconium', '16x #forge:gears/draconium']
     ).energy(102400)
         .id('kubejs:intelligent_draconium_ingot_s6')
 
-    event.shaped('industrialforegoing:mob_slaughter_factory', [
+    event.shaped('2x industrialforegoing:mob_slaughter_factory', [
         'ADA',
         'BEB',
         'CFC'
@@ -146,7 +188,7 @@ ServerEvents.recipes(event => {
             F: '#forge:dusts/redstone'
         }).id('kubejs:mob_slaughter_factory_s6')
 
-    event.shaped('ad_astra:cryo_freezer', [
+    event.shaped('2x ad_astra:cryo_freezer', [
         'ADA',
         'BCB',
         'ADA'
@@ -172,7 +214,7 @@ ServerEvents.recipes(event => {
             F: 'kubejs:essence_computation_frame'
         }).id('kubejs:soul_laser_base_s6')
 
-    event.shaped('industrialforegoing:enchantment_factory', [
+    event.shaped('2x industrialforegoing:enchantment_factory', [
         'PBP',
         'DMD',
         'OFO'
@@ -185,7 +227,7 @@ ServerEvents.recipes(event => {
         F: 'kubejs:essence_computation_frame'
     }).id('kubejs:enchantment_factory_s6')
 
-    event.shaped('industrialforegoing:enchantment_extractor', [
+    event.shaped('2x industrialforegoing:enchantment_extractor', [
         'PSP',
         'BMB',
         'DGD'
@@ -198,7 +240,7 @@ ServerEvents.recipes(event => {
         G: 'kubejs:essence_computation_frame'
     }).id('kubejs:enchantment_extractor_s6')
 
-    event.shaped('industrialforegoing:enchantment_applicator', [
+    event.shaped('2x industrialforegoing:enchantment_applicator', [
         'PFP',
         'BMB',
         'GBG'
@@ -210,7 +252,7 @@ ServerEvents.recipes(event => {
         F: 'kubejs:essence_computation_frame'
     }).id('kubejs:enchantment_applicator_s6')
 
-    event.shaped('industrialforegoing:ore_laser_base', [
+    event.shaped('2x industrialforegoing:ore_laser_base', [
         'pfp',
         'bmb',
         'grg'
@@ -223,7 +265,7 @@ ServerEvents.recipes(event => {
         r: 'kubejs:essence_computation_frame'
     }).id('kubejs:ore_laser_base_s6')
 
-    event.shaped('industrialforegoing:potion_brewer', [
+    event.shaped('2x industrialforegoing:potion_brewer', [
         'PSP',
         'BMB',
         'GFG'
@@ -236,7 +278,7 @@ ServerEvents.recipes(event => {
         G: 'minecraft:repeater'
     }).id('kubejs:potion_brewer_s6')
 
-    event.shaped('industrialforegoing:marine_fisher', [
+    event.shaped('2x industrialforegoing:marine_fisher', [
         'pfp',
         'bmb',
         'grg'
@@ -249,7 +291,7 @@ ServerEvents.recipes(event => {
         r: 'kubejs:essence_computation_frame'
     }).id('kubejs:marine_fisher_s6')
 
-    event.shaped('industrialforegoing:material_stonework_factory', [
+    event.shaped('2x industrialforegoing:material_stonework_factory', [
         'pcp',
         'gmf',
         'aba'
@@ -305,8 +347,8 @@ ServerEvents.recipes(event => {
     ).energy(51200)
         .id('kubejs:silicon_plate_s6')
 
-    event.recipes.thermal.smelter('2x kubejs:yin_yang_steel',
-        ['create:shadow_steel', 'create:refined_radiance', 'techreborn:advanced_alloy_plate']
+    event.recipes.thermal.smelter('12x kubejs:yin_yang_steel',
+        ['8x create:shadow_steel', '8x create:refined_radiance', 'techreborn:advanced_alloy_plate']
     ).energy(102400)
         .id('kubejs:yin_yang_steel_s6')
 
@@ -315,8 +357,8 @@ ServerEvents.recipes(event => {
     ).energy(51200)
         .id('kubejs:ash_steel_ingot_s6')
 
-    event.recipes.thermal.smelter('kubejs:reinforced_sheet',
-        ['kubejs:epsilon_dust', '#forge:plates/terrasteel', '#forge:plates/elementium']
+    event.recipes.thermal.smelter('3x kubejs:reinforced_sheet',
+        ['kubejs:epsilon_dust', '4x #forge:plates/terrasteel', '4x #forge:plates/elementium']
     ).energy(204800)
         .id('kubejs:reinforced_sheet_s6')
 
@@ -335,14 +377,14 @@ ServerEvents.recipes(event => {
         'techreborn:cell'
     ]).id('kubejs:oil_cell_3')
 
-    event.recipes.create.mixing(Fluid.of('kubejs:methane_helium_3_fuel', 750), [
-        Fluid.of('techreborn:methane', 500),
-        Fluid.of('tinkers_advanced:pyrotheum', 500),
-        Fluid.of('techreborn:helium3', 250),
-        Fluid.of('tinkers_advanced:plasmatic_lava', 250)
+    event.recipes.create.mixing(Fluid.of('kubejs:methane_helium_3_fuel', 1250), [
+        Item.of('techreborn:cell', '{fluid:"techreborn:methane"}').weakNBT(),
+        Fluid.of('tinkers_advanced:pyrotheum', 1000),
+        Item.of('techreborn:cell', '{fluid:"techreborn:helium3"}').weakNBT(),
+        Fluid.of('tinkers_advanced:plasmatic_lava', 500)
     ]).superheated().processingTime(800).id('kubejs:methane_helium_3_fuel_s6')
 
-    event.recipes.create.mechanical_crafting('2x kubejs:industrial_machine_frame', [
+    event.recipes.create.mechanical_crafting('4x kubejs:industrial_machine_frame', [
         ' AA AA ',
         'ACGBGEA',
         'AGDHFGA',
@@ -399,22 +441,22 @@ ServerEvents.recipes(event => {
     }).id('kubejs:advanced_alloy_ingot_s6')
 
     event.custom({
-        "type": "dustandash:centrifuge",
-        "tick": 400,
+        "type": "techreborn:implosion_compressor",
+        "power": 2048,
+        "time": 2000,
         "ingredients": [
-            Item.of('techreborn:cell', '{fluid:"aetherworks:aether_gas_painful"}').weakNBT().toJson(),
-            Item.of('techreborn:cell', '{fluid:"kubejs:methane_helium_3_fuel"}').weakNBT().toJson()
+            {
+                "fluid": "aetherworks:aether_gas_painful",
+                "holder": "techreborn:cell"
+            },
+            {
+                "fluid": "kubejs:methane_helium_3_fuel",
+                "holder": "techreborn:cell"
+            }
         ],
-        "outputs": [
-            Item.of('draconicevolution:awakened_draconium_dust').toJson(),
-            Item.of('dustandash:empty').toJson(),
-            Item.of('draconicevolution:awakened_draconium_dust').toJson(),
-            Item.of('dustandash:empty').toJson(),
-
-            Item.of('dustandash:empty').toJson(),
-            Item.of('dustandash:empty').toJson(),
-            Item.of('dustandash:empty').toJson(),
-            Item.of('draconicevolution:awakened_draconium_dust').toJson()
+        "results": [
+            Item.of('draconicevolution:awakened_draconium_dust', 3).toJson(),
+            Item.of('draconicevolution:draconium_dust', 1).toJson()
         ]
     }).id('kubejs:awakened_draconium_dust_s6')
 
@@ -477,7 +519,7 @@ ServerEvents.recipes(event => {
         200
     ).id("kubejs:fission_fuel_assembly_s6")
 
-    event.shaped('nuclearcraft:fusion_reactor_casing', [
+    event.shaped('3x nuclearcraft:fusion_reactor_casing', [
         'ABA',
         'BCB',
         'ABA'
@@ -485,7 +527,7 @@ ServerEvents.recipes(event => {
         {
             A: 'nuclearcraft:plate_advanced',
             B: 'jaopca:plates.manyullyn',
-            C: 'kubejs:epsilon_dust'
+            C: 'kubejs:reinforced_sheet'
         }).id('kubejs:fusion_reactor_casing_s6')
 
     event.shaped('mythicbotany:central_rune_holder', [
@@ -494,7 +536,7 @@ ServerEvents.recipes(event => {
     ],
         {
             A: 'kubejs:collapse_prediction',
-            B: 'kubejs:epsilon_dust',
+            B: 'kubejs:reinforced_sheet',
             C: 'mythicbotany:rune_holder'
         }).id('kubejs:central_rune_holder_s6')
 
@@ -504,7 +546,7 @@ ServerEvents.recipes(event => {
     ],
         {
             A: 'kubejs:collapse_prediction',
-            B: 'kubejs:epsilon_dust',
+            B: 'kubejs:reinforced_sheet',
             C: 'jaopca:storage_blocks.mana'
         }).id('kubejs:rune_holder_s6')
 

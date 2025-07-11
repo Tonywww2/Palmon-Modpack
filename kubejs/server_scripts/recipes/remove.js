@@ -201,6 +201,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'mekanism:electrolytic_separator' })
     event.remove({ id: 'mekanism:configurator' })
     event.remove({ id: 'mekanism:transmitter/logistical_transporter/basic' })
+    event.remove({ id: 'techreborn:crafting_table/machine_block/basic_machine_casing' })
+    event.remove({ id: 'techreborn:crafting_table/machine_block/basic_machine_casing_alt' })
     event.remove({ id: 'techreborn:crafting_table/machine_block/advanced_machine_casing_alt' })
     event.remove({ id: 'techreborn:crafting_table/machine_block/industrial_machine_casing_alt' })
     event.remove({ id: 'tinkers_advanced:table/resonance_crystal' })
@@ -272,6 +274,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'botania:flighttiara_0' })
     event.remove({ id: 'thermal_extra:machine/component_assembly/redstone_servo1' })
     event.remove({ id: 'integrateddynamics:squeezer/ore/netherrite_scrap' })
+    event.remove({ id: 'nuclearcraft:manufactory/netherite_scrap' })
+    event.remove({ id: 'mekanism:energy_cube/basic' })
 
     // s7
     event.remove({ id: 'avaritia:sculk_crafting_table' })

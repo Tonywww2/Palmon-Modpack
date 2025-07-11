@@ -1,21 +1,25 @@
 {
     "entity": "minecraft:elder_guardian",
-    "variants": [],
+    "variants":
+    [],
     "name": "entity.minecraft.elder_guardian",
     "name_color": "#CBB1A5",
     "gui_scale": 0.5,
     "gui_x_offset": 0,
     "gui_y_offset": 0.5,
     "gui_z_offset": 0,
-    "sim_cost": 1024,
-    "input": {
+    "sim_cost": 5120,
+    "input":
+    {
         "item": "hostilenetworks:prediction_matrix"
     },
-    "base_drop": {
+    "base_drop":
+    {
         "item": "hostilenetworks:overworld_prediction"
     },
     "trivia": "hostilenetworks.trivia.elder_guardian",
-    "fabricator_drops": [
+    "fabricator_drops":
+    [
         {
             "item": "minecraft:cod",
             "count": 16
@@ -45,7 +49,8 @@
             "count": 32
         }
     ],
-    "data_per_kill": [
+    "data_per_kill":
+    [
         3,
         12,
         30,

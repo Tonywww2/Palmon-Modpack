@@ -536,12 +536,12 @@ ServerEvents.recipes(event => {
                 "count": 32
             },
             {
-                "item": 'forestry:tree_maple_decorative_leaves',
-                "count": 16
-            },
-            {
                 "item": 'nuclearcraft:unsweetened_chocolate',
                 "count": 8
+            },
+            {
+                "item": 'forestry:royal_jelly',
+                "count": 4
             },
             {
                 "item": 'kubejs:collapse_prediction',

@@ -1,6 +1,7 @@
 {
     "entity": "minecraft:creeper",
-    "variants": [
+    "variants":
+    [
         "ad_astra:sulfur_creeper",
         "creeperoverhaul:badlands_creeper",
         "creeperoverhaul:bamboo_creeper",
@@ -24,15 +25,18 @@
     "gui_x_offset": 0,
     "gui_y_offset": 0,
     "gui_z_offset": 0,
-    "sim_cost": 128,
-    "input": {
+    "sim_cost": 1280,
+    "input":
+    {
         "item": "hostilenetworks:prediction_matrix"
     },
-    "base_drop": {
+    "base_drop":
+    {
         "item": "hostilenetworks:overworld_prediction"
     },
     "trivia": "hostilenetworks.trivia.creeper",
-    "fabricator_drops": [
+    "fabricator_drops":
+    [
         {
             "item": "minecraft:gunpowder",
             "count": 32

@@ -1,6 +1,7 @@
 {
     "entity": "minecraft:skeleton",
-    "variants": [
+    "variants":
+    [
         "minecraft:stray"
     ],
     "name": "entity.minecraft.skeleton",
@@ -9,15 +10,18 @@
     "gui_x_offset": 0,
     "gui_y_offset": 0,
     "gui_z_offset": 0,
-    "sim_cost": 128,
-    "input": {
+    "sim_cost": 1024,
+    "input":
+    {
         "item": "hostilenetworks:prediction_matrix"
     },
-    "base_drop": {
+    "base_drop":
+    {
         "item": "hostilenetworks:overworld_prediction"
     },
     "trivia": "hostilenetworks.trivia.skeleton",
-    "fabricator_drops": [
+    "fabricator_drops":
+    [
         {
             "item": "minecraft:arrow",
             "count": 32

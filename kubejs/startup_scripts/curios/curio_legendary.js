@@ -452,7 +452,7 @@ StartupEvents.registry('item', event => {
                                 player.potionEffects.add("cofh_core:magic_resistance", 160, 2)
                                 break;
                             case 9:
-                                player.addXPLevels(1)
+                                player.addXP(5000)
                                 break;
 
                         }
@@ -470,7 +470,7 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.attack_damage",
                 "krosa_attack_damage_multiply_total",
-                0.5,
+                0.4,
                 "multiply_total"
             )
             .modifyAttribute(

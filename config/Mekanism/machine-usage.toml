@@ -2,67 +2,67 @@
 #Machine Energy Usage Config. This config is synced from server to client.
 [usage]
 	#Energy per operation tick (Joules).
-	enrichmentChamber = "50"
+	enrichmentChamber = "1000"
 	#Energy per operation tick (Joules).
-	osmiumCompressor = "100"
+	osmiumCompressor = "2000"
 	#Energy per operation tick (Joules).
-	combiner = "50"
+	combiner = "1000"
 	#Energy per operation tick (Joules).
-	crusher = "50"
+	crusher = "1000"
 	#Energy per operation tick (Joules).
-	metallurgicInfuser = "50"
+	metallurgicInfuser = "1000"
 	#Energy per operation tick (Joules).
-	purificationChamber = "200"
+	purificationChamber = "4000"
 	#Energy per operation tick (Joules).
-	energizedSmelter = "50"
+	energizedSmelter = "1000"
 	#Energy per operation tick (Joules).
-	digitalMiner = "1000"
+	digitalMiner = "5000"
 	#Energy per operation tick (Joules).
-	electricPump = "100"
+	electricPump = "2000"
 	#Energy that can be transferred at once per charge operation (Joules).
 	chargePad = "1024000"
 	#Energy per operation tick (Joules).
-	rotaryCondensentrator = "50"
+	rotaryCondensentrator = "1000"
 	#Energy per operation tick (Joules).
-	oxidationChamber = "200"
+	oxidationChamber = "4000"
 	#Energy per operation tick (Joules).
-	chemicalInfuser = "200"
+	chemicalInfuser = "4000"
 	#Energy per operation tick (Joules).
 	chemicalInjectionChamber = "400"
 	#Energy per operation tick (Joules).
-	precisionSawmill = "50"
+	precisionSawmill = "1000"
 	#Energy per operation tick (Joules).
 	chemicalDissolutionChamber = "400"
 	#Energy per operation tick (Joules).
-	chemicalWasher = "200"
+	chemicalWasher = "4000"
 	#Energy per operation tick (Joules).
 	chemicalCrystallizer = "400"
 	#Energy per operation tick (Joules).
-	seismicVibrator = "50"
+	seismicVibrator = "1000"
 	#Energy per operation tick (Joules).
 	pressurizedReactionBase = "5"
 	#Energy per operation tick (Joules).
-	fluidicPlenisher = "100"
+	fluidicPlenisher = "2000"
 	#Energy per operation tick (Joules).
-	laser = "10000"
+	laser = "100000"
 	#Energy per operation tick (Joules).
-	formulaicAssemblicator = "100"
+	formulaicAssemblicator = "2000"
 	#Energy per operation tick (Joules).
-	modificationStation = "100"
+	modificationStation = "2000"
 	#Energy per operation tick (Joules).
-	isotopicCentrifuge = "200"
+	isotopicCentrifuge = "4000"
 	#Energy per operation tick (Joules).
-	nutritionalLiquifier = "200"
+	nutritionalLiquifier = "4000"
 	#Energy per operation tick (Joules).
-	antiprotonicNucleosynthesizer = "100000"
+	antiprotonicNucleosynthesizer = "500000"
 	#Energy per operation tick (Joules).
-	pigmentExtractor = "200"
+	pigmentExtractor = "4000"
 	#Energy per operation tick (Joules).
-	pigmentMixer = "200"
+	pigmentMixer = "4000"
 	#Energy per operation tick (Joules).
-	paintingMachine = "100"
+	paintingMachine = "2000"
 	#Energy per chunk per tick (Joules).
-	dimensionalStabilizer = "5000"
+	dimensionalStabilizer = "50000"
 
 	#Teleporter
 	[usage.teleporter]

@@ -10,7 +10,7 @@
 	# Hunger multiplied for each block mined with ultimine
 	# Default: 20.0
 	# Range: 0.0 ~ 10000.0
-	exhaustion_per_block: 40.0d
+	exhaustion_per_block: 80.0d
 	
 	# Amount of experience taken per block mined (fractional values allowed)
 	# Default: 0.0
@@ -20,7 +20,7 @@
 	# Max amount of blocks that can be ultimined at once
 	# Default: 64
 	# Range: 0 ~ 32768
-	max_blocks: 48
+	max_blocks: 32
 	
 	# These tags will be considered the same block when checking for blocks to Ultimine in shapeless mining mode
 	# Default: ["minecraft:base_stone_overworld", "c:*_ores", "forge:ores/*"]

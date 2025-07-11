@@ -1,21 +1,25 @@
 {
     "entity": "minecraft:blaze",
-    "variants": [],
+    "variants":
+    [],
     "name": "entity.minecraft.blaze",
     "name_color": "#FFD528",
     "gui_scale": 1,
     "gui_x_offset": 0,
     "gui_y_offset": 0,
     "gui_z_offset": 0,
-    "sim_cost": 256,
-    "input": {
+    "sim_cost": 2560,
+    "input":
+    {
         "item": "hostilenetworks:prediction_matrix"
     },
-    "base_drop": {
+    "base_drop":
+    {
         "item": "hostilenetworks:nether_prediction"
     },
     "trivia": "hostilenetworks.trivia.blaze",
-    "fabricator_drops": [
+    "fabricator_drops":
+    [
         {
             "item": "minecraft:blaze_rod",
             "count": 16

@@ -1,21 +1,25 @@
 {
     "entity": "minecraft:wither_skeleton",
-    "variants": [],
+    "variants":
+    [],
     "name": "entity.minecraft.wither_skeleton",
     "name_color": "#343434",
     "gui_scale": 0.85,
     "gui_x_offset": 0,
     "gui_y_offset": 0,
     "gui_z_offset": 0,
-    "sim_cost": 768,
-    "input": {
+    "sim_cost": 2560,
+    "input":
+    {
         "item": "hostilenetworks:prediction_matrix"
     },
-    "base_drop": {
+    "base_drop":
+    {
         "item": "hostilenetworks:nether_prediction"
     },
     "trivia": "hostilenetworks.trivia.wither_skeleton",
-    "fabricator_drops": [
+    "fabricator_drops":
+    [
         {
             "optional": true,
             "item": "wstweaks:fragment",

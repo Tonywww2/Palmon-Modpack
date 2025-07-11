@@ -1,41 +1,48 @@
 {
-    "conditions": [
+    "conditions":
+    [
         {
             "type": "forge:mod_loaded",
             "modid": "reliquary"
         }
     ],
     "entity": "minecraft:bat",
-    "variants": [],
+    "variants":
+    [],
     "name": "entity.minecraft.bat",
     "name_color": "#964B00",
     "gui_scale": 1.0,
     "gui_x_offset": 0.0,
     "gui_y_offset": 0.0,
     "gui_z_offset": 0.0,
-    "sim_cost": 64,
-    "input": {
+    "sim_cost": 640,
+    "input":
+    {
         "item": "hostilenetworks:prediction_matrix",
         "count": 1
     },
-    "base_drop": {
+    "base_drop":
+    {
         "item": "hostilenetworks:overworld_prediction",
         "count": 1
     },
     "trivia": "hostilenetworks.trivia.bat",
-    "fabricator_drops": [
+    "fabricator_drops":
+    [
         {
             "item": "reliquary:bat_wing",
             "count": 8
         }
     ],
-    "tier_data": [
+    "tier_data":
+    [
         6,
         54,
         354,
         1254
     ],
-    "data_per_kill": [
+    "data_per_kill":
+    [
         1,
         4,
         10,

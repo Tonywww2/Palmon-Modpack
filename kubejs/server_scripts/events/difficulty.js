@@ -50,17 +50,17 @@ global.dimMuti = {
     'minecraft:overworld': [10, 1, 1.4],
     'compactmachines:compact_world': [10, 1, 1.4],
     'dimdungeons:dungeon_dimension': [13, 1.4, 2.00],
-    'ad_astra:moon': [12, 1.35, 1.75],
-    'oceanworld:deepsea': [12, 1.35, 1.75],
+    'ad_astra:moon': [16, 1.35, 1.75],
+    'oceanworld:deepsea': [16, 1.35, 1.75],
 
-    'ad_astra:mars': [18, 1.6, 2.65],
-    'ad_astra:venus': [20, 2, 2.75],
-    'ad_astra:mercury': [23, 2.1, 3.0],
+    'ad_astra:mars': [26, 1.6, 2.65],
+    'ad_astra:venus': [28, 2, 2.75],
+    'ad_astra:mercury': [31, 2.1, 3.0],
 
-    'minecraft:the_end': [28, 2.5, 3.5],
-    'deeperdarker:otherside': [33, 3, 4.0],
+    'minecraft:the_end': [42, 2.5, 3.5],
+    'deeperdarker:otherside': [48, 3, 4.0],
 
-    'rats:ratlantis': [42, 3.5, 4.5]
+    'rats:ratlantis': [96, 6.0, 4.5]
 }
 
 global.diffMultiplier = [

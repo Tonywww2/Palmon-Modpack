@@ -1,5 +1,5 @@
 {
-  "replace": false,
+  "replace": true,
   "values": [
     "tconstruct:end_steel",
     "tconstruct:collapse_prediction",
