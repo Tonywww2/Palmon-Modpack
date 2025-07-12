@@ -1,7 +1,9 @@
 {
     "block.ad_astra.ostrum_block": "紫金块",
-    "planet.kubejs.tfc_planet": "§a群峦星",
-    "planet.ad_astra.tfc_planet_orbit": "§a群峦星轨道",
+    "planet.minecraft.overworld": "§a群峦星",
+    "planet.minecraft.overworld_orbit": "§a群峦星轨道",
+    "planet.kubejs.earth": "§a地球",
+    "planet.ad_astra.earth_orbit": "§a地球轨道",
     "planet.oceanworld.deepsea": "§1深海",
     "planet.oceanworld.deepsea_orbit": "§1深海轨道"
 }

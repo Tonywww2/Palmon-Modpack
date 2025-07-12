@@ -40,13 +40,7 @@
 		{ item: "confluence:compass" }
 		{ item: "confluence:flashlight" }
 		{ item: "confluence:fishermans_pocket_guide" }
-		{
-			item: {
-				Count: 1
-				id: "confluence:hermes_boots"
-				tag: { }
-			}
-		}
+		{ item: "confluence:hermes_boots" }
 		{ item: "confluence:hand_warmer" }
 		{ item: "confluence:hand_drill" }
 		{ item: "confluence:gold_watch" }
@@ -55,13 +49,7 @@
 		{ item: "confluence:frog_flipper" }
 		{ item: "confluence:flower_boots" }
 		{ item: "confluence:flipper" }
-		{
-			item: {
-				Count: 1
-				id: "confluence:ice_skates"
-				tag: { }
-			}
-		}
+		{ item: "confluence:ice_skates" }
 		{ item: "confluence:honey_comb" }
 		{ item: "confluence:holy_water" }
 		{ item: "confluence:obsidian_rose" }
@@ -73,13 +61,7 @@
 		{ item: "confluence:lucky_horseshoe" }
 		{ item: "confluence:life_form_analyzer" }
 		{ item: "confluence:lava_charm" }
-		{
-			item: {
-				Count: 1
-				id: "confluence:panic_necklace"
-				tag: { }
-			}
-		}
+		{ item: "confluence:panic_necklace" }
 		{ item: "confluence:obsidian_skull" }
 		{ item: "confluence:shackle" }
 		{ item: "confluence:sextant" }

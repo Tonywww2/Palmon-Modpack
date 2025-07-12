@@ -4,347 +4,49 @@
 	loot_size: 1
 	order_index: 7
 	rewards: [
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "minecraft:oak_log"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "minecraft:spruce_log"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "minecraft:birch_log"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "minecraft:jungle_log"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "minecraft:acacia_log"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "minecraft:dark_oak_log"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "minecraft:mangrove_log"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "techreborn:rubber_log"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "minecraft:cherry_log"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "quark:ancient_log"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "quark:azalea_log"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "quark:blossom_log"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "minecraft:bamboo_block"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "minecraft:white_wool"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "minecraft:grass_block"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "minecraft:podzol"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "minecraft:mycelium"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "minecraft:redstone"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "minecraft:redstone_torch"
-				tag: { }
-			}
-		}
-		{
-			count: 8
-			item: {
-				Count: 1
-				id: "minecraft:coal"
-				tag: { }
-			}
-		}
-		{
-			count: 8
-			item: {
-				Count: 1
-				id: "minecraft:charcoal"
-				tag: { }
-			}
-		}
-		{
-			count: 8
-			item: {
-				Count: 1
-				id: "techreborn:raw_tin"
-				tag: { }
-			}
-		}
-		{
-			count: 8
-			item: {
-				Count: 1
-				id: "minecraft:raw_iron"
-				tag: { }
-			}
-		}
-		{
-			count: 8
-			item: {
-				Count: 1
-				id: "minecraft:raw_copper"
-				tag: { }
-			}
-		}
-		{
-			count: 8
-			item: {
-				Count: 1
-				id: "techreborn:raw_lead"
-				tag: { }
-			}
-		}
-		{
-			count: 8
-			item: {
-				Count: 1
-				id: "techreborn:raw_silver"
-				tag: { }
-			}
-		}
-		{
-			count: 8
-			item: {
-				Count: 1
-				id: "minecraft:raw_gold"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "techreborn:ruby_gem"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "techreborn:sapphire_gem"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "techreborn:peridot_gem"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "techreborn:red_garnet_gem"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "minecraft:emerald"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "minecraft:lapis_lazuli"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "minecraft:diamond"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "techreborn:yellow_garnet_gem"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "techreborn:raw_iridium"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "techreborn:raw_tungsten"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:ancient_debris"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "minecraft:quartz"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "minecraft:amethyst_shard"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "minecraft:flint"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "minecraft:leather"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "confluence:workshop"
-				tag: { }
-			}
-		}
+		{ count: 16, item: "minecraft:oak_log" }
+		{ count: 16, item: "minecraft:spruce_log" }
+		{ count: 16, item: "minecraft:birch_log" }
+		{ count: 16, item: "minecraft:jungle_log" }
+		{ count: 16, item: "minecraft:acacia_log" }
+		{ count: 16, item: "minecraft:dark_oak_log" }
+		{ count: 16, item: "minecraft:mangrove_log" }
+		{ count: 16, item: "techreborn:rubber_log" }
+		{ count: 16, item: "minecraft:cherry_log" }
+		{ count: 16, item: "quark:ancient_log" }
+		{ count: 16, item: "quark:azalea_log" }
+		{ count: 16, item: "quark:blossom_log" }
+		{ count: 16, item: "minecraft:bamboo_block" }
+		{ count: 16, item: "minecraft:white_wool" }
+		{ count: 16, item: "minecraft:grass_block" }
+		{ count: 16, item: "minecraft:podzol" }
+		{ count: 16, item: "minecraft:mycelium" }
+		{ count: 16, item: "minecraft:redstone" }
+		{ count: 16, item: "minecraft:redstone_torch" }
+		{ count: 8, item: "minecraft:coal" }
+		{ count: 8, item: "minecraft:charcoal" }
+		{ count: 8, item: "techreborn:raw_tin" }
+		{ count: 8, item: "minecraft:raw_iron" }
+		{ count: 8, item: "minecraft:raw_copper" }
+		{ count: 8, item: "techreborn:raw_lead" }
+		{ count: 8, item: "techreborn:raw_silver" }
+		{ count: 8, item: "minecraft:raw_gold" }
+		{ count: 4, item: "techreborn:ruby_gem" }
+		{ count: 4, item: "techreborn:sapphire_gem" }
+		{ count: 4, item: "techreborn:peridot_gem" }
+		{ count: 4, item: "techreborn:red_garnet_gem" }
+		{ count: 4, item: "minecraft:emerald" }
+		{ count: 4, item: "minecraft:lapis_lazuli" }
+		{ count: 4, item: "minecraft:diamond" }
+		{ count: 4, item: "techreborn:yellow_garnet_gem" }
+		{ item: "techreborn:raw_iridium" }
+		{ count: 2, item: "techreborn:raw_tungsten" }
+		{ item: "minecraft:ancient_debris" }
+		{ count: 16, item: "minecraft:quartz" }
+		{ count: 16, item: "minecraft:amethyst_shard" }
+		{ count: 16, item: "minecraft:flint" }
+		{ count: 16, item: "minecraft:leather" }
+		{ item: "confluence:workshop" }
 		{
 			item: {
 				Count: 1
@@ -372,815 +74,111 @@
 				}
 			}
 		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "cobblemon:red_apricorn"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "cobblemon:yellow_apricorn"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "cobblemon:green_apricorn"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "cobblemon:blue_apricorn"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "cobblemon:pink_apricorn"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "cobblemon:black_apricorn"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "cobblemon:white_apricorn"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "aquamirae:rune_of_the_storm"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "aquamirae:ship_graveyard_echo"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "aquamirae:abyssal_amethyst"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "cobblemon:normal_gem"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "cobblemon:fire_gem"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "cobblemon:water_gem"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "cobblemon:grass_gem"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "cobblemon:electric_gem"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "aquamirae:anglers_fang"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "cobblemon:ice_gem"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "cobblemon:fighting_gem"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "cobblemon:poison_gem"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "cobblemon:ground_gem"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "cobblemon:flying_gem"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "cobblemon:psychic_gem"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "cobblemon:bug_gem"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "cobblemon:rock_gem"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "cobblemon:ghost_gem"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "cobblemon:dragon_gem"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "cobblemon:dark_gem"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "cobblemon:steel_gem"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "cobblemon:fairy_gem"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "dustandash:rain_crystal"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "dustandash:sun_crystal"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "dustandash:soul_of_light"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "dustandash:pure_darkness"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "dustandash:electron"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "dustandash:rock_solid"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "thermal_extra:soul_infused_machine_speed_augment"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "thermal_extra:twinite_machine_speed_augment"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "thermal_extra:shellite_machine_speed_augment"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "create:wrench"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "create:shaft"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "create:cogwheel"
-				tag: { }
-			}
-		}
-		{
-			count: 8
-			item: {
-				Count: 1
-				id: "create:large_cogwheel"
-				tag: { }
-			}
-		}
-		{
-			count: 8
-			item: {
-				Count: 1
-				id: "create:belt_connector"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "create:encased_fan"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "create:mechanical_press"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "create:mechanical_mixer"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "create:blaze_burner"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "create:basin"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "cobblemon:pc"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "cobblemon:healing_machine"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "draconicevolution:draconium_chest"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "cobgyms:gym_key"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "scannable:scanner"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "scannable:blank_module"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "scannable:range_module"
-				tag: { }
-			}
-		}
-		{
-			count: 8
-			item: {
-				Count: 1
-				id: "cobblemon:potion"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "cobblemon:super_potion"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:hyper_potion"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "cobblemon:max_potion"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "cobblemon:full_restore"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "cobblemon:revive"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:max_revive"
-				tag: { }
-			}
-		}
-		{
-			count: 8
-			item: {
-				Count: 1
-				id: "cobblemon:exp_candy_xs"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "cobblemon:exp_candy_s"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "cobblemon:exp_candy_m"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:exp_candy_l"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "cobblemon:exp_candy_xl"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "cobblemon:rare_candy"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "cobblemon:antidote"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "cobblemon:awakening"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "cobblemon:burn_heal"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "cobblemon:ice_heal"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "cobblemon:paralyze_heal"
-				tag: { }
-			}
-		}
-		{
-			count: 8
-			item: {
-				Count: 1
-				id: "cobblemon:full_heal"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "cobblemon:ether"
-				tag: { }
-			}
-		}
-		{
-			count: 8
-			item: {
-				Count: 1
-				id: "cobblemon:max_ether"
-				tag: { }
-			}
-		}
-		{
-			count: 8
-			item: {
-				Count: 1
-				id: "cobblemon:elixir"
-				tag: { }
-			}
-		}
-		{
-			count: 8
-			item: {
-				Count: 1
-				id: "cobblemon:max_elixir"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:x_attack"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:x_defence"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:x_special_attack"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:x_special_defence"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:x_speed"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:x_accuracy"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:dire_hit"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:guard_spec"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "sophisticatedstorage:netherite_barrel"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:health_feather"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:muscle_feather"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:resist_feather"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:genius_feather"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:clever_feather"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:swift_feather"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:hp_up"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:protein"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:iron"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:calcium"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:zinc"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:carbos"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:pp_up"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:pp_max"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "unimplemented_items:bottle_cap"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "cookingforblockheads:milk_jar"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "cookingforblockheads:cooking_table"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cookingforblockheads:fridge"
-				tag: { }
-			}
-		}
+		{ count: 16, item: "cobblemon:red_apricorn" }
+		{ count: 16, item: "cobblemon:yellow_apricorn" }
+		{ count: 16, item: "cobblemon:green_apricorn" }
+		{ count: 16, item: "cobblemon:blue_apricorn" }
+		{ count: 16, item: "cobblemon:pink_apricorn" }
+		{ count: 16, item: "cobblemon:black_apricorn" }
+		{ count: 16, item: "cobblemon:white_apricorn" }
+		{ item: "aquamirae:rune_of_the_storm" }
+		{ item: "aquamirae:ship_graveyard_echo" }
+		{ item: "aquamirae:abyssal_amethyst" }
+		{ count: 4, item: "cobblemon:normal_gem" }
+		{ count: 4, item: "cobblemon:fire_gem" }
+		{ count: 4, item: "cobblemon:water_gem" }
+		{ count: 4, item: "cobblemon:grass_gem" }
+		{ count: 4, item: "cobblemon:electric_gem" }
+		{ item: "aquamirae:anglers_fang" }
+		{ count: 4, item: "cobblemon:ice_gem" }
+		{ count: 4, item: "cobblemon:fighting_gem" }
+		{ count: 4, item: "cobblemon:poison_gem" }
+		{ count: 4, item: "cobblemon:ground_gem" }
+		{ count: 4, item: "cobblemon:flying_gem" }
+		{ count: 4, item: "cobblemon:psychic_gem" }
+		{ count: 4, item: "cobblemon:bug_gem" }
+		{ count: 4, item: "cobblemon:rock_gem" }
+		{ count: 4, item: "cobblemon:ghost_gem" }
+		{ count: 4, item: "cobblemon:dragon_gem" }
+		{ count: 4, item: "cobblemon:dark_gem" }
+		{ count: 4, item: "cobblemon:steel_gem" }
+		{ count: 4, item: "cobblemon:fairy_gem" }
+		{ item: "dustandash:rain_crystal" }
+		{ item: "dustandash:sun_crystal" }
+		{ item: "dustandash:soul_of_light" }
+		{ item: "dustandash:pure_darkness" }
+		{ count: 16, item: "dustandash:electron" }
+		{ item: "dustandash:rock_solid" }
+		{ item: "thermal_extra:soul_infused_machine_speed_augment" }
+		{ item: "thermal_extra:twinite_machine_speed_augment" }
+		{ item: "thermal_extra:shellite_machine_speed_augment" }
+		{ item: "create:wrench" }
+		{ count: 16, item: "create:shaft" }
+		{ count: 16, item: "create:cogwheel" }
+		{ count: 8, item: "create:large_cogwheel" }
+		{ count: 8, item: "create:belt_connector" }
+		{ item: "create:encased_fan" }
+		{ item: "create:mechanical_press" }
+		{ item: "create:mechanical_mixer" }
+		{ item: "create:blaze_burner" }
+		{ count: 4, item: "create:basin" }
+		{ item: "cobblemon:pc" }
+		{ item: "cobblemon:healing_machine" }
+		{ item: "draconicevolution:draconium_chest" }
+		{ item: "cobgyms:gym_key" }
+		{ item: "scannable:scanner" }
+		{ count: 2, item: "scannable:blank_module" }
+		{ item: "scannable:range_module" }
+		{ count: 8, item: "cobblemon:potion" }
+		{ count: 4, item: "cobblemon:super_potion" }
+		{ count: 2, item: "cobblemon:hyper_potion" }
+		{ item: "cobblemon:max_potion" }
+		{ item: "cobblemon:full_restore" }
+		{ count: 4, item: "cobblemon:revive" }
+		{ count: 2, item: "cobblemon:max_revive" }
+		{ count: 8, item: "cobblemon:exp_candy_xs" }
+		{ count: 4, item: "cobblemon:exp_candy_s" }
+		{ count: 4, item: "cobblemon:exp_candy_m" }
+		{ count: 2, item: "cobblemon:exp_candy_l" }
+		{ item: "cobblemon:exp_candy_xl" }
+		{ item: "cobblemon:rare_candy" }
+		{ count: 16, item: "cobblemon:antidote" }
+		{ count: 16, item: "cobblemon:awakening" }
+		{ count: 16, item: "cobblemon:burn_heal" }
+		{ count: 16, item: "cobblemon:ice_heal" }
+		{ count: 16, item: "cobblemon:paralyze_heal" }
+		{ count: 8, item: "cobblemon:full_heal" }
+		{ count: 16, item: "cobblemon:ether" }
+		{ count: 8, item: "cobblemon:max_ether" }
+		{ count: 8, item: "cobblemon:elixir" }
+		{ count: 8, item: "cobblemon:max_elixir" }
+		{ count: 2, item: "cobblemon:x_attack" }
+		{ count: 2, item: "cobblemon:x_defence" }
+		{ count: 2, item: "cobblemon:x_special_attack" }
+		{ count: 2, item: "cobblemon:x_special_defence" }
+		{ count: 2, item: "cobblemon:x_speed" }
+		{ count: 2, item: "cobblemon:x_accuracy" }
+		{ count: 2, item: "cobblemon:dire_hit" }
+		{ count: 2, item: "cobblemon:guard_spec" }
+		{ item: "sophisticatedstorage:netherite_barrel" }
+		{ count: 2, item: "cobblemon:health_feather" }
+		{ count: 2, item: "cobblemon:muscle_feather" }
+		{ count: 2, item: "cobblemon:resist_feather" }
+		{ count: 2, item: "cobblemon:genius_feather" }
+		{ count: 2, item: "cobblemon:clever_feather" }
+		{ count: 2, item: "cobblemon:swift_feather" }
+		{ count: 2, item: "cobblemon:hp_up" }
+		{ count: 2, item: "cobblemon:protein" }
+		{ count: 2, item: "cobblemon:iron" }
+		{ count: 2, item: "cobblemon:calcium" }
+		{ count: 2, item: "cobblemon:zinc" }
+		{ count: 2, item: "cobblemon:carbos" }
+		{ count: 2, item: "cobblemon:pp_up" }
+		{ count: 2, item: "cobblemon:pp_max" }
+		{ item: "unimplemented_items:bottle_cap" }
+		{ item: "cookingforblockheads:milk_jar" }
+		{ item: "cookingforblockheads:cooking_table" }
+		{ count: 2, item: "cookingforblockheads:fridge" }
 		{
 			item: {
 				Count: 1
@@ -1190,111 +188,20 @@
 				}
 			}
 		}
-		{
-			item: {
-				Count: 1
-				id: "cuisinedelight:spatula"
-				tag: { }
-			}
-		}
-		{
-			count: 8
-			item: {
-				Count: 1
-				id: "cuisinedelight:plate"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "flopper:flopper"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "integrateddynamics:cable"
-				tag: { }
-			}
-		}
-		{
-			count: 32
-			item: {
-				Count: 1
-				id: "integrateddynamics:variable"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "integratedtunnels:part_interface_item"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "integratedtunnels:part_interface_energy"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "integratedtunnels:part_interface_fluid"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "integratedtunnels:part_importer_world_block"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "integratedtunnels:part_exporter_world_block"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "integratedtunnels:part_player_simulator"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "farmingforblockheads:market"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "rehooked:wood_hook"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "rehooked:iron_hook"
-				tag: { }
-			}
-		}
+		{ item: "cuisinedelight:spatula" }
+		{ count: 8, item: "cuisinedelight:plate" }
+		{ count: 2, item: "flopper:flopper" }
+		{ count: 16, item: "integrateddynamics:cable" }
+		{ count: 32, item: "integrateddynamics:variable" }
+		{ count: 4, item: "integratedtunnels:part_interface_item" }
+		{ count: 4, item: "integratedtunnels:part_interface_energy" }
+		{ count: 4, item: "integratedtunnels:part_interface_fluid" }
+		{ item: "integratedtunnels:part_importer_world_block" }
+		{ item: "integratedtunnels:part_exporter_world_block" }
+		{ item: "integratedtunnels:part_player_simulator" }
+		{ item: "farmingforblockheads:market" }
+		{ item: "rehooked:wood_hook" }
+		{ item: "rehooked:iron_hook" }
 		{
 			item: {
 				Count: 1
@@ -1304,41 +211,11 @@
 				}
 			}
 		}
-		{
-			item: {
-				Count: 1
-				id: "megamons:key_stone"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "megamons:mega_cuff"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "ae2:entropy_manipulator"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "ae2:charged_staff"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "sophisticatedbackpacks:backpack"
-				tag: { }
-			}
-		}
+		{ item: "megamons:key_stone" }
+		{ item: "megamons:mega_cuff" }
+		{ item: "ae2:entropy_manipulator" }
+		{ item: "ae2:charged_staff" }
+		{ item: "sophisticatedbackpacks:backpack" }
 		{
 			item: {
 				Count: 1
@@ -1348,145 +225,24 @@
 				}
 			}
 		}
-		{
-			item: {
-				Count: 1
-				id: "embers:grandhammer"
-				tag: { }
-			}
-		}
-		{
-			count: 32
-			item: {
-				Count: 1
-				id: "malum:sacred_spirit"
-				tag: { }
-			}
-		}
-		{
-			count: 32
-			item: {
-				Count: 1
-				id: "malum:wicked_spirit"
-				tag: { }
-			}
-		}
-		{
-			count: 32
-			item: {
-				Count: 1
-				id: "malum:arcane_spirit"
-				tag: { }
-			}
-		}
-		{
-			count: 32
-			item: {
-				Count: 1
-				id: "malum:eldritch_spirit"
-				tag: { }
-			}
-		}
-		{
-			count: 32
-			item: {
-				Count: 1
-				id: "malum:aerial_spirit"
-				tag: { }
-			}
-		}
-		{
-			count: 32
-			item: {
-				Count: 1
-				id: "malum:aqueous_spirit"
-				tag: { }
-			}
-		}
-		{
-			count: 32
-			item: {
-				Count: 1
-				id: "malum:earthen_spirit"
-				tag: { }
-			}
-		}
-		{
-			count: 32
-			item: {
-				Count: 1
-				id: "malum:infernal_spirit"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "malum:necklace_of_tidal_affinity"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "malum:ring_of_alchemical_mastery"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "mekanism:configurator"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "mekanism:atomic_disassembler"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "palmon:empty_contract"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "cobblemon:poke_ball"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "cobblemon:ultra_ball"
-				tag: { }
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "cobblemon:quick_ball"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "rftoolsutility:crafter1"
-				tag: { }
-			}
-		}
+		{ item: "embers:grandhammer" }
+		{ count: 32, item: "malum:sacred_spirit" }
+		{ count: 32, item: "malum:wicked_spirit" }
+		{ count: 32, item: "malum:arcane_spirit" }
+		{ count: 32, item: "malum:eldritch_spirit" }
+		{ count: 32, item: "malum:aerial_spirit" }
+		{ count: 32, item: "malum:aqueous_spirit" }
+		{ count: 32, item: "malum:earthen_spirit" }
+		{ count: 32, item: "malum:infernal_spirit" }
+		{ item: "malum:necklace_of_tidal_affinity" }
+		{ item: "malum:ring_of_alchemical_mastery" }
+		{ item: "mekanism:configurator" }
+		{ item: "mekanism:atomic_disassembler" }
+		{ count: 2, item: "palmon:empty_contract" }
+		{ count: 16, item: "cobblemon:poke_ball" }
+		{ count: 16, item: "cobblemon:ultra_ball" }
+		{ count: 16, item: "cobblemon:quick_ball" }
+		{ count: 2, item: "rftoolsutility:crafter1" }
 		{
 			item: {
 				Count: 1
@@ -1505,38 +261,10 @@
 				}
 			}
 		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "slashblade:proudsoul"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "slashblade:proudsoul_ingot"
-				tag: { }
-			}
-		}
-		{
-			count: 8
-			item: {
-				Count: 1
-				id: "thermal:redstone_servo"
-				tag: { }
-			}
-		}
-		{
-			count: 8
-			item: {
-				Count: 1
-				id: "thermal:rf_coil"
-				tag: { }
-			}
-		}
+		{ count: 4, item: "slashblade:proudsoul" }
+		{ count: 2, item: "slashblade:proudsoul_ingot" }
+		{ count: 8, item: "thermal:redstone_servo" }
+		{ count: 8, item: "thermal:rf_coil" }
 		{
 			item: {
 				Count: 1
@@ -1546,133 +274,22 @@
 				}
 			}
 		}
-		{
-			count: 8
-			item: {
-				Count: 1
-				id: "trials:trial_key"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "trials:trial_key_ominous"
-				tag: { }
-			}
-		}
-		{
-			count: 8
-			item: {
-				Count: 1
-				id: "umapyoi:blank_ticket"
-				tag: { }
-			}
-		}
-		{
-			count: 8
-			item: {
-				Count: 1
-				id: "tconstruct:necrotic_bone"
-				tag: { }
-			}
-		}
-		{
-			count: 8
-			item: {
-				Count: 1
-				id: "tconstruct:raw_cobalt"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "tconstruct:blaze_head"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "tconstruct:enderman_head"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "tconstruct:stray_head"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "tconstruct:husk_head"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "tconstruct:drowned_head"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "tconstruct:spider_head"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "tconstruct:cave_spider_head"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "tconstruct:zombified_piglin_head"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "tconstruct:piglin_brute_head"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "botania:brew_flask"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "botania:goddess_charm"
-				tag: { }
-			}
-		}
+		{ count: 8, item: "trials:trial_key" }
+		{ count: 4, item: "trials:trial_key_ominous" }
+		{ count: 8, item: "umapyoi:blank_ticket" }
+		{ count: 8, item: "tconstruct:necrotic_bone" }
+		{ count: 8, item: "tconstruct:raw_cobalt" }
+		{ count: 2, item: "tconstruct:blaze_head" }
+		{ count: 2, item: "tconstruct:enderman_head" }
+		{ count: 2, item: "tconstruct:stray_head" }
+		{ count: 2, item: "tconstruct:husk_head" }
+		{ count: 2, item: "tconstruct:drowned_head" }
+		{ count: 2, item: "tconstruct:spider_head" }
+		{ count: 2, item: "tconstruct:cave_spider_head" }
+		{ count: 2, item: "tconstruct:zombified_piglin_head" }
+		{ count: 2, item: "tconstruct:piglin_brute_head" }
+		{ count: 2, item: "botania:brew_flask" }
+		{ item: "botania:goddess_charm" }
 		{
 			item: {
 				Count: 1
@@ -1682,29 +299,9 @@
 				}
 			}
 		}
-		{
-			count: 16
-			item: {
-				Count: 1
-				id: "supplementaries:bomb"
-				tag: { }
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1
-				id: "supplementaries:bomb_blue"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "dustandash:nano_machine"
-				tag: { }
-			}
-		}
+		{ count: 16, item: "supplementaries:bomb" }
+		{ count: 4, item: "supplementaries:bomb_blue" }
+		{ item: "dustandash:nano_machine" }
 		{
 			item: {
 				Count: 1
@@ -1714,157 +311,26 @@
 				}
 			}
 		}
-		{
-			count: 8
-			item: {
-				Count: 1
-				id: "megamons:anistarite_geode_block"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "buildinggadgets2:gadget_building"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "buildinggadgets2:gadget_exchanging"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "buildinggadgets2:gadget_copy_paste"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "dimdungeons:item_portal_key"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "dimdungeons:item_blank_advanced_key"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "integrateddynamics:energy_battery"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:fire_stone"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:water_stone"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:thunder_stone"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:leaf_stone"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:moon_stone"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:sun_stone"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:shiny_stone"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:dusk_stone"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:dawn_stone"
-				tag: { }
-			}
-		}
-		{
-			count: 2
-			item: {
-				Count: 1
-				id: "cobblemon:ice_stone"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "cobblemon:kings_rock"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "farmersdelight:stove"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "farmersdelight:cooking_pot"
-				tag: { }
-			}
-		}
+		{ count: 8, item: "megamons:anistarite_geode_block" }
+		{ item: "buildinggadgets2:gadget_building" }
+		{ item: "buildinggadgets2:gadget_exchanging" }
+		{ item: "buildinggadgets2:gadget_copy_paste" }
+		{ item: "dimdungeons:item_portal_key" }
+		{ item: "dimdungeons:item_blank_advanced_key" }
+		{ item: "integrateddynamics:energy_battery" }
+		{ count: 2, item: "cobblemon:fire_stone" }
+		{ count: 2, item: "cobblemon:water_stone" }
+		{ count: 2, item: "cobblemon:thunder_stone" }
+		{ count: 2, item: "cobblemon:leaf_stone" }
+		{ count: 2, item: "cobblemon:moon_stone" }
+		{ count: 2, item: "cobblemon:sun_stone" }
+		{ count: 2, item: "cobblemon:shiny_stone" }
+		{ count: 2, item: "cobblemon:dusk_stone" }
+		{ count: 2, item: "cobblemon:dawn_stone" }
+		{ count: 2, item: "cobblemon:ice_stone" }
+		{ item: "cobblemon:kings_rock" }
+		{ item: "farmersdelight:stove" }
+		{ item: "farmersdelight:cooking_pot" }
 		{
 			item: {
 				Count: 1
@@ -1892,111 +358,21 @@
 				}
 			}
 		}
-		{
-			item: {
-				Count: 1
-				id: "waterflasks:red_steel_flask"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "cobblemon:ability_shield"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "cobblemon:loaded_dice"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "cobblemon:exp_share"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "cobblemon:power_anklet"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "cobblemon:power_band"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "cobblemon:power_belt"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "cobblemon:power_bracer"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "cobblemon:power_lens"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "cobblemon:power_weight"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "cobblemon:weakness_policy"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "cobblemon:muscle_band"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "cobblemon:black_belt"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "compactmachines:personal_shrinking_device"
-				tag: { }
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "sophisticatedbackpacks:stack_upgrade_tier_2"
-				tag: { }
-			}
-		}
+		{ item: "waterflasks:red_steel_flask" }
+		{ item: "cobblemon:ability_shield" }
+		{ item: "cobblemon:loaded_dice" }
+		{ item: "cobblemon:exp_share" }
+		{ item: "cobblemon:power_anklet" }
+		{ item: "cobblemon:power_band" }
+		{ item: "cobblemon:power_belt" }
+		{ item: "cobblemon:power_bracer" }
+		{ item: "cobblemon:power_lens" }
+		{ item: "cobblemon:power_weight" }
+		{ item: "cobblemon:weakness_policy" }
+		{ item: "cobblemon:muscle_band" }
+		{ item: "cobblemon:black_belt" }
+		{ item: "compactmachines:personal_shrinking_device" }
+		{ item: "sophisticatedbackpacks:stack_upgrade_tier_2" }
 		{
 			item: {
 				Count: 1

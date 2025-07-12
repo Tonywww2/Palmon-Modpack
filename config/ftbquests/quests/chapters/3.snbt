@@ -10,7 +10,12 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["153BB1808FC6284A"]
+			dependencies: [
+				"153BB1808FC6284A"
+				"28B339DC7608D688"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			icon: "ad_astra:earth_globe"
 			id: "36D2E1C2BF0663D7"
 			rewards: [
@@ -30,7 +35,7 @@
 			shape: "gear"
 			subtitle: "归乡"
 			tasks: [{
-				dimension: "kubejs:overworld"
+				dimension: "kubejs:earth"
 				id: "13E3D914352DC5D4"
 				type: "dimension"
 			}]
@@ -365,7 +370,9 @@
 			dependencies: [
 				"6A613C862F305D94"
 				"09E9FC71E375C009"
+				"6D2837A2695037CE"
 			]
+			dependency_requirement: "one_completed"
 			icon: "ad_astra:moon_globe"
 			id: "106E90D345ADA5AE"
 			rewards: [
@@ -410,15 +417,24 @@
 					table_id: 3367058103404351917L
 					type: "random"
 				}
+				{
+					command: "/eot_give_anchor_shard @p 1"
+					elevate_perms: true
+					icon: "kubejs:anchor_shard"
+					id: "5CC1CEE29984BA72"
+					title: "锚定"
+					type: "command"
+				}
 			]
 			subtitle: "I'a I'a.Cthulhu Fhatgn!"
 			tasks: [{
-				id: "1B7C0D8F08CC693C"
-				structure: "cataclysm:sunken_city"
-				type: "structure"
+				advancement: "cataclysm:find_sunken_city"
+				criterion: ""
+				id: "685FD24A074C1468"
+				type: "advancement"
 			}]
 			title: "沉没之城"
-			x: -6.0d
+			x: -4.0d
 			y: -2.0d
 		}
 		{
@@ -569,6 +585,7 @@
 		}
 		{
 			dependencies: ["6ACE8AAA69BDF127"]
+			description: ["你可能已经注意到了，大多数原版的武器和工具都没有合成配方，这也就意味着你需要通过其他方式获取他们......"]
 			icon: "slashblade:proudsoul"
 			id: "1673E5CF51F87E75"
 			rewards: [
@@ -608,9 +625,9 @@
 		}
 		{
 			dependencies: ["6D2DCDB27DF13C81"]
-			hide_until_deps_complete: true
 			icon: "fluxnetworks:flux_core"
 			id: "55CB17B2D6FA3D12"
+			invisible: true
 			optional: true
 			rewards: [
 				{
@@ -666,6 +683,7 @@
 			tasks: [{
 				id: "671D636A666DD6D8"
 				item: "kubejs:voucher_3_2"
+				match_nbt: false
 				type: "item"
 			}]
 			title: "3-2 通量网络"
@@ -674,9 +692,9 @@
 		}
 		{
 			dependencies: ["6D2DCDB27DF13C81"]
-			hide_until_deps_complete: true
 			icon: "sfm:manager"
 			id: "0D454A94B4133CF1"
+			invisible: true
 			optional: true
 			rewards: [
 				{
@@ -722,6 +740,7 @@
 			tasks: [{
 				id: "5F75F22857AA2967"
 				item: "kubejs:voucher_3_1"
+				match_nbt: false
 				type: "item"
 			}]
 			title: "3-1 超级工厂管理"
@@ -730,9 +749,9 @@
 		}
 		{
 			dependencies: ["6D2DCDB27DF13C81"]
-			hide_until_deps_complete: true
 			icon: "modularrouters:modular_router"
 			id: "74F440E76CB060BD"
+			invisible: true
 			optional: true
 			rewards: [
 				{
@@ -788,6 +807,7 @@
 			tasks: [{
 				id: "08F13AFCA4359A3C"
 				item: "kubejs:voucher_3_0"
+				match_nbt: false
 				type: "item"
 			}]
 			title: "3-0 模块化路由器"
@@ -796,9 +816,9 @@
 		}
 		{
 			dependencies: ["6D2DCDB27DF13C81"]
-			hide_until_deps_complete: true
 			icon: "rftoolsbase:machine_frame"
 			id: "1693BF993E82EFD5"
+			invisible: true
 			optional: true
 			rewards: [
 				{
@@ -854,6 +874,7 @@
 			tasks: [{
 				id: "3AF494A08A4E5AF1"
 				item: "kubejs:voucher_3_3"
+				match_nbt: false
 				type: "item"
 			}]
 			title: "3-3 RFTools"
@@ -862,9 +883,9 @@
 		}
 		{
 			dependencies: ["6D2DCDB27DF13C81"]
-			hide_until_deps_complete: true
 			icon: "create:mechanical_arm"
 			id: "65A13D05A366FE2C"
+			invisible: true
 			optional: true
 			rewards: [
 				{
@@ -966,6 +987,7 @@
 			tasks: [{
 				id: "432B515928B80770"
 				item: "kubejs:voucher_3_4"
+				match_nbt: false
 				type: "item"
 			}]
 			title: "3-4 机械动力"
@@ -1028,65 +1050,6 @@
 			}]
 			x: -8.0d
 			y: -4.0d
-		}
-		{
-			dependencies: ["346F9B9DECB62437"]
-			hide_until_deps_complete: true
-			icon: "dimdungeons:block_portal_keyhole"
-			id: "2F3FEE387631C527"
-			rewards: [
-				{
-					id: "436A1B58BEBCAEE6"
-					item: {
-						Count: 1
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "dimdungeons:guide_book"
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "012069ED462430C4"
-					item: "dimdungeons:item_portal_key"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "30C613EFEE884C6A"
-					table_id: 7740467882398974147L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "67C5E7FC9DBB0C7A"
-					table_id: 3367058103404351917L
-					type: "random"
-				}
-			]
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "4AE191F2BEFEBF54"
-					item: "dimdungeons:block_portal_keyhole"
-					type: "item"
-				}
-				{
-					id: "6CC8E8D61E67518F"
-					item: "dimdungeons:block_gilded_portal"
-					type: "item"
-				}
-				{
-					count: 9L
-					id: "12A8349FA44B9077"
-					item: { Count: 9, id: "minecraft:stone_bricks" }
-					type: "item"
-				}
-			]
-			title: "维度地牢传送门"
-			x: -8.0d
-			y: 2.0d
 		}
 		{
 			dependencies: ["346F9B9DECB62437"]
@@ -1350,9 +1313,10 @@
 				}
 			]
 			tasks: [{
-				id: "0B3C4A2A87415E55"
-				structure: "cataclysm:ancient_factory"
-				type: "structure"
+				advancement: "cataclysm:find_ancient_factory"
+				criterion: ""
+				id: "1584D1007A6935BE"
+				type: "advancement"
 			}]
 			title: "远古工厂"
 			x: 2.0d
@@ -1373,6 +1337,14 @@
 					id: "3222BCE20DF7C764"
 					table_id: 3367058103404351917L
 					type: "random"
+				}
+				{
+					command: "/eot_give_anchor_shard @p 1"
+					elevate_perms: true
+					icon: "kubejs:anchor_shard"
+					id: "44051B551A345049"
+					title: "锚定"
+					type: "command"
 				}
 			]
 			tasks: [{
@@ -1513,7 +1485,7 @@
 			description: [
 				"合成..."
 				""
-				"注意：由于核电工艺的bug，镁、钴、锂、钍、硼大概率不会自然生成。"
+				"注意：由于未知的bug，镁、钴、锂、钍、硼可能不会自然生成。"
 				""
 				"你可以通过加工站将铜锭，铁锭，金锭异变成这5种矿石，或者使用维度框架获取这5种矿石。"
 			]
@@ -2889,7 +2861,8 @@
 			id: "1BF6E41A58130834"
 			rewards: [
 				{
-					command: "/eot_give_anchor_shard @p 1"
+					command: "/eot_give_anchor_shard @p 2"
+					elevate_perms: true
 					icon: "kubejs:anchor_shard"
 					id: "4266A0CC2B6B570D"
 					title: "锚定"
@@ -2930,7 +2903,6 @@
 			dependency_requirement: "one_completed"
 			icon: "kubejs:anchor_shard"
 			id: "1015271507258F9F"
-			invisible: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -3202,7 +3174,6 @@
 		}
 		{
 			dependencies: ["53C99D10A58AE872"]
-			hide_until_deps_complete: true
 			id: "05F6CF04E6993798"
 			rewards: [
 				{
@@ -3253,7 +3224,6 @@
 		}
 		{
 			dependencies: ["53C99D10A58AE872"]
-			hide_until_deps_complete: true
 			id: "2200827055EC09BC"
 			rewards: [
 				{
@@ -3283,7 +3253,6 @@
 				"05F6CF04E6993798"
 				"3B0E2D2F4527734E"
 			]
-			hide_until_deps_complete: true
 			icon: "nuclearcraft:fission_reactor_controller"
 			id: "10674A5108E68128"
 			rewards: [
@@ -3305,42 +3274,17 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "6A5E129A0E22B617"
-					item: "nuclearcraft:fission_reactor_controller"
-					type: "item"
-				}
-				{
-					id: "1E91E5D636CC4934"
-					item: "nuclearcraft:fission_reactor_casing"
-					type: "item"
-				}
-				{
-					id: "176A53F26C57DD1F"
-					item: "nuclearcraft:fission_reactor_solid_fuel_cell"
-					type: "item"
-				}
-				{
-					id: "3AFB0A83FFE3ACFC"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "nuclearcraft:moderators"
-						}
-					}
-					title: "Any #nuclearcraft:moderators"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6A5E129A0E22B617"
+				item: "nuclearcraft:fission_reactor_controller"
+				type: "item"
+			}]
 			title: "裂变反应堆"
 			x: -22.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["53C99D10A58AE872"]
-			hide_until_deps_complete: true
 			id: "3B0E2D2F4527734E"
 			rewards: [
 				{
@@ -3366,6 +3310,7 @@
 		}
 		{
 			dependencies: ["10674A5108E68128"]
+			hide_until_deps_complete: true
 			id: "34F20E761F63106F"
 			rewards: [
 				{
@@ -3391,7 +3336,6 @@
 		}
 		{
 			dependencies: ["53C99D10A58AE872"]
-			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "58BF090163D9C1FE"
 			rewards: [
@@ -3698,6 +3642,7 @@
 		}
 		{
 			dependencies: ["3335051E70C9DE49"]
+			description: ["&d&l在一些情况下把物品接口接在精妙存储的容器上时，可能会导致游戏崩溃！"]
 			id: "73923B9574D48091"
 			rewards: [
 				{
@@ -3711,6 +3656,12 @@
 					id: "0FB3DA47E6A28F05"
 					table_id: 3367058103404351917L
 					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DFF7F1365D1B1DD"
+					table_id: 3367058103404351917L
+					type: "loot"
 				}
 			]
 			tasks: [{
@@ -3791,6 +3742,14 @@
 					id: "5FB0939148FB7B15"
 					table_id: 3367058103404351917L
 					type: "random"
+				}
+				{
+					command: "/eot_give_anchor_shard @p 1"
+					elevate_perms: true
+					icon: "kubejs:anchor_shard"
+					id: "54091BDDB144291C"
+					title: "锚定"
+					type: "command"
 				}
 			]
 			shape: "none"
@@ -3904,6 +3863,12 @@
 					table_id: 3367058103404351917L
 					type: "random"
 				}
+				{
+					count: 2
+					id: "705EB76B51DC1012"
+					item: "minecraft:turtle_spawn_egg"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			tasks: [{
@@ -3912,7 +3877,7 @@
 				type: "dimension"
 			}]
 			title: "深海星"
-			x: -4.0d
+			x: -2.0d
 			y: -2.0d
 		}
 		{
@@ -3959,15 +3924,218 @@
 					type: "item"
 				}
 				{
-					count: 5L
+					count: 2L
 					id: "03798B63A0A3EBCB"
-					item: { Count: 5, id: "wormhole:portal_frame" }
+					item: "wormhole:portal_frame"
 					type: "item"
 				}
 			]
 			title: "虫洞"
 			x: 2.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["346F9B9DECB62437"]
+			id: "18F3457A213BB8ED"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2DAE7B642D0A5480"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78EEB327C7F6B007"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "30DD2BFB1DE8733C"
+				item: "cobblefordays:tier_4"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["106E90D345ADA5AE"]
+			description: ["不需要宇航服了！"]
+			id: "317A0EE17CA94641"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0B06CA5FDDEA0842"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "320D544872BDD441"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
+			subtitle: "重做了！"
+			tasks: [{
+				id: "052553E390550210"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "ad_astra_giselle_addon:space_breathing"
+							lvl: 1
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "太空呼吸"
+			x: -8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["36D2E1C2BF0663D7"]
+			description: ["通过完成悬赏，可以获取信素币，末影币，与下界合金币。"]
+			id: "2B9ADFDE92F455F5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EED67F370D29AFE"
+				table_id: 7740467882398974147L
+				type: "loot"
+			}]
+			subtitle: "给我个任务吧"
+			tasks: [{
+				id: "06F19967241D250B"
+				item: "bountiful:bountyboard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6E6C596EACD8BE9F"]
+			id: "7F3558817C005E26"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7304884E9A176C46"
+				table_id: 7740467882398974147L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7B7A65893DB2DB4D"
+				item: "cataclysm:storm_eye"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7F3558817C005E26"]
+			id: "792B847B17A25321"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "722E9003616BCF69"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "496494F7C55A9563"
+					table_id: 3840491528305963978L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "cataclysm:find_acropolis"
+				criterion: ""
+				id: "4F1720A04552FD0A"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7B7AE1E173DB4AFD"]
+			description: ["深园之卵可以让你更加高效的处理戴斯锭。"]
+			id: "67B1992DF3A95437"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1162052D3875FD9D"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CBB634290CCB9BC"
+					table_id: 3840491528305963978L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6232837F1DB678B3"
+				item: "cataclysm:abyssal_egg"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["573F9AF697176410"]
+			description: ["机械融合砧可以让你的宝可梦更加高效的加工合金。"]
+			id: "4348A4B0D62E8D20"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4639519AE14AFCBE"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74DD8EDEC11C05AF"
+					table_id: 3840491528305963978L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4B44EC0AAB5AEFA7"
+				item: "cataclysm:mechanical_fusion_anvil"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["36D2E1C2BF0663D7"]
+			description: ["可以制作！"]
+			id: "2D44E312AEC1CFE0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7F8C228CA0802E86"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D7A71A94DC6D504"
+					table_id: 7740467882398974147L
+					type: "loot"
+				}
+			]
+			subtitle: "Sugar Man"
+			tasks: [{
+				id: "52C99B9EA442B6DF"
+				item: "cobblemon:exp_candy_s"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
 		}
 	]
 	title: "3. 归乡 | Hometown"

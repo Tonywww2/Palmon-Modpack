@@ -10,7 +10,12 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["46A1B445EE65A69E"]
+			dependencies: [
+				"46A1B445EE65A69E"
+				"28B339DC7608D688"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "6242C5B5107F1C26"
 			rewards: [
 				{
@@ -108,6 +113,12 @@
 					id: "548434BC5F87A758"
 					table_id: 3840491528305963978L
 					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "705FDC195D023E29"
+					table_id: 1651636410828424531L
+					type: "choice"
 				}
 			]
 			tasks: [{
@@ -269,6 +280,14 @@
 					table_id: 3840491528305963978L
 					type: "random"
 				}
+				{
+					command: "/eot_give_anchor_shard @p 2"
+					elevate_perms: true
+					icon: "kubejs:anchor_shard"
+					id: "4EF271171A2D3F56"
+					title: "锚定"
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			tasks: [{
@@ -294,6 +313,7 @@
 				}
 			}
 			id: "3D83DC735CD2F878"
+			invisible: true
 			optional: true
 			rewards: [
 				{
@@ -332,6 +352,7 @@
 			tasks: [{
 				id: "227732DBA81C4394"
 				item: "kubejs:voucher_5_1"
+				match_nbt: false
 				type: "item"
 			}]
 			title: "5-1 飞行"
@@ -348,6 +369,7 @@
 			]
 			icon: "botanicalmachinery:industrial_agglomeration_factory"
 			id: "2C3DEE8F626DE274"
+			invisible: true
 			optional: true
 			rewards: [
 				{
@@ -393,6 +415,7 @@
 			tasks: [{
 				id: "2C46C9D2AE05980B"
 				item: "kubejs:voucher_5_2"
+				match_nbt: false
 				type: "item"
 			}]
 			title: "5-2 植物魔法：机械化"
@@ -404,6 +427,7 @@
 			description: ["这是空间折叠？"]
 			icon: "integrateddynamics:logic_director"
 			id: "73D5970B69C7931E"
+			invisible: true
 			optional: true
 			rewards: [
 				{
@@ -442,6 +466,7 @@
 			tasks: [{
 				id: "3DE86C4E4A3B89D0"
 				item: "kubejs:voucher_5_0"
+				match_nbt: false
 				type: "item"
 			}]
 			title: "5-0 动态联合：无线"
@@ -450,6 +475,7 @@
 		}
 		{
 			dependencies: ["44B9914AFDCCA987"]
+			description: ["在此阶段，你将会解锁三份&l&e灵感&l&f。"]
 			icon: "kubejs:anchor_shard"
 			id: "46E035BDE38016C4"
 			rewards: [
@@ -737,6 +763,14 @@
 					table_id: 3840491528305963978L
 					type: "random"
 				}
+				{
+					command: "/eot_give_anchor_shard @p 2"
+					elevate_perms: true
+					icon: "kubejs:anchor_shard"
+					id: "3188F2AEACE2FAE7"
+					title: "锚定"
+					type: "command"
+				}
 			]
 			subtitle: "化繁为简"
 			tasks: [{
@@ -891,6 +925,11 @@
 					table_id: 3840491528305963978L
 					type: "random"
 				}
+				{
+					id: "210A13A4B4B10237"
+					item: "aetherworks:aetheriometer"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			subtitle: "灵感：天华之作"
@@ -968,12 +1007,13 @@
 				"因为世界的约束力，古代城那通往幽冥的传送门无法被开启，但是现在你领悟到了一种新的前往幽冥的方式......"
 				""
 				"注意：不能保证抵达地的安全性"
+				"注意：如果你能看见这件物品的合成表，那就说明你与它有缘"
 			]
 			hide_until_deps_complete: true
 			id: "060D01209461727F"
 			rewards: [
 				{
-					auto: "invisible"
+					auto: "enabled"
 					id: "562D15BD52588A7E"
 					ignore_reward_blocking: true
 					stage: "deeperanddarker"
@@ -2319,7 +2359,8 @@
 			id: "7FBCDFE4BCD60A00"
 			rewards: [
 				{
-					command: "/eot_give_anchor_shard @p 2"
+					command: "/eot_give_anchor_shard @p 3"
+					elevate_perms: true
 					icon: "kubejs:anchor_shard"
 					id: "3A3EFA7083C87B6E"
 					title: "锚定"
@@ -2336,6 +2377,11 @@
 					id: "66DAC141CE6B91BC"
 					table_id: 3840491528305963978L
 					type: "random"
+				}
+				{
+					id: "1F02C5A16C7BE16D"
+					item: "thermal:lumium_coin"
+					type: "item"
 				}
 			]
 			shape: "diamond"
@@ -2382,6 +2428,32 @@
 			title: "收束点 5.1"
 			x: 0.0d
 			y: 32.0d
+		}
+		{
+			dependencies: ["122502AE9782F1C5"]
+			description: ["虚空核心可以帮助你更加高效的制作活化彩钢板。"]
+			id: "106AA5F800305EA4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "33BB3EAAE6A16D62"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BE7407791247996"
+					table_id: 3840491528305963978L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "02F70718117EB881"
+				item: "cataclysm:void_core"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
 		}
 	]
 	title: "5. 永恒不再 | End of Eternity"

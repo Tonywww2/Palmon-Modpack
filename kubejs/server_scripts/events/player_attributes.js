@@ -122,7 +122,7 @@ const max_healthModifier = createConstantAttributeApplier(
 
 global.healing_powerAmmount = 0.0
 const healing_powerModifier = createConstantAttributeApplier(
-    "obscure_api:healing_power",
+    "attributeslib:healing_received",
     "overall_healing_power_modifier",
     () => global.healing_powerAmmount,
     "multiply_total"

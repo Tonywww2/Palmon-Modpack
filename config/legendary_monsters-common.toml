@@ -32,8 +32,8 @@
 		#Multiplies health of Ambusher
 		#Range: 0.0 ~ 1000.0
 		"Ambusher Health Multiplier" = 30.0
-		#Enables Projectile Damage For Ambusher
-		"Allow Ambusher Projectile Damage" = true
+		#Enables/Disables Projectile Damage For Ambusher
+		"Allow Ambusher Projectile Immunity" = true
 
 	["Mob Settings"."Stratling Settings"]
 		#Multiplies damage dealt by Stratling
@@ -52,8 +52,8 @@
 		"Ancient Guardian Health Multiplier" = 30.0
 		#Enables/Disables Stun Ability for Ancient Guardian. §cNOTE: Disabling This may make the bossfight less fun.
 		"Allow Ancient Guardian Stun Ability" = true
-		#Enables Projectile Damage for Ancient Guardian
-		"Allow Ancient Guardian Projectile Damage" = true
+		#Enables/Disables Projectile Damage for Ancient Guardian
+		"Allow Ancient Guardian Projectile Immunity" = true
 
 	["Mob Settings"."Haunted Knight Settings"]
 		#Multiplies damage dealt by Haunted Knight
@@ -62,8 +62,8 @@
 		#Multiplies health of Haunted Knight
 		#Range: 0.0 ~ 1000.0
 		"Haunted Knight Health Multiplier" = 30.0
-		#Enables Projectile Damage For Haunted Knight
-		"Allow Haunted Knight Projectile Damage" = true
+		#Enables/Disables Projectile Immunity For Haunted Knight
+		"Allow Haunted Knight Projectile Immunity" = true
 
 	["Mob Settings"."Haunted Guard Settings"]
 		#Multiplies damage dealt by Haunted Guard
@@ -72,8 +72,8 @@
 		#Multiplies health of Haunted Guard
 		#Range: 0.0 ~ 1000.0
 		"Haunted Guard Health Multiplier" = 30.0
-		#Enables Projectile Damage For Haunted Guard
-		"Allow Haunted Guard Projectile Damage" = true
+		#Enables/Disables Projectile Immunity For Haunted Guard
+		"Allow Haunted Guard Projectile Immunity" = true
 
 	["Mob Settings"."Posessed Paladin Settings"]
 		#Multiplies damage dealt by Posessed Paladin
@@ -84,8 +84,8 @@
 		"Posessed Paladin Health Multiplier" = 30.0
 		#Enables/Disables Stun Ability for Posessed Paladin
 		"Allow Posessed Paladin Stun Ability" = true
-		#Enables Projectile Damage Posessed Paladin
-		"Allow Posessed Paladin Projectile Damage" = true
+		#Enables/Disables Projectile Immunity for Posessed Paladin
+		"Allow Posessed Paladin Projectile Immunity" = true
 
 	["Mob Settings"."Overgrown Colosuss Settings"]
 		#Multiplies damage dealt by Overgrown Colosuss
@@ -96,8 +96,8 @@
 		"Overgrown Colosuss Health Multiplier" = 30.0
 		#Enables/Disables Stun Ability for Overgrown Colosuss. §cNOTE: Disabling This may make the bossfight less fun.
 		"Allow Overgrown Colosuss Stun Ability" = true
-		#Enables Projectile Damage for Overgrown Colosuss
-		"Allow Overgrown Colosuss Projectile Damage" = true
+		#Enables/Disables Projectile Immunity for Overgrown Colosuss
+		"Allow Overgrown Colosuss Projectile Immunity" = true
 
 	["Mob Settings"."Mossy Golem Settings"]
 		#Multiplies damage dealt by Mossy Golem
@@ -106,8 +106,6 @@
 		#Multiplies health of Mossy Golem
 		#Range: 0.0 ~ 1000.0
 		"Mossy Golem Health Multiplier" = 30.0
-		#Enables Projectile Damage for Dune Sentinel
-		"Allow Dune Sentinel Projectile Damage" = true
 
 	["Mob Settings"."Cloud Golem Settings"]
 		#Multiplies damage dealt by Cloud Golem
@@ -145,8 +143,8 @@
 		#Multiplies health of Frostbitten Golem
 		#Range: 0.0 ~ 1000.0
 		"Frostbitten Golem Health Multiplier" = 30.0
-		#Enables Projectile Damage for Frostbitten Golem
-		"Allow Frostbitten Golem Projectile Damage" = true
+		#Enables/Disables Projectile Immunity for Frostbitten Golem
+		"Allow Frostbitten Golem Projectile Immunity" = true
 
 	["Mob Settings"."Dune Sentinel Settings"]
 		#Multiplies damage dealt by Dune Sentinel
@@ -161,6 +159,8 @@
 		#Multiplies health of Bomber
 		#Range: 0.0 ~ 1000.0
 		"Bomber Health Multiplier" = 20.0
+		#Enables/Disables Projectile Immunity for Dune Sentinel
+		"Allow Dune Sentinel Projectile Immunity" = true
 
 	["Mob Settings"."Skeletosaurus Settings"]
 		#Multiplies damage dealt by Skeletosaurus
@@ -177,8 +177,8 @@
 		#Multiplies health of Lava Eater
 		#Range: 0.0 ~ 1000.0
 		"Lava Eater Health Multiplier" = 10.0
-		#Enables Projectile Damage for Lava Eater
-		"Allow Lava Eater Projectile Damage" = true
+		#Disables/Enables Projectile Immunity for Lava Eater
+		"Allow Lava Eater Projectile Immunity" = true
 
 	["Mob Settings"."Warped Fungussus Settings"]
 		#Multiplies damage dealt by Warped Fungussus
@@ -205,8 +205,8 @@
 		#Multiplies health of Shulker Mimic
 		#Range: 0.0 ~ 1000.0
 		"Shulker Mimic Health Multiplier" = 50.0
-		#Enables Projectile Damage for Shulker Mimic
-		"Allow Shulker Mimic Projectile Damage" = true
+		#Enables/Disables Projectile immunity for Shulker Mimic
+		"Allow Shulker Mimic Projectile Immunity" = true
 
 	["Mob Settings"."Tamable Knight Settings"]
 		#Multiplies damage dealt by Knight

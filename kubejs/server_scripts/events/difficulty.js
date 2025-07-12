@@ -1,7 +1,6 @@
 /**
  * hp, armor, attack
  */
-// TODO 二测修改维度
 // v2
 // global.dimAdder = {
 //     'kubejs:tfc_planet': [10, 0, 6],
@@ -9,7 +8,7 @@
 //     'minecraft:the_nether': [20, 14, 15],
 
 //     'minecraft:overworld': [40, 20, 24],
-//     'dimdungeons:dungeon_dimension': [60, 35, 36],
+//     'h:dungeon_dimension': [60, 35, 36],
 //     'ad_astra:moon': [50, 30, 28],
 //     'oceanworld:deepsea': [50, 30, 28],
 
@@ -23,13 +22,12 @@
 //     'rats:ratlantis': [240, 150, 72]
 // }
 global.dimAdder = {
-    'kubejs:tfc_planet': [10, 0, 4],
+    'minecraft:overworld': [10, 0, 4],
 
     'minecraft:the_nether': [20, 14, 11],
 
-    'minecraft:overworld': [40, 20, 16],
+    'kubejs:earth': [40, 20, 16],
     'compactmachines:compact_world': [40, 20, 16],
-    'dimdungeons:dungeon_dimension': [60, 35, 24],
     'ad_astra:moon': [50, 30, 18],
     'oceanworld:deepsea': [50, 30, 18],
 
@@ -43,13 +41,12 @@ global.dimAdder = {
     'rats:ratlantis': [240, 150, 64]
 }
 global.dimMuti = {
-    'kubejs:tfc_planet': [1, 0.5, 0.8],
+    'minecraft:overworld': [1, 0.5, 0.8],
 
     'minecraft:the_nether': [3.0, 0.7, 1.2],
 
-    'minecraft:overworld': [10, 1, 1.4],
+    'kubejs:earth': [10, 1, 1.4],
     'compactmachines:compact_world': [10, 1, 1.4],
-    'dimdungeons:dungeon_dimension': [13, 1.4, 2.00],
     'ad_astra:moon': [16, 1.35, 1.75],
     'oceanworld:deepsea': [16, 1.35, 1.75],
 

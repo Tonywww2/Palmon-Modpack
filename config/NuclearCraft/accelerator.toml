@@ -19,3 +19,12 @@
 	#Range: 0.0 ~ 2.147483647E9
 	beam_scaling = 10000.0
 
+#Particle chamber
+[particle_chamber]
+	#Min size.
+	#Range: 5 ~ 11
+	min_size = 5
+	#Max size.
+	#Range: 7 ~ 11
+	max_size = 11
+

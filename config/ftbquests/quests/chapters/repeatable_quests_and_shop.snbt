@@ -13,6 +13,12 @@
 	quests: [
 		{
 			can_repeat: false
+			description: [
+				"此章内的大多任务都可重复交付 "
+				""
+				"Most of the quests from this chapter can be repeated"
+			]
+			hide_dependent_lines: true
 			icon: "cobblemon:relic_coin"
 			id: "101ADB161EA2DD61"
 			rewards: [{
@@ -22,7 +28,6 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "此章内的大多任务都可重复交付 | Most of the quests from this chapter can be repeated. "
 			tasks: [{
 				id: "687F513A0F414533"
 				type: "checkmark"
@@ -33,6 +38,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["101ADB161EA2DD61"]
 			icon: {
 				Count: 1
 				id: "confluence:terraspark_boots"
@@ -53,10 +59,11 @@
 			}]
 			title: "泰拉饰品抽奖"
 			x: 0.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			can_repeat: true
+			dependencies: ["101ADB161EA2DD61"]
 			icon: "artifacts:cross_necklace"
 			id: "373DE75DB7AE561A"
 			rewards: [{
@@ -73,10 +80,12 @@
 			}]
 			title: "奇异饰品抽奖"
 			x: 0.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			can_repeat: true
+			dependencies: ["101ADB161EA2DD61"]
+			icon: "minecraft:iron_block"
 			id: "7E1AD678E73FCEEF"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -91,10 +100,12 @@
 				type: "item"
 			}]
 			title: "专注池抽奖"
-			x: 0.0d
-			y: -2.0d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["101ADB161EA2DD61"]
+			icon: "minecraft:diamond_block"
 			id: "78D43025B8DDA7E7"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -108,10 +119,12 @@
 				type: "item"
 			}]
 			title: "限定池抽奖"
-			x: -2.0d
-			y: 0.0d
+			x: -4.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["101ADB161EA2DD61"]
+			icon: "minecraft:netherite_block"
 			id: "497DA3AFBE949F85"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -127,9 +140,11 @@
 			}]
 			title: "限定池自选"
 			x: -4.0d
-			y: 0.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["101ADB161EA2DD61"]
+			icon: "cobgyms:lesser_cache"
 			id: "2729755EF2088E3E"
 			rewards: [{
 				id: "5885F8F168098915"
@@ -137,16 +152,18 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 12L
+				count: 3L
 				id: "76ACA7CD5E044DDE"
-				item: { Count: 12, id: "thermal:signalum_coin" }
+				item: "thermal:enderium_coin"
 				type: "item"
 			}]
 			title: "宝可梦抽奖1"
 			x: 2.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["101ADB161EA2DD61"]
+			icon: "cobgyms:adept_cache"
 			id: "5377DC80FF91D428"
 			rewards: [{
 				id: "32A7D4F13BAA93A3"
@@ -154,14 +171,112 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 36L
+				count: 8L
 				id: "44297B7AD631D167"
-				item: { Count: 36, id: "thermal:signalum_coin" }
+				item: "thermal:enderium_coin"
 				type: "item"
 			}]
 			title: "宝可梦抽奖2"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["101ADB161EA2DD61"]
+			icon: "minecraft:chest"
+			id: "29CC3E340A141F6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "540AD50BCC95F046"
+				table_id: 7740467882398974147L
+				type: "random"
+			}]
+			tasks: [{
+				count: 4L
+				id: "76E667B4095ED353"
+				item: { Count: 8, id: "thermal:enderium_coin" }
+				type: "item"
+			}]
+			title: "通用奖励抽奖"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["101ADB161EA2DD61"]
+			icon: "cobblemon:poke_ball"
+			id: "5623FC2B668C1131"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "303939C152FD622F"
+				table_id: 6666385684535454054L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 3L
+				id: "6D9FB16372375024"
+				item: "thermal:signalum_coin"
+				type: "item"
+			}]
+			title: "精灵球抽奖1"
 			x: 4.0d
-			y: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["101ADB161EA2DD61"]
+			icon: "cobblemon:ultra_ball"
+			id: "3BDD1654BAF44B7A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B25DDEBB560F887"
+				table_id: 6275658953823339123L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 3L
+				id: "70D7D634E911C443"
+				item: { Count: 3, id: "thermal:enderium_coin" }
+				type: "item"
+			}]
+			title: "精灵球抽奖-2"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["101ADB161EA2DD61"]
+			icon: "cobgyms:master_cache"
+			id: "03EA959B3A60C46A"
+			rewards: [{
+				id: "2937A369689B11B3"
+				item: "cobgyms:master_cache"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "50E9C6FD7A2AC280"
+				item: "thermal:enderium_coin"
+				type: "item"
+			}]
+			title: "宝可梦抽奖3"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["101ADB161EA2DD61"]
+			icon: "cobgyms:legendary_cache"
+			id: "35BF50F28023335F"
+			rewards: [{
+				id: "79A9B66DA4665D03"
+				item: "cobgyms:legendary_cache"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "1F3743702BD48E0A"
+				item: "thermal:enderium_coin"
+				type: "item"
+			}]
+			title: "宝可梦抽奖2"
+			x: 2.0d
+			y: 8.0d
 		}
 	]
 	title: "重复任务 | Repeatable Quests"

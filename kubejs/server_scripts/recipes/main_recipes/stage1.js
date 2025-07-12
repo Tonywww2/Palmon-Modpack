@@ -347,10 +347,10 @@ ServerEvents.recipes(event => {
 
     event.custom({
             "type": "tconstruct:casting_table",
-            "cast": { "item": 'tfc:metal/sheet/blue_steel' },
+            "cast": { "tag": 'forge:plates/blue_steel' },
             "cast_consumed": true,
             "cooling_time": 80,
-            "fluid": { "amount": 180, "tag": "tfc:red_steel" },
+            "fluid": { "amount": 90, "tag": "tfc:red_steel" },
             "result": 'kubejs:virtual_gold_ingot'
         }).id('kubejs:virtual_gold_ingot_s1')
 

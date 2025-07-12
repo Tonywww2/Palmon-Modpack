@@ -186,13 +186,13 @@ StartupEvents.registry('item', event => {
                 "multiply_base"
             )
             .modifyAttribute(
-                "obscure_api:healing_power",
+                "attributeslib:healing_received",
                 "gungnir_healing_power",
                 0.4,
                 "multiply_total"
             )
             .modifyAttribute(
-                "obscure_api:penetration",
+                "attributeslib:armor_shred",
                 "gungnir_penetration",
                 0.2,
                 "addition"
@@ -269,7 +269,7 @@ StartupEvents.registry('item', event => {
                 "multiply_total"
             )
             .modifyAttribute(
-                "obscure_api:healing_power",
+                "attributeslib:healing_received",
                 "laevatain_healing_power",
                 1.0,
                 "multiply_total"
@@ -508,7 +508,7 @@ StartupEvents.registry('item', event => {
 
             })
             .modifyAttribute(
-                "obscure_api:penetration",
+                "attributeslib:armor_shred",
                 "huntress_penetration",
                 0.3,
                 "addition"
@@ -606,7 +606,7 @@ StartupEvents.registry('item', event => {
                 "addition"
             )
             .modifyAttribute(
-                "obscure_api:healing_power",
+                "attributeslib:healing_received",
                 "white_mask_healing_power",
                 0.1,
                 "multiply_total"

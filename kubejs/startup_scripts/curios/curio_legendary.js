@@ -22,9 +22,9 @@ StartupEvents.registry('item', event => {
             "addition"
         )
         .modifyAttribute(
-            "minecraft:generic.armor_toughness",
-            "anchor_armor_toughness",
-            6,
+            "attributeslib:overheal",
+            "anchor_overheal",
+            0.01,
             "addition"
         )
         .modifyAttribute(

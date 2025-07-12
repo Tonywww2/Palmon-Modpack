@@ -1,5 +1,5 @@
 #Dimension with Collapse
-dimension_with_collapse = ["kubejs:tfc_planet"]
+dimension_with_collapse = ["minecraft:overworld"]
 #Enable debug log
 enable_debug_log = false
 

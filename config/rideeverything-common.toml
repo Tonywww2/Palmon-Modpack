@@ -1,0 +1,8 @@
+
+#RideEverything Flying Entity Configuration
+[flying_entities]
+	#Additional flying entity types, format: 'modid:entity_name'
+	additional_flying_entities = []
+	#Excluded entity types, format: 'modid:entity_name' (can override default behavior)
+	excluded_flying_entities = []
+

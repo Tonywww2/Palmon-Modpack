@@ -49,6 +49,13 @@ ServerEvents.recipes(event => {
     )
 
     event.replaceInput([
+        { id: 'aeinfinitybooster:dimension_card'}
+    ],
+        'minecraft:ender_eye',
+        'kubejs:epsilon_framework'
+    )
+
+    event.replaceInput([
         { id: 'mekanism:dictionary'}
     ],
         '#forge:circuits/basic',

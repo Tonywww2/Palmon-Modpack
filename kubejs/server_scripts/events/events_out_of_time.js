@@ -273,6 +273,8 @@ PlayerEvents.advancement('dustandash:entry', event => {
     let player = event.player
     // player.tell("第一次登陆提示")
 
+    event.server.runCommandSilent(`/curios set curio ${player.name.getString()} 0`)
+
     if (global.current_buffs.size != 0) {
         player.tell(Text.translatable('kubejs.eot.first_login_info').color(Color.AQUA))
 
@@ -282,7 +284,7 @@ PlayerEvents.advancement('dustandash:entry', event => {
         if (global.current_buffs.has(id)) {
             let buff = global.all_buffs[id]
 
-            console.log(`[EOT] ${id} apply to ${player.name}`)
+            console.log(`[EOT] ${id} apply to ${player.name.getString()}`)
             player.tell(Text.of('   ')
                 .append(Text.translatable(`kubejs.eot.${id}_name`).color(Color.LIGHT_PURPLE).hover(getHover(buff)))
             )

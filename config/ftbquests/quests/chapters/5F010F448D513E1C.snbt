@@ -74,6 +74,33 @@
 			x: 0.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["0714A09D27EF360F"]
+			description: [
+				"你已开启真正结局："
+				"- 如果你能做到的话，你可以提前完成其他章节的任务。"
+				"- 制作出&d思维&r后，，第七章将会解锁。"
+				"- 可以激活一些更为强大的EOT。"
+			]
+			icon: "kubejs:present_soul"
+			id: "28B339DC7608D688"
+			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36210AC93E23AD83"
+				table_id: 3840491528305963978L
+				type: "loot"
+			}]
+			subtitle: "3000次跳跃"
+			tasks: [{
+				id: "55CCFCE2FAC5CC0C"
+				stage: "true_ending"
+				type: "gamestage"
+			}]
+			title: "真正结局"
+			x: 0.0d
+			y: 2.0d
+		}
 	]
 	title: "时间之外的往事 | E.O.T."
 }

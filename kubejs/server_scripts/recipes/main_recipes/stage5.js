@@ -9,6 +9,21 @@ ServerEvents.recipes(event => {
 
     event.smithing('dustandash:centrifuge', 'dustandash:iron_structural_components', 'nuclearcraft:centrifuge', 'dustandash:ash_steel_ingot').id('kubejs:centrifuge_s5')
 
+    event.shaped(
+        'appbot:mana_cell_housing',
+        [
+            'QSQ',
+            'C C',
+            'III'
+        ],
+        {
+            I: 'botania:manasteel_ingot',
+            Q: 'ae2:quartz_glass',
+            S: 'botania:gaia_ingot',
+            C: 'cataclysm:ignitium_ingot'
+        }
+    ).id('kubejs:mana_cell_housing_s5')
+
     event.shaped('nuclearcraft:plate_basic', [
         'BA',
         'AB'
@@ -259,6 +274,23 @@ ServerEvents.recipes(event => {
         '4x kubejs:end_steel',
         'kubejs:gamma_framework'
     ]).superheated().id('kubejs:flux_core_s5')
+
+    event.custom({
+        "type": "nuclearcraft:assembler",
+        "input": [
+            Item.of('9x tinkers_advanced:basalz_signalum').toJson(),
+            Item.of('9x tinkers_advanced:blitz_lumium').toJson(),
+            Item.of('9x tinkers_advanced:blizz_enderium').toJson(),
+            Item.of('5x tinkers_advanced:blaze_netherite').toJson(),
+        ],
+        "output": [
+            Item.of('3x tinkers_advanced:activated_chromatic_steel').toJson(),
+            Item.of('cataclysm:void_core').toJson()
+        ],
+        "powerModifier": 4.0,
+        "radiation": 0.0,
+        "timeModifier": 4.0
+    }).id('kubejs:activated_chromatic_steel_sp_s5')
 
     event.custom({
         "type": "dustandash:integrate",
@@ -540,8 +572,8 @@ ServerEvents.recipes(event => {
                 "count": 8
             },
             {
-                "item": 'forestry:royal_jelly',
-                "count": 4
+                "item": 'forestry:ambrosia',
+                "count": 2
             },
             {
                 "item": 'kubejs:collapse_prediction',

@@ -1,10 +1,12 @@
 {
-	"objectives": [
-		"butcher_objs",
-		"_all_objs"
-	],
-	"rewards": [
-		"butcher_rews",
-		"_all_rews"
-	]
+    "objectives":
+    [
+        "butcher_objs"
+    ],
+    "rewards":
+    [
+        "butcher_rews",
+        "_all_rews",
+        "_all_objs"
+    ]
 }

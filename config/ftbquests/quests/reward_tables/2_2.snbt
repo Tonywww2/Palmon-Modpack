@@ -1,0 +1,18 @@
+{
+	icon: "cobblemon:ultra_ball"
+	id: "57179E919223C273"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ count: 8, item: "cobblemon:ultra_ball" }
+		{ count: 8, item: "cobblemon:quick_ball" }
+		{ count: 8, item: "cobblemon:dusk_ball" }
+		{ count: 8, item: "cobblemon:nest_ball" }
+		{ count: 8, item: "cobblemon:dive_ball" }
+		{ count: 8, item: "cobblemon:net_ball" }
+		{ count: 8, item: "cobblemon:moon_ball" }
+		{ count: 8, item: "cobblemon:dream_ball" }
+		{ item: "cobblemon:master_ball", weight: 0.025f }
+	]
+	title: "精灵球-2"
+}

@@ -22,6 +22,14 @@
 	maxTier = 3
 	presetAffixes = []
 	affixList = ["champions:shielding"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:scylla"
+	minTier = 3
+	maxTier = 6
+	presetAffixes = []
+	affixList = ["champions:shielding"]
 	affixPermission = "BLACKLIST" 
 
 [[entities]]
@@ -67,7 +75,7 @@
 [[entities]]
 	entity = "cataclysm:ignis"
 	minTier = 2
-	maxTier = 6
+	maxTier = 7
 	presetAffixes = []
 	affixList = ["champions:shielding"]
 	affixPermission = "BLACKLIST"

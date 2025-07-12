@@ -292,6 +292,48 @@ ServerEvents.recipes(event => {
                 }
             ]
         }).id('kubejs:production_alloy_' + i)
+
+        event.custom({
+            "type": "palmon:processing",
+            "category": "misc",
+            "focus_stat": "DEFENCE",
+            "min_level": 30,
+            "required_type": "steel",
+            "base_hp": 0,
+            "base_atk": 0,
+            "base_def": 40,
+            "base_spa": 0,
+            "base_spd": 0,
+            "base_spe": 0,
+            "area_blocks": [
+                {
+                    "tag": "tfc:anvils"
+                },
+                {
+                    "tag": "forge:magma_block"
+                },
+                {
+                    "item": 'cataclysm:mechanical_fusion_anvil'
+                },
+                {
+                    "item": 'embers:dawnstone_anvil'
+                }
+            ],
+            "block_count": 1,
+            "input_items": inputs,
+            "input_power": 0,
+            "input_fluid": {
+                "fluid": "minecraft:water",
+                "amount": 500
+            },
+            "tick": tick - 150,
+            "result_items": [
+                {
+                    "item": output,
+                    "count": count + 1
+                }
+            ]
+        }).id('kubejs:production_alloy_sp_' + i)
         i += 1
     }
 })

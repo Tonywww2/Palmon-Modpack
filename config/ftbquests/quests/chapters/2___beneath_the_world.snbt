@@ -8,6 +8,7 @@
 	id: "057A6106E774415D"
 	images: [
 		{
+			dependency: "0E4E60BCE9A66B27"
 			height: 4.0d
 			image: "forestry:textures/forestry/atlas/gui/habitats/nether.png"
 			rotation: 0.0d
@@ -35,20 +36,7 @@
 		}
 	]
 	order_index: 1
-	quest_links: [
-		{
-			id: "07AC57A1084FD560"
-			linked_quest: "32EAD9843E44D905"
-			x: 4.0d
-			y: -2.0d
-		}
-		{
-			id: "0134C94A6E6450B3"
-			linked_quest: "2789B5D15B2F027C"
-			x: 40.0d
-			y: -2.0d
-		}
-	]
+	quest_links: [ ]
 	quests: [
 		{
 			dependencies: [
@@ -102,6 +90,7 @@
 			dependencies: [
 				"2789B5D15B2F027C"
 				"47A7218FE03E2D6A"
+				"3E7677F1669B7BCB"
 			]
 			id: "626CB6BCBF3B96D2"
 			rewards: [
@@ -200,7 +189,12 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["17673A8A63634284"]
+			dependencies: [
+				"17673A8A63634284"
+				"28B339DC7608D688"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_visible: true
 			icon: "minecraft:obsidian"
 			id: "0E4E60BCE9A66B27"
 			rewards: [
@@ -230,6 +224,7 @@
 		}
 		{
 			dependencies: ["0E4E60BCE9A66B27"]
+			hide_until_deps_complete: true
 			id: "484C70F78AF3D3A4"
 			rewards: [
 				{
@@ -261,6 +256,7 @@
 		}
 		{
 			dependencies: ["0E4E60BCE9A66B27"]
+			hide_until_deps_complete: true
 			id: "280D3D2587041B8F"
 			rewards: [
 				{
@@ -290,7 +286,9 @@
 				"280D3D2587041B8F"
 				"484C70F78AF3D3A4"
 				"32EAD9843E44D905"
+				"6552F207B35096A3"
 			]
+			description: ["&c注意：由于余烬的代码长时间未经维护，你可能会遇到一些恶性BUG（例如复制物品），请不要使用这些BUG。"]
 			id: "518D5BB2DA0A9E0C"
 			rewards: [
 				{
@@ -597,7 +595,9 @@
 			dependencies: [
 				"48DD05BDDC1E56E4"
 				"452033F23610E30E"
+				"69290174DB36E478"
 			]
+			dependency_requirement: "one_completed"
 			id: "78FD8C816053AA2C"
 			rewards: [
 				{
@@ -659,9 +659,9 @@
 		}
 		{
 			dependencies: ["34AB730CB39AD62D"]
-			hide_until_deps_complete: true
 			icon: "minecraft:chest"
 			id: "57C7123817EBBE5C"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "0789BD486BD0DB77"
@@ -698,6 +698,7 @@
 			tasks: [{
 				id: "445FA5CCBABE8167"
 				item: "kubejs:voucher_2_2"
+				match_nbt: false
 				type: "item"
 			}]
 			title: "2-2 动态联合"
@@ -706,9 +707,10 @@
 		}
 		{
 			dependencies: ["34AB730CB39AD62D"]
-			hide_until_deps_complete: true
-			icon: "compactmachines:personal_shrinking_device"
+			hide_until_deps_complete: false
+			icon: "compactmachines:wall"
 			id: "0E9A86F7F8F2F1DE"
+			invisible: true
 			optional: true
 			rewards: [
 				{
@@ -727,6 +729,7 @@
 			tasks: [{
 				id: "4F16C31C0DE2BF19"
 				item: "kubejs:voucher_2_0"
+				match_nbt: false
 				type: "item"
 			}]
 			title: "2-0 压缩空间机器"
@@ -738,7 +741,6 @@
 			hide_until_deps_complete: true
 			icon: "embers:tinker_hammer"
 			id: "2DD4A11F667C59A9"
-			optional: true
 			rewards: [{
 				id: "1F094C9BED524FAB"
 				item: {
@@ -804,6 +806,7 @@
 			tasks: [{
 				id: "1D50760F48D50996"
 				item: "kubejs:voucher_2_1"
+				match_nbt: false
 				type: "item"
 			}]
 			title: "2-1 余烬"
@@ -812,9 +815,9 @@
 		}
 		{
 			dependencies: ["34AB730CB39AD62D"]
-			hide_until_deps_complete: true
 			icon: "rftoolsbuilder:shape_card_def"
 			id: "322162A1B029C99D"
+			invisible: true
 			optional: true
 			rewards: [{
 				id: "627E9D0FE9D1EF20"
@@ -891,6 +894,7 @@
 			tasks: [{
 				id: "6C244E9E03261812"
 				item: "kubejs:voucher_2_3"
+				match_nbt: false
 				type: "item"
 			}]
 			title: "2-3 RFTools"
@@ -923,7 +927,11 @@
 		}
 		{
 			dependencies: ["22DEA013C6AF2127"]
-			description: ["合成..."]
+			description: [
+				"合成..."
+				""
+				"你可能需要花肥"
+			]
 			icon: "botania:apothecary_default"
 			id: "24A6488BA733B78B"
 			optional: true
@@ -955,24 +963,18 @@
 			]
 			shape: "hexagon"
 			subtitle: "灵感：植物魔法"
-			tasks: [
-				{
-					id: "5447A5DC218C7C48"
-					item: "botania:fertilizer"
-					type: "item"
-				}
-				{
-					id: "292FA80B0D8A0CB4"
-					item: "botania:apothecary_default"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "292FA80B0D8A0CB4"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
 			x: 20.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["22DEA013C6AF2127"]
 			description: ["压印..."]
+			icon: "kubejs:alpha_dust"
 			id: "550FDE68159296D1"
 			optional: true
 			rewards: [
@@ -998,8 +1000,8 @@
 			shape: "hexagon"
 			subtitle: "特制灵感：机械构件"
 			tasks: [{
-				id: "4C1DE95A1412BBE7"
-				item: "jaopca:gears.dawnstone"
+				id: "6054514CD7C6E5E3"
+				item: "kubejs:alpha_dust"
 				type: "item"
 			}]
 			x: 20.0d
@@ -1194,6 +1196,12 @@
 					id: "6BE44D877CB905A7"
 					table_id: 1141615569593449731L
 					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FDB45BE76F1679F"
+					table_id: 3367058103404351917L
+					type: "loot"
 				}
 			]
 			tasks: [{
@@ -1482,6 +1490,7 @@
 		}
 		{
 			dependencies: ["14BAD60D0ECC343C"]
+			description: ["&c注意：由于群峦传说会给很多物品添加热量的Capability（比如金属锭），会导致AE认为从JEI/EMI中调用的这些材料与你网络中的材料不匹配，你需要手动从网络中选取不匹配的材料，然后手动将其放入样板中（成品也可能会有此问题）。"]
 			id: "0AA60B47E7273EC3"
 			rewards: [
 				{
@@ -1501,14 +1510,20 @@
 					table_id: 1141615569593449731L
 					type: "random"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "0F491844499572B8"
+					table_id: 3367058103404351917L
+					type: "loot"
+				}
 			]
 			tasks: [{
 				id: "05DC6C127E45948B"
 				item: "ae2:terminal"
 				type: "item"
 			}]
-			x: 26.0d
-			y: 2.0d
+			x: 28.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0AA60B47E7273EC3"]
@@ -1536,23 +1551,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"0AA60B47E7273EC3"
-				"4363D021FE72ABCE"
-			]
-			hide_until_deps_complete: true
-			icon: "botania:cosmetic_questgiver_mark"
-			id: "5FEC0E57D5673A64"
-			tasks: [{
-				id: "33294A8ECBF55C39"
-				type: "checkmark"
-			}]
-			title: "基础网络"
-			x: 28.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["5FEC0E57D5673A64"]
+			dependencies: ["2EA8F300ED67B675"]
 			id: "65FE0755248EE470"
 			rewards: [
 				{
@@ -1573,11 +1572,11 @@
 				item: "ae2:controller"
 				type: "item"
 			}]
-			x: 30.0d
-			y: 4.0d
+			x: 28.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["5FEC0E57D5673A64"]
+			dependencies: ["6100D4712839BD3B"]
 			id: "763FABD615EF64D5"
 			rewards: [
 				{
@@ -1627,7 +1626,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["5FEC0E57D5673A64"]
+			dependencies: ["14BAD60D0ECC343C"]
 			id: "33B05DB45C5F413A"
 			rewards: [
 				{
@@ -1649,7 +1648,7 @@
 				type: "item"
 			}]
 			x: 30.0d
-			y: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["33B05DB45C5F413A"]
@@ -1677,7 +1676,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["65FE0755248EE470"]
+			dependencies: ["14BAD60D0ECC343C"]
 			id: "32C2515EA4D08BE0"
 			rewards: [
 				{
@@ -1892,6 +1891,12 @@
 					table_id: 1141615569593449731L
 					type: "random"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "0060130EF4B29EA7"
+					table_id: 3367058103404351917L
+					type: "loot"
+				}
 			]
 			subtitle: "聚为棍"
 			tasks: [{
@@ -2066,6 +2071,14 @@
 					table_id: 7740467882398974147L
 					type: "random"
 				}
+				{
+					command: "/eot_give_anchor_shard @p 1"
+					elevate_perms: true
+					icon: "kubejs:anchor_shard"
+					id: "7DD75C568AF541CA"
+					title: "锚定"
+					type: "command"
+				}
 			]
 			shape: "diamond"
 			size: 2.0d
@@ -2080,6 +2093,7 @@
 		}
 		{
 			dependencies: ["0E4E60BCE9A66B27"]
+			hide_until_deps_complete: true
 			icon: "cataclysm:monstrous_eye"
 			id: "654BC8EAB7AE7844"
 			rewards: [
@@ -2166,6 +2180,7 @@
 		{
 			dependencies: ["0E4E60BCE9A66B27"]
 			description: ["为匠魂工具加上该强化后，可以使你的工具慢慢升级！ "]
+			hide_until_deps_complete: true
 			icon: "minecraft:nether_star"
 			id: "24DD7A69C59FB5E7"
 			tasks: [
@@ -2184,6 +2199,45 @@
 			title: "强化：可改进"
 			x: 0.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["32EAD9843E44D905"]
+			id: "6552F207B35096A3"
+			tasks: [{
+				id: "1B79E1F75CD68C66"
+				item: "kubejs:alpha_framework"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2789B5D15B2F027C"]
+			id: "3E7677F1669B7BCB"
+			tasks: [{
+				id: "10E0E9BA2E6DC18A"
+				item: "palmon:m_crystal"
+				type: "item"
+			}]
+			x: 40.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5D5D52762F9D3E39"]
+			id: "69290174DB36E478"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34CCC3E573C338B2"
+				table_id: 7740467882398974147L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6724002E19B78D83"
+				item: "embers:mixer_centrifuge"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
 		}
 	]
 	title: "2. 群峦之下 | Beneath the World"

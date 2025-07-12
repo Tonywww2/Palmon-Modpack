@@ -29,6 +29,7 @@ let curiosList = [
 ]
 let itemList = [
     'kubejs:helium_3_crystal_infinity',
+    'industrialforegoing:meat_feeder'
 
 ]
 let deliveryCoordinate = ['kubejs:delivery_coordinate_gamma', 'kubejs:delivery_coordinate_epsilon', 'kubejs:delivery_coordinate_ultimate']

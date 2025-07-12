@@ -14,7 +14,7 @@ function s2Sp(event) {
             D: 'kubejs:alpha_dust'
         }).id('kubejs:sp_unknown_rods_s2')
 
-    event.shaped('kubejs:alpha_framework', [
+    event.shaped('3x kubejs:alpha_framework', [
         ' A ',
         'BDB',
         ' C '

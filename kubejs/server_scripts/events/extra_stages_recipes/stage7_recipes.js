@@ -318,11 +318,11 @@ const stage7 = function (event) {
         "type": "dustandash:milling",
         "step1": false,
         "pattern": [
-            "#AAA#",
+            "#AUA#",
             "#BCB#",
             "#DED#",
             "#BCB#",
-            "#AAA#"
+            "#APA#"
         ],
         "key": {
             "catalyst":
@@ -352,6 +352,14 @@ const stage7 = function (event) {
             "E":
             {
                 "item": 'bfr:fusion_reactor_frame'
+            },
+            "U":
+            {
+                "tag": 'forge:storage_blocks/hepatizon'
+            },
+            "P":
+            {
+                "item": 'nuclearcraft:turbine_beryllium_coil'
             }
         },
         "output": {

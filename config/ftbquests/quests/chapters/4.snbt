@@ -10,7 +10,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["7091A9ADB8F3C993"]
+			dependencies: [
+				"7091A9ADB8F3C993"
+				"28B339DC7608D688"
+			]
+			dependency_requirement: "one_completed"
 			icon: "ad_astra:mars_globe"
 			id: "2BA2D49F67F26CA7"
 			rewards: [
@@ -143,6 +147,7 @@
 		}
 		{
 			dependencies: ["7FC968D263AEA122"]
+			description: ["&c注意：由于群峦传说会给很多物品添加热量的Capability（比如金属锭），会导致AE认为从JEI/EMI中调用的这些材料与你网络中的材料不匹配，你需要手动从网络中选取不匹配的材料，然后手动将其放入样板中（成品也可能会有此问题）。"]
 			hide_until_deps_complete: true
 			id: "4BC78FBF5168C6A5"
 			rewards: [
@@ -497,6 +502,14 @@
 					table_id: 3367058103404351917L
 					type: "random"
 				}
+				{
+					command: "/eot_give_anchor_shard @p 1"
+					elevate_perms: true
+					icon: "kubejs:anchor_shard"
+					id: "54B227051A40EC9E"
+					title: "锚定"
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			tasks: [{
@@ -631,6 +644,14 @@
 					table_id: 3367058103404351917L
 					type: "random"
 				}
+				{
+					command: "/eot_give_anchor_shard @p 1"
+					elevate_perms: true
+					icon: "kubejs:anchor_shard"
+					id: "520D38F9F14BFCD1"
+					title: "锚定"
+					type: "command"
+				}
 			]
 			tasks: [{
 				id: "513A938FBA574564"
@@ -673,6 +694,7 @@
 			dependencies: ["3D4DF2C3EA0892F3"]
 			icon: "industrialforegoingsouls:soul_laser_base"
 			id: "474FE81A901D1B83"
+			invisible: true
 			optional: true
 			rewards: [
 				{
@@ -723,6 +745,7 @@
 			tasks: [{
 				id: "3B20AA07D2F53A11"
 				item: "kubejs:voucher_4_0"
+				match_nbt: false
 				type: "item"
 			}]
 			title: "4-0 工业先锋：灵魂加速"
@@ -734,6 +757,7 @@
 			description: ["思索片刻后，你理解了一些高级设备的工作原理与制作方法。"]
 			icon: "industrialforegoing:machine_frame_advanced"
 			id: "42B58780F3A296B5"
+			invisible: true
 			optional: true
 			rewards: [
 				{
@@ -794,6 +818,7 @@
 			tasks: [{
 				id: "06BAE2AD8CB8E7FE"
 				item: "kubejs:voucher_4_1"
+				match_nbt: false
 				type: "item"
 			}]
 			title: "4-1 工业先锋：高级设备"
@@ -802,12 +827,14 @@
 		}
 		{
 			dependencies: ["3D4DF2C3EA0892F3"]
+			description: ["你可以制作时间之瓶"]
 			icon: {
 				Count: 1
 				id: "tiab:time_in_a_bottle"
 				tag: { }
 			}
 			id: "071ABCD9A2899234"
+			invisible: true
 			optional: true
 			rewards: [
 				{
@@ -832,6 +859,7 @@
 			tasks: [{
 				id: "5136FE1E7E2A6775"
 				item: "kubejs:voucher_4_2"
+				match_nbt: false
 				type: "item"
 			}]
 			title: "4-2 时间之瓶"
@@ -847,6 +875,7 @@
 			]
 			icon: "kubejs:alpha_framework"
 			id: "2595BC9FBB0DCFAE"
+			invisible: true
 			optional: true
 			rewards: [
 				{
@@ -871,6 +900,7 @@
 			tasks: [{
 				id: "40E2624AA39C8D29"
 				item: "kubejs:voucher_4_3"
+				match_nbt: false
 				type: "item"
 			}]
 			title: "4-3 框架解构"
@@ -882,6 +912,7 @@
 			description: ["这份碎片给予了你一份特别的启示，通过训练宝可梦使用源质计算框架，你就可以让他们以一种全新的方式制作一些物品......"]
 			icon: "cobblemon:master_ball"
 			id: "754E584EBB786A61"
+			invisible: true
 			optional: true
 			rewards: [
 				{
@@ -942,6 +973,7 @@
 			tasks: [{
 				id: "085CA65806792311"
 				item: "kubejs:voucher_4_4"
+				match_nbt: false
 				type: "item"
 			}]
 			title: "4-4 宝可梦/帕鲁专业化"
@@ -952,6 +984,7 @@
 			dependencies: ["3D4DF2C3EA0892F3"]
 			icon: "ae2:controller"
 			id: "28242B0319EA2546"
+			invisible: true
 			optional: true
 			rewards: [
 				{
@@ -1062,6 +1095,7 @@
 			tasks: [{
 				id: "0A4DE7B90A7144E8"
 				item: "kubejs:voucher_4_5"
+				match_nbt: false
 				type: "item"
 			}]
 			title: "4-5 自动化"
@@ -1070,7 +1104,11 @@
 		}
 		{
 			dependencies: ["0D937378D5C6FCB2"]
-			description: ["......帮助越大，代价越高。"]
+			description: [
+				"在此阶段，你将会解锁三份&l&e灵感&l&f。"
+				""
+				"......帮助越大，代价越高。"
+			]
 			icon: "kubejs:anchor_shard"
 			id: "5C182F768906554A"
 			rewards: [
@@ -1328,14 +1366,8 @@
 			shape: "hexagon"
 			subtitle: "灵感：魔王"
 			tasks: [{
-				id: "1BE00141584172DF"
-				item: {
-					Count: 1
-					id: "occultism:chalk_red"
-					tag: {
-						Damage: 0
-					}
-				}
+				id: "38119A2BC19928FD"
+				item: "occultism:chalk_red_impure"
 				type: "item"
 			}]
 			x: -2.0d
@@ -1421,7 +1453,10 @@
 		}
 		{
 			dependencies: ["4473E1C35100C688"]
-			description: ["前往古代城，寻找古代人留下的龙息。"]
+			description: [
+				"前往古代城，寻找古代人留下的龙息..."
+				"或者从一些宝可梦身上掠夺..."
+			]
 			hide_until_deps_complete: true
 			id: "0CE4E5DC7464D60A"
 			rewards: [
@@ -1485,10 +1520,7 @@
 			y: -20.0d
 		}
 		{
-			dependencies: [
-				"2F24825CDE72CA6B"
-				"0CE4E5DC7464D60A"
-			]
+			dependencies: ["0CE4E5DC7464D60A"]
 			id: "1A6BE3E860BEF229"
 			rewards: [
 				{
@@ -1513,10 +1545,7 @@
 			y: -18.0d
 		}
 		{
-			dependencies: [
-				"2F24825CDE72CA6B"
-				"0CE4E5DC7464D60A"
-			]
+			dependencies: ["0CE4E5DC7464D60A"]
 			id: "69D9824855251C89"
 			rewards: [
 				{
@@ -2358,7 +2387,10 @@
 			y: -24.0d
 		}
 		{
-			dependencies: ["25CC1D51EDB864EA"]
+			dependencies: [
+				"25CC1D51EDB864EA"
+				"5BA8467626995AAA"
+			]
 			id: "2F00F7AD9AABDC22"
 			rewards: [
 				{
@@ -2694,6 +2726,7 @@
 			rewards: [
 				{
 					command: "/eot_give_anchor_shard @p 2"
+					elevate_perms: true
 					icon: "kubejs:anchor_shard"
 					id: "523C7AD020F0A003"
 					title: "锚定"
@@ -2771,12 +2804,26 @@
 					table_id: 3367058103404351917L
 					type: "random"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "4733ABECDA0701D9"
+					table_id: 7787811987843285123L
+					type: "choice"
+				}
+				{
+					command: "/eot_give_anchor_shard @p 1"
+					elevate_perms: true
+					icon: "kubejs:anchor_shard"
+					id: "3872DCB7BEF403A2"
+					title: "锚定"
+					type: "command"
+				}
 			]
 			tasks: [{
 				entity: "ad_astra:martian_raptor"
 				id: "6D571C1D69F02016"
 				type: "kill"
-				value: 100L
+				value: 42L
 			}]
 			title: "恐龙猎人"
 			x: -2.0d
@@ -2788,7 +2835,7 @@
 			id: "46A1B445EE65A69E"
 			rewards: [
 				{
-					auto: "invisible"
+					auto: "enabled"
 					id: "253C1E02EC870A08"
 					ignore_reward_blocking: true
 					stage: "the_end"
@@ -2855,6 +2902,83 @@
 			}]
 			x: 2.0d
 			y: -12.0d
+		}
+		{
+			dependencies: ["1E2A1641798E125F"]
+			id: "1AD58964979B5868"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3E0D1C132CD412F3"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "794556A8B006EEBA"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "766D3D0C7467B6AB"
+				item: "cobblefordays:tier_5"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["416E18C9D2CF0876"]
+			id: "7FDE6CF9DD1F2F49"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "62F31CFAB23642DB"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "363B8B66A8586411"
+					table_id: 3840491528305963978L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "61EBA2D559774DA0"
+				item: "appbot:mana_cell_housing"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["1E2A1641798E125F"]
+			description: ["可以制作！"]
+			id: "7DEBDE798DA067F6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "332B098E38CF9544"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EA5054023AB401E"
+					table_id: 7740467882398974147L
+					type: "loot"
+				}
+			]
+			subtitle: "Sugar Man"
+			tasks: [{
+				id: "39E71627739CC0CB"
+				item: "cobblemon:exp_candy_l"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
 		}
 	]
 	title: "4. 火星 | The Mars"

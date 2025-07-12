@@ -49,16 +49,6 @@ ServerEvents.recipes(event => {
       C: '#forge:obsidian'
     }).id('kubejs:enchanting_table_s3')
 
-  event.shaped('dimdungeons:block_gilded_portal', [
-    ' A ',
-    'ABA',
-    ' A '
-  ],
-    {
-      A: 'kubejs:stable_desh_ingot',
-      B: 'minecraft:chiseled_stone_bricks'
-    }).id('kubejs:block_gilded_portal_s3')
-
   event.shaped('immersiveengineering:wirecutter', [
     'C C',
     ' A ',
@@ -93,56 +83,56 @@ ServerEvents.recipes(event => {
     }).id('kubejs:machine_frame_s3')
 
   event.custom({
-  "type": "thermal_extra:component_assembly",
-  "energy": 25000,
-  "ingredients": [
-    {
-      "count": 4,
-      "tag": 'forge:tar'
-    },
-    {
-      "count": 1,
-      "item": 'minecraft:bucket'
-    },
-    {
-      "amount": 1000,
-      "fluid": 'ad_astra:oil'
-    }
-  ],
-  "result": [
-    {
-      "count": 1,
-      "item": 'thermal:crude_oil_bucket'
-    }
-  ]
-}).id('kubejs:crude_oil_1_s3')
+    "type": "thermal_extra:component_assembly",
+    "energy": 25000,
+    "ingredients": [
+      {
+        "count": 4,
+        "tag": 'forge:tar'
+      },
+      {
+        "count": 1,
+        "item": 'minecraft:bucket'
+      },
+      {
+        "amount": 1000,
+        "fluid": 'ad_astra:oil'
+      }
+    ],
+    "result": [
+      {
+        "count": 1,
+        "item": 'thermal:crude_oil_bucket'
+      }
+    ]
+  }).id('kubejs:crude_oil_1_s3')
 
   event.custom({
-  "type": "thermal_extra:component_assembly",
-  "energy": 25000,
-  "ingredients": [
-    {
-      "count": 4,
-      "tag": 'forge:tar'
-    },
-    {
-      "count": 1,
-      "item": 'minecraft:bucket'
-    },
-    {
-      "amount": 1000,
-      "fluid": 'techreborn:oil'
-    }
-  ],
-  "result": [
-    {
-      "count": 1,
-      "item": 'thermal:crude_oil_bucket'
-    }
-  ]
-}).id('kubejs:crude_oil_2_s3')
+    "type": "thermal_extra:component_assembly",
+    "energy": 25000,
+    "ingredients": [
+      {
+        "count": 4,
+        "tag": 'forge:tar'
+      },
+      {
+        "count": 1,
+        "item": 'minecraft:bucket'
+      },
+      {
+        "amount": 1000,
+        "fluid": 'techreborn:oil'
+      }
+    ],
+    "result": [
+      {
+        "count": 1,
+        "item": 'thermal:crude_oil_bucket'
+      }
+    ]
+  }).id('kubejs:crude_oil_2_s3')
 
-  event.recipes.thermal.pulverizer('2x minecraft:scute', 
+  event.recipes.thermal.pulverizer('2x minecraft:scute',
     ['minecraft:turtle_helmet']
   ).energy(9600)
     .id('kubejs:scute_s3')
@@ -158,9 +148,14 @@ ServerEvents.recipes(event => {
     .id('kubejs:andesite_alloy_s3')
 
   event.recipes.thermal.smelter('2x kubejs:stable_desh_ingot',
-    ['2x #forge:plates/desh', 'kubejs:present_alloy', '#forge:gems/prismarine']
+    ['2x #forge:plates/desh', 'kubejs:present_alloy', '4x #forge:gems/prismarine']
   ).energy(12800)
-    .id('kubejs:stable_desh_ingot_s3')
+    .id('kubejs:stable_desh_ingot_1_s3')
+
+  event.recipes.thermal.smelter(['3x kubejs:stable_desh_ingot', 'cataclysm:abyssal_egg'],
+    ['3x #forge:plates/desh', 'kubejs:present_alloy', 'cataclysm:abyssal_egg']
+  ).energy(12800)
+    .id('kubejs:stable_desh_ingot_2_s3')
 
   event.recipes.thermal.smelter('tfc:ceramic/fire_brick',
     ['12x tfc:kaolin_clay', '4x #forge:dusts/graphite', '#forge:clay']
@@ -326,10 +321,62 @@ ServerEvents.recipes(event => {
     "result_items": [
       {
         "item": 'kubejs:anchorgleam',
-        "count": 1
+        "count": 2
       }
     ]
   }
   ).id('kubejs:anchorgleam_s3')
+
+  event.custom({
+    "type": "palmon:processing",
+    "category": "misc",
+    "focus_stat": "HP",
+    "min_level": 70,
+    "required_type": null,
+    "base_hp": 0,
+    "base_atk": 0,
+    "base_def": 0,
+    "base_spa": 0,
+    "base_spd": 0,
+    "base_spe": 0,
+    "area_blocks": [
+      {
+        "item": 'supplementaries:sugar_cube'
+      },
+      {
+        "item": 'cobblemon:healing_machine'
+      },
+      {
+        "item": 'cobblemon:monitor'
+      }
+    ],
+    "block_count": 2,
+    "input_items": [
+      {
+        "item": 'minecraft:sugar',
+        "count": 64
+      },
+      {
+        "item": 'supplementaries:candy',
+        "count": 8
+      },
+      {
+        "item": 'palmon:m_crystal',
+        "count": 1
+      }
+    ],
+    "input_power": 0,
+    "input_fluid": {
+      "fluid": "minecraft:water",
+      "amount": 4000
+    },
+    "tick": 1200,
+    "result_items": [
+      {
+        "item": 'cobblemon:exp_candy_s',
+        "count": 1
+      }
+    ]
+  }).id('kubejs:exp_candy_s_s3')
 
 })

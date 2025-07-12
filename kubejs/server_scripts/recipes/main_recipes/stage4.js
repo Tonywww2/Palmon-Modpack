@@ -533,4 +533,63 @@ ServerEvents.recipes(event => {
         }
     }).id('kubejs:rocket_t3_s4')
 
+    event.custom({
+        "type": "palmon:processing",
+        "category": "misc",
+        "focus_stat": "HP",
+        "min_level": 80,
+        "required_type": null,
+        "base_hp": 0,
+        "base_atk": 0,
+        "base_def": 0,
+        "base_spa": 0,
+        "base_spd": 0,
+        "base_spe": 0,
+        "area_blocks": [
+            {
+                "item": 'supplementaries:sugar_cube'
+            },
+            {
+                "item": 'cobblemon:healing_machine'
+            },
+            {
+                "item": 'cobblemon:monitor'
+            }
+        ],
+        "block_count": 3,
+        "input_items": [
+            {
+                "item": 'minecraft:sugar',
+                "count": 64
+            },
+            {
+                "item": 'supplementaries:candy',
+                "count": 16
+            },
+            {
+                "item": 'forestry:royal_jelly',
+                "count": 3
+            },
+            {
+                "item": 'palmon:m_crystal',
+                "count": 2
+            },
+            {
+                "item": 'cobblemon:exp_candy_l',
+                "count": 1
+            }
+        ],
+        "input_power": 0,
+        "input_fluid": {
+            "fluid": "minecraft:water",
+            "amount": 6000
+        },
+        "tick": 1400,
+        "result_items": [
+            {
+                "item": 'cobblemon:exp_candy_l',
+                "count": 1
+            }
+        ]
+    }).id('kubejs:exp_candy_l_s4')
 })

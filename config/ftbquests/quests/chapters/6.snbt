@@ -10,7 +10,12 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["7FBCDFE4BCD60A00"]
+			dependencies: [
+				"7FBCDFE4BCD60A00"
+				"28B339DC7608D688"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "37D5AA7EFF0079FC"
 			rewards: [
 				{
@@ -26,6 +31,7 @@
 					type: "random"
 				}
 			]
+			shape: "gear"
 			subtitle: "...一切都回到原点"
 			tasks: [{
 				id: "152494741A94E658"
@@ -37,6 +43,7 @@
 		}
 		{
 			dependencies: ["37D5AA7EFF0079FC"]
+			hide_until_deps_complete: true
 			id: "4888A3BA1752652F"
 			rewards: [
 				{
@@ -62,6 +69,7 @@
 		}
 		{
 			dependencies: ["37D5AA7EFF0079FC"]
+			hide_until_deps_complete: true
 			id: "3873B8F83E2771EC"
 			rewards: [
 				{
@@ -141,6 +149,7 @@
 		}
 		{
 			dependencies: ["5127062529933D44"]
+			hide_until_deps_complete: true
 			id: "4FEC99388ECEC301"
 			rewards: [
 				{
@@ -166,6 +175,7 @@
 		}
 		{
 			dependencies: ["5127062529933D44"]
+			hide_until_deps_complete: true
 			id: "7EE674CC522E90D7"
 			rewards: [
 				{
@@ -191,6 +201,7 @@
 		}
 		{
 			dependencies: ["5127062529933D44"]
+			hide_until_deps_complete: true
 			id: "084309B68CEAA3F4"
 			rewards: [
 				{
@@ -216,6 +227,7 @@
 		}
 		{
 			dependencies: ["5127062529933D44"]
+			hide_until_deps_complete: true
 			id: "0914A8FA6EB54E88"
 			rewards: [
 				{
@@ -241,6 +253,7 @@
 		}
 		{
 			dependencies: ["5127062529933D44"]
+			hide_until_deps_complete: true
 			id: "38521E7E5BC7587D"
 			rewards: [
 				{
@@ -415,6 +428,7 @@
 						fluid: "techreborn:chlorite"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 10.0d
@@ -446,6 +460,7 @@
 						fluid: "techreborn:mercury"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 10.0d
@@ -477,6 +492,7 @@
 						fluid: "techreborn:helium3"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 10.0d
@@ -508,6 +524,7 @@
 						fluid: "techreborn:methane"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 8.0d
@@ -533,9 +550,9 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "47899B65E47829B6"
-					table_id: 3840491528305963978L
-					type: "random"
+					id: "68D7E1B68996A04B"
+					table_id: 3228015877926755161L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -574,6 +591,7 @@
 		}
 		{
 			dependencies: ["6479C3ACB63B7CEF"]
+			hide_until_deps_complete: true
 			id: "385DACF212F7767C"
 			rewards: [
 				{
@@ -600,6 +618,7 @@
 		}
 		{
 			dependencies: ["6479C3ACB63B7CEF"]
+			hide_until_deps_complete: true
 			id: "59510E507F970BDC"
 			rewards: [
 				{
@@ -649,6 +668,7 @@
 						fluid: "techreborn:glyceryl"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 16.0d
@@ -738,6 +758,7 @@
 		}
 		{
 			dependencies: ["37D5AA7EFF0079FC"]
+			hide_until_deps_complete: true
 			id: "4BAF04393E036383"
 			rewards: [
 				{
@@ -763,6 +784,7 @@
 		}
 		{
 			dependencies: ["37D5AA7EFF0079FC"]
+			hide_until_deps_complete: true
 			id: "35835B48174A9C1F"
 			rewards: [
 				{
@@ -788,6 +810,7 @@
 		}
 		{
 			dependencies: ["189250FB6C4DA694"]
+			hide_until_deps_complete: true
 			id: "41832772EDD303E0"
 			rewards: [
 				{
@@ -863,6 +886,7 @@
 		}
 		{
 			dependencies: ["4BAF04393E036383"]
+			hide_until_deps_complete: true
 			id: "3E04086F41F0534B"
 			rewards: [
 				{
@@ -878,6 +902,7 @@
 					type: "random"
 				}
 			]
+			shape: "hexagon"
 			tasks: [{
 				id: "0A8D99588F75C4A8"
 				item: "draconicevolution:draconium_core"
@@ -903,6 +928,7 @@
 					type: "random"
 				}
 			]
+			shape: "hexagon"
 			tasks: [{
 				id: "3405B0CD89F25F10"
 				item: "draconicevolution:wyvern_core"
@@ -1020,6 +1046,7 @@
 		}
 		{
 			dependencies: ["19E02D5EB43D2E5F"]
+			hide_until_deps_complete: true
 			id: "61AA2B177A19EAE6"
 			rewards: [
 				{
@@ -1048,6 +1075,8 @@
 				"5D8972D3622D38DF"
 				"3EB1062703F92090"
 			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "11BB558482A55A27"
 			rewards: [
 				{
@@ -1074,6 +1103,7 @@
 		}
 		{
 			dependencies: ["37D5AA7EFF0079FC"]
+			hide_until_deps_complete: true
 			id: "62069C621FADA3D1"
 			rewards: [
 				{
@@ -1122,6 +1152,7 @@
 					type: "random"
 				}
 			]
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "166DF3F20358FD69"
@@ -1140,6 +1171,7 @@
 		}
 		{
 			dependencies: ["16623B5A079687A0"]
+			hide_until_deps_complete: true
 			id: "56C75C83C86E1DCA"
 			rewards: [
 				{
@@ -1165,6 +1197,7 @@
 		}
 		{
 			dependencies: ["16623B5A079687A0"]
+			hide_until_deps_complete: true
 			id: "0DE4D45BEBFA3B62"
 			rewards: [
 				{
@@ -1190,6 +1223,7 @@
 		}
 		{
 			dependencies: ["16623B5A079687A0"]
+			hide_until_deps_complete: true
 			id: "0CE738FC9D28135D"
 			rewards: [
 				{
@@ -1215,6 +1249,7 @@
 		}
 		{
 			dependencies: ["16623B5A079687A0"]
+			hide_until_deps_complete: true
 			id: "78BD5C40263C9C29"
 			rewards: [
 				{
@@ -1240,6 +1275,7 @@
 		}
 		{
 			dependencies: ["16623B5A079687A0"]
+			hide_until_deps_complete: true
 			id: "53D471F700EEEB30"
 			rewards: [
 				{
@@ -1270,7 +1306,9 @@
 				"78BD5C40263C9C29"
 				"53D471F700EEEB30"
 				"0CE738FC9D28135D"
+				"16623B5A079687A0"
 			]
+			dependency_requirement: "one_completed"
 			id: "4867E3B9146FB5B6"
 			rewards: [
 				{
@@ -1301,7 +1339,9 @@
 				"78BD5C40263C9C29"
 				"53D471F700EEEB30"
 				"0CE738FC9D28135D"
+				"16623B5A079687A0"
 			]
+			dependency_requirement: "one_completed"
 			id: "680221CEBDCDA6C1"
 			rewards: [
 				{
@@ -1419,6 +1459,7 @@
 		}
 		{
 			dependencies: ["11BB558482A55A27"]
+			hide_until_deps_complete: true
 			id: "164CC45EA9717F9A"
 			rewards: [
 				{
@@ -1632,11 +1673,13 @@
 				""
 				"亦或，这是新的开端。"
 			]
+			hide_until_deps_complete: true
 			icon: "kubejs:anchor_shard"
 			id: "3386DDEF79DEA47C"
 			rewards: [
 				{
 					command: "/eot_give_anchor_shard @p 3"
+					elevate_perms: true
 					icon: "kubejs:anchor_shard"
 					id: "2A0A0CE2ACBE156C"
 					title: "最终锚定"
@@ -1667,11 +1710,13 @@
 		{
 			dependencies: ["3386DDEF79DEA47C"]
 			description: ["你可以通过完成这个系列的任务，获取锚之碎片。"]
+			hide_until_deps_complete: true
 			id: "416A91D8BB4F0450"
 			optional: true
 			rewards: [
 				{
 					command: "/eot_give_anchor_shard @p 1"
+					elevate_perms: true
 					icon: "kubejs:anchor_shard"
 					id: "2B816E1A70EFF270"
 					title: "锚定"
@@ -1692,9 +1737,9 @@
 			]
 			tasks: [{
 				consume_items: true
-				count: 16L
+				count: 4L
 				id: "6259888FE12980EF"
-				item: { Count: 16, id: "kubejs:cognitio" }
+				item: "kubejs:cognitio"
 				type: "item"
 			}]
 			title: "无限观测1"
@@ -1708,6 +1753,7 @@
 				""
 				"否则，这就是终点了。"
 			]
+			hide_until_deps_complete: true
 			icon: "kubejs:deity_from_the_outside"
 			id: "3976DA1D6D6D3A45"
 			optional: true
@@ -1751,6 +1797,7 @@
 			rewards: [
 				{
 					command: "/eot_give_anchor_shard @p 1"
+					elevate_perms: true
 					icon: "kubejs:anchor_shard"
 					id: "04FD15B6F6F43BDA"
 					title: "锚定"
@@ -1771,9 +1818,9 @@
 			]
 			tasks: [{
 				consume_items: true
-				count: 24L
+				count: 8L
 				id: "03A203D725E144CB"
-				item: { Count: 16, id: "kubejs:cognitio" }
+				item: "kubejs:cognitio"
 				type: "item"
 			}]
 			title: "无限观测2"
@@ -1788,6 +1835,7 @@
 			rewards: [
 				{
 					command: "/eot_give_anchor_shard @p 1"
+					elevate_perms: true
 					icon: "kubejs:anchor_shard"
 					id: "6D533726638B449C"
 					title: "锚定"
@@ -1808,9 +1856,9 @@
 			]
 			tasks: [{
 				consume_items: true
-				count: 32L
+				count: 16L
 				id: "78B1E10ABB40D900"
-				item: { Count: 16, id: "kubejs:cognitio" }
+				item: "kubejs:cognitio"
 				type: "item"
 			}]
 			title: "无限观测3"
@@ -1825,6 +1873,7 @@
 			rewards: [
 				{
 					command: "/eot_give_anchor_shard @p 1"
+					elevate_perms: true
 					icon: "kubejs:anchor_shard"
 					id: "2CFE7B24C7A01D96"
 					title: "锚定"
@@ -1845,9 +1894,9 @@
 			]
 			tasks: [{
 				consume_items: true
-				count: 40L
+				count: 24L
 				id: "423783FAAB07CBF6"
-				item: { Count: 16, id: "kubejs:cognitio" }
+				item: "kubejs:cognitio"
 				type: "item"
 			}]
 			title: "无限观测4"
@@ -1862,6 +1911,7 @@
 			rewards: [
 				{
 					command: "/eot_give_anchor_shard @p 1"
+					elevate_perms: true
 					icon: "kubejs:anchor_shard"
 					id: "691D5E375C39DD90"
 					title: "锚定"
@@ -1882,9 +1932,9 @@
 			]
 			tasks: [{
 				consume_items: true
-				count: 48L
+				count: 32L
 				id: "6C89396243CDACE5"
-				item: { Count: 16, id: "kubejs:cognitio" }
+				item: "kubejs:cognitio"
 				type: "item"
 			}]
 			title: "无限观测5"
@@ -1900,6 +1950,7 @@
 			rewards: [
 				{
 					command: "/eot_give_anchor_shard @p 1"
+					elevate_perms: true
 					icon: "kubejs:anchor_shard"
 					id: "19831F1554A0EA94"
 					title: "锚定"
@@ -1921,9 +1972,9 @@
 			shape: "diamond"
 			tasks: [{
 				consume_items: true
-				count: 64L
+				count: 48L
 				id: "2413FFD93BCA94E4"
-				item: { Count: 16, id: "kubejs:cognitio" }
+				item: "kubejs:cognitio"
 				type: "item"
 			}]
 			title: "真·无限观测"
@@ -1948,6 +1999,7 @@
 		}
 		{
 			dependencies: ["3EB1062703F92090"]
+			hide_until_deps_complete: true
 			id: "748F2C98C87FE73B"
 			tasks: [{
 				id: "5BCA468C550A5D21"
@@ -1972,13 +2024,21 @@
 			dependencies: ["35835B48174A9C1F"]
 			description: ["现在你拥有了资格"]
 			id: "17103885E3945D92"
-			rewards: [{
-				auto: "invisible"
-				id: "06877F73CB0B5BAC"
-				ignore_reward_blocking: true
-				stage: "ratlantis"
-				type: "gamestage"
-			}]
+			rewards: [
+				{
+					auto: "invisible"
+					id: "06877F73CB0B5BAC"
+					ignore_reward_blocking: true
+					stage: "ratlantis"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73A3FBA99298EB1A"
+					table_id: 3228015877926755161L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "6CA136356A52AF62"
 				item: "rats:chunky_cheese_token"

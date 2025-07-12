@@ -1,0 +1,32 @@
+{
+	icon: "cobblemon:poke_ball"
+	id: "5C83C275C67C2966"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ count: 16, item: "cobblemon:poke_ball" }
+		{ count: 16, item: "cobblemon:great_ball" }
+		{ count: 16, item: "cobblemon:luxury_ball" }
+		{ count: 16, item: "cobblemon:heal_ball" }
+		{ count: 16, item: "cobblemon:sport_ball" }
+		{ count: 16, item: "cobblemon:park_ball" }
+		{ count: 16, item: "cobblemon:repeat_ball" }
+		{ count: 8, item: "cobblemon:safari_ball" }
+		{ count: 8, item: "cobblemon:love_ball" }
+		{ count: 8, item: "cobblemon:heavy_ball" }
+		{ count: 8, item: "cobblemon:lure_ball" }
+		{ count: 8, item: "cobblemon:level_ball" }
+		{ count: 8, item: "cobblemon:fast_ball" }
+		{ count: 8, item: "cobblemon:ultra_ball" }
+		{ count: 8, item: "cobblemon:quick_ball" }
+		{ count: 8, item: "cobblemon:dusk_ball" }
+		{ count: 8, item: "cobblemon:nest_ball", weight: 0.5f }
+		{ count: 8, item: "cobblemon:dive_ball", weight: 0.5f }
+		{ count: 8, item: "cobblemon:net_ball", weight: 0.5f }
+		{ count: 8, item: "cobblemon:moon_ball", weight: 0.5f }
+		{ count: 8, item: "cobblemon:dream_ball", weight: 0.5f }
+		{ count: 4, item: "cobblemon:beast_ball", weight: 0.25f }
+		{ count: 4, item: "cobblemon:timer_ball", weight: 0.25f }
+	]
+	title: "精灵球-1"
+}

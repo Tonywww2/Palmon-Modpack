@@ -164,11 +164,10 @@ ServerEvents.recipes(event => {
             E: 'ad_astra:fan'
         }).id('kubejs:steel_engine_s2')
 
-    // TODO 二测修改维度
     event.custom({
         "type": "embers:boring",
         "dimensions": [
-            "kubejs:tfc_planet"
+            "kubejs:earth"
         ],
         "max_height": -57,
         "output": {
@@ -184,7 +183,7 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "embers:boring",
         "dimensions": [
-            "kubejs:tfc_planet"
+            "kubejs:earth"
         ],
         "max_height": -57,
         "output": {
@@ -200,7 +199,7 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "embers:boring",
         "dimensions": [
-            "kubejs:tfc_planet"
+            "kubejs:earth"
         ],
         "max_height": -57,
         "output": {

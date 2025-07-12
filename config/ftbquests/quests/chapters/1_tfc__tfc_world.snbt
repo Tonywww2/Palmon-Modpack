@@ -39,7 +39,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["4C273D948C0B6562"]
+			dependencies: [
+				"4C273D948C0B6562"
+				"28B339DC7608D688"
+			]
+			dependency_requirement: "one_completed"
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -222,7 +226,7 @@
 				""
 				"例如："
 				"你无法背起超重的物品。"
-				"大多数的食物也会随着时间慢慢腐烂。"
+				"部分方块在无支撑时会塌方。"
 			]
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "1FBD0A696202485D"
@@ -252,7 +256,7 @@
 			dependencies: ["7D265517B918D923"]
 			description: [
 				"你的最大生命值受到营养值的影响，保证营养均衡可以获得额外的生命上限（200%）。"
-				"相反，如果你一直食用一些不怎么有营养的东西，那么你的生命上限也会降低（40%）。"
+				"相反，如果你一直食用一些不怎么有营养的东西，那么你的生命上限也会降低（60%）。"
 				""
 				"同时，不断的尝试新的食物也能提高你的生命上限。"
 			]
@@ -296,6 +300,12 @@
 					id: "2FBF664EF48918EE"
 					table_id: 1141615569593449731L
 					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D4645E54C47BAA8"
+					table_id: 6666385684535454054L
+					type: "loot"
 				}
 			]
 			tasks: [
@@ -439,6 +449,12 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "00E00F5D1002F44B"
+					table_id: 6666385684535454054L
+					type: "loot"
+				}
 			]
 			shape: "hexagon"
 			subtitle: "制作任意一种镐"
@@ -474,6 +490,12 @@
 					table_id: 1141615569593449731L
 					type: "random"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "316ECFF2713E5BE7"
+					table_id: 6666385684535454054L
+					type: "loot"
+				}
 			]
 			subtitle: "为了更进一步的加工金属，你需要去寻找一块合适的岩石与一把锤子。\\n详细请查阅群峦传说手册原始砧条目。"
 			tasks: [{
@@ -494,7 +516,7 @@
 		}
 		{
 			dependencies: ["73BA44112A812A9A"]
-			description: ["Here is a BABY! "]
+			description: ["大多数的TFC矿物塌方之后会产生劣化，但是劣化真的是坏事吗？"]
 			icon: "tfc:wood/support/oak"
 			id: "27663E9D369E455C"
 			rewards: [
@@ -573,7 +595,11 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["64CB731561F30CA0"]
+			dependencies: [
+				"64CB731561F30CA0"
+				"73BA44112A812A9A"
+			]
+			dependency_requirement: "one_completed"
 			id: "621BC8CBEA4447C4"
 			rewards: [
 				{
@@ -627,8 +653,12 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["3DFB6E2E5E3C3545"]
-			description: ["Here is a BABY! "]
+			dependencies: [
+				"3DFB6E2E5E3C3545"
+				"64CB731561F30CA0"
+			]
+			dependency_requirement: "one_completed"
+			description: ["高岭土的生成条件十分苛刻，但是你也可以通过一些材料制作。"]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -655,7 +685,6 @@
 					type: "random"
 				}
 			]
-			subtitle: "高岭土的生成条件十分苛刻，但是这是制作耐火黏土的唯一途径"
 			tasks: [
 				{
 					count: 4L
@@ -709,6 +738,20 @@
 					id: "588CDD071579C190"
 					table_id: 1141615569593449731L
 					type: "random"
+				}
+				{
+					command: "/eot_give_anchor_shard @p 1"
+					elevate_perms: true
+					icon: "kubejs:anchor_shard"
+					id: "5A533DC2C3046A9F"
+					title: "锚定"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32CDD578D6FBC7D8"
+					table_id: 6666385684535454054L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -1101,7 +1144,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "获取纸有两种途径：寻找纸莎草或处理动物毛皮。详细请自行查询配方。"
+			subtitle: "多看JEI"
 			tasks: [{
 				id: "0AE6309E990EDC5B"
 				item: "minecraft:paper"
@@ -1276,8 +1319,8 @@
 				item: "cobblemon:potion"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.0d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -1332,14 +1375,16 @@
 				item: "cobblemon:medicinal_leek"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: [
 				"5DDB2BA33F814C18"
 				"20E10177F3F79DD2"
+				"2789B5D15B2F027C"
 			]
+			dependency_requirement: "one_completed"
 			id: "48553EDCA63BE50E"
 			rewards: [
 				{
@@ -1392,6 +1437,16 @@
 					id: "7242704EF4258C3A"
 					table_id: 7740467882398974147L
 					type: "random"
+				}
+				{
+					count: 16
+					id: "260381EA7B355D5C"
+					item: {
+						Count: 1
+						id: "palmon:poke_food"
+						tag: { }
+					}
+					type: "item"
 				}
 			]
 			subtitle: "安全的工作地点，别忘记喂食！"
@@ -1502,6 +1557,7 @@
 		}
 		{
 			dependencies: ["7A23822AE720815B"]
+			description: ["别做错风箱了！"]
 			hide_until_deps_complete: true
 			icon: "tfc:blast_furnace"
 			id: "73715615076BFBCE"
@@ -1542,21 +1598,6 @@
 					count: 4L
 					id: "4B07D26D8611DCE9"
 					item: { Count: 4, id: "tfc:fire_bricks" }
-					type: "item"
-				}
-				{
-					count: 12L
-					id: "1F9AC108E11A26B7"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"tfc:item_heat": {
-								heat: 0.0f
-								ticks: 0L
-							}
-						}
-						id: "tfc:metal/sheet/wrought_iron"
-					}
 					type: "item"
 				}
 			]
@@ -1678,7 +1719,7 @@
 		}
 		{
 			dependencies: ["2DCA6ECA4708CF92"]
-			hide_until_deps_complete: true
+			hide_until_deps_complete: false
 			id: "027AE89C9FB02C10"
 			rewards: [
 				{
@@ -1809,7 +1850,8 @@
 			y: 22.0d
 		}
 		{
-			dependencies: ["07AB95AEDD7B16CE"]
+			description: ["击败头目，或精炼石材。"]
+			hide_until_deps_complete: true
 			id: "2789B5D15B2F027C"
 			rewards: [
 				{
@@ -1826,23 +1868,12 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "6FA1BA1D085BDDA3"
-					table_id: 8044557412893536476L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "756AC0836E605127"
-					table_id: 1141615569593449731L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
 					id: "4969BFCA84EEEF74"
 					table_id: 7740467882398974147L
 					type: "random"
 				}
 			]
+			secret: true
 			shape: "hexagon"
 			subtitle: "异界水晶"
 			tasks: [{
@@ -1850,8 +1881,8 @@
 				item: "palmon:m_crystal"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 24.0d
+			x: 2.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["07AB95AEDD7B16CE"]
@@ -1881,7 +1912,7 @@
 			y: 22.0d
 		}
 		{
-			dependencies: ["2789B5D15B2F027C"]
+			dependencies: ["07AB95AEDD7B16CE"]
 			id: "15927B2A8A39A435"
 			rewards: [
 				{
@@ -1906,7 +1937,7 @@
 			y: 24.0d
 		}
 		{
-			dependencies: ["2789B5D15B2F027C"]
+			dependencies: ["07AB95AEDD7B16CE"]
 			id: "785F10998213A9C0"
 			rewards: [
 				{
@@ -1927,11 +1958,21 @@
 				item: "cobblemon:ancient_ultra_ball"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 26.0d
+			x: 6.0d
+			y: 24.0d
 		}
 		{
-			dependencies: ["182A02FDAB992AFC"]
+			dependencies: [
+				"182A02FDAB992AFC"
+				"3DFB6E2E5E3C3545"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"除了猪和山羊等动物外，玩家也可以被献祭......"
+				""
+				"推荐使用镀金块作为祭品......"
+			]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1946,6 +1987,7 @@
 				}
 			}
 			id: "073B5FEE2E13EE3C"
+			invisible: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1979,7 +2021,7 @@
 		}
 		{
 			dependencies: ["7AE40EE67AD78575"]
-			description: ["Here is a BABY! "]
+			description: [""]
 			id: "1B78FE8A0740F3FB"
 			rewards: [
 				{
@@ -2054,6 +2096,11 @@
 					table_id: 7740467882398974147L
 					type: "random"
 				}
+				{
+					id: "113FE35214BCC715"
+					item: "tconstruct:scorched_fuel_gauge"
+					type: "item"
+				}
 			]
 			subtitle: "我不是炉渣！"
 			tasks: [{
@@ -2110,6 +2157,7 @@
 		}
 		{
 			dependencies: ["427385C650D0060B"]
+			description: ["大多数的TFC矿物塌方之后会产生劣化，但是劣化真的是坏事吗？"]
 			hide_until_deps_complete: true
 			id: "5E82BE9750149251"
 			rewards: [
@@ -2148,8 +2196,6 @@
 		{
 			dependencies: ["2A8DED02CA1F06FF"]
 			description: [
-				"Here is a BABY! "
-				""
 				"木炭可以通过大桶制成杂拌油。"
 				""
 				"杂拌油作为熔炼炉/熔铸炉的燃料效率大约是岩浆的一半。"
@@ -2257,7 +2303,11 @@
 		}
 		{
 			dependencies: ["233CD2E34D0CD586"]
-			description: ["腌制种子..."]
+			description: [
+				"腌制种子..."
+				""
+				"如果你没有&e灵感&r，那么你将无法种植..."
+			]
 			icon: "occultism:datura"
 			id: "268D387EDD9AE1EF"
 			optional: true
@@ -2301,19 +2351,8 @@
 					type: "item"
 				}
 				{
-					id: "4923723179AFEC9C"
-					item: "supplementaries:planter"
-					type: "item"
-				}
-				{
-					id: "3D88DEDF1A6A15EF"
-					item: {
-						Count: 1
-						id: "minecraft:flint_and_steel"
-						tag: {
-							Damage: 0
-						}
-					}
+					id: "6DC5E1303C4A8B87"
+					item: "occultism:datura"
 					type: "item"
 				}
 			]
@@ -2322,7 +2361,11 @@
 		}
 		{
 			dependencies: ["233CD2E34D0CD586"]
-			description: ["锤炼钢铁..."]
+			description: [
+				"锤炼钢铁..."
+				""
+				"提示：查看工程师锤头的配方"
+			]
 			icon: {
 				Count: 1
 				id: "immersiveengineering:hammer"
@@ -2360,8 +2403,14 @@
 			shape: "hexagon"
 			subtitle: "灵感：工业"
 			tasks: [{
-				id: "31F2292A7383E1E6"
-				item: "tfc_ie_addon:tool_head/ie_hammer"
+				id: "28584C0B17674915"
+				item: {
+					Count: 1
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			x: -6.0d
@@ -2417,6 +2466,8 @@
 				"和常规的&l&e灵感&l&f一样，一定阶段后会解锁全部可能解锁的随机补给&l&e灵感&l&f。"
 				""
 				"现在，使用遗迹硬币制作你能制作的补给卷吧！"
+				""
+				"注意：只需要一张"
 			]
 			icon: "kubejs:anchor_shard"
 			id: "70F53B1333FE496B"
@@ -2494,12 +2545,6 @@
 						tag: {
 							bladeState: {
 								AttackAmplifier: 0.0f
-								BladeUniqueId: [I;
-									-883833025
-									-1416085362
-									-1207968167
-									-1501815390
-								]
 								ComboRoot: "slashblade:standby"
 								Damage: 0
 								RepairCounter: 0
@@ -2530,12 +2575,18 @@
 					}
 					type: "item"
 				}
+				{
+					id: "16892BCD10CFF34E"
+					item: "minecraft:lime_shulker_box"
+					type: "item"
+				}
 			]
 			subtitle: "灵感：拔刀"
 			tasks: [{
 				consume_items: false
 				id: "57C46131EB5C07C1"
 				item: "kubejs:voucher_1_0"
+				match_nbt: false
 				type: "item"
 			}]
 			title: "1-0 拔刀剑"
@@ -2609,6 +2660,7 @@
 				consume_items: false
 				id: "43BCCCC684CB917A"
 				item: "kubejs:voucher_1_1"
+				match_nbt: false
 				type: "item"
 			}]
 			title: "1-1 冶炼炉"
@@ -2621,92 +2673,101 @@
 			id: "2FD44CDCE6E74A77"
 			invisible: true
 			optional: true
-			rewards: [{
-				id: "2D3BE80F7C028B3A"
-				item: {
-					Count: 1
-					id: "minecraft:lime_shulker_box"
-					tag: {
-						BlockEntityTag: {
-							ForgeCaps: { }
-							Items: [
-								{
-									Count: 2b
-									Slot: 0b
-									id: "cobblemon:pc"
-								}
-								{
-									Count: 2b
-									Slot: 1b
-									id: "cobblemon:healing_machine"
-								}
-								{
-									Count: 32b
-									Slot: 2b
-									id: "cobblemon:poke_ball"
-								}
-								{
-									Count: 16b
-									Slot: 3b
-									id: "cobblemon:great_ball"
-								}
-								{
-									Count: 8b
-									Slot: 4b
-									id: "cobblemon:ultra_ball"
-								}
-								{
-									Count: 16b
-									Slot: 5b
-									id: "cobblemon:potion"
-								}
-								{
-									Count: 8b
-									Slot: 6b
-									id: "cobblemon:super_potion"
-								}
-								{
-									Count: 4b
-									Slot: 7b
-									id: "cobblemon:hyper_potion"
-								}
-								{
-									Count: 16b
-									Slot: 8b
-									id: "cobblemon:ether"
-								}
-								{
-									Count: 8b
-									Slot: 9b
-									id: "cobblemon:max_ether"
-								}
-								{
-									Count: 4b
-									Slot: 10b
-									id: "cobblemon:elixir"
-								}
-								{
-									Count: 2b
-									Slot: 11b
-									id: "cobblemon:max_elixir"
-								}
-								{
-									Count: 1b
-									Slot: 12b
-									id: "unimplemented_items:bottle_cap"
-								}
-							]
-							id: "minecraft:shulker_box"
+			rewards: [
+				{
+					id: "2D3BE80F7C028B3A"
+					item: {
+						Count: 1
+						id: "minecraft:lime_shulker_box"
+						tag: {
+							BlockEntityTag: {
+								ForgeCaps: { }
+								Items: [
+									{
+										Count: 2b
+										Slot: 0b
+										id: "cobblemon:pc"
+									}
+									{
+										Count: 2b
+										Slot: 1b
+										id: "cobblemon:healing_machine"
+									}
+									{
+										Count: 32b
+										Slot: 2b
+										id: "cobblemon:poke_ball"
+									}
+									{
+										Count: 16b
+										Slot: 3b
+										id: "cobblemon:great_ball"
+									}
+									{
+										Count: 8b
+										Slot: 4b
+										id: "cobblemon:ultra_ball"
+									}
+									{
+										Count: 16b
+										Slot: 5b
+										id: "cobblemon:potion"
+									}
+									{
+										Count: 8b
+										Slot: 6b
+										id: "cobblemon:super_potion"
+									}
+									{
+										Count: 4b
+										Slot: 7b
+										id: "cobblemon:hyper_potion"
+									}
+									{
+										Count: 16b
+										Slot: 8b
+										id: "cobblemon:ether"
+									}
+									{
+										Count: 8b
+										Slot: 9b
+										id: "cobblemon:max_ether"
+									}
+									{
+										Count: 4b
+										Slot: 10b
+										id: "cobblemon:elixir"
+									}
+									{
+										Count: 2b
+										Slot: 11b
+										id: "cobblemon:max_elixir"
+									}
+									{
+										Count: 1b
+										Slot: 12b
+										id: "unimplemented_items:bottle_cap"
+									}
+								]
+								id: "minecraft:shulker_box"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "6ADCDCD4635DD613"
+					item: "cobblemon:exp_candy_m"
+					type: "item"
+				}
+			]
 			subtitle: "物资：宝可梦"
 			tasks: [{
 				consume_items: false
 				id: "181CA7D6918D543E"
 				item: "kubejs:voucher_1_2"
+				match_nbt: false
 				type: "item"
 			}]
 			title: "1-2 宝可梦"
@@ -2719,57 +2780,66 @@
 			id: "3BB6E5457511866F"
 			invisible: true
 			optional: true
-			rewards: [{
-				id: "50436A5994BBFA66"
-				item: {
-					Count: 1
-					id: "minecraft:lime_shulker_box"
-					tag: {
-						BlockEntityTag: {
-							ForgeCaps: { }
-							Items: [
-								{
-									Count: 2b
-									Slot: 0b
-									id: "palmon:empty_contract"
-								}
-								{
-									Count: 2b
-									Slot: 1b
-									id: "palmon:working_station"
-								}
-								{
-									Count: 1b
-									Slot: 2b
-									id: "palmon:production_machine"
-								}
-								{
-									Count: 1b
-									Slot: 3b
-									id: "palmon:processing_station"
-								}
-								{
-									Count: 16b
-									Slot: 4b
-									id: "palmon:poke_food"
-								}
-								{
-									Count: 2b
-									Slot: 5b
-									id: "palmon:boost_frame_1"
-								}
-							]
-							id: "minecraft:shulker_box"
+			rewards: [
+				{
+					id: "50436A5994BBFA66"
+					item: {
+						Count: 1
+						id: "minecraft:lime_shulker_box"
+						tag: {
+							BlockEntityTag: {
+								ForgeCaps: { }
+								Items: [
+									{
+										Count: 2b
+										Slot: 0b
+										id: "palmon:empty_contract"
+									}
+									{
+										Count: 2b
+										Slot: 1b
+										id: "palmon:working_station"
+									}
+									{
+										Count: 1b
+										Slot: 2b
+										id: "palmon:production_machine"
+									}
+									{
+										Count: 1b
+										Slot: 3b
+										id: "palmon:processing_station"
+									}
+									{
+										Count: 16b
+										Slot: 4b
+										id: "palmon:poke_food"
+									}
+									{
+										Count: 2b
+										Slot: 5b
+										id: "palmon:boost_frame_1"
+									}
+								]
+								id: "minecraft:shulker_box"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "493F5DB35EDF329B"
+					item: "cobblemon:exp_candy_m"
+					type: "item"
+				}
+			]
 			subtitle: "物资：帕鲁"
 			tasks: [{
 				consume_items: false
 				id: "359C85E904F12388"
 				item: "kubejs:voucher_1_3"
+				match_nbt: false
 				type: "item"
 			}]
 			title: "1-3 帕鲁"
@@ -2981,6 +3051,14 @@
 					table_id: 7740467882398974147L
 					type: "random"
 				}
+				{
+					command: "/eot_give_anchor_shard @p 1"
+					elevate_perms: true
+					icon: "kubejs:anchor_shard"
+					id: "463DD026D535C437"
+					title: "锚定"
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			subtitle: "百炼成钢"
@@ -3042,6 +3120,7 @@
 			rewards: [
 				{
 					command: "/eot_give_anchor_shard @p 1"
+					elevate_perms: true
 					icon: "kubejs:anchor_shard"
 					id: "46E7F6B3ED4C1D3B"
 					title: "锚定"
@@ -3376,6 +3455,7 @@
 						rollsPerOperation: 1
 					}
 				}
+				match_nbt: false
 				type: "item"
 				weak_nbt_match: true
 			}]
@@ -4059,6 +4139,7 @@
 		{
 			dependencies: ["47323FA940E1CA9E"]
 			description: ["当前阶段可选的发电方式有三种：宝可梦（帕鲁）发电，热传导发电机，或动能发电机。"]
+			hide_until_deps_complete: true
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "761A8A7EA3FBE204"
 			subtitle: "做出选择吧"
@@ -4404,6 +4485,55 @@
 			}]
 			x: 0.0d
 			y: 24.0d
+		}
+		{
+			dependencies: ["7D265517B918D923"]
+			description: [
+				"道馆散布于世界各地，每个道馆每个玩家都可以挑战三次。"
+				""
+				"越高等级的道馆的奖励越丰厚，其中的很多奖励可以帮助你更加顺利的发展。"
+			]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "26D8EB91974CB477"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2E84B08A96B66825"
+					table_id: 8044557412893536476L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47209BC2D90F2933"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "21AE8290034D42BF"
+				type: "checkmark"
+			}]
+			title: "宝可梦道馆"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["621BC8CBEA4447C4"]
+			description: ["&c警告：精妙存储的存储控制器可能会导致严重的内存问题，请谨慎使用"]
+			id: "4F59A6A2AA477D8E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42DE184CD5FCABE4"
+				table_id: 1141615569593449731L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "668EFA737D2809EF"
+				item: "sophisticatedstorage:controller"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
 		}
 	]
 	title: "1. 群峦星 | TFC Planet"

@@ -135,7 +135,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'ad_astra:nasa_workbench/tier_3_rocket_from_nasa_workbench' })
 
     event.remove({ id: 'thermal:machine_frame' })
-    event.remove({ id: 'dimdungeons:recipe_block_gilded_portal' })
     event.remove({ id: 'modularrouters:modular_router' })
     event.remove({ id: 'sfm:cable' })
     event.remove({ id: 'sfm:manager' })
@@ -276,6 +275,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'integrateddynamics:squeezer/ore/netherrite_scrap' })
     event.remove({ id: 'nuclearcraft:manufactory/netherite_scrap' })
     event.remove({ id: 'mekanism:energy_cube/basic' })
+    event.remove({ id: 'appbot:mana_cell_housing' })
 
     // s7
     event.remove({ id: 'avaritia:sculk_crafting_table' })
