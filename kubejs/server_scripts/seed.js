@@ -130,7 +130,7 @@ ServerEvents.loaded(event => {
 global.occ_trigger = false
 
 ServerEvents.recipes((event) => {
-    
+
     // stage 1 1+1
     // main
     let s1m = generateUniqueIntegers(3, 1)
@@ -405,7 +405,7 @@ function s5ConvergenceRecipe(event, index1, index2, index3) {
         "result_items": [
             {
                 "item": 'kubejs:epsilon_framework',
-                "count": 1
+                "count": 1 + global.frameworkAddition
             }
         ]
     }).id('kubejs:epsilon_framework_s5')
@@ -419,7 +419,7 @@ function s5ConvergenceRecipe(event, index1, index2, index3) {
  */
 function s4ConvergenceRecipe(event, index1, index2, index3) {
 
-    event.recipes.create.mechanical_crafting('kubejs:delta_framework', [
+    event.recipes.create.mechanical_crafting(Item.of('kubejs:delta_framework', 1 + global.frameworkAddition), [
         '  A  ',
         ' BXB ',
         'AD DA',
@@ -452,7 +452,7 @@ function s3ConvergenceRecipe(event, index1, index2) {
         // switch (true) {
         case 0:
             // sp
-            event.shaped('kubejs:gamma_framework', [
+            event.shaped(Item.of('kubejs:gamma_framework', 1 + global.frameworkAddition), [
                 'ACA',
                 'BDB',
                 'AEA'
@@ -494,7 +494,7 @@ function s3ConvergenceRecipe(event, index1, index2) {
                 ],
                 "output": [
                     {
-                        "count": 1,
+                        "count": 1 + global.frameworkAddition,
                         "item": 'kubejs:gamma_framework'
                     }
                 ],
@@ -540,9 +540,7 @@ function s3ConvergenceRecipe(event, index1, index2) {
                         'BDB',
                         'AEA'
                     ],
-                    "result": {
-                        "item": 'kubejs:gamma_framework'
-                    },
+                    "result": Item.of('kubejs:gamma_framework', 1 + global.frameworkAddition).toJson(),
                     "show_notification": true
                 },
                 "time": 150
@@ -575,9 +573,7 @@ function s3ConvergenceRecipe(event, index1, index2) {
                     "count": 1,
                     "item": 'kubejs:beta_framework'
                 },
-                "output": {
-                    "item": 'kubejs:gamma_framework'
-                },
+                "output": Item.of('kubejs:gamma_framework', 1 + global.frameworkAddition).toJson(),
                 "spirits": [
                     {
                         "type": "eldritch",
@@ -588,7 +584,7 @@ function s3ConvergenceRecipe(event, index1, index2) {
             break
         case 4:
             // create
-            event.recipes.create.mechanical_crafting('kubejs:gamma_framework', [
+            event.recipes.create.mechanical_crafting(Item.of('kubejs:gamma_framework', 1 + global.frameworkAddition), [
                 '  F  ',
                 ' ACA ',
                 'FBDBF',
@@ -605,7 +601,7 @@ function s3ConvergenceRecipe(event, index1, index2) {
             break
         case 5:
             // ember
-            event.shaped('kubejs:gamma_framework', [
+            event.shaped(Item.of('kubejs:gamma_framework', 1 + global.frameworkAddition), [
                 'ACA',
                 'BDB',
                 'AEA'

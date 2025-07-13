@@ -15,7 +15,7 @@ function s3SP(event) {
             E: 'thermal:redstone_servo'
         }).id('kubejs:sp_spirit_coil_s3')
 
-    event.recipes.thermal.smelter('2x kubejs:beta_framework',
+    event.recipes.thermal.smelter(Item.of('kubejs:beta_framework', 2 + global.frameworkAddition),
         ['kubejs:spirit_coil', 'kubejs:alpha_framework']
     ).energy(12800)
         .id('kubejs:sp_beta_framework_s3')

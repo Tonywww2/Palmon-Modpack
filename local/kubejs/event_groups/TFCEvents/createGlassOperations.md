@@ -31,14 +31,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | create | String, StackSupplier, ResourceLocation, float |  | void | ✘ |
 | create | String |  | void | ✘ |
 | createPowder | ResourceLocation, String, ResourceLocation, float |  | void | ✘ |
-| createPowder | ResourceLocation, String |  | void | ✘ |
 | createPowder | ResourceLocation, String, ResourceLocation |  | void | ✘ |
+| createPowder | ResourceLocation, String |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 
 
 ### Documented members:
@@ -97,22 +97,22 @@ Creates a new glass operation
 Creates a new glass operation and associates it with an item for use in powder bowls and the add powder ISP modifier
 ```
 
-- `void createPowder(ResourceLocation powderItemId, String name)`
-
-  Parameters:
-  - powderItemId: ResourceLocation- The registry id of the powder item to associate with the created operation. Requires the `tfc:powders` tag in order to be put into a bowl
-  - name: String- The name of the operation, will be prepended with 'KUBEJS_'
-
-```
-Creates a new glass operation and associates it with an item for use in powder bowls and the add powder ISP modifier
-```
-
 - `void createPowder(ResourceLocation powderItemId, String name, ResourceLocation customSound)`
 
   Parameters:
   - powderItemId: ResourceLocation- The registry id of the powder item to associate with the created operation. Requires the `tfc:powders` tag in order to be put into a bowl
   - name: String- The name of the operation, will be prepended with 'KUBEJS_'
   - customSound: ResourceLocation- The registry id of a sound to play, defaults to 'minecraft:block.anvil.use'
+
+```
+Creates a new glass operation and associates it with an item for use in powder bowls and the add powder ISP modifier
+```
+
+- `void createPowder(ResourceLocation powderItemId, String name)`
+
+  Parameters:
+  - powderItemId: ResourceLocation- The registry id of the powder item to associate with the created operation. Requires the `tfc:powders` tag in order to be put into a bowl
+  - name: String- The name of the operation, will be prepended with 'KUBEJS_'
 
 ```
 Creates a new glass operation and associates it with an item for use in powder bowls and the add powder ISP modifier
@@ -154,6 +154,13 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
 - `Object success(Object var0)`
 
   Parameters:
@@ -161,13 +168,6 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

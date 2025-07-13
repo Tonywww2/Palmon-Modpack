@@ -205,7 +205,7 @@ const stage7 = function (event) {
 
     event.recipes.avaritia.shaped_table(
         4,
-        '4x bfr:fusion_reactor_frame',
+        Item.of('bfr:fusion_reactor_frame', 4 + global.frameworkAddition),
         [
             'AAABBBAAA',
             'ACCDEDCCA',
@@ -300,14 +300,10 @@ const stage7 = function (event) {
     event.custom({
         "type": "nuclearcraft:kugelblitz_chamber",
         "input": [
-            {
-                "item": 'avaritia:record_fragment'
-            }
+            Item.of('#minecraft:music_discs').toJson()
         ],
         "output": [
-            {
-                "item": 'avaritia:record_fragment'
-            }
+            Item.of('avaritia:record_fragment').toJson()
         ],
         "powerModifier": 1.0,
         "radiation": 1.0,

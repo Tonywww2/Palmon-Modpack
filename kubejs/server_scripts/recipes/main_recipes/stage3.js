@@ -71,7 +71,7 @@ ServerEvents.recipes(event => {
       C: 'create:andesite_alloy'
     }).id('kubejs:hammer_s3')
 
-  event.shaped('2x thermal:machine_frame', [
+  event.shaped(Item.of('thermal:machine_frame', 2 + global.frameworkAddition), [
     'ABA',
     'BCB',
     'ABA'
@@ -224,6 +224,7 @@ ServerEvents.recipes(event => {
     ]
   }).id('kubejs:runic_workbench_s3')
 
+
   event.custom({
     "type": "ad_astra:nasa_workbench",
     "ingredients": [
@@ -275,6 +276,72 @@ ServerEvents.recipes(event => {
       "id": "ad_astra:tier_2_rocket"
     }
   }).id('kubejs:tier_2_rocket_s3')
+
+  event.custom({
+    "type": "palmon:production",
+    "category": "misc",
+    "focus_stat": "SPECIAL_DEFENCE",
+    "min_level": 60,
+    "required_type": "normal",
+    "base_hp": 0,
+    "base_atk": 0,
+    "base_def": 0,
+    "base_spa": 0,
+    "base_spd": 0,
+    "base_spe": 0,
+    "area_blocks": [
+      Item.of('#forge:storage_blocks/andesite_alloy').toJson(),
+      Item.of('#forge:storage_blocks/zinc').toJson(),
+      Item.of('#forge:storage_blocks/steel').toJson(),
+      Item.of('create:andesite_casing').toJson(),
+      Item.of('create:mechanical_press').toJson(),
+      Item.of('create:basin').toJson(),
+      Item.of('minecraft:blast_furnace').toJson(),
+
+    ],
+    "block_count": 2,
+    "tick": 3200,
+    "result_items": [
+      Item.of('create:andesite_alloy').toJson()
+    ],
+    "result_power": 0,
+    "result_fluid": null
+  }).id('kubejs:andesite_alloy_palmon_s3')
+
+  event.custom({
+    "type": "palmon:processing",
+    "category": "misc",
+    "focus_stat": "ATTACK",
+    "min_level": 60,
+    "required_type": 'dark',
+    "base_hp": 30,
+    "base_atk": 30,
+    "base_def": 30,
+    "base_spa": 30,
+    "base_spd": 30,
+    "base_spe": 30,
+    "area_blocks": [
+      {
+        "item": "embers:mixer_centrifuge"
+      },
+      {
+        "item": "embers:fluid_vessel"
+      }
+    ],
+    "block_count": 4,
+    "input_items": [
+      Item.of('#forge:storage_blocks/gold').toJson(),
+      Item.of('#forge:storage_blocks/copper').toJson(),
+      Item.of('embers:ember_crystal').toJson()
+    ],
+    "input_power": 80000,
+    "input_fluid": null,
+    "tick": 1200,
+    "result_items": [
+      Item.of('embers:dawnstone_block', 2).toJson()
+    ]
+  }
+  ).id('kubejs:dawnstone_block_acc_s3')
 
   event.custom({
     "type": "palmon:processing",

@@ -2,7 +2,7 @@
  * @param {Internal.RecipesEventJS} event
  */
 function s2Frame1(event) {
-    event.shaped('2x kubejs:beta_framework', [
+    event.shaped(Item.of('kubejs:beta_framework', 2 + global.frameworkAddition), [
         'ACA',
         'BDB',
         'AEA'
@@ -42,6 +42,6 @@ function s2Frame2(event) {
             "item": 'kubejs:alpha_framework'
           },
         "recipe_book_tab": "misc",
-        "result": Item.of('kubejs:beta_framework', 2).toJson()
+        "result": Item.of('kubejs:beta_framework', 2 + global.frameworkAddition).toJson()
       }).id('kubejs:beta_framework_2_s2')
 }

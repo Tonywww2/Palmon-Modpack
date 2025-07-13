@@ -236,7 +236,7 @@ ServerEvents.recipes(event => {
             E: 'integrateddynamics:logic_programmer'
         }).id('kubejs:sfm_manager_s5')
 
-    event.shaped('rftoolsbase:machine_frame', [
+    event.shaped(Item.of('rftoolsbase:machine_frame', 1 + global.frameworkAddition), [
         'ACA',
         'BDB',
         'ACA'

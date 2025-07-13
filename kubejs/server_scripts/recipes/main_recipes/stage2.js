@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
             C: 'botania:diluted_pool'
         }).id('kubejs:bot_mana_pool_s2')
 
-    event.shaped('palmon:boost_frame_5', [
+    event.shaped(Item.of('palmon:boost_frame_5', 1 + global.frameworkAddition), [
         'ABA',
         'ACA',
         'ADA'

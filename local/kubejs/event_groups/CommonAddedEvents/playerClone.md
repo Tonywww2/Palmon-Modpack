@@ -20,28 +20,37 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | of | ServerPlayer, ServerPlayer, boolean |  | PlayerCloneEventJS | ✔ |
-| getEntity |  |  | Entity | ✘ |
 | getOldPlayer |  |  | Player | ✘ |
 | getNewPlayer |  |  | Player | ✘ |
+| leavingEnd |  |  | boolean | ✘ |
 | returningFromEnd |  |  | boolean | ✘ |
 | causedByPortal |  |  | boolean | ✘ |
-| leavingEnd |  |  | boolean | ✘ |
 | causedByDeath |  |  | boolean | ✘ |
+| getEntity |  |  | Entity | ✘ |
+| getPlayer |  |  | Player | ✘ |
+| addGameStage | String |  | void | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
 | removeGameStage | String |  | void | ✘ |
-| addGameStage | String |  | void | ✘ |
-| getPlayer |  |  | Player | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 
 
 ### Documented members:
+
+- `void addGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Adds the specified game stage to the player
+```
 
 - `boolean hasGameStage(String var0)`
 
@@ -59,15 +68,6 @@ Checks if the player has the specified game stage
 
 ```
 Removes the specified game stage from the player
-```
-
-- `void addGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Adds the specified game stage to the player
 ```
 
 - `Object exit(Object var0)`
@@ -106,6 +106,13 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
 - `Object success(Object var0)`
 
   Parameters:
@@ -113,13 +120,6 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

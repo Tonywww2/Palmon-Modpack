@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
             F: '#industrialforegoing:machine_frame/simple'
         }).id('kubejs:disk_housing_s4')
 
-    event.shaped('3x industrialforegoing:machine_frame_pity', [
+    event.shaped(Item.of('industrialforegoing:machine_frame_pity', 3 + global.frameworkAddition), [
         'ACA',
         'BDB',
         'ACA'
@@ -96,7 +96,7 @@ ServerEvents.recipes(event => {
             D: '#forge:ingots/slimesteel'
         }).id('kubejs:resonance_crystal_s4')
 
-    event.recipes.thermal.smelter('2x kubejs:essence_computation_frame',
+    event.recipes.thermal.smelter(Item.of('kubejs:essence_computation_frame', 2 + global.frameworkAddition),
         ['ae2:cell_component_4k', 'kubejs:gamma_framework', 'jaopca:processors.elementium']
     ).energy(38400)
         .id('kubejs:essence_computation_frame_s4')

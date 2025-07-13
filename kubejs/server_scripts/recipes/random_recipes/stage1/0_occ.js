@@ -29,7 +29,7 @@ function s1Occ(event) {
         .id('kubejs:occ_tallow')
 
     event.recipes.occultism.ritual(
-        'kubejs:alpha_framework',
+        Item.of('kubejs:alpha_framework', 1 + global.frameworkAddition),
         [
             'kubejs:virtual_gold_ingot',
             'occultism:datura',

@@ -23,33 +23,42 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getLines |  |  | List<String> | ✘ |
 | getShowDebug |  |  | boolean | ✘ |
+| getLines |  |  | List<String> | ✘ |
+| getPlayer |  |  | Player | ✘ |
 | getEntity |  |  | Entity | ✘ |
-| getPlayer |  |  | LocalPlayer | ✘ |
+| addGameStage | String |  | void | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
 | removeGameStage | String |  | void | ✘ |
-| addGameStage | String |  | void | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 
 
 ### Documented members:
+
+- `boolean getShowDebug()`
+```
+Whether the debug info should be rendered.
+```
 
 - `List<String> getLines()`
 ```
 The lines of debug info. Mutating this list will change the debug info.
 ```
 
-- `boolean getShowDebug()`
+- `void addGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
 ```
-Whether the debug info should be rendered.
+Adds the specified game stage to the player
 ```
 
 - `boolean hasGameStage(String var0)`
@@ -68,15 +77,6 @@ Checks if the player has the specified game stage
 
 ```
 Removes the specified game stage from the player
-```
-
-- `void addGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Adds the specified game stage to the player
 ```
 
 - `Object exit(Object var0)`
@@ -115,6 +115,13 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
 - `Object success(Object var0)`
 
   Parameters:
@@ -122,13 +129,6 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

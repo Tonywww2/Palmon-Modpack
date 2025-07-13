@@ -388,6 +388,7 @@
 		}
 		{
 			dependencies: ["4389446C13F3FFED"]
+			description: ["将任意的唱片投入球状闪电仓......"]
 			id: "675C3BF94A1A5596"
 			tasks: [{
 				id: "67FEF77FC1D78C0E"
@@ -396,6 +397,28 @@
 			}]
 			x: 6.0d
 			y: 12.0d
+		}
+		{
+			dependencies: ["675C3BF94A1A5596"]
+			id: "422B60FF4E7A7656"
+			tasks: [{
+				id: "698594D3D6850EF4"
+				item: "avaritia:endest_pearl"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["422B60FF4E7A7656"]
+			id: "7527ECEF0B46D240"
+			tasks: [{
+				id: "10303954FAC83AB1"
+				item: "avaritia:infinity_catalyst"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 16.0d
 		}
 	]
 	title: "7. 句点 | Full Stop"

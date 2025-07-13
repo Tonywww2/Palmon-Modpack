@@ -122,7 +122,7 @@ ServerEvents.recipes(event => {
             E: Item.of('tconstruct:large_plate', '{Material:"tconstruct:lead"}').weakNBT()
         }).id('kubejs:fission_reactor_casing_s6')
 
-    event.shaped('3x kubejs:advanced_machine_frame', [
+    event.shaped(Item.of('kubejs:advanced_machine_frame', 3 + global.frameworkAddition), [
         'ADA',
         'BCB',
         'BAB'
@@ -134,7 +134,7 @@ ServerEvents.recipes(event => {
             D: 'kubejs:epsilon_dust'
         }).id('kubejs:advanced_machine_frame_s6')
 
-    event.shaped('3x kubejs:basic_machine_frame', [
+    event.shaped(Item.of('kubejs:basic_machine_frame', 3 + global.frameworkAddition), [
         'ACA',
         'ADA',
         'ACA'
@@ -384,7 +384,7 @@ ServerEvents.recipes(event => {
         Fluid.of('tinkers_advanced:plasmatic_lava', 500)
     ]).superheated().processingTime(800).id('kubejs:methane_helium_3_fuel_s6')
 
-    event.recipes.create.mechanical_crafting('4x kubejs:industrial_machine_frame', [
+    event.recipes.create.mechanical_crafting(Item.of('kubejs:industrial_machine_frame', 4 + global.frameworkAddition), [
         ' AA AA ',
         'ACGBGEA',
         'AGDHFGA',

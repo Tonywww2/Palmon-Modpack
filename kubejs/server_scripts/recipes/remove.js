@@ -1,333 +1,272 @@
+// priority: 200
+
+global.idsToRemove = new Set([
+    'palmon:crafting/shapeless/plank_from_wood',
+    'sophisticatedbackpacks:backpack',
+    'botania:mana_infusion/mana_cookie',
+    'sophisticatedbackpacks:iron_backpack',
+    'sophisticatedbackpacks:iron_backpack_from_copper',
+    'quark:building/crafting/furnaces/deepslate_furnace',
+    'nethersdelight:blackstone_furnace',
+    'quark:building/crafting/furnaces/blackstone_furnace',
+    'palmon:crafting/shaped/processing_station',
+    'palmon:crafting/shaped/production_machine',
+    'ad_astra:nasa_workbench',
+    'ad_astra:steel_engine',
+    'ad_astra:steel_tank',
+    'ad_astra:alloying/steel_ingot_from_alloying_iron_ingot_and_coals',
+    'ad_astra:nasa_workbench/tier_2_rocket_from_nasa_workbench',
+    'botania:petal_apothecary/entropinnyum',
+    'computercraft:computer_command',
+    'thermal:machines/press/press_enderium_ingot_to_coin',
+    'thermal:machines/press/press_enderium_nugget_to_coin',
+    'tconstruct:smeltery/casting/metal/enderium/coin_gold_cast',
+    'tconstruct:smeltery/casting/metal/enderium/coin_sand_cast',
+    'thermal:machines/press/press_signalum_ingot_to_coin',
+    'thermal:machines/press/press_signalum_nugget_to_coin',
+    'tconstruct:smeltery/casting/metal/signalum/coin_gold_cast',
+    'tconstruct:smeltery/casting/metal/signalum/coin_sand_cast',
+    'thermal:machines/press/press_lumium_ingot_to_coin',
+    'thermal:machines/press/press_lumium_nugget_to_coin',
+    'tconstruct:smeltery/casting/metal/lumium/coin_gold_cast',
+    'tconstruct:smeltery/casting/metal/lumium/coin_sand_cast',
+    'thermal:machines/press/press_netherite_ingot_to_coin',
+    'tconstruct:smeltery/casting/metal/netherite/coin_gold_cast',
+    'tconstruct:smeltery/casting/metal/netherite/coin_sand_cast',
+    'botania:alfheim_portal',
+    'create:crafting/materials/andesite_alloy',
+    'create:crafting/materials/andesite_alloy_from_zinc',
+    'create:mixing/andesite_alloy',
+    'create:mixing/andesite_alloy_from_zinc',
+    'tconstruct:compat/create/andesite_alloy_iron',
+    'tconstruct:compat/create/andesite_alloy_zinc',
+    'thermal:compat/create/smelter_create_alloy_andesite_alloy',
+    'create:item_application/brass_casing_from_log',
+    'create:item_application/brass_casing_from_wood',
+    'create:item_application/brass_casing_from_log_using_deployer',
+    'create:item_application/brass_casing_from_wood_using_deployer',
+    'mekanism:bin/basic',
+    'mekanism:bin/advanced',
+    'mekanism:bin/elite',
+    'mekanism:bin/ultimate',
+    'mekanism_extras:bin/absolute',
+    'mekanism_extras:bin/supreme',
+    'mekanism_extras:bin/cosmic',
+    'mekanism_extras:bin/infinite',
+    'tfc_ie_addon:anvil/hammer_head',
+    'tfc_ie_addon:anvil/wirecutter_head',
+    'tconstruct:tables/crafting_station_from_logs',
+    'tconstruct:tables/crafting_station',
+    'tconstruct:tables/tinker_station',
+    'tconstruct:tables/part_builder',
+    'embers:mechanical_core',
+    'embers:ember_activator',
+    'embers:melter',
+    'embers:stamper',
+    'embers:alchemy_tablet',
+    'integratedterminals:crafting/part_terminal_storage',
+    'compactmachines:wall',
+    'oceanworld:sea_key',
+    'botania:fertilizer_dye',
+    'botania:apothecary_default',
+    'botania:apothecary_forest',
+    'botania:apothecary_plains',
+    'botania:apothecary_mountain',
+    'botania:apothecary_fungal',
+    'botania:apothecary_swamp',
+    'botania:apothecary_desert',
+    'botania:apothecary_taiga',
+    'botania:apothecary_mesa',
+    'botania:apothecary_mossy',
+    'botania:apothecary_livingrock',
+    'botania:apothecary_deepslate',
+    'botania:pure_daisy/livingrock',
+    'botania:pure_daisy/livingwood',
+    'botania:mana_pool',
+    'ae2:network/blocks/inscribers',
+    'jaopcaextras:inscriber.circuit.fluix',
+    'jaopcaextras:inscriber.processor.fluix',
+    'industrialforegoing:machine_frame_pity',
+    'ad_astra:cryo_freezer',
+    'jaopcaextras:inscriber.circuit.calorite',
+    'cobblefordays:tier_1',
+    'cobblefordays:tier_2',
+    'cobblefordays:tier_3',
+    'cobblefordays:tier_4',
+    'cobblefordays:tier_5',
+    'nuclearcraft:manufactory',
+    'ars_nouveau:imbuement_chamber',
+    'ars_nouveau:novice_spell_book',
+    'ars_nouveau:apprentice_spell_book_upgrade',
+    'ars_nouveau:ritual_brazier',
+    'tfc:crafting/vanilla/crafting_table',
+    'draconicevolution:components/draconium_core',
+    'draconicevolution:components/wyvern_energy_core',
+    'draconicevolution:compress/draconium_block',
+    'botania:elven_trade/elementium',
+    'industrialforegoing:mob_slaughter_factory',
+    'industrialforegoing:fluid_laser_base',
+    'industrialforegoing:dissolution_chamber/supreme_machine_frame',
+    'occultism:crafting/chalk_red_impure',
+    'ad_astra:nasa_workbench/tier_3_rocket_from_nasa_workbench',
+    'thermal:machine_frame',
+    'modularrouters:modular_router',
+    'sfm:cable',
+    'sfm:manager',
+    'fluxnetworks:fluxcore',
+    'rftoolsbase:machine_frame',
+    'malum:spirit_infusion/runic_workbench',
+    'malum:spirit_infusion/void_tablet',
+    'malum:spirit_altar',
+    'forestry:sturdy_machine',
+    'forestry:carpenter',
+    'forestry:squeezer',
+    'forestry:carpenter/hardened_casing',
+    'forestry:fabricator/electron_tubes/flexible_casing',
+    'jaopcaextras:inscriber.processor.calorite',
+    'industrialforegoing:enchantment_factory',
+    'industrialforegoing:enchantment_extractor',
+    'industrialforegoing:enchantment_applicator',
+    'industrialforegoing:ore_laser_base',
+    'industrialforegoing:potion_brewer',
+    'industrialforegoing:marine_fisher',
+    'industrialforegoing:material_stonework_factory',
+    'tiab:time_in_a_bottle',
+    'integrateddynamics:crafting/logic_director',
+    'rftoolsutility:flight_module',
+    'botanicalmachinery:mana_emerald_block_decompress',
+    'botanicalmachinery:mana_infusion/mana_emerald_block',
+    'hostilenetworks:prediction_matrix',
+    'deeperdarker:reinforced_echo_shard',
+    'nuclearcraft:fusion_reactor_casing',
+    'mythicbotany:rune_holder',
+    'mythicbotany:central_rune_holder',
+    'mythicbotany:kvasir_mead',
+    'aetherworks:metal_former_block',
+    'aetherworks:alchemy/aether_amalgam',
+    'dustandash:crafting/ionizer',
+    'nuclearcraft:rock_crusher/ancient_debris',
+    'expatternprovider:water_cell',
+    'expatternprovider:cobblestone_cell',
+    'techreborn:crafting_table/parts/energy_flow_chip',
+    'techreborn:crafting_table/parts/data_storage_chip',
+    'techreborn:crafting_table/parts/data_storage_core',
+    'mekanism:steel_casing',
+    'mekanism:metallurgic_infusing/alloy/infused',
+    'mekanism:control_circuit/basic',
+    'draconicevolution:awakened_draconium_block',
+    'mekanismgenerators:fission_reactor/casing',
+    'mekanismgenerators:fission_reactor/fuel_assembly',
+    'mekanism:isotopic_centrifuge',
+    'mekanism:chemical_infuser',
+    'mekanism:chemical_oxidizer',
+    'mekanism:electrolytic_separator',
+    'mekanism:configurator',
+    'mekanism:transmitter/logistical_transporter/basic',
+    'techreborn:crafting_table/machine_block/basic_machine_casing',
+    'techreborn:crafting_table/machine_block/basic_machine_casing_alt',
+    'techreborn:crafting_table/machine_block/advanced_machine_casing_alt',
+    'techreborn:crafting_table/machine_block/industrial_machine_casing_alt',
+    'tinkers_advanced:table/resonance_crystal',
+    'tinkers_advanced:table/voltaic_crystal',
+    'sophisticatedbackpacks:feeding_upgrade',
+    'sophisticatedbackpacks:advanced_feeding_upgrade',
+    'sophisticatedstorage:backpack_feeding_upgrade_from_storage_feeding_upgrade',
+    'sophisticatedstorage:backpack_advanced_feeding_upgrade_from_storage_advanced_feeding_upgrade',
+    'sophisticatedstorage:advanced_feeding_upgrade',
+    'sophisticatedstorage:feeding_upgrade',
+    'sophisticatedstorage:storage_advanced_feeding_upgrade_from_backpack_advanced_feeding_upgrade',
+    'sophisticatedstorage:storage_feeding_upgrade_from_backpack_feeding_upgrade',
+    'ae2things:cells/disk_drive_256k',
+    'ae2things:cells/disk_drive_64k',
+    'ae2things:cells/disk_drive_16k',
+    'ae2things:cells/disk_drive_4k',
+    'ae2things:cells/disk_drive_1k',
+    'ae2things:cells/disk_housing',
+    'techreborn:crafting_table/machine/iron_furnace',
+    'forestry:ingot_bronze_alloying',
+    'tfc:crafting/blast_furnace',
+    'tfc:crafting/bloomery',
+    'thermal:machines/press/unpacking/press_wheat_unpacking',
+    'sakura:lumber_bamboo',
+    'sakura:papers_from_lumbers',
+    'nuclearcraft:alloy_smelter',
+    'dustandash:crafting/iron_nugget',
+    'tconstruct:smeltery/casting/metal/iron/nugget_sand_cast',
+    'tconstruct:smeltery/casting/metal/iron/nugget_gold_cast',
+    'cookingforblockheads:sink',
+    'jaopca:thermal_expansion.material_to_plate.cast_iron',
+    'tconstruct:smeltery/melting/metal/iron/nugget_3',
+    'tconstruct:smeltery/melting/metal/gold/powered_rail',
+    'tconstruct:smeltery/melting/metal/iron/ingot_1',
+    'nuclearcraft:manufactory/ender_pearl',
+    'jaopca:thermal_expansion.material_to_gear.cast_iron',
+    'jaopca:thermal_expansion.material_to_storage_block.cast_iron',
+    'create:crafting/kinetics/belt_connector',
+    'tconstruct:tables/tinkers_anvil',
+    'tconstruct:tables/scorched_anvil',
+    'industrialforegoing:dissolution_chamber/speed_addon_2',
+    'industrialforegoing:dissolution_chamber/efficiency_addon_2',
+    'industrialforegoing:dissolution_chamber/processing_addon_2',
+    'botanicalmachinery:mana_infusion/mana_emerald',
+    'botania:elven_trade/elementium_block',
+    'sophisticatedstorage:backpack_stack_upgrade_omega_tier_from_storage_stack_upgrade_omega_tier',
+    'sophisticatedbackpacks:stack_upgrade_omega_tier',
+    'sophisticatedstorage:storage_stack_upgrade_omega_tier_from_backpack_stack_upgrade_omega_tier',
+    'sophisticatedstorage:stack_upgrade_omega_tier',
+    'avaritia:sculk_crafting_table',
+    'techreborn:crafting_table/parts/iridium_neutron_reflector',
+    'techreborn:crafting_table/machine/fusion_coil',
+    'techreborn:crafting_table/machine/fusion_control_computer',
+    'mekanism:thermal_evaporation/block',
+    'mekanism_extras:infusion_conversion/radiance/from_dust',
+    'mekanism_extras:enriching/enriched/dust_radiance',
+    'nuclearcraft:crystallizer/uranium_oxide',
+    'packagedauto:package_component',
+    'packagedauto:me_package_component',
+    'avaritia:neutron_collector',
+    'avaritia:neutron_compressor',
+    'mekanism_extras:processing/enriched_spectrum/from_enriched_shining',
+    'mekanism:mekasuit_helmet',
+    'mekanism:mekasuit_bodyarmor',
+    'mekanism:mekasuit_pants',
+    'mekanism:mekasuit_boots',
+    'bfr:reactor/frame',
+    'mekanism:fluidic_plenisher',
+    'mekanism_extras:upgrade/filter',
+    'avaritia:record_fragment',
+    'nuclearcraft:irradiator/ingots_platinum',
+    'mekanism_extras:naquadah_reactor/controller',
+    'nuclearcraft:chamber_terminal',
+    'mekanismgenerators:reactor/controller',
+    'mekanismgenerators:reactor/frame'
+])
+
 ServerEvents.recipes(event => {
-    event.remove({ id: 'palmon:crafting/shapeless/plank_from_wood' })
-    event.remove({ id: 'sophisticatedbackpacks:backpack' })
-    event.remove({ id: 'botania:mana_infusion/mana_cookie' })
-    event.remove({ id: 'sophisticatedbackpacks:iron_backpack' })
-    event.remove({ id: 'sophisticatedbackpacks:iron_backpack_from_copper' })
-    event.remove({ id: 'quark:building/crafting/furnaces/deepslate_furnace' })
-    event.remove({ id: 'nethersdelight:blackstone_furnace' })
-    event.remove({ id: 'quark:building/crafting/furnaces/blackstone_furnace' })
-    event.remove({ id: 'palmon:crafting/shaped/processing_station' })
-    event.remove({ id: 'palmon:crafting/shaped/production_machine' })
-    event.remove({ id: 'ad_astra:nasa_workbench' })
-    event.remove({ id: 'ad_astra:steel_engine' })
-    event.remove({ id: 'ad_astra:steel_tank' })
-    event.remove({ id: 'ad_astra:alloying/steel_ingot_from_alloying_iron_ingot_and_coals' })
-    event.remove({ id: 'ad_astra:nasa_workbench/tier_2_rocket_from_nasa_workbench' })
-    event.remove({ id: 'botania:petal_apothecary/entropinnyum' })
-    event.remove({ id: 'computercraft:computer_command' })
-
-    event.remove({ id: 'thermal:machines/press/press_enderium_ingot_to_coin' })
-    event.remove({ id: 'thermal:machines/press/press_enderium_nugget_to_coin' })
-    event.remove({ id: 'tconstruct:smeltery/casting/metal/enderium/coin_gold_cast' })
-    event.remove({ id: 'tconstruct:smeltery/casting/metal/enderium/coin_sand_cast' })
-    event.remove({ id: 'thermal:machines/press/press_signalum_ingot_to_coin' })
-    event.remove({ id: 'thermal:machines/press/press_signalum_nugget_to_coin' })
-    event.remove({ id: 'tconstruct:smeltery/casting/metal/signalum/coin_gold_cast' })
-    event.remove({ id: 'tconstruct:smeltery/casting/metal/signalum/coin_sand_cast' })
-    event.remove({ id: 'thermal:machines/press/press_lumium_ingot_to_coin' })
-    event.remove({ id: 'thermal:machines/press/press_lumium_nugget_to_coin' })
-    event.remove({ id: 'tconstruct:smeltery/casting/metal/lumium/coin_gold_cast' })
-    event.remove({ id: 'tconstruct:smeltery/casting/metal/lumium/coin_sand_cast' })
-    event.remove({ id: 'thermal:machines/press/press_netherite_ingot_to_coin' })
-    event.remove({ id: 'tconstruct:smeltery/casting/metal/netherite/coin_gold_cast' })
-    event.remove({ id: 'tconstruct:smeltery/casting/metal/netherite/coin_sand_cast' })
-
-    event.remove({ id: 'botania:alfheim_portal' })
-    event.remove({ id: 'create:crafting/materials/andesite_alloy' })
-    event.remove({ id: 'create:crafting/materials/andesite_alloy_from_zinc' })
-    event.remove({ id: 'create:mixing/andesite_alloy' })
-    event.remove({ id: 'create:mixing/andesite_alloy_from_zinc' })
-    event.remove({ id: 'tconstruct:compat/create/andesite_alloy_iron' })
-    event.remove({ id: 'tconstruct:compat/create/andesite_alloy_zinc' })
-    event.remove({ id: 'thermal:compat/create/smelter_create_alloy_andesite_alloy' })
-    event.remove({ id: 'create:item_application/brass_casing_from_log' })
-    event.remove({ id: 'create:item_application/brass_casing_from_wood' })
-    event.remove({ id: 'create:item_application/brass_casing_from_log_using_deployer' })
-    event.remove({ id: 'create:item_application/brass_casing_from_wood_using_deployer' })
-
-    event.remove({ id: 'mekanism:bin/basic' })
-    event.remove({ id: 'mekanism:bin/advanced' })
-    event.remove({ id: 'mekanism:bin/elite' })
-    event.remove({ id: 'mekanism:bin/ultimate' })
-    event.remove({ id: 'mekanism_extras:bin/absolute' })
-    event.remove({ id: 'mekanism_extras:bin/supreme' })
-    event.remove({ id: 'mekanism_extras:bin/cosmic' })
-    event.remove({ id: 'mekanism_extras:bin/infinite' })
-
-    event.remove({ id: 'tfc_ie_addon:anvil/hammer_head' })
-    event.remove({ id: 'tfc_ie_addon:anvil/wirecutter_head' })
-
-    event.remove({ id: 'tconstruct:tables/crafting_station_from_logs' })
-    event.remove({ id: 'tconstruct:tables/crafting_station' })
-    event.remove({ id: 'tconstruct:tables/tinker_station' })
-    event.remove({ id: 'tconstruct:tables/part_builder' })
-
-    event.remove({ id: 'embers:mechanical_core' })
-    event.remove({ id: 'embers:ember_activator' })
-    event.remove({ id: 'embers:melter' })
-    event.remove({ id: 'embers:stamper' })
-    event.remove({ id: 'embers:alchemy_tablet' })
-
-    event.remove({ id: 'integratedterminals:crafting/part_terminal_storage' })
-
-    event.remove({ id: 'compactmachines:wall' })
-    event.remove({ id: 'oceanworld:sea_key' })
-
-    event.remove({ id: 'botania:fertilizer_dye' })
-    event.remove({ id: 'botania:apothecary_default' })
-    event.remove({ id: 'botania:apothecary_forest' })
-    event.remove({ id: 'botania:apothecary_plains' })
-    event.remove({ id: 'botania:apothecary_mountain' })
-    event.remove({ id: 'botania:apothecary_fungal' })
-    event.remove({ id: 'botania:apothecary_swamp' })
-    event.remove({ id: 'botania:apothecary_desert' })
-    event.remove({ id: 'botania:apothecary_taiga' })
-    event.remove({ id: 'botania:apothecary_mesa' })
-    event.remove({ id: 'botania:apothecary_mossy' })
-    event.remove({ id: 'botania:apothecary_livingrock' })
-    event.remove({ id: 'botania:apothecary_deepslate' })
-
-    event.remove({ id: 'botania:pure_daisy/livingrock' })
-    event.remove({ id: 'botania:pure_daisy/livingwood' })
-    event.remove({ id: 'botania:mana_pool' })
-
-    event.remove({ id: 'ae2:network/blocks/inscribers' })
-    event.remove({ id: 'jaopcaextras:inscriber.circuit.fluix' })
-    event.remove({ id: 'jaopcaextras:inscriber.processor.fluix' })
-
-    event.remove({ id: 'industrialforegoing:machine_frame_pity' })
-    event.remove({ id: 'ad_astra:cryo_freezer' })
-    event.remove({ id: 'jaopcaextras:inscriber.circuit.calorite' })
-
-    event.remove({ id: 'cobblefordays:tier_1' })
-    event.remove({ id: 'cobblefordays:tier_2' })
-    event.remove({ id: 'cobblefordays:tier_3' })
-    event.remove({ id: 'cobblefordays:tier_4' })
-    event.remove({ id: 'cobblefordays:tier_5' })
+    // 使用Set一次性移除所有配方
+    global.idsToRemove.forEach(id => event.remove({ id: id }))
 
     event.remove({ output: 'jaopca:gears.unknown' })
     event.remove({ output: 'jaopca:plates.unknown' })
     event.remove({ output: 'jaopca:circuits.unknown' })
     event.remove({ output: 'jaopca:processors.unknown' })
     event.remove({ output: 'jaopca:rods.unknown' })
-
     event.remove({ output: 'jaopca:circuits.iesnium' })
     event.remove({ output: 'jaopca:processors.iesnium' })
     event.remove({ output: 'techreborn:mixed_metal_ingot' })
-
     event.remove({ output: 'nuclearcraft:plate_basic' })
-    event.remove({ id: 'nuclearcraft:manufactory' })
-    event.remove({ id: 'ars_nouveau:imbuement_chamber' })
-    event.remove({ id: 'ars_nouveau:novice_spell_book' })
-    event.remove({ id: 'ars_nouveau:apprentice_spell_book_upgrade' })
-    event.remove({ id: 'ars_nouveau:ritual_brazier' })
-    event.remove({ id: 'tfc:crafting/vanilla/crafting_table' })
-
-    event.remove({ id: 'draconicevolution:components/draconium_core' })
-    event.remove({ id: 'draconicevolution:components/wyvern_energy_core' })
-    event.remove({ id: 'draconicevolution:compress/draconium_block' })
-    event.remove({ id: 'botania:elven_trade/elementium' })
-    event.remove({ id: 'industrialforegoing:mob_slaughter_factory' })
-    event.remove({ id: 'industrialforegoing:fluid_laser_base' })
-    event.remove({ id: 'industrialforegoing:dissolution_chamber/supreme_machine_frame' })
-    event.remove({ id: 'occultism:crafting/chalk_red_impure' })
-    event.remove({ id: 'ad_astra:nasa_workbench/tier_3_rocket_from_nasa_workbench' })
-
-    event.remove({ id: 'thermal:machine_frame' })
-    event.remove({ id: 'modularrouters:modular_router' })
-    event.remove({ id: 'sfm:cable' })
-    event.remove({ id: 'sfm:manager' })
-    event.remove({ id: 'fluxnetworks:fluxcore' })
-    event.remove({ id: 'rftoolsbase:machine_frame' })
-
-    event.remove({ id: 'malum:spirit_infusion/runic_workbench' })
-    event.remove({ id: 'malum:spirit_infusion/void_tablet' })
-    event.remove({ id: 'malum:spirit_altar' })
-
-    event.remove({ id: 'forestry:sturdy_machine' })
-    event.remove({ id: 'forestry:carpenter' })
-    event.remove({ id: 'forestry:squeezer' })
-    event.remove({ id: 'forestry:carpenter/hardened_casing' })
-    event.remove({ id: 'forestry:fabricator/electron_tubes/flexible_casing' })
-    event.remove({ id: 'jaopcaextras:inscriber.processor.calorite' })
-
-    event.remove({ id: 'industrialforegoing:enchantment_factory' })
-    event.remove({ id: 'industrialforegoing:enchantment_extractor' })
-    event.remove({ id: 'industrialforegoing:enchantment_applicator' })
-    event.remove({ id: 'industrialforegoing:ore_laser_base' })
-    event.remove({ id: 'industrialforegoing:potion_brewer' })
-    event.remove({ id: 'industrialforegoing:marine_fisher' })
-    event.remove({ id: 'industrialforegoing:material_stonework_factory' })
-    event.remove({ id: 'tiab:time_in_a_bottle' })
-
-    event.remove({ id: 'integrateddynamics:crafting/logic_director' })
-    event.remove({ id: 'rftoolsutility:flight_module' })
-    event.remove({ id: 'botanicalmachinery:mana_emerald_block_decompress' })
-    event.remove({ id: 'botanicalmachinery:mana_infusion/mana_emerald_block' })
-
-    event.remove({ id: 'hostilenetworks:prediction_matrix' })
-
-    event.remove({ id: 'deeperdarker:reinforced_echo_shard' })
-
-    event.remove({ id: 'nuclearcraft:fusion_reactor_casing' })
-
-    event.remove({ id: 'mythicbotany:rune_holder' })
-    event.remove({ id: 'mythicbotany:central_rune_holder' })
-    event.remove({ id: 'mythicbotany:kvasir_mead' })
-
-    event.remove({ id: 'aetherworks:metal_former_block' })
-    event.remove({ id: 'aetherworks:alchemy/aether_amalgam' })
-
-    event.remove({ id: 'dustandash:crafting/ionizer' })
-    event.remove({ id: 'nuclearcraft:rock_crusher/ancient_debris' })
-    event.remove({ id: 'expatternprovider:water_cell' })
-    event.remove({ id: 'expatternprovider:cobblestone_cell' })
-
-    event.remove({ id: 'techreborn:crafting_table/parts/energy_flow_chip' })
-    event.remove({ id: 'techreborn:crafting_table/parts/data_storage_chip' })
-    event.remove({ id: 'techreborn:crafting_table/parts/data_storage_core' })
-    
-    event.remove({ id: 'mekanism:steel_casing' })
-    event.remove({ id: 'mekanism:metallurgic_infusing/alloy/infused' })
-    event.remove({ id: 'mekanism:control_circuit/basic' })
-    event.remove({ id: 'draconicevolution:awakened_draconium_block' })
-    event.remove({ id: 'mekanismgenerators:fission_reactor/casing' })
-    event.remove({ id: 'mekanismgenerators:fission_reactor/fuel_assembly' })
-    event.remove({ id: 'mekanism:isotopic_centrifuge' })
-    event.remove({ id: 'mekanism:chemical_infuser' })
-    event.remove({ id: 'mekanism:chemical_oxidizer' })
-    event.remove({ id: 'mekanism:electrolytic_separator' })
-    event.remove({ id: 'mekanism:configurator' })
-    event.remove({ id: 'mekanism:transmitter/logistical_transporter/basic' })
-    event.remove({ id: 'techreborn:crafting_table/machine_block/basic_machine_casing' })
-    event.remove({ id: 'techreborn:crafting_table/machine_block/basic_machine_casing_alt' })
-    event.remove({ id: 'techreborn:crafting_table/machine_block/advanced_machine_casing_alt' })
-    event.remove({ id: 'techreborn:crafting_table/machine_block/industrial_machine_casing_alt' })
-    event.remove({ id: 'tinkers_advanced:table/resonance_crystal' })
-    event.remove({ id: 'tinkers_advanced:table/voltaic_crystal' })
-
-    event.remove({ id: 'sophisticatedbackpacks:feeding_upgrade' })
-    event.remove({ id: 'sophisticatedbackpacks:advanced_feeding_upgrade' })
-    event.remove({ id: 'sophisticatedstorage:backpack_feeding_upgrade_from_storage_feeding_upgrade' })
-    event.remove({ id: 'sophisticatedstorage:backpack_advanced_feeding_upgrade_from_storage_advanced_feeding_upgrade' })
-    event.remove({ id: 'sophisticatedstorage:advanced_feeding_upgrade' })
-    event.remove({ id: 'sophisticatedstorage:feeding_upgrade' })
-    event.remove({ id: 'sophisticatedstorage:storage_advanced_feeding_upgrade_from_backpack_advanced_feeding_upgrade' })
-    event.remove({ id: 'sophisticatedstorage:storage_feeding_upgrade_from_backpack_feeding_upgrade' })
-
-    event.remove({ id: 'ae2things:cells/disk_drive_256k' })
-    event.remove({ id: 'ae2things:cells/disk_drive_64k' })
-    event.remove({ id: 'ae2things:cells/disk_drive_16k' })
-    event.remove({ id: 'ae2things:cells/disk_drive_4k' })
-    event.remove({ id: 'ae2things:cells/disk_drive_1k' })
-    event.remove({ id: 'ae2things:cells/disk_housing' })
-    
-    event.remove({ id: 'techreborn:crafting_table/machine/iron_furnace' })
-    event.remove({ id: 'forestry:ingot_bronze_alloying' })
-    event.remove({ id: 'tfc:crafting/blast_furnace' })
-    event.remove({ id: 'tfc:crafting/bloomery' })
-    event.remove({ id: 'thermal:machines/press/unpacking/press_wheat_unpacking' })
-    event.remove({ id: 'sakura:lumber_bamboo' })
-    event.remove({ id: 'sakura:papers_from_lumbers' })
-    
-    event.remove({ id: 'nuclearcraft:alloy_smelter' })
-    event.remove({ id: 'dustandash:crafting/iron_nugget' })
-    event.remove({ id: 'tconstruct:smeltery/casting/metal/iron/nugget_sand_cast' })
-    event.remove({ id: 'tconstruct:smeltery/casting/metal/iron/nugget_gold_cast' })
-    event.remove({ id: 'cookingforblockheads:sink' })
-    event.remove({ id: 'jaopca:thermal_expansion.material_to_plate.cast_iron' })
-    event.remove({ id: 'tconstruct:smeltery/melting/metal/iron/nugget_3' })
-    event.remove({ id: 'tconstruct:smeltery/melting/metal/gold/powered_rail' })
-    event.remove({ id: 'tconstruct:smeltery/melting/metal/iron/ingot_1' })
-    event.remove({ id: 'nuclearcraft:manufactory/ender_pearl' })
-    event.remove({ id: 'jaopca:thermal_expansion.material_to_gear.cast_iron' })
-    event.remove({ id: 'jaopca:thermal_expansion.material_to_storage_block.cast_iron' })
-
-    event.remove({ id: 'create:crafting/kinetics/belt_connector' })
-    event.remove({ id: 'tconstruct:tables/tinkers_anvil' })
-    event.remove({ id: 'tconstruct:tables/scorched_anvil' })
-
-    event.remove({ id: 'industrialforegoing:dissolution_chamber/speed_addon_2' })
-    event.remove({ id: 'industrialforegoing:dissolution_chamber/efficiency_addon_2' })
-    event.remove({ id: 'industrialforegoing:dissolution_chamber/processing_addon_2' })
-    event.remove({ id: 'botanicalmachinery:mana_infusion/mana_emerald' })
-    event.remove({ id: 'botania:elven_trade/elementium_block' })
-
-    event.remove({ id: 'sophisticatedstorage:backpack_stack_upgrade_omega_tier_from_storage_stack_upgrade_omega_tier' })
-    event.remove({ id: 'sophisticatedbackpacks:stack_upgrade_omega_tier' })
-    event.remove({ id: 'sophisticatedstorage:storage_stack_upgrade_omega_tier_from_backpack_stack_upgrade_omega_tier' })
-    event.remove({ id: 'sophisticatedstorage:stack_upgrade_omega_tier' })
-
-    event.remove({ id: 'jaopca:storage_blocks.to_storage_block.cast_iron' })
-    event.remove({ id: 'jaopca:storage_blocks.to_storage_block.cast_iron' })
-    event.remove({ id: 'techreborn:smelting/platinum_ingot_from_c_sheldonite_ores' })
-    event.remove({ id: 'techreborn:smelting/platinum_ingot_from_c_platinum_dusts' })
-    event.remove({ id: 'techreborn:blasting/platinum_ingot_from_c_sheldonite_ores' })
-    event.remove({ id: 'techreborn:blasting/platinum_ingot_from_c_platinum_dusts' })
-    event.remove({ id: 'techreborn:crafting_table/ingot/platinum_ingot_from_nugget' })
-    event.remove({ id: 'techreborn:crafting_table/ingot/platinum_ingot_from_block' })
-    event.remove({ id: 'techreborn:crafting_table/nugget/platinum_nugget' })
-
-    event.remove({ id: 'dustandash:centrifuge/netherite_scrap' })
-    event.remove({ id: 'botania:flighttiara_0' })
-    event.remove({ id: 'thermal_extra:machine/component_assembly/redstone_servo1' })
-    event.remove({ id: 'integrateddynamics:squeezer/ore/netherrite_scrap' })
-    event.remove({ id: 'nuclearcraft:manufactory/netherite_scrap' })
-    event.remove({ id: 'mekanism:energy_cube/basic' })
-    event.remove({ id: 'appbot:mana_cell_housing' })
-
-    // s7
-    event.remove({ id: 'avaritia:sculk_crafting_table' })
-    event.remove({ id: 'techreborn:crafting_table/parts/iridium_neutron_reflector' })
-    event.remove({ id: 'techreborn:crafting_table/machine/fusion_coil' })
-    event.remove({ id: 'techreborn:crafting_table/machine/fusion_control_computer' })
-
-    event.remove({ output: 'minecraft:furnace' })
     event.remove({ output: 'thermal:enderium_coin' })
     event.remove({ output: 'thermal:signalum_coin' })
     event.remove({ output: 'thermal:lumium_coin' })
-
     event.remove({ output: 'ars_nouveau:ritual_flight' })
-    
-    event.remove({ id: 'mekanism:thermal_evaporation/block' })
-    event.remove({ id: 'mekanism_extras:infusion_conversion/radiance/from_dust' })
-    event.remove({ id: 'mekanism_extras:enriching/enriched/dust_radiance' })
-    event.remove({ id: 'nuclearcraft:crystallizer/uranium_oxide' })
-    event.remove({ id: 'packagedauto:package_component' })
-    event.remove({ id: 'packagedauto:me_package_component' })
-    event.remove({ id: 'avaritia:neutron_collector' })
-    event.remove({ id: 'avaritia:neutron_compressor' })
-    event.remove({ id: 'mekanism_extras:processing/enriched_spectrum/from_enriched_shining' })
-
-    event.remove({ id: 'mekanism:mekasuit_helmet' })
-    event.remove({ id: 'mekanism:mekasuit_bodyarmor' })
-    event.remove({ id: 'mekanism:mekasuit_pants' })
-    event.remove({ id: 'mekanism:mekasuit_boots' })
-
-    event.remove({ id: 'bfr:reactor/frame' })
-    event.remove({ id: 'mekanism:fluidic_plenisher' })
-    event.remove({ id: 'mekanism_extras:upgrade/filter' })
-
-    event.remove({ id: 'avaritia:record_fragment' })
-    event.remove({ id: 'nuclearcraft:irradiator/ingots_platinum' })
-    event.remove({ id: 'mekanism_extras:naquadah_reactor/controller' })
-    event.remove({ id: 'nuclearcraft:chamber_terminal' })
-
-    event.remove({ id: 'mekanismgenerators:reactor/controller' })
-    event.remove({ id: 'mekanismgenerators:reactor/frame' })
-
+    event.remove({ output: 'minecraft:furnace' })
     event.remove({ output: 'techreborn:advanced_alloy_ingot', not: { type: 'minecraft:crafting_shapeless' } })
     event.remove({ output: 'draconicevolution:awakened_draconium_ingot', not: { type: 'minecraft:crafting_shapeless' } })
     event.remove({ input: 'immersiveengineering:hammer', not: { id: 'immersiveengineering:crafting/survey_tools' } })
-
     event.remove({ output: '#cobblemon:poke_balls' })
-
     event.remove({ type: 'minecraft:crafting_shaped', output: '#forge:gears' })
     event.remove({ type: 'minecraft:crafting_shapeless', input: 'embers:tinker_hammer' })
-
     event.remove({ type: 'tconstruct:melting', input: '#forge:gears' })
-
 })
 
 MoreJSEvents.villagerTrades(event => {
@@ -335,5 +274,4 @@ MoreJSEvents.villagerTrades(event => {
     event.removeModdedTrades(["techreborn:metallurgist"], 4)
     event.removeModdedTrades(["nuclearcraft:nuclear_scientist"], 4)
     event.removeModdedTrades(["nuclearcraft:nuclear_scientist"], 5)
-
 })

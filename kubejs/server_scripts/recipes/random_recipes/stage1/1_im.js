@@ -34,7 +34,7 @@ function s1Im(event) {
     ]
   }).id('kubejs:ie_wirecutter_s1')
 
-  event.recipes.immersiveengineering.blueprint('2x kubejs:alpha_framework',
+  event.recipes.immersiveengineering.blueprint(Item.of('kubejs:alpha_framework', 2 + global.frameworkAddition),
     [
       'kubejs:virtual_gold_ingot',
       'immersiveengineering:graphite_electrode',

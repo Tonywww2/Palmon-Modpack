@@ -52,13 +52,13 @@ ServerEvents.recipes(event => {
     babyShapeless(Item.of('sophisticatedstorage:diamond_barrel', '{flatTop:1b,woodType:"oak"}'), ['#forge:barrels'])
 
     babyShapeless('tfc:papyrus', ['2x #forge:rods/wooden'])
-    babyShapeless('kubejs:alpha_framework', ['kubejs:virtual_gold_ingot'])
+    babyShapeless(Item.of('kubejs:alpha_framework', 1 + global.frameworkAddition), ['kubejs:virtual_gold_ingot'])
 
     event.shapeless(Item.of('tfc:wooden_bucket', '{fluid:{Amount:1000,FluidName:"immersiveengineering:creosote"}}'),
-     ['tfc:wooden_bucket', 'malum:charcoal_fragment', 'kubejs:baby_proofing'])
-     .keepIngredient('kubejs:baby_proofing')
-            .stage('baby')
-            .id('kubejs:creosote_baby')
+        ['tfc:wooden_bucket', 'malum:charcoal_fragment', 'kubejs:baby_proofing'])
+        .keepIngredient('kubejs:baby_proofing')
+        .stage('baby')
+        .id('kubejs:creosote_baby')
 
 
     function babyShapeless(result, ingredients) {

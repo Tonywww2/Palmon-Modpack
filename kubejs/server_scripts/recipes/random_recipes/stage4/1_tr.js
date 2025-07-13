@@ -3,7 +3,7 @@
  */
 function s4TR(event) {
 
-    event.shaped('kubejs:basic_machine_frame', [
+    event.shaped(Item.of('kubejs:basic_machine_frame', 1 + global.frameworkAddition), [
         'ACA',
         'ADA',
         'ACA'

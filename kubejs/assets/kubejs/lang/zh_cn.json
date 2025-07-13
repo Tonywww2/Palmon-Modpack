@@ -277,29 +277,29 @@
     "kubejs.eot.init_desc": "·初始携带 §9锚之碎片§f",
     
     "kubejs.eot.true_ending_name": "[真正结局]",
-    "kubejs.eot.true_ending_desc": "·初始携带 §e现世之魂§f\n·允许进入真正结局",
+    "kubejs.eot.true_ending_desc": "·初始携带 §e现世之魂§f \n·允许进入真正结局",
         
     "kubejs.eot.dungeon_1_name": "[壮丽征途]",
-    "kubejs.eot.dungeon_1_desc": "·初始携带 不毁的 铁胸甲\n·群峦星将会生成高强度地牢",
+    "kubejs.eot.dungeon_1_desc": "·初始携带 不毁的 铁胸甲 \n·群峦星将会生成高强度地牢",
     
     "kubejs.eot.master_ending_name": "[专家结局]",
-    "kubejs.eot.master_ending_desc": "§d·书写你的传奇史诗！\n·初始携带 §d斯克兰顿现实稳定锚§f\n§d·开启专家模式\n  ¤  部分配方将产生变化\n  ¤  敌对生物将更具有威胁\n  ¤  允许进行专家试炼",
+    "kubejs.eot.master_ending_desc": "§d·书写你的传奇史诗！ \n·初始携带 §d斯克兰顿现实稳定锚§f \n§d·开启专家模式 \n  ¤  部分配方将产生变化 \n  ¤  敌对生物将更具有威胁 \n  ¤  允许进行专家试炼",
     
     "kubejs.eot.no_end_name": "[无终安息]",
-    "kubejs.eot.no_end_desc": "§c·这是...最后了......\n  ¤  部分配方将变的无比困难\n  ¤  敌对生物将宛如恶魔降世\n  ¤  允许进行终极试炼",
+    "kubejs.eot.no_end_desc": "§c·这是...最后了...... \n  ¤  部分配方将变的无比困难 \n  ¤  敌对生物将宛如恶魔降世 \n  ¤  允许进行终极试炼",
 
 
     "kubejs.eot.miner_1_name": "[专业矿工]",
-    "kubejs.eot.miner_1_desc": "·初始携带 红钢镐\n·初始携带 夜视镜\n·属性 方块范围 + 1",
+    "kubejs.eot.miner_1_desc": "·初始携带 红钢镐 \n·初始携带 夜视镜 \n·属性 方块范围 + 1",
     
     "kubejs.eot.miner_2_name": "[老练矿工]",
-    "kubejs.eot.miner_2_desc": "·初始携带 铁制背包\n·初始携带 自动高炉升级\n·允许用高炉将群峦矿粉加工成锭",
+    "kubejs.eot.miner_2_desc": "·初始携带 铁制背包 \n·初始携带 自动高炉升级 \n·允许用高炉将群峦矿粉加工成锭",
     
     "kubejs.eot.miner_3_name": "[掘矿传说]",
-    "kubejs.eot.miner_3_desc": "·初始携带 不毁的 炽岩之熔山镐\n·初始携带 急迫符文\n·属性 方块范围 + 2",
+    "kubejs.eot.miner_3_desc": "·初始携带 不毁的 炽岩之熔山镐 \n·初始携带 急迫符文 \n·属性 方块范围 + 2",
         
     "kubejs.eot.miner_4_name": "[矿脉领主]",
-    "kubejs.eot.miner_4_desc": "·初始携带 维度矿井，内置 不毁的 矿脉领主魔王\n·属性 方块范围 + 3",
+    "kubejs.eot.miner_4_desc": "·初始携带 维度矿井，内置 不毁的 矿脉领主魔王 \n·属性 方块范围 + 3",
         
 
     "kubejs.eot.fighter_1_name": "[力量战士]",
@@ -309,7 +309,7 @@
     "kubejs.eot.fighter_2_desc": "·属性 攻击速度 + 7.5%",
 
     "kubejs.eot.fighter_3_name": "[精锐战士]",
-    "kubejs.eot.fighter_3_desc": "·属性 攻击伤害 + 4\n·属性 攻击速度 + 7.5%",
+    "kubejs.eot.fighter_3_desc": "·属性 攻击伤害 + 4 \n·属性 攻击速度 + 7.5%",
 
     "kubejs.eot.assassin_1_name": "[学徒刺客]",
     "kubejs.eot.assassin_1_desc": "·属性 暴击率 + 0.05",
@@ -318,10 +318,10 @@
     "kubejs.eot.assassin_2_desc": "·属性 暴击率 + 0.05",
     
     "kubejs.eot.fighter_4_name": "[战斗宗师]",
-    "kubejs.eot.fighter_4_desc": "·属性 攻击伤害 + 4\n·属性 攻击速度 + 10%\n·属性 暴击率 + 0.05",
+    "kubejs.eot.fighter_4_desc": "·属性 攻击伤害 + 4 \n·属性 攻击速度 + 10% \n·属性 暴击率 + 0.05 ",
     
     "kubejs.eot.fighter_5_name": "[无名王者]",
-    "kubejs.eot.fighter_5_desc": "·属性 攻击伤害 + 5\n·属性 攻击速度 + 10%\n·属性 暴击率 + 0.05",
+    "kubejs.eot.fighter_5_desc": "·属性 攻击伤害 + 5 \n·属性 攻击速度 + 10% \n·属性 暴击率 + 0.05 ",
     
     "kubejs.eot.slashblade_1_name": "[拔刀术]",
     "kubejs.eot.slashblade_1_desc": "·属性 拔刀剑伤害系数 + 75%",
@@ -345,49 +345,52 @@
     "kubejs.eot.sheild_2_desc": "·属性 护甲值 + 4",
         
     "kubejs.eot.tank_3_name": "[全能坦克]",
-    "kubejs.eot.tank_3_desc": "·属性 生命值 + 10%\n·属性 护甲值 + 5\n·属性 治疗量 + 15%",
+    "kubejs.eot.tank_3_desc": "·属性 生命值 + 10% \n·属性 护甲值 + 5 \n·属性 治疗量 + 15% ",
         
     "kubejs.eot.tank_4_name": "[圆桌之盾]",
-    "kubejs.eot.tank_4_desc": "·属性 生命值 + 10%\n·属性 护甲值 + 6\n·属性 盔甲韧性 + 6",
+    "kubejs.eot.tank_4_desc": "·属性 生命值 + 10% \n·属性 护甲值 + 6 \n·属性 盔甲韧性 + 6 ",
         
     "kubejs.eot.tank_sp_name": "[铜头铁臂]",
     "kubejs.eot.tank_sp_desc": "·初始携带 铜头铁臂",
     
 
     "kubejs.eot.speed_1_name": "[健步如飞]",
-    "kubejs.eot.speed_1_desc": "·初始携带 疾风脚镯\n·初始携带 跑鞋\n·属性 速度 + 10%",
+    "kubejs.eot.speed_1_desc": "·初始携带 疾风脚镯 \n·初始携带 跑鞋 \n·属性 速度 + 10% ",
     
     "kubejs.eot.speed_2_name": "[风驰电掣]",
-    "kubejs.eot.speed_2_desc": "·初始携带 泰拉闪耀靴\n·属性 速度 + 10%",
+    "kubejs.eot.speed_2_desc": "·初始携带 泰拉闪耀靴 \n·属性 速度 + 10% ",
     
     "kubejs.eot.flight_1_name": "[上天入地]",
-    "kubejs.eot.flight_1_desc": "·初始携带 Takeoff!\n·属性 速度 + 10%\n·属性 Max Mana + 20%",
+    "kubejs.eot.flight_1_desc": "·初始携带 Takeoff! \n·属性 速度 + 10% \n·属性 Max Mana + 20% ",
 
 
     "kubejs.eot.poke_1_name": "[西尔佛公司特派]",
-    "kubejs.eot.poke_1_desc": "·初始携带 大师球 * 2\n·初始携带 王者之证",
+    "kubejs.eot.poke_1_desc": "·初始携带 大师球 * 2 \n·初始携带 王者之证 ",
 
     "kubejs.eot.poke_2_name": "[异次元协助]",
     "kubejs.eot.poke_2_desc": "·初始携带 宝可梦 多边兽乙型， 初始三项IV为最高",
 
     "kubejs.eot.poke_3_name": "[视财如命]",
-    "kubejs.eot.poke_3_desc": "·初始携带 宝可梦 索财灵， 初始四项IV为最高\n·允许通过特殊的铸造工艺制作遗迹硬币",
+    "kubejs.eot.poke_3_desc": "·初始携带 宝可梦 索财灵， 初始四项IV为最高 \n·允许通过特殊的铸造工艺制作遗迹硬币 ",
 
 
     "kubejs.eot.thermal_1_name": "[通量链接]",
-    "kubejs.eot.thermal_1_desc": "·初始携带 斯特林能源炉\n·初始携带 红石熔炼炉\n·初始携带 磨粉机\n·初始携带 新月锤\n·初始携带 深渊通量链接放大器 * 2",
+    "kubejs.eot.thermal_1_desc": "·初始携带 斯特林能源炉 \n·初始携带 红石熔炼炉 \n·初始携带 磨粉机 \n·初始携带 新月锤 \n·初始携带 深渊通量链接放大器 * 2 ",
         
     "kubejs.eot.thermal_2_name": "[深渊链接]",
-    "kubejs.eot.thermal_2_desc": "·初始携带 深渊整合组件 * 2\n·允许以更容易获得的原料制作深渊整合组件",
-        
-    "kubejs.eot.fuel_1_name": "[木炭老板]",
-    "kubejs.eot.fuel_1_desc": "·初始携带 木炭块 * 8\n·允许通过特殊的铸造工艺将原木加工成木炭块",
-        
-    "kubejs.eot.fuel_2_name": "[光头强]",
-    "kubejs.eot.fuel_2_desc": "·初始携带 不毁的 效率V 红钢斧\n·属性 速度 * 10%",
+    "kubejs.eot.thermal_2_desc": "·初始携带 深渊整合组件 * 2 \n·允许以更容易获得的原料制作深渊整合组件 ",
         
     "kubejs.eot.mek_1_name": "[绝对能量]",
-    "kubejs.eot.mek_1_desc": "·初始携带 绝对能量立方",
+    "kubejs.eot.mek_1_desc": "·初始携带 绝对能量立方 \n·初始携带 绝对通用线缆 * 16",
+            
+    "kubejs.eot.framework_architect_1_name": "[架构师]",
+    "kubejs.eot.framework_architect_1_desc": "·在合成绝大多数的框架/外壳时，可以额外获得一个成品",
+
+    "kubejs.eot.fuel_1_name": "[木炭老板]",
+    "kubejs.eot.fuel_1_desc": "·初始携带 木炭块 * 8 \n·允许通过特殊的铸造工艺将原木加工成木炭块 ",
+        
+    "kubejs.eot.fuel_2_name": "[光头强]",
+    "kubejs.eot.fuel_2_desc": "·初始携带 不毁的 效率V 红钢斧 \n·属性 速度 * 10% ",
         
     
     "kubejs.eot.special_1_name": "[空间折越]",
@@ -410,7 +413,10 @@
 
     
     "kubejs.eot.survive_1_name": "[生存者]",
-    "kubejs.eot.survive_1_desc": "·允许直接制作工作站\n·允许直接制作熔炉\n·允许直接将原木分解为木材\n·允许直接将精炼铁锭煅烧成钢锭",
+    "kubejs.eot.survive_1_desc": "·允许直接制作工作站 \n·允许直接制作熔炉 \n·允许直接将原木分解为木材 \n·允许直接将精炼铁锭煅烧成钢锭 ",
+        
+    "kubejs.eot.tfc_smith_1_name": "[原始工匠]",
+    "kubejs.eot.tfc_smith_1_desc": "·初始携带 不毁的 钢砧 \n·初始携带 不毁的 钢锤 \n·初始携带 不毁的 钢锯 \n·初始携带 不毁的 钢勘矿镐 \n·初始携带 不毁的 钢刀 \n·初始携带 不毁的 钢凿 ",
     
     "kubejs.eot.tcr_1_name": "[锻造大师]",
     "kubejs.eot.tcr_1_desc": "·材料品质修正 + 0.005\n  ¤  使所有材料的属性浮动更加正面",

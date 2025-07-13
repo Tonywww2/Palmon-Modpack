@@ -27,15 +27,15 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | getLevel |  |  | Level | ✘ |
 | getModelName |  |  | ResourceLocation | ✘ |
-| getModel |  |  | ClimateModel | ✘ |
 | setModel | ClimateModel |  | void | ✘ |
+| getModel |  |  | ClimateModel | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
 | success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 
 
 ### Documented members:
@@ -50,11 +50,6 @@ The event's Level
 Returns the name of the event's current model
 ```
 
-- `ClimateModel getModel()`
-```
-The event's climate model
-```
-
 - `void setModel(ClimateModel var0)`
 
   Parameters:
@@ -62,6 +57,11 @@ The event's climate model
 
 ```
 Sets the event's climate model
+```
+
+- `ClimateModel getModel()`
+```
+The event's climate model
 ```
 
 - `Object exit(Object var0)`
@@ -100,6 +100,13 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
 - `Object success(Object var0)`
 
   Parameters:
@@ -107,13 +114,6 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```
