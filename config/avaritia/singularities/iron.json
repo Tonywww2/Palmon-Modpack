@@ -1,13 +1,15 @@
 {
-  "name": "singularity.avaritia.iron",
-  "colors": [
-    "e1e1e1",
-    "6c6c6c"
-  ],
-  "timeRequired": 240,
-  "ingredient": {
-    "item": "minecraft:iron_ingot"
-  },
-  "enabled": true,
-  "recipeDisabled": false
+    "name": "singularity.avaritia.iron",
+    "colors":
+    [
+        "e1e1e1",
+        "6c6c6c"
+    ],
+    "timeRequired": 100,
+    "ingredient":
+    {
+        "item": "minecraft:iron_ingot"
+    },
+    "enabled": true,
+    "recipeDisabled": false
 }

@@ -35,32 +35,32 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | remove | RecipeFilter |  | void | ✘ |
 | stage | RecipeFilter, String |  | void | ✘ |
-| replaceInput | RecipeFilter, ReplacementMatch, InputReplacement |  | void | ✘ |
-| replaceOutput | RecipeFilter, ReplacementMatch, OutputReplacement |  | void | ✘ |
-| containsRecipe | RecipeFilter |  | boolean | ✘ |
-| addRecipe | RecipeJS, boolean |  | RecipeJS | ✘ |
 | findRecipes | RecipeFilter |  | Collection<RecipeJS> | ✘ |
-| countRecipes | RecipeFilter |  | int | ✘ |
-| takeId | RecipeJS, String, String |  | ResourceLocation | ✘ |
 | runInParallel | Callable<T> |  | T | ✔ |
 | runInParallel | Runnable |  | void | ✔ |
 | getRecipeFunction | String |  | RecipeTypeFunction | ✘ |
-| forEachRecipe | RecipeFilter, Consumer<RecipeJS> |  | void | ✘ |
 | customFilter | Predicate<RecipeKJS> |  | RecipeFilter | ✘ |
 | recipeStream | RecipeFilter |  | Stream<RecipeJS> | ✘ |
-| printExamples | String |  | void | ✘ |
 | findRecipeIds | RecipeFilter |  | Collection<ResourceLocation> | ✘ |
-| setItemErrors | boolean |  | void | ✘ |
+| forEachRecipe | RecipeFilter, Consumer<RecipeJS> |  | void | ✘ |
 | printAllTypes |  |  | void | ✘ |
-| getRecipes |  |  | Map<String, Object> | ✘ |
+| setItemErrors | boolean |  | void | ✘ |
+| printExamples | String |  | void | ✘ |
+| countRecipes | RecipeFilter |  | int | ✘ |
 | custom | JsonObject |  | RecipeJS | ✘ |
 | printTypes |  |  | void | ✘ |
+| getRecipes |  |  | Map<String, Object> | ✘ |
+| addRecipe | RecipeJS, boolean |  | RecipeJS | ✘ |
+| replaceInput | RecipeFilter, ReplacementMatch, InputReplacement |  | void | ✘ |
+| replaceOutput | RecipeFilter, ReplacementMatch, OutputReplacement |  | void | ✘ |
+| containsRecipe | RecipeFilter |  | boolean | ✘ |
+| takeId | RecipeJS, String, String |  | ResourceLocation | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| success |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
+| success |  |  | Object | ✘ |
 
 
 ### Documented members:
@@ -101,13 +101,6 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
 - `Object success(Object var0)`
 
   Parameters:
@@ -115,6 +108,13 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

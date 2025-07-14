@@ -189,7 +189,7 @@ StartupEvents.registry('item', event => {
                 "attributeslib:healing_received",
                 "gungnir_healing_power",
                 0.4,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "attributeslib:armor_shred",
@@ -200,8 +200,8 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.attack_damage",
                 "gungnir_attack_damage",
-                0.2,
-                "multiply_total"
+                0.3,
+                "multiply_base"
             )
         )
         .displayName('§e⌈Gungnir⌋')
@@ -242,49 +242,49 @@ StartupEvents.registry('item', event => {
                 "minecraft:generic.movement_speed",
                 "laevatain_movement_speed",
                 -0.2,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.flying_speed",
                 "laevatain_flying_speed",
                 -0.2,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "forge:swim_speed",
                 "laevatain_swim_speed",
                 -0.2,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.max_health",
                 "laevatain_max_health",
                 -0.2,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.armor",
                 "laevatain_armor",
                 -0.2,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "attributeslib:healing_received",
                 "laevatain_healing_power",
                 1.0,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.attack_damage",
                 "laevatain_attack_damage",
-                0.25,
-                "multiply_total"
+                0.35,
+                "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.attack_speed",
                 "laevatain_attack_speed",
                 0.2,
-                "multiply_total"
+                "multiply_base"
             )
         )
         .displayName('§e⌈Laevatain⌋')
@@ -343,19 +343,19 @@ StartupEvents.registry('item', event => {
                 "minecraft:generic.movement_speed",
                 "factory_movement_speed",
                 -0.2,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.armor",
                 "factory_armor",
                 0.25,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.armor_toughness",
                 "factory_toughness",
                 0.1,
-                "multiply_total"
+                "multiply_base"
             )
         )
         .displayName('§e⌈Compact Pal Factory⌋')
@@ -391,7 +391,7 @@ StartupEvents.registry('item', event => {
                 "minecraft:generic.armor",
                 "kit_armor",
                 -0.5,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "obscure_api:critical_hit",
@@ -469,13 +469,13 @@ StartupEvents.registry('item', event => {
                 "minecraft:generic.max_health",
                 "sages_health",
                 -0.2,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.armor",
                 "sages_armor",
                 -0.96,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "obscure_api:critical_hit",
@@ -609,7 +609,7 @@ StartupEvents.registry('item', event => {
                 "attributeslib:healing_received",
                 "white_mask_healing_power",
                 0.1,
-                "multiply_total"
+                "multiply_base"
             )
         )
         .displayName('§e⌈White Mask⌋')
@@ -645,13 +645,13 @@ StartupEvents.registry('item', event => {
                 "confluence:ranged_damage",
                 "epiphany_pendant_ranged_damage_multiply",
                 0.5,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "confluence:ranged_velocity",
                 "epiphany_pendant_ranged_velocity",
                 0.5,
-                "multiply_total"
+                "multiply_base"
             )
         )
         .displayName('§e⌈Epiphany Pendant⌋')
@@ -693,7 +693,7 @@ StartupEvents.registry('item', event => {
                 "minecraft:generic.luck",
                 "divergence_meter_luck",
                 0.01048596,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.max_health",
@@ -746,16 +746,63 @@ StartupEvents.registry('item', event => {
                 "minecraft:generic.luck",
                 "inspiration_mushroom_luck",
                 2.04,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "attributeslib:crit_damage",
                 "inspiration_mushroom_crit_damage",
-                0.2,
-                "multiply_total"
+                0.4,
+                "multiply_base"
             )
         )
         .displayName('§e⌈Inspiration Mushroom⌋')
+        .unstackable()
+        .fireResistant()
+        .glow(true)
+        .rarity('rare')
+        .tag("curios:otherworld_relics")
+
+    event.create('ancient_proudsoul_tiny')
+        .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
+            .canEquip((item, context) => {
+                return true
+            })
+            .canUnequip((item, context) => {
+                return true
+            })
+            .onEquip((item1, context, item2) => {
+                // context.entity().tell("On Equip")
+            })
+            .onUnequip((item1, context, item2) => {
+
+            })
+            .curioTick((item, context) => {
+                /**
+                 * @type {Internal.ServerPlayer}
+                 */
+                let player = context.entity()
+
+                if (player && !player.level.isClientSide()) {
+                    if (player.age % 2400 == 0) {
+                        player.tell("灵感菇力孤立")
+
+                    }
+                }
+            })
+            .modifyAttribute(
+                "slashblade:slashblade_damage",
+                "ancient_proudsoul_tiny_slashblade_damage",
+                1.0,
+                "multiply_base"
+            )
+            .modifyAttribute(
+                "minecraft:generic.attack_damage",
+                "ancient_proudsoul_tiny_attack_damage",
+                8,
+                "addition"
+            )
+        )
+        .displayName('§e⌈Tiny Ancient Proud Soul⌋')
         .unstackable()
         .fireResistant()
         .glow(true)

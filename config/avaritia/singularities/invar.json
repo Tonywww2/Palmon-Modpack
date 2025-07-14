@@ -1,22 +1,26 @@
 {
-  "name": "singularity.avaritia.invar",
-  "colors": [
-    "bcc5bb",
-    "5d7877"
-  ],
-  "timeRequired": 240,
-  "conditions": [
+    "name": "singularity.avaritia.invar",
+    "colors":
+    [
+        "bcc5bb",
+        "5d7877"
+    ],
+    "timeRequired": 100,
+    "conditions":
+    [
+        {
+            "type": "forge:not",
+            "value":
+            {
+                "tag": "forge:ingots/invar",
+                "type": "forge:tag_empty"
+            }
+        }
+    ],
+    "ingredient":
     {
-      "type": "forge:not",
-      "value": {
-        "tag": "forge:ingots/invar",
-        "type": "forge:tag_empty"
-      }
-    }
-  ],
-  "ingredient": {
-    "tag": "forge:ingots/invar"
-  },
-  "enabled": true,
-  "recipeDisabled": false
+        "tag": "forge:ingots/invar"
+    },
+    "enabled": true,
+    "recipeDisabled": false
 }

@@ -1,22 +1,26 @@
 {
-  "name": "singularity.avaritia.osmium",
-  "colors": [
-    "e6eef7",
-    "c0c4cd"
-  ],
-  "timeRequired": 240,
-  "conditions": [
+    "name": "singularity.avaritia.osmium",
+    "colors":
+    [
+        "e6eef7",
+        "c0c4cd"
+    ],
+    "timeRequired": 100,
+    "conditions":
+    [
+        {
+            "type": "forge:not",
+            "value":
+            {
+                "tag": "forge:ingots/osmium",
+                "type": "forge:tag_empty"
+            }
+        }
+    ],
+    "ingredient":
     {
-      "type": "forge:not",
-      "value": {
-        "tag": "forge:ingots/osmium",
-        "type": "forge:tag_empty"
-      }
-    }
-  ],
-  "ingredient": {
-    "tag": "forge:ingots/osmium"
-  },
-  "enabled": true,
-  "recipeDisabled": false
+        "tag": "forge:ingots/osmium"
+    },
+    "enabled": true,
+    "recipeDisabled": false
 }

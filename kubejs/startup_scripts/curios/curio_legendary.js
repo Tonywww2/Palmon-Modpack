@@ -154,7 +154,7 @@ StartupEvents.registry('item', event => {
                 */
                 let player = context.entity()
 
-                if (player && !player.level.isClientSide()) {
+                if (player.isPlayer() && player && !player.level.isClientSide()) {
                     if (player.age % 10 == 0) {
                         let speed = player.getSpeed()
 
@@ -162,14 +162,14 @@ StartupEvents.registry('item', event => {
                             ttgAttackDamageUUID,
                             ttgAttackDamage,
                             speed * 1.25,
-                            "multiply_total"
+                            "multiply_base"
                         )
 
                         let atkSpeed = new $AttributeModifier(
                             ttgAttackSpeedUUID,
                             ttgAttackSpeed,
                             speed * 1.25,
-                            "multiply_total"
+                            "multiply_base"
                         )
 
                         item.getOrCreateTag().putDouble("player_speed", speed)
@@ -244,7 +244,7 @@ StartupEvents.registry('item', event => {
                 */
                 let player = context.entity()
 
-                if (player && !player.level.isClientSide()) {
+                if (player.isPlayer() && player && !player.level.isClientSide()) {
                     if (player.age % 10 == 0) {
                         let health = player.getMaxHealth()
 
@@ -273,19 +273,19 @@ StartupEvents.registry('item', event => {
                 "minecraft:generic.armor",
                 "puree_armor",
                 -0.3,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.armor_toughness",
                 "puree_armor_toughness",
                 -0.5,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
-                "obscure_api:healing_power",
+                "attributeslib:healing_received",
                 "puree_healing_power",
                 -0.9875,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.max_health",
@@ -297,7 +297,7 @@ StartupEvents.registry('item', event => {
                 "minecraft:generic.max_health",
                 "puree_health_multiply",
                 0.15,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "obscure_api:penetration",
@@ -344,7 +344,7 @@ StartupEvents.registry('item', event => {
                 */
                 let player = context.entity()
 
-                if (player && !player.level.isClientSide()) {
+                if (player.isPlayer() && player && !player.level.isClientSide()) {
                     if (player.age % 10 == 0) {
                         let attackSpeed = player.getAttributeValue("minecraft:generic.attack_speed")
 
@@ -392,7 +392,7 @@ StartupEvents.registry('item', event => {
                 "minecraft:generic.attack_speed",
                 "galaxy_attack_speed_multiply",
                 -0.99,
-                "multiply_total"
+                "multiply_base"
             )
         )
         .displayName('§d⌈Miniature Galaxy⌋')
@@ -421,7 +421,7 @@ StartupEvents.registry('item', event => {
                 */
                 let player = context.entity()
 
-                if (player && !player.level.isClientSide()) {
+                if (player.isPlayer() && player && !player.level.isClientSide()) {
                     if (player.age % 300 == 42) {
                         switch (player.random.nextInt(10)) {
                             case 0:
@@ -471,7 +471,7 @@ StartupEvents.registry('item', event => {
                 "minecraft:generic.attack_damage",
                 "krosa_attack_damage_multiply_total",
                 0.4,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "obscure_api:penetration",
@@ -512,7 +512,7 @@ StartupEvents.registry('item', event => {
                 */
                 let player = context.entity()
 
-                if (player && !player.level.isClientSide()) {
+                if (player.isPlayer() && player && !player.level.isClientSide()) {
                     if (player.age % 200 == 0) {
                         player.potionEffects.add("minecraft:glowing", 200, 9)
                         player.potionEffects.add("minecraft:regeneration", 200, 0)
@@ -590,13 +590,13 @@ StartupEvents.registry('item', event => {
                 "confluence:ranged_damage",
                 "photo_ranged_damage_multiply_total",
                 0.6,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "confluence:ranged_velocity",
                 "photo_ranged_velocity",
                 0.4,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "obscure_api:penetration",
@@ -620,7 +620,7 @@ StartupEvents.registry('item', event => {
                 "minecraft:generic.max_health",
                 "photo_max_health",
                 0.2,
-                "multiply_total"
+                "multiply_base"
             )
         )
         .displayName('§d⌈Photo of Niko⌋')
@@ -649,7 +649,7 @@ StartupEvents.registry('item', event => {
                 */
                 let player = context.entity()
 
-                if (player && !player.level.isClientSide()) {
+                if (player.isPlayer() && player && !player.level.isClientSide()) {
                     if (player.age % 200 == 0) {
                         if (player.getOffHandItem() && player.getOffHandItem() == 'minecraft:gold_nugget') {
                             player.getOffHandItem().shrink(1)
@@ -680,9 +680,9 @@ StartupEvents.registry('item', event => {
             )
             .modifyAttribute(
                 "minecraft:generic.attack_speed",
-                "rune_attack_speed_multiply_total",
+                "rune_attack_speed_multiply_base",
                 0.2,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.max_health",
@@ -692,9 +692,9 @@ StartupEvents.registry('item', event => {
             )
             .modifyAttribute(
                 "minecraft:generic.max_health",
-                "rune_max_health_multiply_total",
+                "rune_max_health_multiply_base",
                 0.3,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.armor",
@@ -704,9 +704,9 @@ StartupEvents.registry('item', event => {
             )
             .modifyAttribute(
                 "minecraft:generic.armor",
-                "rune_armor_multiply_total",
+                "rune_armor_multiply_base",
                 0.3,
-                "multiply_total"
+                "multiply_base"
             )
         )
         .displayName("§d⌈Godrick's Great Rune⌋")
@@ -745,18 +745,86 @@ StartupEvents.registry('item', event => {
             )
             .modifyAttribute(
                 "minecraft:generic.attack_damage",
-                "izanagi_attack_damage_multiply_base",
-                0.1,
-                "multiply_base"
+                "izanagi_attack_damage",
+                16,
+                "addition"
             )
             .modifyAttribute(
                 "obscure_api:critical_hit",
                 "izanagi_critical_hit_addition",
-                0.1,
+                0.15,
                 "addition"
             )
         )
         .displayName("§d⌈Izanagi's burden⌋")
+        .unstackable()
+        .fireResistant()
+        .glow(true)
+        .rarity('epic')
+        .tag("curios:otherworld_relics")
+
+    const apAtkDamage = "ancient_proudsoul_damage"
+    const apAtkDamageHash = new $JavaString(apAtkDamage).hashCode()
+    const apAtkDamageUUID = new $UUID(apAtkDamageHash, apAtkDamageHash)
+    event.create('ancient_proudsoul')
+        .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
+            .canEquip((item, context) => {
+                return true
+            })
+            .canUnequip((item, context) => {
+                return true
+            })
+            .onEquip((item1, context, item2) => {
+                // context.entity().tell("On Equip")
+            })
+            .onUnequip((item1, context, item2) => {
+            })
+            .curioTick((item, context) => {
+                /**
+                 * @type {Internal.ServerPlayer}
+                */
+                let player = context.entity()
+
+                if (player.isPlayer() && player && !player.level.isClientSide()) {
+                    if (player.age % 10 == 0) {
+                        let foodCount = $SOLCarrotAPI.getFoodCapability(player).getEatenFoodCount()
+
+                        let modifer = new $AttributeModifier(
+                            apAtkDamageUUID,
+                            apAtkDamage,
+                            foodCount * 0.5,
+                            "addition"
+                        )
+
+                        item.getOrCreateTag().putDouble("player_food_count", foodCount)
+
+                        try {
+                            player.getAttribute("minecraft:generic.attack_damage").removeModifier(apAtkDamageUUID)
+
+                        }
+                        finally {
+                            player.getAttribute("minecraft:generic.attack_damage").addTransientModifier(modifer)
+
+                        }
+
+                    }
+                }
+
+            })
+            .modifyAttribute(
+                "slashblade:slashblade_damage",
+                "ancient_proudsoul_slashblade_damage",
+                1.75,
+                "multiply_base"
+            )
+            .modifyAttribute(
+                "confluence:magic_damage",
+                "ancient_proudsoul_magic_damage",
+                0.25,
+                "multiply_total"
+            )
+        )
+        .displayName("⌈Ancient Proud Soul⌋")
         .unstackable()
         .fireResistant()
         .glow(true)

@@ -239,7 +239,12 @@ global.idsToRemove = new Set([
     'mekanism_extras:naquadah_reactor/controller',
     'nuclearcraft:chamber_terminal',
     'mekanismgenerators:reactor/controller',
-    'mekanismgenerators:reactor/frame'
+    'mekanismgenerators:reactor/frame',
+    'avaritia:ultimate_stew',
+    'avaritia:cosmic_meatballs',
+    'avaritia:infinity_catalyst',
+    'avaritia:infinity_catalyst_eternal',
+    'avaritia:mek_creative_bin'
 ])
 
 ServerEvents.recipes(event => {

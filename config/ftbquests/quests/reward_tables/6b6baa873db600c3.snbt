@@ -412,6 +412,7 @@
 				}
 			}
 		}
+		{ item: "thermal:lumium_coin" }
 	]
 	title: "通用奖励 | General Rewards"
 }

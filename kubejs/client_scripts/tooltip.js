@@ -15,6 +15,7 @@ let curiosList = [
     'kubejs:epiphany_pendant',
     'kubejs:divergence_meter',
     'kubejs:inspiration_mushroom',
+    'kubejs:ancient_proudsoul_tiny',
 
     'kubejs:scranton_reality_anchor',
     'kubejs:deity_from_the_outside',
@@ -26,6 +27,7 @@ let curiosList = [
     'kubejs:photo_of_niko',
     'kubejs:godricks_great_rune',
     'kubejs:izanagis_burden',
+    'kubejs:ancient_proudsoul',
 ]
 let itemList = [
     'kubejs:helium_3_crystal_infinity',
@@ -159,6 +161,21 @@ ItemEvents.tooltip(event => {
         text.add(4, Text.translate("ui.kubejs.godricks_great_rune_2").gold())
 
     })
+
+    event.addAdvanced('kubejs:ancient_proudsoul', (item, advanced, text) => {
+        text.add(4, Text.translate("ui.kubejs.ancient_proudsoul_2").gold())
+        text.add(5, Text.translate("ui.kubejs.wear_to_update").gold())
+
+        if (item.nbt && item.nbt.contains("player_food_count")) {
+            let foodCount = item.nbt.getDouble("player_food_count")
+
+            text.add(6, Text.translate('curios.modifiers.otherworld_relics').gold())
+            text.add(7, Text.literal(formatAddition(foodCount * 0.5)).append(' ').append(Text.translatable('attribute.name.generic.attack_damage')).blue())
+
+        }
+
+    })
+
 
     event.add('thermal:lumium_coin', Text.translatable('ui.kubejs.lumium_coin').gold())
     event.add("embers:alchemy_pedestal", Text.translatable('ui.kubejs.pedestal').gold())

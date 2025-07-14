@@ -1,22 +1,26 @@
 {
-  "name": "singularity.avaritia.nickel",
-  "colors": [
-    "e1d798",
-    "b1976c"
-  ],
-  "timeRequired": 240,
-  "conditions": [
+    "name": "singularity.avaritia.nickel",
+    "colors":
+    [
+        "e1d798",
+        "b1976c"
+    ],
+    "timeRequired": 100,
+    "conditions":
+    [
+        {
+            "type": "forge:not",
+            "value":
+            {
+                "tag": "forge:ingots/nickel",
+                "type": "forge:tag_empty"
+            }
+        }
+    ],
+    "ingredient":
     {
-      "type": "forge:not",
-      "value": {
-        "tag": "forge:ingots/nickel",
-        "type": "forge:tag_empty"
-      }
-    }
-  ],
-  "ingredient": {
-    "tag": "forge:ingots/nickel"
-  },
-  "enabled": true,
-  "recipeDisabled": false
+        "tag": "forge:ingots/nickel"
+    },
+    "enabled": true,
+    "recipeDisabled": false
 }

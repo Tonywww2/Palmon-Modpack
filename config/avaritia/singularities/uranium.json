@@ -4,7 +4,7 @@
     "d2f9d1",
     "a6c5a4"
   ],
-  "timeRequired": 240,
+  "timeRequired": 100,
   "conditions": [
     {
       "type": "forge:not",

@@ -1752,10 +1752,13 @@
 				"如果你拥有进入真正结局的资格，投入思维之后，你将可以完成这个任务。"
 				""
 				"否则，这就是终点了。"
+				""
+				"&c注意：进入宝宝模式后该任务自动锁定"
 			]
 			hide_until_deps_complete: true
 			icon: "kubejs:deity_from_the_outside"
 			id: "3976DA1D6D6D3A45"
+			incompatible: ["2780AC4F85B227BF"]
 			optional: true
 			rewards: [
 				{
@@ -1987,6 +1990,12 @@
 			id: "5266C8EFE39F85D9"
 			invisible: true
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "086BAC0D78AD1490"
+				table_id: 7740467882398974147L
+				type: "choice"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "6E66308803038429"

@@ -5,7 +5,7 @@
         "eefdff",
         "000000"
     ],
-    "timeRequired": 240,
+    "timeRequired": 100,
     "ingredient":
     {
         "item": "kubejs:ultimate_berry"

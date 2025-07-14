@@ -1,22 +1,26 @@
 {
-  "name": "singularity.avaritia.bronze",
-  "colors": [
-    "d99f43",
-    "bb6b3b"
-  ],
-  "timeRequired": 240,
-  "conditions": [
+    "name": "singularity.avaritia.bronze",
+    "colors":
+    [
+        "d99f43",
+        "bb6b3b"
+    ],
+    "timeRequired": 100,
+    "conditions":
+    [
+        {
+            "type": "forge:not",
+            "value":
+            {
+                "tag": "forge:ingots/bronze",
+                "type": "forge:tag_empty"
+            }
+        }
+    ],
+    "ingredient":
     {
-      "type": "forge:not",
-      "value": {
-        "tag": "forge:ingots/bronze",
-        "type": "forge:tag_empty"
-      }
-    }
-  ],
-  "ingredient": {
-    "tag": "forge:ingots/bronze"
-  },
-  "enabled": true,
-  "recipeDisabled": false
+        "tag": "forge:ingots/bronze"
+    },
+    "enabled": true,
+    "recipeDisabled": false
 }

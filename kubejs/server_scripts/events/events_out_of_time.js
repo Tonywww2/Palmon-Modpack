@@ -12,6 +12,8 @@ global.tcRandomFix = 0.0
 
 global.frameworkAddition = 0
 
+global.maxOtherworldRelics = 2
+
 
 /**
  * 注册一个EOT 
@@ -597,7 +599,7 @@ registerBuff("mek_1", 3, ["true_ending"], false,
     empty,
     empty)
 
-registerBuff("framework_architect_1", 3, ["true_ending"], false,
+registerBuff("framework_architect_1", 4, ["true_ending"], false,
     empty,
     empty,
     (event) => {
@@ -625,7 +627,7 @@ registerBuff("fuel_1", 1, ["init"], false,
     },
     empty)
 
-registerBuff("fuel_2", 1, ["true_ending", "fuel_1"], true,
+registerBuff("fuel_2", 2, ["true_ending", "fuel_1"], true,
     (event) => {
         event.player.give(Item.of('tfc:metal/axe/red_steel', "{Unbreakable:1b,display:{Name:'{\"text\":\"Jonny?\"}'}}").enchant('minecraft:efficiency', 5))
     },
@@ -711,12 +713,19 @@ registerBuff("relics_3", 5, ["master_ending"], false,
     empty,
     empty)
 
-registerBuff("relics_4", 5, ["master_ending", "relics_3"], true,
+registerBuff("relics_4", 5, ["master_ending", "relics_3"], false,
     (event) => {
         event.player.give(Item.of('ftbquests:lootcrate', '{type:"limit"}'))
     },
     empty,
     empty)
+
+registerBuff("relics_5", 4, ["true_ending"], true,
+    empty,
+    empty,
+    (event) => {
+        global.maxOtherworldRelics = 3
+    })
 
 
 registerBuff("survive_1", 2, ["init"], false,

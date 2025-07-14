@@ -1,13 +1,15 @@
 {
-  "name": "singularity.avaritia.diamond",
-  "colors": [
-    "a6fce9",
-    "1aaca8"
-  ],
-  "timeRequired": 240,
-  "ingredient": {
-    "item": "minecraft:diamond"
-  },
-  "enabled": true,
-  "recipeDisabled": false
+    "name": "singularity.avaritia.diamond",
+    "colors":
+    [
+        "a6fce9",
+        "1aaca8"
+    ],
+    "timeRequired": 100,
+    "ingredient":
+    {
+        "item": "minecraft:diamond"
+    },
+    "enabled": true,
+    "recipeDisabled": false
 }

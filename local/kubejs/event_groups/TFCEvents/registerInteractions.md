@@ -23,21 +23,31 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
+| blockItemPlacement | Item, Block |  | void | ✘ |
 | registerCustomPlacements |  |  | void | ✔ |
+| addBlockItemPlacement | Supplier<Item>, Supplier<Block> |  | void | ✔ |
 | interaction | Ingredient, OnItemUseAction |  | void | ✘ |
 | interaction | Ingredient, boolean, OnItemUseAction |  | void | ✘ |
 | interaction | Ingredient, boolean, boolean, OnItemUseAction |  | void | ✘ |
-| addBlockItemPlacement | Supplier<Item>, Supplier<Block> |  | void | ✔ |
-| blockItemPlacement | Item, Block |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| success |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
+| success |  |  | Object | ✘ |
 
 
 ### Documented members:
+
+- `void blockItemPlacement(Item item, Block block)`
+
+  Parameters:
+  - item: Item- The item
+  - block: Block- The block to be placed
+
+```
+Registers a default block placement interaction
+```
 
 - `void interaction(Ingredient ingredient, OnItemUseAction action)`
 
@@ -70,16 +80,6 @@ Registers an interaction, targeting blocks by default
 
 ```
 Registers an interaction
-```
-
-- `void blockItemPlacement(Item item, Block block)`
-
-  Parameters:
-  - item: Item- The item
-  - block: Block- The block to be placed
-
-```
-Registers a default block placement interaction
 ```
 
 - `Object exit(Object var0)`
@@ -118,13 +118,6 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
 - `Object success(Object var0)`
 
   Parameters:
@@ -132,6 +125,13 @@ Stops the event with default exit value. Execution will be stopped **immediately
 
 ```
 Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `success` denotes a `true` outcome.
 ```

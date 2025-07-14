@@ -113,6 +113,7 @@
     "item.kubejs.epiphany_pendant": "§e⌈显圣吊坠⌋",
     "item.kubejs.divergence_meter": "§e⌈世界线变动率探测仪⌋",
     "item.kubejs.inspiration_mushroom": "§e⌈灵感菇⌋",
+    "item.kubejs.ancient_proudsoul_tiny": "§e⌈古刀之耀魂碎片⌋",
 
     "item.kubejs.deity_from_the_outside": "§d⌈来自园外的神明⌋",
     "item.kubejs.true_three_goddess": "§d⌈三女神像⌋",
@@ -123,6 +124,7 @@
     "item.kubejs.photo_of_niko": "§d⌈Niko的照片⌋",
     "item.kubejs.godricks_great_rune": "§d⌈葛瑞克的大卢恩⌋",
     "item.kubejs.izanagis_burden": "§d⌈伊邪那岐的重担⌋",
+    "item.kubejs.ancient_proudsoul": "§d⌈古刀之耀魂⌋",
 
     "item.jaopca.dusts.ostrum": "紫金粉",
     "item.jaopca.dusts.desh": "戴斯粉",
@@ -173,7 +175,7 @@
 
     "ui.kubejs.overowrld_item": "因为你失去了现世祝福，该物品将无法被捡起",
     
-    "ui.kubejs.lumium_coin": "使用该物品，可以将你的异界遗物栏位数量设置为2",
+    "ui.kubejs.lumium_coin": "使用该物品，可以将你的异界遗物栏位数量设置为[2?]",
 
     "ui.kubejs.heart_of_the_deep": "与强化回响碎片/Epsilon 框架结合使用...",
     "ui.kubejs.reinforced_echo_shard": "若你与该物品有缘：主手持深渊之心，副手持该物品，潜行时使用后，将会在时空中撕开一道裂缝......",
@@ -196,6 +198,7 @@
     "ui.kubejs.epiphany_pendant": "⌈Arknights⌋ 这就是我的信仰",
     "ui.kubejs.divergence_meter": "⌈Steins;Gate⌋ El Psy Kongroo",
     "ui.kubejs.inspiration_mushroom": "灵感菇力菇力菇力菇力菇力",
+    "ui.kubejs.ancient_proudsoul_tiny": "A-A-A-A-A",
 
     "ui.kubejs.deity_from_the_outside": "⌈Noctuary⌋ 光使，岁月，生活",
     "ui.kubejs.true_three_goddess": "⌈Umamusume⌋ 向着永久延续的荣光",
@@ -206,6 +209,7 @@
     "ui.kubejs.photo_of_niko": "⌈One Shot⌋ \nNot a cat!\nA backup!\n3rd time's the charm?\nThis is kind of fun.\nLookin' Good.\nNiko blinked in this one. \nNice.\nVery photogenic.\nCan't have too much of a good thing!\nThe ultimate photo.",
     "ui.kubejs.godricks_great_rune": "⌈Elden Ring⌋ “艾尔登之王”葛孚雷与其后代子孙—— \n黄金一族是最先出现的半神",
     "ui.kubejs.izanagis_burden": "⌈Destiny⌋ 耻辱、存罪、恐惧。\n我们都在承受。将悔恨收集，尽可能清除它们吧。\n让敌人感受到你身上重担的重量吧。",
+    "ui.kubejs.ancient_proudsoul": "A-A-A-A-A-A-A",
  
     "ui.kubejs.compact_pal_factory_2": "经过极限压缩后，能完全自给自足的帕鲁工厂",
     "ui.kubejs.compact_pal_factory_3": "每隔一段时间，在背包内生成一个随机的精灵球",
@@ -220,6 +224,7 @@
     "ui.kubejs.miniature_galaxy_2": "将你的攻速转化为暴击伤害",
     "ui.kubejs.the_necklace_of_krosa_2": "每隔一段时间，给你提供一个随机的增益",
     "ui.kubejs.godricks_great_rune_2": "每隔一段时间，消耗你副手的金粒，一段时间内使你受到的伤害大幅降低",
+    "ui.kubejs.ancient_proudsoul_2": "根据你食用过的食物数量提升属性",
 
     "ui.kubejs.helium_3_crystal_infinity": "反应速度缓慢，并拥有极长反应时间的核燃料",
     "ui.kubejs.meat_feeder": "该物品不会生效",
@@ -410,6 +415,9 @@
     
     "kubejs.eot.relics_4_name": "[上位异界同调]",
     "kubejs.eot.relics_4_desc": "·初始携带 随机的上级异界遗物",
+    
+    "kubejs.eot.relics_5_name": "[指环王]",
+    "kubejs.eot.relics_5_desc": "·流明币调整的异界遗物栏位数量由2变为3",
 
     
     "kubejs.eot.survive_1_name": "[生存者]",

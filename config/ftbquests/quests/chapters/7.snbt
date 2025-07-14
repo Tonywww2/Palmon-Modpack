@@ -410,8 +410,13 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["422B60FF4E7A7656"]
+			dependencies: [
+				"422B60FF4E7A7656"
+				"3BFE3DFD5BC2EF64"
+				"7E213F963885859F"
+			]
 			id: "7527ECEF0B46D240"
+			size: 1.5d
 			tasks: [{
 				id: "10303954FAC83AB1"
 				item: "avaritia:infinity_catalyst"
@@ -419,6 +424,66 @@
 			}]
 			x: -2.0d
 			y: 16.0d
+		}
+		{
+			dependencies: [
+				"4BE9AD9B18D942E2"
+				"675C3BF94A1A5596"
+			]
+			hide_dependency_lines: true
+			id: "3BFE3DFD5BC2EF64"
+			tasks: [{
+				id: "45566A0C2F8D4D87"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:food": {
+							creationDate: -2L
+							traits: [ ]
+						}
+					}
+					id: "avaritia:ultimate_stew"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"4BE9AD9B18D942E2"
+				"675C3BF94A1A5596"
+			]
+			hide_dependency_lines: true
+			id: "7E213F963885859F"
+			tasks: [{
+				id: "74EEBB6468BFF503"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"tfc:food": {
+							creationDate: -1L
+							traits: [ ]
+						}
+					}
+					id: "avaritia:cosmic_meatballs"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7527ECEF0B46D240"]
+			id: "5A046BB315A65D82"
+			size: 1.5d
+			tasks: [{
+				id: "414C2794FB29423E"
+				item: "avaritia:infinity_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 20.0d
 		}
 	]
 	title: "7. 句点 | Full Stop"
