@@ -5,12 +5,10 @@
       "recipe": "avaritia:infinity_axe"
     },
     {
-      "stack": "item:avaritia:infinity_helmet",
-      "recipe": "avaritia:infinity_helmet"
+      "stack": "item:avaritia:infinity_helmet"
     },
     {
-      "stack": "item:mekanism:creative_fluid_tank",
-      "recipe": "avaritia:mek_creative_fluid_tank"
+      "stack": "item:mekanism:creative_fluid_tank"
     },
     {
       "stack": "item:avaritia:infinity_crossbow",
@@ -21,44 +19,36 @@
       "recipe": "avaritia:extreme_smithing_table"
     },
     {
-      "stack": "item:mekanism:creative_energy_cube{mekData:{EnergyContainers:[{Container:0b,stored:\"18446744073709551615.9999\"}]}}",
-      "recipe": "avaritia:mek_creative_energy_cube"
+      "stack": "item:mekanism:creative_energy_cube{mekData:{EnergyContainers:[{Container:0b,stored:\"18446744073709551615.9999\"}]}}"
     },
     {
-      "stack": "item:mekanism:creative_bin",
-      "recipe": "avaritia:mek_creative_bin"
+      "stack": "item:mekanism:creative_bin"
     },
     {
-      "stack": "item:tconstruct:creative_slot{slot:\"defense\"}",
-      "recipe": "avaritia:tc3_creative_slot_defense"
+      "stack": "item:tconstruct:creative_slot{slot:\"defense\"}"
     },
     {
-      "stack": "item:tconstruct:creative_slot{slot:\"upgrades\"}",
-      "recipe": "avaritia:tc3_creative_slot_upgrades"
+      "stack": "item:tconstruct:creative_slot{slot:\"upgrades\"}"
     },
     {
-      "stack": "item:avaritia:infinity_pants",
-      "recipe": "avaritia:infinity_pants"
+      "stack": "item:avaritia:infinity_pants"
     },
     {
-      "stack": "item:botania:mana_tablet{creative:1b,mana:500000}",
-      "recipe": "avaritia:botania_mana_tablet"
+      "stack": "item:botania:mana_tablet{creative:1b,mana:500000}"
     },
     {
       "stack": "item:avaritia:infinity_pickaxe",
       "recipe": "avaritia:infinity_pickaxe"
     },
     {
-      "stack": "item:draconicevolution:creative_op_capacitor",
-      "recipe": "avaritia:de_creative_op_capacitor"
+      "stack": "item:draconicevolution:creative_op_capacitor"
     },
     {
       "stack": "item:avaritia:infinity_bow",
       "recipe": "avaritia:infinity_bow"
     },
     {
-      "stack": "item:tconstruct:creative_slot{slot:\"souls\"}",
-      "recipe": "avaritia:tc3_creative_slot_souls"
+      "stack": "item:tconstruct:creative_slot{slot:\"souls\"}"
     },
     {
       "stack": "item:avaritia:infinity_shovel",
@@ -69,24 +59,20 @@
       "recipe": "avaritia:ae2_creative_energy_cell"
     },
     {
-      "stack": "item:avaritia:infinity_boots",
-      "recipe": "avaritia:infinity_boots"
+      "stack": "item:avaritia:infinity_boots"
     },
     {
       "stack": "item:avaritia:infinity_sword",
       "recipe": "avaritia:infinity_sword"
     },
     {
-      "stack": "item:avaritia:infinity_chestplate",
-      "recipe": "avaritia:infinity_chestplate"
+      "stack": "item:avaritia:infinity_chestplate"
     },
     {
-      "stack": "item:draconicevolution:creative_capacitor",
-      "recipe": "avaritia:de_creative_capacitor"
+      "stack": "item:draconicevolution:creative_capacitor"
     },
     {
-      "stack": "item:tconstruct:creative_slot{slot:\"abilities\"}",
-      "recipe": "avaritia:tc3_creative_slot_ability"
+      "stack": "item:tconstruct:creative_slot{slot:\"abilities\"}"
     },
     {
       "stack": "item:avaritia:upgrade_smithing_template",
@@ -101,12 +87,10 @@
       "recipe": "avaritia:enhancement_core"
     },
     {
-      "stack": "item:mekanism:creative_chemical_tank",
-      "recipe": "avaritia:mek_creative_chemical_tank"
+      "stack": "item:mekanism:creative_chemical_tank"
     },
     {
-      "stack": "item:botania:creative_pool",
-      "recipe": "avaritia:botania_creative_pool"
+      "stack": "item:botania:creative_pool"
     },
     {
       "stack": "item:avaritia:infinity_chest",
@@ -135,9 +119,221 @@
     {
       "stack": "item:avaritia:neutron_horse_armor",
       "recipe": "avaritia:neutron_horse_armor"
+    },
+    {
+      "stack": "item:appbot:portable_mana_storage_cell_256k{}",
+      "recipe": "appbot:portable_mana_storage_cell_256k"
+    },
+    {
+      "stack": "item:avaritia:neutron"
+    },
+    {
+      "stack": "item:mekanism_extras:infinite_fluid_tank"
+    },
+    {
+      "stack": "item:avaritia:singularity{Id:\"avaritia:dawnstone\"}"
+    },
+    {
+      "stack": "item:tconstruct:large_plate{Material:\"tconstruct:unify_essence\"}",
+      "recipe": "jei:/tconstruct/tools/parts/builder/large_plate"
+    },
+    {
+      "stack": "item:mekanism_extras:infinite_control_circuit",
+      "recipe": "mekanism_extras:control_circuit/infinite"
     }
   ],
   "lookup_history": [
+    "item:mekanism_extras:upgrade_creative",
+    "item:thermal:machine_efficiency_creative_augment",
+    {
+      "type": "item",
+      "id": "mekanism_extras:infinite_tier_installer",
+      "amount": 64
+    },
+    "item:mekanism_extras:infinite_control_circuit",
+    "item:create:creative_motor",
+    "item:avaritia:infinity_catalyst",
+    "item:tconstruct:large_plate{Material:\"tconstruct:unify_essence\"}",
+    "item:avaritia:singularity",
+    "item:kubejs:unify_essence",
+    "item:aetherworks:aether_prism_controller_matrix",
+    "item:avaritia:singularity{Id:\"avaritia:dawnstone\"}",
+    "item:create:chain_conveyor",
+    "item:create:andesite_alloy_block",
+    "item:legendary_monsters:warped_mushroom_cap_part",
+    "item:legendary_monsters:entity_warper",
+    "item:minecraft:end_portal_frame",
+    "item:draconicevolution:dislocation_inhibitor",
+    {
+      "type": "item",
+      "id": "create:mechanical_pump",
+      "amount": 24
+    },
+    "item:botania:creative_pool",
+    "item:embers:creative_ember_source",
+    "item:mekanism:creative_fluid_tank",
+    "item:aetherworks:aether_amalgam",
+    "item:aetherworks:moonlight_amplifier",
+    "item:draconicevolution:chaotic_core",
+    "item:slashblade:slashblade{bladeState:{AttackAmplifier:0.0f,ComboRoot:\"slashblade:standby\",Damage:0,RepairCounter:0,SpecialAttackType:\"slashblade:judgement_cut\",StandbyRenderType:0b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:0,_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:4.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:0b,isSealed:0b,killCount:0,lastActionTime:0L,maxDamage:40,proudSoul:0,translationKey:\"item.slashblade_addon.wanderer\"}}",
+    "item:energyblade:forge_energy_blade{bladeState:{AttackAmplifier:0.0f,ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"slashblade_addon:model/wanderer/wanderer.obj\",RepairCounter:0,SpecialAttackType:\"slashblade_addon:rapid_blistering_swords\",StandbyRenderType:3b,SummonedSwordColor:-13421569,SummonedSwordColorInverse:0b,TargetEntity:0,TextureName:\"slashblade_addon:model/wanderer/wanderer.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:7.0f,currentCombo:\"slashblade:none\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:1b,isSealed:0b,killCount:0,lastActionTime:0L,maxDamage:70,proudSoul:0,translationKey:\"item.slashblade_addon.wanderer_hf\"}}",
+    "item:slashblade:slashblade{Enchantments:[{id:\"minecraft:power\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:3s}],bladeState:{AttackAmplifier:0.0f,ComboRoot:\"slashblade:standby\",Damage:0,ModelName:\"cialloblade:model/ciallo/blademaster.obj\",RepairCounter:0,SpecialAttackType:\"slashblade:wave_edge\",SpecialEffects:[\"cialloblade:ciallo\"],StandbyRenderType:1b,SummonedSwordColor:-11796736,SummonedSwordColorInverse:0b,TargetEntity:-1,TextureName:\"cialloblade:model/ciallo/ciallo.png\",_onClick:0b,adjustXYZ:[0.0d,0.0d,0.0d],baseAttackModifier:20.0f,currentCombo:\"slashblade:rapid_slash_end\",fallDecreaseRate:0.0f,isBroken:0b,isDefaultBewitched:1b,isSealed:0b,killCount:0,lastActionTime:898331L,maxDamage:180,proudSoul:1000,translationKey:\"item.cialloblade.ciallo\"}}",
+    "item:embers:dawnstone_ingot",
+    "item:embers:dawnstone_block",
+    {
+      "type": "item",
+      "id": "embers:ember_crystal_cluster",
+      "amount": 64
+    },
+    "item:avaritia:refined_coal_block",
+    "item:avaritia:refined_coal",
+    "item:draconicevolution:creative_op_capacitor",
+    "item:draconicevolution:creative_capacitor",
+    "item:ae2:creative_energy_cell",
+    "item:avaritia:infinity_ingot",
+    "item:avaritia:infinity_sword",
+    "item:avaritia:infinity_elytra",
+    "item:avaritia:infinity_helmet",
+    "item:avaritia:infinity_boots",
+    "item:avaritia:infinity_pants",
+    "item:avaritia:infinity_chestplate",
+    "item:avaritia:cosmic_meatballs",
+    "item:avaritia:infinity_clock",
+    "item:avaritia:infinity_totem{Damage:0}",
+    "item:packagedavaritia:end_crafter",
+    "item:minecraft:stone",
+    "item:avaritia:matter_cluster{items:[{Count:32b,id:\"minecraft:cobblestone\"},{Count:16b,id:\"minecraft:pointed_dripstone\"},{Count:32b,id:\"minecraft:dripstone_block\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:dripstone_block\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:dripstone_block\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:dripstone_block\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:dripstone_block\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:dripstone_block\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:24b,id:\"minecraft:dripstone_block\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:25b,id:\"minecraft:cobblestone\"}]}",
+    "item:avaritia:enhancement_core",
+    "item:avaritia:neutron",
+    {
+      "type": "item",
+      "id": "avaritia:neutron_ingot",
+      "amount": 40
+    },
+    "item:tinkers_advanced:neutronite_ingot",
+    {
+      "type": "fluid",
+      "id": "tinkers_advanced:molten_neutronite",
+      "amount": 1000
+    },
+    "item:tinkers_advanced:molten_neutronite_bucket",
+    "item:nuclearcraft:melter",
+    "item:forestry:ambrosia",
+    "item:mekanism_extras:infinite_fluid_tank",
+    "item:mekanism_extras:cosmic_fluid_tank",
+    "item:mekanism_extras:supreme_fluid_tank",
+    "item:mekanism_extras:absolute_fluid_tank",
+    "item:mekanism:ultimate_fluid_tank",
+    "item:avaritia:endless_cake",
+    "item:appbot:fluix_mana_pool",
+    "item:botania:daybloom_motif",
+    "item:botania:nightshade_motif",
+    "item:mythicbotany:raindeletia",
+    "item:mythicbotany:feysythia",
+    "item:mythicbotany:petrunia",
+    "item:mythicbotany:hellebore",
+    "item:mythicbotany:kvasir_mead",
+    "item:mythicbotany:andwari_ring{Damage:0}",
+    "item:appbot:mana_cell_housing",
+    "item:mekanism:creative_chemical_tank",
+    "item:mekanism_extras:enriched_spectrum",
+    [
+      "item:mekanism:basic_chemical_tank{mekData:{InfusionTanks:[{Tank:0b,stored:{amount:64000L,infuseTypeName:\"mekanism_extras:spectrum\"}}]}}",
+      "item:mekanism_extras:enriched_spectrum"
+    ],
+    "item:mekanism_extras:alloy_shining",
+    "item:mekanism_extras:alloy_thermonuclear",
+    "item:mekanism_extras:enriched_thermonuclear",
+    "item:mekanism_extras:enriched_radiance",
+    "item:avaritia:infinity_chest",
+    "item:avaritia:infinity_upgrade{Damage:0}",
+    "item:tconstruct:creative_slot{slot:\"defense\",tic_persistent:{}}",
+    "item:tconstruct:creative_slot{slot:\"abilities\"}",
+    "item:tconstruct:creative_slot{slot:\"souls\"}",
+    "item:tconstruct:creative_slot{slot:\"upgrades\"}",
+    "item:mekanism_extras:expand_radioactive_waste_barrel",
+    "item:nuclearcraft:decay_hastener",
+    "item:mekanism:radioactive_waste_barrel",
+    "item:mekanism_extras:naquadah_reactor_casing",
+    "item:mekanism_extras:naquadah_reactor_controller",
+    {
+      "type": "item",
+      "id": "mekanism_extras:absolute_induction_provider",
+      "amount": 32
+    },
+    "item:nuclearcraft:pyrolitic_carbon_ingot",
+    "item:jaopca:storage_blocks.pyrolitic_carbon",
+    [
+      "item:mekanism:basic_chemical_tank{mekData:{InfusionTanks:[{Tank:0b,stored:{amount:64000L,infuseTypeName:\"mekanism_extras:radiance\"}}]}}",
+      "item:mekanism_extras:enriched_radiance"
+    ],
+    "item:mekanism_extras:alloy_radiance",
+    "item:mekanism_extras:alloy_spectrum",
+    "item:mekanism_extras:infinite_induction_provider",
+    "item:mekanism_extras:enriched_shining",
+    [
+      "item:mekanism:basic_chemical_tank{mekData:{InfusionTanks:[{Tank:0b,stored:{amount:64000L,infuseTypeName:\"mekanism_extras:shining\"}}]}}",
+      "item:mekanism_extras:enriched_shining"
+    ],
+    "item:mekanism_extras:cosmic_energy_cube",
+    "item:mekanism_extras:cosmic_induction_cell",
+    "item:mekanism_extras:infinite_induction_cell",
+    {
+      "type": "jemi",
+      "uid": "infuse type:mekanism_extras:radiance",
+      "amount": 40
+    },
+    "item:mekanism_extras:supreme_induction_cell",
+    "item:mekanism:creative_energy_cube{mekData:{EnergyContainers:[{Container:0b,stored:\"18446744073709551615.9999\"}]},tic_persistent:{}}",
+    "item:mekanism_extras:cosmic_induction_provider",
+    {
+      "type": "item",
+      "id": "mekanism_extras:reinforced_induction_port",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "mekanism_extras:reinforced_induction_casing",
+      "amount": 5
+    },
+    "item:mekanism:induction_casing",
+    {
+      "type": "item",
+      "id": "mekanism_extras:supreme_induction_provider",
+      "amount": 32
+    },
+    "item:jaopca:storage_blocks.neutronium",
+    "item:nuclearcraft:neutronium_ingot",
+    "#item:forge:ingots/neutronium",
+    "item:thermal_extra:dragonsteel_block",
+    "item:kubejs:basepoint_alloy",
+    "item:mekanism_extras:upgrade_ionic_membrane",
+    "item:kubejs:beryllium_bronze_alloy",
+    "item:kubejs:scranton_reality_anchor",
+    "item:thermal_extra:dragonsteel_rf_coil_xfer_augment",
+    "item:mekanism_extras:absolute_energy_cube",
+    "item:mekanism_extras:infinite_energy_cube",
+    "item:avaritia:upgrade_smithing_template",
+    "item:minecraft:eye_armor_trim_smithing_template",
+    "item:minecraft:wild_armor_trim_smithing_template",
+    "item:minecraft:tide_armor_trim_smithing_template",
+    "item:minecraft:shaper_armor_trim_smithing_template",
+    "item:minecraft:wayfinder_armor_trim_smithing_template",
+    "item:minecraft:spire_armor_trim_smithing_template",
+    "item:minecraft:vex_armor_trim_smithing_template",
+    "item:minecraft:coast_armor_trim_smithing_template",
+    "item:techreborn:template_template",
+    "item:minecraft:dune_armor_trim_smithing_template",
+    "item:minecraft:sentry_armor_trim_smithing_template",
+    "item:avaritia:extreme_smithing_table",
+    "item:minecraft:raiser_armor_trim_smithing_template",
+    "item:draconicevolution:reactor_stabilizer",
+    "item:draconicevolution:large_chaos_frag",
+    "item:minecraft:obsidian",
+    "item:draconicevolution:medium_chaos_frag",
+    "item:megamons:cut_banettite",
+    "item:draconicevolution:chaos_shard",
+    "item:botania:mana_tablet{creative:1b,mana:500000}",
     "item:techreborn:ruby_chestplate{Damage:0}",
     "item:ae2:cell_component_256k",
     "item:appflux:redstone_crystal",
@@ -149,40 +345,21 @@
     "item:quark:ancient_door",
     "item:mekanism:creative_bin",
     "item:quark:stripped_ancient_post",
-    "item:avaritia:extreme_smithing_table",
-    {
-      "type": "item",
-      "id": "avaritia:enhancement_core",
-      "amount": 64
-    },
-    {
-      "type": "item",
-      "id": "avaritia:upgrade_smithing_template",
-      "amount": 32
-    },
-    "item:avaritia:infinity_ingot",
     "item:avaritia:star_fuel",
     "item:avaritia:star_fuel_block",
     "item:aeinfinitybooster:dimension_card",
     "item:ae2:wireless_booster",
     "item:avaritia:eternal_singularity",
-    "item:avaritia:infinity_catalyst",
     "item:avaritia:infinity_nugget",
     "item:avaritia:singularity{Id:\"avaritia:osmium\"}",
     "item:avaritia:singularity{Id:\"avaritia:uranium\"}",
     "item:avaritia:singularity{Id:\"avaritia:netherite\"}",
     "item:kubejs:cognitio",
-    "item:kubejs:beryllium_bronze_alloy",
     "item:kubejs:epsilon_framework",
     "item:kubejs:beta_framework",
     "item:kubejs:gamma_framework",
     "item:kubejs:delta_framework",
     "item:kubejs:alpha_framework",
-    {
-      "type": "item",
-      "id": "avaritia:cosmic_meatballs",
-      "amount": 64
-    },
     {
       "type": "item",
       "id": "tfc:food/protein_soup",
@@ -344,7 +521,6 @@
       "id": "c:zinc_plates",
       "amount": 2
     },
-    "item:create:andesite_alloy_block",
     "item:avaritia:endest_pearl",
     "item:avaritia:record_fragment",
     {
@@ -363,11 +539,6 @@
     "item:nuclearcraft:quantum_transformer",
     "item:nuclearcraft:quantum_flux_regulator",
     "item:forestry:bee_princess_ge{ForgeCaps:{Parent:{analyzed:0b,genome:{\"forestry:activity\":{active:\"forestry:activity_diurnal\",inactive:\"forestry:activity_diurnal\"},\"forestry:bee_effect\":{active:\"forestry:bee_effect_none\",inactive:\"forestry:bee_effect_none\"},\"forestry:bee_species\":{active:\"mobees:bee_pilgrim\",inactive:\"mobees:bee_pilgrim\"},\"forestry:cave_dwelling\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"},\"forestry:fertility\":{active:\"forestry:2id\",inactive:\"forestry:2id\"},\"forestry:flower_type\":{active:\"forestry:flower_type_snow\",inactive:\"forestry:flower_type_snow\"},\"forestry:humidity_tolerance\":{active:\"forestry:tolerance_both_1d\",inactive:\"forestry:tolerance_both_1d\"},\"forestry:lifespan\":{active:\"forestry:40i\",inactive:\"forestry:40i\"},\"forestry:pollination\":{active:\"forestry:5id\",inactive:\"forestry:5id\"},\"forestry:speed\":{active:\"forestry:0.3fd\",inactive:\"forestry:0.3fd\"},\"forestry:temperature_tolerance\":{active:\"forestry:tolerance_up_1d\",inactive:\"forestry:tolerance_up_1d\"},\"forestry:territory\":{active:\"forestry:11_8_11\",inactive:\"forestry:11_8_11\"},\"forestry:tolerates_rain\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"}},health:40,max_heath:40,pristine:1b}}}",
-    {
-      "type": "item",
-      "id": "embers:dawnstone_block",
-      "amount": 2
-    },
     {
       "type": "fluid",
       "id": "embers:molten_dawnstone",
@@ -444,7 +615,6 @@
     "item:tconstruct:diamond_item_frame",
     "item:nuclearcraft:fusion_reactor_casing",
     "item:nuclearcraft:turbine_casing",
-    "item:mekanism_extras:reinforced_induction_casing",
     "item:immersiveengineering:mold_bullet_casing",
     "item:nuclearcraft:target_chamber_beam_port",
     "item:nuclearcraft:target_chamber_port",
@@ -455,7 +625,6 @@
     "item:create:mechanical_crafter",
     "item:techreborn:industrial_machine_casing",
     "item:dustandash:fission_reactor_casing",
-    "item:mekanism:induction_casing",
     "item:nuclearcraft:empty_frame",
     "item:draconicevolution:reactor_prt_stab_frame",
     "item:immersiveengineering:bannerpattern_ornate",
@@ -471,7 +640,6 @@
     "item:palmon:boost_frame_4",
     "item:palmon:boost_frame_3",
     "item:palmon:boost_frame_1",
-    "item:minecraft:end_portal_frame",
     "item:supplementaries:timber_frame",
     "item:factory_blocks:bcircuit",
     "item:factory_blocks:pgcircuit",
@@ -487,18 +655,12 @@
     "item:tfc:metal/ingot/wrought_iron",
     "item:aquaculture:tin_can",
     "item:nuclearcraft:turbine_beryllium_coil",
-    "item:mekanism_extras:upgrade_ionic_membrane",
     "item:tfc:metal/ingot/silver",
     "item:tconstruct:hepatizon_block",
     {
       "type": "item",
       "id": "cobblemon:dive_ball",
       "amount": 8
-    },
-    {
-      "type": "item",
-      "id": "forestry:ambrosia",
-      "amount": 64
     },
     "item:cobblemon:rare_candy",
     "item:draconicevolution:awakened_draconium_ingot",
@@ -511,7 +673,6 @@
     },
     "item:cataclysm:void_core",
     "item:cataclysm:void_scatter_arrow",
-    "item:appbot:mana_cell_housing",
     "item:botania:gaia_ingot",
     "item:appbot:mana_storage_cell_4k",
     "item:appbot:mana_storage_cell_16k",
@@ -729,7 +890,6 @@
       "amount": 27
     },
     "item:thermal:lead_block",
-    "item:mekanism:radioactive_waste_barrel",
     {
       "type": "jemi",
       "uid": "gas:mekanism:plutonium"
@@ -784,7 +944,6 @@
       "id": "nuclearcraft:fluorite_water",
       "amount": 0
     },
-    "item:nuclearcraft:melter",
     "item:minecraft:netherrack",
     "item:netherexp:smooth_netherrack",
     "item:tfc:powder/sulfur",
@@ -831,11 +990,6 @@
       "id": "create:powdered_obsidian",
       "amount": 4
     },
-    {
-      "type": "item",
-      "id": "minecraft:obsidian",
-      "amount": 32
-    },
     "item:draconicevolution:wyvern_chestpiece",
     "item:draconicevolution:item_wyvern_flight",
     "item:draconicevolution:item_draconic_flight",
@@ -860,7 +1014,6 @@
     "item:nuclearcraft:strontium_dust",
     "item:nuclearcraft:strontium_90_dust",
     "item:nuclearcraft:uranium_233",
-    "item:nuclearcraft:decay_hastener",
     {
       "type": "item",
       "id": "nuclearcraft:plutonium_239",
@@ -959,7 +1112,6 @@
       "id": "nuclearcraft:rhodochrosite_dust",
       "amount": 2
     },
-    "item:mekanism:creative_chemical_tank{mekData:{GasTanks:[{Tank:0b,stored:{amount:9223372036854775807L,gasName:\"mekanism:uranium_oxide\"}}]}}",
     {
       "type": "jemi",
       "uid": "gas:mekanism:sulfur_dioxide"
@@ -1054,20 +1206,20 @@
       "type": "list",
       "amount": 250,
       "ingredients": [
-        "fluid:sakura:white_wine",
-        "fluid:createaddition:seed_oil",
+        "fluid:sakura:champagne",
         "fluid:sakura:sake",
         "fluid:sakura:brandy",
-        "fluid:sakura:champagne",
-        "fluid:sakura:red_wine",
-        "fluid:sakura:doburoku",
-        "fluid:sakura:beer",
-        "fluid:cobgyms:safe_lava",
         "fluid:sakura:food_oil",
+        "fluid:sakura:red_wine",
         "fluid:createaddition:bioethanol",
+        "fluid:sakura:white_wine",
+        "fluid:sakura:doburoku",
+        "fluid:cobgyms:safe_lava",
+        "fluid:sakura:beer",
+        "fluid:createaddition:seed_oil",
         "#fluid:firmalife:mixable",
-        "#fluid:sakura:brewers_alcohol",
-        "#fluid:tfc:water"
+        "#fluid:tfc:water",
+        "#fluid:sakura:brewers_alcohol"
       ]
     },
     "fluid:mekanism:uranium_hexafluoride",
@@ -1184,7 +1336,6 @@
       "amount": 18
     },
     "item:ars_nouveau:arcane_pedestal",
-    "item:kubejs:unify_essence",
     "item:kubejs:present_alloy",
     "item:dustandash:white_lightning{Damage:0}",
     "item:ars_nouveau:dominion_wand",
@@ -1303,7 +1454,6 @@
       "id": "rats:token_fragment",
       "amount": 2
     },
-    "item:mekanism_extras:infinite_tier_installer",
     "item:mekanism:ultimate_tier_installer",
     "item:mekanism:elite_tier_installer",
     "item:mekanism:advanced_tier_installer",
@@ -1351,7 +1501,6 @@
     "item:fluxnetworks:flux_plug",
     "item:minecraft:birch_trapdoor",
     "item:quark:hollow_acacia_log",
-    "item:kubejs:basepoint_alloy",
     [
       {
         "type": "fluid",
@@ -1681,349 +1830,7 @@
     "item:forestry:beeswax",
     "item:minecraft:candle",
     "item:forestry:honeydew",
-    "item:forestry:centrifuge",
-    "item:forestry:bee_comb_cocoa",
-    "item:forestry:scoop{Damage:0}",
-    "item:forestry:bee_comb_dripping",
-    "item:forestry:crated_royal_jelly",
-    "item:fluxnetworks:flux_point",
-    "item:gendustry:receptacle",
-    "item:forestry:apiary",
-    "item:thermal:bronze_gear",
-    "#item:forge:gears/bronze",
-    "item:forestry:soldering_iron{Damage:0}",
-    "item:forestry:circuit_board_enhanced",
-    "item:forestry:circuit_board_basic",
-    "item:forestry:circuit_board_refined",
-    "item:forestry:circuit_board_intricate",
-    "item:forestry:electron_tube_emerald",
-    "item:forestry:fabricator",
-    "item:forestry:electron_tube_blaze",
-    "item:forestry:electron_tube_ender",
-    "item:forestry:electron_tube_copper",
-    "item:forestry:bee_house",
-    {
-      "type": "item",
-      "id": "minecraft:honeycomb",
-      "amount": 4
-    },
-    "item:minecraft:honeycomb_block",
-    {
-      "type": "fluid",
-      "id": "tconstruct:honey",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "create:honey",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "cofh_core:honey",
-      "amount": 0
-    },
-    {
-      "type": "tag",
-      "registry": "minecraft:fluid",
-      "id": "forge:honey",
-      "amount": 250
-    },
-    "item:tconstruct:manyullyn_ingot",
-    {
-      "type": "fluid",
-      "id": "tconstruct:molten_manyullyn",
-      "amount": 360
-    },
-    "item:tconstruct:ender_slime_crystal_block",
-    {
-      "type": "fluid",
-      "id": "tconstruct:ender_slime",
-      "amount": 250
-    },
-    {
-      "type": "fluid",
-      "id": "tconstruct:molten_ender",
-      "amount": 750
-    },
-    "item:techreborn:iridium_alloy_ingot",
-    "item:techreborn:iridium_plate",
-    {
-      "type": "item",
-      "id": "nuclearcraft:iridium_ingot",
-      "amount": 6
-    },
-    {
-      "type": "item",
-      "id": "nuclearcraft:iridium_dust",
-      "amount": 2
-    },
-    "item:techreborn:raw_iridium{}",
-    "item:integrateddynamics:part_redstone_writer",
-    "item:integrateddynamics:part_inventory_reader",
-    "item:expatternprovider:caner",
-    "item:techreborn:solid_canning_machine",
-    "item:aetherworks:aether_gas_bucket",
-    "item:tconstruct:boots_plating_dummy",
-    "item:tconstruct:leggings_plating{Material:\"tconstruct:treated_wood\"}",
-    [
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:treated_wood\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:wood\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:wood#crimson\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:wood#warped\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:rock#andesite\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:rock#blackstone\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:rock#deepslate\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:rock#diorite\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:rock#granite\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:rock#stone\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:flint\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:flint#basalt\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:bone\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:iron\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:iron#oxidized\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:lead\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:silver\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:pig_iron\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:rose_gold\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:bronze\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:constantan\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:invar\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:electrum\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:steel\"}",
-      "item:tconstruct:leggings_plating{Material:\"tcintegrations:brass\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:copper\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:copper#oxidized\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:slimewood#bloodshroom\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:slimewood#composite\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:slimewood#enderbark\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:slimewood#greenheart\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:slimewood#skyroot\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:amethyst_bronze\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:nahuatl\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:cobalt\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:cinderslime\"}",
-      "item:tconstruct:leggings_plating{Material:\"tinkers_advanced:antimony\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:black_steel\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:spirit_attuned_gem\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:andesite_alloy\"}",
-      "item:tconstruct:leggings_plating{Material:\"tinkers_advanced:bismuth\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:red_steel\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:blue_steel\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:virtual_gold\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:iesnium\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:hop_graphite\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:alpha_framework\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:blazing_quartz\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:ember_crystal\"}",
-      "item:tconstruct:leggings_plating{Material:\"tcintegrations:livingwood\"}",
-      "item:tconstruct:leggings_plating{Material:\"tcintegrations:livingrock\"}",
-      "item:tconstruct:leggings_plating{Material:\"tcintegrations:manasteel\"}",
-      "item:tconstruct:leggings_plating{Material:\"tinkers_advanced:certus_quartz\"}",
-      "item:tconstruct:leggings_plating{Material:\"tinkers_things:hematite\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:dawnstone\"}",
-      "item:tconstruct:leggings_plating{Material:\"tinkers_advanced:fluix_crystal\"}",
-      "item:tconstruct:leggings_plating{Material:\"tinkers_advanced:blaze_netherite\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:manyullyn\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:beta_framework\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:ancient_netherite\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:terrasteel\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:seared_stone\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:osmium\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:aluminum\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:scorched_stone\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:gold\"}",
-      "item:tconstruct:leggings_plating{Material:\"tcintegrations:desh\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:plate_basic\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:ferroboron\"}",
-      "item:tconstruct:leggings_plating{Material:\"tcintegrations:soul_stained_steel\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:fin\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:ash_steel\"}",
-      "item:tconstruct:leggings_plating{Material:\"tinkers_advanced:basalz_signalum\"}",
-      "item:tconstruct:leggings_plating{Material:\"tinkers_advanced:blitz_lumium\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:tough_alloy\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:hallowed_gold\"}",
-      "item:tconstruct:leggings_plating{Material:\"tcintegrations:neptunium\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:tungsten\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:platinum\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:present_alloy\"}",
-      "item:tconstruct:leggings_plating{Material:\"tinkers_advanced:blizz_enderium\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:fission_reactor_casing\"}",
-      "item:tconstruct:leggings_plating{Material:\"tinkers_advanced:iridium\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:stable_desh\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:hallowed_soul_steel\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:ship_graveyard_echo\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:gamma_framework\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:thermoconducting\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:void_tablet\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:abyssal_amethyst\"}",
-      "item:tconstruct:leggings_plating{Material:\"tinkers_advanced:activated_chromatic_steel\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:boron_nitride\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:malignant_pewter\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:ember_profile\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:slimesteel\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:obsidian\"}",
-      "item:tconstruct:leggings_plating{Material:\"tinkers_advanced:nutritive_slime\"}",
-      "item:tconstruct:leggings_plating{Material:\"tinkers_advanced:refined_glowstone\"}",
-      "item:tconstruct:leggings_plating{Material:\"tcintegrations:ostrum\"}",
-      "item:tconstruct:leggings_plating{Material:\"tinkers_advanced:plastic\"}",
-      "item:tconstruct:leggings_plating{Material:\"tinkers_advanced:resonance_crystal\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:elementium\"}",
-      "item:tconstruct:leggings_plating{Material:\"tcintegrations:calorite\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:alfsteel\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:intelligent_draconium\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:superconducting_coil_type_1\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:unify_essence\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:delta_framework\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:marid_binded_gem\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:ignitium\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:queens_slime\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:hepatizon\"}",
-      "item:tconstruct:leggings_plating{Material:\"tinkers_advanced:antimatter\"}",
-      "item:tconstruct:leggings_plating{Material:\"tinkers_advanced:densium\"}",
-      "item:tconstruct:leggings_plating{Material:\"tinkers_advanced:irradium\"}",
-      "item:tconstruct:leggings_plating{Material:\"tinkers_advanced:protocite\"}",
-      "item:tconstruct:leggings_plating{Material:\"tinkers_advanced:refined_obsidian\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:end_steel\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:collapse_prediction\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:sculk_gleam\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:iridescent\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:whitestone#aluminum\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:whitestone#end\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:whitestone#tin\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:whitestone#zinc\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:fusion_reactor_casing\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:titanium\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:otherside_mixture\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:resonarium_plate\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:aether_ingot\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:aether_gem\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:niobium_titanium\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:helium_3_crystal\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:light_of_inlixaland\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:alfheim_iridescent\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:titanium_tungsten\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:titanium_aluminum\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:epsilon_framework\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:helium_3_crystal_infinity\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:aether_pearl\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:basepoint_alloy\"}",
-      "item:tconstruct:leggings_plating_dummy"
-    ],
-    "item:tconstruct:leggings_plating_cast",
-    "item:tconstruct:leggings_plating{Material:\"tconstruct:copper\"}",
-    "item:minecraft:waxed_oxidized_copper",
-    "item:tconstruct:chestplate_plating{Material:\"tconstruct:copper\"}",
-    [
-      "item:tconstruct:boots_plating{Material:\"tconstruct:boron_nitride\"}",
-      "item:tconstruct:chestplate_plating{Material:\"tconstruct:boron_nitride\"}",
-      "item:tconstruct:helmet_plating{Material:\"tconstruct:boron_nitride\"}",
-      "item:tconstruct:leggings_plating{Material:\"tconstruct:boron_nitride\"}",
-      "item:tconstruct:maille{Material:\"tconstruct:boron_nitride\"}",
-      "item:tinkers_things:shield_plating{Material:\"tconstruct:boron_nitride\"}"
-    ],
-    "item:tconstruct:maille{Material:\"tconstruct:boron_nitride\"}",
-    "item:embers:alchemical_waste",
-    "item:nuclearcraft:fuel_reprocessor",
-    "item:nuclearcraft:caesium_137_dust",
-    "item:nuclearcraft:dosimeter{Damage:0}",
-    "item:nuclearcraft:gelatin",
-    "item:nuclearcraft:geiger_counter",
-    {
-      "type": "item",
-      "id": "embers:ash",
-      "amount": 8
-    },
-    "item:embers:entropic_enumerator",
-    "item:embers:ember_ejector",
-    "item:embers:ember_funnel",
-    "item:minecraft:stone_bricks",
-    "item:embers:ashen_brick",
-    "item:embers:ashen_tile",
-    "item:nuclearcraft:chromium_ingot",
-    {
-      "type": "item",
-      "id": "nuclearcraft:chromium_dust",
-      "amount": 3
-    },
-    "item:ae2:annihilation_core",
-    "item:tfc:rock/loose/rhyolite",
-    "item:minecraft:andesite",
-    "item:firmalife:metal/ingot/chromium",
-    "#item:c:chromium_dusts",
-    "item:techreborn:chrome_plate",
-    "item:techreborn:chrome_ingot",
-    "#item:c:chromium_plates",
-    "item:jaopca:plates.chromium",
-    "item:minecraft:dark_oak_slab",
-    "item:techreborn:hot_tungstensteel_ingot",
-    "item:techreborn:rolling_machine",
-    "item:techreborn:diesel_generator",
-    "item:techreborn:creative_storage_unit",
-    "item:techreborn:elevator",
-    "item:techreborn:fishing_station",
-    "item:techreborn:scrapboxinator",
-    "item:fluxnetworks:flux_core",
-    "item:draconicevolution:draconium_block",
-    "item:draconicevolution:draconium_ingot",
-    "item:draconicevolution:wyvern_crafting_injector",
-    "item:techreborn:diamond_grinding_head",
-    "item:minecraft:jungle_fence_gate",
-    "item:techreborn:rubber_fence",
-    "item:minecraft:oak_door",
-    "item:minecraft:acacia_button",
-    "item:jaopca:gears.draconium",
-    {
-      "type": "item",
-      "id": "jaopca:processors.draconium",
-      "amount": 64
-    },
-    "item:tfc:powder/flux",
-    "item:techreborn:diorite_dust",
-    "item:techreborn:obsidian_small_dust",
-    "item:techreborn:marble_dust",
-    {
-      "type": "item",
-      "id": "techreborn:marble_small_dust",
-      "amount": 3
-    },
-    "item:techreborn:calcite_small_dust",
-    "#item:techreborn:calcite_dust_material",
-    "item:techreborn:calcite_dust",
-    "item:draconicevolution:basic_crafting_injector",
-    "item:draconicevolution:wyvern_core",
-    "item:minecraft:nether_star",
-    "item:thermal:energy_duct",
-    "item:occultism:storage_stabilizer_tier2",
-    "item:occultism:book_of_binding_bound_djinni",
-    {
-      "type": "item",
-      "id": "tfc:metal/ingot/black_steel",
-      "amount": 16
-    },
-    {
-      "type": "item",
-      "id": "minecraft:copper_ingot",
-      "amount": 4
-    },
-    {
-      "type": "item",
-      "id": "tfc:metal/ingot/brass",
-      "amount": 8
-    },
-    "#item:c:steel_ingots",
-    "item:thermal:steel_plate",
-    "#item:c:steel_plates",
-    "item:palmon:polymer_plate",
-    "item:cobblemon:beast_ball",
-    {
-      "type": "tag",
-      "registry": "minecraft:item",
-      "id": "cobblemon:tier_4_poke_balls",
-      "amount": 16
-    },
-    "item:cobblemon:master_ball",
-    "item:cobblemon:sky_tumblestone_block"
+    "item:forestry:centrifuge"
   ],
   "craft_history": [
     "jei:/thermal/machines/smelter/smelter_alloy_electrum",
@@ -2062,7 +1869,6 @@
     "integratedtunnels:crafting/part_interface_fluid",
     "mekanism:transmitter/pressurized_tube/advanced",
     "embers:lead_ingot_to_block",
-    "mekanism_extras:expand_radioactive_waste_barrel",
     "mekanism:radioactive_waste_barrel",
     "kubejs:isotopic_centrifuge_s6",
     "mekanism:induction/port",
@@ -2600,7 +2406,6 @@
     "minecraft:nuclearcraft_graphite_dust",
     "jei:/nuclearcraft/manufactory/dusts_coal",
     "kubejs:nc_manufactory_s5",
-    "jei:/nuclearcraft/chemical_reactor/nitrogen_dioxide-water",
     "jei:/nuclearcraft/chemical_reactor/nitric_acid-hydrochloric_acid",
     "nuclearcraft:servo",
     "nuclearcraft:chassis",
@@ -2987,32 +2792,34 @@
   ],
   "recipe_defaults": {
     "added": [
-      "jei:/tinkers_advanced/materials/activated_chromatic_steel/activated_chromatic_steel_alloy",
-      "draconicevolution:components/wyvern_core",
-      "jei:/nuclearcraft/melter/ingots_boron",
-      "jaopcaextras:inscriber.processor.manasteel",
-      "jaopcaextras:inscriber.processor.draconium",
-      "jei:/kubejs/awakened_draconium_ingot_s6",
-      "jei:/nuclearcraft/alloy_smelter/dusts_graphite-dusts_diamond",
-      "kubejs:machine_frame_pity_s4",
       "jei:/kubejs/cognitio_s6",
       "ars_ocultas:craft_stabilizer_tier4",
-      "jei:/kubejs/epsilon_framework_s5",
-      "jei:/nuclearcraft/alloy_smelter/ingots_tough_alloy-ingots_hard_carbon",
-      "jei:/kubejs/epsilon_dust_s6",
-      "jei:/kubejs/draconium_core_2_s4",
-      "jei:/kubejs/delta_framework_s4",
-      "jaopcaextras:inscriber.circuit.draconium",
-      "ae2:inscriber/silicon_print",
-      "thermal:rf_coil",
-      "jei:/embers/melting/ingots/electrum",
-      "jaopcaextras:inscriber.circuit.manasteel",
-      "jei:/draconicevolution/components/awakened_core",
+      "avaritia:infinity_ingot",
+      "avaritia:infinity_catalyst",
       "jei:/kubejs/prediction_matrix_s5",
-      "ae2:network/cells/item_storage_components_cell_4k_part",
-      "thermal:redstone_servo",
+      "jei:/kubejs/epsilon_dust_s6",
       "jei:/nuclearcraft/ingot_former/boron_arsenide",
-      "jei:/nuclearcraft/alloy_smelter/ingots_ferroboron-ingots_lithium"
+      "jei:/kubejs/awakened_draconium_ingot_s6",
+      "jaopcaextras:inscriber.circuit.manasteel",
+      "jei:/nuclearcraft/alloy_smelter/ingots_tough_alloy-ingots_hard_carbon",
+      "jaopcaextras:inscriber.circuit.draconium",
+      "draconicevolution:components/wyvern_core",
+      "jei:/kubejs/delta_framework_s4",
+      "thermal:rf_coil",
+      "kubejs:machine_frame_pity_s4",
+      "ae2:network/cells/item_storage_components_cell_4k_part",
+      "jei:/embers/melting/ingots/electrum",
+      "jei:/nuclearcraft/melter/ingots_boron",
+      "jaopcaextras:inscriber.processor.manasteel",
+      "jei:/kubejs/draconium_core_2_s4",
+      "thermal:redstone_servo",
+      "ae2:inscriber/silicon_print",
+      "jei:/tinkers_advanced/materials/activated_chromatic_steel/activated_chromatic_steel_alloy",
+      "jei:/draconicevolution/components/awakened_core",
+      "jei:/nuclearcraft/alloy_smelter/dusts_graphite-dusts_diamond",
+      "jei:/kubejs/epsilon_framework_s5",
+      "jei:/nuclearcraft/alloy_smelter/ingots_ferroboron-ingots_lithium",
+      "jaopcaextras:inscriber.processor.draconium"
     ],
     "tags": {
       "#item:forge:gears/steel": "item:thermal:steel_gear",
@@ -3039,14 +2846,8 @@
           "amount": 2
         }
       ],
-      "jei:/jaopca/thermal_expansion.material_to_gear.desh": [
-        "item:jaopca:gears.desh"
-      ],
       "jei:/jaopca/thermal_expansion.material_to_gear.dawnstone": [
         "item:jaopca:gears.dawnstone"
-      ],
-      "jei:/jaopca/thermal_expansion.material_to_storage_block.draconium": [
-        "item:draconicevolution:draconium_block"
       ],
       "jei:/kubejs/essence_computation_frame_s4": [
         {
@@ -3054,6 +2855,15 @@
           "id": "kubejs:essence_computation_frame",
           "amount": 3
         }
+      ],
+      "jei:/jaopca/thermal_expansion.material_to_storage_block.draconium": [
+        "item:draconicevolution:draconium_block"
+      ],
+      "jei:/jaopca/thermal_expansion.material_to_gear.desh": [
+        "item:jaopca:gears.desh"
+      ],
+      "jei:/thermal/kjs/8raor5kvtx12r7u0ox3zt0tei": [
+        "item:thermal:diamond_gear"
       ],
       "jei:/kubejs/end_steel_s5": [
         {
@@ -3064,9 +2874,6 @@
       ],
       "jei:/jaopca/thermal_expansion.material_to_gear.iesnium": [
         "item:jaopca:gears.iesnium"
-      ],
-      "jei:/thermal/kjs/8raor5kvtx12r7u0ox3zt0tei": [
-        "item:thermal:diamond_gear"
       ]
     },
     "disabled": []

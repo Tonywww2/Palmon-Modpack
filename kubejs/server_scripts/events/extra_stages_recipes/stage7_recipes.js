@@ -2,6 +2,8 @@
 
 const stage7 = function (event) {
 
+    event.shapeless('mekanism:creative_fluid_tank', ['mekanism:creative_fluid_tank']).id('kubejs:creative_fluid_tank_empty_s7')
+
     event.shaped('mekanism:mekasuit_helmet', [
         'PCP',
         'BDB',
@@ -283,6 +285,317 @@ const stage7 = function (event) {
         }
     ).id('kubejs:chamber_terminal_s7')
 
+    event.recipes.avaritia.shaped_table(
+        4,
+        'draconicevolution:creative_capacitor',
+        [
+            'AAAACAAAA',
+            'AEEBCBEEA',
+            'AEBFCFBEA',
+            'ABFFGFFBA',
+            'CCCIDJCCC',
+            'ABFFHFFBA',
+            'AEBFCFBEA',
+            'AEEBCBEEA',
+            'AAAACAAAA'
+        ],
+        {
+            A: 'avaritia:infinity_ingot',
+            B: 'draconicevolution:chaotic_crafting_injector',
+            C: 'draconicevolution:reactor_stabilizer',
+            D: 'draconicevolution:reactor_core',
+            E: 'draconicevolution:chaotic_core',
+            F: 'draconicevolution:chaotic_capacitor',
+            G: 'ae2:creative_energy_cell',
+            H: 'avaritia:infinity_chest',
+            I: 'mekanism_extras:absolute_induction_cell',
+            J: 'mekanism_extras:absolute_induction_provider'
+        }
+    ).id('kubejs:creative_capacitor_de_s7')
+
+    event.recipes.avaritia.shaped_table(
+        4,
+        '3x thermal:machine_efficiency_creative_augment',
+        [
+            'GGGHHHGGG',
+            'GAABBBAAG',
+            'GABBCBBAG',
+            'HBBDEDBBH',
+            'HBCEFECBH',
+            'HBBDEDBBH',
+            'GABBCBBAG',
+            'GAABBBAAG',
+            'GGGHHHGGG'
+        ],
+        {
+            A: 'kubejs:basepoint_alloy',
+            B: '#forge:ingots/neutronium',
+            C: 'thermal_extra:dragonsteel_machine_efficiency_augment',
+            D: 'thermal_extra:dragonsteel_machine_speed_augment',
+            E: 'thermal_extra:dragonsteel_rf_coil_xfer_augment',
+            F: 'avaritia:enhancement_core',
+            G: '#forge:storage_blocks/dragonsteel',
+            H: '#forge:ingots/dragonsteel'
+        }
+    ).id('kubejs:thermal_upgrade_creative_s7')
+
+    event.recipes.avaritia.shaped_table(
+        4,
+        '2x mekanism_extras:upgrade_creative',
+        [
+            'GGGHHHGGG',
+            'GAABBBAAG',
+            'GABBCBBAG',
+            'HBBDEDBBH',
+            'HBCEFECBH',
+            'HBBDEDBBH',
+            'GABBCBBAG',
+            'GAABBBAAG',
+            'GGGHHHGGG'
+        ],
+        {
+            A: 'mekanism_extras:infinite_energy_cube',
+            B: '#forge:ingots/neutronium',
+            C: 'mekanism:upgrade_energy',
+            D: 'mekanism:upgrade_speed',
+            E: Item.of('tconstruct:large_plate', '{Material:"tinkers_advanced:osgloglas"}').weakNBT(),
+            F: 'avaritia:enhancement_core',
+            G: '#forge:storage_blocks/dragonsteel',
+            H: 'mekanism_extras:infinite_tier_installer'
+        }
+    ).id('kubejs:mek_upgrade_creative_s7')
+
+    event.recipes.avaritia.shaped_table(
+        4,
+        'draconicevolution:creative_op_capacitor',
+        [
+            'BHCJCJCHB',
+            'HFGKKKGFH',
+            'CGAAIAAGC',
+            'JKACECAKJ',
+            'CKIEDEIKC',
+            'JKACECAKJ',
+            'CGAAIAAGC',
+            'HFGKKKGFH',
+            'BHCJCJCHB'
+        ],
+        {
+            A: 'avaritia:infinity_ingot',
+            B: 'mekanism_extras:cosmic_induction_cell',
+            C: 'draconicevolution:reactor_stabilizer',
+            D: 'draconicevolution:reactor_core',
+            E: 'draconicevolution:creative_capacitor',
+            F: 'mekanism_extras:cosmic_induction_provider',
+            G: 'mekanism_extras:supreme_induction_provider',
+            H: 'mekanism_extras:supreme_induction_cell',
+            I: 'mekanism_extras:reinforced_induction_port',
+            J: 'mekanism_extras:infinite_induction_provider',
+            K: 'mekanism_extras:infinite_induction_cell'
+        }
+    ).id('kubejs:creative_op_capacitor_s7')
+
+    event.recipes.avaritia.shaped_table(
+        4,
+        'botania:creative_pool',
+        [
+            'BBBDYDBBB',
+            'BXCLYLCXB',
+            'BCLEAELCB',
+            'DLEHAIELD',
+            'YYAAFAAYY',
+            'DLEJAKELD',
+            'BCLEAELCB',
+            'BXCLYLCXB',
+            'BBBDYDBBB'
+        ],
+        {
+            C: 'botania:mana_pool',
+            E: 'botania:dragonstone_block',
+            F: 'avaritia:endless_cake',
+            X: 'avaritia:infinity_catalyst',
+            Y: 'botania:fabulous_pool',
+            A: 'appbot:portable_mana_storage_cell_256k',
+            B: 'avaritia:neutron',
+            D: 'mythicbotany:alfsteel_block',
+            H: 'mythicbotany:andwari_ring',
+            I: 'mythicbotany:kvasir_mead',
+            J: 'mythicbotany:alfsteel_pick',
+            K: 'botania:pinkinator',
+            L: 'avaritia:infinity_ingot'
+        }
+    ).id('kubejs:creative_pool_s7')
+
+    event.recipes.avaritia.shaped_table(
+        4,
+        'mekanism:creative_fluid_tank',
+        [
+            'MIIIIIIIM',
+            'ISAAAAASI',
+            'IABBZBBAI',
+            'IABNCNBAI',
+            'IOZCKCZOI',
+            'IABNCNBAI',
+            'IABBZBBAI',
+            'ISAAAAASI',
+            'MIIIIIIIM'
+        ],
+        {
+            A: 'mekanism_extras:infinite_fluid_tank',
+            B: 'mekanism:dynamic_tank',
+            C: 'mekanism:structural_glass',
+            I: 'avaritia:infinity_ingot',
+            S: 'avaritia:infinity_catalyst',
+            K: 'avaritia:endless_cake',
+            N: 'tinkers_advanced:molten_neutronite_bucket',
+            M: 'avaritia:neutron',
+            Z: 'nuclearcraft:californium_250_za_bucket',
+            O: 'nuclearcraft:californium_250_ni_bucket'
+        }
+    ).id('kubejs:creative_fluid_tank_s7')
+
+    event.recipes.avaritia.shaped_table(
+        4,
+        'avaritia:infinity_helmet',
+        [
+            '  NNNNN  ',
+            ' NIITIIN ',
+            ' N XIX N ',
+            ' NIIIIIN ',
+            ' NIIIIIN ',
+            ' NI I IN ',
+            '         ',
+            '         ',
+            '         '
+        ],
+        {
+            I: 'avaritia:infinity_ingot',
+            N: 'avaritia:neutron_ingot',
+            X: 'avaritia:infinity_catalyst',
+            T: 'avaritia:infinity_totem'
+        }
+    ).id('kubejs:infinity_helmet_s7')
+
+    event.recipes.avaritia.shaped_table(
+        4,
+        'avaritia:infinity_chestplate',
+        [
+            ' NN   NN ',
+            'NNN   NNN',
+            'NNN   NNN',
+            ' NIIIIIN ',
+            ' NIIXIIN ',
+            ' NIIIIIN ',
+            ' NIITIIN ',
+            ' NIIIIIN ',
+            '  NNNNN  '
+        ],
+        {
+            I: 'avaritia:infinity_ingot',
+            N: 'avaritia:neutron_ingot',
+            X: 'avaritia:crystal_matrix',
+            T: 'avaritia:infinity_totem'
+        }
+    ).id('kubejs:infinity_chestplate_s7')
+
+    event.recipes.avaritia.shaped_table(
+        4,
+        'avaritia:infinity_pants',
+        [
+            'NNNNNNNNN',
+            'NIIIXIIIN',
+            'NINNXNNIN',
+            'NIN   NIN',
+            'NCN   NCN',
+            'NIN T NIN',
+            'NIN   NIN',
+            'NIN   NIN',
+            'NNN   NNN'
+        ],
+        {
+            C: 'avaritia:crystal_matrix_ingot',
+            I: 'avaritia:infinity_ingot',
+            N: 'avaritia:neutron_ingot',
+            X: 'avaritia:infinity_catalyst',
+            T: 'avaritia:infinity_totem'
+        }
+    ).id('kubejs:infinity_pants_s7')
+
+    event.recipes.avaritia.shaped_table(
+        4,
+        'avaritia:infinity_boots',
+        [
+            ' NNN NNN ',
+            ' NIN NIN ',
+            ' NIN NIN ',
+            'NNIN NINN',
+            'NIIN NIIN',
+            'NNNN NNNN',
+            '    T    '
+        ],
+        {
+            I: 'avaritia:infinity_ingot',
+            N: 'avaritia:neutron_ingot',
+            T: 'avaritia:infinity_totem'
+        }
+    ).id('kubejs:infinity_boots_s7')
+
+    event.recipes.avaritia.shaped_table(
+        4,
+        'embers:creative_ember_source',
+        [
+            '  ABCBA  ',
+            ' AABBBAA ',
+            ' ADDBDDA ',
+            ' ADEFEDA ',
+            ' ADFGFDA ',
+            ' ADEFEDA ',
+            ' ADDBDDA ',
+            ' AABBBAA ',
+            '  ABCBA  '
+        ],
+        {
+            A: 'avaritia:infinity_nugget',
+            B: 'avaritia:crystal_matrix',
+            C: 'aetherworks:aether_prism_controller_matrix',
+            D: 'avaritia:blaze_cube_block',
+            E: Item.of('avaritia:singularity', '{Id:"avaritia:dawnstone"}').weakNBT(),
+            F: 'aetherworks:aether_amalgam',
+            G: 'avaritia:infinity_catalyst'
+        }
+    ).id('kubejs:creative_ember_source_s7')
+
+    event.recipes.avaritia.shaped_table(
+        4,
+        'create:creative_motor',
+        [
+            'AAABBBAAA',
+            'CDGHIHGDC',
+            'CDGHJHGDC',
+            'CDGHKHGDC',
+            'CDGHLHGDC',
+            'CDGGMGGDC',
+            'CDEEFEEDC',
+            'CDDDNDDDC',
+            'CCCCCCCCC',
+        ],
+        {
+            A: 'create:adjustable_chain_gearshift',
+            B: 'avaritia:infinity_ingot',
+            C: 'create:encased_chain_drive',
+            D: Item.of('avaritia:singularity', '{Id:"avaritia:andesite_alloy"}').weakNBT(),
+            E: 'minecraft:end_portal_frame',
+            F: 'create:rotation_speed_controller',
+            G: 'mekanism_extras:infinite_fluid_tank',
+            H: 'create:mechanical_pump',
+            I: Item.of('tconstruct:large_plate', '{Material:"tconstruct:unify_essence"}').weakNBT(),
+            J: 'legendary_monsters:entity_warper',
+            K: 'cookingforblockheads:sink',
+            L: 'create:rotation_speed_controller',
+            M: 'avaritia:infinity_catalyst',
+            N: 'avaritia:endless_cake'
+        }
+    ).id('kubejs:creative_motor_s7')
+
     event.recipes.avaritia.shapeless_table(
         4,
         '3x kubejs:ultimate_berry',
@@ -309,6 +622,33 @@ const stage7 = function (event) {
         "radiation": 1.0,
         "timeModifier": 1.0
     }).id('kubejs:record_fragment_s7')
+
+
+    event.custom({
+        "type": "palmon:production",
+        "category": "misc",
+        "focus_stat": "SPECIAL_ATTACK",
+        "min_level": 100,
+        "required_type": "dragon",
+        "base_hp": 120,
+        "base_atk": 80,
+        "base_def": 80,
+        "base_spa": 120,
+        "base_spd": 80,
+        "base_spe": 120,
+        "area_blocks": [
+            Item.of('draconicevolution:reactor_core').toJson(),
+            Item.of('draconicevolution:chaotic_crafting_injector').toJson(),
+
+        ],
+        "block_count": 1,
+        "tick": 9600,
+        "result_items": [
+            Item.of('draconicevolution:large_chaos_frag').toJson()
+        ],
+        "result_power": 800000,
+        "result_fluid": null
+    }).id('kubejs:large_chaos_frag_s7')
 
     event.custom({
         "type": "dustandash:milling",
@@ -641,6 +981,8 @@ const stage7 = function (event) {
             'kubejs:yin_yang_steel',
             'ae2:cell_component_256k',
             'appflux:core_256k',
+            'forestry:ambrosia',
+            'forestry:ambrosia',
             'avaritia:star_fuel'
         ]).id('avaritia:infinity_catalyst')
 

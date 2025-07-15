@@ -244,7 +244,24 @@ global.idsToRemove = new Set([
     'avaritia:cosmic_meatballs',
     'avaritia:infinity_catalyst',
     'avaritia:infinity_catalyst_eternal',
-    'avaritia:mek_creative_bin'
+    'avaritia:mek_creative_bin',
+    'avaritia:botania_mana_tablet',
+    'avaritia:de_creative_capacitor',
+    'avaritia:de_creative_op_capacitor',
+    'avaritia:mek_creative_energy_cube',
+    'mekanism_extras:expand_radioactive_waste_barrel',
+    'avaritia:tc3_creative_slot_upgrades',
+    'avaritia:tc3_creative_slot_souls',
+    'avaritia:tc3_creative_slot_ability',
+    'avaritia:tc3_creative_slot_defense',
+    'avaritia:mek_creative_chemical_tank',
+    'appbot:mana_cell_housing',
+    'avaritia:botania_creative_pool',
+    'avaritia:mek_creative_fluid_tank',
+    'avaritia:infinity_helmet',
+    'avaritia:infinity_chestplate',
+    'avaritia:infinity_pants',
+    'avaritia:infinity_boots'
 ])
 
 ServerEvents.recipes(event => {

@@ -485,6 +485,307 @@
 			x: -2.0d
 			y: 20.0d
 		}
+		{
+			dependencies: ["5A046BB315A65D82"]
+			id: "5245BA421F1F719A"
+			tasks: [{
+				id: "74E39FA50BC56E0A"
+				item: "avaritia:extreme_smithing_table"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["5A046BB315A65D82"]
+			id: "3D3BFD033398DED3"
+			tasks: [{
+				id: "7AA3DB301CE6B737"
+				item: "avaritia:upgrade_smithing_template"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["5A046BB315A65D82"]
+			id: "62BFFD5FAB54990F"
+			tasks: [{
+				id: "359600A28CCB0736"
+				item: "avaritia:enhancement_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"5245BA421F1F719A"
+				"3D3BFD033398DED3"
+				"62BFFD5FAB54990F"
+			]
+			id: "3D33934BB59E2B9F"
+			size: 1.5d
+			tasks: [{
+				id: "019F50C7FC870F1E"
+				item: "avaritia:infinity_chest"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"3D33934BB59E2B9F"
+				"44C9BBECC27A0F04"
+				"20684A2C0CF8698E"
+			]
+			id: "0D679AC3DBC042D5"
+			tasks: [{
+				id: "4584784FB25DF78E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									charge_armor: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_main: {
+										hud: 1b
+									}
+								}
+								provider_id: [I;
+									449981265
+									-1576514788
+									-1362700098
+									-1284536259
+								]
+							}
+						}
+					}
+					id: "draconicevolution:creative_capacitor"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["3D33934BB59E2B9F"]
+			hide_dependency_lines: true
+			id: "44C9BBECC27A0F04"
+			tasks: [{
+				id: "439B4C865A02DCA7"
+				item: "draconicevolution:chaotic_core"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["62BFFD5FAB54990F"]
+			id: "6B3BA450D456CE88"
+			tasks: [{
+				id: "7B555935787FDDAF"
+				item: "thermal:machine_efficiency_creative_augment"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["5A046BB315A65D82"]
+			hide_dependent_lines: true
+			id: "20684A2C0CF8698E"
+			tasks: [{
+				id: "3F7BB830BD06359F"
+				item: "ae2:creative_energy_cell"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["0D679AC3DBC042D5"]
+			id: "765E2516264D478B"
+			tasks: [{
+				id: "0A577AD9F9FD7901"
+				item: "draconicevolution:creative_op_capacitor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 28.0d
+		}
+		{
+			dependencies: [
+				"3D3BFD033398DED3"
+				"62BFFD5FAB54990F"
+			]
+			id: "1C61FBADD03C83EE"
+			tasks: [{
+				id: "713C5D0DED6B472C"
+				item: "avaritia:endless_cake"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"3D3BFD033398DED3"
+				"62BFFD5FAB54990F"
+			]
+			id: "7A7BF5077C5003DF"
+			tasks: [{
+				id: "46BE021EFF4CB8C9"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_totem"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["1C61FBADD03C83EE"]
+			id: "4289918CEDE912D8"
+			tasks: [{
+				id: "7542B4FC8C8898E0"
+				item: "botania:creative_pool"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["1C61FBADD03C83EE"]
+			id: "250C78EA822146C0"
+			tasks: [{
+				id: "179017681DBB4BFD"
+				item: "mekanism:creative_fluid_tank"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["7A7BF5077C5003DF"]
+			id: "4785D364487014C3"
+			tasks: [{
+				id: "24D0E1F9A6816E3A"
+				item: "avaritia:infinity_helmet"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["7A7BF5077C5003DF"]
+			id: "212CA24DB0F70642"
+			tasks: [{
+				id: "73D8681FFFA14BB2"
+				item: "avaritia:infinity_chestplate"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["7A7BF5077C5003DF"]
+			id: "560406F41455F85E"
+			tasks: [{
+				id: "11EFEA650E4F27DC"
+				item: "avaritia:infinity_pants"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["7A7BF5077C5003DF"]
+			id: "7A708CBD930002C6"
+			tasks: [{
+				id: "4255A7EB399E1906"
+				item: "avaritia:infinity_boots"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["5A046BB315A65D82"]
+			id: "775C01C0D4FB454A"
+			tasks: [{
+				id: "2FC0885A6F7468B9"
+				item: "embers:creative_ember_source"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["1C61FBADD03C83EE"]
+			id: "5D5FECDFE9CA8485"
+			tasks: [{
+				id: "28BA06AE177CA4EB"
+				item: "create:creative_motor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["62BFFD5FAB54990F"]
+			id: "1D01F4605C04AC6C"
+			tasks: [{
+				id: "537A785903BDDF61"
+				item: "mekanism_extras:upgrade_creative"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"4785D364487014C3"
+				"212CA24DB0F70642"
+				"4289918CEDE912D8"
+				"250C78EA822146C0"
+				"560406F41455F85E"
+				"7A708CBD930002C6"
+				"765E2516264D478B"
+				"5D5FECDFE9CA8485"
+			]
+			hide_dependency_lines: true
+			id: "07AFC243057E8E4F"
+			size: 2.0d
+			tasks: [{
+				id: "2A96A95C82F9AFC8"
+				item: "functionalstorage:creative_vending_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 36.0d
+		}
 	]
 	title: "7. 句点 | Full Stop"
 }

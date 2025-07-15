@@ -1,0 +1,26 @@
+{
+    "name": "singularity.avaritia.dawnstone",
+    "colors":
+    [
+        "fdc65f",
+        "cc900e"
+    ],
+    "timeRequired": 100,
+    "conditions":
+    [
+        {
+            "type": "forge:not",
+            "value":
+            {
+                "tag": "forge:ingots/dawnstone",
+                "type": "forge:tag_empty"
+            }
+        }
+    ],
+    "ingredient":
+    {
+        "tag": "forge:ingots/dawnstone"
+    },
+    "enabled": true,
+    "recipeDisabled": false
+}

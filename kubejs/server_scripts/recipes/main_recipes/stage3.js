@@ -18,6 +18,20 @@ ServerEvents.recipes(event => {
     'forestry:apiary'
   )
 
+  event.shaped(
+    'mekanism_extras:expand_radioactive_waste_barrel',
+    [
+      'SIS',
+      'IMI',
+      'SIS'
+    ],
+    {
+      I: 'mekanism:radioactive_waste_barrel',
+      S: '#forge:storage_blocks/lead',
+      M: 'nuclearcraft:decay_hastener'
+    }
+  ).id('kubejs:expand_radioactive_waste_barrel_s3');
+
   event.shaped('minecraft:iron_trapdoor', [
     'AA',
     'AA'

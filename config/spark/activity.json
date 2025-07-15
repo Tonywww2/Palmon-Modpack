@@ -141,18 +141,5 @@
       "type": "url",
       "value": "https://spark.lucko.me/H8bROo9nwX"
     }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "Tonywww",
-      "uniqueId": "f6089ffd-51ed-41f5-b7fc-60062f9e317d"
-    },
-    "time": 1747332515378,
-    "type": "Profiler (live)",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/RcW5tggNUn"
-    }
   }
 ]
