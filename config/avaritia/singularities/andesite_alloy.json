@@ -6,6 +6,7 @@
         "999999"
     ],
     "timeRequired": 100,
+    "materialCount": 8000,
     "conditions":
     [
         {

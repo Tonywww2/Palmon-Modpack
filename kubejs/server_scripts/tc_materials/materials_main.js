@@ -202,6 +202,24 @@ ServerEvents.highPriorityData(event => {
             },
 
             /**
+             * 添加弓臂（Limb）属性
+             * @param {number} accuracy
+             * @param {number} draw_speed
+             * @param {number} durability
+             * @param {number} velocity
+             * @returns {object} builder
+             */
+            addLimb(accuracy, draw_speed, durability, velocity) {
+                stats['tconstruct:limb'] = {
+                    accuracy: fixWithScale(accuracy, scaleA),
+                    draw_speed: fixWithScale(draw_speed, scaleB),
+                    durability: fixWithScale(durability, scaleD),
+                    velocity: fixWithScale(velocity, scaleE)
+                };
+                return builder;
+            },
+
+            /**
              * 添加弓把（Grip）属性
              * @param {number} accuracy
              * @param {number} durability
@@ -212,25 +230,7 @@ ServerEvents.highPriorityData(event => {
                 stats['tconstruct:grip'] = {
                     accuracy: accuracy,
                     durability: durability,
-                    melee_damage: melee_damage
-                };
-                return builder;
-            },
-
-            /**
-             * 添加弩机（Limb）属性
-             * @param {number} accuracy
-             * @param {number} draw_speed
-             * @param {number} durability
-             * @param {number} velocity
-             * @returns {object} builder
-             */
-            addLimb(accuracy, draw_speed, durability, velocity) {
-                stats['tconstruct:limb'] = {
-                    accuracy: accuracy,
-                    draw_speed: draw_speed,
-                    durability: durability,
-                    velocity: velocity
+                    melee_damage: fixWithScale(melee_damage, scaleB)
                 };
                 return builder;
             },

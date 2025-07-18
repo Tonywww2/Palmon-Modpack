@@ -429,7 +429,7 @@ registerBuff("slashblade_1", 1, ["fighter_3"], false,
     empty,
     empty,
     (event) => {
-        global.slashblade_damageAmmount += 0.75
+        global.slashblade_damageAmmount += 0.5
     })
 registerBuff("slashblade_2", 2, ["true_ending", "slashblade_1"], false,
     empty,
@@ -441,7 +441,7 @@ registerBuff("slashblade_3", 4, ["master_ending", "slashblade_1"], true,
     empty,
     empty,
     (event) => {
-        global.slashblade_damageAmmount += 1.5
+        global.slashblade_damageAmmount += 1.0
     })
 
 registerBuff("tank_1", 1, ["init"], false,
@@ -794,7 +794,7 @@ registerBuff("true_ending", 3, ["init"], false,
     empty)
 
 // *在tfc_wda中检测
-registerBuff("dungeon_1", 2, ["true_ending"], false,
+registerBuff("dungeon_1", 3, ["true_ending"], false,
     (event) => {
         event.player.give(Item.of('minecraft:iron_chestplate', '{Unbreakable:1b}'))
     },

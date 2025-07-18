@@ -37,7 +37,7 @@
 	"Neutron Collector Product Tick" = 3600
 	#Singularity default time required
 	#Range: > 0
-	"Singularity Time Required" = 240
+	"Singularity Time Required" = 120
 	#Growth soul farmland rate
 	#Range: 0.0 ~ 1.0
 	"Growth soul farmland rate" = 0.8

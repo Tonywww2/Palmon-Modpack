@@ -297,7 +297,7 @@ ServerEvents.recipes(event => {
             "type": "palmon:processing",
             "category": "misc",
             "focus_stat": "DEFENCE",
-            "min_level": 30,
+            "min_level": 25,
             "required_type": "steel",
             "base_hp": 0,
             "base_atk": 0,
@@ -307,13 +307,10 @@ ServerEvents.recipes(event => {
             "base_spe": 0,
             "area_blocks": [
                 {
-                    "tag": "tfc:anvils"
+                    "item": 'cataclysm:mechanical_fusion_anvil'
                 },
                 {
                     "tag": "forge:magma_block"
-                },
-                {
-                    "item": 'cataclysm:mechanical_fusion_anvil'
                 },
                 {
                     "item": 'embers:dawnstone_anvil'
@@ -324,7 +321,7 @@ ServerEvents.recipes(event => {
             "input_power": 0,
             "input_fluid": {
                 "fluid": "minecraft:water",
-                "amount": 500
+                "amount": 250
             },
             "tick": tick - 150,
             "result_items": [

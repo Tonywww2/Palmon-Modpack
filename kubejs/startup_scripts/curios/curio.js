@@ -636,21 +636,15 @@ StartupEvents.registry('item', event => {
             .curioTick((item, context) => {
             })
             .modifyAttribute(
-                "confluence:ranged_damage",
-                "epiphany_pendant_ranged_damage_addition",
-                0.5,
-                "addition"
-            )
-            .modifyAttribute(
-                "confluence:ranged_damage",
+                "attributeslib:arrow_damage",
                 "epiphany_pendant_ranged_damage_multiply",
-                0.5,
+                0.2,
                 "multiply_base"
             )
             .modifyAttribute(
-                "confluence:ranged_velocity",
-                "epiphany_pendant_ranged_velocity",
-                0.5,
+                "obscure_api:critical_hit",
+                "epiphany_pendant_critical_hit",
+                0.1,
                 "multiply_base"
             )
         )
@@ -792,7 +786,7 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "slashblade:slashblade_damage",
                 "ancient_proudsoul_tiny_slashblade_damage",
-                1.0,
+                0.6,
                 "multiply_base"
             )
             .modifyAttribute(

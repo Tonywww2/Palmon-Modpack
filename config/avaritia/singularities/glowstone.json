@@ -6,6 +6,7 @@
         "a06135"
     ],
     "timeRequired": 100,
+    "materialCount": 2000,
     "ingredient":
     {
         "item": "minecraft:glowstone_dust"

@@ -20,6 +20,8 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingShield(db * 0.9, 0.05, 2.0)
         .addBinding()
         .addMaille()
+        .addLimb(-0.1, -0.2, db, 9.1)
+        .addGrip(0.1, -0.1, 22)
         .addShieldCore()
         .build();
 
@@ -37,6 +39,8 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingShield(db * 0.9, 0.05, 2.0)
         .addBinding()
         .addMaille()
+        .addLimb(0.1, -0.1, db, 8.3)
+        .addGrip(0.1, 0.1, 19)
         .addTraits()
         .addDefaultTrait(1, 'tinkers_things:fortified')
         .addDefaultTrait(1, 'tconstruct:trueshot')
@@ -67,6 +71,8 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingShield(db * 0.9, 0.05, 2.0)
         .addBinding()
         .addMaille()
+        .addLimb(-0.2, -0.35, db, 10)
+        .addGrip(-0.1, -0.1, 21)
         .addTraits()
         .addDefaultTrait(1, 'tconstruct:heavy')
         .addDefaultTrait(1, 'etstlib:critical')
@@ -98,6 +104,8 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingShield(db * 0.9, 0.05, 2.0)
         .addBinding()
         .addMaille()
+        .addLimb(0.1, -0.2, db, 9.5)
+        .addGrip(0.2, -0.2, 26)
         .build();
 
     // —— 鳍 ——  
@@ -114,6 +122,8 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingShield(db * 0.9, 0.05, 2.0)
         .addBinding()
         .addMaille()
+        .addLimb(-0.05, 0, db, 7.7)
+        .addGrip(0, -0.2, 16)
         .addTraits()
         .addDefaultTrait(1, 'tconstruct:hydraulic')
         .addDefaultTrait(1, 'tinkers_advanced:blizz_inflict')
@@ -144,6 +154,8 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingShield(db * 0.9, 0.05, 2.0)
         .addBinding()
         .addMaille()
+        .addLimb(-0.15, -0.4, db, 12)
+        .addGrip(0.1, 0.15, 26)
         .addTraits()
         .addDefaultTrait(1, 'etstlib:extra_dense')
         .addDefaultTrait(1, 'tconstruct:magnetic')
@@ -174,6 +186,8 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingShield(db * 0.9, 0.05, 3.0)
         .addBinding()
         .addMaille()
+        .addLimb(-0.2, -0.2, db, 10.5)
+        .addGrip(-0.3, 0, 28)
         .build();
 
     // —— 震荡流明* ——  
@@ -190,6 +204,8 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingShield(db * 0.9, 0.05, 3.0)
         .addBinding()
         .addMaille()
+        .addLimb(0.2, -0.1, db, 10)
+        .addGrip(0.25, 0.2, 29)
         .build();
 
     // —— 高强 ——  
@@ -207,6 +223,8 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
+        .addLimb(0.1, -0.3, db, 11.9)
+        .addGrip(0, 0.45, 28)
         .addDefaultTrait(1, 'etstlib:extra_dense')
         .addDefaultTrait(1, 'tconstruct:kinetic')
         .build();
@@ -236,6 +254,8 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addTraits()
+        .addLimb(0.1, 0.2, db, 8.5)
+        .addGrip(0.1, 0.1, 30)
         .addDefaultTrait(1, 'tconstruct:worldbound')
         .addDefaultTrait(1, 'tconstruct:enhanced')
         .build();
@@ -263,6 +283,8 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingShield(db * 0.9, 0.05, 3.0)
         .addBinding()
         .addMaille()
+        .addLimb(0, -0.2, db, 11.2)
+        .addGrip(0, 0.2, 31)
         .build();
 
     // —— 钨* ——  
@@ -279,6 +301,8 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingShield(db * 0.9, 0.05, 3.0)
         .addBinding()
         .addMaille()
+        .addLimb(-0.25, -0.5, db, 15.5)
+        .addGrip(0.25, 0.7, 30)
         .build();
 
     // —— 铂* ——  
@@ -295,6 +319,8 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingShield(db * 0.9, 0.05, 3.0)
         .addBinding()
         .addMaille()
+        .addLimb(0.15, -0.25, db, 11.2)
+        .addGrip(-0.15, 0.4, 31)
         .build();
 
     // —— 现世合金 ——  
@@ -311,6 +337,8 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingShield(db * 0.9, 0.05, 3.0)
         .addBinding()
         .addMaille()
+        .addLimb(0, -0.2, db, 11.5)
+        .addGrip(0.05, 0.3, 33)
         .addTraits()
         .addDefaultTrait(1, 'tconstruct:invariant')
         .addDefaultTrait(1, 'tinkers_advanced:blitz_inflict')
@@ -341,6 +369,8 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingShield(db * 0.9, 0.05, 3.0)
         .addBinding()
         .addMaille()
+        .addLimb(0.4, -0.2, db, 12)
+        .addGrip(-0.35, 0.3, 32)
         .build();
 
     // —— 裂变反应堆外壳 ——  
@@ -357,6 +387,8 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingShield(db * 0.9, 0.05, 3.0)
         .addBinding()
         .addMaille()
+        .addLimb(-0.1, -0.35, db, 13.5)
+        .addGrip(0, 0, 31)
         .addTraits()
         .addDefaultTrait(1, 'etstlib:anisotropy')
         .addDefaultTrait(1, 'tinkers_things:fortified')
@@ -387,6 +419,8 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingShield(db * 0.9, 0.1, 3.0)
         .addBinding()
         .addMaille()
+        .addLimb(-0.2, -0.35, db, 15.5)
+        .addGrip(0, 0.2, 34)
         .build();
 
     // —— 稳态戴斯 ——  
@@ -403,6 +437,8 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingShield(db * 0.9, 0.1, 3.0)
         .addBinding()
         .addMaille()
+        .addLimb(0.1, -0.2, db, 12.5)
+        .addGrip(0.1, 0.3, 35)
         .addTraits()
         .addDefaultTrait(1, 'tcintegrations:oxygenated')
         .addDefaultTrait(1, 'tconstruct:invariant')
@@ -434,6 +470,8 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingShield(db * 0.9, 0.1, 3.0)
         .addBinding()
         .addMaille()
+        .addLimb(0, 0.3, db, 10)
+        .addGrip(-0.1, 0.1, 35)
         .addTraits()
         .addDefaultTrait(1, 'tcintegrations:soul_stained')
         .addDefaultTrait(1, 'tconstruct:enhanced')
@@ -466,6 +504,8 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addMaille()
         .addShieldCore()
         .addBowstring()
+        .addLimb(0, 0, db, 11.2)
+        .addGrip(0, 0.3, 36)
         .addTraits()
         .addDefaultTrait(1, 'etstlib:energetic_attack')
         .addDefaultTrait(1, 'tconstruct:stringy')
@@ -496,6 +536,8 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingShield(db * 0.9, 0.1, 3.0)
         .addBinding()
         .addMaille()
+        .addLimb(0.15, -0.2, db, 15)
+        .addGrip(0.15, 0.3, 73)
         .addTraits()
         .addDefaultTrait(1, 'tconstruct:heavy')
         .addDefaultTrait(1, 'tconstruct:ductile')
@@ -586,6 +628,8 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addShieldCore()
+        .addLimb(-0.1, -0.25, db, 15.5)
+        .addGrip(-0.1, 0.5, 38)
         .addTraits()
         .addDefaultTrait(1, 'tcintegrations:siren')
         .addDefaultTrait(1, 'tconstruct:hydraulic')
@@ -609,8 +653,8 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
     let activated_chromatic_steel = createMaterialBuilder('activated_chromatic_steel')
         .setCraftable(false).setSortOrder(sortOrder++).setTier(2).setNamespace("tinkers_advanced")
         .addStats()
-        .addHead(db, 76.0, 11.0, 'minecraft:netherite')
-        .addHandle(0.25, 0.6, 0.15, 0.25)
+        .addHead(db, 72.0, 11.0, 'minecraft:netherite')
+        .addHandle(0.25, 0.6, 0, 0.25)
         .addPlatingHelmet(9.0, db * 0.7, 0.1, 3.0)
         .addPlatingChestplate(14.0, db * 1.0, 0.1, 3.0)
         .addPlatingLeggings(12.0, db * 0.9, 0.1, 3.0)
@@ -618,6 +662,8 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingShield(db * 0.9, 0.1, 3.0)
         .addBinding()
         .addMaille()
+        .addLimb(0.1, -0.25, db, 14.5)
+        .addGrip(-0.15, 0.25, 38)
         .build();
 
     // 六方氮化硼 
@@ -634,6 +680,8 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingShield(db * 0.9, 0.1, 4.0)
         .addBinding()
         .addMaille()
+        .addLimb(0.4, -0.2, db, 15.5)
+        .addGrip(0.4, 0.4, 38)
         .addTraits()
         .addDefaultTrait(1, 'tconstruct:lacerating')
         .addDefaultTrait(1, 'tconstruct:sharpness')
@@ -695,6 +743,8 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addShieldCore()
+        .addLimb(0, -0.5, db, 24)
+        .addGrip(-0.15, 0.5, 44)
         .addTraits()
         .addDefaultTrait(1, 'tconstruct:dense')
         .addDefaultTrait(1, 'tconstruct:lustrous')

@@ -592,4 +592,50 @@ ServerEvents.recipes(event => {
             }
         ]
     }).id('kubejs:exp_candy_l_s4')
+
+    event.custom({
+        "type": "slashblade:shaped_blade",
+        "blade": "slashblade:kanze_masamune",
+        "category": "equipment",
+        "key": {
+            "B": {
+                "type": "item",
+                "item": "slashblade:proudsoul_ingot"
+            },
+            "D": {
+                "type": "slashblade:blade",
+                "item": "slashblade:slashblade",
+                "request": {
+                    "kill": 7,
+                    "proud_soul": 7,
+                    "refine": 0
+                }
+            },
+            "E": {
+                "type": "item",
+                "item": 'cataclysm:meat_shredder'
+            },
+            "S": {
+                "type": "item",
+                "item": "minecraft:diamond_sword"
+            },
+            "A": {
+                "type": "item",
+                "item": 'kubejs:essence_computation_frame'
+            },
+            "F": {
+                "type": "item",
+                "item": 'functionalstorage:diamond_upgrade'
+            }
+        },
+        "pattern": [
+            "ABE",
+            "BDB",
+            "SBF"
+        ],
+        "result": {
+            "item": "slashblade:slashblade"
+        },
+        "show_notification": true
+    }).id('kubejs:kanze_masamune_s4')
 })

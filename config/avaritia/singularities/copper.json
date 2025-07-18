@@ -6,6 +6,7 @@
         "bc5430"
     ],
     "timeRequired": 100,
+    "materialCount": 10000,
     "ingredient":
     {
         "item": "minecraft:copper_ingot"

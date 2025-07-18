@@ -581,45 +581,33 @@ StartupEvents.registry('item', event => {
             .curioTick((item, context) => {
             })
             .modifyAttribute(
-                "confluence:ranged_damage",
-                "photo_ranged_damage_addition",
-                1.0,
-                "addition"
-            )
-            .modifyAttribute(
-                "confluence:ranged_damage",
-                "photo_ranged_damage_multiply_total",
-                0.6,
-                "multiply_base"
-            )
-            .modifyAttribute(
-                "confluence:ranged_velocity",
-                "photo_ranged_velocity",
-                0.4,
+                "attributeslib:arrow_damage",
+                "photo_ranged_damage_multiply",
+                0.5,
                 "multiply_base"
             )
             .modifyAttribute(
                 "obscure_api:penetration",
                 "photo_penetration",
-                0.3,
-                "addition"
-            )
-            .modifyAttribute(
-                "minecraft:generic.armor",
-                "photo_armor",
-                8,
-                "addition"
-            )
-            .modifyAttribute(
-                "minecraft:generic.armor_toughness",
-                "photo_armor_toughness",
-                4,
+                0.4,
                 "addition"
             )
             .modifyAttribute(
                 "minecraft:generic.max_health",
                 "photo_max_health",
-                0.2,
+                0.1,
+                "multiply_base"
+            )
+            .modifyAttribute(
+                "obscure_api:critical_hit",
+                "epiphany_pendant_critical_hit",
+                0.1,
+                "multiply_base"
+            )
+            .modifyAttribute(
+                "minecraft:generic.movement_speed",
+                "photo_movement_speed",
+                -0.35,
                 "multiply_base"
             )
         )
@@ -734,13 +722,13 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "slashblade:slashblade_damage",
                 "izanagi_slashblade_damage_multiply_base",
-                1.75,
+                1.2,
                 "multiply_base"
             )
             .modifyAttribute(
                 "malum:scythe_proficiency",
                 "izanagi_scythe_proficiency_multiply_total",
-                14.75,
+                14.0,
                 "multiply_total"
             )
             .modifyAttribute(
@@ -792,7 +780,7 @@ StartupEvents.registry('item', event => {
                         let modifer = new $AttributeModifier(
                             apAtkDamageUUID,
                             apAtkDamage,
-                            foodCount * 0.5,
+                            foodCount * 0.4,
                             "addition"
                         )
 
@@ -814,13 +802,13 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "slashblade:slashblade_damage",
                 "ancient_proudsoul_slashblade_damage",
-                1.75,
+                1.2,
                 "multiply_base"
             )
             .modifyAttribute(
                 "confluence:magic_damage",
                 "ancient_proudsoul_magic_damage",
-                0.25,
+                0.3,
                 "multiply_total"
             )
         )

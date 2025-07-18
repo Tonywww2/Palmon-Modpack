@@ -261,7 +261,8 @@ global.idsToRemove = new Set([
     'avaritia:infinity_helmet',
     'avaritia:infinity_chestplate',
     'avaritia:infinity_pants',
-    'avaritia:infinity_boots'
+    'avaritia:infinity_boots',
+    'slashblade:kanze_masamune'
 ])
 
 ServerEvents.recipes(event => {

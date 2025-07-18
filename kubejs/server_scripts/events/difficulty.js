@@ -1,26 +1,6 @@
 /**
  * hp, armor, attack
  */
-// v2
-// global.dimAdder = {
-//     'kubejs:tfc_planet': [10, 0, 6],
-
-//     'minecraft:the_nether': [20, 14, 15],
-
-//     'minecraft:overworld': [40, 20, 24],
-//     'h:dungeon_dimension': [60, 35, 36],
-//     'ad_astra:moon': [50, 30, 28],
-//     'oceanworld:deepsea': [50, 30, 28],
-
-//     'ad_astra:mars': [80, 60, 36],
-//     'ad_astra:venus': [100, 80, 42],
-//     'ad_astra:mercury': [110, 90, 44],
-
-//     'minecraft:the_end': [140, 100, 52],
-//     'deeperdarker:otherside': [180, 120, 64],
-
-//     'rats:ratlantis': [240, 150, 72]
-// }
 global.dimAdder = {
     'minecraft:overworld': [10, 0, 4],
 
@@ -43,21 +23,21 @@ global.dimAdder = {
 global.dimMuti = {
     'minecraft:overworld': [1, 0.5, 0.8],
 
-    'minecraft:the_nether': [3.0, 0.7, 1.2],
+    'minecraft:the_nether': [3.2, 0.7, 1.2],
 
-    'kubejs:earth': [10, 1, 1.4],
-    'compactmachines:compact_world': [10, 1, 1.4],
-    'ad_astra:moon': [16, 1.35, 1.75],
-    'oceanworld:deepsea': [16, 1.35, 1.75],
+    'kubejs:earth': [12, 1, 1.4],
+    'compactmachines:compact_world': [12, 1, 1.4],
+    'ad_astra:moon': [20, 1.35, 1.75],
+    'oceanworld:deepsea': [20, 1.35, 1.75],
 
-    'ad_astra:mars': [26, 1.6, 2.65],
-    'ad_astra:venus': [28, 2, 2.75],
-    'ad_astra:mercury': [31, 2.1, 3.0],
+    'ad_astra:mars': [33, 1.6, 2.65],
+    'ad_astra:venus': [35, 2, 2.75],
+    'ad_astra:mercury': [38, 2.1, 3.0],
 
-    'minecraft:the_end': [42, 2.5, 3.5],
-    'deeperdarker:otherside': [48, 3, 4.0],
+    'minecraft:the_end': [54, 2.5, 3.5],
+    'deeperdarker:otherside': [60, 3, 4.0],
 
-    'rats:ratlantis': [96, 6.0, 4.5]
+    'rats:ratlantis': [128, 6.0, 4.5]
 }
 
 global.diffMultiplier = [
@@ -93,7 +73,7 @@ EntityEvents.spawned(event => {
     if (entity.isPlayer()) return
     if (global.entityBlackList.has(name)) return
     if (!entity.forgePersistentData) return
-    if (entity.forgePersistentData.contains('ova_difficulty')) return
+    if (entity.forgePersistentData.contains('dimension_difficulty')) return
 
     let dim = event.level.dimension.location().toString()
     let player = entity.getLevel().getNearestPlayer(entity, 240)
@@ -108,7 +88,7 @@ EntityEvents.spawned(event => {
 
     }
 
-    entity.persistentData.putString('ova_difficulty', dim)
+    entity.persistentData.putString('dimension_difficulty', dim)
 
     if (!global.dimAdder[dim]) {
         dim = 'kubejs:tfc_planet'

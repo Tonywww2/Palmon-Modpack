@@ -1,0 +1,14 @@
+{
+    "replace": true,
+    "values":
+    [
+        "minecraft:villager",
+        "minecraft:wandering_trader",
+        {
+            "id": "guardvillagers:guard",
+            "required": false
+        },
+        "minecraft:iron_golem",
+        "minecraft:snow_golem"
+    ]
+}

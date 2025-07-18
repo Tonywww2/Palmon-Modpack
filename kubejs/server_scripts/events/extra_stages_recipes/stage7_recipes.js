@@ -596,6 +596,41 @@ const stage7 = function (event) {
         }
     ).id('kubejs:creative_motor_s7')
 
+    event.recipes.avaritia.shaped_table(
+        4,
+        'functionalstorage:creative_vending_upgrade',
+        [
+            'AAABBBAAA',
+            'AAAACAAAA',
+            'AADEFEGAA',
+            'BAEAHAEAB',
+            'BCIJKLMCB',
+            'BAEANAEAB',
+            'AAOEPEQAA',
+            'AAAACAAAA',
+            'AAABBBAAA'
+        ],
+        {
+            A: 'avaritia:infinity',
+            B: 'avaritia:crystal_matrix',
+            C: 'avaritia:neutron',
+            D: 'create:creative_motor',
+            E: 'thermal:machine_efficiency_creative_augment',
+            F: 'avaritia:infinity_helmet',
+            G: 'botania:creative_pool',
+            H: 'nuclearcraft:chamber_terminal',
+            I: 'avaritia:infinity_chestplate',
+            J: 'sophisticatedbackpacks:stack_upgrade_tier_4',
+            K: 'draconicevolution:creative_op_capacitor',
+            L: 'functionalstorage:netherite_upgrade',
+            M: 'avaritia:infinity_boots',
+            N: 'mekanism_extras:upgrade_creative',
+            O: 'mekanism:creative_fluid_tank',
+            P: 'avaritia:infinity_pants',
+            Q: 'embers:creative_ember_source'
+        }
+    ).id('kubejs:creative_vending_upgrade_s7')
+
     event.recipes.avaritia.shapeless_table(
         4,
         '3x kubejs:ultimate_berry',
@@ -982,7 +1017,9 @@ const stage7 = function (event) {
             'ae2:cell_component_256k',
             'appflux:core_256k',
             'forestry:ambrosia',
-            'forestry:ambrosia',
+            'forestry:royal_jelly',
+            'industrialforegoing:machine_frame_supreme',
+            Item.of('cuisinedelight:vegetable_platter', '{CookedFoodData:{entries:[{burnt:0b,overcooked:0b,raw:0b,itemSize:1,stack:{Count:1b,id:"minecraft:golden_carrot"}},{burnt:0b,overcooked:0b,raw:0b,itemSize:1,stack:{Count:1b,id:"minecraft:enchanted_golden_apple"}}],score:100,size:2,total:2,types:["VEG"]}}').weakNBT(),
             'avaritia:star_fuel'
         ]).id('avaritia:infinity_catalyst')
 

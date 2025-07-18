@@ -6,6 +6,7 @@
         "8a0901"
     ],
     "timeRequired": 100,
+    "materialCount": 4000,
     "ingredient":
     {
         "item": "minecraft:redstone"

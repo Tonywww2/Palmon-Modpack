@@ -6,6 +6,7 @@
         "d98e04"
     ],
     "timeRequired": 100,
+    "materialCount": 8000,
     "ingredient":
     {
         "item": "minecraft:gold_ingot"

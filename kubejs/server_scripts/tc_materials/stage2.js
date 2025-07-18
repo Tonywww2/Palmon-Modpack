@@ -17,6 +17,8 @@ function stage2Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingLeggings(4.0, db * 0.9, 0, 1.0)
         .addPlatingBoots(2.0, db * 0.6, 0, 1.0)
         .addBinding()
+        .addLimb(0, -0.1, db, 2.3)
+        .addGrip(-0.15, 0.1, 8)
         .addTraits()
         .addDefaultTrait(1, 'tconstruct:fiery')
         .addDefaultTrait(1, 'tconstruct:lightweight')
@@ -46,6 +48,8 @@ function stage2Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingLeggings(4.0, db * 0.9, 0, 1.0)
         .addPlatingBoots(2.0, db * 0.6, 0, 1.0)
         .addBinding()
+        .addLimb(-0.2, -0.4, db, 3.4)
+        .addGrip(0, -0.3, 9)
         .addTraits()
         .addDefaultTrait(1, 'tconstruct:blasting')
         .addDefaultTrait(1, 'tinkers_things:weakness')
@@ -69,7 +73,7 @@ function stage2Materials(createMaterialBuilder, registerMaterialProcess) {
         .setCraftable(true).setSortOrder(sortOrder++).setTier(1).setNamespace('tcintegrations')
         .addStats()
         .addHead(db, 13.0, 6.0, 'minecraft:diamond')
-        .addHandle(0.0, 0.15, 0.2, 0.0)
+        .addHandle(0, 0.15, 0.2, 0.0)
         .addPlatingHelmet(4.0, db * 0.7, 0, 1.0)
         .addPlatingChestplate(4.0, db * 1.0, 0, 1.0)
         .addPlatingLeggings(4.0, db * 0.9, 0, 1.0)
@@ -77,6 +81,8 @@ function stage2Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addShieldCore()
+        .addLimb(-0.1, -0.15, db, 2.7)
+        .addGrip(0, 0, 6)
         .build();
 
     // 活石*
@@ -93,6 +99,8 @@ function stage2Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addShieldCore()
+        .addLimb(-0.2, -0.3, db, 3.0)
+        .addGrip(-0.2, 0.1, 7)
         .build();
 
     // 魔力钢*
@@ -109,6 +117,8 @@ function stage2Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingShield(db * 0.9, 0.05, 1.0)
         .addBinding()
         .addMaille()
+        .addLimb(0.1, -0.3, db, 3.8)
+        .addGrip(0, 0.1, 10)
         .build();
 
     // 赛特斯*
@@ -117,13 +127,15 @@ function stage2Materials(createMaterialBuilder, registerMaterialProcess) {
         .setCraftable(true).setSortOrder(sortOrder++).setTier(1).setNamespace('tinkers_advanced')
         .addStats()
         .addHead(db, 19.0, 8.0, 'minecraft:diamond')
-        .addHandle(0.0, 0.2, 0.0, 0.3)
+        .addHandle(0, 0.2, 0.0, 0.3)
         .addPlatingHelmet(4.0, db * 0.7, 0.05, 2.0)
         .addPlatingChestplate(5.0, db * 1.0, 0.05, 1.0)
         .addPlatingLeggings(4.0, db * 0.9, 0.05, 1.0)
         .addPlatingBoots(3.0, db * 0.6, 0.05, 2.0)
         .addBinding()
         .addMaille()
+        .addLimb(-0.2, -0.1, db, 3.5)
+        .addGrip(0.2, 0, 9)
         .build();
 
     // 血曜石*
@@ -140,6 +152,8 @@ function stage2Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addShieldCore()
+        .addLimb(-0.2, -0.45, db, 5.0)
+        .addGrip(0, -0.2, 11)
         .build();
 
     // 黎明石
@@ -157,6 +171,8 @@ function stage2Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addShieldCore()
+        .addLimb(0.1, -0.3, db, 4.6)
+        .addGrip(-0.15, 0.2, 11)
         .addTraits()
         .addDefaultTrait(1, 'etstlib:glowing')
         .addDefaultTrait(1, 'tconstruct:dwarven')
@@ -187,6 +203,8 @@ function stage2Materials(createMaterialBuilder, registerMaterialProcess) {
         .addPlatingLeggings(5.0, db * 0.9, 0.05, 2.0)
         .addPlatingBoots(3.0, db * 0.6, 0.05, 2.0)
         .addBinding()
+        .addLimb(-0.1, -0.15, db, 4.2)
+        .addGrip(0, 0.2, 11)
         .build();
 
     // 狱烬下界合金*
@@ -204,6 +222,8 @@ function stage2Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addShieldCore()
+        .addLimb(0.1, -0.3, db, 5.3)
+        .addGrip(-0.3, 0.3, 14)
         .build();
 
     // 马玉灵*
@@ -221,6 +241,8 @@ function stage2Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addShieldCore()
+        .addLimb(-0.1, -0.35, db, 5.6)
+        .addGrip(0, 0.2, 13)
         .build();
 
     // Beta
@@ -237,6 +259,8 @@ function stage2Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addShieldCore()
+        .addLimb(0, -0.3, db, 11.3)
+        .addGrip(-0.1, 0.3, 36)
         .addTraits()
         .addDefaultTrait(1, 'tinkers_things:fortified')
         .addDefaultTrait(1, 'tconstruct:piercing')
@@ -269,6 +293,8 @@ function stage2Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addShieldCore()
+        .addLimb(-0.2, -0.5, db, 11.2)
+        .addGrip(-0.1, 0.4, 16)
         .addTraits()
         .addDefaultTrait(1, 'tconstruct:netherite')
         .addDefaultTrait(1, 'tconstruct:insatiable')
@@ -300,6 +326,8 @@ function stage2Materials(createMaterialBuilder, registerMaterialProcess) {
         .addBinding()
         .addMaille()
         .addShieldCore()
+        .addLimb(0, -0.2, db, 9.1)
+        .addGrip(0.1, 0.1, 13)
         .addTraits()
         .addDefaultTrait(1, 'tcintegrations:mana')
         .addDefaultTrait(1, 'etstlib:terra_beam')

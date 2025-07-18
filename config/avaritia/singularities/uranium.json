@@ -1,22 +1,27 @@
 {
-  "name": "singularity.avaritia.uranium",
-  "colors": [
-    "d2f9d1",
-    "a6c5a4"
-  ],
-  "timeRequired": 100,
-  "conditions": [
+    "name": "singularity.avaritia.uranium",
+    "colors":
+    [
+        "d2f9d1",
+        "a6c5a4"
+    ],
+    "timeRequired": 100,
+    "materialCount": 2000,
+    "conditions":
+    [
+        {
+            "type": "forge:not",
+            "value":
+            {
+                "tag": "forge:ingots/uranium",
+                "type": "forge:tag_empty"
+            }
+        }
+    ],
+    "ingredient":
     {
-      "type": "forge:not",
-      "value": {
-        "tag": "forge:ingots/uranium",
-        "type": "forge:tag_empty"
-      }
-    }
-  ],
-  "ingredient": {
-    "tag": "forge:ingots/uranium"
-  },
-  "enabled": true,
-  "recipeDisabled": false
+        "tag": "forge:ingots/uranium"
+    },
+    "enabled": true,
+    "recipeDisabled": false
 }

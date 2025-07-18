@@ -413,6 +413,7 @@ ServerEvents.recipes(event => {
         event.recipes.createFilling(t, [t, Fluid.of('techreborn:glyceryl', 250)]),
         event.recipes.createPressing(t, t),
         event.recipes.createDeploying(t, [t, 'techreborn:uu_matter']),
+        event.recipes.createDeploying(t, [t, 'industrialforegoing:machine_frame_advanced']),
         event.recipes.createDeploying(t, [t, 'thermal_extra:dragonsteel_glass'])
     ]).transitionalItem(t)
         .loops(4)
@@ -459,7 +460,6 @@ ServerEvents.recipes(event => {
             Item.of('draconicevolution:draconium_dust', 1).toJson()
         ]
     }).id('kubejs:awakened_draconium_dust_s6')
-
 
     event.custom({
         "type": "palmon:processing",
@@ -629,6 +629,27 @@ ServerEvents.recipes(event => {
         "DRACONIC",
         10000000,
         'kubejs:voltaic_crystal_s6'
+    )
+
+    deFusionCrafting(event, [
+        Item.of('cobblemon:beast_ball').toJson(),
+        Item.of('cobblemon:beast_ball').toJson(),
+        Item.of('cobblemon:beast_ball').toJson(),
+        Item.of('cobblemon:beast_ball').toJson(),
+        Item.of('techreborn:iridium_alloy_ingot').toJson(),
+        Item.of('techreborn:iridium_alloy_ingot').toJson(),
+        Item.of('techreborn:iridium_alloy_ingot').toJson(),
+        Item.of('techreborn:iridium_alloy_ingot').toJson(),
+        Item.of('cataclysm:ancient_metal_ingot').toJson(),
+        Item.of('cataclysm:ancient_metal_ingot').toJson(),
+        Item.of('cataclysm:ignitium_ingot').toJson(),
+        Item.of('cataclysm:ignitium_ingot').toJson()
+    ],
+        Item.of('kubejs:essence_computation_frame').toJson(),
+        Item.of('kubejs:ultra_space_resourse_point').toJson(),
+        "DRACONIC",
+        5000000,
+        'kubejs:ultra_space_resourse_point_s6'
     )
 
 })

@@ -6,6 +6,7 @@
         "1b53a7"
     ],
     "timeRequired": 100,
+    "materialCount": 8000,
     "ingredient":
     {
         "item": "minecraft:lapis_lazuli"

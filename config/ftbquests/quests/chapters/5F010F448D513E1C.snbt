@@ -101,6 +101,17 @@
 			x: 0.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["0714A09D27EF360F"]
+			id: "0F0F1596177C3640"
+			tasks: [{
+				id: "7169897D3E0FDF1B"
+				type: "checkmark"
+			}]
+			title: "挑战"
+			x: 2.0d
+			y: 0.0d
+		}
 	]
 	title: "时间之外的往事 | E.O.T."
 }

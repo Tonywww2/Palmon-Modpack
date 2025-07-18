@@ -6,6 +6,7 @@
         "6c6c6c"
     ],
     "timeRequired": 100,
+    "materialCount": 8000,
     "ingredient":
     {
         "item": "minecraft:iron_ingot"

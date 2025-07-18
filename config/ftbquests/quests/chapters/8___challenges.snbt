@@ -3,9 +3,20 @@
 	default_quest_shape: ""
 	filename: "8___challenges"
 	group: "292B2A0F4D1DF208"
+	icon: "botania:animated_torch"
 	id: "425C584E07F9F3C5"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["5266C8EFE39F85D9"]
+		id: "4B60E9B9E4E4220F"
+		tasks: [{
+			id: "7F3437125D150BD2"
+			type: "checkmark"
+		}]
+		title: "试炼"
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "8. 试炼 | Challenges"
 }

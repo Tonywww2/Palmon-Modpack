@@ -1,0 +1,10 @@
+
+#SlashBlade Skin settings
+[common]
+	#Set the experience level consumption for obtaining SlashBlade Skin.(default: 10)
+	#Range: > 0
+	skin_exp_cost = 10
+	#Set the proud soul consumption for obtaining SlashBlade Skin.(default: 1000)
+	#Range: > 0
+	skin_soul_cost = 1000
+

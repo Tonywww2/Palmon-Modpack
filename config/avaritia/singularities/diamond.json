@@ -6,6 +6,7 @@
         "1aaca8"
     ],
     "timeRequired": 100,
+    "materialCount": 2000,
     "ingredient":
     {
         "item": "minecraft:diamond"

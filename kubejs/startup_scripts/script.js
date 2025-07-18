@@ -123,6 +123,7 @@ StartupEvents.registry('item', event => {
 })
 
 StartupEvents.registry('block', event => {
+	event.create('ultra_space_resourse_point').displayName('§eUltra Space Resourse Point').notSolid().tagBlock('minecraft:mineable/pickaxe')
 
 })
 

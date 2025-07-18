@@ -6,6 +6,7 @@
         "8e1a"
     ],
     "timeRequired": 100,
+    "materialCount": 4000,
     "ingredient":
     {
         "item": "minecraft:emerald"

@@ -14,7 +14,7 @@
 	#Max upgrade slot bonus for Shaping modifier, 3 by default.
 	#最大加槽，默认3。
 	#Range: > 1
-	shaping_max_slot = 3
+	shaping_max_slot = 2
 	#How many durability loss is needed for Shaping modifier to gain 1 slot, 500 by default.
 	#磨损多少耐久才加1升级槽，默认500。
 	#Range: > 1
@@ -34,11 +34,11 @@
 	#Max bonus for Radiation Burning and Radioactive Armor, 0.75 by default.
 	#最大增益，默认0.75。
 	#Range: 0.0 ~ 1.0
-	irradium_max_bonus = 0.75
+	irradium_max_bonus = 0.5
 	#Radiation amount for Radiation Burning and Radioactive Armor each trait level, 1.0 Sv by default.
 	#辐射施加，默认1.0Sv。
 	#Range: 0.0 ~ 1.7976931348623157E308
-	irradium_radiation_inflict = 1.0
+	irradium_radiation_inflict = 0.5
 	#Bonus for Radiation Burning and Radioactive Armor each Sv, 0.05 by default.
 	#每Sv辐射造成的增幅，默认0.05。
 	#Range: 0.0 ~ 1.0
@@ -52,7 +52,7 @@
 	#Extra durability cost for Fragile, 1 by default.
 	#额外消耗的耐久，默认1。
 	#Range: > 0
-	fragile_cost = 1
+	fragile_cost = 10
 	#Reactive Explosive Armor
 	#Allows Reactive Explosive Armor Modifier to block explosion and fire damage, true by default.
 	reactive_explosive_armor_immunity = true
@@ -102,7 +102,7 @@
 	#Energy per damage each level, 10 by default.
 	#每级每点伤害产生的能量，默认10FE。
 	#Range: > 0
-	piezoelectric_effect_generation_per_damage = 10
+	piezoelectric_effect_generation_per_damage = 100
 	#Basic FE/t for each level of Electric Food modifier, 100 by default
 	#充电饱的基础每tick消耗，默认100FE/t。
 	#Range: > 0
@@ -124,11 +124,11 @@
 	#Explosion damage multiplier for Annihilation Modifier, 5 by default.
 	#湮灭词条造成的爆炸伤害倍率，默认5倍。
 	#Range: 0.0 ~ 2.147483647E9
-	annihilation_attack_multiplier = 5.0
+	annihilation_attack_multiplier = 3.0
 	#Explosion damage multiplier that deals to attacker, 2.5 by default.
 	#湮灭词条对自己造成的爆炸伤害倍率，默认2.5倍
 	#Range: 0.0 ~ 2.147483647E9
-	annihilation_attack_self_multiplier = 2.5
+	annihilation_attack_self_multiplier = 1.5
 	#Basic FE/t for each level of Smeltery Generator modifier, 300 by default
 	#冶炼炉能量模块基础的每tick能量产出。默认300 FE/t。
 	#Range: > 0
@@ -160,7 +160,7 @@
 	#Chance for dodging arrow each level, 0.25 by default.
 	#每级闪避箭矢的概率，默认0.25。
 	#Range: 0.0 ~ 1.0
-	void_dodging_chance = 0.25
+	void_dodging_chance = 0.15
 	#Basic FE/t for each level of Compressed Air Generator modifier, 200 by default
 	#气动能量模块基础的每tick能量产出，默认50FE/t。注：最终产能会乘以工具压力。
 	#Range: > 0

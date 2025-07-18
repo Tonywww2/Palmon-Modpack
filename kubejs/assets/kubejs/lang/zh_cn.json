@@ -128,6 +128,8 @@
     "item.kubejs.izanagis_burden": "§d⌈伊邪那岐的重担⌋",
     "item.kubejs.ancient_proudsoul": "§d⌈古刀之耀魂⌋",
 
+    "block.kubejs.ultra_space_resourse_point": "§e究极空间资源点",
+
     "item.jaopca.dusts.ostrum": "紫金粉",
     "item.jaopca.dusts.desh": "戴斯粉",
 
@@ -331,13 +333,13 @@
     "kubejs.eot.fighter_5_desc": "·属性 攻击伤害 + 5 \n·属性 攻击速度 + 10% \n·属性 暴击率 + 0.05 ",
     
     "kubejs.eot.slashblade_1_name": "[拔刀术]",
-    "kubejs.eot.slashblade_1_desc": "·属性 拔刀剑伤害系数 + 75%",
+    "kubejs.eot.slashblade_1_desc": "·属性 拔刀剑伤害系数 + 50%",
     
     "kubejs.eot.slashblade_2_name": "[刀剑精通]",
     "kubejs.eot.slashblade_2_desc": "·属性 拔刀剑伤害系数 + 75%",
     
     "kubejs.eot.slashblade_3_name": "[剑术大师]",
-    "kubejs.eot.slashblade_3_desc": "·属性 拔刀剑伤害系数 + 150%",
+    "kubejs.eot.slashblade_3_desc": "·属性 拔刀剑伤害系数 + 100%",
 
     "kubejs.eot.tank_1_name": "[学徒坦克]",
     "kubejs.eot.tank_1_desc": "·属性 生命值 + 5%",
