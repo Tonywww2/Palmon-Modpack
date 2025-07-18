@@ -23,8 +23,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | getLevel |  |  | Level | ✘ |
 | getEntity |  |  | Entity | ✘ |
-| getClaimPos |  |  | BlockPos | ✘ |
 | getPlayer |  |  | Player | ✘ |
+| getClaimPos |  |  | BlockPos | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |

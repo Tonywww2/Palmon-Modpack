@@ -23,13 +23,13 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| removeKnockback |  |  | void | ✘ |
 | removeAffectedBlock | BlockContainerJS |  | void | ✘ |
 | removeAllAffectedBlocks |  |  | void | ✘ |
-| removeAffectedEntity | Entity |  | void | ✘ |
 | removeAllAffectedEntities |  |  | void | ✘ |
-| getAffectedBlocks |  |  | List<BlockContainerJS> | ✘ |
+| removeAffectedEntity | Entity |  | void | ✘ |
 | getAffectedEntities |  |  | EntityArrayList | ✘ |
+| getAffectedBlocks |  |  | List<BlockContainerJS> | ✘ |
+| removeKnockback |  |  | void | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getPosition |  |  | Vec3 | ✘ |
 | getBlock |  |  | BlockContainerJS | ✘ |
@@ -48,11 +48,6 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ### Documented members:
 
-- `void removeKnockback()`
-```
-Remove all knockback from all affected *players*.
-```
-
 - `void removeAffectedBlock(BlockContainerJS var0)`
 
   Parameters:
@@ -67,6 +62,11 @@ Remove a block from the list of affected blocks.
 Remove all blocks from the list of affected blocks.
 ```
 
+- `void removeAllAffectedEntities()`
+```
+Remove all entities from the list of affected entities.
+```
+
 - `void removeAffectedEntity(Entity var0)`
 
   Parameters:
@@ -76,9 +76,9 @@ Remove all blocks from the list of affected blocks.
 Remove an entity from the list of affected entities.
 ```
 
-- `void removeAllAffectedEntities()`
+- `EntityArrayList getAffectedEntities()`
 ```
-Remove all entities from the list of affected entities.
+Gets a list of all entities affected by the explosion.
 ```
 
 - `List<BlockContainerJS> getAffectedBlocks()`
@@ -86,9 +86,9 @@ Remove all entities from the list of affected entities.
 Gets a list of all blocks affected by the explosion.
 ```
 
-- `EntityArrayList getAffectedEntities()`
+- `void removeKnockback()`
 ```
-Gets a list of all entities affected by the explosion.
+Remove all knockback from all affected *players*.
 ```
 
 - `Object exit(Object var0)`

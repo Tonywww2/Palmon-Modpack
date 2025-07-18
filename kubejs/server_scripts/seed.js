@@ -1,13 +1,10 @@
 // priority: 70
-
-const $long = Java.loadClass("java.lang.Long")
-
 global.jsonData = null
 
 // 种子， 随机数列表，列表当前位置
 global.seed = ""
 global.levelRandomMap = []
-global.randonIndex = 0
+global.randomIndex = 0
 
 const s3MaterialList = ['jaopca:processors.iesnium', 'nuclearcraft:barium_dust', 'forestry:flexible_casing', 'malum:void_tablet', 'kubejs:elite_mechanism_final', 'kubejs:ember_profile']
 const s4MaterialList = ['kubejs:marid_binded_gem', 'kubejs:superconducting_coil_type_1', 'kubejs:unify_essence', 'draconicevolution:wyvern_core', 'industrialforegoing:machine_frame_supreme', 'jaopca:processors.calorite']
@@ -76,7 +73,8 @@ savePackData(global.jsonData)
 
 // Seed 和随机Map
 const random = Utils.random
-random.setSeed($long.parseLong(global.seed.replace('L', ""), 10))
+const longSeed = $Long.parseLong(global.seed.replace('L', ""), 10) + 34
+random.setSeed(longSeed)
 
 for (let i = 0; i < 1280; i++) {
     global.levelRandomMap.push(random.nextDouble())
@@ -131,6 +129,7 @@ global.occ_trigger = false
 
 ServerEvents.recipes((event) => {
 
+    console.log(`Begin Index: ${global.randomIndex}`)
     // stage 1 1+1
     // main
     let s1m = generateUniqueIntegers(3, 1)
@@ -276,6 +275,8 @@ ServerEvents.recipes((event) => {
 
     }
 
+    console.log(`Final Index: ${global.randomIndex}`)
+
 })
 
 function generateUniqueIntegers(size, n) {
@@ -297,10 +298,10 @@ function generateUniqueIntegers(size, n) {
 }
 
 function randomNext(range) {
-    if (global.randonIndex >= global.levelRandomMap.length) {
-        global.randonIndex = 0
+    if (global.randomIndex >= global.levelRandomMap.length) {
+        global.randomIndex = 0
     }
-    return Math.floor(global.levelRandomMap[global.randonIndex++] * range)
+    return Math.floor(global.levelRandomMap[global.randomIndex++] * range)
 }
 
 /**

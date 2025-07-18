@@ -26,21 +26,21 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getLevel |  |  | Level | ✘ |
-| getAnimalProperties |  |  | TFCAnimalProperties | ✘ |
-| setItemProduct | ItemStack |  | void | ✘ |
-| setFluidProduct | FluidStackJS |  | void | ✘ |
-| isItemProduct |  |  | boolean | ✘ |
 | getItemProduct |  |  | ItemStack | ✘ |
-| getUses |  |  | int | ✘ |
-| setUses | int |  | void | ✘ |
 | getFluidProduct |  |  | FluidStackJS | ✘ |
+| isItemProduct |  |  | boolean | ✘ |
+| getUses |  |  | int | ✘ |
+| setFluidProduct | FluidStackJS |  | void | ✘ |
+| setUses | int |  | void | ✘ |
+| setItemProduct | ItemStack |  | void | ✘ |
 | getBlock |  |  | BlockContainerJS | ✘ |
+| getPlayer |  |  | Player | ✘ |
 | getTool |  |  | ItemStack | ✘ |
 | getAnimal |  |  | Entity | ✘ |
-| getPlayer |  |  | Player | ✘ |
-| hasGameStage | String |  | boolean | ✘ |
-| addGameStage | String |  | void | ✘ |
+| getAnimalProperties |  |  | TFCAnimalProperties | ✘ |
 | removeGameStage | String |  | void | ✘ |
+| addGameStage | String |  | void | ✘ |
+| hasGameStage | String |  | boolean | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
@@ -52,18 +52,24 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ### Documented members:
 
-- `TFCAnimalProperties getAnimalProperties()`
+- `ItemStack getItemProduct()`
 ```
-Returns TFC animal properties of the animal
+Returns the item product of the event, may be empty if the product is a fluid
 ```
 
-- `void setItemProduct(ItemStack var0)`
-
-  Parameters:
-  - var0: ItemStack
-
+- `FluidStackJS getFluidProduct()`
 ```
-Sets the item product, attempting to use this on an event originally producing a fluid will void the product
+Returns the fluid product of the event, may be empty if the product is an item
+```
+
+- `boolean isItemProduct()`
+```
+Returns true if the event's product is an item and not a fluid
+```
+
+- `int getUses()`
+```
+How much 'wear' the animal will take from the event
 ```
 
 - `void setFluidProduct(FluidStackJS var0)`
@@ -75,21 +81,6 @@ Sets the item product, attempting to use this on an event originally producing a
 Sets the fluid product, attempting to use this on an event originally producing an item will void the product
 ```
 
-- `boolean isItemProduct()`
-```
-Returns true if the event's product is an item and not a fluid
-```
-
-- `ItemStack getItemProduct()`
-```
-Returns the item product of the event, may be empty if the product is a fluid
-```
-
-- `int getUses()`
-```
-How much 'wear' the animal will take from the event
-```
-
 - `void setUses(int var0)`
 
   Parameters:
@@ -99,9 +90,13 @@ How much 'wear' the animal will take from the event
 Sets how much 'wear' the animal will take from the event
 ```
 
-- `FluidStackJS getFluidProduct()`
+- `void setItemProduct(ItemStack var0)`
+
+  Parameters:
+  - var0: ItemStack
+
 ```
-Returns the fluid product of the event, may be empty if the product is an item
+Sets the item product, attempting to use this on an event originally producing a fluid will void the product
 ```
 
 - `ItemStack getTool()`
@@ -114,13 +109,18 @@ Returns the 'too' used to get a product, either a bucket or shears
 Returns the animal the product comes from
 ```
 
-- `boolean hasGameStage(String var0)`
+- `TFCAnimalProperties getAnimalProperties()`
+```
+Returns TFC animal properties of the animal
+```
+
+- `void removeGameStage(String var0)`
 
   Parameters:
   - var0: String
 
 ```
-Checks if the player has the specified game stage
+Removes the specified game stage from the player
 ```
 
 - `void addGameStage(String var0)`
@@ -132,13 +132,13 @@ Checks if the player has the specified game stage
 Adds the specified game stage to the player
 ```
 
-- `void removeGameStage(String var0)`
+- `boolean hasGameStage(String var0)`
 
   Parameters:
   - var0: String
 
 ```
-Removes the specified game stage from the player
+Checks if the player has the specified game stage
 ```
 
 - `Object exit(Object var0)`

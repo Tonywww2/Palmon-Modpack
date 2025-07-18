@@ -32,8 +32,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | getType |  |  | MobSpawnType | ✘ |
 | getLevel |  |  | Level | ✘ |
+| getEntity |  |  | Entity | ✘ |
 | getBlock |  |  | BlockContainerJS | ✘ |
-| getEntity |  |  | LivingEntity | ✘ |
 | getSpawner |  |  | BaseSpawner | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
@@ -57,14 +57,14 @@ The type of spawn.
 The level the entity is being spawned into.
 ```
 
+- `Entity getEntity()`
+```
+The entity being spawned.
+```
+
 - `BlockContainerJS getBlock()`
 ```
 The block the entity is being spawned on.
-```
-
-- `LivingEntity getEntity()`
-```
-The entity being spawned.
 ```
 
 - `BaseSpawner getSpawner()`

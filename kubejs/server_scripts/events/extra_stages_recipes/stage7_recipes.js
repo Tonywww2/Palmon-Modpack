@@ -1026,6 +1026,8 @@ const stage7 = function (event) {
     deFusionCrafting(event, [
         Item.of('kubejs:superconducting_coil_type_2').toJson(),
         Item.of('kubejs:superconducting_coil_type_2').toJson(),
+        Item.of('jaopca:plates.zirconium_molybdenum').toJson(),
+        Item.of('jaopca:plates.zirconium_molybdenum').toJson(),
         Ingredient.of('#forge:circuits/infinite').toJson(),
         Item.of('draconicevolution:awakened_core').toJson()
     ],

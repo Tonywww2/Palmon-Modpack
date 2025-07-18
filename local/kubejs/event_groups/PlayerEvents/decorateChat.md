@@ -27,15 +27,15 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getMessage |  |  | String | ✘ |
-| setComponent | Component |  | void | ✘ |
 | getEntity |  |  | Entity | ✘ |
 | getComponent |  |  | Component | ✘ |
 | setMessage | Component |  | void | ✘ |
+| setComponent | Component |  | void | ✘ |
 | getUsername |  |  | String | ✘ |
+| removeGameStage | String |  | void | ✘ |
+| addGameStage | String |  | void | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
-| addGameStage | String |  | void | ✘ |
-| removeGameStage | String |  | void | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -51,15 +51,6 @@ Note: Even if no fields are listed above, some methods are still available as fi
 - `String getMessage()`
 ```
 Gets the message that the player sent.
-```
-
-- `void setComponent(Component var0)`
-
-  Parameters:
-  - var0: Component
-
-```
-Sets the message that the player sent.
 ```
 
 - `Entity getEntity()`
@@ -81,18 +72,27 @@ Gets the message that the player sent.
 Sets the message that the player sent.
 ```
 
+- `void setComponent(Component var0)`
+
+  Parameters:
+  - var0: Component
+
+```
+Sets the message that the player sent.
+```
+
 - `String getUsername()`
 ```
 Gets the username of the player that sent the message.
 ```
 
-- `boolean hasGameStage(String var0)`
+- `void removeGameStage(String var0)`
 
   Parameters:
   - var0: String
 
 ```
-Checks if the player has the specified game stage
+Removes the specified game stage from the player
 ```
 
 - `void addGameStage(String var0)`
@@ -104,13 +104,13 @@ Checks if the player has the specified game stage
 Adds the specified game stage to the player
 ```
 
-- `void removeGameStage(String var0)`
+- `boolean hasGameStage(String var0)`
 
   Parameters:
   - var0: String
 
 ```
-Removes the specified game stage from the player
+Checks if the player has the specified game stage
 ```
 
 - `Object exit(Object var0)`

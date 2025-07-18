@@ -26,11 +26,11 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | getMethodName |  |  | String | ✘ |
 | setResult | Object |  | void | ✘ |
 | getResult |  |  | Object | ✘ |
+| hasResult |  |  | boolean | ✘ |
 | getArgs |  |  | Object[] | ✘ |
 | getArg | int |  | Object | ✘ |
-| hasResult |  |  | boolean | ✘ |
-| requiresResult |  |  | boolean | ✘ |
 | getResultOptional |  |  | Optional<Object> | ✘ |
+| requiresResult |  |  | boolean | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

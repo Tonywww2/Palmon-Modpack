@@ -24,14 +24,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getItem |  |  | ItemStack | ✘ |
+| getEntity |  |  | Player | ✘ |
 | getBlock |  |  | BlockContainerJS | ✘ |
-| getEntity |  |  | LivingEntity | ✘ |
-| getFacing |  |  | Direction | ✘ |
 | getHand |  |  | InteractionHand | ✘ |
+| getFacing |  |  | Direction | ✘ |
+| removeGameStage | String |  | void | ✘ |
+| addGameStage | String |  | void | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
-| addGameStage | String |  | void | ✘ |
-| removeGameStage | String |  | void | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -49,19 +49,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 The position of the block that was right clicked.
 ```
 
-- `BlockContainerJS getBlock()`
-```
-The block that was right clicked.
-```
-
-- `LivingEntity getEntity()`
+- `Player getEntity()`
 ```
 The player that right clicked the block.
 ```
 
-- `Direction getFacing()`
+- `BlockContainerJS getBlock()`
 ```
-The face of the block being right clicked.
+The block that was right clicked.
 ```
 
 - `InteractionHand getHand()`
@@ -69,13 +64,18 @@ The face of the block being right clicked.
 The hand that was used to right click the block.
 ```
 
-- `boolean hasGameStage(String var0)`
+- `Direction getFacing()`
+```
+The face of the block being right clicked.
+```
+
+- `void removeGameStage(String var0)`
 
   Parameters:
   - var0: String
 
 ```
-Checks if the player has the specified game stage
+Removes the specified game stage from the player
 ```
 
 - `void addGameStage(String var0)`
@@ -87,13 +87,13 @@ Checks if the player has the specified game stage
 Adds the specified game stage to the player
 ```
 
-- `void removeGameStage(String var0)`
+- `boolean hasGameStage(String var0)`
 
   Parameters:
   - var0: String
 
 ```
-Removes the specified game stage from the player
+Checks if the player has the specified game stage
 ```
 
 - `Object exit(Object var0)`

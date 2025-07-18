@@ -19,16 +19,16 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| enableLogging |  |  | void | ✘ |
-| disableLootModification | ResourceLocationFilter[] |  | void | ✘ |
-| disableWitherStarDrop |  |  | void | ✘ |
-| addLootTypeModifier | LootContextType[] |  | LootActionsBuilderJS | ✘ |
-| disableSkeletonHeadDrop |  |  | void | ✘ |
-| addLootTableModifier | ResourceLocationFilter[] |  | LootActionsBuilderJS | ✘ |
-| addEntityLootModifier | EntityType<?>[] |  | LootActionsBuilderJS | ✘ |
 | disableCreeperHeadDrop |  |  | void | ✘ |
+| disableWitherStarDrop |  |  | void | ✘ |
 | addBlockLootModifier | Object |  | LootActionsBuilderJS | ✘ |
+| addLootTableModifier | ResourceLocationFilter[] |  | LootActionsBuilderJS | ✘ |
+| addLootTypeModifier | LootContextType[] |  | LootActionsBuilderJS | ✘ |
+| addEntityLootModifier | EntityType<?>[] |  | LootActionsBuilderJS | ✘ |
 | disableZombieHeadDrop |  |  | void | ✘ |
+| disableLootModification | ResourceLocationFilter[] |  | void | ✘ |
+| disableSkeletonHeadDrop |  |  | void | ✘ |
+| enableLogging |  |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

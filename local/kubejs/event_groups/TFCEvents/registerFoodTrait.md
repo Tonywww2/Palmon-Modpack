@@ -23,8 +23,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| registerTraitWithTooltip | float, ResourceLocation |  | void | ✘ |
 | registerTrait | float, ResourceLocation |  | void | ✘ |
+| registerTraitWithTooltip | float, ResourceLocation |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
@@ -35,16 +35,6 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ### Documented members:
 
-- `void registerTraitWithTooltip(float decayModifier, ResourceLocation id)`
-
-  Parameters:
-  - decayModifier: float- The decay modifier of the trait, a higher values means the food rots faster
-  - id: ResourceLocation- The registry id of the food trait
-
-```
-registers a new food trait with a tooltip
-```
-
 - `void registerTrait(float decayModifier, ResourceLocation id)`
 
   Parameters:
@@ -53,6 +43,16 @@ registers a new food trait with a tooltip
 
 ```
 registers a new food trait
+```
+
+- `void registerTraitWithTooltip(float decayModifier, ResourceLocation id)`
+
+  Parameters:
+  - decayModifier: float- The decay modifier of the trait, a higher values means the food rots faster
+  - id: ResourceLocation- The registry id of the food trait
+
+```
+registers a new food trait with a tooltip
 ```
 
 - `Object exit(Object var0)`

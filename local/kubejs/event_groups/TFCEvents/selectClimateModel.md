@@ -26,9 +26,9 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getLevel |  |  | Level | ✘ |
+| getModel |  |  | ClimateModel | ✘ |
 | getModelName |  |  | ResourceLocation | ✘ |
 | setModel | ClimateModel |  | void | ✘ |
-| getModel |  |  | ClimateModel | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
@@ -45,6 +45,11 @@ Note: Even if no fields are listed above, some methods are still available as fi
 The event's Level
 ```
 
+- `ClimateModel getModel()`
+```
+The event's climate model
+```
+
 - `ResourceLocation getModelName()`
 ```
 Returns the name of the event's current model
@@ -57,11 +62,6 @@ Returns the name of the event's current model
 
 ```
 Sets the event's climate model
-```
-
-- `ClimateModel getModel()`
-```
-The event's climate model
 ```
 
 - `Object exit(Object var0)`
