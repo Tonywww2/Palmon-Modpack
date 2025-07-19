@@ -987,6 +987,7 @@ const stage7 = function (event) {
         'avaritia:neutron_nugget'
     ]).id("kubejs:cosmic_meatballs_s7")
 
+    event.remove({id: 'avaritia:infinity_catalyst'})
     event.recipes.avaritia.infinity_catalyst(
         "default",
         [

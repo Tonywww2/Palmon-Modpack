@@ -73,6 +73,7 @@ savePackData(global.jsonData)
 
 // Seed 和随机Map
 const random = Utils.random
+// 你可以随意修改最后的34，用于混淆
 const longSeed = $Long.parseLong(global.seed.replace('L', ""), 10) + 34
 random.setSeed(longSeed)
 

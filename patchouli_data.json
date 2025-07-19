@@ -1,5 +1,16 @@
 {
   "bookGuiScale": 0,
   "clickedVisualize": false,
-  "bookData": {}
+  "bookData": {
+    "tfc:field_guide": {
+      "viewedEntries": [
+        "tfc:getting_started/firepit",
+        "tfc:mechanics/crops",
+        "tfc:mechanics/chisel",
+        "tfc:mechanics/dairy"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
 }

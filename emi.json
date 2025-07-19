@@ -1,209 +1,324 @@
 {
   "favorites": [
     {
-      "stack": "item:avaritia:infinity_catalyst",
-      "recipe": "avaritia:infinity_catalyst"
+      "stack": "item:tfc:metal/ingot/steel",
+      "recipe": "jei:/palmon/kjs/5x8n5g0lmvfp89xl3f4l6eqrd"
     },
     {
-      "stack": "item:minecraft:emerald_block"
-    },
-    {
-      "stack": "item:avaritia:crystal_matrix_ingot"
-    },
-    {
-      "stack": "item:avaritia:neutron_ingot"
-    },
-    {
-      "stack": "item:avaritia:cosmic_meatballs"
-    },
-    {
-      "stack": "item:avaritia:ultimate_stew"
-    },
-    {
-      "stack": "item:avaritia:endest_pearl"
-    },
-    {
-      "stack": "item:avaritia:record_fragment"
-    },
-    {
-      "stack": "item:kubejs:alpha_framework"
-    },
-    {
-      "stack": "item:kubejs:beta_framework"
-    },
-    {
-      "stack": "item:kubejs:gamma_framework"
-    },
-    {
-      "stack": "item:kubejs:delta_framework"
-    },
-    {
-      "stack": "item:kubejs:epsilon_framework"
-    },
-    {
-      "stack": "item:kubejs:beryllium_bronze_alloy"
-    },
-    {
-      "stack": "item:kubejs:cognitio"
-    },
-    {
-      "stack": "item:kubejs:reinforced_sheet"
-    },
-    {
-      "stack": "item:kubejs:virtual_gold_ingot"
-    },
-    {
-      "stack": "item:kubejs:ancient_netherite"
-    },
-    {
-      "stack": "item:kubejs:present_alloy"
-    },
-    {
-      "stack": "item:kubejs:stable_desh_ingot"
-    },
-    {
-      "stack": "item:kubejs:hallowed_soul_steel_ingot"
-    },
-    {
-      "stack": "item:kubejs:intelligent_draconium_ingot"
-    },
-    {
-      "stack": "item:kubejs:end_steel"
-    },
-    {
-      "stack": "item:kubejs:basepoint_alloy"
-    },
-    {
-      "stack": "item:kubejs:yin_yang_steel"
-    },
-    {
-      "stack": "item:ae2:cell_component_256k"
-    },
-    {
-      "stack": "item:appflux:core_256k"
-    },
-    {
-      "stack": "item:forestry:ambrosia"
-    },
-    {
-      "stack": "item:industrialforegoing:machine_frame_supreme"
-    },
-    {
-      "stack": "item:cuisinedelight:vegetable_platter{CookedFoodData:{entries:[{burnt:0b,itemSize:1,overcooked:0b,raw:0b,stack:{Count:1b,id:\"minecraft:golden_carrot\"}},{burnt:0b,itemSize:1,overcooked:0b,raw:0b,stack:{Count:1b,id:\"minecraft:enchanted_golden_apple\"}}],score:100,size:2,total:2,types:[\"VEG\"]}}"
-    },
-    {
-      "stack": "item:avaritia:star_fuel"
-    },
-    {
-      "stack": "item:avaritia:singularity{Id:\"avaritia:aluminum\"}"
-    },
-    {
-      "stack": "item:avaritia:singularity{Id:\"avaritia:andesite_alloy\"}"
-    },
-    {
-      "stack": "item:avaritia:singularity{Id:\"avaritia:bronze\"}"
-    },
-    {
-      "stack": "item:avaritia:singularity{Id:\"avaritia:coal\"}"
-    },
-    {
-      "stack": "item:avaritia:singularity{Id:\"avaritia:copper\"}"
-    },
-    {
-      "stack": "item:avaritia:singularity{Id:\"avaritia:dawnstone\"}"
-    },
-    {
-      "stack": "item:avaritia:singularity{Id:\"avaritia:diamond\"}"
-    },
-    {
-      "stack": "item:avaritia:singularity{Id:\"avaritia:electrum\"}"
-    },
-    {
-      "stack": "item:avaritia:singularity{Id:\"avaritia:emerald\"}"
-    },
-    {
-      "stack": "item:avaritia:singularity{Id:\"avaritia:glowstone\"}"
-    },
-    {
-      "stack": "item:avaritia:singularity{Id:\"avaritia:gold\"}"
-    },
-    {
-      "stack": "item:avaritia:singularity{Id:\"avaritia:invar\"}"
-    },
-    {
-      "stack": "item:avaritia:singularity{Id:\"avaritia:iron\"}"
-    },
-    {
-      "stack": "item:avaritia:singularity{Id:\"avaritia:lapis_lazuli\"}"
-    },
-    {
-      "stack": "item:avaritia:singularity{Id:\"avaritia:lead\"}"
-    },
-    {
-      "stack": "item:avaritia:singularity{Id:\"avaritia:netherite\"}"
-    },
-    {
-      "stack": "item:avaritia:singularity{Id:\"avaritia:nickel\"}"
-    },
-    {
-      "stack": "item:avaritia:singularity{Id:\"avaritia:osmium\"}"
-    },
-    {
-      "stack": "item:avaritia:singularity{Id:\"avaritia:platinum\"}"
-    },
-    {
-      "stack": "item:avaritia:singularity{Id:\"avaritia:redstone\"}"
-    },
-    {
-      "stack": "item:avaritia:singularity{Id:\"avaritia:refined_obsidian\"}"
-    },
-    {
-      "stack": "item:avaritia:singularity{Id:\"avaritia:silver\"}"
-    },
-    {
-      "stack": "item:avaritia:singularity{Id:\"avaritia:steel\"}"
-    },
-    {
-      "stack": "item:avaritia:singularity{Id:\"avaritia:tin\"}"
-    },
-    {
-      "stack": "item:avaritia:singularity{Id:\"avaritia:ultimate_berry\"}"
-    },
-    {
-      "stack": "item:avaritia:singularity{Id:\"avaritia:uranium\"}"
-    },
-    {
-      "stack": "item:botania:mana_fluxfield",
-      "recipe": "botania:mana_fluxfield"
-    },
-    {
-      "stack": "item:immersiveengineering:deepslate_ore_uranium"
-    },
-    {
-      "stack": {
-        "type": "jemi",
-        "uid": "tconstruct:crystalshot"
-      },
-      "recipe": "jei:/tconstruct/tools/modifiers/ability/crystalshot_random"
-    },
-    {
-      "stack": "item:minecraft:amethyst_cluster"
-    },
-    {
-      "stack": "item:jaopca:plates.zirconium_molybdenum",
-      "recipe": "jei:/jaopca/create.material_to_plate.zirconium_molybdenum"
+      "stack": "item:occultism:datura_seeds",
+      "recipe": "jei:/kubejs/datura_seeds_s1_occ"
     }
   ],
   "lookup_history": [
-    "item:kubejs:delta_framework",
-    "item:occultism:chalk_red_impure",
+    "item:minecraft:iron_nugget",
     {
       "type": "item",
-      "id": "cobblemon:relic_coin",
+      "id": "tfc:metal/ingot/wrought_iron",
+      "amount": 8
+    },
+    "#fluid:forge:molten_tin",
+    {
+      "type": "fluid",
+      "id": "tconstruct:molten_tin",
+      "amount": 7
+    },
+    {
+      "type": "item",
+      "id": "tfc:powder/cassiterite",
+      "amount": 32
+    },
+    "item:tfc:brass_mechanisms",
+    "item:tfc:wood/axle/chestnut",
+    "item:tfc:wood/water_wheel/chestnut",
+    {
+      "type": "item",
+      "id": "minecraft:copper_ingot",
+      "amount": 7
+    },
+    {
+      "type": "item",
+      "id": "tfc:metal/ingot/steel",
+      "amount": 15
+    },
+    {
+      "type": "item",
+      "id": "techreborn:refined_iron_ingot",
+      "amount": 24
+    },
+    "item:minecraft:diamond_axe{Damage:0}",
+    "item:techreborn:sapphire_axe{Damage:0}",
+    "item:botania:manasteel_axe{Damage:0}",
+    "item:dustandash:ash_steel_axe{Damage:0}",
+    "item:malum:soul_stained_steel_axe{Damage:0}",
+    "item:legendary_monsters:golden_halbert{Damage:0}",
+    "item:avaritia:infinity_axe",
+    {
+      "type": "item",
+      "id": "beneath:cursed_hide",
+      "amount": 7
+    },
+    {
+      "type": "item",
+      "id": "minecraft:stick",
+      "amount": 15
+    },
+    {
+      "type": "item",
+      "id": "tfc:food/wheat_bread",
+      "amount": 3
+    },
+    {
+      "type": "item",
+      "id": "tfc:rock/bricks/limestone",
+      "amount": 6
+    },
+    "item:tfc:metal/sheet/gold",
+    "item:tfc:metal/double_ingot/gold",
+    "item:tfc:metal/block/gold",
+    "item:tfc:metal/block/gold_slab",
+    {
+      "type": "item",
+      "id": "minecraft:stripped_oak_wood",
+      "amount": 16
+    },
+    {
+      "type": "item",
+      "id": "tfc:wood/log/ash",
+      "amount": 16
+    },
+    "item:minecraft:iron_horse_armor",
+    "item:tconstruct:plate_cast",
+    {
+      "type": "item",
+      "id": "firmalife:seeds/red_grape",
+      "amount": 2
+    },
+    "item:occultism:datura_seeds",
+    "item:immersiveengineering:hammer{Damage:0}",
+    "item:create:andesite_alloy",
+    "item:tfc:metal/sheet/blue_steel",
+    "item:kubejs:virtual_gold_ingot",
+    {
+      "type": "item",
+      "id": "tfc:ore/rich_cassiterite",
+      "amount": 6
+    },
+    {
+      "type": "item",
+      "id": "tfc:kaolin_clay",
+      "amount": 32
+    },
+    {
+      "type": "item",
+      "id": "tfc:dirt/loam",
+      "amount": 32
+    },
+    "#item:forge:vegetables",
+    {
+      "type": "item",
+      "id": "palmon:poke_food",
+      "amount": 32
+    },
+    "#item:tfc:seeds",
+    "item:cobblemon:pc",
+    {
+      "type": "item",
+      "id": "minecraft:iron_ingot",
+      "amount": 2
+    },
+    "item:mobees:iron_bit",
+    "item:mekanism:configurator{}",
+    {
+      "type": "item",
+      "id": "tfc:silica_glass_bottle",
+      "amount": 3
+    },
+    "item:minecraft:cauldron",
+    {
+      "type": "item",
+      "id": "tfc:rock/loose/marble",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "tfc:melon",
+      "amount": 3
+    },
+    "item:minecraft:cobblestone",
+    "item:minecraft:stone",
+    "item:minecraft:smooth_stone",
+    "item:minecraft:barrel",
+    "item:tfc:metal/scythe_blade/bismuth_bronze",
+    "item:tconstruct:scythe{Damage:0,etstlib_tool_uuid:\"037e75ff-0b19-4410-a048-b4274930d42a\",tic_broken:0b,tic_materials:[\"tconstruct:treated_wood\",\"tconstruct:treated_wood\",\"tconstruct:string\",\"tconstruct:treated_wood\"],tic_modifiers:[{level:3,name:\"tconstruct:preserved\"},{level:1,name:\"tconstruct:stringy\"},{level:1,name:\"tconstruct:tilling\"},{level:1,name:\"tconstruct:silky_aoe_shears\"},{level:1,name:\"tconstruct:harvest\"}],tic_multipliers:{\"tconstruct:durability\":2.5f,\"tconstruct:mining_speed\":0.45f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":5.61f,\"tconstruct:attack_speed\":0.77f,\"tconstruct:durability\":604.65f,\"tconstruct:mining_speed\":1.4849999f},tic_volatile_data:{abilities:1,upgrades:2}}",
+    "item:thermal_extra:signalum_sickle{Damage:0}",
+    "item:integratedtunnels:part_exporter_world_energy",
+    "item:woodenhopper:wooden_hopper",
+    {
+      "type": "item",
+      "id": "tfc:ore/normal_malachite",
+      "amount": 16
+    },
+    {
+      "type": "item",
+      "id": "minecraft:chest",
+      "amount": 2
+    },
+    "item:tfc:rock/smooth/diorite",
+    "#item:forge:smooth_stone",
+    "item:tfc:quern",
+    "item:tfc:handstone{Damage:0}",
+    "item:tconstruct:seared_ingot_gauge",
+    [
+      "item:tconstruct:seared_fuel_gauge",
+      "item:tconstruct:seared_ingot_gauge"
+    ],
+    "item:tconstruct:seared_melter",
+    {
+      "type": "item",
+      "id": "minecraft:glass",
+      "amount": 4
+    },
+    "item:tconstruct:seared_fuel_gauge",
+    {
+      "type": "item",
+      "id": "tfc:rock/gravel/diorite",
+      "amount": 15
+    },
+    {
+      "type": "item",
+      "id": "tfc:sand/black",
+      "amount": 32
+    },
+    "item:tconstruct:clear_glass",
+    "#item:forge:glass/colorless",
+    "item:create:vertical_framed_glass",
+    "#item:forge:glass",
+    {
+      "type": "item",
+      "id": "tfc:brick/limestone",
       "amount": 64
     },
+    {
+      "type": "item",
+      "id": "tfc:rock/mossy_loose/shale",
+      "amount": 13
+    },
+    {
+      "type": "item",
+      "id": "minecraft:clay",
+      "amount": 32
+    },
+    "item:tconstruct:grout",
+    "item:tconstruct:seared_brick",
+    "item:tfc:mortar",
+    {
+      "type": "item",
+      "id": "tfc:wood/log/birch",
+      "amount": 8
+    },
+    "#item:tfc:makes_tannin",
+    {
+      "type": "fluid",
+      "id": "tfc:tannin",
+      "amount": 300
+    },
+    "item:tfc:small_prepared_hide",
+    {
+      "type": "item",
+      "id": "tfc:sand/white",
+      "amount": 24
+    },
+    {
+      "type": "item",
+      "id": "tfc:food/cabbage",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "tfc:food/pumpkin_chunks",
+      "amount": 5
+    },
+    {
+      "type": "item",
+      "id": "tfc:ore/lignite",
+      "amount": 11
+    },
+    "item:tfc:small_scraped_hide",
+    "item:tfc:small_soaked_hide",
+    {
+      "type": "item",
+      "id": "tfc:ore/graphite",
+      "amount": 10
+    },
+    "item:framedblocks:framed_cube",
+    "item:framedblocks:framed_stairs",
+    "item:framedblocks:framed_double_stairs",
+    "item:framedblocks:framed_vertical_double_stairs",
+    {
+      "type": "item",
+      "id": "tfc:rock/loose/shale",
+      "amount": 27
+    },
+    "item:tfc:small_raw_hide",
+    "item:tfc:wool",
+    "item:kubejs:scranton_reality_anchor",
+    "item:thermal:charcoal_block",
+    {
+      "type": "item",
+      "id": "tfc:wood/planks/chestnut",
+      "amount": 11
+    },
+    "item:tfc:wood/sluice/acacia",
+    "item:tfc:ceramic/unfired_brick",
+    "item:minecraft:brick",
+    {
+      "type": "item",
+      "id": "tfc:ore/normal_native_copper",
+      "amount": 3
+    },
+    "item:tfc:ore/small_cassiterite",
+    {
+      "type": "fluid",
+      "id": "tfc:metal/tin",
+      "amount": 10
+    },
+    {
+      "type": "item",
+      "id": "tfc:ore/small_malachite",
+      "amount": 11
+    },
+    {
+      "type": "item",
+      "id": "tfc:rock/loose/dolomite",
+      "amount": 2
+    },
+    "item:cobbledex:cobbledex_item",
+    "item:avaritia:blaze_pickaxe{Damage:0,Unbreakable:1b}",
+    "item:tfc:ceramic/unfired_chisel_head_mold",
+    "item:tfc:ceramic/unfired_saw_blade_mold",
+    "item:tfc:metal/saw_blade/wrought_iron",
+    "item:slashblade:proudsoul",
+    "item:quark:vertical_jungle_planks",
+    "item:quark:vertical_cherry_planks",
+    "item:kubejs:delta_framework",
+    "item:kubejs:epsilon_framework",
+    "item:kubejs:epsilon_dust",
+    "item:kubejs:intelligent_draconium_ingot",
+    "item:industrialforegoing:mob_slaughter_factory",
+    "item:kubejs:essence_computation_frame",
+    "item:industrialforegoing:machine_frame_pity",
+    "item:industrialforegoing:machine_frame_simple",
+    "item:ars_nouveau:imbuement_chamber",
+    "item:create:brass_casing",
+    "item:malum:spirit_altar",
+    "item:nuclearcraft:manufactory",
+    "item:botania:apothecary_default",
+    "item:kubejs:voucher_2_0",
+    "item:nuclearcraft:plate_basic",
+    "item:ae2:mysterious_cube",
+    "item:cobblemon:relic_coin",
+    "item:occultism:chalk_red_impure",
     "item:quark:acacia_vertical_slab",
-    "item:create:andesite_alloy",
     "item:minecraft:birch_trapdoor",
     "item:kubejs:superconducting_coil_type_3",
     "item:packagedauto:package_component",
@@ -259,7 +374,7 @@
       "item:tconstruct:ichor_slime_crystal_cluster",
       "item:tconstruct:ender_slime_crystal_cluster"
     ],
-    "item:tconstruct:longbow{Damage:0,etstlib_tool_uuid:\"573057b9-ee94-4b6b-a346-4d185b8d35c5\",tic_broken:0b,tic_materials:[\"tinkers_advanced:neutronite\",\"tinkers_advanced:neutronite\",\"tinkers_advanced:neutronite\",\"tconstruct:string\"],tic_modifiers:[{level:3,name:\"tinkers_advanced:supreme_density\"},{level:3,name:\"tinkers_advanced:metamorphium\"},{level:5,name:\"tconstruct:power\"},{level:1,name:\"tconstruct:stringy\"},{level:1,name:\"tinkers_advanced:edging_technology\"},{level:1,name:\"tconstruct:writable\"},{level:1,name:\"tconstruct:recapitated\"},{level:1,name:\"tconstruct:resurrected\"}],tic_multipliers:{\"tconstruct:durability\":1.5f},tic_persistent:{upgrades:-5},tic_stats:{\"tconstruct:attack_damage\":320.5f,\"tconstruct:draw_speed\":0.6f,\"tconstruct:durability\":7782.5996f,\"tconstruct:projectile_damage\":14.0f,\"tconstruct:velocity\":278.4f},tic_upgrades:[{level:5,name:\"tconstruct:power\"},{level:1,name:\"tinkers_advanced:edging_technology\"},{level:1,name:\"tconstruct:writable\"},{level:1,name:\"tconstruct:recapitated\"},{level:1,name:\"tconstruct:resurrected\"}],tic_volatile_data:{abilities:2,upgrades:6}}",
+    "item:tconstruct:longbow{Damage:0,etstlib_tool_uuid:\"573057b9-ee94-4b6b-a346-4d185b8d35c5\",tic_broken:0b,tic_materials:[\"tinkers_advanced:neutronite\",\"tinkers_advanced:neutronite\",\"tinkers_advanced:neutronite\",\"tconstruct:string\"],tic_modifiers:[{level:3,name:\"tinkers_advanced:supreme_density\"},{level:3,name:\"tinkers_advanced:metamorphium\"},{level:5,name:\"tconstruct:power\"},{level:1,name:\"tconstruct:stringy\"},{level:1,name:\"tinkers_advanced:edging_technology\"},{level:1,name:\"tconstruct:writable\"},{level:1,name:\"tconstruct:recapitated\"},{level:1,name:\"tconstruct:resurrected\"}],tic_multipliers:{\"tconstruct:durability\":1.5f},tic_persistent:{upgrades:-5},tic_stats:{\"tconstruct:attack_damage\":319.2f,\"tconstruct:draw_speed\":0.6f,\"tconstruct:durability\":7560.0f,\"tconstruct:projectile_damage\":14.0f,\"tconstruct:velocity\":273.8f},tic_upgrades:[{level:5,name:\"tconstruct:power\"},{level:1,name:\"tinkers_advanced:edging_technology\"},{level:1,name:\"tconstruct:writable\"},{level:1,name:\"tconstruct:recapitated\"},{level:1,name:\"tconstruct:resurrected\"}],tic_volatile_data:{abilities:2,upgrades:6}}",
     {
       "type": "jemi",
       "uid": "tconstruct:resurrected"
@@ -274,21 +389,21 @@
     },
     "item:tconstruct:zombified_piglin_head",
     [
-      "item:minecraft:creeper_head",
-      "item:tconstruct:blaze_head",
-      "item:minecraft:wither_skeleton_skull",
-      "item:rats:marbled_cheese_rat_head",
-      "item:minecraft:zombie_head",
-      "item:tconstruct:cave_spider_head",
-      "item:tconstruct:enderman_head",
-      "item:tconstruct:spider_head",
       "item:minecraft:skeleton_skull",
       "item:tconstruct:stray_head",
       "item:minecraft:player_head",
-      "item:tconstruct:drowned_head",
-      "item:tconstruct:piglin_brute_head",
+      "item:minecraft:zombie_head",
       "item:tconstruct:husk_head",
       "item:tconstruct:zombified_piglin_head",
+      "item:tconstruct:piglin_brute_head",
+      "item:minecraft:wither_skeleton_skull",
+      "item:tconstruct:blaze_head",
+      "item:tconstruct:drowned_head",
+      "item:tconstruct:enderman_head",
+      "item:rats:marbled_cheese_rat_head",
+      "item:tconstruct:cave_spider_head",
+      "item:minecraft:creeper_head",
+      "item:tconstruct:spider_head",
       "#item:minecraft:note_block_top_instruments"
     ],
     {
@@ -312,7 +427,7 @@
       "type": "jemi",
       "uid": "tconstruct:quick_charge"
     },
-    "item:tconstruct:sword{Damage:0,etstlib_tool_uuid:\"d3b1f57c-2c8c-4592-b4dd-46fcd6cce6f0\",tic_broken:0b,tic_materials:[\"tinkers_advanced:neutronite\",\"tinkers_advanced:neutronite\",\"tinkers_advanced:neutronite\"],tic_modifiers:[{level:3,name:\"tinkers_advanced:supreme_density\"},{level:3,name:\"tinkers_advanced:metamorphium\"},{level:1,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:durability\":1.1f,\"tconstruct:mining_speed\":0.5f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":1545.3601f,\"tconstruct:attack_speed\":2.4f,\"tconstruct:durability\":2918.3f,\"tconstruct:harvest_tier\":\"minecraft:netherite\",\"tconstruct:mining_speed\":15.150001f},tic_volatile_data:{abilities:1,upgrades:3}}",
+    "item:tconstruct:sword{Damage:0,etstlib_tool_uuid:\"d3b1f57c-2c8c-4592-b4dd-46fcd6cce6f0\",tic_broken:0b,tic_materials:[\"tinkers_advanced:neutronite\",\"tinkers_advanced:neutronite\",\"tinkers_advanced:neutronite\"],tic_modifiers:[{level:3,name:\"tinkers_advanced:supreme_density\"},{level:3,name:\"tinkers_advanced:metamorphium\"},{level:1,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:durability\":1.1f,\"tconstruct:mining_speed\":0.5f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":1539.12f,\"tconstruct:attack_speed\":2.4f,\"tconstruct:durability\":2832.0598f,\"tconstruct:harvest_tier\":\"minecraft:netherite\",\"tconstruct:mining_speed\":15.375f},tic_volatile_data:{abilities:1,upgrades:3}}",
     "item:tconstruct:tinker_station",
     "item:tconstruct:small_axe_head{Material:\"tinkers_advanced:protocite\"}",
     "item:techreborn:rubber_stair",
@@ -496,14 +611,7 @@
     "item:techreborn:advanced_machine_frame",
     "item:kubejs:advanced_machine_frame",
     "item:industrialforegoing:fluid_laser_base",
-    {
-      "type": "item",
-      "id": "industrialforegoing:machine_frame_simple",
-      "amount": 2
-    },
-    "item:industrialforegoing:machine_frame_pity",
     "item:cataclysm:azure_seastone_mural_hippocamtus",
-    "item:kubejs:essence_computation_frame",
     "item:tfc:metal/ingot/black_steel",
     {
       "type": "item",
@@ -511,7 +619,7 @@
       "amount": 3
     },
     "item:kubejs:present_alloy",
-    "item:tinkers_things:shortbow{Damage:0,etstlib_tool_uuid:\"01a19b79-e64c-4e4e-9c6b-6eb5aaf02ac1\",tic_broken:0b,tic_materials:[\"tcintegrations:manasteel\",\"tcintegrations:manasteel\",\"tconstruct:string\"],tic_modifiers:[{level:2,name:\"tconstruct:ductile\"},{level:2,name:\"tcintegrations:mana\"},{level:1,name:\"tconstruct:stringy\"}],tic_multipliers:{\"tconstruct:velocity\":0.8f},tic_persistent:{},tic_stats:{\"tconstruct:accuracy\":0.8f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:draw_speed\":0.39999998f,\"tconstruct:durability\":1478.4f,\"tconstruct:projectile_damage\":2.2f,\"tconstruct:use_item_speed\":0.8f,\"tconstruct:velocity\":7.2000003f},tic_volatile_data:{abilities:1,upgrades:3}}",
+    "item:tinkers_things:shortbow{Damage:0,etstlib_tool_uuid:\"01a19b79-e64c-4e4e-9c6b-6eb5aaf02ac1\",tic_broken:0b,tic_materials:[\"tcintegrations:manasteel\",\"tcintegrations:manasteel\",\"tconstruct:string\"],tic_modifiers:[{level:2,name:\"tconstruct:ductile\"},{level:2,name:\"tcintegrations:mana\"},{level:1,name:\"tconstruct:stringy\"}],tic_multipliers:{\"tconstruct:velocity\":0.8f},tic_persistent:{},tic_stats:{\"tconstruct:accuracy\":0.8f,\"tconstruct:armor_toughness\":2.0f,\"tconstruct:draw_speed\":0.39999998f,\"tconstruct:durability\":1288.8f,\"tconstruct:projectile_damage\":2.2f,\"tconstruct:use_item_speed\":0.8f,\"tconstruct:velocity\":6.4f},tic_volatile_data:{abilities:1,upgrades:3}}",
     "item:tconstruct:bow_limb{Material:\"tconstruct:virtual_gold\"}",
     [
       "item:tconstruct:bow_limb{Material:\"tconstruct:bamboo\"}",
@@ -662,7 +770,6 @@
     "item:avaritia:cosmic_meatballs",
     "item:avaritia:infinity_clock",
     "item:packagedavaritia:end_crafter",
-    "item:minecraft:stone",
     "item:avaritia:matter_cluster{items:[{Count:32b,id:\"minecraft:cobblestone\"},{Count:16b,id:\"minecraft:pointed_dripstone\"},{Count:32b,id:\"minecraft:dripstone_block\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:dripstone_block\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:dripstone_block\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:dripstone_block\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:dripstone_block\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:dripstone_block\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:24b,id:\"minecraft:dripstone_block\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:32b,id:\"minecraft:cobblestone\"},{Count:25b,id:\"minecraft:cobblestone\"}]}",
     "item:avaritia:neutron",
     {
@@ -761,7 +868,6 @@
     "item:kubejs:basepoint_alloy",
     "item:mekanism_extras:upgrade_ionic_membrane",
     "item:kubejs:beryllium_bronze_alloy",
-    "item:kubejs:scranton_reality_anchor",
     "item:thermal_extra:dragonsteel_rf_coil_xfer_augment",
     "item:mekanism_extras:absolute_energy_cube",
     "item:mekanism_extras:infinite_energy_cube",
@@ -803,7 +909,6 @@
     "item:avaritia:singularity{Id:\"avaritia:osmium\"}",
     "item:avaritia:singularity{Id:\"avaritia:netherite\"}",
     "item:kubejs:cognitio",
-    "item:kubejs:epsilon_framework",
     "item:kubejs:beta_framework",
     "item:kubejs:gamma_framework",
     "item:kubejs:alpha_framework",
@@ -881,7 +986,6 @@
     "item:avaritia:singularity{Id:\"avaritia:ultimate_berry\"}",
     "item:quark:hollow_ancient_log",
     "item:minecraft:cherry_button",
-    "item:quark:vertical_jungle_planks",
     "item:techreborn:rubber_slab",
     "item:powerful_dummy:dummy_stand",
     {
@@ -990,7 +1094,6 @@
       "amount": 1000
     },
     "item:embers:molten_dawnstone_bucket",
-    "item:create:brass_casing",
     "item:create:andesite_casing",
     "item:create:framed_glass_trapdoor",
     "item:create:framed_glass_pane",
@@ -1008,11 +1111,9 @@
     "item:minecraft:glass_pane",
     "item:create:framed_glass",
     "item:create:framed_glass_door",
-    "item:create:vertical_framed_glass",
     "item:functionalstorage:framed_4",
     "item:functionalstorage:framed_controller_extension",
     "item:functionalstorage:framed_simple_compacting_drawer",
-    "item:framedblocks:framed_cube",
     {
       "type": "item",
       "id": "framedblocks:framed_slab",
@@ -1085,8 +1186,6 @@
     "item:dustandash:integrated_frame_1",
     "item:dustandash:integrated_frame_2",
     "item:palmon:boost_frame_2",
-    "item:minecraft:iron_nugget",
-    "item:tfc:metal/ingot/wrought_iron",
     "item:aquaculture:tin_can",
     "item:nuclearcraft:turbine_beryllium_coil",
     "item:tfc:metal/ingot/silver",
@@ -1118,7 +1217,7 @@
     "item:kubejs:stable_desh_ingot",
     "item:tconstruct:crafting_station",
     "item:tconstruct:scorched_anvil",
-    "item:tinkers_advanced:ionized_cannon{Damage:0,etstlib_tool_uuid:\"c1deb1cd-dfed-4a7d-bccd-6db8fd53ee33\",tic_broken:0b,tic_materials:[\"tconstruct:basepoint_alloy\",\"tconstruct:basepoint_alloy\",\"tconstruct:basepoint_alloy\",\"tconstruct:basepoint_alloy\"],tic_modifiers:[{level:1,name:\"tinkers_advanced:auto_shot\"},{level:1,name:\"tinkers_advanced:sculk_resonance\"},{level:1,name:\"tconstruct:tank_handler\"},{level:4,name:\"etstlib:short_circuit\"},{level:2,name:\"tconstruct:tank\"},{level:4,name:\"tinkers_advanced:flux_infused\"},{level:4,name:\"tinkers_advanced:thermal_slash\"}],tic_persistent:{abilities:-1,\"tconstruct:tank_fluid\":{Amount:2000,FluidName:\"minecraft:water\"}},tic_stats:{\"tconstruct:attack_damage\":926.0125f,\"tconstruct:attack_speed\":1.3125f,\"tconstruct:durability\":3815.0f,\"tconstruct:harvest_tier\":\"minecraft:netherite\",\"tconstruct:max_energy\":8000000.0f,\"tconstruct:mining_speed\":30.3875f,\"tconstruct:tank_capacity\":2000.0f},tic_upgrades:[{level:1,name:\"tinkers_advanced:auto_shot\"}],tic_volatile_data:{abilities:2,\"tconstruct:total_tanks\":1,upgrades:4}}",
+    "item:tinkers_advanced:ionized_cannon{Damage:0,etstlib_tool_uuid:\"c1deb1cd-dfed-4a7d-bccd-6db8fd53ee33\",tic_broken:0b,tic_materials:[\"tconstruct:basepoint_alloy\",\"tconstruct:basepoint_alloy\",\"tconstruct:basepoint_alloy\",\"tconstruct:basepoint_alloy\"],tic_modifiers:[{level:1,name:\"tinkers_advanced:auto_shot\"},{level:1,name:\"tinkers_advanced:sculk_resonance\"},{level:1,name:\"tconstruct:tank_handler\"},{level:4,name:\"etstlib:short_circuit\"},{level:2,name:\"tconstruct:tank\"},{level:4,name:\"tinkers_advanced:flux_infused\"},{level:4,name:\"tinkers_advanced:thermal_slash\"}],tic_persistent:{abilities:-1,\"tconstruct:tank_fluid\":{Amount:2000,FluidName:\"minecraft:water\"}},tic_stats:{\"tconstruct:attack_damage\":890.8625f,\"tconstruct:attack_speed\":1.3125f,\"tconstruct:durability\":3767.75f,\"tconstruct:harvest_tier\":\"minecraft:netherite\",\"tconstruct:max_energy\":8000000.0f,\"tconstruct:mining_speed\":28.1125f,\"tconstruct:tank_capacity\":2000.0f},tic_upgrades:[{level:1,name:\"tinkers_advanced:auto_shot\"}],tic_volatile_data:{abilities:2,\"tconstruct:total_tanks\":1,upgrades:4}}",
     {
       "type": "jemi",
       "uid": "tinkers_advanced:auto_shot"
@@ -1132,9 +1231,7 @@
     "item:farmersdelight:cooking_pot",
     "item:tfc:metal/ingot/blue_steel",
     "item:tfc:metal/double_ingot/blue_steel",
-    "item:tfc:metal/sheet/blue_steel",
     "item:tfc:metal/fish_hook/blue_steel",
-    "item:kubejs:virtual_gold_ingot",
     "item:tfc:ore/poor_bismuthinite/granite",
     "item:rats:oratchalcum_ingot",
     "item:ars_nouveau:source_jar",
@@ -1182,7 +1279,6 @@
     "item:mekanism:laser",
     "item:mekanism:supercharged_coil",
     "item:integratedtunnels:part_interface_item",
-    "item:quark:vertical_cherry_planks",
     "item:quark:hollow_birch_log",
     {
       "type": "item",
@@ -1201,7 +1297,6 @@
       "amount": 16
     },
     "item:mekanism:solar_neutron_activator",
-    "item:kubejs:epsilon_dust",
     {
       "type": "fluid",
       "id": "nuclearcraft:polonium",
@@ -1247,7 +1342,7 @@
     "item:mekanism:basic_chemical_tank",
     "item:mekanism:basic_fluid_tank",
     "item:mekanism:pressurized_reaction_chamber{mekData:{EnergyContainers:[{Container:0b,stored:\"147000\"}],owner:[I;1969348773,-450873267,-1302672944,749856448]}}",
-    "item:tconstruct:hand_axe{Damage:0,etstlib_tool_uuid:\"c9640c3c-95bb-4c14-ac97-1d95adc5dadd\",tic_broken:0b,tic_materials:[\"tconstruct:collapse_prediction\",\"tconstruct:platinum\",\"tconstruct:alfsteel\"],tic_modifiers:[{level:1,name:\"etstlib:global_traveler\"},{level:1,name:\"tinkerslevellingaddon:improvable\"},{level:1,name:\"tconstruct:diamond\"},{level:1,name:\"tinkers_advanced:unstable\"},{level:1,name:\"tcintegrations:livingwood\"},{level:1,name:\"tconstruct:lustrous\"},{level:1,name:\"tcintegrations:mana\"},{level:1,name:\"tcintegrations:alf\"},{level:1,name:\"tcintegrations:terra\"},{level:1,name:\"etstlib:energetic_attack\"},{level:1,name:\"tconstruct:stripping\"}],tic_persistent:{abilities:-1,\"tinkerslevellingaddon:experience\":447,\"tinkerslevellingaddon:level\":5,\"tinkerslevellingaddon:slot_history\":\"upgrade;upgrade;upgrade;ability;upgrade;\",upgrades:-1},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:attack_damage\":211.34999f,\"tconstruct:attack_speed\":0.99f,\"tconstruct:durability\":1827.0f,\"tconstruct:harvest_tier\":\"minecraft:netherite\",\"tconstruct:mining_speed\":24.919998f,\"tconstruct:projectile_damage\":2.5f},tic_upgrades:[{level:1,name:\"tconstruct:diamond\"},{level:1,name:\"tinkerslevellingaddon:improvable\"}],tic_volatile_data:{abilities:2,\"tconstruct:rarity\":1,upgrades:7}}",
+    "item:tconstruct:hand_axe{Damage:0,etstlib_tool_uuid:\"c9640c3c-95bb-4c14-ac97-1d95adc5dadd\",tic_broken:0b,tic_materials:[\"tconstruct:collapse_prediction\",\"tconstruct:platinum\",\"tconstruct:alfsteel\"],tic_modifiers:[{level:1,name:\"etstlib:global_traveler\"},{level:1,name:\"tinkerslevellingaddon:improvable\"},{level:1,name:\"tconstruct:diamond\"},{level:1,name:\"tinkers_advanced:unstable\"},{level:1,name:\"tcintegrations:livingwood\"},{level:1,name:\"tconstruct:lustrous\"},{level:1,name:\"tcintegrations:mana\"},{level:1,name:\"tcintegrations:alf\"},{level:1,name:\"tcintegrations:terra\"},{level:1,name:\"etstlib:energetic_attack\"},{level:1,name:\"tconstruct:stripping\"}],tic_persistent:{abilities:-1,\"tinkerslevellingaddon:experience\":447,\"tinkerslevellingaddon:level\":5,\"tinkerslevellingaddon:slot_history\":\"upgrade;upgrade;upgrade;ability;upgrade;\",upgrades:-1},tic_stats:{\"tconstruct:armor\":1.0f,\"tconstruct:attack_damage\":198.0f,\"tconstruct:attack_speed\":0.99f,\"tconstruct:durability\":1821.4f,\"tconstruct:harvest_tier\":\"minecraft:netherite\",\"tconstruct:mining_speed\":23.380001f,\"tconstruct:projectile_damage\":2.5f},tic_upgrades:[{level:1,name:\"tconstruct:diamond\"},{level:1,name:\"tinkerslevellingaddon:improvable\"}],tic_volatile_data:{abilities:2,\"tconstruct:rarity\":1,upgrades:7}}",
     "item:mekanism:enrichment_chamber",
     "item:mekanism:substrate",
     {
@@ -1378,11 +1473,6 @@
       "amount": 21
     },
     "item:tfc:metal/ingot/black_bronze",
-    {
-      "type": "item",
-      "id": "tfc:metal/ingot/steel",
-      "amount": 10
-    },
     "item:mekanismgenerators:fission_fuel_assembly",
     "item:mekanismgenerators:rotational_complex",
     "item:mekanismgenerators:turbine_blade",
@@ -1461,7 +1551,6 @@
     "item:integratedtunnels:part_interface_filter_item",
     "item:immersive_weathering:deeperdarker/echo_leaf_pile",
     "item:minecraft:nether_brick",
-    "item:kubejs:intelligent_draconium_ingot",
     "item:draconicevolution:wyvern_energy_core",
     "item:draconicevolution:draconic_energy_core",
     "item:mekanism:chemical_oxidizer",
@@ -1558,7 +1647,6 @@
     "item:nuclearcraft:helium_collector",
     "item:mekanism:electrolytic_core",
     "item:mekanism:electrolytic_separator",
-    "item:minecraft:iron_ingot",
     "item:nuclearcraft:electrolyzer",
     "item:nuclearcraft:supercooler",
     {
@@ -1606,16 +1694,16 @@
       "amount": 250,
       "ingredients": [
         "fluid:createaddition:bioethanol",
-        "fluid:createaddition:seed_oil",
         "fluid:sakura:doburoku",
-        "fluid:sakura:brandy",
+        "fluid:createaddition:seed_oil",
         "fluid:cobgyms:safe_lava",
-        "fluid:sakura:food_oil",
-        "fluid:sakura:champagne",
-        "fluid:sakura:beer",
         "fluid:sakura:red_wine",
-        "fluid:sakura:white_wine",
+        "fluid:sakura:champagne",
+        "fluid:sakura:brandy",
         "fluid:sakura:sake",
+        "fluid:sakura:white_wine",
+        "fluid:sakura:beer",
+        "fluid:sakura:food_oil",
         "#fluid:firmalife:mixable",
         "#fluid:sakura:brewers_alcohol",
         "#fluid:tfc:water"
@@ -1747,7 +1835,6 @@
     "item:ars_nouveau:fire_essence",
     "item:ars_nouveau:earth_essence",
     "item:ars_nouveau:air_essence",
-    "item:ars_nouveau:imbuement_chamber",
     "item:ars_nouveau:sourcestone",
     "item:kubejs:charged_source_gem",
     "item:ars_nouveau:starbuncle_shards",
@@ -1774,222 +1861,18 @@
       "type": "item",
       "id": "ad_astra:moon_desh_ore",
       "amount": 20
-    },
-    {
-      "type": "item",
-      "id": "malum:processed_soulstone",
-      "amount": 2
-    },
-    "item:malum:raw_soulstone",
-    "item:jaopca:create_crushed.netherite_scrap",
-    "item:minecraft:netherite_scrap",
-    "item:integratedtunnels:part_interface_energy",
-    {
-      "type": "item",
-      "id": "create:cinder_flour",
-      "amount": 2
-    },
-    "item:dustandash:netherite_mud",
-    "item:techreborn:storage_buffer",
-    "item:techreborn:wood_plate",
-    "item:integratedtunnels:part_importer_item",
-    "item:mekanism:dust_refined_obsidian",
-    "item:mekanism:enriched_refined_obsidian",
-    {
-      "type": "item",
-      "id": "mekanism:elite_universal_cable",
-      "amount": 8
-    },
-    {
-      "type": "item",
-      "id": "mekanism:advanced_universal_cable",
-      "amount": 8
-    },
-    "item:mekanism:basic_universal_cable",
-    "item:minecraft:raw_iron",
-    "item:industrialforegoing:laser_lens12",
-    "item:minecraft:netherite_ingot",
-    {
-      "type": "fluid",
-      "id": "tconstruct:molten_netherite",
-      "amount": 90
-    },
-    "item:immersive_weathering:soot",
-    "item:forestry:portable_alyzer",
-    "item:forestry:analyzer",
-    {
-      "type": "item",
-      "id": "minecraft:wheat",
-      "amount": 56
-    },
-    "item:forestry:bee_drone_ge{ForgeCaps:{Parent:{analyzed:0b,genome:{\"forestry:activity\":{active:\"forestry:activity_nocturnal\",inactive:\"forestry:activity_nocturnal\"},\"forestry:bee_effect\":{active:\"forestry:bee_effect_none\",inactive:\"forestry:bee_effect_none\"},\"forestry:bee_species\":{active:\"forestry:bee_modest\",inactive:\"forestry:bee_modest\"},\"forestry:cave_dwelling\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"},\"forestry:fertility\":{active:\"forestry:2id\",inactive:\"forestry:2id\"},\"forestry:flower_type\":{active:\"forestry:flower_type_cacti\",inactive:\"forestry:flower_type_cacti\"},\"forestry:humidity_tolerance\":{active:\"forestry:tolerance_down_1d\",inactive:\"forestry:tolerance_down_1d\"},\"forestry:lifespan\":{active:\"forestry:30id\",inactive:\"forestry:30id\"},\"forestry:pollination\":{active:\"forestry:5id\",inactive:\"forestry:5id\"},\"forestry:speed\":{active:\"forestry:0.6fd\",inactive:\"forestry:0.6fd\"},\"forestry:temperature_tolerance\":{active:\"forestry:tolerance_both_1d\",inactive:\"forestry:tolerance_both_1d\"},\"forestry:territory\":{active:\"forestry:9_6_9\",inactive:\"forestry:9_6_9\"},\"forestry:tolerates_rain\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"}},health:30,max_heath:30,pristine:1b}}}",
-    {
-      "type": "item",
-      "id": "forestry:bee_comb_simmering",
-      "amount": 24
-    },
-    {
-      "type": "item",
-      "id": "forestry:bee_comb_parched",
-      "amount": 32
-    },
-    "item:forestry:grafter_proven{Damage:0}",
-    "item:mekanism:elite_control_circuit",
-    "item:mekanism:advanced_control_circuit",
-    "item:mekanism:basic_control_circuit",
-    "item:forestry:sapling{ForgeCaps:{Parent:{analyzed:1b,genome:{\"forestry:fireproof\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"},\"forestry:fruits\":{active:\"forestry:fruit_none\",inactive:\"forestry:fruit_apple\"},\"forestry:girth\":{active:\"forestry:1i\",inactive:\"forestry:1i\"},\"forestry:height\":{active:\"forestry:1.0f\",inactive:\"forestry:0.75f\"},\"forestry:maturation\":{active:\"forestry:2i\",inactive:\"forestry:2i\"},\"forestry:saplings\":{active:\"forestry:0.05fd\",inactive:\"forestry:0.05fd\"},\"forestry:sappiness\":{active:\"forestry:0.1fd\",inactive:\"forestry:0.1fd\"},\"forestry:tree_effect\":{active:\"forestry:tree_effect_none\",inactive:\"forestry:tree_effect_none\"},\"forestry:tree_species\":{active:\"forestry:tree_spruce\",inactive:\"forestry:tree_oak\"},\"forestry:yield\":{active:\"forestry:0.025fd\",inactive:\"forestry:0.025fd\"}}}}}",
-    "item:trashcans:ultimate_trash_can",
-    {
-      "type": "item",
-      "id": "mekanism:alloy_reinforced",
-      "amount": 8
-    },
-    "item:mekanism:alloy_infused",
-    "item:mekanism:configuration_card",
-    {
-      "type": "item",
-      "id": "rats:token_fragment",
-      "amount": 2
-    },
-    "item:mekanism:ultimate_tier_installer",
-    "item:mekanism:elite_tier_installer",
-    "item:mekanism:advanced_tier_installer",
-    "item:mekanism:basic_tier_installer",
-    "item:mekanism:enriched_diamond",
-    "item:mekanism:enriched_redstone",
-    "item:mekanism:enriched_carbon",
-    "item:create:large_water_wheel",
-    "item:create:belt_connector",
-    "item:minecraft:polished_deepslate",
-    "item:create:encased_fan",
-    "item:create:propeller",
-    "item:thermal:netherite_dust",
-    {
-      "type": "tag",
-      "registry": "minecraft:item",
-      "id": "forge:dusts/netherite",
-      "amount": 2
-    },
-    "item:create:shadow_steel",
-    "item:embers:ember_bore",
-    "item:elevatorid:elevator_white",
-    {
-      "type": "item",
-      "id": "beneath:blackstone_pebble",
-      "amount": 12
-    },
-    "item:mekanism:upgrade_energy",
-    "item:thermal:gold_dust",
-    "#item:forge:dusts/gold",
-    "item:mekanism:upgrade_speed",
-    "item:mekanism:dust_osmium",
-    "#item:forge:dusts/osmium",
-    {
-      "type": "jemi",
-      "uid": "tinkers_advanced:atom_grade"
-    },
-    "item:jaopca:gears.osmium",
-    {
-      "type": "fluid",
-      "id": "tfc:metal/bismuth",
-      "amount": 7
-    },
-    "item:tfc:powder/bismuthinite",
-    "item:fluxnetworks:flux_plug",
-    "item:quark:hollow_acacia_log",
-    [
-      {
-        "type": "fluid",
-        "id": "kubejs:methane_helium_3_fuel",
-        "amount": 100
-      },
-      {
-        "type": "fluid",
-        "id": "tinkers_advanced:pyrotheum",
-        "amount": 10
-      },
-      {
-        "type": "fluid",
-        "id": "tinkers_advanced:gaseous_lava",
-        "amount": 10
-      },
-      {
-        "type": "fluid",
-        "id": "tinkers_advanced:plasmatic_lava",
-        "amount": 10
-      },
-      {
-        "type": "fluid",
-        "id": "tinkers_advanced:molten_antimatter",
-        "amount": 10
-      }
-    ],
-    "item:integrateddynamics:facade",
-    "item:minecraft:crimson_planks",
-    "item:forestry:grafter{Damage:8,etstlib_tool_uuid:\"8e69087a-3189-4cab-834b-69d7fc75b33f\",tic_persistent:{}}",
-    "item:minecraft:spruce_trapdoor",
-    "item:gendustry:imprinter",
-    "item:gendustry:genetic_transposer",
-    "item:gendustry:replicator",
-    "item:gendustry:fertility_elite_upgrade",
-    "item:forestry:bee_comb_honey",
-    {
-      "type": "item",
-      "id": "forestry:sapling",
-      "nbt": "{ForgeCaps:{Parent:{analyzed:0b,genome:{\"forestry:fireproof\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"},\"forestry:fruits\":{active:\"forestry:fruit_apple\",inactive:\"forestry:fruit_apple\"},\"forestry:girth\":{active:\"forestry:1i\",inactive:\"forestry:1i\"},\"forestry:height\":{active:\"forestry:0.75f\",inactive:\"forestry:0.75f\"},\"forestry:maturation\":{active:\"forestry:2i\",inactive:\"forestry:2i\"},\"forestry:saplings\":{active:\"forestry:0.05fd\",inactive:\"forestry:0.05fd\"},\"forestry:sappiness\":{active:\"forestry:0.1fd\",inactive:\"forestry:0.1fd\"},\"forestry:tree_effect\":{active:\"forestry:tree_effect_none\",inactive:\"forestry:tree_effect_none\"},\"forestry:tree_species\":{active:\"forestry:tree_oak\",inactive:\"forestry:tree_oak\"},\"forestry:yield\":{active:\"forestry:0.025fd\",inactive:\"forestry:0.025fd\"}}}}}",
-      "amount": 3
-    },
-    "item:forestry:bee_drone_ge{ForgeCaps:{Parent:{analyzed:1b,genome:{\"forestry:activity\":{active:\"forestry:activity_diurnal\",inactive:\"forestry:activity_diurnal\"},\"forestry:bee_effect\":{active:\"forestry:bee_effect_none\",inactive:\"forestry:bee_effect_none\"},\"forestry:bee_species\":{active:\"forestry:bee_majestic\",inactive:\"forestry:bee_imperial\"},\"forestry:cave_dwelling\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"},\"forestry:fertility\":{active:\"forestry:2id\",inactive:\"forestry:2id\"},\"forestry:flower_type\":{active:\"forestry:flower_type_vanilla\",inactive:\"forestry:flower_type_vanilla\"},\"forestry:humidity_tolerance\":{active:\"forestry:tolerance_none\",inactive:\"forestry:tolerance_none\"},\"forestry:lifespan\":{active:\"forestry:35id\",inactive:\"forestry:35id\"},\"forestry:pollination\":{active:\"forestry:5id\",inactive:\"forestry:5id\"},\"forestry:speed\":{active:\"forestry:1.2fd\",inactive:\"forestry:1.2fd\"},\"forestry:temperature_tolerance\":{active:\"forestry:tolerance_none\",inactive:\"forestry:tolerance_none\"},\"forestry:territory\":{active:\"forestry:9_6_9\",inactive:\"forestry:9_6_9\"},\"forestry:tolerates_rain\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"}},health:35,max_heath:35,pristine:1b}}}",
-    "item:forestry:bee_princess_ge{ForgeCaps:{Parent:{analyzed:1b,generation:3,genome:{\"forestry:activity\":{active:\"forestry:activity_diurnal\",inactive:\"forestry:activity_diurnal\"},\"forestry:bee_effect\":{active:\"forestry:bee_effect_none\",inactive:\"forestry:bee_effect_none\"},\"forestry:bee_species\":{active:\"forestry:bee_cultivated\",inactive:\"forestry:bee_noble\"},\"forestry:cave_dwelling\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"},\"forestry:fertility\":{active:\"forestry:2id\",inactive:\"forestry:2id\"},\"forestry:flower_type\":{active:\"forestry:flower_type_vanilla\",inactive:\"forestry:flower_type_vanilla\"},\"forestry:humidity_tolerance\":{active:\"forestry:tolerance_down_1d\",inactive:\"forestry:tolerance_both_1d\"},\"forestry:lifespan\":{active:\"forestry:20id\",inactive:\"forestry:10id\"},\"forestry:pollination\":{active:\"forestry:5id\",inactive:\"forestry:5id\"},\"forestry:speed\":{active:\"forestry:1.2fd\",inactive:\"forestry:0.3fd\"},\"forestry:temperature_tolerance\":{active:\"forestry:tolerance_both_1d\",inactive:\"forestry:tolerance_down_1d\"},\"forestry:territory\":{active:\"forestry:9_6_9\",inactive:\"forestry:9_6_9\"},\"forestry:tolerates_rain\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"}},health:20,max_heath:20,pristine:1b}}}",
-    {
-      "type": "fluid",
-      "id": "techreborn:glyceryl",
-      "amount": 4000
-    },
-    "item:forestry:capsule",
-    "item:minecraft:gold_block",
-    "item:gendustry:stabilizer_upgrade",
-    "item:gendustry:territory_elite_upgrade",
-    {
-      "type": "fluid",
-      "id": "gendustry:liquid_dna",
-      "amount": 100
-    },
-    "item:forestry:bee_drone_ge{ForgeCaps:{Parent:{analyzed:0b,genome:{\"forestry:activity\":{active:\"forestry:activity_diurnal\",inactive:\"forestry:activity_diurnal\"},\"forestry:bee_effect\":{active:\"forestry:bee_effect_none\",inactive:\"forestry:bee_effect_none\"},\"forestry:bee_species\":{active:\"forestry:bee_forest\",inactive:\"forestry:bee_cultivated\"},\"forestry:cave_dwelling\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"},\"forestry:fertility\":{active:\"forestry:2id\",inactive:\"forestry:2id\"},\"forestry:flower_type\":{active:\"forestry:flower_type_vanilla\",inactive:\"forestry:flower_type_vanilla\"},\"forestry:humidity_tolerance\":{active:\"forestry:tolerance_down_1d\",inactive:\"forestry:tolerance_none\"},\"forestry:lifespan\":{active:\"forestry:20id\",inactive:\"forestry:20id\"},\"forestry:pollination\":{active:\"forestry:5id\",inactive:\"forestry:10i\"},\"forestry:speed\":{active:\"forestry:1.2fd\",inactive:\"forestry:1.2fd\"},\"forestry:temperature_tolerance\":{active:\"forestry:tolerance_down_1d\",inactive:\"forestry:tolerance_down_1d\"},\"forestry:territory\":{active:\"forestry:9_6_9\",inactive:\"forestry:9_6_9\"},\"forestry:tolerates_rain\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"}},health:20,max_heath:20,pristine:1b}}}",
-    "item:forestry:bee_queen_ge{ForgeCaps:{Parent:{analyzed:1b,genome:{\"forestry:activity\":{active:\"forestry:activity_cathemeral\",inactive:\"forestry:activity_cathemeral\"},\"forestry:bee_effect\":{active:\"forestry:bee_effect_heroic\",inactive:\"forestry:bee_effect_heroic\"},\"forestry:bee_species\":{active:\"forestry:bee_heroic\",inactive:\"forestry:bee_heroic\"},\"forestry:cave_dwelling\":{active:\"forestry:trued\",inactive:\"forestry:trued\"},\"forestry:fertility\":{active:\"forestry:2id\",inactive:\"forestry:2id\"},\"forestry:flower_type\":{active:\"forestry:flower_type_vanilla\",inactive:\"forestry:flower_type_vanilla\"},\"forestry:humidity_tolerance\":{active:\"forestry:tolerance_none\",inactive:\"forestry:tolerance_none\"},\"forestry:lifespan\":{active:\"forestry:50i\",inactive:\"forestry:50i\"},\"forestry:pollination\":{active:\"forestry:5id\",inactive:\"forestry:5id\"},\"forestry:speed\":{active:\"forestry:0.8fd\",inactive:\"forestry:0.8fd\"},\"forestry:temperature_tolerance\":{active:\"forestry:tolerance_none\",inactive:\"forestry:tolerance_none\"},\"forestry:territory\":{active:\"forestry:9_6_9\",inactive:\"forestry:9_6_9\"},\"forestry:tolerates_rain\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"}},health:50,max_heath:50,pristine:1b}}}",
-    {
-      "type": "item",
-      "id": "forestry:bee_drone_ge",
-      "nbt": "{ForgeCaps:{Parent:{analyzed:0b,genome:{\"forestry:activity\":{active:\"forestry:activity_cathemeral\",inactive:\"forestry:activity_cathemeral\"},\"forestry:bee_effect\":{active:\"forestry:bee_effect_none\",inactive:\"forestry:bee_effect_none\"},\"forestry:bee_species\":{active:\"forestry:bee_steadfast\",inactive:\"forestry:bee_steadfast\"},\"forestry:cave_dwelling\":{active:\"forestry:trued\",inactive:\"forestry:trued\"},\"forestry:fertility\":{active:\"forestry:2id\",inactive:\"forestry:2id\"},\"forestry:flower_type\":{active:\"forestry:flower_type_vanilla\",inactive:\"forestry:flower_type_vanilla\"},\"forestry:humidity_tolerance\":{active:\"forestry:tolerance_none\",inactive:\"forestry:tolerance_none\"},\"forestry:lifespan\":{active:\"forestry:40i\",inactive:\"forestry:40i\"},\"forestry:pollination\":{active:\"forestry:5id\",inactive:\"forestry:5id\"},\"forestry:speed\":{active:\"forestry:0.6fd\",inactive:\"forestry:0.6fd\"},\"forestry:temperature_tolerance\":{active:\"forestry:tolerance_none\",inactive:\"forestry:tolerance_none\"},\"forestry:territory\":{active:\"forestry:9_6_9\",inactive:\"forestry:9_6_9\"},\"forestry:tolerates_rain\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"}},health:40,max_heath:40,pristine:1b}}}",
-      "amount": 4
-    },
-    "item:forestry:bee_princess_ge{ForgeCaps:{Parent:{analyzed:0b,genome:{\"forestry:activity\":{active:\"forestry:activity_cathemeral\",inactive:\"forestry:activity_cathemeral\"},\"forestry:bee_effect\":{active:\"forestry:bee_effect_none\",inactive:\"forestry:bee_effect_none\"},\"forestry:bee_species\":{active:\"forestry:bee_valiant\",inactive:\"forestry:bee_valiant\"},\"forestry:cave_dwelling\":{active:\"forestry:trued\",inactive:\"forestry:trued\"},\"forestry:fertility\":{active:\"forestry:2id\",inactive:\"forestry:2id\"},\"forestry:flower_type\":{active:\"forestry:flower_type_vanilla\",inactive:\"forestry:flower_type_vanilla\"},\"forestry:humidity_tolerance\":{active:\"forestry:tolerance_both_1d\",inactive:\"forestry:tolerance_both_1d\"},\"forestry:lifespan\":{active:\"forestry:50i\",inactive:\"forestry:50i\"},\"forestry:pollination\":{active:\"forestry:5id\",inactive:\"forestry:5id\"},\"forestry:speed\":{active:\"forestry:0.8fd\",inactive:\"forestry:0.8fd\"},\"forestry:temperature_tolerance\":{active:\"forestry:tolerance_both_1d\",inactive:\"forestry:tolerance_both_1d\"},\"forestry:territory\":{active:\"forestry:9_6_9\",inactive:\"forestry:9_6_9\"},\"forestry:tolerates_rain\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"}},health:50,max_heath:50,pristine:1b}}}",
-    "item:forestry:bee_princess_ge{ForgeCaps:{Parent:{analyzed:1b,generation:15,genome:{\"forestry:activity\":{active:\"forestry:activity_diurnal\",inactive:\"forestry:activity_diurnal\"},\"forestry:bee_effect\":{active:\"forestry:bee_effect_none\",inactive:\"forestry:bee_effect_none\"},\"forestry:bee_species\":{active:\"forestry:bee_forest\",inactive:\"forestry:bee_cultivated\"},\"forestry:cave_dwelling\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"},\"forestry:fertility\":{active:\"forestry:2id\",inactive:\"forestry:2id\"},\"forestry:flower_type\":{active:\"forestry:flower_type_vanilla\",inactive:\"forestry:flower_type_vanilla\"},\"forestry:humidity_tolerance\":{active:\"forestry:tolerance_down_1d\",inactive:\"forestry:tolerance_none\"},\"forestry:lifespan\":{active:\"forestry:30id\",inactive:\"forestry:20id\"},\"forestry:pollination\":{active:\"forestry:5id\",inactive:\"forestry:15i\"},\"forestry:speed\":{active:\"forestry:1.2fd\",inactive:\"forestry:0.3fd\"},\"forestry:temperature_tolerance\":{active:\"forestry:tolerance_down_1d\",inactive:\"forestry:tolerance_none\"},\"forestry:territory\":{active:\"forestry:9_6_9\",inactive:\"forestry:9_6_9\"},\"forestry:tolerates_rain\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"}},health:30,max_heath:30,pristine:1b}}}",
-    "item:forestry:bee_princess_ge{ForgeCaps:{Parent:{analyzed:1b,generation:15,genome:{\"forestry:activity\":{active:\"forestry:activity_diurnal\",inactive:\"forestry:activity_diurnal\"},\"forestry:bee_effect\":{active:\"forestry:bee_effect_none\",inactive:\"forestry:bee_effect_none\"},\"forestry:bee_species\":{active:\"forestry:bee_meadows\",inactive:\"forestry:bee_forest\"},\"forestry:cave_dwelling\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"},\"forestry:fertility\":{active:\"forestry:2id\",inactive:\"forestry:3i\"},\"forestry:flower_type\":{active:\"forestry:flower_type_vanilla\",inactive:\"forestry:flower_type_vanilla\"},\"forestry:humidity_tolerance\":{active:\"forestry:tolerance_down_1d\",inactive:\"forestry:tolerance_down_1d\"},\"forestry:lifespan\":{active:\"forestry:30id\",inactive:\"forestry:20id\"},\"forestry:pollination\":{active:\"forestry:10i\",inactive:\"forestry:10i\"},\"forestry:speed\":{active:\"forestry:0.3fd\",inactive:\"forestry:1.2fd\"},\"forestry:temperature_tolerance\":{active:\"forestry:tolerance_down_1d\",inactive:\"forestry:tolerance_none\"},\"forestry:territory\":{active:\"forestry:9_6_9\",inactive:\"forestry:9_6_9\"},\"forestry:tolerates_rain\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"}},health:30,max_heath:30,pristine:0b}}}",
-    "item:forestry:ice_shard",
-    "item:forestry:bee_queen_ge{ForgeCaps:{Parent:{analyzed:1b,genome:{\"forestry:activity\":{active:\"forestry:activity_diurnal\",inactive:\"forestry:activity_diurnal\"},\"forestry:bee_effect\":{active:\"forestry:bee_effect_glacial\",inactive:\"forestry:bee_effect_glacial\"},\"forestry:bee_species\":{active:\"forestry:bee_icy\",inactive:\"forestry:bee_icy\"},\"forestry:cave_dwelling\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"},\"forestry:fertility\":{active:\"forestry:2id\",inactive:\"forestry:2id\"},\"forestry:flower_type\":{active:\"forestry:flower_type_snow\",inactive:\"forestry:flower_type_snow\"},\"forestry:humidity_tolerance\":{active:\"forestry:tolerance_both_1d\",inactive:\"forestry:tolerance_both_1d\"},\"forestry:lifespan\":{active:\"forestry:30id\",inactive:\"forestry:30id\"},\"forestry:pollination\":{active:\"forestry:5id\",inactive:\"forestry:5id\"},\"forestry:speed\":{active:\"forestry:0.8fd\",inactive:\"forestry:0.8fd\"},\"forestry:temperature_tolerance\":{active:\"forestry:tolerance_up_1d\",inactive:\"forestry:tolerance_up_1d\"},\"forestry:territory\":{active:\"forestry:9_6_9\",inactive:\"forestry:9_6_9\"},\"forestry:tolerates_rain\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"}},health:30,max_heath:30,pristine:1b}}}",
-    "item:forestry:bee_queen_ge{ForgeCaps:{Parent:{analyzed:1b,genome:{\"forestry:activity\":{active:\"forestry:activity_diurnal\",inactive:\"forestry:activity_diurnal\"},\"forestry:bee_effect\":{active:\"forestry:bee_effect_none\",inactive:\"forestry:bee_effect_none\"},\"forestry:bee_species\":{active:\"forestry:bee_industrious\",inactive:\"forestry:bee_industrious\"},\"forestry:cave_dwelling\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"},\"forestry:fertility\":{active:\"forestry:2id\",inactive:\"forestry:2id\"},\"forestry:flower_type\":{active:\"forestry:flower_type_vanilla\",inactive:\"forestry:flower_type_vanilla\"},\"forestry:humidity_tolerance\":{active:\"forestry:tolerance_none\",inactive:\"forestry:tolerance_none\"},\"forestry:lifespan\":{active:\"forestry:40i\",inactive:\"forestry:40i\"},\"forestry:pollination\":{active:\"forestry:25i\",inactive:\"forestry:25i\"},\"forestry:speed\":{active:\"forestry:0.6fd\",inactive:\"forestry:0.6fd\"},\"forestry:temperature_tolerance\":{active:\"forestry:tolerance_none\",inactive:\"forestry:tolerance_none\"},\"forestry:territory\":{active:\"forestry:9_6_9\",inactive:\"forestry:9_6_9\"},\"forestry:tolerates_rain\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"}},health:40,max_heath:40,pristine:1b}}}",
-    "item:forestry:bee_drone_ge{ForgeCaps:{Parent:{analyzed:0b,genome:{\"forestry:activity\":{active:\"forestry:activity_diurnal\",inactive:\"forestry:activity_diurnal\"},\"forestry:bee_effect\":{active:\"forestry:bee_effect_none\",inactive:\"forestry:bee_effect_none\"},\"forestry:bee_species\":{active:\"forestry:bee_unweary\",inactive:\"forestry:bee_majestic\"},\"forestry:cave_dwelling\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"},\"forestry:fertility\":{active:\"forestry:2id\",inactive:\"forestry:2id\"},\"forestry:flower_type\":{active:\"forestry:flower_type_vanilla\",inactive:\"forestry:flower_type_vanilla\"},\"forestry:humidity_tolerance\":{active:\"forestry:tolerance_down_1d\",inactive:\"forestry:tolerance_none\"},\"forestry:lifespan\":{active:\"forestry:20id\",inactive:\"forestry:35id\"},\"forestry:pollination\":{active:\"forestry:5id\",inactive:\"forestry:5id\"},\"forestry:speed\":{active:\"forestry:0.3fd\",inactive:\"forestry:1.0f\"},\"forestry:temperature_tolerance\":{active:\"forestry:tolerance_down_1d\",inactive:\"forestry:tolerance_none\"},\"forestry:territory\":{active:\"forestry:9_6_9\",inactive:\"forestry:9_6_9\"},\"forestry:tolerates_rain\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"}},health:20,max_heath:20,pristine:1b}}}",
-    "item:forestry:bee_queen_ge{ForgeCaps:{Parent:{analyzed:1b,genome:{\"forestry:activity\":{active:\"forestry:activity_diurnal\",inactive:\"forestry:activity_diurnal\"},\"forestry:bee_effect\":{active:\"forestry:bee_effect_none\",inactive:\"forestry:bee_effect_none\"},\"forestry:bee_species\":{active:\"forestry:bee_farmerly\",inactive:\"forestry:bee_farmerly\"},\"forestry:cave_dwelling\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"},\"forestry:fertility\":{active:\"forestry:2id\",inactive:\"forestry:2id\"},\"forestry:flower_type\":{active:\"forestry:flower_type_wheat\",inactive:\"forestry:flower_type_wheat\"},\"forestry:humidity_tolerance\":{active:\"forestry:tolerance_none\",inactive:\"forestry:tolerance_none\"},\"forestry:lifespan\":{active:\"forestry:20id\",inactive:\"forestry:20id\"},\"forestry:pollination\":{active:\"forestry:30i\",inactive:\"forestry:30i\"},\"forestry:speed\":{active:\"forestry:0.8fd\",inactive:\"forestry:0.8fd\"},\"forestry:temperature_tolerance\":{active:\"forestry:tolerance_none\",inactive:\"forestry:tolerance_none\"},\"forestry:territory\":{active:\"forestry:11_8_11\",inactive:\"forestry:11_8_11\"},\"forestry:tolerates_rain\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"}},health:20,max_heath:20,pristine:1b}}}",
-    "item:forestry:bee_comb_wheaten",
-    "item:forestry:bee_queen_ge{ForgeCaps:{Parent:{analyzed:1b,genome:{\"forestry:activity\":{active:\"forestry:activity_diurnal\",inactive:\"forestry:activity_diurnal\"},\"forestry:bee_effect\":{active:\"forestry:bee_effect_fertile\",inactive:\"forestry:bee_effect_fertile\"},\"forestry:bee_species\":{active:\"forestry:bee_agrarian\",inactive:\"forestry:bee_agrarian\"},\"forestry:cave_dwelling\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"},\"forestry:fertility\":{active:\"forestry:2id\",inactive:\"forestry:2id\"},\"forestry:flower_type\":{active:\"forestry:flower_type_wheat\",inactive:\"forestry:flower_type_wheat\"},\"forestry:humidity_tolerance\":{active:\"forestry:tolerance_both_2\",inactive:\"forestry:tolerance_both_2\"},\"forestry:lifespan\":{active:\"forestry:20id\",inactive:\"forestry:20id\"},\"forestry:pollination\":{active:\"forestry:30i\",inactive:\"forestry:30i\"},\"forestry:speed\":{active:\"forestry:0.8fd\",inactive:\"forestry:0.8fd\"},\"forestry:temperature_tolerance\":{active:\"forestry:tolerance_none\",inactive:\"forestry:tolerance_none\"},\"forestry:territory\":{active:\"forestry:11_8_11\",inactive:\"forestry:11_8_11\"},\"forestry:tolerates_rain\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"}},health:20,max_heath:20,pristine:1b}}}",
-    "item:forestry:bee_queen_ge{ForgeCaps:{Parent:{analyzed:1b,genome:{\"forestry:activity\":{active:\"forestry:activity_diurnal\",inactive:\"forestry:activity_diurnal\"},\"forestry:bee_effect\":{active:\"forestry:bee_effect_easter\",inactive:\"forestry:bee_effect_easter\"},\"forestry:bee_species\":{active:\"forestry:bee_leporine\",inactive:\"forestry:bee_leporine\"},\"forestry:cave_dwelling\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"},\"forestry:fertility\":{active:\"forestry:2id\",inactive:\"forestry:2id\"},\"forestry:flower_type\":{active:\"forestry:flower_type_vanilla\",inactive:\"forestry:flower_type_vanilla\"},\"forestry:humidity_tolerance\":{active:\"forestry:tolerance_both_1d\",inactive:\"forestry:tolerance_both_1d\"},\"forestry:lifespan\":{active:\"forestry:40i\",inactive:\"forestry:40i\"},\"forestry:pollination\":{active:\"forestry:5id\",inactive:\"forestry:5id\"},\"forestry:speed\":{active:\"forestry:0.6fd\",inactive:\"forestry:0.6fd\"},\"forestry:temperature_tolerance\":{active:\"forestry:tolerance_both_2\",inactive:\"forestry:tolerance_both_2\"},\"forestry:territory\":{active:\"forestry:9_6_9\",inactive:\"forestry:9_6_9\"},\"forestry:tolerates_rain\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"}},health:40,max_heath:40,pristine:1b}}}",
-    "item:techreborn:distillation_tower",
-    "item:forestry:bee_queen_ge{ForgeCaps:{Parent:{analyzed:1b,genome:{\"forestry:activity\":{active:\"forestry:activity_diurnal\",inactive:\"forestry:activity_diurnal\"},\"forestry:bee_effect\":{active:\"forestry:bee_effect_beatific\",inactive:\"forestry:bee_effect_beatific\"},\"forestry:bee_species\":{active:\"forestry:bee_imperial\",inactive:\"forestry:bee_imperial\"},\"forestry:cave_dwelling\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"},\"forestry:fertility\":{active:\"forestry:2id\",inactive:\"forestry:2id\"},\"forestry:flower_type\":{active:\"forestry:flower_type_vanilla\",inactive:\"forestry:flower_type_vanilla\"},\"forestry:humidity_tolerance\":{active:\"forestry:tolerance_none\",inactive:\"forestry:tolerance_none\"},\"forestry:lifespan\":{active:\"forestry:40i\",inactive:\"forestry:40i\"},\"forestry:pollination\":{active:\"forestry:5id\",inactive:\"forestry:5id\"},\"forestry:speed\":{active:\"forestry:0.6fd\",inactive:\"forestry:0.6fd\"},\"forestry:temperature_tolerance\":{active:\"forestry:tolerance_none\",inactive:\"forestry:tolerance_none\"},\"forestry:territory\":{active:\"forestry:9_6_9\",inactive:\"forestry:9_6_9\"},\"forestry:tolerates_rain\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"}},health:40,max_heath:40,pristine:1b}}}",
-    "item:forestry:bee_princess_ge{ForgeCaps:{Parent:{analyzed:0b,generation:12,genome:{\"forestry:activity\":{active:\"forestry:activity_diurnal\",inactive:\"forestry:activity_diurnal\"},\"forestry:bee_effect\":{active:\"forestry:bee_effect_none\",inactive:\"forestry:bee_effect_none\"},\"forestry:bee_species\":{active:\"forestry:bee_noble\",inactive:\"forestry:bee_diligent\"},\"forestry:cave_dwelling\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"},\"forestry:fertility\":{active:\"forestry:2id\",inactive:\"forestry:2id\"},\"forestry:flower_type\":{active:\"forestry:flower_type_vanilla\",inactive:\"forestry:flower_type_vanilla\"},\"forestry:humidity_tolerance\":{active:\"forestry:tolerance_down_1d\",inactive:\"forestry:tolerance_down_1d\"},\"forestry:lifespan\":{active:\"forestry:30id\",inactive:\"forestry:30id\"},\"forestry:pollination\":{active:\"forestry:15i\",inactive:\"forestry:15i\"},\"forestry:speed\":{active:\"forestry:0.6fd\",inactive:\"forestry:0.6fd\"},\"forestry:temperature_tolerance\":{active:\"forestry:tolerance_down_1d\",inactive:\"forestry:tolerance_none\"},\"forestry:territory\":{active:\"forestry:9_6_9\",inactive:\"forestry:9_6_9\"},\"forestry:tolerates_rain\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"}},health:30,max_heath:30,pristine:1b}}}",
-    "item:gendustry:sampler",
-    "item:gendustry:blank_genetic_template",
-    "item:gendustry:blank_gene_sample",
-    "item:forestry:bee_drone_ge{ForgeCaps:{Parent:{analyzed:0b,genome:{\"forestry:activity\":{active:\"forestry:activity_diurnal\",inactive:\"forestry:activity_diurnal\"},\"forestry:bee_effect\":{active:\"forestry:bee_effect_none\",inactive:\"forestry:bee_effect_none\"},\"forestry:bee_species\":{active:\"forestry:bee_common\",inactive:\"forestry:bee_noble\"},\"forestry:cave_dwelling\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"},\"forestry:fertility\":{active:\"forestry:2id\",inactive:\"forestry:2id\"},\"forestry:flower_type\":{active:\"forestry:flower_type_vanilla\",inactive:\"forestry:flower_type_vanilla\"},\"forestry:humidity_tolerance\":{active:\"forestry:tolerance_down_1d\",inactive:\"forestry:tolerance_none\"},\"forestry:lifespan\":{active:\"forestry:20id\",inactive:\"forestry:10id\"},\"forestry:pollination\":{active:\"forestry:5id\",inactive:\"forestry:15i\"},\"forestry:speed\":{active:\"forestry:1.2fd\",inactive:\"forestry:0.6fd\"},\"forestry:temperature_tolerance\":{active:\"forestry:tolerance_none\",inactive:\"forestry:tolerance_none\"},\"forestry:territory\":{active:\"forestry:9_6_9\",inactive:\"forestry:9_6_9\"},\"forestry:tolerates_rain\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"}},health:20,max_heath:20,pristine:1b}}}",
-    "item:forestry:escritoire",
-    "item:forestry:carpenter",
-    "item:forestry:bee_princess_ge{ForgeCaps:{Parent:{analyzed:0b,generation:8,genome:{\"forestry:activity\":{active:\"forestry:activity_diurnal\",inactive:\"forestry:activity_diurnal\"},\"forestry:bee_effect\":{active:\"forestry:bee_effect_none\",inactive:\"forestry:bee_effect_none\"},\"forestry:bee_species\":{active:\"forestry:bee_common\",inactive:\"forestry:bee_common\"},\"forestry:cave_dwelling\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"},\"forestry:fertility\":{active:\"forestry:2id\",inactive:\"forestry:2id\"},\"forestry:flower_type\":{active:\"forestry:flower_type_vanilla\",inactive:\"forestry:flower_type_vanilla\"},\"forestry:humidity_tolerance\":{active:\"forestry:tolerance_down_1d\",inactive:\"forestry:tolerance_none\"},\"forestry:lifespan\":{active:\"forestry:20id\",inactive:\"forestry:10id\"},\"forestry:pollination\":{active:\"forestry:5id\",inactive:\"forestry:5id\"},\"forestry:speed\":{active:\"forestry:1.2fd\",inactive:\"forestry:1.2fd\"},\"forestry:temperature_tolerance\":{active:\"forestry:tolerance_down_1d\",inactive:\"forestry:tolerance_none\"},\"forestry:territory\":{active:\"forestry:9_6_9\",inactive:\"forestry:9_6_9\"},\"forestry:tolerates_rain\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"}},health:20,max_heath:20,pristine:0b}}}",
-    "item:thermal:phytogro",
-    "item:forestry:sapling{ForgeCaps:{Parent:{analyzed:1b,genome:{\"forestry:fireproof\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"},\"forestry:fruits\":{active:\"forestry:fruit_none\",inactive:\"forestry:fruit_none\"},\"forestry:girth\":{active:\"forestry:1i\",inactive:\"forestry:1i\"},\"forestry:height\":{active:\"forestry:1.0f\",inactive:\"forestry:1.0f\"},\"forestry:maturation\":{active:\"forestry:4i\",inactive:\"forestry:4i\"},\"forestry:saplings\":{active:\"forestry:0.035fd\",inactive:\"forestry:0.035fd\"},\"forestry:sappiness\":{active:\"forestry:0.2fd\",inactive:\"forestry:0.2fd\"},\"forestry:tree_effect\":{active:\"forestry:tree_effect_none\",inactive:\"forestry:tree_effect_none\"},\"forestry:tree_species\":{active:\"forestry:tree_larch\",inactive:\"forestry:tree_larch\"},\"forestry:yield\":{active:\"forestry:0.025fd\",inactive:\"forestry:0.025fd\"}}}}}",
-    "item:forestry:sapling{ForgeCaps:{Parent:{analyzed:0b,genome:{\"forestry:fireproof\":{active:\"forestry:falsed\",inactive:\"forestry:falsed\"},\"forestry:fruits\":{active:\"forestry:fruit_none\",inactive:\"forestry:fruit_none\"},\"forestry:girth\":{active:\"forestry:1i\",inactive:\"forestry:1i\"},\"forestry:height\":{active:\"forestry:1.0f\",inactive:\"forestry:1.0f\"},\"forestry:maturation\":{active:\"forestry:4i\",inactive:\"forestry:4i\"},\"forestry:saplings\":{active:\"forestry:0.035fd\",inactive:\"forestry:0.035fd\"},\"forestry:sappiness\":{active:\"forestry:0.2fd\",inactive:\"forestry:0.2fd\"},\"forestry:tree_effect\":{active:\"forestry:tree_effect_none\",inactive:\"forestry:tree_effect_none\"},\"forestry:tree_species\":{active:\"forestry:tree_maple\",inactive:\"forestry:tree_maple\"},\"forestry:yield\":{active:\"forestry:0.025fd\",inactive:\"forestry:0.025fd\"}}}}}",
-    "item:forestry:tree_maple_decorative_leaves"
+    }
   ],
   "craft_history": [
+    "minecraft:iron_ingot_from_nuggets",
+    "tfc:crafting/rock/limestone_bricks",
+    "tfc:crafting/metal/block/gold",
+    "dustandash:crafting/log_pile",
+    "cobblemon:pc",
+    "kubejs:barrel",
+    "woodenhopper:wooden_hopper",
+    "tconstruct:smeltery/seared/grout_multiple",
+    "framedblocks:framed_cube_framework_architect",
     "jei:/thermal/machines/smelter/smelter_alloy_electrum",
     "ars_nouveau:source_jar",
     "immersiveengineering:crafting/raw_uranium_to_raw_block_uranium",
@@ -2238,7 +2121,6 @@
     "tfc:crafting/bellows",
     "minecraft:smithing_table",
     "integrateddynamics:crafting/variable",
-    "tconstruct:smeltery/seared/grout_multiple",
     "kubejs:cobble_t5_s4",
     "kubejs:cobble_t4_s3",
     "kubejs:cobble_t3_s2",
@@ -2504,7 +2386,6 @@
     "create:crafting/kinetics/hose_pulley",
     "jei:/minecraft/dried_kelp_block",
     "minecraft:dried_kelp_block",
-    "cobblemon:pc",
     "supplementaries:sugar_cube",
     "jei:/kubejs/epsilon_framework_s5",
     "jei:/kubejs/basepoint_alloy_s5",
@@ -2629,7 +2510,6 @@
     "immersiveengineering:crafting/string",
     "industrialforegoing:laser_lens_gray_recolor",
     "create:crafting/appliances/clipboard",
-    "dustandash:crafting/log_pile",
     "jei:/embers/stamping/dawnstone_aspectus",
     "jei:/embers/stamping/iron_aspectus",
     "jei:/tconstruct/smeltery/melting/metal/iron/ingot",
@@ -2916,7 +2796,6 @@
     "sophisticatedstorage:decoration_table",
     "sophisticatedstorage:storage_tool",
     "sophisticatedstorage:spruce_limited_barrel_1",
-    "kubejs:barrel",
     "create:crafting/kinetics/shaft",
     "techreborn:crafting_table/nugget/brass_nugget",
     "compactmachines:tunnels/energy",
@@ -2943,48 +2822,50 @@
   ],
   "recipe_defaults": {
     "added": [
-      "jei:/nuclearcraft/ingot_former/boron_arsenide",
-      "kubejs:infinity_boots_s7",
-      "jei:/nuclearcraft/alloy_smelter/ingots_ferroboron-ingots_lithium",
-      "jei:/kubejs/prediction_matrix_s5",
-      "thermal:redstone_servo",
-      "kubejs:creative_fluid_tank_s7",
-      "jei:/embers/melting/ingots/electrum",
-      "kubejs:infinity_chestplate_s7",
-      "ae2:inscriber/silicon_print",
-      "jei:/nuclearcraft/alloy_smelter/ingots_tough_alloy-ingots_hard_carbon",
-      "kubejs:creative_capacitor_de_s7",
-      "kubejs:thermal_upgrade_creative_s7",
-      "minecraft:infinity_block_from_infinity_ingot",
-      "jei:/tinkers_advanced/materials/activated_chromatic_steel/activated_chromatic_steel_alloy",
-      "jaopcaextras:inscriber.processor.manasteel",
-      "jei:/nuclearcraft/alloy_smelter/dusts_graphite-dusts_diamond",
-      "jaopcaextras:inscriber.circuit.draconium",
-      "kubejs:machine_frame_pity_s4",
-      "jaopcaextras:inscriber.processor.draconium",
-      "avaritia:enhancement_core",
-      "jei:/kubejs/draconium_core_2_s4",
-      "jei:/draconicevolution/components/awakened_core",
-      "jei:/kubejs/epsilon_framework_s5",
       "kubejs:creative_motor_s7",
-      "kubejs:infinity_helmet_s7",
-      "avaritia:infinity_ingot",
-      "thermal:rf_coil",
-      "kubejs:infinity_pants_s7",
-      "avaritia:eternal_singularity",
-      "draconicevolution:components/wyvern_core",
-      "jei:/kubejs/awakened_draconium_ingot_s6",
-      "ars_ocultas:craft_stabilizer_tier4",
-      "kubejs:creative_ember_source_s7",
-      "kubejs:creative_op_capacitor_s7",
-      "ae2:network/cells/item_storage_components_cell_4k_part",
-      "avaritia:star_fuel",
+      "jei:/nuclearcraft/ingot_former/boron_arsenide",
       "jaopcaextras:inscriber.circuit.manasteel",
+      "jei:/kubejs/prediction_matrix_s5",
+      "jei:/kubejs/tc_melting_cassiterite",
+      "kubejs:thermal_upgrade_creative_s7",
+      "jei:/nuclearcraft/alloy_smelter/ingots_ferroboron-ingots_lithium",
+      "thermal:rf_coil",
       "jei:/kubejs/cognitio_s6",
+      "kubejs:machine_frame_pity_s4",
+      "jei:/kubejs/epsilon_framework_s5",
+      "jei:/embers/melting/ingots/electrum",
+      "kubejs:infinity_boots_s7",
+      "jei:/tconstruct/smeltery/casting/metal/tin/ingot_gold_cast",
+      "kubejs:creative_op_capacitor_s7",
+      "jei:/nuclearcraft/alloy_smelter/ingots_tough_alloy-ingots_hard_carbon",
+      "thermal:redstone_servo",
+      "draconicevolution:components/wyvern_core",
+      "ae2:network/cells/item_storage_components_cell_4k_part",
+      "avaritia:infinity_ingot",
+      "kubejs:infinity_helmet_s7",
+      "jei:/nuclearcraft/alloy_smelter/dusts_graphite-dusts_diamond",
+      "jei:/kubejs/draconium_core_2_s4",
       "jei:/kubejs/epsilon_dust_s6",
-      "kubejs:creative_pool_s7",
+      "minecraft:infinity_block_from_infinity_ingot",
+      "jei:/draconicevolution/components/awakened_core",
+      "ars_ocultas:craft_stabilizer_tier4",
       "jei:/kubejs/delta_framework_s4",
-      "kubejs:mek_upgrade_creative_s7"
+      "kubejs:creative_fluid_tank_s7",
+      "jei:/tinkers_advanced/materials/activated_chromatic_steel/activated_chromatic_steel_alloy",
+      "avaritia:eternal_singularity",
+      "jaopcaextras:inscriber.processor.manasteel",
+      "kubejs:creative_ember_source_s7",
+      "avaritia:enhancement_core",
+      "kubejs:infinity_pants_s7",
+      "ae2:inscriber/silicon_print",
+      "kubejs:mek_upgrade_creative_s7",
+      "avaritia:star_fuel",
+      "kubejs:infinity_chestplate_s7",
+      "jei:/kubejs/awakened_draconium_ingot_s6",
+      "jaopcaextras:inscriber.circuit.draconium",
+      "kubejs:creative_pool_s7",
+      "jaopcaextras:inscriber.processor.draconium",
+      "kubejs:creative_capacitor_de_s7"
     ],
     "tags": {
       "#item:forge:gears/steel": "item:thermal:steel_gear",
@@ -2992,6 +2873,7 @@
       "#item:forge:gears/gold": "item:thermal:gold_gear",
       "#item:c:electrum_plates": "item:thermal:electrum_plate",
       "#fluid:forge:sulfur_dioxide": "fluid:nuclearcraft:sulfur_dioxide",
+      "#fluid:forge:molten_tin": "fluid:tconstruct:molten_tin",
       "#item:forge:dusts/copper": "item:thermal:copper_dust",
       "#item:forge:dusts/graphite": "item:tfc:powder/graphite",
       "#item:forge:gears/bronze": "item:thermal:bronze_gear",
@@ -3004,12 +2886,18 @@
       "#item:forge:dusts/gold": "item:thermal:gold_dust"
     },
     "resolutions": {
+      "jei:/jaopca/thermal_expansion.material_to_gear.dawnstone": [
+        "item:jaopca:gears.dawnstone"
+      ],
       "jei:/kubejs/end_steel_s5": [
         {
           "type": "item",
           "id": "kubejs:end_steel",
           "amount": 2
         }
+      ],
+      "jei:/jaopca/thermal_expansion.material_to_storage_block.draconium": [
+        "item:draconicevolution:draconium_block"
       ],
       "jei:/kubejs/collapse_prediction_s5": [
         {
@@ -3018,6 +2906,12 @@
           "amount": 2
         }
       ],
+      "jei:/thermal/kjs/8raor5kvtx12r7u0ox3zt0tei": [
+        "item:thermal:diamond_gear"
+      ],
+      "jei:/jaopca/thermal_expansion.material_to_gear.desh": [
+        "item:jaopca:gears.desh"
+      ],
       "jei:/kubejs/essence_computation_frame_s4": [
         {
           "type": "item",
@@ -3025,20 +2919,8 @@
           "amount": 3
         }
       ],
-      "jei:/jaopca/thermal_expansion.material_to_gear.desh": [
-        "item:jaopca:gears.desh"
-      ],
-      "jei:/jaopca/thermal_expansion.material_to_gear.dawnstone": [
-        "item:jaopca:gears.dawnstone"
-      ],
       "jei:/jaopca/thermal_expansion.material_to_gear.iesnium": [
         "item:jaopca:gears.iesnium"
-      ],
-      "jei:/jaopca/thermal_expansion.material_to_storage_block.draconium": [
-        "item:draconicevolution:draconium_block"
-      ],
-      "jei:/thermal/kjs/8raor5kvtx12r7u0ox3zt0tei": [
-        "item:thermal:diamond_gear"
       ]
     },
     "disabled": []

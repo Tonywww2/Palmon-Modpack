@@ -347,7 +347,7 @@ ServerEvents.recipes(event => {
 
     event.custom({
             "type": "tconstruct:casting_table",
-            "cast": { "tag": 'forge:plates/blue_steel' },
+            "cast": { "tag": 'forge:sheets/blue_steel' },
             "cast_consumed": true,
             "cooling_time": 80,
             "fluid": { "amount": 90, "tag": "tfc:red_steel" },

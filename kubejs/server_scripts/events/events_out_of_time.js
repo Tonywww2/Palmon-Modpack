@@ -566,7 +566,7 @@ registerBuff("poke_3", 2, ["master_ending"], true,
     empty)
 
 // 工业 *
-registerBuff("thermal_1", 2, ["init"], false,
+registerBuff("thermal_1", 3, ["init"], false,
     (event) => {
         event.player.give(Item.of('thermal:satchel',
             '{ItemInv:{ItemInv:[{Count:1b,Slot:0b,id:"thermal:dynamo_stirling"},{Count:1b,Slot:1b,id:"thermal:machine_furnace"},{Count:1b,Slot:2b,id:"thermal:machine_pulverizer"},{Count:1b,Slot:3b,id:"thermal:wrench",tag:{}},{Count:2b,Slot:4b,id:"thermal_extra:abyssal_machine_speed_augment"}]}}'))
@@ -574,7 +574,7 @@ registerBuff("thermal_1", 2, ["init"], false,
     empty,
     empty)
 
-registerBuff("thermal_2", 2, ["true_ending", "thermal_1"], false,
+registerBuff("thermal_2", 3, ["true_ending", "thermal_1"], false,
     (event) => {
         event.player.give(Item.of('2x thermal_extra:abyssal_upgrade_augment'))
     },

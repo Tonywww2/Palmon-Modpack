@@ -27,7 +27,7 @@ ItemEvents.rightClicked('minecraft:emerald', event => {
         searchCount++
 
         // 生成19位测试种子 - 修改前几位而不是后几位
-        let baseSeedStr = "503061322000000000" // 19位起始数字
+        let baseSeedStr = "503065382123123123" // 19位起始数字
         let offsetStr = seedOffset.toString()
         let testSeedStr = offsetStr + baseSeedStr.substring(offsetStr.length)
 
@@ -90,7 +90,7 @@ ItemEvents.rightClicked('minecraft:emerald', event => {
                     }
                 }
 
-                console.log(`  ${key}: 目标=${target} 实际=${actual.slice(0, target.length)} 匹配=${keyMatch}`)
+                console.log(`  ${key}: 目标=${target} 实际=${actual} 匹配=${keyMatch}`)
             }
         }
 
@@ -141,7 +141,7 @@ function testSeed_Internal(testSeed) {
     }
 
     // 创建局部变量，初始索引需要匹配实际情况
-    let localRandomIndex = 0
+    let localRandomIndex = 595
 
     // 跳过 EOT 使用的随机数（根据当前激活的buffs计算）
     let eotKjsCount = 0
@@ -230,7 +230,7 @@ function matchesPattern(result, pattern) {
 
         // Stage 3、4、5 支持模糊匹配（不考虑顺序）
         if (key === 's3m' || key === 's3e' || key === 's4m' || key === 's4e' || key === 's5m' || key === 's5e') {
-            // 检查目标数组中的每个值是否都在实际结果中
+            // 检查目标数组中的每个值是否都在实际结果的完整数组中
             let allFound = true
             for (let targetValue of target) {
                 if (!actual.includes(targetValue)) {
