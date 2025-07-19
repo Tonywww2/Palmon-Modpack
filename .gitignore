@@ -53,3 +53,9 @@ servers.dat
 /sr_shaderCache
 servers.dat
 /config/yes_steve_model
+config/oculus.properties
+config/packetfixer.properties
+config/DistantHorizons.toml
+servers.dat_old
+servers.dat
+emi.json
