@@ -1,4 +1,8 @@
-global.tfcBanEntityList = new Set(['entity.rats.plague_doctor', 'entity.touhou_little_maid.fairy'])
+global.tfcBanEntityList = new Set([
+    'entity.rats.plague_doctor',
+    'entity.rats.rat',
+    'entity.touhou_little_maid.fairy'
+])
 
 EntityEvents.spawned((event) => {
     let entity = event.entity

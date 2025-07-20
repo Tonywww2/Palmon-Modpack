@@ -32,7 +32,7 @@
   numAffixes = 3
   defaultColor = "#66FFFF"
   weight = 150
-  growthFactor = 5
+  growthFactor = 6
   effects = []
   presetAffixes = []
 
@@ -41,7 +41,7 @@
   numAffixes = 5
   defaultColor = "#CC33FF"
   weight = 100
-  growthFactor = 7
+  growthFactor = 9
   effects = []
   presetAffixes = []
 
@@ -50,7 +50,7 @@
   numAffixes = 7
   defaultColor = "#CC0000"
   weight = 50
-  growthFactor = 9
+  growthFactor = 18
   effects = []
   presetAffixes = []
 
@@ -59,7 +59,7 @@
   numAffixes = 8
   defaultColor = "#000000"
   weight = 25
-  growthFactor = 12
+  growthFactor = 36
   effects = []
   presetAffixes = []
 
@@ -68,7 +68,7 @@
   numAffixes = 10
   defaultColor = "#00FF00"
   weight = 10
-  growthFactor = 15
+  growthFactor = 48
   effects = []
   presetAffixes = []
 
@@ -77,7 +77,7 @@
   numAffixes = 10
   defaultColor = "#111111"
   weight = 1
-  growthFactor = 20
+  growthFactor = 72
   effects = []
   presetAffixes = []
 
@@ -86,7 +86,7 @@
   numAffixes = 0
   defaultColor = "#111111"
   weight = 0
-  growthFactor = 30
+  growthFactor = 144
   effects = []
   presetAffixes = []
 

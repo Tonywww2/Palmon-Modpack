@@ -23,16 +23,16 @@
 	attackGrowth = 0.05
 	#The attackGrowth operation. Effect how attack growth calculate
 	#Allowed Values: ADDITION, MULTIPLY_BASE, MULTIPLY_TOTAL
-	attackModifierOperation = "MULTIPLY_TOTAL"
+	attackModifierOperation = "ADDITION"
 	#The increase in armor multiplied by the growth factor
 	#Range: 0.0 ~ 30.0
-	armorGrowth = 0.075
+	armorGrowth = 1.5
 	#The armorGrowth operation. Effect how armor growth calculate
 	#Allowed Values: ADDITION, MULTIPLY_BASE, MULTIPLY_TOTAL
-	armorModifierOperation = "MULTIPLY_TOTAL"
+	armorModifierOperation = "ADDITION"
 	#The increase in armor toughness multiplied by the growth factor
 	#Range: 0.0 ~ 30.0
-	toughnessGrowth = 0.0
+	toughnessGrowth = 1.0
 	#The toughnessGrowth operation. Effect how toughness growth calculate
 	#Allowed Values: ADDITION, MULTIPLY_BASE, MULTIPLY_TOTAL
 	armorToughnessModifierOperation = "ADDITION"

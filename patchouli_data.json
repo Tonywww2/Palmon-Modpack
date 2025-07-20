@@ -7,7 +7,11 @@
         "tfc:getting_started/firepit",
         "tfc:mechanics/crops",
         "tfc:mechanics/chisel",
-        "tfc:mechanics/dairy"
+        "tfc:mechanics/dairy",
+        "tfc:the_world/ores_and_minerals",
+        "tfc:the_world/geology",
+        "tfc:getting_started/introduction",
+        "tfc:mechanics/anvils"
       ],
       "bookmarks": [],
       "completedManualQuests": []
