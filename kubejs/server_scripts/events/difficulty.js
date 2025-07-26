@@ -91,7 +91,7 @@ EntityEvents.spawned(event => {
     entity.persistentData.putString('dimension_difficulty', dim)
 
     if (!global.dimAdder[dim]) {
-        dim = 'kubejs:tfc_planet'
+        dim = 'kubejs:earth'
     }
 
     let playerCount = entity.getLevel().getNearbyPlayers(

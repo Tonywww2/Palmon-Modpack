@@ -10,8 +10,8 @@
     },
     "sgsr1": {}
   },
-  "enableUpscale": true,
-  "upscaleRatio": 1.1512,
+  "enableUpscale": false,
+  "upscaleRatio": 1.4989,
   "upscaleAlgo": "fsr1",
   "sharpness": 0.55,
   "captureMode": "a",

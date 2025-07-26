@@ -262,7 +262,14 @@ global.idsToRemove = new Set([
     'avaritia:infinity_chestplate',
     'avaritia:infinity_pants',
     'avaritia:infinity_boots',
-    'slashblade:kanze_masamune'
+    'slashblade:kanze_masamune',
+    'botania:flighttiara_0',
+    'tinkers_advanced:compat/ae2/printed_calculation_processor',
+    'tinkers_advanced:compat/ae2/printed_engineering_processor',
+    'tinkers_advanced:compat/ae2/printed_logic_processor',
+    'tinkers_advanced:compat/ae2/printed_silicon',
+    'tinkers_advanced:compat/ae2/tinkers_calibration/printed_engineering_processor',
+    'tinkers_advanced:compat/ae2/tinkers_calibration/printed_silicon'
 ])
 
 ServerEvents.recipes(event => {

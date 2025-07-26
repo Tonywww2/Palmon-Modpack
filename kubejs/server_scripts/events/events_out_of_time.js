@@ -357,6 +357,7 @@ registerBuff("miner_3", 4, ["true_ending", "miner_2"], false,
     (event) => {
         event.player.give(Item.of('avaritia:blaze_pickaxe', '{Unbreakable:1b}'))
         event.player.give(Item.of('malum:rune_of_haste'))
+        event.server.runCommandSilent(`/curios add rune ${event.player.name.getString()} 1`)
     }, empty,
     (event) => {
         global.blockReachAmmount += 2.0

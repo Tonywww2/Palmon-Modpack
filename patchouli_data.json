@@ -11,7 +11,27 @@
         "tfc:the_world/ores_and_minerals",
         "tfc:the_world/geology",
         "tfc:getting_started/introduction",
-        "tfc:mechanics/anvils"
+        "tfc:mechanics/anvils",
+        "tfc:the_world/wild_animals",
+        "tfc:beneath/crops",
+        "tfc:mechanics/weaving"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "nuclearcraft:nuclearcraft": {
+      "viewedEntries": [
+        "nuclearcraft:items/rad-x",
+        "nuclearcraft:items/radiation-detection",
+        "nuclearcraft:items/radaway",
+        "nuclearcraft:machines/in_situ_leaching",
+        "nuclearcraft:machines/processors",
+        "nuclearcraft:machines/generators",
+        "nuclearcraft:machines/pump",
+        "nuclearcraft:kugelblitz/general",
+        "nuclearcraft:fission/general",
+        "nuclearcraft:turbine/general",
+        "nuclearcraft:fusion/general"
       ],
       "bookmarks": [],
       "completedManualQuests": []

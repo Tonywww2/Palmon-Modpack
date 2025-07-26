@@ -30,6 +30,9 @@ ServerEvents.recipes(event => {
     tcMelting({ "item": 'tfc:powder/hematite' },
         { "amount": 7, "tag": "forge:molten_iron" }, 500, 10, 'kubejs:tc_melting_hematite')
 
+    tcMelting({ "item": 'tfc_ie_addon:powder/galena' },
+        { "amount": 7, "tag": "forge:molten_lead" }, 500, 10, 'kubejs:tc_melting_galena')
+
     tcMelting({ "tag": 'forge:ingots/black_bronze' },
         { "amount": 100, "tag": "tfc:black_bronze" }, 500, 80, 'kubejs:tc_melting_black_bronze')
     tcMelting({ "tag": 'forge:ingots/bismuth_bronze' },
@@ -46,6 +49,9 @@ ServerEvents.recipes(event => {
         { "amount": 100, "tag": "tfc:weak_red_steel" }, 500, 80, 'kubejs:tc_melting_weak_red_steel')
     tcMelting({ "tag": 'forge:ingots/weak_blue_steel' },
         { "amount": 100, "tag": "tfc:weak_blue_steel" }, 500, 80, 'kubejs:tc_melting_weak_blue_steel')
+
+    tcMelting({ "item": 'immersive_weathering:soot' },
+        { "amount": 5, "fluid": "tconstruct:liquid_soul" }, 1200, 10, 'kubejs:soot_to_liquid_soul')
 
     // tcMelting({ "tag": 'forge:ingots/red_steel' },
     //     { "amount": 100, "tag": "tfc:red_steel" }, 500, 80, 'kubejs:tc_melting_red_steel')

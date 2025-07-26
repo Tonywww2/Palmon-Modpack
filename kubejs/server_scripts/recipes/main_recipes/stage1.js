@@ -309,6 +309,9 @@ ServerEvents.recipes(event => {
         'occultism:craft_foliot'
     ).id("kubejs:infused_pickaxe_s1")
 
+    event.recipes.occultism.spirit_fire('#forge:raw_materials/silver', ['#forge:sheets/silver'])
+        .id('kubejs:occ_silver_s1')
+
     let t = 'thermal:device_water_gen'
     event.recipes.createSequencedAssembly([
         'cookingforblockheads:sink'

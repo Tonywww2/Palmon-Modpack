@@ -166,9 +166,9 @@ ServerEvents.recipes(event => {
   ).energy(12800)
     .id('kubejs:stable_desh_ingot_1_s3')
 
-  event.recipes.thermal.smelter(['3x kubejs:stable_desh_ingot', 'cataclysm:abyssal_egg'],
+  event.recipes.thermal.smelter(['5x kubejs:stable_desh_ingot', 'cataclysm:abyssal_egg'],
     ['3x #forge:plates/desh', 'kubejs:present_alloy', 'cataclysm:abyssal_egg']
-  ).energy(12800)
+  ).energy(9600)
     .id('kubejs:stable_desh_ingot_2_s3')
 
   event.recipes.thermal.smelter('tfc:ceramic/fire_brick',
@@ -304,9 +304,15 @@ ServerEvents.recipes(event => {
     "base_spd": 0,
     "base_spe": 0,
     "area_blocks": [
-      Item.of('#forge:storage_blocks/andesite_alloy').toJson(),
-      Item.of('#forge:storage_blocks/zinc').toJson(),
-      Item.of('#forge:storage_blocks/steel').toJson(),
+      {
+        "tag": 'forge:storage_blocks/andesite_alloy'
+      },
+      {
+        "tag": 'forge:storage_blocks/zinc'
+      },
+      {
+        "tag": 'forge:storage_blocks/steel'
+      },
       Item.of('create:andesite_casing').toJson(),
       Item.of('create:mechanical_press').toJson(),
       Item.of('create:basin').toJson(),

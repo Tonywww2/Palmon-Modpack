@@ -9,10 +9,10 @@
 	background_radiation = 50
 	#How fast contamination decays (pRad/s).
 	#Range: 1000 ~ 10000
-	decay_speed = 1500
+	decay_speed = 10000
 	#How fast contamination decays in player's body (uRad/s).
 	#Range: 1 ~ 5000
-	decay_speed_for_player = 50
+	decay_speed_for_player = 250
 	#Rate at which player gets radiation dose.
 	#Range: 0.0 ~ 5.0
 	gain_speed_for_player = 0.015
@@ -35,5 +35,5 @@
 	#NC radiation sources will generate mekanism radiation and wise-versa.
 	#You can disable mekanism radiation, but radiation sources in mekanism still will generate NC radiation.
 	#You can disable NC radiation, but NC radiation sources still will generate mekanism radiation.
-	mekanism_radiation_integration = true
+	mekanism_radiation_integration = false
 

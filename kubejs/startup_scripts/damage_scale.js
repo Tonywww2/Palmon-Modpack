@@ -23,7 +23,12 @@ global.hurtEvent = function (event) {
         } else {
             let dim = entity.level.dimension.location().toString()
             // entity.tell("Damage: " + damage)
-            damage *= global.dimMuti[dim][2]
+            if (!global.dimAdder[dim]) {
+                dim = 'kubejs:earth'
+            }
+
+            let scale = global.dimMuti[dim][2]
+            damage *= scale
             // entity.tell("After Damage: " + damage)
             if (event.source.getType() == "oxygen") {
                 damage += entity.getMaxHealth() * 0.2

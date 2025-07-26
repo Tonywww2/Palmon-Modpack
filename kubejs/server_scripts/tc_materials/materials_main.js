@@ -366,6 +366,18 @@ ServerEvents.highPriorityData(event => {
                     time: time
                 }
             );
+
+            // TODO 添加部件回收配方
+            // event.addJson(
+            //     `tconstruct:recipes/kjs/tools/melting/${itemId.replace(':', '_').replace('#', '')}`,
+            //     {
+            //         type: "tconstruct:material_melting",
+            //         input: materialID,
+            //         result: { fluid: fluid, amount: fluidAmount },
+            //         temperature: temperature,
+            //         time: time
+            //     }
+            // );
         }
 
         // 加工台合成

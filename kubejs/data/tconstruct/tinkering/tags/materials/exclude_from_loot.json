@@ -61,6 +61,15 @@
     "tinkers_advanced:activated_chromatic_steel",
     "tconstruct:boron_nitride",
     "tconstruct:malignant_pewter",
-    "tconstruct:ember_profile"
+    "tconstruct:ember_profile",
+    "tinkers_advanced:refined_obsidian",
+    "tinkers_advanced:refined_glowstone",
+    "tinkers_advanced:voltaic_crystal",
+    "tinkers_advanced:densium",
+    "tinkers_advanced:osgloglas",
+    "tinkers_advanced:irradium",
+    "tinkers_advanced:protocite",
+    "tinkers_advanced:antimatter",
+    "tinkers_advanced:neutronite"
   ]
 }

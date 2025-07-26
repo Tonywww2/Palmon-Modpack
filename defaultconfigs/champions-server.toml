@@ -20,25 +20,25 @@
 	maxHealthModifierOperation = "MULTIPLY_TOTAL"
 	#The percent increase in attack damage multiplied by the growth factor
 	#Range: 0.0 ~ 1.7976931348623157E308
-	attackGrowth = 0.05
+	attackGrowth = 1.0
 	#The attackGrowth operation. Effect how attack growth calculate
 	#Allowed Values: ADDITION, MULTIPLY_BASE, MULTIPLY_TOTAL
 	attackModifierOperation = "ADDITION"
 	#The increase in armor multiplied by the growth factor
 	#Range: 0.0 ~ 30.0
-	armorGrowth = 1.5
+	armorGrowth = 1.0
 	#The armorGrowth operation. Effect how armor growth calculate
 	#Allowed Values: ADDITION, MULTIPLY_BASE, MULTIPLY_TOTAL
 	armorModifierOperation = "ADDITION"
 	#The increase in armor toughness multiplied by the growth factor
 	#Range: 0.0 ~ 30.0
-	toughnessGrowth = 1.0
+	toughnessGrowth = 0.5
 	#The toughnessGrowth operation. Effect how toughness growth calculate
 	#Allowed Values: ADDITION, MULTIPLY_BASE, MULTIPLY_TOTAL
 	armorToughnessModifierOperation = "ADDITION"
 	#The increase in knockback resistance multiplied by the growth factor
 	#Range: 0.0 ~ 1.0
-	knockbackResistanceGrowth = 0.1
+	knockbackResistanceGrowth = 0.025
 	#The knockbackResistanceGrowth operation. Effect how knockbackResistance growth calculate
 	#Allowed Values: ADDITION, MULTIPLY_BASE, MULTIPLY_TOTAL
 	knockbackResistanceModifierOperation = "ADDITION"

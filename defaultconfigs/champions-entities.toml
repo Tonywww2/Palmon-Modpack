@@ -33,7 +33,7 @@
 	affixPermission = "BLACKLIST" 
 
 [[entities]]
-	entity = "dummmmmmy:target_dummy"
+	entity = "powerful_dummy:test_dummy"
 	minTier = 0
 	maxTier = 0
 	presetAffixes = []

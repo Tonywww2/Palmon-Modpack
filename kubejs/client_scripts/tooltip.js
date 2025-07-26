@@ -170,7 +170,7 @@ ItemEvents.tooltip(event => {
             let foodCount = item.nbt.getDouble("player_food_count")
 
             text.add(6, Text.translate('curios.modifiers.otherworld_relics').gold())
-            text.add(7, Text.literal(formatAddition(foodCount * 0.4)).append(' ').append(Text.translatable('attribute.name.generic.attack_damage')).blue())
+            text.add(7, Text.literal(formatAddition(foodCount * 0.8)).append(' ').append(Text.translatable('attribute.name.generic.attack_damage')).blue())
 
         }
 

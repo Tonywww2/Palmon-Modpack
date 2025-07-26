@@ -259,7 +259,7 @@
 	IgnisHealthMultiplier = 2.0
 	#Ignis's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisDamageMultiplier = 1.5
+	IgnisDamageMultiplier = 1.0
 	#Ignis's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	IgnisNatureHealing = 10.0
@@ -303,7 +303,7 @@
 	HarbingerHealthMultiplier = 2.0
 	#Harbinger's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	HarbingerDamageMultiplier = 1.5
+	HarbingerDamageMultiplier = 1.0
 	#Harbinger's Healing Multiplier
 	#Range: 0.0 ~ 1000000.0
 	HarbingerHealingMultiplier = 1.0
@@ -334,7 +334,7 @@
 	LeviathanHealthMultiplier = 2.0
 	#Leviathan's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	LeviathanDamageMultiplier = 1.5
+	LeviathanDamageMultiplier = 1.0
 	#Leviathan's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	LeviathanNatureHealing = 10.0
@@ -343,16 +343,16 @@
 	"Leviathan's prevent attacks from far away Range" = 38.0
 	#Leviathan's Bite Hp Damage
 	#Range: 0.0 ~ 1.0
-	"Leviathan's Bite Hp Damage" = 0.1
+	"Leviathan's Bite Hp Damage" = 0.05
 	#Leviathan's Rush Hp Damage
 	#Range: 0.0 ~ 1.0
-	"Leviathan's Rush Hp Damage" = 0.05
+	"Leviathan's Rush Hp Damage" = 0.025
 	#Leviathan's TailSwing Hp Damage
 	#Range: 0.0 ~ 1.0
-	"Leviathan's TailSwing Hp Damage" = 0.08
+	"Leviathan's TailSwing Hp Damage" = 0.04
 	#Leviathan's Tentacle Hp Damage
 	#Range: 0.0 ~ 1.0
-	"Leviathan's Tentacle Hp Damage" = 0.03
+	"Leviathan's Tentacle Hp Damage" = 0.015
 	#Leviathan's DamageCap
 	#Range: 0.0 ~ 1000000.0
 	LeviathanDamageCap = 600.0

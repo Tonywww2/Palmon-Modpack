@@ -5,7 +5,7 @@ function e2CM(event) {
     event.shapeless('kubejs:voucher_2_0', ['cobblemon:relic_coin', 'kubejs:alpha_framework'])
         .id('kubejs:voucher_2_0')
 
-    event.shaped('4x compactmachines:wall', [
+    event.shaped('32x compactmachines:wall', [
         'ABA',
         'BCB',
         'ABA'

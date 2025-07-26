@@ -780,7 +780,7 @@ StartupEvents.registry('item', event => {
                         let modifer = new $AttributeModifier(
                             apAtkDamageUUID,
                             apAtkDamage,
-                            foodCount * 0.4,
+                            foodCount * 0.8,
                             "addition"
                         )
 
@@ -802,7 +802,13 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "slashblade:slashblade_damage",
                 "ancient_proudsoul_slashblade_damage",
-                1.2,
+                2.2,
+                "multiply_base"
+            )
+            .modifyAttribute(
+                "minecraft:generic.attack_damage",
+                "ancient_proudsoul_attack_damage",
+                -0.5,
                 "multiply_base"
             )
             .modifyAttribute(

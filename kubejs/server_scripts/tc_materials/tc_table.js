@@ -66,4 +66,30 @@ ServerEvents.recipes(event => {
             "item": "tconstruct:boots_plating"
         }
     }).id("tconstruct:/tools/parts/builder/boots_plating_table")
+
+    event.custom({
+        "type": "tconstruct:part_builder",
+        "cost": 4,
+        "pattern": "tconstruct:shield_core",
+        "pattern_item": [
+            {
+                "tag": "tconstruct:patterns/default"
+            },
+            {
+                "item": "tconstruct:shield_core_cast"
+            }
+        ],
+        "result": {
+            "item": "tconstruct:shield_core"
+        }
+    }).id("tconstruct:/tools/parts/builder/shield_core_table")
+
+    event.custom({
+        "type": "tconstruct:table_casting_material",
+        "cast": {
+            "item": "tconstruct:shield_core"
+        },
+        "item_cost": 4,
+        "result": "tconstruct:shield_core"
+    }).id("tconstruct:/tools/parts/casting/shield_core_cast")
 })

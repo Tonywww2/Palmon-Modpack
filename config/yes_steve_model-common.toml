@@ -5,7 +5,7 @@
 	#Whether to print animation roulette play message
 	PrintAnimationRouletteMsg = false
 	#Prevents rendering of self player's model
-	DisableSelfModel = true
+	DisableSelfModel = false
 	#Prevents rendering of other player's model
 	DisableOtherModel = false
 	#Prevents rendering of self player's hand
