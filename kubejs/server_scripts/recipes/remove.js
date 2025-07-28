@@ -269,7 +269,9 @@ global.idsToRemove = new Set([
     'tinkers_advanced:compat/ae2/printed_logic_processor',
     'tinkers_advanced:compat/ae2/printed_silicon',
     'tinkers_advanced:compat/ae2/tinkers_calibration/printed_engineering_processor',
-    'tinkers_advanced:compat/ae2/tinkers_calibration/printed_silicon'
+    'tinkers_advanced:compat/ae2/tinkers_calibration/printed_silicon',
+    'jaopca:storage_blocks.to_storage_block.cast_iron',
+    'ae2:misc/tiny_tnt'
 ])
 
 ServerEvents.recipes(event => {

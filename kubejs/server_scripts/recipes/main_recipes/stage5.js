@@ -275,22 +275,18 @@ ServerEvents.recipes(event => {
         'kubejs:gamma_framework'
     ]).superheated().id('kubejs:flux_core_s5')
 
-    event.custom({
-        "type": "nuclearcraft:assembler",
-        "input": [
-            Item.of('9x tinkers_advanced:basalz_signalum').toJson(),
-            Item.of('9x tinkers_advanced:blitz_lumium').toJson(),
-            Item.of('9x tinkers_advanced:blizz_enderium').toJson(),
-            Item.of('5x tinkers_advanced:blaze_netherite').toJson(),
-        ],
-        "output": [
-            Item.of('3x tinkers_advanced:activated_chromatic_steel').toJson(),
-            Item.of('cataclysm:void_core').toJson()
-        ],
-        "powerModifier": 4.0,
-        "radiation": 0.0,
-        "timeModifier": 4.0
-    }).id('kubejs:activated_chromatic_steel_sp_s5')
+    event.recipes.create.compacting([Item.of('3x tinkers_advanced:activated_chromatic_steel'), Item.of('cataclysm:void_core')],
+        [
+            Item.of('9x tinkers_advanced:basalz_signalum'),
+            Item.of('9x tinkers_advanced:blitz_lumium'),
+            Item.of('9x tinkers_advanced:blizz_enderium'),
+            Item.of('5x tinkers_advanced:blaze_netherite'),
+            Item.of('cataclysm:void_core')
+        ]).superheated()
+        .processingTime(400)
+        .id('kubejs:activated_chromatic_steel_sp_s5')
+
+    event.recipes.create.pressing
 
     event.custom({
         "type": "dustandash:integrate",

@@ -573,10 +573,6 @@ ServerEvents.recipes(event => {
             {
                 "item": 'palmon:m_crystal',
                 "count": 2
-            },
-            {
-                "item": 'cobblemon:exp_candy_l',
-                "count": 1
             }
         ],
         "input_power": 0,

@@ -54,6 +54,17 @@ ServerEvents.recipes(event => {
     babyShapeless('tfc:papyrus', ['2x #forge:rods/wooden'])
     babyShapeless(Item.of('kubejs:alpha_framework', 1 + global.frameworkAddition), ['kubejs:virtual_gold_ingot'])
 
+    babyShapeless('minecraft:bucket', ['tfc:wooden_bucket', '#forge:ingots/cast_iron'])
+
+    babyShapeless('tfc:metal/ingot/black_steel', ['#forge:ingots/weak_steel', '#forge:ingots/steel'])
+    babyShapeless('2x tfc:metal/ingot/weak_steel', ['2x #forge:ingots/steel', '#forge:ingots/black_bronze', '#forge:ingots/nickel'])
+
+    babyShapeless('tfc:metal/ingot/red_steel', ['#forge:ingots/weak_red_steel', '#forge:ingots/black_steel'])
+    babyShapeless('tfc:metal/ingot/blue_steel', ['#forge:ingots/weak_blue_steel', '#forge:ingots/black_steel'])
+    
+    babyShapeless('2x tfc:metal/ingot/weak_blue_steel', ['2x #forge:ingots/black_steel', '#forge:ingots/steel', '#forge:ingots/bismuth_bronze', '#forge:ingots/sterling_silver'])
+    babyShapeless('2x tfc:metal/ingot/weak_red_steel', ['2x #forge:ingots/black_steel', '#forge:ingots/steel', '#forge:ingots/rose_gold', '#forge:ingots/brass'])
+
     event.shapeless(Item.of('tfc:wooden_bucket', '{fluid:{Amount:1000,FluidName:"immersiveengineering:creosote"}}'),
         ['tfc:wooden_bucket', 'malum:charcoal_fragment', 'kubejs:baby_proofing'])
         .keepIngredient('kubejs:baby_proofing')

@@ -1,0 +1,10 @@
+[
+    {
+        "matchItems":
+        [
+            "sakura:tomato",
+            "farmersdelight:tomato"
+        ],
+        "resultItems": "thermal:tomato"
+    }
+]

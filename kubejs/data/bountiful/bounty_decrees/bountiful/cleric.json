@@ -1,12 +1,12 @@
 {
     "objectives":
     [
-        "cleric_objs"
+        "cleric_objs",
+        "_all_objs"
     ],
     "rewards":
     [
         "cleric_rews",
-        "_all_rews",
-        "_all_objs"
+        "_all_rews"
     ]
 }
