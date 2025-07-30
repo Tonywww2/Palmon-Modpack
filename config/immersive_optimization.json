@@ -39,7 +39,9 @@
         "slashblade": false,
         "minecraft:tnt": false,
         "minecraft:tnt_minecart": false,
-        "minecraft:item": false
+        "minecraft:item": false,
+        "cataclysm": false,
+        "ars_elemental": false
     },
     "version": 2,
     "name": "immersive_optimization"

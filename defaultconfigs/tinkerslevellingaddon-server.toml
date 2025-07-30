@@ -30,13 +30,13 @@
 	maxLevel = 15
 	#Base amount of experience required to reach next level.
 	#Range: > 1
-	baseExperience = 100
+	baseExperience = 75
 	#How much the amount of experience required to reach next level will be multiplied per level.
 	#Range: 1.0 ~ 10.0
-	requiredXpMultiplier = 1.5
+	requiredXpMultiplier = 1.2
 	#Additional multiplier for broad tools for experience required to level up.
 	#Range: 1.0 ~ 10.0
-	broadToolRequiredXpMultiplier = 1.5
+	broadToolRequiredXpMultiplier = 1.2
 
 	#Modifier slots settings
 	[general.slots]

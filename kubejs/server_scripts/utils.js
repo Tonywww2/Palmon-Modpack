@@ -15,16 +15,6 @@ const $Long = Java.loadClass("java.lang.Long")
 
 const PACK_DATA_PATH = "kubejs\\packdata\\palmon_pack_data.json"
 
-// function hashCode(string) {
-//     let hash = 0;
-//     for (let i = 0; i < string.length; i++) {
-//         let code = string.charCodeAt(i)
-//         hash = ((hash << 5) - hash) + code
-//         hash = hash & hash
-//     }
-//     return hash
-// }
-
 function loadPackData() {
     let json = JsonIO.readJson(PACK_DATA_PATH)
     if (!json) {

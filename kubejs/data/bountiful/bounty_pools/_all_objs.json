@@ -16,10 +16,6 @@
             [
                 {
                     "type": "item",
-                    "content": "thermal:signalum_coin"
-                },
-                {
-                    "type": "item",
                     "content": "thermal:enderium_coin"
                 },
                 {
@@ -38,7 +34,7 @@
                 "min": 16,
                 "max": 32
             },
-            "unitWorth": 4000,
+            "unitWorth": 1200,
             "forbids":
             [
                 {
@@ -47,13 +43,79 @@
                 },
                 {
                     "type": "item",
-                    "content": "thermal:enderium_coin"
-                },
-                {
-                    "type": "item",
                     "content": "thermal:netherite_coin"
                 }
             ]
+        },
+        "_all_objs_ingot_1":
+        {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "megamons:anistarite_geode_block",
+            "amount":
+            {
+                "min": 8,
+                "max": 24
+            },
+            "unitWorth": 1000,
+            "forbids":
+            []
+        },
+        "_all_objs_ingot_2":
+        {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "ad_astra:desh_ingot",
+            "amount":
+            {
+                "min": 4,
+                "max": 8
+            },
+            "unitWorth": 500,
+            "forbids":
+            []
+        },
+        "_all_objs_ingot_3":
+        {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "ad_astra:desh_ingot",
+            "amount":
+            {
+                "min": 16,
+                "max": 48
+            },
+            "unitWorth": 2500,
+            "forbids":
+            []
+        },
+        "_all_objs_ingot_4":
+        {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "kubejs:stable_desh_ingot",
+            "amount":
+            {
+                "min": 2,
+                "max": 6
+            },
+            "unitWorth": 1000,
+            "forbids":
+            []
+        },
+        "_all_objs_ingot_5":
+        {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "content": "kubejs:stable_desh_ingot",
+            "amount":
+            {
+                "min": 8,
+                "max": 16
+            },
+            "unitWorth": 2500,
+            "forbids":
+            []
         }
     }
 }

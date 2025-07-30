@@ -14,11 +14,12 @@ global.dimAdder = {
     'ad_astra:mars': [80, 60, 36],
     'ad_astra:venus': [100, 80, 42],
     'ad_astra:mercury': [110, 90, 44],
+    'ad_astra:glacio': [130, 100, 44],
 
     'minecraft:the_end': [130, 100, 48],
     'deeperdarker:otherside': [160, 120, 52],
 
-    'rats:ratlantis': [240, 150, 64]
+    'rats:ratlantis': [240, 150, 64],
 }
 global.dimMuti = {
     'minecraft:overworld': [1, 0.5, 0.8],
@@ -31,8 +32,9 @@ global.dimMuti = {
     'oceanworld:deepsea': [20, 1.35, 1.75],
 
     'ad_astra:mars': [33, 1.6, 2.65],
-    'ad_astra:venus': [35, 2, 2.75],
-    'ad_astra:mercury': [38, 2.1, 3.0],
+    'ad_astra:venus': [35, 2, 2.65],
+    'ad_astra:mercury': [38, 2.1, 2.65],
+    'ad_astra:glacio': [54, 2.5, 2.65],
 
     'minecraft:the_end': [54, 2.5, 3.5],
     'deeperdarker:otherside': [60, 3, 4.0],

@@ -1,7 +1,14 @@
 {
   "bookGuiScale": 0,
-  "clickedVisualize": false,
+  "clickedVisualize": true,
   "bookData": {
+    "botania:lexicon": {
+      "viewedEntries": [
+        "botania:alfhomancy/gaia_ritual"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
     "tfc:field_guide": {
       "viewedEntries": [
         "tfc:getting_started/firepit",

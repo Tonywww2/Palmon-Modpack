@@ -271,7 +271,9 @@ global.idsToRemove = new Set([
     'tinkers_advanced:compat/ae2/tinkers_calibration/printed_engineering_processor',
     'tinkers_advanced:compat/ae2/tinkers_calibration/printed_silicon',
     'jaopca:storage_blocks.to_storage_block.cast_iron',
-    'ae2:misc/tiny_tnt'
+    'ae2:misc/tiny_tnt',
+    'tconstruct:smeltery/alloys/molten_refined_obsidian',
+    'tconstruct:compat/refined_glowstone_ingot'
 ])
 
 ServerEvents.recipes(event => {
