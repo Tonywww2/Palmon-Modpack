@@ -1,0 +1,35 @@
+{
+    "enchantments":
+    [
+        {
+            "id": "minecraft:power",
+            "lvl": 5
+        },
+        {
+            "id": "minecraft:unbreaking",
+            "lvl": 3
+        },
+        {
+            "id": "minecraft:smite",
+            "lvl": 3
+        }
+    ],
+    "name": "sjap_adder:agito_ex",
+    "properties":
+    {
+        "attack_base": 30.0,
+        "max_damage": 300,
+        "slash_art": "sjap_adder:illusion_drive",
+        "sword_type":
+        [
+            "bewitched"
+        ]
+    },
+    "render":
+    {
+        "carry_type": "default",
+        "model": "sjap_adder:model/tw/agito_ex.obj",
+        "summon_sword_color": -1751,
+        "texture": "sjap_adder:model/tw/agito_ex_false.png"
+    }
+}

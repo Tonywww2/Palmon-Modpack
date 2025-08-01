@@ -1,0 +1,30 @@
+{
+    "enchantments":
+    [
+        {
+            "id": "minecraft:unbreaking",
+            "lvl": 6
+        }
+    ],
+    "name": "slashblade:hand_of_malenia",
+    "properties":
+    {
+        "attack_base": 19.0,
+        "max_damage": 333,
+        "slash_art": "slashblade:waterfowl_dance",
+        "special_effects":
+        [
+            "slashblade:aeonia"
+        ],
+        "sword_type":
+        [
+            "bewitched"
+        ]
+    },
+    "render":
+    {
+        "model": "slashblade:model/named/hand_of_malenia/hand_of_malenia.obj",
+        "summon_sword_color": 12758859,
+        "texture": "slashblade:model/named/hand_of_malenia/hand_of_malenia.png"
+    }
+}

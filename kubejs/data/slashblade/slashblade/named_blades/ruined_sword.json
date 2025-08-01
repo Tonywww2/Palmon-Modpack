@@ -1,0 +1,30 @@
+{
+    "enchantments":
+    [
+        {
+            "id": "minecraft:smite",
+            "lvl": 8
+        },
+        {
+            "id": "minecraft:fire_aspect",
+            "lvl": 3
+        }
+    ],
+    "name": "slashblade:ruined_sword",
+    "properties":
+    {
+        "attack_base": 20.0,
+        "max_damage": 265,
+        "slash_art": "slashblade:heavens_thirteen_slashes",
+        "sword_type":
+        [
+            "bewitched"
+        ]
+    },
+    "render":
+    {
+        "model": "slashblade:model/named/ruined_sword/ruined_sword.obj",
+        "summon_sword_color": 14449893,
+        "texture": "slashblade:model/named/ruined_sword/ruined_sword.png"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "enchantments":
+    [
+        {
+            "id": "minecraft:power",
+            "lvl": 5
+        }
+    ],
+    "name": "slashblade:moonveil",
+    "properties":
+    {
+        "attack_base": 16.0,
+        "max_damage": 85,
+        "slash_art": "slashblade:transient_moonlight",
+        "sword_type":
+        [
+            "bewitched"
+        ]
+    },
+    "render":
+    {
+        "model": "slashblade:model/named/kanze_masamune/kanze_masamune.obj",
+        "summon_sword_color": 2287060,
+        "texture": "slashblade:model/named/kanze_masamune/moonveil.png"
+    }
+}

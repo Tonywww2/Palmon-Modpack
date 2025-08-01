@@ -1,0 +1,30 @@
+{
+    "enchantments":
+    [
+        {
+            "id": "minecraft:unbreaking",
+            "lvl": 3
+        },
+        {
+            "id": "minecraft:fire_aspect",
+            "lvl": 3
+        }
+    ],
+    "name": "slashblade:ssa_kagari",
+    "properties":
+    {
+        "attack_base": 15.0,
+        "max_damage": 465,
+        "slash_art": "slashblade:blaze_reborn",
+        "sword_type":
+        [
+            "bewitched"
+        ]
+    },
+    "render":
+    {
+        "model": "slashblade:model/named/kagari/kagari.obj",
+        "summon_sword_color": 16748608,
+        "texture": "slashblade:model/named/kagari/kagari.png"
+    }
+}

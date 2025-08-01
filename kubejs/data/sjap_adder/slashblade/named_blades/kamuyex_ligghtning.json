@@ -1,0 +1,35 @@
+{
+    "enchantments":
+    [
+        {
+            "id": "minecraft:sharpness",
+            "lvl": 15
+        },
+        {
+            "id": "minecraft:unbreaking",
+            "lvl": 7
+        }
+    ],
+    "name": "sjap_adder:kamuyex_ligghtning",
+    "properties":
+    {
+        "attack_base": 24.0,
+        "max_damage": 300,
+        "slash_art": "sjap_adder:lightinggwaves",
+        "special_effects":
+        [
+            "sjap_adder:nightingales"
+        ],
+        "sword_type":
+        [
+            "bewitched"
+        ]
+    },
+    "render":
+    {
+        "carry_type": "default",
+        "model": "sjap_adder:model/kaumyex/kamuyex.obj",
+        "summon_sword_color": 16766720,
+        "texture": "sjap_adder:model/kaumyex/lightning.png"
+    }
+}

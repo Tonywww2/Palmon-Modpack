@@ -9,7 +9,7 @@ const FutureTask = Java.loadClass('java.util.concurrent.FutureTask')
 
 // 创建重启任务
 const restartTask = new FutureTask(() => {
-    Utils.server.runCommand("stop")
+    Utils.server.close()
     return null
 })
 

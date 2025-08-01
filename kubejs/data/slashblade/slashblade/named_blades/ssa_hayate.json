@@ -1,0 +1,30 @@
+{
+    "enchantments":
+    [
+        {
+            "id": "minecraft:unbreaking",
+            "lvl": 3
+        },
+        {
+            "id": "minecraft:knockback",
+            "lvl": 3
+        }
+    ],
+    "name": "slashblade:ssa_hayate",
+    "properties":
+    {
+        "attack_base": 15.0,
+        "max_damage": 465,
+        "slash_art": "slashblade:storm_bias",
+        "sword_type":
+        [
+            "bewitched"
+        ]
+    },
+    "render":
+    {
+        "model": "slashblade:model/named/hayate/hayate.obj",
+        "summon_sword_color": 6750054,
+        "texture": "slashblade:model/named/hayate/hayate.png"
+    }
+}

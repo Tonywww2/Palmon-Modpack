@@ -1,0 +1,34 @@
+{
+    "enchantments":
+    [
+        {
+            "id": "minecraft:sharpness",
+            "lvl": 4
+        },
+        {
+            "id": "minecraft:power",
+            "lvl": 2
+        }
+    ],
+    "name": "slashblade:rivers_of_blood",
+    "properties":
+    {
+        "attack_base": 19.0,
+        "max_damage": 147,
+        "slash_art": "slashblade:corpse_piler",
+        "special_effects":
+        [
+            "slashblade:bleeding_cutting"
+        ],
+        "sword_type":
+        [
+            "bewitched"
+        ]
+    },
+    "render":
+    {
+        "model": "slashblade:model/named/kanze_masamune/kanze_masamune.obj",
+        "summon_sword_color": 15010560,
+        "texture": "slashblade:model/named/kanze_masamune/rivers_of_blood.png"
+    }
+}

@@ -875,9 +875,282 @@ ServerEvents.recipes(event => {
         ]
     }).id('kubejs:kvasir_mead_s5')
 
+    event.custom({
+        "type": "slashblade:shaped_blade",
+        "blade": "sjap_adder:kamuyex_fire",
+        "category": "equipment",
+        "key": {
+            "A": {
+                "item": "slashblade:proudsoul_sphere"
+            },
+            "B": {
+                "type": "slashblade:blade",
+                "item": "slashblade:slashblade",
+                "request": {
+                    "kill": 1000,
+                    "name": "slashblade_addon:kamuy_fire",
+                    "proud_soul": 3000,
+                    "refine": 10
+                }
+            },
+            "C": {
+                "item": "minecraft:nether_star"
+            },
+            "D": {
+                "item": 'kubejs:end_steel'
+            },
+            "E": {
+                "type": "slashblade:blade",
+                "item": "slashblade:slashblade",
+                "request": {
+                    "kill": 1000,
+                    "name": "slashblade_addon:laemmle",
+                    "proud_soul": 3000,
+                    "refine": 10
+                }
+            }
+        },
+        "pattern": [
+            "ABA",
+            "CDC",
+            "AEA"
+        ],
+        "result": {
+            "item": "slashblade:slashblade"
+        },
+        "show_notification": true
+    }).id('kubejs:kamuyex_fire_s5')
+
+    event.custom({
+        "type": "slashblade:shaped_blade",
+        "blade": "sjap_adder:kamuyex_life",
+        "category": "equipment",
+        "key": {
+            "A": {
+                "item": "slashblade:proudsoul_sphere"
+            },
+            "B": {
+                "type": "slashblade:blade",
+                "item": "slashblade:slashblade",
+                "request": {
+                    "kill": 1000,
+                    "name": "sjap_adder:kamuy_life",
+                    "proud_soul": 3000,
+                    "refine": 10
+                }
+            },
+            "C": {
+                "item": "minecraft:nether_star"
+            },
+            "D": {
+                "item": 'kubejs:end_steel'
+            },
+            "E": {
+                "type": "slashblade:blade",
+                "item": "slashblade:slashblade",
+                "request": {
+                    "kill": 1000,
+                    "name": "slashblade_addon:snow_crow",
+                    "proud_soul": 3000,
+                    "refine": 10
+                }
+            }
+        },
+        "pattern": [
+            "ABA",
+            "CDC",
+            "AEA"
+        ],
+        "result": {
+            "item": "slashblade:slashblade"
+        },
+        "show_notification": true
+    }).id('kubejs:kamuyex_life_s5')
+
+    event.custom({
+        "type": "slashblade:shaped_blade",
+        "blade": "sjap_adder:kamuyex_ligghtning",
+        "category": "equipment",
+        "key": {
+            "A": {
+                "item": "slashblade:proudsoul_sphere"
+            },
+            "B": {
+                "type": "slashblade:blade",
+                "item": "slashblade:slashblade",
+                "request": {
+                    "kill": 1000,
+                    "name": "slashblade_addon:kamuy_lightning",
+                    "proud_soul": 3000,
+                    "refine": 10
+                }
+            },
+            "C": {
+                "item": "minecraft:nether_star"
+            },
+            "D": {
+                "item": 'kubejs:end_steel'
+            },
+            "E": {
+                "type": "slashblade:blade",
+                "item": "slashblade:slashblade",
+                "request": {
+                    "kill": 1000,
+                    "name": "slashblade_addon:green_mist",
+                    "proud_soul": 3000,
+                    "refine": 10
+                }
+            }
+        },
+        "pattern": [
+            "ABA",
+            "CDC",
+            "AEA"
+        ],
+        "result": {
+            "item": "slashblade:slashblade"
+        },
+        "show_notification": true
+    }).id('kubejs:kamuyex_lightning_s5')
+
+    event.custom({
+        "type": "slashblade:shaped_blade",
+        "blade": "sjap_adder:kamuyex_water",
+        "category": "equipment",
+        "key": {
+            "A": {
+                "item": "slashblade:proudsoul_sphere"
+            },
+            "B": {
+                "type": "slashblade:blade",
+                "item": "slashblade:slashblade",
+                "request": {
+                    "kill": 1000,
+                    "name": "slashblade_addon:kamuy_water",
+                    "proud_soul": 3000,
+                    "refine": 10
+                }
+            },
+            "C": {
+                "item": "minecraft:nether_star"
+            },
+            "D": {
+                "item": 'kubejs:end_steel'
+            },
+            "E": {
+                "type": "slashblade:blade",
+                "item": "slashblade:slashblade",
+                "request": {
+                    "kill": 1000,
+                    "name": "slashblade_addon:kirisaya",
+                    "proud_soul": 3000,
+                    "refine": 10
+                }
+            }
+        },
+        "pattern": [
+            "ABA",
+            "CDC",
+            "AEA"
+        ],
+        "result": {
+            "item": "slashblade:slashblade"
+        },
+        "show_notification": true
+    }).id('kubejs:kamuyex_water_s5')
+
+    event.custom({
+        "type": "slashblade:shaped_blade",
+        "blade": "sjap_adder:nihilbxex",
+        "category": "equipment",
+        "key": {
+            "A": {
+                "item": "minecraft:diamond_block"
+            },
+            "B": {
+                "type": "slashblade:blade",
+                "item": "slashblade:slashblade",
+                "request": {
+                    "name": "sjap_adder:nihilulex"
+                }
+            },
+            "C": {
+                "type": "slashblade:blade",
+                "item": "slashblade:slashblade",
+                "request": {
+                    "name": "slashblade_addon:nihilbx"
+                }
+            },
+            "D": {
+                "type": "slashblade:blade",
+                "item": "slashblade:slashblade",
+                "request": {
+                    "name": "sjap_adder:crimsoncherryex"
+                }
+            }
+        },
+        "pattern": [
+            "ABA",
+            "ACA",
+            "ADA"
+        ],
+        "result": {
+            "item": "slashblade:slashblade"
+        },
+        "show_notification": true
+    }).id('kubejs:nihilbxex_s5')
+
+    event.custom({
+        "type": "slashblade:shaped_blade",
+        "blade": "sjap_adder:nihilulex",
+        "category": "equipment",
+        "key": {
+            "A": {
+                "item": 'kubejs:end_steel'
+            },
+            "B": {
+                "type": "slashblade:blade",
+                "item": "slashblade:slashblade",
+                "request": {
+                    "kill": 3000,
+                    "name": "slashblade_addon:nihilul",
+                    "proud_soul": 30000,
+                    "refine": 20
+                }
+            },
+            "C": {
+                "item": "slashblade:proudsoul_trapezohedron"
+            },
+            "D": {
+                "item": "minecraft:netherite_ingot"
+            },
+            "E": {
+                "item": "minecraft:totem_of_undying"
+            },
+            "F": {
+                "type": "slashblade:blade",
+                "item": "slashblade:slashblade",
+                "request": {
+                    "kill": 3000,
+                    "name": "slashblade_addon:dark_raven",
+                    "proud_soul": 30000,
+                    "refine": 20
+                }
+            }
+        },
+        "pattern": [
+            "ABA",
+            "CDE",
+            "AFA"
+        ],
+        "result": {
+            "item": "slashblade:slashblade"
+        },
+        "show_notification": true
+    }).id('kubejs:nihilulex_s5')
+
     tcAlloy([{ "amount": 1000, "tag": 'forge:deuterium' }, { "amount": 1000, "tag": 'forge:tritium' }, { "amount": 720, "tag": 'forge:helium' }, { "amount": 720, "tag": 'forge:lithium/7_za' }],
         { "amount": 100, "tag": "kubejs:hybrid_fuel" }, 100, 'kubejs:hybrid_fuel')
-
 
     function tcAlloy(inputs, result, temp, id) {
         event.custom({

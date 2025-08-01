@@ -1,0 +1,10 @@
+#是否启用特别计数器hud
+#Enable the special counter HUD
+StackHudOpen = true
+#特别计数器hud显示的计数器数量
+#Number of counters displayed in the special counter HUD
+StackHudCount = 10
+#是否启用双持，启动后带有legendreliclib:can_double_attack标签的拔刀剑类物品可以进行双持
+#Enable dual wielding. When enabled, items with the legendreliclib:can_double_attack tag that are slashblade type can be dual wielded
+can_double_attack = true
+

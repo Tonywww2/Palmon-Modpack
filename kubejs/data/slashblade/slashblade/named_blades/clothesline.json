@@ -1,0 +1,34 @@
+{
+    "enchantments":
+    [
+        {
+            "id": "minecraft:smite",
+            "lvl": 4
+        },
+        {
+            "id": "minecraft:unbreaking",
+            "lvl": 3
+        }
+    ],
+    "name": "slashblade:clothesline",
+    "properties":
+    {
+        "attack_base": 17.0,
+        "max_damage": 145,
+        "slash_art": "slashblade:cross_slash",
+        "special_effects":
+        [
+            "slashblade:dual_blade_main"
+        ],
+        "sword_type":
+        [
+            "bewitched"
+        ]
+    },
+    "render":
+    {
+        "model": "slashblade:model/named/clothesline/clothesline.obj",
+        "summon_sword_color": 15000804,
+        "texture": "slashblade:model/named/clothesline/clothesline.png"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "enchantments":
+    [
+        {
+            "id": "minecraft:sharpness",
+            "lvl": 3
+        },
+        {
+            "id": "minecraft:unbreaking",
+            "lvl": 3
+        }
+    ],
+    "name": "sjap_adder:kamuy_life",
+    "properties":
+    {
+        "attack_base": 12.0,
+        "max_damage": 300,
+        "slash_art": "sjap_adder:for_life",
+        "sword_type":
+        [
+            "bewitched"
+        ]
+    },
+    "render":
+    {
+        "carry_type": "default",
+        "model": "slashblade_addon:model/kamuy/kamuy.obj",
+        "summon_sword_color": 65299,
+        "texture": "sjap_adder:model/kaumyex/life.png"
+    }
+}

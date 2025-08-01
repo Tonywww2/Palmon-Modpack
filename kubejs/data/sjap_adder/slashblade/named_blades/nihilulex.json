@@ -1,0 +1,39 @@
+{
+    "enchantments":
+    [
+        {
+            "id": "minecraft:unbreaking",
+            "lvl": 5
+        },
+        {
+            "id": "minecraft:smite",
+            "lvl": 10
+        },
+        {
+            "id": "minecraft:looting",
+            "lvl": 5
+        }
+    ],
+    "name": "sjap_adder:nihilulex",
+    "properties":
+    {
+        "attack_base": 32.0,
+        "max_damage": 300,
+        "slash_art": "slashblade:wave_edge",
+        "special_effects":
+        [
+            "sjap_adder:wave_edge_rise_up"
+        ],
+        "sword_type":
+        [
+            "bewitched"
+        ]
+    },
+    "render":
+    {
+        "carry_type": "default",
+        "model": "sjap_adder:model/nihill/nihilbloodex.obj",
+        "summon_sword_color": 16187647,
+        "texture": "sjap_adder:model/nihill/nihilul.png"
+    }
+}

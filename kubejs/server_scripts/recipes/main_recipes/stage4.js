@@ -4,6 +4,11 @@ ServerEvents.recipes(event => {
     event.shapeless('ars_nouveau:ritual_brazier', ['ars_nouveau:arcane_pedestal', '4x #forge:ingots/gold', 'kubejs:unify_essence', '#forge:storage_blocks/source_gem']).id('kubejs:ritual_brazier_s4')
     event.shapeless('cataclysm:burning_ashes', ['cataclysm:ignitium_ingot', 'cataclysm:flame_eye', 'ad_astra:calorite_tank', '#forge:ingots/terrasteel']).id('kubejs:burning_ashes_s4')
 
+    event.shapeless('ars_elemental:siren_shards', ['ars_nouveau:ritual_awakening', '2x ars_nouveau:stripped_blue_archwood_wood', '2x ars_nouveau:blue_archwood_sapling', '2x minecraft:sea_pickle']).id('kubejs:siren_shards_s4')
+    event.shapeless('ars_nouveau:drygmy_shard', ['ars_nouveau:ritual_awakening', '2x ars_nouveau:stripped_purple_archwood_wood', '2x ars_nouveau:purple_archwood_sapling', '2x minecraft:leather']).id('kubejs:drygmy_shard_s4')
+    event.shapeless('ars_nouveau:whirlisprig_shards', ['ars_nouveau:ritual_awakening', '2x ars_nouveau:stripped_green_archwood_wood', '2x ars_nouveau:green_archwood_sapling', '2x thermal:blitz_powder']).id('kubejs:whirlisprig_shards_s4')
+    event.shapeless('ars_nouveau:starbuncle_shards', ['ars_nouveau:ritual_awakening', '2x ars_elemental:stripped_yellow_archwood', '2x ars_elemental:yellow_archwood_sapling', '2x immersive_weathering:golden_moss_clump']).id('kubejs:starbuncle_shards_s4')
+
     event.shaped('cobblefordays:tier_5', [
         'AAA',
         'BDC',

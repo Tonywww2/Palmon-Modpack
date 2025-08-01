@@ -1,0 +1,30 @@
+{
+    "enchantments":
+    [
+        {
+            "id": "minecraft:unbreaking",
+            "lvl": 3
+        },
+        {
+            "id": "minecraft:smite",
+            "lvl": 3
+        }
+    ],
+    "name": "slashblade:ssa_raye",
+    "properties":
+    {
+        "attack_base": 15.0,
+        "max_damage": 465,
+        "slash_art": "slashblade:heavens_thirteen_slashes",
+        "sword_type":
+        [
+            "bewitched"
+        ]
+    },
+    "render":
+    {
+        "model": "slashblade:model/named/raye/raye.obj",
+        "summon_sword_color": 7212559,
+        "texture": "slashblade:model/named/raye/raye2k.png"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "enchantments":
+    [
+        {
+            "id": "minecraft:fire_aspect",
+            "lvl": 4
+        },
+        {
+            "id": "minecraft:sharpness",
+            "lvl": 10
+        }
+    ],
+    "name": "slashblade:light_sword",
+    "properties":
+    {
+        "attack_base": 17.0,
+        "max_damage": 185,
+        "slash_art": "slashblade:thermal_wave_beam",
+        "special_effects":
+        [
+            "slashblade:heat_cutting"
+        ],
+        "sword_type":
+        [
+            "bewitched"
+        ]
+    },
+    "render":
+    {
+        "model": "slashblade:model/named/light_sword/light_sword.obj",
+        "summon_sword_color": 15010560,
+        "texture": "slashblade:model/named/light_sword/light_sword.png"
+    }
+}

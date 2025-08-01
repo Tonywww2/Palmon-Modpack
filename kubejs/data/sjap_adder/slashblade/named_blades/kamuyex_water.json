@@ -1,0 +1,39 @@
+{
+    "enchantments":
+    [
+        {
+            "id": "minecraft:sharpness",
+            "lvl": 7
+        },
+        {
+            "id": "minecraft:unbreaking",
+            "lvl": 7
+        },
+        {
+            "id": "minecraft:bane_of_arthropods",
+            "lvl": 5
+        }
+    ],
+    "name": "sjap_adder:kamuyex_water",
+    "properties":
+    {
+        "attack_base": 24.0,
+        "max_damage": 300,
+        "slash_art": "sjap_adder:terrifyingwaves",
+        "special_effects":
+        [
+            "sjap_adder:terrifyingwaves"
+        ],
+        "sword_type":
+        [
+            "bewitched"
+        ]
+    },
+    "render":
+    {
+        "carry_type": "default",
+        "model": "sjap_adder:model/kaumyex/kamuyex.obj",
+        "summon_sword_color": 8703,
+        "texture": "sjap_adder:model/kaumyex/water.png"
+    }
+}

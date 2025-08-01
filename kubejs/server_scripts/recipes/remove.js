@@ -242,7 +242,6 @@ global.idsToRemove = new Set([
     'mekanismgenerators:reactor/frame',
     'avaritia:ultimate_stew',
     'avaritia:cosmic_meatballs',
-    'avaritia:infinity_catalyst',
     'avaritia:infinity_catalyst_eternal',
     'avaritia:mek_creative_bin',
     'avaritia:botania_mana_tablet',
@@ -273,7 +272,13 @@ global.idsToRemove = new Set([
     'jaopca:storage_blocks.to_storage_block.cast_iron',
     'ae2:misc/tiny_tnt',
     'tconstruct:smeltery/alloys/molten_refined_obsidian',
-    'tconstruct:compat/refined_glowstone_ingot'
+    'tconstruct:compat/refined_glowstone_ingot',
+    'sjap_adder:kamuyex_fire',
+    'sjap_adder:kamuyex_life',
+    'sjap_adder:kamuyex_ligghtning',
+    'sjap_adder:kamuyex_water',
+    'sjap_adder:nihilbxex',
+    'sjap_adder:nihilulex'
 ])
 
 ServerEvents.recipes(event => {

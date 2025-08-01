@@ -1,0 +1,35 @@
+{
+    "enchantments":
+    [
+        {
+            "id": "minecraft:sharpness",
+            "lvl": 10
+        },
+        {
+            "id": "minecraft:unbreaking",
+            "lvl": 3
+        }
+    ],
+    "name": "sjap_adder:frostbane_moonveil",
+    "properties":
+    {
+        "attack_base": 30.0,
+        "max_damage": 300,
+        "slash_art": "sjap_adder:cold_drive",
+        "special_effects":
+        [
+            "sjap_adder:cold_guardian"
+        ],
+        "sword_type":
+        [
+            "bewitched"
+        ]
+    },
+    "render":
+    {
+        "carry_type": "default",
+        "model": "sjap_adder:model/tw/frostbane_moonveil.obj",
+        "summon_sword_color": 8703,
+        "texture": "sjap_adder:model/tw/frostbane_moonveil.png"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "enchantments":
+    [
+        {
+            "id": "minecraft:fire_aspect",
+            "lvl": 2
+        },
+        {
+            "id": "minecraft:sharpness",
+            "lvl": 4
+        },
+        {
+            "id": "minecraft:knockback",
+            "lvl": 2
+        }
+    ],
+    "name": "slashblade:bizen_osafune_nagamitsu",
+    "properties":
+    {
+        "attack_base": 16.0,
+        "max_damage": 85,
+        "slash_art": "slashblade:swallow_return",
+        "sword_type":
+        [
+            "bewitched"
+        ]
+    },
+    "render":
+    {
+        "model": "slashblade:model/named/kanze_masamune/kanze_masamune.obj",
+        "summon_sword_color": 15010560,
+        "texture": "slashblade:model/named/kanze_masamune/bizen_osafune_nagamitsu.png"
+    }
+}

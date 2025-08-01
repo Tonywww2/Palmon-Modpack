@@ -34,4 +34,8 @@ contractAttributeSpDefenceMultiplierConfluence = 0.5
 #The multiplier of the SPEED with mod Confluence loaded.
 #Range: 0.0 ~ 1000.0
 contractAttributeSpeedMultiplierConfluence = 0.15
+#
+#The max distant that the working station's Pokemon will be rendered.
+#Range: 0 ~ 256
+workingStationRenderDistant = 64
 
