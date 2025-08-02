@@ -1,0 +1,9 @@
+[
+  {
+    "matchItems": [
+      "dustandash:osmium_ingot",
+      "nuclearcraft:osmium_ingot"
+    ],
+    "resultItems": "mekanism:ingot_osmium"
+  }
+]

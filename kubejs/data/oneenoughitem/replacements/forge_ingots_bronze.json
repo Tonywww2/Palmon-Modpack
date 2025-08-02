@@ -1,0 +1,13 @@
+[
+  {
+    "matchItems": [
+      "thermal:bronze_ingot",
+      "techreborn:bronze_ingot",
+      "mekanism:ingot_bronze",
+      "forestry:ingot_bronze",
+      "nuclearcraft:bronze_ingot",
+      "tcintegrations:bronze_ingot"
+    ],
+    "resultItems": "tfc:metal/ingot/bronze"
+  }
+]

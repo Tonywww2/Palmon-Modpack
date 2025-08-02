@@ -1,0 +1,8 @@
+[
+  {
+    "matchItems": [
+      "immersiveengineering:ingot_constantan"
+    ],
+    "resultItems": "thermal:constantan_ingot"
+  }
+]

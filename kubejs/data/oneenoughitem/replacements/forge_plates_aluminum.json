@@ -1,0 +1,9 @@
+[
+  {
+    "matchItems": [
+      "immersiveengineering:plate_aluminum",
+      "nuclearcraft:aluminum_plate"
+    ],
+    "resultItems": "techreborn:aluminum_plate"
+  }
+]

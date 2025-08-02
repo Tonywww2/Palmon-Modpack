@@ -1,0 +1,9 @@
+[
+  {
+    "matchItems": [
+      "techreborn:nickel_dust",
+      "immersiveengineering:dust_nickel"
+    ],
+    "resultItems": "thermal:nickel_dust"
+  }
+]

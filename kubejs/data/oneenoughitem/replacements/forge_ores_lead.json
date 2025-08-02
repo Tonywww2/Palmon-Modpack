@@ -1,0 +1,22 @@
+[
+  {
+    "matchItems": [
+      "thermal:lead_ore",
+      "techreborn:deepslate_lead_ore",
+      "techreborn:lead_ore",
+      "immersiveengineering:deepslate_ore_lead",
+      "immersiveengineering:ore_lead",
+      "mekanism:deepslate_lead_ore",
+      "mekanism:lead_ore",
+      "embers:deepslate_lead_ore",
+      "embers:lead_ore",
+      "nuclearcraft:lead_ore",
+      "thermal_and_space:glacio_lead_ore",
+      "thermal_and_space:mars_lead_ore",
+      "thermal_and_space:mercury_lead_ore",
+      "thermal_and_space:moon_lead_ore",
+      "thermal_and_space:venus_lead_ore"
+    ],
+    "resultItems": "thermal:deepslate_lead_ore"
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "matchItems": [
+      "nuclearcraft:zinc_chunk"
+    ],
+    "resultItems": "create:raw_zinc"
+  }
+]

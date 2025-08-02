@@ -1,0 +1,8 @@
+[
+  {
+    "matchItems": [
+      "forestry:gear_tin"
+    ],
+    "resultItems": "thermal:tin_gear"
+  }
+]

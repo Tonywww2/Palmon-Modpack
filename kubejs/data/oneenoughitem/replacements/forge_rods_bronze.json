@@ -1,0 +1,8 @@
+[
+  {
+    "matchItems": [
+      "thermal_extra:bronze_rod"
+    ],
+    "resultItems": "tfc:metal/rod/bronze"
+  }
+]

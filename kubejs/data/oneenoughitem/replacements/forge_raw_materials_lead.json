@@ -1,0 +1,12 @@
+[
+  {
+    "matchItems": [
+      "mekanism:raw_lead",
+      "techreborn:raw_lead",
+      "immersiveengineering:raw_lead",
+      "embers:raw_lead",
+      "nuclearcraft:lead_chunk"
+    ],
+    "resultItems": "thermal:raw_lead"
+  }
+]

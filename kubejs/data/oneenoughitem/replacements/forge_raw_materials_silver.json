@@ -1,0 +1,12 @@
+[
+  {
+    "matchItems": [
+      "techreborn:raw_silver",
+      "immersiveengineering:raw_silver",
+      "embers:raw_silver",
+      "nuclearcraft:silver_chunk",
+      "occultism:raw_silver"
+    ],
+    "resultItems": "thermal:raw_silver"
+  }
+]

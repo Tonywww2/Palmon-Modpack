@@ -1,0 +1,8 @@
+[
+  {
+    "matchItems": [
+      "forestry:resource_storage_apatite"
+    ],
+    "resultItems": "thermal:apatite_block"
+  }
+]

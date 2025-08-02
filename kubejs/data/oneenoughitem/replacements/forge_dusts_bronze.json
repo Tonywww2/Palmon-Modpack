@@ -1,0 +1,10 @@
+[
+  {
+    "matchItems": [
+      "techreborn:bronze_dust",
+      "mekanism:dust_bronze",
+      "nuclearcraft:bronze_dust"
+    ],
+    "resultItems": "thermal:bronze_dust"
+  }
+]

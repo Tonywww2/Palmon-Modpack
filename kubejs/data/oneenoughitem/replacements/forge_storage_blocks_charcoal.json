@@ -1,0 +1,10 @@
+[
+  {
+    "matchItems": [
+      "mekanism:block_charcoal",
+      "forestry:charcoal",
+      "quark:charcoal_block"
+    ],
+    "resultItems": "thermal:charcoal_block"
+  }
+]

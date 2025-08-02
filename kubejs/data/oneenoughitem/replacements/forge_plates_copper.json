@@ -1,0 +1,12 @@
+[
+  {
+    "matchItems": [
+      "create:copper_sheet",
+      "techreborn:copper_plate",
+      "immersiveengineering:plate_copper",
+      "embers:copper_plate",
+      "nuclearcraft:copper_plate"
+    ],
+    "resultItems": "thermal:copper_plate"
+  }
+]

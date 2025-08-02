@@ -1,0 +1,10 @@
+[
+  {
+    "matchItems": [
+      "create:zinc_ingot",
+      "techreborn:zinc_ingot",
+      "nuclearcraft:zinc_ingot"
+    ],
+    "resultItems": "tfc:metal/ingot/zinc"
+  }
+]

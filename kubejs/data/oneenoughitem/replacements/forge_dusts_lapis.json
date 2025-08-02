@@ -1,0 +1,9 @@
+[
+  {
+    "matchItems": [
+      "mekanism:dust_lapis_lazuli",
+      "nuclearcraft:lapis_dust"
+    ],
+    "resultItems": "thermal:lapis_dust"
+  }
+]

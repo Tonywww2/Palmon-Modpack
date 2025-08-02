@@ -1,0 +1,15 @@
+[
+  {
+    "matchItems": [
+      "thermal:ruby_ore",
+      "techreborn:deepslate_ruby_ore",
+      "techreborn:ruby_ore",
+      "thermal_and_space:glacio_ruby_ore",
+      "thermal_and_space:mars_ruby_ore",
+      "thermal_and_space:mercury_ruby_ore",
+      "thermal_and_space:moon_ruby_ore",
+      "thermal_and_space:venus_ruby_ore"
+    ],
+    "resultItems": "thermal:deepslate_ruby_ore"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "matchItems": [
+      "techreborn:bronze_storage_block",
+      "mekanism:block_bronze",
+      "forestry:resource_storage_bronze",
+      "nuclearcraft:bronze_block",
+      "tcintegrations:bronze_block"
+    ],
+    "resultItems": "thermal:bronze_block"
+  }
+]

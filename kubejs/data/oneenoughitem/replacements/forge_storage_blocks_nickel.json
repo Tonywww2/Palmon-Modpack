@@ -1,0 +1,9 @@
+[
+  {
+    "matchItems": [
+      "techreborn:nickel_storage_block",
+      "immersiveengineering:storage_nickel"
+    ],
+    "resultItems": "thermal:nickel_block"
+  }
+]

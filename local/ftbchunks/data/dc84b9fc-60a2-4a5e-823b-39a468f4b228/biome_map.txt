@@ -1,7 +1,0 @@
-#51A tfc:canyons
-#041 tfc:hills
-#6FC tfc:inverted_badlands
-#77E tfc:lake
-#7B9 tfc:plateau
-#7FB tfc:river
-#5C7 tfc:rolling_hills

@@ -1,0 +1,10 @@
+[
+  {
+    "matchItems": [
+      "techreborn:raw_tin_storage_block",
+      "mekanism:block_raw_tin",
+      "forestry:raw_tin_block"
+    ],
+    "resultItems": "thermal:raw_tin_block"
+  }
+]

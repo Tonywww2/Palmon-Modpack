@@ -1,0 +1,10 @@
+[
+  {
+    "matchItems": [
+      "create:golden_sheet",
+      "techreborn:gold_plate",
+      "immersiveengineering:plate_gold"
+    ],
+    "resultItems": "thermal:gold_plate"
+  }
+]

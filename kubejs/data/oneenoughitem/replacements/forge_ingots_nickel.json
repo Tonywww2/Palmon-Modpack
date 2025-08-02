@@ -1,0 +1,11 @@
+[
+  {
+    "matchItems": [
+      "thermal:nickel_ingot",
+      "techreborn:nickel_ingot",
+      "immersiveengineering:ingot_nickel",
+      "dustandash:nickel_ingot"
+    ],
+    "resultItems": "tfc:metal/ingot/nickel"
+  }
+]

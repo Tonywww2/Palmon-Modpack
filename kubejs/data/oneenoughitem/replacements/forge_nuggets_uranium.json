@@ -1,0 +1,9 @@
+[
+  {
+    "matchItems": [
+      "mekanism:nugget_uranium",
+      "nuclearcraft:uranium_nugget"
+    ],
+    "resultItems": "immersiveengineering:nugget_uranium"
+  }
+]

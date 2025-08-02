@@ -1,0 +1,11 @@
+[
+  {
+    "matchItems": [
+      "techreborn:diamond_dust",
+      "mekanism:dust_diamond",
+      "createaddition:diamond_grit",
+      "nuclearcraft:diamond_dust"
+    ],
+    "resultItems": "thermal:diamond_dust"
+  }
+]

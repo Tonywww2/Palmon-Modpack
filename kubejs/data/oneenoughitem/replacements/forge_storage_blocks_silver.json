@@ -1,0 +1,12 @@
+[
+  {
+    "matchItems": [
+      "techreborn:silver_storage_block",
+      "immersiveengineering:storage_silver",
+      "embers:silver_block",
+      "nuclearcraft:silver_block",
+      "occultism:silver_block"
+    ],
+    "resultItems": "thermal:silver_block"
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "matchItems": [
+      "nuclearcraft:uranium_plate"
+    ],
+    "resultItems": "immersiveengineering:plate_uranium"
+  }
+]

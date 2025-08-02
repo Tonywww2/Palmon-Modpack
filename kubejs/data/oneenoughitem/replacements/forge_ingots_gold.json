@@ -1,0 +1,8 @@
+[
+  {
+    "matchItems": [
+      "tfc:metal/ingot/gold"
+    ],
+    "resultItems": "minecraft:gold_ingot"
+  }
+]

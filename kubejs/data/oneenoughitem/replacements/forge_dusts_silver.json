@@ -1,0 +1,10 @@
+[
+  {
+    "matchItems": [
+      "immersiveengineering:dust_silver",
+      "nuclearcraft:silver_dust",
+      "occultism:silver_dust"
+    ],
+    "resultItems": "thermal:silver_dust"
+  }
+]

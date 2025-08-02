@@ -1,0 +1,9 @@
+[
+  {
+    "matchItems": [
+      "nuclearcraft:zinc_dust",
+      "thermal_extra:zinc_dust"
+    ],
+    "resultItems": "techreborn:zinc_dust"
+  }
+]

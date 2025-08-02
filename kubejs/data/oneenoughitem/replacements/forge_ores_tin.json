@@ -1,0 +1,20 @@
+[
+  {
+    "matchItems": [
+      "thermal:tin_ore",
+      "techreborn:deepslate_tin_ore",
+      "techreborn:tin_ore",
+      "mekanism:deepslate_tin_ore",
+      "mekanism:tin_ore",
+      "forestry:deepslate_tin_ore",
+      "forestry:tin_ore",
+      "nuclearcraft:tin_ore",
+      "thermal_and_space:glacio_tin_ore",
+      "thermal_and_space:mars_tin_ore",
+      "thermal_and_space:mercury_tin_ore",
+      "thermal_and_space:moon_tin_ore",
+      "thermal_and_space:venus_tin_ore"
+    ],
+    "resultItems": "thermal:deepslate_tin_ore"
+  }
+]

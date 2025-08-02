@@ -1,0 +1,9 @@
+[
+  {
+    "matchItems": [
+      "techreborn:zinc_nugget",
+      "nuclearcraft:zinc_nugget"
+    ],
+    "resultItems": "create:zinc_nugget"
+  }
+]

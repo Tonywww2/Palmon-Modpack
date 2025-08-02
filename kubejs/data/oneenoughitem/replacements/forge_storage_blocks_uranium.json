@@ -1,0 +1,9 @@
+[
+  {
+    "matchItems": [
+      "mekanism:block_uranium",
+      "nuclearcraft:uranium_block"
+    ],
+    "resultItems": "immersiveengineering:storage_uranium"
+  }
+]

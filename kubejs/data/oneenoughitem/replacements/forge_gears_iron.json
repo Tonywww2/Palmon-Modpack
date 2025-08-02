@@ -1,0 +1,9 @@
+[
+  {
+    "matchItems": [
+      "dustandash:iron_gear",
+      "industrialforegoing:iron_gear"
+    ],
+    "resultItems": "thermal:iron_gear"
+  }
+]

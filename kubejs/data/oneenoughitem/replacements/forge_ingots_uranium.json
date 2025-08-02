@@ -1,0 +1,10 @@
+[
+  {
+    "matchItems": [
+      "mekanism:ingot_uranium",
+      "dustandash:uranium_ingot",
+      "nuclearcraft:uranium_ingot"
+    ],
+    "resultItems": "immersiveengineering:ingot_uranium"
+  }
+]

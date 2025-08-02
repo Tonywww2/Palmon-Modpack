@@ -1,0 +1,11 @@
+[
+  {
+    "matchItems": [
+      "mekanism:raw_tin",
+      "techreborn:raw_tin",
+      "forestry:raw_tin",
+      "nuclearcraft:tin_chunk"
+    ],
+    "resultItems": "thermal:raw_tin"
+  }
+]

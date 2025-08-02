@@ -1,0 +1,12 @@
+[
+  {
+    "matchItems": [
+      "immersiveengineering:ore_uranium",
+      "mekanism:deepslate_uranium_ore",
+      "mekanism:uranium_ore",
+      "nuclearcraft:uranium_deepslate_ore",
+      "nuclearcraft:uranium_ore"
+    ],
+    "resultItems": "immersiveengineering:deepslate_ore_uranium"
+  }
+]

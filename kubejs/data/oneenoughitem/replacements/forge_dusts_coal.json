@@ -1,0 +1,10 @@
+[
+  {
+    "matchItems": [
+      "mekanism:dust_coal",
+      "nuclearcraft:coal_dust",
+      "tfcoreprocessing:kindle/coal_dust"
+    ],
+    "resultItems": "techreborn:coal_dust"
+  }
+]

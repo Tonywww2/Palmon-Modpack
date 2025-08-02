@@ -1,0 +1,8 @@
+[
+  {
+    "matchItems": [
+      "immersiveengineering:ore_aluminum"
+    ],
+    "resultItems": "immersiveengineering:deepslate_ore_aluminum"
+  }
+]

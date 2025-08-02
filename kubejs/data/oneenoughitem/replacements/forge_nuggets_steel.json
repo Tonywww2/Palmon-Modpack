@@ -1,0 +1,13 @@
+[
+  {
+    "matchItems": [
+      "tconstruct:steel_nugget",
+      "techreborn:steel_nugget",
+      "immersiveengineering:nugget_steel",
+      "mekanism:nugget_steel",
+      "ad_astra:steel_nugget",
+      "nuclearcraft:steel_nugget"
+    ],
+    "resultItems": "thermal:steel_nugget"
+  }
+]

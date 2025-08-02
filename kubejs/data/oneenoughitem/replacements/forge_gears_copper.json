@@ -1,0 +1,8 @@
+[
+  {
+    "matchItems": [
+      "forestry:gear_copper"
+    ],
+    "resultItems": "thermal:copper_gear"
+  }
+]

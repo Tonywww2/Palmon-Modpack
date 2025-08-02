@@ -1,0 +1,9 @@
+[
+  {
+    "matchItems": [
+      "techreborn:nickel_nugget",
+      "immersiveengineering:nugget_nickel"
+    ],
+    "resultItems": "thermal:nickel_nugget"
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "matchItems": [
+      "techreborn:invar_storage_block"
+    ],
+    "resultItems": "thermal:invar_block"
+  }
+]

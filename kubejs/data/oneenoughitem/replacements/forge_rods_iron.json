@@ -1,0 +1,10 @@
+[
+  {
+    "matchItems": [
+      "ad_astra:iron_rod",
+      "createaddition:iron_rod",
+      "thermal_extra:iron_rod"
+    ],
+    "resultItems": "immersiveengineering:stick_iron"
+  }
+]

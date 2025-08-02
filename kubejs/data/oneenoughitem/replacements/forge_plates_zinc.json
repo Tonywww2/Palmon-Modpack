@@ -1,0 +1,9 @@
+[
+  {
+    "matchItems": [
+      "createaddition:zinc_sheet",
+      "nuclearcraft:zinc_plate"
+    ],
+    "resultItems": "techreborn:zinc_plate"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "matchItems": [
+      "techreborn:electrum_dust",
+      "immersiveengineering:dust_electrum",
+      "nuclearcraft:electrum_dust"
+    ],
+    "resultItems": "thermal:electrum_dust"
+  }
+]

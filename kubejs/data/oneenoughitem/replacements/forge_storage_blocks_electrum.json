@@ -1,0 +1,10 @@
+[
+  {
+    "matchItems": [
+      "techreborn:electrum_storage_block",
+      "immersiveengineering:storage_electrum",
+      "nuclearcraft:electrum_block"
+    ],
+    "resultItems": "thermal:electrum_block"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "matchItems": [
+      "techreborn:emerald_dust",
+      "mekanism:dust_emerald",
+      "nuclearcraft:emerald_dust"
+    ],
+    "resultItems": "thermal:emerald_dust"
+  }
+]

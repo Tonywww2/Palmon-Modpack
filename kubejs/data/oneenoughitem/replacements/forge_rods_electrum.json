@@ -1,0 +1,8 @@
+[
+  {
+    "matchItems": [
+      "thermal_extra:electrum_rod"
+    ],
+    "resultItems": "createaddition:electrum_rod"
+  }
+]

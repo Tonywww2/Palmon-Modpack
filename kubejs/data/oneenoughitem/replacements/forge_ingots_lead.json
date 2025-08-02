@@ -1,0 +1,13 @@
+[
+  {
+    "matchItems": [
+      "techreborn:lead_ingot",
+      "immersiveengineering:ingot_lead",
+      "mekanism:ingot_lead",
+      "dustandash:lead_ingot",
+      "embers:lead_ingot",
+      "nuclearcraft:lead_ingot"
+    ],
+    "resultItems": "thermal:lead_ingot"
+  }
+]

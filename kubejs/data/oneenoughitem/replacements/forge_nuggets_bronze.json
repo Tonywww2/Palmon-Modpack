@@ -1,0 +1,11 @@
+[
+  {
+    "matchItems": [
+      "techreborn:bronze_nugget",
+      "mekanism:nugget_bronze",
+      "nuclearcraft:bronze_nugget",
+      "tcintegrations:bronze_nugget"
+    ],
+    "resultItems": "thermal:bronze_nugget"
+  }
+]

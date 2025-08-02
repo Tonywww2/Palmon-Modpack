@@ -1,0 +1,9 @@
+[
+  {
+    "matchItems": [
+      "dustandash:tungsten_ingot",
+      "nuclearcraft:tungsten_ingot"
+    ],
+    "resultItems": "techreborn:tungsten_ingot"
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "matchItems": [
+      "mekanism:block_raw_uranium"
+    ],
+    "resultItems": "immersiveengineering:raw_block_uranium"
+  }
+]

@@ -1,7 +1,0 @@
-minecraft:overworld
-cobgyms:cobgyms_dim
-minecraft:the_nether
-kubejs:overworld
-ad_astra:moon
-dimdungeons:dungeon_dimension
-ad_astra:mars

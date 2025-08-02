@@ -1,0 +1,9 @@
+[
+  {
+    "matchItems": [
+      "create:brass_ingot",
+      "techreborn:brass_ingot"
+    ],
+    "resultItems": "tfc:metal/ingot/brass"
+  }
+]

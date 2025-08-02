@@ -1,0 +1,15 @@
+[
+  {
+    "matchItems": [
+      "thermal:deepslate_apatite_ore",
+      "forestry:apatite_ore",
+      "forestry:deepslate_apatite_ore",
+      "thermal_and_space:glacio_apatite_ore",
+      "thermal_and_space:mars_apatite_ore",
+      "thermal_and_space:mercury_apatite_ore",
+      "thermal_and_space:moon_apatite_ore",
+      "thermal_and_space:venus_apatite_ore"
+    ],
+    "resultItems": "thermal:apatite_ore"
+  }
+]

@@ -124,7 +124,7 @@
 		"Allow Cloud Golem Invulnerability Time" = true
 		#Maximum damage that can be dealt to Cloud Golem
 		#Range: 0.0 ~ 1000.0
-		"Cloud Golem Damage Cap" = 500.0
+		"Cloud Golem Damage Cap" = 800.0
 
 	["Mob Settings"."Cloud Golem's Falling Cloud Settings"]
 		#Multiplies damage dealt by Falling Cloud

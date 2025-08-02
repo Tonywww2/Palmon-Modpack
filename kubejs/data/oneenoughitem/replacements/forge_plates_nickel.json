@@ -1,0 +1,9 @@
+[
+  {
+    "matchItems": [
+      "techreborn:nickel_plate",
+      "immersiveengineering:plate_nickel"
+    ],
+    "resultItems": "thermal:nickel_plate"
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "matchItems": [
+      "thermal_extra:nickel_rod"
+    ],
+    "resultItems": "tfc:metal/rod/nickel"
+  }
+]

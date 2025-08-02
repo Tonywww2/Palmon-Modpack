@@ -1,0 +1,12 @@
+[
+  {
+    "matchItems": [
+      "techreborn:silver_nugget",
+      "immersiveengineering:nugget_silver",
+      "embers:silver_nugget",
+      "nuclearcraft:silver_nugget",
+      "occultism:silver_nugget"
+    ],
+    "resultItems": "thermal:silver_nugget"
+  }
+]

@@ -7,6 +7,7 @@
         "#cataclysm:ancient",
         "#cataclysm:arena",
         "distantfriends:friend",
-        "powerful_dummy:test_dummy"
+        "powerful_dummy:test_dummy",
+        "cobblemon:pokemon"
     ]
 }

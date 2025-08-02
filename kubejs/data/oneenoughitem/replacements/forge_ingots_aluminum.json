@@ -1,0 +1,10 @@
+[
+  {
+    "matchItems": [
+      "immersiveengineering:ingot_aluminum",
+      "dustandash:aluminum_ingot",
+      "nuclearcraft:aluminum_ingot"
+    ],
+    "resultItems": "techreborn:aluminum_ingot"
+  }
+]

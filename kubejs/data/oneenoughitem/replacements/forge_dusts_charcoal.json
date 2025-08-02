@@ -1,0 +1,10 @@
+[
+  {
+    "matchItems": [
+      "mekanism:dust_charcoal",
+      "tfc:powder/charcoal",
+      "nuclearcraft:charcoal_dust"
+    ],
+    "resultItems": "techreborn:charcoal_dust"
+  }
+]

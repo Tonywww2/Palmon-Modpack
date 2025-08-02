@@ -1,3 +1,0 @@
-#175 tfc:highlands
-#041 tfc:hills
-#5D8 tfc:plains

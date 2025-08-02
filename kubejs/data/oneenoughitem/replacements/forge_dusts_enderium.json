@@ -1,0 +1,8 @@
+[
+  {
+    "matchItems": [
+      "nuclearcraft:enderium_dust"
+    ],
+    "resultItems": "thermal:enderium_dust"
+  }
+]

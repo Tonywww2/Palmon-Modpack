@@ -1,0 +1,10 @@
+[
+  {
+    "matchItems": [
+      "immersiveengineering:dust_lead",
+      "mekanism:dust_lead",
+      "nuclearcraft:lead_dust"
+    ],
+    "resultItems": "thermal:lead_dust"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "matchItems": [
+      "nuclearcraft:cobalt_deepslate_ore",
+      "nuclearcraft:cobalt_ore"
+    ],
+    "resultItems": "tconstruct:cobalt_ore"
+  }
+]

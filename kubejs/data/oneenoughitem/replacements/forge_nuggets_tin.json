@@ -1,0 +1,10 @@
+[
+  {
+    "matchItems": [
+      "techreborn:tin_nugget",
+      "mekanism:nugget_tin",
+      "nuclearcraft:tin_nugget"
+    ],
+    "resultItems": "thermal:tin_nugget"
+  }
+]

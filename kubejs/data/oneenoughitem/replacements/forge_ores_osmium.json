@@ -1,0 +1,8 @@
+[
+  {
+    "matchItems": [
+      "mekanism:osmium_ore"
+    ],
+    "resultItems": "mekanism:deepslate_osmium_ore"
+  }
+]

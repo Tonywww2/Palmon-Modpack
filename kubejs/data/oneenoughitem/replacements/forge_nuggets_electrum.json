@@ -1,0 +1,11 @@
+[
+  {
+    "matchItems": [
+      "techreborn:electrum_nugget",
+      "immersiveengineering:nugget_electrum",
+      "createaddition:electrum_nugget",
+      "nuclearcraft:electrum_nugget"
+    ],
+    "resultItems": "thermal:electrum_nugget"
+  }
+]

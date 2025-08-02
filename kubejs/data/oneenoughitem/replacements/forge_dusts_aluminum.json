@@ -1,0 +1,9 @@
+[
+  {
+    "matchItems": [
+      "immersiveengineering:dust_aluminum",
+      "nuclearcraft:aluminum_dust"
+    ],
+    "resultItems": "techreborn:aluminum_dust"
+  }
+]

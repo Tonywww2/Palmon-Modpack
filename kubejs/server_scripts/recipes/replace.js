@@ -173,5 +173,12 @@ ServerEvents.recipes(event => {
         'nuclearcraft:neutronium_ingot',
         '#forge:ingots/neutronium'
     )
+    
+    event.replaceInput([
+        {}
+    ],
+        '#forge:rods/steel',
+        '#forge:rods/steel'
+    )
 
 })
