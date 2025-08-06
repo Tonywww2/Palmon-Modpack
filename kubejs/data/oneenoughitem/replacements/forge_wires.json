@@ -1,0 +1,18 @@
+[
+  {
+    "tag": "forge:wires/copper",
+    "material": "copper",
+    "matchItems": [
+      "createaddition:copper_wire"
+    ],
+    "resultItems": "immersiveengineering:wire_copper"
+  },
+  {
+    "tag": "forge:wires/electrum",
+    "material": "electrum",
+    "matchItems": [
+      "createaddition:electrum_wire"
+    ],
+    "resultItems": "immersiveengineering:wire_electrum"
+  }
+]

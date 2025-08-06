@@ -1,9 +1,0 @@
-[
-  {
-    "matchItems": [
-      "create:zinc_ore",
-      "nuclearcraft:zinc_ore"
-    ],
-    "resultItems": "create:deepslate_zinc_ore"
-  }
-]

@@ -1,21 +1,33 @@
 const secs = 1000
 const mins = secs * 60
 const hour = mins * 60
-const time = hour * 7.5
+const time = hour * 9
 
-const executor = Java.loadClass('java.util.concurrent.Executors').newScheduledThreadPool(1)
-const TimeUnit = Java.loadClass('java.util.concurrent.TimeUnit')
-const FutureTask = Java.loadClass('java.util.concurrent.FutureTask')
+const $TimeUnit = Java.loadClass('java.util.concurrent.TimeUnit')
+const $FutureTask = Java.loadClass('java.util.concurrent.FutureTask')
+const $Executors = Java.loadClass('java.util.concurrent.Executors')
+
+const $ThreadFactory = Java.loadClass('java.util.concurrent.ThreadFactory')
+const daemonThreadFactory = new JavaAdapter($ThreadFactory, {
+    newThread: function(runnable) {
+        const t = $Executors.defaultThreadFactory().newThread(runnable)
+        t.setDaemon(true)
+        return t
+    }
+})
+
+const $ScheduledThreadPoolExecutor = Java.loadClass('java.util.concurrent.ScheduledThreadPoolExecutor')
+const $executor = new $ScheduledThreadPoolExecutor(1, daemonThreadFactory)
 
 // 创建重启任务
-const restartTask = new FutureTask(() => {
-    Utils.server.close()
+const restartTask = new $FutureTask(() => {
+    Utils.server.runCommandSilent("stop")
     return null
 })
 
 // 创建通知任务函数
 function createNotificationTask(message) {
-    return new FutureTask(() => {
+    return new $FutureTask(() => {
         Utils.server.tell(`say ${message}`)
         return null
     })
@@ -34,14 +46,14 @@ const notifications = [
 // 提交通知任务
 notifications.forEach(notification => {
     const task = createNotificationTask(notification.message)
-    executor["schedule(java.lang.Runnable,long,java.util.concurrent.TimeUnit)"](task, new $Double(notification.delay).longValue(), TimeUnit.MILLISECONDS)
+    $executor["schedule(java.lang.Runnable,long,java.util.concurrent.TimeUnit)"](task, new $Double(notification.delay).longValue(), $TimeUnit.MILLISECONDS)
 })
 
 // 提交重启任务
-executor["schedule(java.lang.Runnable,long,java.util.concurrent.TimeUnit)"](restartTask, new $Double(time).longValue(), TimeUnit.MILLISECONDS)
+$executor["schedule(java.lang.Runnable,long,java.util.concurrent.TimeUnit)"](restartTask, new $Double(time).longValue(), $TimeUnit.MILLISECONDS)
 
-// 优雅关闭执行器
-executor["schedule(java.lang.Runnable,long,java.util.concurrent.TimeUnit)"](() => {
-    executor.shutdown()
+// 关闭执行器
+$executor["schedule(java.lang.Runnable,long,java.util.concurrent.TimeUnit)"](() => {
+    $executor.shutdown()
     return null
-}, new $Double(time + 1000).longValue(), TimeUnit.MILLISECONDS)
+}, new $Double(time + 1000).longValue(), $TimeUnit.MILLISECONDS)

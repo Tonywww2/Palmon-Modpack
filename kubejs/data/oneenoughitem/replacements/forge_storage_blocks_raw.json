@@ -1,0 +1,50 @@
+[
+  {
+    "tag": "forge:storage_blocks/raw_lead",
+    "material": "lead",
+    "matchItems": [
+      "techreborn:raw_lead_storage_block",
+      "immersiveengineering:raw_block_lead",
+      "mekanism:block_raw_lead",
+      "embers:raw_lead_block"
+    ],
+    "resultItems": "thermal:raw_lead_block"
+  },
+  {
+    "tag": "forge:storage_blocks/raw_nickel",
+    "material": "nickel",
+    "matchItems": [
+      "immersiveengineering:raw_block_nickel"
+    ],
+    "resultItems": "thermal:raw_nickel_block"
+  },
+  {
+    "tag": "forge:storage_blocks/raw_silver",
+    "material": "silver",
+    "matchItems": [
+      "techreborn:raw_silver_storage_block",
+      "immersiveengineering:raw_block_silver",
+      "embers:raw_silver_block",
+      "occultism:raw_silver_block"
+    ],
+    "resultItems": "thermal:raw_silver_block"
+  },
+  {
+    "tag": "forge:storage_blocks/raw_tin",
+    "material": "tin",
+    "matchItems": [
+      "techreborn:raw_tin_storage_block",
+      "mekanism:block_raw_tin",
+      "forestry:raw_tin_block"
+    ],
+    "resultItems": "thermal:raw_tin_block"
+  },
+  {
+    "tag": "forge:storage_blocks/raw_uranium",
+    "material": "uranium",
+    "matchItems": [
+      "mekanism:block_raw_uranium"
+    ],
+    "resultItems": "immersiveengineering:raw_block_uranium"
+  }
+]

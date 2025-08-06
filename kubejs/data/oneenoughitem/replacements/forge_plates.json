@@ -1,0 +1,198 @@
+[
+  {
+    "tag": "forge:plates/aluminum",
+    "material": "aluminum",
+    "matchItems": [
+      "immersiveengineering:plate_aluminum",
+      "nuclearcraft:aluminum_plate"
+    ],
+    "resultItems": "techreborn:aluminum_plate"
+  },
+  {
+    "tag": "forge:plates/brass",
+    "material": "brass",
+    "matchItems": [
+      "techreborn:brass_plate"
+    ],
+    "resultItems": "create:brass_sheet"
+  },
+  {
+    "tag": "forge:plates/bronze",
+    "material": "bronze",
+    "matchItems": [
+      "techreborn:bronze_plate",
+      "nuclearcraft:bronze_plate"
+    ],
+    "resultItems": "thermal:bronze_plate"
+  },
+  {
+    "tag": "forge:plates/constantan",
+    "material": "constantan",
+    "matchItems": [
+      "immersiveengineering:plate_constantan"
+    ],
+    "resultItems": "thermal:constantan_plate"
+  },
+  {
+    "tag": "forge:plates/copper",
+    "material": "copper",
+    "matchItems": [
+      "create:copper_sheet",
+      "techreborn:copper_plate",
+      "immersiveengineering:plate_copper",
+      "embers:copper_plate",
+      "nuclearcraft:copper_plate"
+    ],
+    "resultItems": "thermal:copper_plate"
+  },
+  {
+    "tag": "forge:plates/electrum",
+    "material": "electrum",
+    "matchItems": [
+      "techreborn:electrum_plate",
+      "immersiveengineering:plate_electrum",
+      "createaddition:electrum_sheet",
+      "nuclearcraft:electrum_plate"
+    ],
+    "resultItems": "thermal:electrum_plate"
+  },
+  {
+    "tag": "forge:plates/gold",
+    "material": "gold",
+    "matchItems": [
+      "create:golden_sheet",
+      "techreborn:gold_plate",
+      "immersiveengineering:plate_gold"
+    ],
+    "resultItems": "thermal:gold_plate"
+  },
+  {
+    "tag": "forge:plates/invar",
+    "material": "invar",
+    "matchItems": [
+      "techreborn:invar_plate"
+    ],
+    "resultItems": "thermal:invar_plate"
+  },
+  {
+    "tag": "forge:plates/iridium",
+    "material": "iridium",
+    "matchItems": [
+      "jaopca:plates.iridium"
+    ],
+    "resultItems": "techreborn:iridium_plate"
+  },
+  {
+    "tag": "forge:plates/iron",
+    "material": "iron",
+    "matchItems": [
+      "create:iron_sheet",
+      "techreborn:iron_plate",
+      "immersiveengineering:plate_iron",
+      "ad_astra:iron_plate",
+      "embers:iron_plate",
+      "nuclearcraft:iron_plate"
+    ],
+    "resultItems": "thermal:iron_plate"
+  },
+  {
+    "tag": "forge:plates/lead",
+    "material": "lead",
+    "matchItems": [
+      "techreborn:lead_plate",
+      "immersiveengineering:plate_lead",
+      "embers:lead_plate",
+      "nuclearcraft:lead_plate"
+    ],
+    "resultItems": "thermal:lead_plate"
+  },
+  {
+    "tag": "forge:plates/netherite",
+    "material": "netherite",
+    "matchItems": [
+      "nuclearcraft:netherite_plate"
+    ],
+    "resultItems": "thermal:netherite_plate"
+  },
+  {
+    "tag": "forge:plates/nickel",
+    "material": "nickel",
+    "matchItems": [
+      "techreborn:nickel_plate",
+      "immersiveengineering:plate_nickel"
+    ],
+    "resultItems": "thermal:nickel_plate"
+  },
+  {
+    "tag": "forge:plates/obsidian",
+    "material": "obsidian",
+    "matchItems": [
+      "techreborn:obsidian_plate"
+    ],
+    "resultItems": "create:sturdy_sheet"
+  },
+  {
+    "tag": "forge:plates/platinum",
+    "material": "platinum",
+    "matchItems": [
+      "nuclearcraft:platinum_plate"
+    ],
+    "resultItems": "techreborn:platinum_plate"
+  },
+  {
+    "tag": "forge:plates/silver",
+    "material": "silver",
+    "matchItems": [
+      "techreborn:silver_plate",
+      "immersiveengineering:plate_silver",
+      "embers:silver_plate",
+      "nuclearcraft:silver_plate"
+    ],
+    "resultItems": "thermal:silver_plate"
+  },
+  {
+    "tag": "forge:plates/steel",
+    "material": "steel",
+    "matchItems": [
+      "techreborn:steel_plate",
+      "immersiveengineering:plate_steel",
+      "ad_astra:steel_plate",
+      "nuclearcraft:steel_plate"
+    ],
+    "resultItems": "thermal:steel_plate"
+  },
+  {
+    "tag": "forge:plates/tin",
+    "material": "tin",
+    "matchItems": [
+      "techreborn:tin_plate",
+      "nuclearcraft:tin_plate"
+    ],
+    "resultItems": "thermal:tin_plate"
+  },
+  {
+    "tag": "forge:plates/tungsten",
+    "material": "tungsten",
+    "matchItems": [
+      "jaopca:plates.tungsten"
+    ],
+    "resultItems": "techreborn:tungsten_plate"
+  },
+  {
+    "tag": "forge:plates/uranium",
+    "material": "uranium",
+    "matchItems": [
+      "nuclearcraft:uranium_plate"
+    ],
+    "resultItems": "immersiveengineering:plate_uranium"
+  },
+  {
+    "tag": "forge:plates/zinc",
+    "material": "zinc",
+    "matchItems": [
+      "createaddition:zinc_sheet",
+      "nuclearcraft:zinc_plate"
+    ],
+    "resultItems": "techreborn:zinc_plate"
+  }
+]

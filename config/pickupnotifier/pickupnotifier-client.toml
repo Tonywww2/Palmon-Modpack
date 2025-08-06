@@ -24,7 +24,7 @@
 	screen_corner = "BOTTOM_RIGHT"
 	#Offset on x-axis from screen border.
 	#Range: > 0
-	offset_x = 8
+	offset_x = 12
 	#Offset on y-axis from screen border.
 	#Range: > 0
 	offset_y = 4

@@ -1,9 +1,0 @@
-[
-  {
-    "matchItems": [
-      "immersiveengineering:storage_aluminum",
-      "nuclearcraft:aluminum_block"
-    ],
-    "resultItems": "techreborn:aluminum_storage_block"
-  }
-]

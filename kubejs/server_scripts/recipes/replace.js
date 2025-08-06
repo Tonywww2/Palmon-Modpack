@@ -177,8 +177,22 @@ ServerEvents.recipes(event => {
     event.replaceInput([
         {}
     ],
-        '#forge:rods/steel',
+        'ad_astra:steel_rod',
         '#forge:rods/steel'
+    )
+    
+    event.replaceInput([
+        {}
+    ],
+        'create:zinc_ingot',
+        '#forge:ingots/zinc'
+    )
+    
+    event.replaceInput([
+        {}
+    ],
+        "#ad_astra:steel_plates",
+        '#forge:plates/steel'
     )
 
 })

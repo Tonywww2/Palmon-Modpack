@@ -87,7 +87,7 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "tconstruct:table_casting_material",
         "cast": {
-            "item": "tconstruct:shield_core"
+            "item": 'minecraft:shield'
         },
         "item_cost": 4,
         "result": "tconstruct:shield_core"

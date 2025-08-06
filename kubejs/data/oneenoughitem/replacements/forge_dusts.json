@@ -1,0 +1,326 @@
+[
+    {
+        "tag": "forge:dusts/aluminum",
+        "material": "aluminum",
+        "matchItems":
+        [
+            "immersiveengineering:dust_aluminum",
+            "nuclearcraft:aluminum_dust"
+        ],
+        "resultItems": "techreborn:aluminum_dust"
+    },
+    {
+        "tag": "forge:dusts/bronze",
+        "material": "bronze",
+        "matchItems":
+        [
+            "techreborn:bronze_dust",
+            "mekanism:dust_bronze",
+            "nuclearcraft:bronze_dust"
+        ],
+        "resultItems": "thermal:bronze_dust"
+    },
+    {
+        "tag": "forge:dusts/charcoal",
+        "material": "charcoal",
+        "matchItems":
+        [
+            "techreborn:charcoal_dust",
+            "mekanism:dust_charcoal",
+            "nuclearcraft:charcoal_dust"
+        ],
+        "resultItems": "tfc:powder/charcoal"
+    },
+    {
+        "tag": "forge:dusts/cinnabar",
+        "material": "cinnabar",
+        "matchItems":
+        [
+            "techreborn:cinnabar_dust"
+        ],
+        "resultItems": "thermal:cinnabar_dust"
+    },
+    {
+        "tag": "forge:dusts/coal",
+        "material": "coal",
+        "matchItems":
+        [
+            "mekanism:dust_coal",
+            "nuclearcraft:coal_dust",
+            "tfcoreprocessing:kindle/coal_dust"
+        ],
+        "resultItems": "techreborn:coal_dust"
+    },
+    {
+        "tag": "forge:dusts/constantan",
+        "material": "constantan",
+        "matchItems":
+        [
+            "immersiveengineering:dust_constantan"
+        ],
+        "resultItems": "thermal:constantan_dust"
+    },
+    {
+        "tag": "forge:dusts/copper",
+        "material": "copper",
+        "matchItems":
+        [
+            "immersiveengineering:dust_copper",
+            "mekanism:dust_copper",
+            "nuclearcraft:copper_dust",
+            "occultism:copper_dust"
+        ],
+        "resultItems": "thermal:copper_dust"
+    },
+    {
+        "tag": "forge:dusts/diamond",
+        "material": "diamond",
+        "matchItems":
+        [
+            "techreborn:diamond_dust",
+            "mekanism:dust_diamond",
+            "createaddition:diamond_grit",
+            "nuclearcraft:diamond_dust"
+        ],
+        "resultItems": "thermal:diamond_dust"
+    },
+    {
+        "tag": "forge:dusts/electrum",
+        "material": "electrum",
+        "matchItems":
+        [
+            "techreborn:electrum_dust",
+            "immersiveengineering:dust_electrum",
+            "nuclearcraft:electrum_dust"
+        ],
+        "resultItems": "thermal:electrum_dust"
+    },
+    {
+        "tag": "forge:dusts/emerald",
+        "material": "emerald",
+        "matchItems":
+        [
+            "techreborn:emerald_dust",
+            "mekanism:dust_emerald",
+            "nuclearcraft:emerald_dust"
+        ],
+        "resultItems": "thermal:emerald_dust"
+    },
+    {
+        "tag": "forge:dusts/enderium",
+        "material": "enderium",
+        "matchItems":
+        [
+            "nuclearcraft:enderium_dust"
+        ],
+        "resultItems": "thermal:enderium_dust"
+    },
+    {
+        "tag": "forge:dusts/fluorite",
+        "material": "fluorite",
+        "matchItems":
+        [
+            "nuclearcraft:fluorite_dust"
+        ],
+        "resultItems": "mekanism:dust_fluorite"
+    },
+    {
+        "tag": "forge:dusts/gold",
+        "material": "gold",
+        "matchItems":
+        [
+            "immersiveengineering:dust_gold",
+            "mekanism:dust_gold",
+            "nuclearcraft:gold_dust",
+            "occultism:gold_dust"
+        ],
+        "resultItems": "thermal:gold_dust"
+    },
+    {
+        "tag": "forge:dusts/graphite",
+        "material": "graphite",
+        "matchItems":
+        [
+            "nuclearcraft:graphite_dust",
+            "immersiveengineering:dust_coke"
+        ],
+        "resultItems": "tfc:powder/graphite"
+    },
+    {
+        "tag": "forge:dusts/invar",
+        "material": "invar",
+        "matchItems":
+        [
+            "techreborn:invar_dust"
+        ],
+        "resultItems": "thermal:invar_dust"
+    },
+    {
+        "tag": "forge:dusts/iron",
+        "material": "iron",
+        "matchItems":
+        [
+            "immersiveengineering:dust_iron",
+            "mekanism:dust_iron",
+            "nuclearcraft:iron_dust",
+            "occultism:iron_dust"
+        ],
+        "resultItems": "thermal:iron_dust"
+    },
+    {
+        "tag": "forge:dusts/lapis",
+        "material": "lapis",
+        "matchItems":
+        [
+            "mekanism:dust_lapis_lazuli",
+            "nuclearcraft:lapis_dust"
+        ],
+        "resultItems": "thermal:lapis_dust"
+    },
+    {
+        "tag": "forge:dusts/lead",
+        "material": "lead",
+        "matchItems":
+        [
+            "immersiveengineering:dust_lead",
+            "mekanism:dust_lead",
+            "nuclearcraft:lead_dust"
+        ],
+        "resultItems": "thermal:lead_dust"
+    },
+    {
+        "tag": "forge:dusts/netherite",
+        "material": "netherite",
+        "matchItems":
+        [
+            "mekanism:dust_netherite",
+            "nuclearcraft:netherite_dust"
+        ],
+        "resultItems": "thermal:netherite_dust"
+    },
+    {
+        "tag": "forge:dusts/nickel",
+        "material": "nickel",
+        "matchItems":
+        [
+            "techreborn:nickel_dust",
+            "immersiveengineering:dust_nickel"
+        ],
+        "resultItems": "thermal:nickel_dust"
+    },
+    {
+        "tag": "forge:dusts/obsidian",
+        "material": "obsidian",
+        "matchItems":
+        [
+            "techreborn:obsidian_dust",
+            "mekanism:dust_obsidian",
+            "nuclearcraft:obsidian_dust",
+            "occultism:obsidian_dust",
+            "thermal_extra:obsidian_dust"
+        ],
+        "resultItems": "create:powdered_obsidian"
+    },
+    {
+        "tag": "forge:dusts/osmium",
+        "material": "osmium",
+        "matchItems":
+        [
+            "nuclearcraft:osmium_dust"
+        ],
+        "resultItems": "mekanism:dust_osmium"
+    },
+    {
+        "tag": "forge:dusts/platinum",
+        "material": "platinum",
+        "matchItems":
+        [
+            "nuclearcraft:platinum_dust"
+        ],
+        "resultItems": "techreborn:platinum_dust"
+    },
+    {
+        "tag": "forge:dusts/ruby",
+        "material": "ruby",
+        "matchItems":
+        [
+            "techreborn:ruby_dust"
+        ],
+        "resultItems": "thermal:ruby_dust"
+    },
+    {
+        "tag": "forge:dusts/sapphire",
+        "material": "sapphire",
+        "matchItems":
+        [
+            "techreborn:sapphire_dust"
+        ],
+        "resultItems": "thermal:sapphire_dust"
+    },
+    {
+        "tag": "forge:dusts/silver",
+        "material": "silver",
+        "matchItems":
+        [
+            "immersiveengineering:dust_silver",
+            "nuclearcraft:silver_dust",
+            "occultism:silver_dust"
+        ],
+        "resultItems": "thermal:silver_dust"
+    },
+    {
+        "tag": "forge:dusts/steel",
+        "material": "steel",
+        "matchItems":
+        [
+            "techreborn:steel_dust",
+            "immersiveengineering:dust_steel",
+            "mekanism:dust_steel",
+            "nuclearcraft:steel_dust"
+        ],
+        "resultItems": "thermal:steel_dust"
+    },
+    {
+        "tag": "forge:dusts/sulfur",
+        "material": "sulfur",
+        "matchItems":
+        [
+            "thermal:sulfur_dust",
+            "techreborn:sulfur_dust",
+            "immersiveengineering:dust_sulfur",
+            "mekanism:dust_sulfur",
+            "nuclearcraft:sulfur_dust"
+        ],
+        "resultItems": "tfc:powder/sulfur"
+    },
+    {
+        "tag": "forge:dusts/tin",
+        "material": "tin",
+        "matchItems":
+        [
+            "mekanism:dust_tin",
+            "nuclearcraft:tin_dust"
+        ],
+        "resultItems": "thermal:tin_dust"
+    },
+    {
+        "tag": "forge:dusts/uranium",
+        "material": "uranium",
+        "matchItems":
+        [
+            "mekanism:dust_uranium",
+            "nuclearcraft:uranium_dust"
+        ],
+        "resultItems": "immersiveengineering:dust_uranium"
+    },
+    {
+        "tag": "forge:dusts/zinc",
+        "material": "zinc",
+        "matchItems":
+        [
+            "nuclearcraft:zinc_dust",
+            "thermal_extra:zinc_dust"
+        ],
+        "resultItems": "techreborn:zinc_dust"
+    }
+]

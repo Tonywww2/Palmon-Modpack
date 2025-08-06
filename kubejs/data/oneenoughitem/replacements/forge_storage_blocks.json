@@ -1,0 +1,228 @@
+[
+    {
+        "tag": "forge:storage_blocks/aluminum",
+        "material": "aluminum",
+        "matchItems":
+        [
+            "immersiveengineering:storage_aluminum",
+            "nuclearcraft:aluminum_block"
+        ],
+        "resultItems": "techreborn:aluminum_storage_block"
+    },
+    {
+        "tag": "forge:storage_blocks/apatite",
+        "material": "apatite",
+        "matchItems":
+        [
+            "forestry:resource_storage_apatite"
+        ],
+        "resultItems": "thermal:apatite_block"
+    },
+    {
+        "tag": "forge:storage_blocks/brass",
+        "material": "brass",
+        "matchItems":
+        [
+            "techreborn:brass_storage_block"
+        ],
+        "resultItems": "create:brass_block"
+    },
+    {
+        "tag": "forge:storage_blocks/bronze",
+        "material": "bronze",
+        "matchItems":
+        [
+            "techreborn:bronze_storage_block",
+            "mekanism:block_bronze",
+            "forestry:resource_storage_bronze",
+            "nuclearcraft:bronze_block",
+            "tcintegrations:bronze_block"
+        ],
+        "resultItems": "thermal:bronze_block"
+    },
+    {
+        "tag": "forge:storage_blocks/charcoal",
+        "material": "charcoal",
+        "matchItems":
+        [
+            "mekanism:block_charcoal",
+            "forestry:charcoal",
+            "quark:charcoal_block"
+        ],
+        "resultItems": "thermal:charcoal_block"
+    },
+    {
+        "tag": "forge:storage_blocks/coal_coke",
+        "material": "coal_coke",
+        "matchItems":
+        [
+            "immersiveengineering:coke"
+        ],
+        "resultItems": "thermal:coal_coke_block"
+    },
+    {
+        "tag": "forge:storage_blocks/cobalt",
+        "material": "cobalt",
+        "matchItems":
+        [
+            "nuclearcraft:cobalt_block"
+        ],
+        "resultItems": "tconstruct:cobalt_block"
+    },
+    {
+        "tag": "forge:storage_blocks/constantan",
+        "material": "constantan",
+        "matchItems":
+        [
+            "immersiveengineering:storage_constantan"
+        ],
+        "resultItems": "thermal:constantan_block"
+    },
+    {
+        "tag": "forge:storage_blocks/electrum",
+        "material": "electrum",
+        "matchItems":
+        [
+            "techreborn:electrum_storage_block",
+            "immersiveengineering:storage_electrum",
+            "nuclearcraft:electrum_block"
+        ],
+        "resultItems": "thermal:electrum_block"
+    },
+    {
+        "tag": "forge:storage_blocks/invar",
+        "material": "invar",
+        "matchItems":
+        [
+            "techreborn:invar_storage_block"
+        ],
+        "resultItems": "thermal:invar_block"
+    },
+    {
+        "tag": "forge:storage_blocks/iridium",
+        "material": "iridium",
+        "matchItems":
+        [
+            "jaopca:storage_blocks.iridium"
+        ],
+        "resultItems": "techreborn:iridium_storage_block"
+    },
+    {
+        "tag": "forge:storage_blocks/lead",
+        "material": "lead",
+        "matchItems":
+        [
+            "techreborn:lead_storage_block",
+            "immersiveengineering:storage_lead",
+            "mekanism:block_lead",
+            "embers:lead_block",
+            "nuclearcraft:lead_block"
+        ],
+        "resultItems": "thermal:lead_block"
+    },
+    {
+        "tag": "forge:storage_blocks/nickel",
+        "material": "nickel",
+        "matchItems":
+        [
+            "techreborn:nickel_storage_block",
+            "immersiveengineering:storage_nickel"
+        ],
+        "resultItems": "thermal:nickel_block"
+    },
+    {
+        "tag": "forge:storage_blocks/platinum",
+        "material": "platinum",
+        "matchItems":
+        [
+            "nuclearcraft:platinum_block"
+        ],
+        "resultItems": "techreborn:platinum_storage_block"
+    },
+    {
+        "tag": "forge:storage_blocks/ruby",
+        "material": "ruby",
+        "matchItems":
+        [
+            "techreborn:ruby_storage_block"
+        ],
+        "resultItems": "thermal:ruby_block"
+    },
+    {
+        "tag": "forge:storage_blocks/sapphire",
+        "material": "sapphire",
+        "matchItems":
+        [
+            "techreborn:sapphire_storage_block"
+        ],
+        "resultItems": "thermal:sapphire_block"
+    },
+    {
+        "tag": "forge:storage_blocks/silver",
+        "material": "silver",
+        "matchItems":
+        [
+            "techreborn:silver_storage_block",
+            "immersiveengineering:storage_silver",
+            "embers:silver_block",
+            "nuclearcraft:silver_block",
+            "occultism:silver_block"
+        ],
+        "resultItems": "thermal:silver_block"
+    },
+    {
+        "tag": "forge:storage_blocks/steel",
+        "material": "steel",
+        "matchItems":
+        [
+            "tconstruct:steel_block",
+            "techreborn:steel_storage_block",
+            "thermal:steel_block",
+            "mekanism:block_steel",
+            "ad_astra:steel_block",
+            "nuclearcraft:steel_block"
+        ],
+        "resultItems": "immersiveengineering:storage_steel"
+    },
+    {
+        "tag": "forge:storage_blocks/tin",
+        "material": "tin",
+        "matchItems":
+        [
+            "techreborn:tin_storage_block",
+            "mekanism:block_tin",
+            "forestry:resource_storage_tin",
+            "nuclearcraft:tin_block"
+        ],
+        "resultItems": "thermal:tin_block"
+    },
+    {
+        "tag": "forge:storage_blocks/tungsten",
+        "material": "tungsten",
+        "matchItems":
+        [
+            "jaopca:storage_blocks.tungsten"
+        ],
+        "resultItems": "techreborn:tungsten_storage_block"
+    },
+    {
+        "tag": "forge:storage_blocks/uranium",
+        "material": "uranium",
+        "matchItems":
+        [
+            "mekanism:block_uranium",
+            "nuclearcraft:uranium_block"
+        ],
+        "resultItems": "immersiveengineering:storage_uranium"
+    },
+    {
+        "tag": "forge:storage_blocks/zinc",
+        "material": "zinc",
+        "matchItems":
+        [
+            "techreborn:zinc_storage_block",
+            "nuclearcraft:zinc_block"
+        ],
+        "resultItems": "create:zinc_block"
+    }
+]

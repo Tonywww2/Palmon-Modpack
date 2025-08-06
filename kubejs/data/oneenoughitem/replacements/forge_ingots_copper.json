@@ -1,9 +1,0 @@
-[
-  {
-    "matchItems": [
-      "tfc:metal/ingot/copper",
-      "dustandash:copper_ingot"
-    ],
-    "resultItems": "minecraft:copper_ingot"
-  }
-]

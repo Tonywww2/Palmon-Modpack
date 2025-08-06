@@ -1,9 +1,0 @@
-[
-  {
-    "matchItems": [
-      "techreborn:zinc_storage_block",
-      "nuclearcraft:zinc_block"
-    ],
-    "resultItems": "create:zinc_block"
-  }
-]

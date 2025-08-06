@@ -1,0 +1,70 @@
+[
+  {
+    "tag": "forge:raw_materials/cobalt",
+    "material": "cobalt",
+    "matchItems": [
+      "nuclearcraft:cobalt_chunk"
+    ],
+    "resultItems": "tconstruct:raw_cobalt"
+  },
+  {
+    "tag": "forge:raw_materials/lead",
+    "material": "lead",
+    "matchItems": [
+      "techreborn:raw_lead",
+      "immersiveengineering:raw_lead",
+      "mekanism:raw_lead",
+      "embers:raw_lead",
+      "nuclearcraft:lead_chunk"
+    ],
+    "resultItems": "thermal:raw_lead"
+  },
+  {
+    "tag": "forge:raw_materials/nickel",
+    "material": "nickel",
+    "matchItems": [
+      "immersiveengineering:raw_nickel"
+    ],
+    "resultItems": "thermal:raw_nickel"
+  },
+  {
+    "tag": "forge:raw_materials/silver",
+    "material": "silver",
+    "matchItems": [
+      "techreborn:raw_silver",
+      "immersiveengineering:raw_silver",
+      "embers:raw_silver",
+      "nuclearcraft:silver_chunk",
+      "occultism:raw_silver"
+    ],
+    "resultItems": "thermal:raw_silver"
+  },
+  {
+    "tag": "forge:raw_materials/tin",
+    "material": "tin",
+    "matchItems": [
+      "techreborn:raw_tin",
+      "mekanism:raw_tin",
+      "forestry:raw_tin",
+      "nuclearcraft:tin_chunk"
+    ],
+    "resultItems": "thermal:raw_tin"
+  },
+  {
+    "tag": "forge:raw_materials/uranium",
+    "material": "uranium",
+    "matchItems": [
+      "mekanism:raw_uranium",
+      "nuclearcraft:uranium_chunk"
+    ],
+    "resultItems": "immersiveengineering:raw_uranium"
+  },
+  {
+    "tag": "forge:raw_materials/zinc",
+    "material": "zinc",
+    "matchItems": [
+      "nuclearcraft:zinc_chunk"
+    ],
+    "resultItems": "create:raw_zinc"
+  }
+]

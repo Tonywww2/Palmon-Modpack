@@ -416,7 +416,7 @@ ServerEvents.recipes(event => {
         event.recipes.createDeploying(t, [t, 'industrialforegoing:machine_frame_advanced']),
         event.recipes.createDeploying(t, [t, 'thermal_extra:dragonsteel_glass'])
     ]).transitionalItem(t)
-        .loops(4)
+        .loops(5)
         .id('kubejs:steel_casing_s6')
 
     event.custom({
@@ -520,34 +520,39 @@ ServerEvents.recipes(event => {
     ).id("kubejs:fission_fuel_assembly_s6")
 
     event.shaped('3x nuclearcraft:fusion_reactor_casing', [
-        'ABA',
+        'ADA',
         'BCB',
         'ABA'
     ],
         {
             A: 'nuclearcraft:plate_advanced',
             B: 'jaopca:plates.manyullyn',
-            C: 'kubejs:reinforced_sheet'
+            C: 'kubejs:reinforced_sheet',
+            D: 'kubejs:epsilon_dust'
         }).id('kubejs:fusion_reactor_casing_s6')
 
     event.shaped('mythicbotany:central_rune_holder', [
         'ABA',
-        'BCB'
+        'BCB',
+        ' D '
     ],
         {
             A: 'kubejs:collapse_prediction',
             B: 'kubejs:reinforced_sheet',
-            C: 'mythicbotany:rune_holder'
+            C: 'mythicbotany:rune_holder',
+            D: 'kubejs:epsilon_dust'
         }).id('kubejs:central_rune_holder_s6')
 
     event.shaped('mythicbotany:rune_holder', [
         'ABA',
-        'BCB'
+        'BCB',
+        ' D '
     ],
         {
             A: 'kubejs:collapse_prediction',
             B: 'kubejs:reinforced_sheet',
-            C: 'jaopca:storage_blocks.mana'
+            C: 'jaopca:storage_blocks.mana',
+            D: 'kubejs:epsilon_dust'
         }).id('kubejs:rune_holder_s6')
 
     event.shaped('aetherworks:forge_metal_former', [

@@ -1,0 +1,169 @@
+[
+  {
+    "tag": "forge:nuggets/aluminum",
+    "material": "aluminum",
+    "matchItems": [
+      "immersiveengineering:nugget_aluminum",
+      "nuclearcraft:aluminum_nugget"
+    ],
+    "resultItems": "techreborn:aluminum_nugget"
+  },
+  {
+    "tag": "forge:nuggets/brass",
+    "material": "brass",
+    "matchItems": [
+      "techreborn:brass_nugget"
+    ],
+    "resultItems": "create:brass_nugget"
+  },
+  {
+    "tag": "forge:nuggets/bronze",
+    "material": "bronze",
+    "matchItems": [
+      "techreborn:bronze_nugget",
+      "mekanism:nugget_bronze",
+      "nuclearcraft:bronze_nugget",
+      "tcintegrations:bronze_nugget"
+    ],
+    "resultItems": "thermal:bronze_nugget"
+  },
+  {
+    "tag": "forge:nuggets/cobalt",
+    "material": "cobalt",
+    "matchItems": [
+      "nuclearcraft:cobalt_nugget"
+    ],
+    "resultItems": "tconstruct:cobalt_nugget"
+  },
+  {
+    "tag": "forge:nuggets/constantan",
+    "material": "constantan",
+    "matchItems": [
+      "immersiveengineering:nugget_constantan"
+    ],
+    "resultItems": "thermal:constantan_nugget"
+  },
+  {
+    "tag": "forge:nuggets/copper",
+    "material": "copper",
+    "matchItems": [
+      "tconstruct:copper_nugget",
+      "create:copper_nugget",
+      "techreborn:copper_nugget",
+      "immersiveengineering:nugget_copper",
+      "embers:copper_nugget",
+      "malum:copper_nugget"
+    ],
+    "resultItems": "thermal:copper_nugget"
+  },
+  {
+    "tag": "forge:nuggets/electrum",
+    "material": "electrum",
+    "matchItems": [
+      "techreborn:electrum_nugget",
+      "immersiveengineering:nugget_electrum",
+      "createaddition:electrum_nugget",
+      "nuclearcraft:electrum_nugget"
+    ],
+    "resultItems": "thermal:electrum_nugget"
+  },
+  {
+    "tag": "forge:nuggets/invar",
+    "material": "invar",
+    "matchItems": [
+      "techreborn:invar_nugget"
+    ],
+    "resultItems": "thermal:invar_nugget"
+  },
+  {
+    "tag": "forge:nuggets/lead",
+    "material": "lead",
+    "matchItems": [
+      "techreborn:lead_nugget",
+      "immersiveengineering:nugget_lead",
+      "mekanism:nugget_lead",
+      "embers:lead_nugget",
+      "nuclearcraft:lead_nugget"
+    ],
+    "resultItems": "thermal:lead_nugget"
+  },
+  {
+    "tag": "forge:nuggets/netherite",
+    "material": "netherite",
+    "matchItems": [
+      "tconstruct:netherite_nugget",
+      "techreborn:netherite_nugget"
+    ],
+    "resultItems": "thermal:netherite_nugget"
+  },
+  {
+    "tag": "forge:nuggets/nickel",
+    "material": "nickel",
+    "matchItems": [
+      "techreborn:nickel_nugget",
+      "immersiveengineering:nugget_nickel"
+    ],
+    "resultItems": "thermal:nickel_nugget"
+  },
+  {
+    "tag": "forge:nuggets/platinum",
+    "material": "platinum",
+    "matchItems": [
+      "nuclearcraft:platinum_nugget"
+    ],
+    "resultItems": "techreborn:platinum_nugget"
+  },
+  {
+    "tag": "forge:nuggets/silver",
+    "material": "silver",
+    "matchItems": [
+      "techreborn:silver_nugget",
+      "immersiveengineering:nugget_silver",
+      "embers:silver_nugget",
+      "nuclearcraft:silver_nugget",
+      "occultism:silver_nugget"
+    ],
+    "resultItems": "thermal:silver_nugget"
+  },
+  {
+    "tag": "forge:nuggets/steel",
+    "material": "steel",
+    "matchItems": [
+      "tconstruct:steel_nugget",
+      "techreborn:steel_nugget",
+      "immersiveengineering:nugget_steel",
+      "mekanism:nugget_steel",
+      "ad_astra:steel_nugget",
+      "nuclearcraft:steel_nugget"
+    ],
+    "resultItems": "thermal:steel_nugget"
+  },
+  {
+    "tag": "forge:nuggets/tin",
+    "material": "tin",
+    "matchItems": [
+      "techreborn:tin_nugget",
+      "mekanism:nugget_tin",
+      "nuclearcraft:tin_nugget"
+    ],
+    "resultItems": "thermal:tin_nugget"
+  },
+  {
+    "tag": "forge:nuggets/uranium",
+    "material": "uranium",
+    "matchItems": [
+      "mekanism:nugget_uranium",
+      "nuclearcraft:uranium_nugget"
+    ],
+    "resultItems": "immersiveengineering:nugget_uranium"
+  },
+  {
+    "tag": "forge:nuggets/zinc",
+    "material": "zinc",
+    "matchItems": [
+      "techreborn:zinc_nugget",
+      "nuclearcraft:zinc_nugget"
+    ],
+    "resultItems": "create:zinc_nugget"
+  }
+]

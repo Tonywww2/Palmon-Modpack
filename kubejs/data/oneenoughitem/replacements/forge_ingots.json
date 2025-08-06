@@ -1,0 +1,205 @@
+[
+  {
+    "tag": "forge:ingots/aluminum",
+    "material": "aluminum",
+    "matchItems": [
+      "immersiveengineering:ingot_aluminum",
+      "dustandash:aluminum_ingot",
+      "nuclearcraft:aluminum_ingot"
+    ],
+    "resultItems": "techreborn:aluminum_ingot"
+  },
+  {
+    "tag": "forge:ingots/brass",
+    "material": "brass",
+    "matchItems": [
+      "create:brass_ingot",
+      "techreborn:brass_ingot"
+    ],
+    "resultItems": "tfc:metal/ingot/brass"
+  },
+  {
+    "tag": "forge:ingots/bronze",
+    "material": "bronze",
+    "matchItems": [
+      "thermal:bronze_ingot",
+      "techreborn:bronze_ingot",
+      "mekanism:ingot_bronze",
+      "forestry:ingot_bronze",
+      "nuclearcraft:bronze_ingot",
+      "tcintegrations:bronze_ingot"
+    ],
+    "resultItems": "tfc:metal/ingot/bronze"
+  },
+  {
+    "tag": "forge:ingots/cobalt",
+    "material": "cobalt",
+    "matchItems": [
+      "nuclearcraft:cobalt_ingot"
+    ],
+    "resultItems": "tconstruct:cobalt_ingot"
+  },
+  {
+    "tag": "forge:ingots/constantan",
+    "material": "constantan",
+    "matchItems": [
+      "immersiveengineering:ingot_constantan"
+    ],
+    "resultItems": "thermal:constantan_ingot"
+  },
+  {
+    "tag": "forge:ingots/copper",
+    "material": "copper",
+    "matchItems": [
+      "tfc:metal/ingot/copper",
+      "dustandash:copper_ingot"
+    ],
+    "resultItems": "minecraft:copper_ingot"
+  },
+  {
+    "tag": "forge:ingots/electrum",
+    "material": "electrum",
+    "matchItems": [
+      "techreborn:electrum_ingot",
+      "immersiveengineering:ingot_electrum",
+      "createaddition:electrum_ingot",
+      "nuclearcraft:electrum_ingot"
+    ],
+    "resultItems": "thermal:electrum_ingot"
+  },
+  {
+    "tag": "forge:ingots/gold",
+    "material": "gold",
+    "matchItems": [
+      "tfc:metal/ingot/gold"
+    ],
+    "resultItems": "minecraft:gold_ingot"
+  },
+  {
+    "tag": "forge:ingots/invar",
+    "material": "invar",
+    "matchItems": [
+      "techreborn:invar_ingot"
+    ],
+    "resultItems": "thermal:invar_ingot"
+  },
+  {
+    "tag": "forge:ingots/iridium",
+    "material": "iridium",
+    "matchItems": [
+      "nuclearcraft:iridium_ingot"
+    ],
+    "resultItems": "techreborn:iridium_ingot"
+  },
+  {
+    "tag": "forge:ingots/lead",
+    "material": "lead",
+    "matchItems": [
+      "techreborn:lead_ingot",
+      "immersiveengineering:ingot_lead",
+      "mekanism:ingot_lead",
+      "dustandash:lead_ingot",
+      "embers:lead_ingot",
+      "nuclearcraft:lead_ingot"
+    ],
+    "resultItems": "thermal:lead_ingot"
+  },
+  {
+    "tag": "forge:ingots/nickel",
+    "material": "nickel",
+    "matchItems": [
+      "thermal:nickel_ingot",
+      "techreborn:nickel_ingot",
+      "immersiveengineering:ingot_nickel",
+      "dustandash:nickel_ingot"
+    ],
+    "resultItems": "tfc:metal/ingot/nickel"
+  },
+  {
+    "tag": "forge:ingots/osmium",
+    "material": "osmium",
+    "matchItems": [
+      "dustandash:osmium_ingot",
+      "nuclearcraft:osmium_ingot"
+    ],
+    "resultItems": "mekanism:ingot_osmium"
+  },
+  {
+    "tag": "forge:ingots/platinum",
+    "material": "platinum",
+    "matchItems": [
+      "nuclearcraft:platinum_ingot"
+    ],
+    "resultItems": "techreborn:platinum_ingot"
+  },
+  {
+    "tag": "forge:ingots/silver",
+    "material": "silver",
+    "matchItems": [
+      "thermal:silver_ingot",
+      "techreborn:silver_ingot",
+      "immersiveengineering:ingot_silver",
+      "dustandash:silver_ingot",
+      "embers:silver_ingot",
+      "nuclearcraft:silver_ingot",
+      "occultism:silver_ingot"
+    ],
+    "resultItems": "tfc:metal/ingot/silver"
+  },
+  {
+    "tag": "forge:ingots/steel",
+    "material": "steel",
+    "matchItems": [
+      "thermal:steel_ingot",
+      "tconstruct:steel_ingot",
+      "techreborn:steel_ingot",
+      "immersiveengineering:ingot_steel",
+      "mekanism:ingot_steel",
+      "ad_astra:steel_ingot",
+      "nuclearcraft:steel_ingot"
+    ],
+    "resultItems": "tfc:metal/ingot/steel"
+  },
+  {
+    "tag": "forge:ingots/tin",
+    "material": "tin",
+    "matchItems": [
+      "thermal:tin_ingot",
+      "techreborn:tin_ingot",
+      "mekanism:ingot_tin",
+      "dustandash:tin_ingot",
+      "forestry:ingot_tin",
+      "nuclearcraft:tin_ingot"
+    ],
+    "resultItems": "tfc:metal/ingot/tin"
+  },
+  {
+    "tag": "forge:ingots/tungsten",
+    "material": "tungsten",
+    "matchItems": [
+      "dustandash:tungsten_ingot",
+      "nuclearcraft:tungsten_ingot"
+    ],
+    "resultItems": "techreborn:tungsten_ingot"
+  },
+  {
+    "tag": "forge:ingots/uranium",
+    "material": "uranium",
+    "matchItems": [
+      "mekanism:ingot_uranium",
+      "dustandash:uranium_ingot",
+      "nuclearcraft:uranium_ingot"
+    ],
+    "resultItems": "immersiveengineering:ingot_uranium"
+  },
+  {
+    "tag": "forge:ingots/zinc",
+    "material": "zinc",
+    "matchItems": [
+      "create:zinc_ingot",
+      "techreborn:zinc_ingot",
+      "nuclearcraft:zinc_ingot"
+    ],
+    "resultItems": "tfc:metal/ingot/zinc"
+  }
+]

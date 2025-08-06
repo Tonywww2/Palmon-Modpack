@@ -1,0 +1,67 @@
+[
+  {
+    "tag": "forge:gears/bronze",
+    "material": "bronze",
+    "matchItems": [
+      "forestry:gear_bronze"
+    ],
+    "resultItems": "thermal:bronze_gear"
+  },
+  {
+    "tag": "forge:gears/copper",
+    "material": "copper",
+    "matchItems": [
+      "forestry:gear_copper"
+    ],
+    "resultItems": "thermal:copper_gear"
+  },
+  {
+    "tag": "forge:gears/diamond",
+    "material": "diamond",
+    "matchItems": [
+      "industrialforegoing:diamond_gear"
+    ],
+    "resultItems": "thermal:diamond_gear"
+  },
+  {
+    "tag": "forge:gears/gold",
+    "material": "gold",
+    "matchItems": [
+      "industrialforegoing:gold_gear"
+    ],
+    "resultItems": "thermal:gold_gear"
+  },
+  {
+    "tag": "forge:gears/iron",
+    "material": "iron",
+    "matchItems": [
+      "dustandash:iron_gear",
+      "industrialforegoing:iron_gear"
+    ],
+    "resultItems": "thermal:iron_gear"
+  },
+  {
+    "tag": "forge:gears/netherite",
+    "material": "netherite",
+    "matchItems": [
+      "mifa:netherite_gear"
+    ],
+    "resultItems": "thermal:netherite_gear"
+  },
+  {
+    "tag": "forge:gears/steel",
+    "material": "steel",
+    "matchItems": [
+      "dustandash:ash_steel_gear"
+    ],
+    "resultItems": "thermal:steel_gear"
+  },
+  {
+    "tag": "forge:gears/tin",
+    "material": "tin",
+    "matchItems": [
+      "forestry:gear_tin"
+    ],
+    "resultItems": "thermal:tin_gear"
+  }
+]

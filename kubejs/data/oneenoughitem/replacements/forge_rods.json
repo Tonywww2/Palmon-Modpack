@@ -1,0 +1,87 @@
+[
+  {
+    "tag": "forge:rods/brass",
+    "material": "brass",
+    "matchItems": [
+      "createaddition:brass_rod"
+    ],
+    "resultItems": "tfc:metal/rod/brass"
+  },
+  {
+    "tag": "forge:rods/bronze",
+    "material": "bronze",
+    "matchItems": [
+      "thermal_extra:bronze_rod"
+    ],
+    "resultItems": "tfc:metal/rod/bronze"
+  },
+  {
+    "tag": "forge:rods/copper",
+    "material": "copper",
+    "matchItems": [
+      "createaddition:copper_rod",
+      "thermal_extra:copper_rod"
+    ],
+    "resultItems": "tfc:metal/rod/copper"
+  },
+  {
+    "tag": "forge:rods/electrum",
+    "material": "electrum",
+    "matchItems": [
+      "thermal_extra:electrum_rod"
+    ],
+    "resultItems": "createaddition:electrum_rod"
+  },
+  {
+    "tag": "forge:rods/gold",
+    "material": "gold",
+    "matchItems": [
+      "createaddition:gold_rod",
+      "thermal_extra:gold_rod"
+    ],
+    "resultItems": "tfc:metal/rod/gold"
+  },
+  {
+    "tag": "forge:rods/iron",
+    "material": "iron",
+    "matchItems": [
+      "ad_astra:iron_rod",
+      "createaddition:iron_rod",
+      "thermal_extra:iron_rod"
+    ],
+    "resultItems": "immersiveengineering:stick_iron"
+  },
+  {
+    "tag": "forge:rods/nickel",
+    "material": "nickel",
+    "matchItems": [
+      "thermal_extra:nickel_rod"
+    ],
+    "resultItems": "tfc:metal/rod/nickel"
+  },
+  {
+    "tag": "forge:rods/silver",
+    "material": "silver",
+    "matchItems": [
+      "thermal_extra:silver_rod"
+    ],
+    "resultItems": "tfc:metal/rod/silver"
+  },
+  {
+    "tag": "forge:rods/steel",
+    "material": "steel",
+    "matchItems": [
+      "immersiveengineering:stick_steel",
+      "ad_astra:steel_rod"
+    ],
+    "resultItems": "tfc:metal/rod/steel"
+  },
+  {
+    "tag": "forge:rods/tin",
+    "material": "tin",
+    "matchItems": [
+      "thermal_extra:tin_rod"
+    ],
+    "resultItems": "tfc:metal/rod/tin"
+  }
+]

@@ -1,9 +1,0 @@
-[
-  {
-    "matchItems": [
-      "immersiveengineering:stick_steel",
-      "ad_astra:steel_rod"
-    ],
-    "resultItems": "tfc:metal/rod/steel"
-  }
-]

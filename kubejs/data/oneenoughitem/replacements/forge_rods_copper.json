@@ -1,9 +1,0 @@
-[
-  {
-    "matchItems": [
-      "createaddition:copper_rod",
-      "thermal_extra:copper_rod"
-    ],
-    "resultItems": "tfc:metal/rod/copper"
-  }
-]

@@ -1,9 +1,0 @@
-[
-  {
-    "matchItems": [
-      "immersiveengineering:raw_uranium",
-      "nuclearcraft:uranium_chunk"
-    ],
-    "resultItems": "mekanism:raw_uranium"
-  }
-]

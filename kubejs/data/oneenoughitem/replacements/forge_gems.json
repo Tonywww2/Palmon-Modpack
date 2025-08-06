@@ -1,0 +1,50 @@
+[
+  {
+    "tag": "forge:gems/apatite",
+    "material": "apatite",
+    "matchItems": [
+      "forestry:apatite"
+    ],
+    "resultItems": "thermal:apatite"
+  },
+  {
+    "tag": "forge:gems/diamond",
+    "material": "diamond",
+    "matchItems": [
+      "tfc:gem/diamond"
+    ],
+    "resultItems": "minecraft:diamond"
+  },
+  {
+    "tag": "forge:gems/emerald",
+    "material": "emerald",
+    "matchItems": [
+      "tfc:gem/emerald"
+    ],
+    "resultItems": "minecraft:emerald"
+  },
+  {
+    "tag": "forge:gems/fluorite",
+    "material": "fluorite",
+    "matchItems": [
+      "nuclearcraft:fluorite_gem"
+    ],
+    "resultItems": "mekanism:fluorite_gem"
+  },
+  {
+    "tag": "forge:gems/lapis",
+    "material": "lapis",
+    "matchItems": [
+      "tfc:gem/lapis_lazuli"
+    ],
+    "resultItems": "minecraft:lapis_lazuli"
+  },
+  {
+    "tag": "forge:gems/sapphire",
+    "material": "sapphire",
+    "matchItems": [
+      "techreborn:sapphire_gem"
+    ],
+    "resultItems": "thermal:sapphire"
+  }
+]
