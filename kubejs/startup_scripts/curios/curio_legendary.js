@@ -272,7 +272,7 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.armor",
                 "puree_armor",
-                -0.3,
+                -0.5,
                 "multiply_base"
             )
             .modifyAttribute(
@@ -284,7 +284,7 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "attributeslib:healing_received",
                 "puree_healing_power",
-                -0.9875,
+                -0.9995,
                 "multiply_base"
             )
             .modifyAttribute(
@@ -302,7 +302,7 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "obscure_api:penetration",
                 "puree_penetration",
-                0.2,
+                0.3,
                 "addition"
             )
         )

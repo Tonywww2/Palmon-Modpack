@@ -564,22 +564,12 @@ ServerEvents.recipes(event => {
         ],
         "block_count": 3,
         "input_items": [
-            {
-                "item": 'minecraft:sugar',
-                "count": 64
-            },
-            {
-                "item": 'supplementaries:candy',
-                "count": 16
-            },
-            {
-                "item": 'forestry:royal_jelly',
-                "count": 3
-            },
-            {
-                "item": 'palmon:m_crystal',
-                "count": 2
-            }
+            Item.of('minecraft:sugar', 64).toJson(),
+            Item.of('minecraft:honey_bottle', 16).toJson(),
+            Item.of('minecraft:paper', 16).toJson(),
+            Item.of('supplementaries:sugar_cube', 4).toJson(),
+            Item.of('forestry:royal_jelly', 3).toJson(),
+            Item.of('palmon:m_crystal', 2).toJson()
         ],
         "input_power": 0,
         "input_fluid": {

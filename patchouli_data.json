@@ -4,7 +4,11 @@
   "bookData": {
     "botania:lexicon": {
       "viewedEntries": [
-        "botania:alfhomancy/gaia_ritual"
+        "botania:alfhomancy/gaia_ritual",
+        "botania:alfheim/kvasir",
+        "botania:mythic_botany/rune_rituals",
+        "botania:alfheim/alfheim_landscape",
+        "botania:alfheim/andwari"
       ],
       "bookmarks": [],
       "completedManualQuests": []

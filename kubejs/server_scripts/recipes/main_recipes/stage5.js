@@ -555,30 +555,14 @@ ServerEvents.recipes(event => {
         ],
         "block_count": 4,
         "input_items": [
-            {
-                "item": 'minecraft:sugar',
-                "count": 48
-            },
-            {
-                "item": 'supplementaries:candy',
-                "count": 32
-            },
-            {
-                "item": 'nuclearcraft:unsweetened_chocolate',
-                "count": 8
-            },
-            {
-                "item": 'forestry:ambrosia',
-                "count": 2
-            },
-            {
-                "item": 'kubejs:collapse_prediction',
-                "count": 2
-            },
-            {
-                "item": 'palmon:m_crystal',
-                "count": 2
-            }
+            Item.of('minecraft:sugar', 48).toJson(),
+            Item.of('minecraft:honey_bottle', 32).toJson(),
+            Item.of('minecraft:paper', 32).toJson(),
+            Item.of('supplementaries:sugar_cube', 8).toJson(),
+            Item.of('nuclearcraft:unsweetened_chocolate', 8).toJson(),
+            Item.of('forestry:ambrosia', 2).toJson(),
+            Item.of('kubejs:collapse_prediction', 2).toJson(),
+            Item.of('palmon:m_crystal', 2).toJson()
         ],
         "input_power": 204800,
         "input_fluid": {

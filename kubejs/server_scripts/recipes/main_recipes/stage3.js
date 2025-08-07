@@ -435,22 +435,18 @@ ServerEvents.recipes(event => {
       },
       {
         "item": 'cobblemon:monitor'
+      },
+      {
+        "tag": 'forge:storage_blocks/iron'
       }
     ],
     "block_count": 2,
     "input_items": [
-      {
-        "item": 'minecraft:sugar',
-        "count": 64
-      },
-      {
-        "item": 'supplementaries:candy',
-        "count": 8
-      },
-      {
-        "item": 'palmon:m_crystal',
-        "count": 1
-      }
+      Item.of('minecraft:sugar', 64).toJson(),
+      Item.of('minecraft:honey_bottle', 8).toJson(),
+      Item.of('minecraft:paper', 8).toJson(),
+      Item.of('supplementaries:sugar_cube', 2).toJson(),
+      Item.of('palmon:m_crystal', 1).toJson()
     ],
     "input_power": 0,
     "input_fluid": {
