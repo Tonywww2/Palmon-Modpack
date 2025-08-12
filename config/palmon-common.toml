@@ -37,5 +37,5 @@ contractAttributeSpeedMultiplierConfluence = 0.15
 #
 #The max distant that the working station's Pokemon will be rendered.
 #Range: 0 ~ 256
-workingStationRenderDistant = 64
+workingStationRenderDistant = 16
 

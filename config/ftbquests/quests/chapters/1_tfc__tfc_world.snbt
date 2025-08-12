@@ -44,6 +44,12 @@
 				"28B339DC7608D688"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"物品栏的右下角有群峦传说手册，如果不知道该怎么进行下一步，就翻翻看吧。"
+				""
+				"&c注意：如果你是第一次游玩群峦传说模组/不熟悉群峦传送模组，强烈建议在开始之前，阅读手册中的新手教程->第一天章节。之后不知道该怎么做时，也建议先看看手册上的说明。&r"
+				"或者，你也可以直接在网上搜索教程。"
+			]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -78,6 +84,12 @@
 					id: "13F1D32A32CEBFF0"
 					table_id: 1141615569593449731L
 					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54C1A2D2A37ED3CA"
+					table_id: 1141615569593449731L
+					type: "loot"
 				}
 			]
 			shape: "gear"
@@ -366,6 +378,11 @@
 			dependencies: [
 				"416F3157641D6D75"
 				"6BE9879768D45659"
+			]
+			description: [
+				"注意，由于服务端的一些同步问题，你可以需要在服务器启动后输入/reload 可以看见金属融化相关的tooltips。"
+				""
+				"单机无此问题。"
 			]
 			id: "67DBB00021CBB136"
 			rewards: [
@@ -870,7 +887,11 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["03AD0443D82AD6DF"]
+			dependencies: [
+				"03AD0443D82AD6DF"
+				"28B339DC7608D688"
+			]
+			dependency_requirement: "one_completed"
 			hide_until_deps_complete: true
 			hide_until_deps_visible: false
 			id: "182A02FDAB992AFC"
@@ -890,7 +911,7 @@
 			]
 			subtitle: "敲敲打打"
 			tasks: [{
-				id: "5393E8B2E8D99DA3"
+				id: "5F22DFB56A72F1F6"
 				item: {
 					Count: 1
 					ForgeCaps: {
@@ -899,7 +920,7 @@
 							ticks: 0L
 						}
 					}
-					id: "tfc:metal/anvil/wrought_iron"
+					id: "tfc:metal/ingot/wrought_iron"
 				}
 				type: "item"
 			}]
@@ -1087,6 +1108,11 @@
 					table_id: 1141615569593449731L
 					type: "random"
 				}
+				{
+					id: "3BB38C9988B271D1"
+					item: "cobbledex:cobbledex_item"
+					type: "item"
+				}
 			]
 			subtitle: "现在你已经在群峦星生存一段时间了，相信你也非常想和野生的宝可梦们建立羁绊。\\n这条任务线将会指引你制作在群峦星可用的宝可梦相关物品。"
 			tasks: [{
@@ -1156,7 +1182,7 @@
 		{
 			dependencies: ["63D51DD7AE9B4CC9"]
 			dependency_requirement: "one_started"
-			icon: "tfc:gem/diamond"
+			icon: "minecraft:diamond"
 			id: "02ACB8603E15A74E"
 			rewards: [
 				{
@@ -1282,7 +1308,11 @@
 			y: 18.0d
 		}
 		{
-			dependencies: ["7A23822AE720815B"]
+			dependencies: [
+				"7A23822AE720815B"
+				"28B339DC7608D688"
+			]
+			dependency_requirement: "one_completed"
 			icon: "palmon:poke_food"
 			id: "20E10177F3F79DD2"
 			subtitle: "如果你能给宝可梦们提供一个\\n安全的工作场所，或许..."
@@ -1471,16 +1501,16 @@
 				"5EE06EF0C69603D2"
 			]
 			description: [
-				"使用生产机，你需要现在前方放置一个工作站，并将一份拥有宝可梦的劳务合同其中。"
-				"你还需要在工作站中提供充足的宝可梦食物，宝可梦每个工作Tick都将消耗一定量的食物。"
+				"想要使用&a生产机&r，你需要现在前方放置一个&a工作站&r，并将一份拥有宝可梦的&a劳务合同&r其中。"
+				"你还需要在&a工作站&r中提供充足的&a宝可梦食物&r，宝可梦每个工作Tick都将消耗一定量的食物。"
 				""
-				"下图是一个生产石材的配方，左侧的6个属性维度代表着执行该配方需求的最低种族值。"
-				"这个石材配方需要攻击与防御都大于等于50的宝可梦执行。"
-				"上方中部代表着配方所要求的宝可梦属性与最低等级，右侧则是完成配方所需的工作量。"
+				"下图是一个生产石材的配方，左侧的6个属性维度代表着执行该配方需求的最低&e种族值&r。"
+				"这个石材配方需要&e攻击&r与&e防御&r都大于等于50的宝可梦执行。"
+				"上方中部代表着配方所要求的宝可梦属性与最低&e等级&r，右侧则是完成配方所需的工作量。"
 				"范围内所需方块代表着以生产机为中心，范围5*5，高度4的空间内必须存在的方块，右侧的数字则是要求的数量。"
 				"注意：列表中的每种方块都必须满足数量要求。"
 				""
-				"下方则是物品，流体与能量产出。"
+				"下方则是完成一轮工作后产出的物品，流体与能量。"
 				"{image:ftbquest:textures/recipes/_palmon_production_stone_1.png width:160 height:105 align:center}"
 			]
 			id: "2D2B88EE1709D561"
@@ -1504,6 +1534,7 @@
 					type: "random"
 				}
 			]
+			shape: "hexagon"
 			subtitle: "你的下半辈子都将留在这了！"
 			tasks: [{
 				id: "2CE91A08033E3923"
@@ -1546,6 +1577,7 @@
 					type: "random"
 				}
 			]
+			shape: "hexagon"
 			subtitle: "选读"
 			tasks: [{
 				id: "4B5BA16F1B994BD6"
@@ -1824,6 +1856,7 @@
 				"2DCA6ECA4708CF92"
 				"20E10177F3F79DD2"
 			]
+			dependency_requirement: "one_completed"
 			id: "07AB95AEDD7B16CE"
 			rewards: [
 				{
@@ -1886,7 +1919,11 @@
 		}
 		{
 			dependencies: ["07AB95AEDD7B16CE"]
-			description: ["加工站与生产机十分类似，不过宝可梦在加工站会消耗物品，流体与能量来制作新的物品。加工站的效率计算也与生产机一致。"]
+			description: [
+				"&a加工站&r与&a生产机&r十分类似，不过宝可梦在&a加工站&r会使用物品，流体与能量来制作新的物品。"
+				""
+				"&a加工站&r的效率计算机制与&a生产机&r一致。"
+			]
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "0EDFD5392F5D8A9B"
 			rewards: [
@@ -2046,7 +2083,11 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["1B78FE8A0740F3FB"]
+			dependencies: [
+				"1B78FE8A0740F3FB"
+				"28B339DC7608D688"
+			]
+			dependency_requirement: "one_completed"
 			id: "7DC581093C034965"
 			rewards: [
 				{
@@ -2116,6 +2157,8 @@
 				"7DC581093C034965"
 				"6F3A81EAAEFCDFF4"
 			]
+			dependency_requirement: "one_completed"
+			description: ["将TFC矿物磨粉后，你可以将他们在冶炼炉内融化。"]
 			id: "427385C650D0060B"
 			rewards: [
 				{
@@ -2144,6 +2187,12 @@
 					id: "09A30C6A7DD55778"
 					table_id: 1141615569593449731L
 					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "718C8B2312DAE143"
+					table_id: 1141615569593449731L
+					type: "loot"
 				}
 			]
 			subtitle: "棋差一筹"
@@ -2847,7 +2896,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["5A4B37A6C7A1C953"]
+			dependencies: [
+				"5A4B37A6C7A1C953"
+				"2DCA6ECA4708CF92"
+			]
 			description: ["...如果你获得了某种&l&e灵感&l&f，或许..."]
 			id: "2107246421F186F9"
 			rewards: [
@@ -3018,6 +3070,7 @@
 			dependencies: [
 				"3B92C69C40F38337"
 				"3604C67577B97ADD"
+				"28B339DC7608D688"
 			]
 			dependency_requirement: "one_completed"
 			hide_until_deps_visible: true
@@ -3188,6 +3241,7 @@
 		}
 		{
 			dependencies: ["12C36B99C103E029"]
+			description: ["将树苗投入灵火..."]
 			id: "501030E5D70A6135"
 			rewards: [
 				{
@@ -3266,8 +3320,15 @@
 		}
 		{
 			dependencies: ["51FA579CBA7241B2"]
+			description: ["可以通过将银薄板投入灵火，获取粗银。"]
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "3A28C11C2C3DE45C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08BBD1264050B1F1"
+				table_id: 1141615569593449731L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5495370827960772"
 				type: "checkmark"
@@ -3303,6 +3364,7 @@
 		}
 		{
 			dependencies: ["6CD8243DC4BF1B54"]
+			description: ["注意，请检查全部的配方。"]
 			icon: {
 				Count: 1
 				id: "occultism:infused_pickaxe"
@@ -4247,7 +4309,12 @@
 		}
 		{
 			dependencies: ["233CD2E34D0CD586"]
-			description: ["本整合包中有许多实用工具类模组，其中相当一部分的工具/机器可以在对应的模组解锁之前使用，所以请仔细看看合成表吧..."]
+			description: [
+				"本整合包中有许多实用工具类模组，其中相当一部分的工具/机器可以在对应的模组解锁之前使用，所以请仔细看看合成表吧..."
+				""
+				"如果你觉得在某个阶段可以制作的某个工具过于超模了，请前往Github反馈！"
+				"但是直到真正的调整前，你都可以默认这个工具是合理的。"
+			]
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "1F54C58DACF36562"
 			tasks: [{

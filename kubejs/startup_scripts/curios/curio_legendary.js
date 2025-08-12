@@ -67,19 +67,19 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.attack_damage",
                 "deity_attack_damage",
-                0.2,
+                0.25,
                 "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.attack_speed",
                 "deity_attack_speed",
-                0.2,
+                0.25,
                 "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.movement_speed",
                 "deity_movement_speed",
-                0.2,
+                0.25,
                 "multiply_total"
             )
             .modifyAttribute(
@@ -91,25 +91,25 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.armor",
                 "deity_armor",
-                0.2,
+                0.25,
                 "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.armor_toughness",
                 "deity_armor_toughness",
-                0.2,
+                0.25,
                 "multiply_total"
             )
             .modifyAttribute(
                 "obscure_api:critical_hit",
                 "deity_critical_hit",
-                0.1,
+                0.15,
                 "addition"
             )
             .modifyAttribute(
                 "obscure_api:critical_damage",
                 "deity_critical_damage",
-                0.1,
+                0.15,
                 "multiply_total"
             )
         )
@@ -272,19 +272,19 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.armor",
                 "puree_armor",
-                -0.5,
+                -0.6,
                 "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.armor_toughness",
                 "puree_armor_toughness",
-                -0.5,
+                -0.6,
                 "multiply_base"
             )
             .modifyAttribute(
                 "attributeslib:healing_received",
                 "puree_healing_power",
-                -0.9995,
+                -0.9999,
                 "multiply_base"
             )
             .modifyAttribute(
@@ -351,7 +351,7 @@ StartupEvents.registry('item', event => {
                         let modifer = new $AttributeModifier(
                             mgAtkDamageUUID,
                             mgAtkDamage,
-                            attackSpeed * 1.15,
+                            attackSpeed * 1.2,
                             "addition"
                         )
 
@@ -657,20 +657,14 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.attack_damage",
                 "rune_attack_damage_multiply_base",
-                0.5,
+                0.35,
                 "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.attack_speed",
                 "rune_attack_speed_addition",
-                0.5,
+                0.4,
                 "addition"
-            )
-            .modifyAttribute(
-                "minecraft:generic.attack_speed",
-                "rune_attack_speed_multiply_base",
-                0.2,
-                "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.max_health",
@@ -722,7 +716,7 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "slashblade:slashblade_damage",
                 "izanagi_slashblade_damage_multiply_base",
-                1.2,
+                1.0,
                 "multiply_base"
             )
             .modifyAttribute(
@@ -814,7 +808,7 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "confluence:magic_damage",
                 "ancient_proudsoul_magic_damage",
-                0.3,
+                0.15,
                 "multiply_total"
             )
         )

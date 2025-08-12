@@ -63,24 +63,9 @@ function e5BM(event) {
     event.shapeless('kubejs:voucher_5_2', ['cobblemon:relic_coin', 'kubejs:end_steel'])
     .id('kubejs:voucher_5_2')
 
-    global.removeBMRecipes = false
-
-    event.replaceInput([
-        { mod: 'botanicalmachinery' }
-    ],
-        'botania:elementium_ingot',
-        'botanicalmachinery:mana_emerald'
-    )
-
-    event.replaceInput([
-        { id: 'botanicalmachinery:mechanical_daisy' }
-    ],
-        'botania:elementium_block',
-        'botanicalmachinery:mana_emerald_block'
-    )
-
     event.recipes.botania.elven_trade('botanicalmachinery:mana_emerald',
         ['kubejs:end_steel', '#forge:gems/emerald'])
         .id('kubejs:mana_emerald_s5')
+        
 }
 

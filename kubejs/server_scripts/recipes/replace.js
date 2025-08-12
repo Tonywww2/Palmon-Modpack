@@ -159,6 +159,20 @@ ServerEvents.recipes(event => {
         'create:andesite_casing',
         'create:brass_casing'
     )
+    
+    event.replaceInput([
+        { mod: 'botanicalmachinery' }
+    ],
+        'botania:elementium_ingot',
+        'botanicalmachinery:mana_emerald'
+    )
+
+    event.replaceInput([
+        { id: 'botanicalmachinery:mechanical_daisy' }
+    ],
+        'botania:elementium_block',
+        'botanicalmachinery:mana_emerald_block'
+    )
 
     event.replaceInput([
         {}

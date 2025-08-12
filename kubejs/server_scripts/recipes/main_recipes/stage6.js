@@ -318,6 +318,10 @@ ServerEvents.recipes(event => {
         F: 'kubejs:essence_computation_frame'
     }).id('kubejs:time_in_a_bottle_s6')
 
+    event.recipes.botania.elven_trade('botanicalmachinery:mana_emerald',
+        ['kubejs:epsilon_dust', 'kubejs:epsilon_dust', 'kubejs:epsilon_dust', '#forge:gems/emerald'])
+        .id('kubejs:mana_emerald_s6')
+
     // s8替换为奇点合金
     event.recipes.createCompacting('3x techreborn:mixed_metal_ingot', [
         '16x #forge:ingots/invar',

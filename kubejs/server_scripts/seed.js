@@ -11,8 +11,6 @@ const s4MaterialList = ['kubejs:marid_binded_gem', 'kubejs:superconducting_coil_
 const s5MaterialList1 = ['kubejs:otherside_mixture', 'kubejs:helium_3_crystal', 'kubejs:iridescent', 'jaopca:processors.aetherium', 'dustandash:titanium_tungsten_alloy']
 const s5MaterialList2 = ['kubejs:light_of_inlixaland', 'kubejs:helium_3_crystal_infinity', 'kubejs:alfheim_iridescent', 'aetherworks:aether_pearl', 'kubejs:basepoint_alloy']
 
-global.removeBMRecipes = true
-
 // 读取数据
 global.jsonData = loadPackData()
 
@@ -270,12 +268,6 @@ ServerEvents.recipes((event) => {
 
     console.log(`s5 recipes loaded: ${s5m[0]} ${s5m[1]} ${s5m[2]}, ${s5e[0]} ${s5e[1]}`)
 
-    if (global.removeBMRecipes) {
-        // Botanical Machinery, by e5BM
-        event.remove({ mod: 'botanicalmachinery' })
-
-    }
-
     console.log(`Final Index: ${global.randomIndex}`)
 
 })
@@ -346,12 +338,12 @@ function s5ConvergenceRecipe(event, index1, index2, index3) {
         "focus_stat": "SPECIAL_ATTACK",
         "min_level": 95,
         "required_type": "water",
-        "base_hp": 80,
-        "base_atk": 80,
-        "base_def": 70,
-        "base_spa": 130,
-        "base_spd": 120,
-        "base_spe": 70,
+        "base_hp": 40,
+        "base_atk": 40,
+        "base_def": 50,
+        "base_spa": 100,
+        "base_spd": 60,
+        "base_spe": 0,
         "area_blocks": [
             {
                 "item": 'supplementaries:sugar_cube'

@@ -786,7 +786,7 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "slashblade:slashblade_damage",
                 "ancient_proudsoul_tiny_slashblade_damage",
-                0.6,
+                0.4,
                 "multiply_base"
             )
             .modifyAttribute(

@@ -663,37 +663,44 @@
 			id: "57C7123817EBBE5C"
 			invisible: true
 			optional: true
-			rewards: [{
-				id: "0789BD486BD0DB77"
-				item: {
-					Count: 1
-					id: "minecraft:lime_shulker_box"
-					tag: {
-						BlockEntityTag: {
-							ForgeCaps: { }
-							Items: [
-								{
-									Count: 1b
-									Slot: 0b
-									id: "integratedterminals:part_terminal_storage"
-								}
-								{
-									Count: 16b
-									Slot: 1b
-									id: "integrateddynamics:cable"
-								}
-								{
-									Count: 8b
-									Slot: 2b
-									id: "integratedtunnels:part_interface_item"
-								}
-							]
-							id: "minecraft:shulker_box"
+			rewards: [
+				{
+					id: "0789BD486BD0DB77"
+					item: {
+						Count: 1
+						id: "minecraft:lime_shulker_box"
+						tag: {
+							BlockEntityTag: {
+								ForgeCaps: { }
+								Items: [
+									{
+										Count: 1b
+										Slot: 0b
+										id: "integratedterminals:part_terminal_storage"
+									}
+									{
+										Count: 16b
+										Slot: 1b
+										id: "integrateddynamics:cable"
+									}
+									{
+										Count: 8b
+										Slot: 2b
+										id: "integratedtunnels:part_interface_item"
+									}
+								]
+								id: "minecraft:shulker_box"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "008C8DF1FC64C44F"
+					item: "kubejs:alpha_framework"
+					type: "item"
+				}
+			]
 			subtitle: "物资：库存管理"
 			tasks: [{
 				id: "445FA5CCBABE8167"
@@ -724,6 +731,11 @@
 					item: "compactmachines:wall"
 					type: "item"
 				}
+				{
+					id: "3A3FE8585ACED2C5"
+					item: "kubejs:alpha_framework"
+					type: "item"
+				}
 			]
 			subtitle: "灵感：空间压缩"
 			tasks: [{
@@ -738,70 +750,77 @@
 		}
 		{
 			dependencies: ["34AB730CB39AD62D"]
-			hide_until_deps_complete: true
 			icon: "embers:tinker_hammer"
 			id: "2DD4A11F667C59A9"
-			rewards: [{
-				id: "1F094C9BED524FAB"
-				item: {
-					Count: 1
-					id: "minecraft:lime_shulker_box"
-					tag: {
-						BlockEntityTag: {
-							ForgeCaps: { }
-							Items: [
-								{
-									Count: 48b
-									Slot: 0b
-									id: "minecraft:raw_copper"
-								}
-								{
-									Count: 48b
-									Slot: 1b
-									id: "minecraft:raw_gold"
-								}
-								{
-									Count: 1b
-									Slot: 2b
-									id: "embers:tinker_lens"
-								}
-								{
-									Count: 16b
-									Slot: 3b
-									id: "embers:ember_crystal"
-								}
-								{
-									Count: 32b
-									Slot: 4b
-									id: "embers:caminite_blend"
-								}
-								{
-									Count: 2b
-									Slot: 5b
-									id: "embers:ember_dial"
-								}
-								{
-									Count: 4b
-									Slot: 6b
-									id: "embers:mechanical_core"
-								}
-								{
-									Count: 1b
-									Slot: 7b
-									id: "embers:ember_activator"
-								}
-								{
-									Count: 32b
-									Slot: 8b
-									id: "malum:blazing_quartz"
-								}
-							]
-							id: "minecraft:shulker_box"
+			invisible: true
+			rewards: [
+				{
+					id: "1F094C9BED524FAB"
+					item: {
+						Count: 1
+						id: "minecraft:lime_shulker_box"
+						tag: {
+							BlockEntityTag: {
+								ForgeCaps: { }
+								Items: [
+									{
+										Count: 48b
+										Slot: 0b
+										id: "minecraft:raw_copper"
+									}
+									{
+										Count: 48b
+										Slot: 1b
+										id: "minecraft:raw_gold"
+									}
+									{
+										Count: 1b
+										Slot: 2b
+										id: "embers:tinker_lens"
+									}
+									{
+										Count: 16b
+										Slot: 3b
+										id: "embers:ember_crystal"
+									}
+									{
+										Count: 32b
+										Slot: 4b
+										id: "embers:caminite_blend"
+									}
+									{
+										Count: 2b
+										Slot: 5b
+										id: "embers:ember_dial"
+									}
+									{
+										Count: 4b
+										Slot: 6b
+										id: "embers:mechanical_core"
+									}
+									{
+										Count: 1b
+										Slot: 7b
+										id: "embers:ember_activator"
+									}
+									{
+										Count: 32b
+										Slot: 8b
+										id: "malum:blazing_quartz"
+									}
+								]
+								id: "minecraft:shulker_box"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "675F0D093E9A0021"
+					item: "kubejs:alpha_framework"
+					type: "item"
+				}
+			]
 			subtitle: "物资：余烬工匠"
 			tasks: [{
 				id: "1D50760F48D50996"
@@ -819,77 +838,84 @@
 			id: "322162A1B029C99D"
 			invisible: true
 			optional: true
-			rewards: [{
-				id: "627E9D0FE9D1EF20"
-				item: {
-					Count: 1
-					id: "minecraft:lime_shulker_box"
-					tag: {
-						BlockEntityTag: {
-							ForgeCaps: { }
-							Items: [
-								{
-									Count: 1b
-									Slot: 0b
-									id: "rftoolsbuilder:builder"
-								}
-								{
-									Count: 1b
-									Slot: 1b
-									id: "rftoolsbuilder:shape_card_quarry"
-								}
-								{
-									Count: 1b
-									Slot: 2b
-									id: "rftoolsbuilder:shape_card_quarry_clear"
-								}
-								{
-									Count: 1b
-									Slot: 3b
-									id: "rftoolsbuilder:shape_card_quarry_silk"
-								}
-								{
-									Count: 1b
-									Slot: 4b
-									id: "rftoolsbuilder:shape_card_quarry_clear_silk"
-								}
-								{
-									Count: 2b
-									Slot: 5b
-									id: "rftoolspower:dimensionalcell"
-								}
-								{
-									Count: 1b
-									Slot: 6b
-									id: "rftoolsstorage:storage_scanner"
-								}
-								{
-									Count: 2b
-									Slot: 7b
-									id: "rftoolsstorage:modular_storage"
-								}
-								{
-									Count: 1b
-									Slot: 8b
-									id: "rftoolsstorage:storage_module3"
-								}
-								{
-									Count: 1b
-									Slot: 9b
-									id: "rftoolsstorage:storage_module3"
-								}
-								{
-									Count: 2b
-									Slot: 10b
-									id: "rftoolspower:coalgenerator"
-								}
-							]
-							id: "minecraft:shulker_box"
+			rewards: [
+				{
+					id: "627E9D0FE9D1EF20"
+					item: {
+						Count: 1
+						id: "minecraft:lime_shulker_box"
+						tag: {
+							BlockEntityTag: {
+								ForgeCaps: { }
+								Items: [
+									{
+										Count: 1b
+										Slot: 0b
+										id: "rftoolsbuilder:builder"
+									}
+									{
+										Count: 1b
+										Slot: 1b
+										id: "rftoolsbuilder:shape_card_quarry"
+									}
+									{
+										Count: 1b
+										Slot: 2b
+										id: "rftoolsbuilder:shape_card_quarry_clear"
+									}
+									{
+										Count: 1b
+										Slot: 3b
+										id: "rftoolsbuilder:shape_card_quarry_silk"
+									}
+									{
+										Count: 1b
+										Slot: 4b
+										id: "rftoolsbuilder:shape_card_quarry_clear_silk"
+									}
+									{
+										Count: 2b
+										Slot: 5b
+										id: "rftoolspower:dimensionalcell"
+									}
+									{
+										Count: 1b
+										Slot: 6b
+										id: "rftoolsstorage:storage_scanner"
+									}
+									{
+										Count: 2b
+										Slot: 7b
+										id: "rftoolsstorage:modular_storage"
+									}
+									{
+										Count: 1b
+										Slot: 8b
+										id: "rftoolsstorage:storage_module3"
+									}
+									{
+										Count: 1b
+										Slot: 9b
+										id: "rftoolsstorage:storage_module3"
+									}
+									{
+										Count: 2b
+										Slot: 10b
+										id: "rftoolspower:coalgenerator"
+									}
+								]
+								id: "minecraft:shulker_box"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6F676E0E96E7DD76"
+					item: "kubejs:alpha_framework"
+					type: "item"
+				}
+			]
 			subtitle: "物资：RFT存储与建造"
 			tasks: [{
 				id: "6C244E9E03261812"
@@ -959,6 +985,11 @@
 					id: "3D7B8070CA8A09B5"
 					table_id: 7787811987843285123L
 					type: "loot"
+				}
+				{
+					id: "4492682AE3C336E7"
+					item: "botania:lexicon"
+					type: "item"
 				}
 			]
 			shape: "hexagon"
@@ -1040,6 +1071,11 @@
 					id: "7ADBF3289082AB94"
 					table_id: 7787811987843285123L
 					type: "loot"
+				}
+				{
+					id: "34CD53DA4CEE40BC"
+					item: "ae2:guide"
+					type: "item"
 				}
 			]
 			shape: "hexagon"
@@ -2183,6 +2219,12 @@
 			hide_until_deps_complete: true
 			icon: "minecraft:nether_star"
 			id: "24DD7A69C59FB5E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36DC392A319C34C4"
+				table_id: 7740467882398974147L
+				type: "loot"
+			}]
 			tasks: [
 				{
 					id: "3EB44EFFA7EFD575"
@@ -2237,6 +2279,24 @@
 				type: "item"
 			}]
 			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0E4E60BCE9A66B27"]
+			description: ["锻造模板可以合成。"]
+			id: "2E52BA110AABFCEA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2435414C79C57FEE"
+				table_id: 7740467882398974147L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2991CD06215C13F1"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: 0.0d
 			y: 2.0d
 		}
 	]

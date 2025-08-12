@@ -52,9 +52,9 @@
 				type: "loot"
 			}]
 			tasks: [{
-				count: 14L
+				count: 9L
 				id: "1DE9C09877AC85C4"
-				item: { Count: 14, id: "thermal:enderium_coin" }
+				item: "thermal:enderium_coin"
 				type: "item"
 			}]
 			title: "泰拉饰品抽奖"

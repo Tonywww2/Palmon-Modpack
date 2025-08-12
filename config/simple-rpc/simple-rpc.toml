@@ -23,10 +23,10 @@
 
 	[[init.presence]]
 		type = "PLAYING"
-		description = "Palmon is loading"
+		description = "RePalmon is loading"
 		state = "Game Starting..."
 		largeImageKey = ["mclogonew"]
-		largeImageText = "Minecraft {{game.version}}, modpack Palmon"
+		largeImageText = "Minecraft {{game.version}}, modpack RePalmon"
 		smallImageKey = ["mclogo"]
 		smallImageText = "{{game.mods}} mods installed"
 		streamingActivityUrl = "https://twitch.tv/twitch"
@@ -42,7 +42,7 @@
 		description = "{{player.name}} is currently lazy"
 		state = "Chilling in the menu"
 		largeImageKey = ["mclogonew"]
-		largeImageText = "Minecraft {{game.version}}, modpack Palmon"
+		largeImageText = "Minecraft {{game.version}}, modpack RePalmon"
 		smallImageKey = ["{{images.player}}"]
 		smallImageText = "{{player.name}}"
 		streamingActivityUrl = "https://twitch.tv/twitch"
@@ -58,7 +58,7 @@
 		description = "{{player.name}} is looking for a server"
 		state = "Searching for friends"
 		largeImageKey = ["mclogonew"]
-		largeImageText = "Minecraft {{game.version}}, modpack Palmon"
+		largeImageText = "Minecraft {{game.version}}, modpack RePalmon"
 		smallImageKey = ["{{images.player}}"]
 		smallImageText = "{{player.name}}"
 		streamingActivityUrl = "https://twitch.tv/twitch"
@@ -74,7 +74,7 @@
 		description = "{{player.name}} is looking for a Realm"
 		state = "Browsing Realms"
 		largeImageKey = ["mclogonew"]
-		largeImageText = "Minecraft {{game.version}}, modpack Palmon"
+		largeImageText = "Minecraft {{game.version}}, modpack RePalmon"
 		smallImageKey = ["{{images.player}}"]
 		smallImageText = "{{player.name}}"
 		streamingActivityUrl = "https://twitch.tv/twitch"
@@ -90,7 +90,7 @@
 		description = "{{player.name}} is joining a game"
 		state = "Joining Game"
 		largeImageKey = ["mclogonew"]
-		largeImageText = "Minecraft {{game.version}}, modpack Palmon"
+		largeImageText = "Minecraft {{game.version}}, modpack RePalmon"
 		smallImageKey = ["{{images.player}}"]
 		smallImageText = "{{player.name}}"
 		streamingActivityUrl = "https://twitch.tv/twitch"
@@ -106,7 +106,7 @@
 		description = "Currently In {{world.name}}"
 		state = "Playing lonely mode"
 		largeImageKey = ["mclogonew"]
-		largeImageText = "Minecraft {{game.version}}, modpack Palmon"
+		largeImageText = "Minecraft {{game.version}}, modpack RePalmon"
 		smallImageKey = ["{{images.player}}"]
 		smallImageText = "{{player.name}}"
 		streamingActivityUrl = "https://twitch.tv/twitch"
@@ -122,7 +122,7 @@
 		description = "Playing on {{server.name}} with {{server.players.count}} players"
 		state = "Playing online"
 		largeImageKey = ["mclogonew"]
-		largeImageText = "Minecraft {{game.version}}, modpack Palmon"
+		largeImageText = "Minecraft {{game.version}}, modpack RePalmon"
 		smallImageKey = ["{{images.player}}"]
 		smallImageText = "{{player.name}}"
 		streamingActivityUrl = "https://twitch.tv/twitch"
@@ -138,7 +138,7 @@
 		description = "Playing on {{realm.name}}"
 		state = "Playing on a Realm"
 		largeImageKey = ["mclogonew"]
-		largeImageText = "Minecraft {{game.version}}, modpack Palmon"
+		largeImageText = "Minecraft {{game.version}}, modpack RePalmon"
 		smallImageKey = ["{{images.player}}"]
 		smallImageText = "{{player.name}}"
 		streamingActivityUrl = "https://twitch.tv/twitch"
@@ -154,7 +154,7 @@
 		description = "In the Pause Menu"
 		state = "Game Paused"
 		largeImageKey = ["mclogonew"]
-		largeImageText = "Minecraft {{game.version}}, modpack Palmon"
+		largeImageText = "Minecraft {{game.version}}, modpack RePalmon"
 		smallImageKey = ["{{images.player}}"]
 		smallImageText = "{{player.name}}"
 		streamingActivityUrl = "https://twitch.tv/twitch"
@@ -165,10 +165,10 @@
 
 	[[generic.presence]]
 		type = "PLAYING"
-		description = "Playing Minecraft, modpack Palmon"
+		description = "Playing Minecraft, modpack RePalmon"
 		state = ""
 		largeImageKey = ["mclogonew"]
-		largeImageText = "Minecraft {{game.version}}, modpack Palmon"
+		largeImageText = "Minecraft {{game.version}}, modpack RePalmon"
 		smallImageKey = ["mclogo"]
 		smallImageText = "{{game.mods}} mods installed"
 		streamingActivityUrl = "https://twitch.tv/twitch"

@@ -146,7 +146,7 @@ ItemEvents.tooltip(event => {
             let attackSpeed = item.nbt.getDouble("player_attack_speed")
 
             text.add(6, Text.translate('curios.modifiers.otherworld_relics').gold())
-            text.add(7, Text.literal(formatPercentage(attackSpeed * 1.15)).append(' ').append(Text.translatable('obscure_api.criticalDamage')).blue())
+            text.add(7, Text.literal(formatPercentage(attackSpeed * 1.2)).append(' ').append(Text.translatable('obscure_api.criticalDamage')).blue())
 
         }
 

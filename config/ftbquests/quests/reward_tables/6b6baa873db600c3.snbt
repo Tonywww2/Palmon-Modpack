@@ -25,14 +25,14 @@
 		{ count: 16, item: "minecraft:redstone_torch" }
 		{ count: 8, item: "minecraft:coal" }
 		{ count: 8, item: "minecraft:charcoal" }
-		{ count: 8, item: "techreborn:raw_tin" }
+		{ count: 8, item: "thermal:raw_tin" }
 		{ count: 8, item: "minecraft:raw_iron" }
 		{ count: 8, item: "minecraft:raw_copper" }
-		{ count: 8, item: "techreborn:raw_lead" }
-		{ count: 8, item: "techreborn:raw_silver" }
+		{ count: 8, item: "thermal:raw_lead" }
+		{ count: 8, item: "thermal:raw_silver" }
 		{ count: 8, item: "minecraft:raw_gold" }
 		{ count: 4, item: "techreborn:ruby_gem" }
-		{ count: 4, item: "techreborn:sapphire_gem" }
+		{ count: 4, item: "thermal:sapphire" }
 		{ count: 4, item: "techreborn:peridot_gem" }
 		{ count: 4, item: "techreborn:red_garnet_gem" }
 		{ count: 4, item: "minecraft:emerald" }
@@ -315,8 +315,6 @@
 		{ item: "buildinggadgets2:gadget_building" }
 		{ item: "buildinggadgets2:gadget_exchanging" }
 		{ item: "buildinggadgets2:gadget_copy_paste" }
-		{ item: "dimdungeons:item_portal_key" }
-		{ item: "dimdungeons:item_blank_advanced_key" }
 		{ item: "integrateddynamics:energy_battery" }
 		{ count: 2, item: "cobblemon:fire_stone" }
 		{ count: 2, item: "cobblemon:water_stone" }
@@ -413,6 +411,168 @@
 			}
 		}
 		{ item: "thermal:lumium_coin" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:wooden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:stone_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:wooden_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:wooden_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:stone_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:netherite_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:netherite_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 	]
 	title: "通用奖励 | General Rewards"
 }

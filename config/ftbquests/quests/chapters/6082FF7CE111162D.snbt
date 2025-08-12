@@ -1,0 +1,113 @@
+{
+	autofocus_id: "33E33FCA416448CA"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6082FF7CE111162D"
+	group: ""
+	icon: "akashictome:tome"
+	id: "6082FF7CE111162D"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["是的，面对如此庞大的整合包，在游玩过程中难免会遇到一些不会/不清楚的东西。在适当的摸索后"]
+			icon: "akashictome:tome"
+			id: "33E33FCA416448CA"
+			shape: "hexagon"
+			subtitle: "我还没准备好！"
+			tasks: [{
+				id: "4054E6EAA1E976C9"
+				type: "checkmark"
+			}]
+			title: "教程"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33E33FCA416448CA"]
+			description: [
+				"本整合包是深度魔改整合包，并且内容非常之多。"
+				"如果你想完完全全不借助EMI/JEI游玩是几乎不可能的。"
+				""
+				"在此先做一些简单的教程："
+				"本整合包使用的是EMI，一个拥有更多功能的JEI。但同时也安装了JEI用于给EMI提供一些模组配方的兼容。"
+				"对着一个物品按&aU键&r查看这个物品的用途，按&aR键&r查看这个物品的来源。"
+				""
+				"&a强烈建议在拿到一个物品后或者在寻找某样东西的配方时，粗略的把所有的来源都略过一遍！&r"
+			]
+			icon: "embers:tinker_lens"
+			id: "331269F64269B90F"
+			subtitle: "核心！"
+			tasks: [{
+				id: "564B3BCE644C9B49"
+				type: "checkmark"
+			}]
+			title: "JEI/EMI"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["33E33FCA416448CA"]
+			description: [
+				"阿卡什宝典非常有用！不要把他往箱子里一丢然后就把他忘了！"
+				""
+				"非常多的模组都添加了教程书，但是这些教程书太占背包了！"
+				"你可以把他们与阿卡什宝典合成在一起，这样就可以只占用一个格子。"
+				"对绝大多数的教程书生效！"
+				""
+				"当阿卡什宝典切换为别的教程书时，拿着阿卡什宝典对空气&a左键&r，可以切换为原本的状态。"
+				""
+				"&c像植物魔法这样可以升级教程书的模组，会直接清空阿卡什宝典！请在书升级后再将其并入阿卡什宝典。&r"
+			]
+			icon: "akashictome:tome"
+			id: "3750E8755451F000"
+			subtitle: "归一"
+			tasks: [{
+				id: "0FC1A8FFABF1A499"
+				type: "checkmark"
+			}]
+			title: "阿卡什宝典"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["33E33FCA416448CA"]
+			description: [
+				"在物品栏内对着一个物品按&aY键&r，即可搜索附近的容器内是否存在该物品。"
+				"开启光影时很可能不会显示。"
+			]
+			icon: "embers:smoky_tinker_lens"
+			id: "16DC1F55C01F9E1F"
+			tasks: [{
+				id: "4D7EC1E13A85ABB2"
+				type: "checkmark"
+			}]
+			title: "搜索附近的物品"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["331269F64269B90F"]
+			description: [
+				"EMI最实用的功能之一！"
+				""
+				"在查询配方时，几乎所有的配方的右侧都有一个按钮名为“查看配方树”。"
+				"打开后，即可看到通过该配方合成该物品的耗材以及合成路线。"
+				"通过左键树最底层的节点，可以继续细分配方。"
+				"如果你希望在树中默认使用某配方，可以点击配方右侧的“设为默认配方”，或者Ctrl左键配方中的成品。"
+				""
+				"&a这个功能在前中期非常有用！也非常擅长群峦传说合金的配比！&r"
+			]
+			icon: "minecraft:oak_sapling"
+			id: "7DFADBA0F1A34561"
+			tasks: [{
+				id: "595592860A6CBA9B"
+				type: "checkmark"
+			}]
+			title: "EMI合成树"
+			x: 2.0d
+			y: 2.0d
+		}
+	]
+	title: "教程 | Tutorial"
+}

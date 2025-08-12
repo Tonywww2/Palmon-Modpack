@@ -109,6 +109,12 @@
 					table_id: 3367058103404351917L
 					type: "random"
 				}
+				{
+					count: 2
+					id: "6F405CB61954BA96"
+					item: "integratedterminals:part_terminal_storage"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			tasks: [{
@@ -162,6 +168,12 @@
 					id: "7C0DE310A9DC4EA6"
 					table_id: 3367058103404351917L
 					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25DCE17808D33BE7"
+					table_id: 1141615569593449731L
+					type: "loot"
 				}
 			]
 			tasks: [{
@@ -754,7 +766,11 @@
 		}
 		{
 			dependencies: ["3D4DF2C3EA0892F3"]
-			description: ["思索片刻后，你理解了一些高级设备的工作原理与制作方法。"]
+			description: [
+				"思索片刻后，你理解了一些高级设备的工作原理与制作方法。"
+				""
+				"备注：镭射钻等"
+			]
 			icon: "industrialforegoing:machine_frame_advanced"
 			id: "42B58780F3A296B5"
 			invisible: true
@@ -2830,7 +2846,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5DA47C9FB0351EA7"]
+			dependencies: [
+				"5DA47C9FB0351EA7"
+				"28B339DC7608D688"
+			]
+			dependency_requirement: "one_completed"
 			description: ["这件锚的制作方法来自于异界，他带给了你许多新的启示......"]
 			id: "46A1B445EE65A69E"
 			rewards: [

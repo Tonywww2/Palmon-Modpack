@@ -364,8 +364,6 @@
 			description: [
 				"你理解了一类被视为禁忌的机器的原理"
 				"但是，为什么它们是禁忌......"
-				""
-				"注意：此分支较为特殊，如果没有来到拥有此分支的世界线，则在该世界线上永远无法收束该分支"
 			]
 			icon: "botanicalmachinery:industrial_agglomeration_factory"
 			id: "2C3DEE8F626DE274"
@@ -1801,6 +1799,10 @@
 		}
 		{
 			dependencies: ["1576D14D77DC19F7"]
+			description: [
+				""
+				"{image:ftbquest:textures/recipes/aether_work_production.png width:200 height:116 align:center}"
+			]
 			icon: "aetherworks:prism"
 			id: "086E12C0C4708393"
 			rewards: [
@@ -2241,7 +2243,7 @@
 			dependencies: ["311EB27C36572AA1"]
 			description: ["是的，你有很多获取方式"]
 			hide_until_deps_complete: true
-			icon: "dustandash:titanium_ingot"
+			icon: "techreborn:titanium_ingot"
 			id: "62CEC2632FB4E692"
 			rewards: [
 				{

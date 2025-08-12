@@ -322,5 +322,23 @@
             "thermal_extra:zinc_dust"
         ],
         "resultItems": "techreborn:zinc_dust"
+    },
+    {
+        "tag": "forge:dusts/titanium",
+        "material": "titanium",
+        "matchItems":
+        [
+            "nuclearcraft:titanium_dust"
+        ],
+        "resultItems": "techreborn:titanium_dust"
+    },
+    {
+        "tag": "forge:dusts/chromium",
+        "material": "chromium",
+        "matchItems":
+        [
+            "nuclearcraft:chromium_dust"
+        ],
+        "resultItems": "techreborn:chrome_dust"
     }
 ]

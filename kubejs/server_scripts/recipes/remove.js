@@ -278,7 +278,8 @@ global.idsToRemove = new Set([
     'sjap_adder:kamuyex_ligghtning',
     'sjap_adder:kamuyex_water',
     'sjap_adder:nihilbxex',
-    'sjap_adder:nihilulex'
+    'sjap_adder:nihilulex',
+    'create:mixing/lava_from_cobble'
 ])
 
 ServerEvents.recipes(event => {
@@ -306,6 +307,7 @@ ServerEvents.recipes(event => {
     event.remove({ type: 'minecraft:crafting_shaped', output: '#forge:gears' })
     event.remove({ type: 'minecraft:crafting_shapeless', input: 'embers:tinker_hammer' })
     event.remove({ type: 'tconstruct:melting', input: '#forge:gears' })
+    
 })
 
 MoreJSEvents.villagerTrades(event => {

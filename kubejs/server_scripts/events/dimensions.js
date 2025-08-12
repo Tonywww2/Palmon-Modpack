@@ -1,5 +1,29 @@
 const $EntityTravelToDimensionEvent = Java.loadClass("net.minecraftforge.event.entity.EntityTravelToDimensionEvent")
 
+const hasCurios = (player, id) => {
+    let curiosAll = $CuriosHelper.getEquippedCurios(player).resolve().get()
+    // player.tell(curiosAll)
+    for (let i = 0; i < curiosAll.getSlots(); i++) {
+        let curiosItem = curiosAll.getStackInSlot(i);
+        if (!curiosItem.isEmpty()) {
+            if (curiosItem.getItem().id === id) {
+                return true
+            }
+        }
+    }
+    return false
+}
+
+const ratlantis = (event) => {
+    if (!event.player.stages.has(global.ratlantis)) {
+        event.player.tell(Text.translatable('ui.kubejs.banned').gold())
+        event.player.tell(Text.translatable('ui.kubejs.banned_dim_rat').gold())
+        event.player.addItemCooldown(event.player.mainHandItem, 200)
+        event.cancel()
+
+    }
+}
+
 NativeEvents.onEvent($EntityTravelToDimensionEvent, /** @param {Internal.EntityTravelToDimensionEvent} event  */ event => {
     /**
     * @type {Internal.ServerPlayer}
@@ -10,10 +34,11 @@ NativeEvents.onEvent($EntityTravelToDimensionEvent, /** @param {Internal.EntityT
     if (player.player) {
         switch (key) {
             case 'minecraft:the_end':
-                if (!player.stages.has(global.endStage)) {
+                // if (!player.stages.has(global.endStage)) {
+                if (!hasCurios(player, "kubejs:scranton_reality_anchor")) {
                     event.setCanceled(true)
                     player.tell(Text.translatable('ui.kubejs.banned').darkPurple())
-                    player.tell(Text.translatable('ui.kubejs.banned_dim').lightPurple())
+                    player.tell(Text.translatable('ui.kubejs.banned_dim_end').lightPurple())
                     player.teleportTo(player.getX(), 320, player.getZ())
                 }
                 break
@@ -21,7 +46,7 @@ NativeEvents.onEvent($EntityTravelToDimensionEvent, /** @param {Internal.EntityT
                 if (!player.stages.has(global.ratlantis)) {
                     event.setCanceled(true)
                     player.tell(Text.translatable('ui.kubejs.banned').gold())
-                    player.tell(Text.translatable('ui.kubejs.banned_dim').gold())
+                    event.player.tell(Text.translatable('ui.kubejs.banned_dim_rat').gold())
                     player.teleportTo(player.getX(), 320, player.getZ())
                 }
                 break
@@ -41,12 +66,3 @@ BlockEvents.placed('rats:chunky_cheese_token', event => {
     ratlantis(event)
 })
 
-const ratlantis = function (event) {
-    if (!event.player.stages.has(global.ratlantis)) {
-        event.player.tell(Text.translatable('ui.kubejs.banned').gold())
-        event.player.tell(Text.translatable('ui.kubejs.banned_dim').gold())
-        event.player.addItemCooldown(event.player.mainHandItem, 200)
-        event.cancel()
-
-    }
-}

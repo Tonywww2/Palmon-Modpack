@@ -174,7 +174,8 @@
     "ui.kubejs.voucher": "来自世界泡的间隙中的碎片，可以在不同阶段的任务中具现为不同的物资",
     "ui.kubejs.abyss_eye": "在深海星的海面上使用后，召唤§ICthulhu§n的子嗣...",
 
-    "ui.kubejs.banned_dim": "你还未达到踏足此地的阶段",
+    "ui.kubejs.banned_dim_end": "你需要某物稳定你的现实",
+    "ui.kubejs.banned_dim_rat": "你需要某物稳定你的现实，还需与...建立联系",
     "ui.kubejs.banned_seed": "你与此物品无缘......",
 
     "ui.kubejs.overowrld_item": "因为你失去了现世祝福，该物品将无法被捡起",

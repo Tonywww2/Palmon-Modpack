@@ -1,4 +1,5 @@
 {
+	autofocus_id: "0714A09D27EF360F"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "5F010F448D513E1C"
@@ -58,6 +59,7 @@
 				table_id: 7740467882398974147L
 				type: "loot"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "76D5EEBB3E420696"
 				item: {
@@ -91,6 +93,7 @@
 				table_id: 3840491528305963978L
 				type: "loot"
 			}]
+			shape: "hexagon"
 			subtitle: "3000次跳跃"
 			tasks: [{
 				id: "55CCFCE2FAC5CC0C"
@@ -103,7 +106,11 @@
 		}
 		{
 			dependencies: ["0714A09D27EF360F"]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: "supplementaries:goblet"
 			id: "0F0F1596177C3640"
+			shape: "hexagon"
 			tasks: [{
 				id: "7169897D3E0FDF1B"
 				type: "checkmark"
@@ -111,6 +118,107 @@
 			title: "挑战"
 			x: 2.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["0F0F1596177C3640"]
+			description: ["描述：在制作出一阶火箭之后，先抵达月球，再建立任意的空间站，并将主基地建设在空间站内。"]
+			icon: "ad_astra:earth_globe"
+			id: "16C55EED8BFECCE0"
+			tasks: [
+				{
+					id: "781A173BEF087D7C"
+					type: "checkmark"
+				}
+				{
+					id: "4770B23282654A19"
+					item: "minecraft:bedrock"
+					type: "item"
+				}
+			]
+			title: "宇宙人"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F0F1596177C3640"]
+			description: [
+				"描述：只能使用以下模组/工具作为物流手段（物品、流体、气体、能量）。"
+				""
+				"白名单："
+				"SFM，AE（黑名单外内容），原版工具，末影存储，木漏斗，流体漏斗。"
+				""
+				"黑名单："
+				"ME输出总线，ME输入总线"
+				""
+				"冲突挑战："
+				"逻辑学"
+			]
+			icon: "sfm:manager"
+			id: "2F4E297B91513D63"
+			tasks: [
+				{
+					id: "13B02A29246B898D"
+					type: "checkmark"
+				}
+				{
+					id: "2F9B9F492BDE97CA"
+					item: "minecraft:bedrock"
+					type: "item"
+				}
+			]
+			title: "工厂管理员"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F0F1596177C3640"]
+			description: ["描述：只能使用拔刀剑作为战斗武器。"]
+			icon: "slashblade:proudsoul"
+			id: "602F32747D8FAA3E"
+			tasks: [
+				{
+					id: "1C9B44A5B101C75A"
+					type: "checkmark"
+				}
+				{
+					id: "1C00C26F975AE057"
+					item: "minecraft:bedrock"
+					type: "item"
+				}
+			]
+			title: "剑术大师"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"描述：只能使用以下模组/工具作为物流手段（物品、流体、气体、能量）。"
+				""
+				"白名单："
+				"动态联合/集成动力，AE（黑名单外内容），原版工具，木漏斗，流体漏斗。"
+				""
+				"黑名单："
+				"ME输出总线，ME输入总线。"
+				""
+				"冲突挑战："
+				"工厂管理员"
+			]
+			icon: "integrateddynamics:cable"
+			id: "0FA86CC9D1F00D86"
+			tasks: [
+				{
+					id: "181D6D7D9219AD02"
+					type: "checkmark"
+				}
+				{
+					id: "4F7CEDB0C076B3F8"
+					item: "minecraft:bedrock"
+					type: "item"
+				}
+			]
+			title: "逻辑学"
+			x: 6.0d
+			y: -2.0d
 		}
 	]
 	title: "时间之外的往事 | E.O.T."

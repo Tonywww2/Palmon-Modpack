@@ -25,6 +25,8 @@
 		{ item: "kubejs:divergence_meter" }
 		{ item: "kubejs:epiphany_pendant" }
 		{ item: "kubejs:white_mask" }
+		{ item: "kubejs:ancient_proudsoul_tiny" }
+		{ item: "kubejs:inspiration_mushroom" }
 	]
 	title: "异界遗物-专注池"
 }

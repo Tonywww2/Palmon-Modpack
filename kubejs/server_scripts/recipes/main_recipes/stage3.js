@@ -18,6 +18,9 @@ ServerEvents.recipes(event => {
     'forestry:apiary'
   )
 
+  event.shapeless('nuclearcraft:glowing_mushroom', ['#forge:mushrooms', '#forge:dusts/glowstone', '#forge:dusts/sulfur']).id('kubejs:glowing_mushroom_s3')
+  event.shapeless('minecraft:warped_nylium', ['minecraft:warped_fungus', '#forge:netherrack']).id('kubejs:warped_nylium_s3')
+
   event.shaped(
     'mekanism_extras:expand_radioactive_waste_barrel',
     [
@@ -461,5 +464,40 @@ ServerEvents.recipes(event => {
       }
     ]
   }).id('kubejs:exp_candy_s_s3')
+
+  event.custom({
+    "type": "slashblade:shaped_blade",
+    "blade": "slashblade_addon:dark_raven",
+    "category": "equipment",
+    "key": {
+      "A": {
+        "item": 'aquamirae:ship_graveyard_echo'
+      },
+      "B": {
+        "item": "slashblade:slashblade"
+      },
+      "I": {
+        "item": 'kubejs:stable_desh_ingot'
+      },
+      "C": {
+        "tag": 'forge:dyes/black'
+      },
+      "D": {
+        "item": 'slashblade:proudsoul_ingot'
+      },
+      "E": {
+        "item": 'occultism:awakened_feather'
+      }
+    },
+    "pattern": [
+      " AI",
+      " BC",
+      "D E"
+    ],
+    "result": {
+      "item": "slashblade:slashblade"
+    },
+    "show_notification": true
+  }).id('kubejs:dark_raven_s3')
 
 })

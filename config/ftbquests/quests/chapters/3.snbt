@@ -31,6 +31,11 @@
 					table_id: 3367058103404351917L
 					type: "random"
 				}
+				{
+					id: "04DE63B5CCA961F6"
+					item: "chisel:chisel"
+					type: "item"
+				}
 			]
 			shape: "gear"
 			subtitle: "归乡"
@@ -373,6 +378,7 @@
 				"6D2837A2695037CE"
 			]
 			dependency_requirement: "one_completed"
+			description: ["氦-3？在你所在的这个&e世界级收束范围&r中，由于&l某次事件&r，导致了整个宇宙的物理规则发生了一些改变......整个宇宙中的元素变得更加的稳定......"]
 			icon: "ad_astra:moon_globe"
 			id: "106E90D345ADA5AE"
 			rewards: [
@@ -617,7 +623,7 @@
 				entity: "embers:ancient_golem"
 				id: "61FB65EF75B6B0A6"
 				type: "kill"
-				value: 42L
+				value: 13L
 			}]
 			title: "剑之魂"
 			x: -2.0d
@@ -3121,6 +3127,7 @@
 		}
 		{
 			dependencies: ["3BDED4ABB0ACD352"]
+			hide_until_deps_complete: true
 			id: "53C99D10A58AE872"
 			rewards: [
 				{
@@ -3642,7 +3649,7 @@
 		}
 		{
 			dependencies: ["3335051E70C9DE49"]
-			description: ["&d&l在一些情况下把物品接口接在精妙存储的容器上时，可能会导致游戏崩溃！"]
+			description: ["&d&l把物品接口接在精妙存储的容器上时，可能会导致游戏崩溃！"]
 			id: "73923B9574D48091"
 			rewards: [
 				{
@@ -3767,7 +3774,10 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["346F9B9DECB62437"]
+			dependencies: [
+				"346F9B9DECB62437"
+				"4FC239C7B541E7EB"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "4401D7A4DA005603"
@@ -3794,7 +3804,10 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["346F9B9DECB62437"]
+			dependencies: [
+				"346F9B9DECB62437"
+				"4FC239C7B541E7EB"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "6BD75CBEF19F5C43"
@@ -3961,7 +3974,11 @@
 		}
 		{
 			dependencies: ["106E90D345ADA5AE"]
-			description: ["不需要宇航服了！"]
+			description: [
+				"不需要宇航服了！"
+				""
+				"注意：你可能无法直接通过附魔书搜索配方，请对着月石\"查询用途\"。"
+			]
 			id: "317A0EE17CA94641"
 			rewards: [
 				{
@@ -4000,12 +4017,20 @@
 			dependencies: ["36D2E1C2BF0663D7"]
 			description: ["通过完成悬赏，可以获取信素币，末影币，与下界合金币。"]
 			id: "2B9ADFDE92F455F5"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2EED67F370D29AFE"
-				table_id: 7740467882398974147L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2EED67F370D29AFE"
+					table_id: 7740467882398974147L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2458F80008BC6669"
+					table_id: 3367058103404351917L
+					type: "loot"
+				}
+			]
 			subtitle: "给我个任务吧"
 			tasks: [{
 				id: "06F19967241D250B"
@@ -4136,6 +4161,29 @@
 			}]
 			x: 0.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["6E6C596EACD8BE9F"]
+			description: [
+				"你可能会发现，许多在原版中可以直接制作的物品（制箭台、木剑等）无法直接制作。"
+				""
+				"你需要通过探索寻找他们！"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:wooden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6FCD750571BEDE78"
+			tasks: [{
+				id: "5603B2ECAB28A61D"
+				type: "checkmark"
+			}]
+			title: "为什么不能制作"
+			x: 4.0d
+			y: -6.0d
 		}
 	]
 	title: "3. 归乡 | Hometown"

@@ -5,7 +5,9 @@ ServerEvents.recipes(event => {
     event.shapeless('dustandash:ash_steel_cylinder', ['ad_astra:steel_tank']).id('kubejs:ash_steel_cylinder_s5')
     event.shapeless('ad_astra:steel_tank', ['dustandash:ash_steel_cylinder']).id('kubejs:steel_tank_s5')
 
-    event.shapeless('kubejs:alfheim_iridescent', ['3x mythicbotany:raw_elementium', 'kubejs:iridescent', 'botania:bifrost_perm', Item.of('tconstruct:tool_binding', '{Material:"tconstruct:alfsteel"}').weakNBT()]).id('kubejs:alfheim_iridescent_s5')
+    event.shapeless('kubejs:alfheim_iridescent',
+        ['3x mythicbotany:raw_elementium', '4x kubejs:iridescent', 'botania:bifrost_perm', Item.of('tconstruct:tool_binding', '{Material:"tconstruct:alfsteel"}').weakNBT()])
+        .id('kubejs:alfheim_iridescent_s5')
 
     event.smithing('dustandash:centrifuge', 'dustandash:iron_structural_components', 'nuclearcraft:centrifuge', 'dustandash:ash_steel_ingot').id('kubejs:centrifuge_s5')
 
@@ -247,6 +249,19 @@ ServerEvents.recipes(event => {
             C: '#forge:dyes/blue',
             D: 'kubejs:delta_framework'
         }).id('kubejs:rft_machine_frame_s5')
+
+    event.shaped(Item.of('minecraft:wandering_trader_spawn_egg'), [
+        ' A ',
+        'BCD',
+        ' E '
+    ],
+        {
+            A: 'functionalstorage:netherite_upgrade',
+            B: 'mythicbotany:alfsteel_block',
+            C: '#forge:eggs',
+            D: '#forge:storage_blocks/terrasteel',
+            E: Item.of('mekanism:basic_fluid_tank', '{mekData:{FluidTanks:[{stored:{Amount:32000,FluidName:"tconstruct:liquid_soul"}}]}}').weakNBT()
+        }).id('kubejs:wandering_trader_spawn_egg_s5')
 
     event.recipes.create.item_application('create:brass_casing',
         ['create:andesite_casing', 'kubejs:end_steel']
@@ -590,11 +605,12 @@ ServerEvents.recipes(event => {
         .id('kubejs:collapse_prediction_s5')
 
 
-    var t = 'kubejs:helium_3_crystal'
+    var t = '#forge:processors/villiaumite'
     event.recipes.createSequencedAssembly([
         'kubejs:helium_3_crystal_infinity',
     ], t, [
         event.recipes.createFilling(t, [t, Fluid.of('kubejs:hybrid_fuel', 50)]),
+        event.recipes.createDeploying(t, [t, 'kubejs:helium_3_crystal']),
         event.recipes.createPressing(t, t)
     ]).transitionalItem(t)
         .loops(10)
@@ -614,8 +630,24 @@ ServerEvents.recipes(event => {
             "amount": 3,
             "block_tag": "embers:world_bottom"
         },
-        "weight": 60
+        "weight": 20
     }).id("kubejs:iridescent_s5")
+
+    event.custom({
+        "type": "embers:boring",
+        "dimensions": [
+            "mythicbotany:alfheim"
+        ],
+        "max_height": -57,
+        "output": {
+            "item": "embers:ember_grit"
+        },
+        "required_block": {
+            "amount": 3,
+            "block_tag": "embers:world_bottom"
+        },
+        "weight": 160
+    }).id("kubejs:ember_grit_s5")
 
     event.custom({
         "type": "palmon:production",
@@ -1132,6 +1164,33 @@ ServerEvents.recipes(event => {
         },
         "show_notification": true
     }).id('kubejs:nihilulex_s5')
+
+    event.custom({
+        "type": "slashblade:shaped_blade",
+        "blade": "slashblade_addon:murakumo",
+        "category": "equipment",
+        "key": {
+            "A": Item.of('hostilenetworks:prediction', '{data_model:{id:"hostilenetworks:ghast"}}').weakNBT().toJson(),
+            "B": {
+                "item": "slashblade:slashblade"
+            },
+            "I": {
+                "item": 'kubejs:end_steel'
+            },
+            "S": {
+                "item": 'slashblade:proudsoul_crystal'
+            }
+        },
+        "pattern": [
+            "AIS",
+            "IBI",
+            "SIA"
+        ],
+        "result": {
+            "item": "slashblade:slashblade"
+        },
+        "show_notification": true
+    }).id('kubejs:murakumo_s5')
 
     tcAlloy([{ "amount": 1000, "tag": 'forge:deuterium' }, { "amount": 1000, "tag": 'forge:tritium' }, { "amount": 720, "tag": 'forge:helium' }, { "amount": 720, "tag": 'forge:lithium/7_za' }],
         { "amount": 100, "tag": "kubejs:hybrid_fuel" }, 100, 'kubejs:hybrid_fuel')

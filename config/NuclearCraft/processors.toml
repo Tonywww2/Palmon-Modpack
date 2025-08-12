@@ -4,7 +4,7 @@
 	base_time = 240
 	#FE per Tick
 	#Better use value multiple of 8
-	base_power = 128
+	base_power = 512
 	#GT EU Amperage
 	gteu_amperage = 2
 	#GT EU direct support enabled?

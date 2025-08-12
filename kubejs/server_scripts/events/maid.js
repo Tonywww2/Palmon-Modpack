@@ -5,17 +5,20 @@ EntityEvents.spawned('touhou_little_maid:maid', event => {
      * @type {Internal.LivingEntity}
      */
     let entity = event.entity
-    // if (entity.persistentData && !entity.persistentData.contains('maid_dix')) {
-    //     entity.persistentData.putBoolean('maid_dix', true)
     if (entity.attributes.hasAttribute(health)) {
-        entity.getAttribute(health)
-            .addPermanentModifier(new $AttributeModifier(
-                maidUUID,
-                "main_max_ealth",
-                20.0,
-                "multiply_total"
-            ))
+        const inst = entity.getAttribute(health)
+        for (let m of inst.getModifiers()) {
+            if (m.getId().equals(maidUUID)) {
+                inst.removeModifier(maidUUID)
+                break;
+            }
+        }
+        inst.addPermanentModifier(new $AttributeModifier(
+            maidUUID,
+            "main_max_ealth",
+            9.0,
+            "multiply_total"
+        ))
     }
-    // }
 
 })
