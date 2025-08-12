@@ -2,6 +2,8 @@
 # 🎮 Minecraft Paluloom Modpack 🌌  
 
 [![GitHub Issues](https://img.shields.io/github/issues/Tonywww2/Palmon-Modpack)](https://github.com/Tonywww2/Palmon-Modpack/issues)  
+[![https://cf.way2muchnoise.eu/full_1281732_downloads.svg](https://cf.way2muchnoise.eu/full_1281732_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/repalmon)
+[![https://cf.way2muchnoise.eu/versions/1281732.svg](https://cf.way2muchnoise.eu/versions/1281732.svg)](https://www.curseforge.com/minecraft/modpacks/repalmon)
 
 ---
 
@@ -33,6 +35,3 @@ A heavily modified Minecraft modpack, built on `1.20.1`
 - Bugs/Optimization Issues/Missing food compatibility Issues, please create an Issue and mark it with the label
 
 ---
-
-## 📥 下载 | Downloads  
-- [CurseForge](www.curseforge.com/) 
