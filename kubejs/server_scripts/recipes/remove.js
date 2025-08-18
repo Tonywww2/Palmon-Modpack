@@ -11,6 +11,7 @@ global.idsToRemove = new Set([
     'quark:building/crafting/furnaces/blackstone_furnace',
     'palmon:crafting/shaped/processing_station',
     'palmon:crafting/shaped/production_machine',
+    'palmon:processing/rare_candy',
     'ad_astra:nasa_workbench',
     'ad_astra:steel_engine',
     'ad_astra:steel_tank',
@@ -279,7 +280,11 @@ global.idsToRemove = new Set([
     'sjap_adder:kamuyex_water',
     'sjap_adder:nihilbxex',
     'sjap_adder:nihilulex',
-    'create:mixing/lava_from_cobble'
+    'create:mixing/lava_from_cobble',
+    'ad_astra:engine_frame_framework',
+    'ad_astra:gas_tank',
+    'tconstruct:tools/modifiers/upgrade/necrotic',
+    'techreborn:chemical_reactor/glyceryl_fixed'
 ])
 
 ServerEvents.recipes(event => {
@@ -300,6 +305,9 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'thermal:lumium_coin' })
     event.remove({ output: 'ars_nouveau:ritual_flight' })
     event.remove({ output: 'minecraft:furnace' })
+    event.remove({ output: 'techreborn:advanced_machine_casing' })
+    event.remove({ output: 'techreborn:industrial_machine_casing' })
+
     event.remove({ output: 'techreborn:advanced_alloy_ingot', not: { type: 'minecraft:crafting_shapeless' } })
     event.remove({ output: 'draconicevolution:awakened_draconium_ingot', not: { type: 'minecraft:crafting_shapeless' } })
     event.remove({ input: 'immersiveengineering:hammer', not: { id: 'immersiveengineering:crafting/survey_tools' } })

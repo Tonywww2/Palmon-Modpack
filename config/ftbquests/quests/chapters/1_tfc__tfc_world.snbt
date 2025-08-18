@@ -2353,9 +2353,9 @@
 		{
 			dependencies: ["233CD2E34D0CD586"]
 			description: [
-				"腌制种子..."
-				""
 				"如果你没有&e灵感&r，那么你将无法种植..."
+				""
+				"如果存在使用&d大桶制作魔鬼之梦种子&r的配方，则代表它是你现阶段的目标..."
 			]
 			icon: "occultism:datura"
 			id: "268D387EDD9AE1EF"
@@ -2413,7 +2413,7 @@
 			description: [
 				"锤炼钢铁..."
 				""
-				"提示：查看工程师锤头的配方"
+				"如果存在使用&d砧制作工程师锤头&r的配方，则代表它是你现阶段的目标..."
 			]
 			icon: {
 				Count: 1
@@ -2467,7 +2467,11 @@
 		}
 		{
 			dependencies: ["233CD2E34D0CD586"]
-			description: ["向安山岩砖浇筑..."]
+			description: [
+				"向安山岩砖浇筑..."
+				""
+				"如果存在使用&d浇筑台制作安山合金&r的配方，则代表它是你现阶段的目标..."
+			]
 			id: "4C50A8688F409955"
 			optional: true
 			rewards: [
@@ -4214,7 +4218,12 @@
 			y: 26.0d
 		}
 		{
-			dependencies: ["32EAD9843E44D905"]
+			dependencies: [
+				"32EAD9843E44D905"
+				"28B339DC7608D688"
+			]
+			dependency_requirement: "one_completed"
+			description: ["本整合包的主要战斗力系统是由匠魂支撑的，制作匠魂武器/防具很关键！"]
 			hide_until_deps_complete: true
 			id: "38C0A829266490AC"
 			rewards: [
@@ -4237,6 +4246,8 @@
 					type: "random"
 				}
 			]
+			shape: "hexagon"
+			subtitle: "很关键"
 			tasks: [{
 				id: "25E14FE9D868AFAA"
 				item: "tconstruct:crafting_station"
@@ -4601,6 +4612,27 @@
 			}]
 			x: 6.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["25E51E628B2B532B"]
+			id: "5F22C117320A8075"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BE08BD49A67A6A5"
+				table_id: 1651636410828424531L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7D15A062A40342B1"
+				item: {
+					Count: 1
+					id: "tconstruct:tinkers_anvil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 34.0d
 		}
 	]
 	title: "1. 群峦星 | TFC Planet"

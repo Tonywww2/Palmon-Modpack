@@ -1,7 +1,7 @@
 #Enable super-resolution upscaling
 enable_upscale = true
 #Upscale ratio factor
-upscale_ratio = 1.2489
+upscale_ratio = 1.4011
 #Algorithm used for upscaling
 upscale_algo = "sgsr1"
 #Sharpness adjustment factor

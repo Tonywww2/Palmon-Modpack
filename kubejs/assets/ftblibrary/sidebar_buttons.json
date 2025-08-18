@@ -1,0 +1,32 @@
+{
+    "home":
+    {
+        "group": "ftblibrary:palmon",
+        "icon": "confluence:item/magic_mirror",
+        "x": 610,
+        "click":
+        [
+            "command:/home"
+        ],
+        "required_server_mods":
+        [
+            "ftblibrary"
+        ],
+        "custom_text": true
+    },
+    "back":
+    {
+        "group": "ftblibrary:palmon",
+        "icon": "gravestone:item/obituary",
+        "x": 700,
+        "click":
+        [
+            "command:/back"
+        ],
+        "required_server_mods":
+        [
+            "ftblibrary"
+        ],
+        "custom_text": true
+    }
+}

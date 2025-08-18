@@ -101,6 +101,7 @@
 
     "item.kubejs.present_soul": "§e现世之魂",
     "item.kubejs.scranton_reality_anchor": "§d斯克兰顿现实稳定锚",
+    "item.kubejs.phosphophyllite": "§d磷叶石",
 
     "item.kubejs.true_soul_of_light": "§e⌈光之魂⌋",
     "item.kubejs.true_pure_darkness": "§e⌈纯暗⌋",
@@ -175,7 +176,7 @@
     "ui.kubejs.abyss_eye": "在深海星的海面上使用后，召唤§ICthulhu§n的子嗣...",
 
     "ui.kubejs.banned_dim_end": "你需要某物稳定你的现实",
-    "ui.kubejs.banned_dim_rat": "你需要某物稳定你的现实，还需与...建立联系",
+    "ui.kubejs.banned_dim_rat": "你需要与§k___§r建立联系...",
     "ui.kubejs.banned_seed": "你与此物品无缘......",
 
     "ui.kubejs.overowrld_item": "因为你失去了现世祝福，该物品将无法被捡起",
@@ -189,6 +190,7 @@
 
     "ui.kubejs.present_soul": "微弱的稳定性",
     "ui.kubejs.scranton_reality_anchor": "或许是安慰剂？",
+    "ui.kubejs.phosphophyllite": "⌈⌋ 阿赖耶识",
 
     "ui.kubejs.true_soul_of_light": "⌈Noctuary⌋ 世界上所有的夜晚",
     "ui.kubejs.true_pure_darkness": "⌈Noctuary⌋ 暝途花",
@@ -216,6 +218,10 @@
     "ui.kubejs.izanagis_burden": "⌈Destiny⌋ 耻辱、存罪、恐惧。\n我们都在承受。将悔恨收集，尽可能清除它们吧。\n让敌人感受到你身上重担的重量吧。",
     "ui.kubejs.ancient_proudsoul": "A-A-A-A-A-A-A",
  
+    "ui.kubejs.scranton_reality_anchor_2": "允许进入末地",
+    "ui.kubejs.phosphophyllite_2": "允许进入鼠西州",
+    "ui.kubejs.phosphophyllite_3": "你无法脱离祂",
+
     "ui.kubejs.compact_pal_factory_2": "经过极限压缩后，能完全自给自足的帕鲁工厂",
     "ui.kubejs.compact_pal_factory_3": "每隔一段时间，在背包内生成一个随机的精灵球",
     "ui.kubejs.compact_pal_factory_4": "你的§e⌈压缩型帕鲁工厂⌋§r成功制造了： ",
@@ -235,6 +241,9 @@
     "ui.kubejs.meat_feeder": "该物品不会生效",
 
     "ui.kubejs.wear_to_update": "佩戴该遗物以显示更新后的属性加成",
+
+    "sidebar_button.ftblibrary.home": "回家",
+    "sidebar_button.ftblibrary.back": "返回上个传送点",
 
     "material.tconstruct.beryllium_bronze_alloy": "铍青铜合金",
 

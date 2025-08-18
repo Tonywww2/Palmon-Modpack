@@ -22,4 +22,7 @@
 	#Determining the interval tick between twice tail animation.
 	#Range: > 10
 	tail_animation_interval = 200
+	#Deciding whether to always display skill's details.
+	#After enabling, skill book will always display skill's details.
+	always_display_skill_details = false
 

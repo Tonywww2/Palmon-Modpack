@@ -121,7 +121,7 @@
 		}
 		{
 			dependencies: ["0F0F1596177C3640"]
-			description: ["描述：在制作出一阶火箭之后，先抵达月球，再建立任意的空间站，并将主基地建设在空间站内。"]
+			description: ["描述：在制作出一阶火箭之后，先抵达月球，再建立任意的空间站，并将主基地建设在空间站内。之后才能抵达地球。"]
 			icon: "ad_astra:earth_globe"
 			id: "16C55EED8BFECCE0"
 			tasks: [

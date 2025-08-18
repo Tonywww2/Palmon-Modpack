@@ -201,12 +201,5 @@ ServerEvents.recipes(event => {
         'create:zinc_ingot',
         '#forge:ingots/zinc'
     )
-    
-    event.replaceInput([
-        {}
-    ],
-        "#ad_astra:steel_plates",
-        '#forge:plates/steel'
-    )
 
 })

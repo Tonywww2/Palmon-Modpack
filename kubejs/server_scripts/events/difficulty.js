@@ -16,10 +16,10 @@ global.dimAdder = {
     'ad_astra:mercury': [110, 90, 44],
     'ad_astra:glacio': [130, 100, 44],
 
-    'minecraft:the_end': [130, 100, 48],
-    'deeperdarker:otherside': [160, 120, 52],
+    'minecraft:the_end': [160, 100, 48],
+    'deeperdarker:otherside': [200, 120, 52],
 
-    'rats:ratlantis': [240, 150, 64],
+    'rats:ratlantis': [240, 300, 80],
 }
 global.dimMuti = {
     'minecraft:overworld': [1, 0.5, 0.8],
@@ -78,8 +78,12 @@ EntityEvents.spawned(event => {
     if (entity.forgePersistentData.contains('dimension_difficulty')) return
 
     let dim = event.level.dimension.location().toString()
+    /**
+     * @type {Internal.Player}
+     */
     let player = entity.getLevel().getNearestPlayer(entity, 240)
     let diffNum = 1
+    let isBaby = player.stages.has('baby')
 
     if (player) {
         player.stages.getAll().forEach(element => {
@@ -123,7 +127,7 @@ EntityEvents.spawned(event => {
     }
 
     if (entity.attributes.hasAttribute(attack)) {
-        let atkVal = entity.getAttribute(attack).getBaseValue() + global.dimAdder[dim][2]
+        let atkVal = entity.getAttribute(attack).getBaseValue() + (isBaby ? global.dimAdder[dim][2] / 2 : global.dimAdder[dim][2])
         atkVal *= global.diffMultiplier[diffNum][2]
 
         entity.setAttributeBaseValue(attack, atkVal)

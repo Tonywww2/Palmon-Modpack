@@ -643,7 +643,7 @@ function stage5Materials(createMaterialBuilder, registerMaterialProcess) {
         .addLimb(-0.1, -0.25, db, 56)
         .addGrip(0, 0.4, 185)
         .addTraits()
-        .addDefaultTrait(1, 'etstlib:fatal')
+        .addDefaultTrait(1, 'tconstruct:sweeping_edge')
         .addDefaultTrait(1, 'etstlib:rude')
         .addDefaultTrait(1, 'tconstruct:insatiable')
         .addPerStatTrait('tconstruct:armor', 1, 'tconstruct:magic_protection')

@@ -573,6 +573,17 @@
 				}
 			}
 		}
+		{ count: 4, item: "slashblade:proudsoul" }
+		{ count: 8, item: "slashblade:proudsoul" }
+		{ count: 16, item: "slashblade:proudsoul" }
+		{ count: 4, item: "slashblade:proudsoul_ingot" }
+		{ count: 8, item: "slashblade:proudsoul_ingot" }
+		{ count: 16, item: "slashblade:proudsoul_ingot" }
+		{ item: "cobblenav:pokenav_item" }
+		{ item: "cobblenav:pokenav_item_white" }
+		{ item: "cobblenav:pokenav_item_light_gray" }
+		{ item: "cobblenav:pokenav_item_gray" }
+		{ item: "cobblenav:pokenav_item_black" }
 	]
 	title: "通用奖励 | General Rewards"
 }

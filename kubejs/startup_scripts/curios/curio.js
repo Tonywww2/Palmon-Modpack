@@ -129,13 +129,13 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.armor",
                 "pure_darkness_armor",
-                0.15,
+                0.1,
                 "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.armor_toughness",
                 "pure_darkness_armor_toughness",
-                0.15,
+                0.1,
                 "multiply_total"
             )
         )
@@ -323,8 +323,7 @@ StartupEvents.registry('item', event => {
                             let pokeBallList = Ingredient.of([
                                 '#cobblemon:tier_1_poke_balls',
                                 '#cobblemon:tier_2_poke_balls',
-                                '#cobblemon:tier_3_poke_balls',
-                                '#cobblemon:tier_4_poke_balls'
+                                '#cobblemon:tier_3_poke_balls'
                             ]).getItemIds()
 
                             let stack = Item.of(pokeBallList[player.random.nextInt(pokeBallList.length)])
@@ -348,7 +347,7 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.armor",
                 "factory_armor",
-                0.25,
+                0.15,
                 "multiply_base"
             )
             .modifyAttribute(

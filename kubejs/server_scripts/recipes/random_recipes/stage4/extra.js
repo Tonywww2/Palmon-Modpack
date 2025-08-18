@@ -149,18 +149,18 @@ function e4EFF(event) {
         .id('kubejs:voucher_4_3')
 
     event.recipes.thermal.smelter([Item.of('kubejs:alpha_framework', 2 + global.frameworkAddition), 'kubejs:essence_computation_frame'],
-        ['kubejs:essence_computation_frame', '2x #forge:gears/dawnstone', '#forge:gears/steel']
-    ).energy(12800)
+        ['kubejs:essence_computation_frame', '8x #forge:gears/dawnstone', '8x #forge:gears/steel']
+    ).energy(25600)
         .id('kubejs:eff_alpha_framework_s4')
 
     event.recipes.thermal.smelter([Item.of('kubejs:beta_framework', 1 + global.frameworkAddition), 'kubejs:essence_computation_frame'],
-        ['kubejs:essence_computation_frame', 'kubejs:alpha_framework', '#kubejs:stage2_convergence']
-    ).energy(25600)
+        ['kubejs:essence_computation_frame', '2x kubejs:alpha_framework', '2x #kubejs:stage2_convergence']
+    ).energy(51200)
         .id('kubejs:eff_beta_framework_s4')
 
     event.recipes.thermal.smelter([Item.of('kubejs:gamma_framework', 1 + global.frameworkAddition), 'kubejs:essence_computation_frame'],
-        ['kubejs:essence_computation_frame', 'kubejs:beta_framework', '8x kubejs:stable_desh_ingot']
-    ).energy(51200)
+        ['kubejs:essence_computation_frame', '3x kubejs:beta_framework', '16x kubejs:stable_desh_ingot']
+    ).energy(102400)
         .id('kubejs:eff_gamma_framework_s4')
 
     event.custom({

@@ -126,7 +126,7 @@ ServerEvents.recipes(event => {
 
     event.recipes.thermal.smelter('2x kubejs:superconducting_coil_type_1',
         ['21x techreborn:cupronickel_heating_coil', '15x thermal:rf_coil', '12x techreborn:electronic_circuit']
-    ).energy(2048000)
+    ).energy(204800)
         .id('kubejs:superconducting_coil_type_1_s4')
 
     event.recipes.thermal.smelter('3x tfc:powder/flux',

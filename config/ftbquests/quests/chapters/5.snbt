@@ -160,6 +160,7 @@
 		}
 		{
 			dependencies: ["0D04C151CA099222"]
+			description: ["BOSS：末影守卫"]
 			icon: "cataclysm:void_eye"
 			id: "122502AE9782F1C5"
 			rewards: [
@@ -176,6 +177,7 @@
 					type: "random"
 				}
 			]
+			subtitle: "BOSS"
 			tasks: [{
 				id: "1BB9B8B7BF0967A0"
 				structure: "cataclysm:ruined_citadel"
@@ -473,7 +475,11 @@
 		}
 		{
 			dependencies: ["44B9914AFDCCA987"]
-			description: ["在此阶段，你将会解锁三份&l&e灵感&l&f。"]
+			description: [
+				"在此阶段，你将会解锁三份&l&e灵感&l&f。"
+				""
+				"如果对应的任务目标物品存在&d不需要Epsilon 尘&r的配方，则代表它是你现阶段的目标..."
+			]
 			icon: "kubejs:anchor_shard"
 			id: "46E035BDE38016C4"
 			rewards: [
@@ -821,6 +827,10 @@
 			dependencies: [
 				"5BB05D777DB5E7FC"
 				"60C956E6C21CA69F"
+			]
+			description: [
+				"流浪商人存在于某些特定的结构内..."
+				"也可以直接合成刷怪蛋..."
 			]
 			id: "6C3FB00EDD463FA3"
 			rewards: [
@@ -1801,7 +1811,7 @@
 			dependencies: ["1576D14D77DC19F7"]
 			description: [
 				""
-				"{image:ftbquest:textures/recipes/aether_work_production.png width:200 height:116 align:center}"
+				"{image:ftbquest:textures/tutorial/aether_work_production.png width:200 height:116 align:center}"
 			]
 			icon: "aetherworks:prism"
 			id: "086E12C0C4708393"

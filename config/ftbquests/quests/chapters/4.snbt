@@ -153,7 +153,7 @@
 		}
 		{
 			dependencies: ["7FC968D263AEA122"]
-			description: ["&c注意：由于群峦传说会给很多物品添加热量的Capability（比如金属锭），会导致AE认为从JEI/EMI中调用的这些材料与你网络中的材料不匹配，你需要手动从网络中选取不匹配的材料，然后手动将其放入样板中（成品也可能会有此问题）。"]
+			description: [""]
 			hide_until_deps_complete: true
 			id: "4BC78FBF5168C6A5"
 			rewards: [
@@ -1124,6 +1124,8 @@
 				"在此阶段，你将会解锁三份&l&e灵感&l&f。"
 				""
 				"......帮助越大，代价越高。"
+				""
+				"如果对应的任务目标物品存在&d不需要Epsilon 尘&r的配方，则代表它是你现阶段的目标..."
 			]
 			icon: "kubejs:anchor_shard"
 			id: "5C182F768906554A"
@@ -2543,6 +2545,7 @@
 		}
 		{
 			dependencies: ["38E0E60050DF0A80"]
+			description: ["BOSS：炎魔"]
 			icon: "cataclysm:flame_eye"
 			id: "121A564BB0FDC457"
 			rewards: [
@@ -2559,6 +2562,7 @@
 					type: "random"
 				}
 			]
+			subtitle: "BOSS"
 			tasks: [{
 				id: "4E79D766BA22597C"
 				structure: "cataclysm:burning_arena"
@@ -2779,6 +2783,7 @@
 		}
 		{
 			dependencies: ["2BA2D49F67F26CA7"]
+			description: ["BOSS：远古遗魂"]
 			icon: "cataclysm:desert_eye"
 			id: "177D126EC3FF303A"
 			rewards: [
@@ -2795,6 +2800,7 @@
 					type: "random"
 				}
 			]
+			subtitle: "BOSS"
 			tasks: [{
 				id: "5997405528C81A36"
 				structure: "cataclysm:cursed_pyramid"
@@ -2999,6 +3005,28 @@
 			}]
 			x: 2.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["4BC78FBF5168C6A5"]
+			description: [
+				"&c注意："
+				"由于群峦传说会给很多物品添加热量的Forge Capability（比如金属锭），会导致AE认为从JEI/EMI中调用的这些材料与你网络中的材料不匹配，你需要手动从网络中选取不匹配的材料，然后手动将其放入样板中（成品也可能会有此问题）。"
+				""
+				"同时由于OEI的替换物品功能，建议在制作加工金属锭等带有Forge Capability的物品时，先将他们输出至木桶，然后再导入AE网络。"
+				""
+				"&a如果你对这些本不应该存在的额外操作感到厌烦，请前往AE和OEI的反馈渠道进行反馈！作者也已经向这些项目的开发组反馈过了，并且由于这些项目的复杂性，完全无法于整合包侧进行修复。&r"
+			]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "2A7C50B9F526A2E3"
+			shape: "hexagon"
+			subtitle: "必读"
+			tasks: [{
+				id: "7E4AC16F3B327FC2"
+				type: "checkmark"
+			}]
+			title: "AE的特别注释"
+			x: 2.0d
+			y: -6.0d
 		}
 	]
 	title: "4. 火星 | The Mars"

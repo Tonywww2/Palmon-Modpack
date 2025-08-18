@@ -49,7 +49,12 @@
     },
     "ars_nouveau:worn_notebook": {
       "viewedEntries": [
-        "ars_nouveau:resources/wilden"
+        "ars_nouveau:resources/wilden",
+        "ars_nouveau:source/relay",
+        "ars_nouveau:source/relay_splitter",
+        "ars_nouveau:source/relay_deposit",
+        "ars_nouveau:source/relay_warp",
+        "ars_nouveau:source/relay_collector"
       ],
       "bookmarks": [],
       "completedManualQuests": []

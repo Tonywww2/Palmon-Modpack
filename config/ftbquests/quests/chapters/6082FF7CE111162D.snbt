@@ -33,7 +33,9 @@
 				"本整合包使用的是EMI，一个拥有更多功能的JEI。但同时也安装了JEI用于给EMI提供一些模组配方的兼容。"
 				"对着一个物品按&aU键&r查看这个物品的用途，按&aR键&r查看这个物品的来源。"
 				""
-				"&a强烈建议在拿到一个物品后或者在寻找某样东西的配方时，粗略的把所有的来源都略过一遍！&r"
+				"&c记得翻页！记得翻页！记得翻页！"
+				""
+				"&r&a强烈建议在拿到一个物品后或者在寻找某样东西的配方时，粗略的把所有的来源都略过一遍！&r"
 			]
 			icon: "embers:tinker_lens"
 			id: "331269F64269B90F"
@@ -78,6 +80,7 @@
 			]
 			icon: "embers:smoky_tinker_lens"
 			id: "16DC1F55C01F9E1F"
+			subtitle: "你藏哪去了"
 			tasks: [{
 				id: "4D7EC1E13A85ABB2"
 				type: "checkmark"
@@ -100,6 +103,7 @@
 			]
 			icon: "minecraft:oak_sapling"
 			id: "7DFADBA0F1A34561"
+			subtitle: "晕"
 			tasks: [{
 				id: "595592860A6CBA9B"
 				type: "checkmark"
@@ -107,6 +111,100 @@
 			title: "EMI合成树"
 			x: 2.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["33E33FCA416448CA"]
+			description: [
+				"按住默认&a`键&r后，你可以一次性挖掘至多32个方块，但是同时会消耗大量的饱食度与口渴值。"
+				""
+				"在群峦星时记得小心塌方！"
+			]
+			icon: {
+				Count: 1
+				id: "avaritia:infinity_pickaxe"
+				tag: { }
+			}
+			id: "0D2BF86910459FF1"
+			subtitle: "世界的吞噬者"
+			tasks: [{
+				id: "22EE47CD10DA7C60"
+				type: "checkmark"
+			}]
+			title: "连锁采掘"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["33E33FCA416448CA"]
+			description: ["宝可梦定位仪[Pokenav]可以搜索你附近的宝可梦。"]
+			icon: "cobblenav:pokenav_item"
+			id: "3435A806CA5DA815"
+			subtitle: "透视锁头"
+			tasks: [{
+				id: "55275ED9D33CA39E"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["33E33FCA416448CA"]
+			description: ["小市场可以用于购买一些道具。"]
+			id: "5E5BEC632DA58EED"
+			subtitle: "交易"
+			tasks: [{
+				id: "44D30BB2FAF03642"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["33E33FCA416448CA"]
+			description: [
+				"动态联合/集成动力是一个非常强大的物流/仓储模组。"
+				"在此只做一些基本的物流介绍，更高级的功能请自行查询相关wiki/教程。"
+				""
+				"如果你想把物品从容器A提取至容器B，则需要使用物品接口将容器A连接至逻辑线缆，然后再用物品输出口将容器B与线缆连接，最后打开物品输出口，在输出所有物品一栏插入一张空的变量卡。"
+				""
+				"流体/能量也是类似的逻辑。"
+				""
+				"动态联合网络的原理是，将被接口连接的容器合并一个虚拟的容器（与AE的存储总线类似），然后就可以通过输入口/输出口访问了。"
+				""
+				"&c注意：除非效率严重不足，否则强烈不建议调低任何动态联合部件的更新周期（保持在4，效率充足时甚至可以调高），可能会在大量滥用后造成性能问题（虽然大多数情况下不会）。&r"
+				""
+				""
+				"{image:ftbquest:textures/tutorial/integrated_dynamic.png width:200 height:88 align:center}"
+			]
+			icon: "integrateddynamics:cable"
+			id: "0EAB8D2901B87DD2"
+			subtitle: "比管道更高级"
+			tasks: [{
+				id: "0D53878A8A8EE41C"
+				type: "checkmark"
+			}]
+			title: "动态联合物流"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33E33FCA416448CA"]
+			description: [
+				"你是否希望更方便的饮水？"
+				""
+				"在EMI中搜索@waterflasks，查看各种可以制作的水壶！"
+			]
+			icon: "waterflasks:red_steel_flask"
+			id: "2ACB4F6501B5CF6A"
+			subtitle: "渴了"
+			tasks: [{
+				id: "6D47D6E5C77F8B52"
+				type: "checkmark"
+			}]
+			title: "水壶"
+			x: 4.0d
+			y: 0.0d
 		}
 	]
 	title: "教程 | Tutorial"

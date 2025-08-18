@@ -4,11 +4,12 @@
 function s3NC(event) {
     event.shaped('2x nuclearcraft:plate_basic', [
         'BA',
-        'AB'
+        'CB'
     ],
         {
-            A: '#forge:plates/lead',
-            B: '#forge:dusts/graphite'
+            A: '#forge:gears/lead',
+            B: '#forge:dusts/graphite',
+            C: '#forge:plates/desh'
         }).id('kubejs:nc_plate_basic_s3')
 
     event.shaped('nuclearcraft:manufactory', [

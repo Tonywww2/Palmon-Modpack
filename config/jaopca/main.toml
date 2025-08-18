@@ -23,16 +23,27 @@
 #Configurations related to material overrides.
 [materialOverrides]
 	#List of materials that should be gems.
-	gem = ["diamond", "emerald", "lapis", "prismarine", "quartz"]
+	gem = [
+		"diamond",
+		"emerald",
+		"lapis",
+		"prismarine",
+		"quartz"
+]
 	#List of materials that should be crystals.
 	crystal = []
 	#List of materials that should be dusts.
-	dust = ["glowstone", "redstone"]
+	dust = [
+		"glowstone",
+		"redstone"
+]
 
 #Configurations related to item selection.
 [itemSelection]
 	#List of mods that are preferred when selecting items in recipes.
-	preferredMods = ["minecraft"]
+	preferredMods = [
+		"minecraft"
+]
 
 #Configurations related to block tags.
 [blockTags]
@@ -44,9 +55,21 @@
 #Configurations related to item tags.
 [itemTags]
 	#List of item tags that should not be added.
-	blacklist = ["forge:ingots/neutronium", "forge:ingots/dragonsteel_fire", "forge:ingots/dragonsteel_ice", "forge:ingots/dragonsteel_lightning", "forge:ingots/cast_iron"]
+	blacklist = [
+		"forge:ingots/neutronium",
+		"forge:ingots/dragonsteel_fire",
+		"forge:ingots/dragonsteel_ice",
+		"forge:ingots/dragonsteel_lightning",
+		"forge:ingots/cast_iron"
+]
 	#List of item tags that should be considered as defined.
-	customDefined = ["forge:ingots/neutronium", "forge:ingots/dragonsteel_fire", "forge:ingots/dragonsteel_ice", "forge:ingots/dragonsteel_lightning", "forge:ingots/cast_iron"]
+	customDefined = [
+		"forge:ingots/neutronium",
+		"forge:ingots/dragonsteel_fire",
+		"forge:ingots/dragonsteel_ice",
+		"forge:ingots/dragonsteel_lightning",
+		"forge:ingots/cast_iron"
+]
 
 #Configurations related to fluid tags.
 [fluidTags]
@@ -83,6 +106,8 @@
 [data]
 	#List of data modules that should not be registered.
 	moduleBlacklist = []
+	#List of custom tag entries to add. Use "item" as registry for item tags, "fluid" for fluid tags, etc. Format: "registry#namespace:entry=namespace:tag"
+	customTags = []
 
 #Configurations related to color generation.
 [colors]

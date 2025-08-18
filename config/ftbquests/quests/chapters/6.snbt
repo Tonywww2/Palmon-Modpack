@@ -2059,6 +2059,12 @@
 		{
 			dependencies: ["35835B48174A9C1F"]
 			id: "1D479E5C372C22C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "117F15753C342A01"
+				table_id: 3228015877926755161L
+				type: "loot"
+			}]
 			tasks: [{
 				id: "6286F49EE1CD9E2C"
 				item: {

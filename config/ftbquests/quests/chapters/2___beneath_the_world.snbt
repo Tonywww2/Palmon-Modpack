@@ -933,6 +933,8 @@
 				"除了普通的&l&e灵感&l&f以外，你还可能解锁&l&e特制灵感&l&f。"
 				""
 				"&l&e特制灵感&l&f通常包含一些基于现有材料与设备的特殊配方，这些配方可以帮助你更加有效率的制作一些物品。"
+				""
+				"如果对应的任务目标物品存在&d不需要紫金引擎&r的配方，则代表它是你现阶段的目标..."
 			]
 			hide_until_deps_complete: true
 			icon: "kubejs:anchor_shard"
@@ -2298,6 +2300,28 @@
 			}]
 			x: 0.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["77A47F13DB1D39E4"]
+			description: [
+				"&c注意："
+				"由于群峦传说会给很多物品添加热量的Forge Capability（比如金属锭），会导致AE认为从JEI/EMI中调用的这些材料与你网络中的材料不匹配，你需要手动从网络中选取不匹配的材料，然后手动将其放入样板中（成品也可能会有此问题）。"
+				""
+				"同时由于OEI的替换物品功能，建议在制作加工金属锭等带有Forge Capability的物品时，先将他们输出至木桶，然后再导入AE网络。"
+				""
+				"&a如果你对这些本不应该存在的额外操作感到厌烦，请前往AE和OEI的反馈渠道进行反馈！作者也已经向这些项目的开发组反馈过了，并且由于这些项目的复杂性，完全无法于整合包侧进行修复。&r"
+			]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "0918492F523DAD8F"
+			shape: "hexagon"
+			subtitle: "必读"
+			tasks: [{
+				id: "4B083CF42230008C"
+				type: "checkmark"
+			}]
+			title: "AE的特别注释"
+			x: 20.0d
+			y: 6.0d
 		}
 	]
 	title: "2. 群峦之下 | Beneath the World"

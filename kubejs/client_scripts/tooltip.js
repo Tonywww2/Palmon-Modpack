@@ -18,6 +18,7 @@ let curiosList = [
     'kubejs:ancient_proudsoul_tiny',
 
     'kubejs:scranton_reality_anchor',
+    'kubejs:phosphophyllite',
     'kubejs:deity_from_the_outside',
     'kubejs:true_three_goddess',
     'kubejs:old_george_nutritional_puree',
@@ -35,13 +36,6 @@ let itemList = [
 
 ]
 let deliveryCoordinate = ['kubejs:delivery_coordinate_gamma', 'kubejs:delivery_coordinate_epsilon', 'kubejs:delivery_coordinate_ultimate']
-
-const enchantMap = {
-    'ad_astra_giselle_addon:space_breathing': 3,
-    'ad_astra_giselle_addon:space_fire_proof': 2,
-    'ad_astra_giselle_addon:acid_rain_proof': 2,
-    'ad_astra_giselle_addon:gravity_normalizing': 0
-}
 
 ItemEvents.tooltip(event => {
     /**
@@ -82,6 +76,16 @@ ItemEvents.tooltip(event => {
             text.add(2, Text.empty())
 
         })
+
+    })
+
+    event.addAdvanced('kubejs:scranton_reality_anchor', (item, advanced, text) => {
+        text.add(4, Text.translate("ui.kubejs.scranton_reality_anchor_2").gold())
+
+    })
+    event.addAdvanced('kubejs:phosphophyllite', (item, advanced, text) => {
+        text.add(4, Text.translate("ui.kubejs.phosphophyllite_2").gold())
+        text.add(5, Text.translate("ui.kubejs.phosphophyllite_3").darkRed())
 
     })
 
@@ -193,19 +197,6 @@ ItemEvents.tooltip(event => {
     event.addAdvanced(Ingredient.all, (item, advanced, text) => {
         if (event.alt && item.nbt) {
             text.add(Text.of('NBT: ').append(Text.prettyPrintNbt(item.nbt)))
-        }
-    })
-
-    event.addAdvanced('minecraft:enchanted_book', (item, advanced, text) => {
-        let flag = false
-        for (let key in enchantMap) {
-            if (item.getEnchantments().containsKey(key)) {
-                flag = true
-                break
-            }
-        }
-        if (flag) {
-            text.add(1, Text.translatable("ui.kubejs.enchant").gold())
         }
     })
 

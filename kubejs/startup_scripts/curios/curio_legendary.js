@@ -47,6 +47,66 @@ StartupEvents.registry('item', event => {
         .rarity('epic')
         .tag("curios:accessory")
 
+    event.create('phosphophyllite')
+        .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
+            .canEquip((item, context) => {
+                return true
+            })
+            .canUnequip((item, context) => {
+                return false
+            })
+            .modifyAttribute(
+                "minecraft:generic.max_health",
+                "phosphophyllite_max_health",
+                -0.14,
+                "multiply_total"
+            )
+            .modifyAttribute(
+                "minecraft:generic.armor",
+                "phosphophyllite_armor",
+                -0.14,
+                "multiply_total"
+            )
+            .modifyAttribute(
+                "minecraft:generic.armor_toughness",
+                "phosphophyllite_armor_toughness",
+                -0.14,
+                "multiply_total"
+            )
+            .modifyAttribute(
+                "minecraft:generic.attack_damage",
+                "phosphophyllite_attack_damage",
+                -7,
+                "addition"
+            )
+            .modifyAttribute(
+                "minecraft:generic.attack_speed",
+                "phosphophyllite_attack_damage",
+                -0.7,
+                "addition"
+            )
+            .dynamicAttribute(ctx => {
+                ctx.modify(
+                    $SlotAttribute.getOrCreate('accessory'),
+                    "phosphophyllite_slots_accessory",
+                    -2,
+                    'addition'
+                )
+                ctx.modify(
+                    $SlotAttribute.getOrCreate('otherworld_relics'),
+                    "phosphophyllite_slots_otherworld_relics",
+                    2,
+                    'addition'
+                )
+            })
+        )
+        .displayName('§dPhosphophyllite')
+        .unstackable()
+        .fireResistant()
+        .glow(true)
+        .rarity('epic')
+        .tag("curios:otherworld_relics")
+
     event.create('deity_from_the_outside')
         .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
             .canEquip((item, context) => {
@@ -91,13 +151,13 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.armor",
                 "deity_armor",
-                0.25,
+                0.15,
                 "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.armor_toughness",
                 "deity_armor_toughness",
-                0.25,
+                0.15,
                 "multiply_total"
             )
             .modifyAttribute(
@@ -687,7 +747,7 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.armor",
                 "rune_armor_multiply_base",
-                0.3,
+                0.15,
                 "multiply_base"
             )
         )
