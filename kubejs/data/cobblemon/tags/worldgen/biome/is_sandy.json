@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
-    "tfc:badlands"
+    "tfc:badlands",
+    "rats:ratlantis",
+    "ad_astra:martian_canyon_creek",
+    "ad_astra:martian_wastelands",
+    "ad_astra:venus_wastelands"
   ]
 }

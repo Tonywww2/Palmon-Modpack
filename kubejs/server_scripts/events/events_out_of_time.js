@@ -277,7 +277,9 @@ PlayerEvents.advancement('dustandash:entry', event => {
     let player = event.player
     // player.tell("第一次登陆提示")
 
+    // 第一次登录初始化
     event.server.runCommandSilent(`/curios set curio ${player.name.getString()} 0`)
+    event.player.give(Item.of('ftbquests:book'))
 
     if (global.current_buffs.size != 0) {
         player.tell(Text.translatable('kubejs.eot.first_login_info').color(Color.AQUA))

@@ -284,7 +284,9 @@ global.idsToRemove = new Set([
     'ad_astra:engine_frame_framework',
     'ad_astra:gas_tank',
     'tconstruct:tools/modifiers/upgrade/necrotic',
-    'techreborn:chemical_reactor/glyceryl_fixed'
+    'techreborn:chemical_reactor/glyceryl',
+    'techreborn:chemical_reactor/glyceryl_fixed',
+    'industrialforegoingsouls:soul_laser_base'
 ])
 
 ServerEvents.recipes(event => {

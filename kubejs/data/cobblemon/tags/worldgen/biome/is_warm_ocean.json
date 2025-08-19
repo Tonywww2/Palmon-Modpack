@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "tfc:ocean_reef"
+    "tfc:ocean_reef",
+    "rats:ratlantis"
   ]
 }

@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "tfc:mountains"
+    "tfc:mountains",
+    "rats:ratlantis",
+    "ad_astra:lunar_wastelands"
   ]
 }

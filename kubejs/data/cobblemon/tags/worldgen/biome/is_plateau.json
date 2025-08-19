@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "tfc:plateau"
+    "tfc:plateau",
+    "rats:ratlantis"
   ]
 }

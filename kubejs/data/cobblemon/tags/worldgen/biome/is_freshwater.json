@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "tfc:lake",
-    "tfc:river"
+    "tfc:river",
+    "rats:ratlantis"
   ]
 }

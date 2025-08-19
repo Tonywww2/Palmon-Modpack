@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "tfc:volcanic_mountains"
+    "tfc:volcanic_mountains",
+    "rats:ratlantis",
+    "ad_astra:martian_canyon_creek"
   ]
 }

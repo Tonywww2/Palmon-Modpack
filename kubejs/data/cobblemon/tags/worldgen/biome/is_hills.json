@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "tfc:hills"
+    "tfc:hills",
+    "rats:ratlantis",
+    "ad_astra:lunar_wastelands",
+    "ad_astra:venus_wastelands"
   ]
 }

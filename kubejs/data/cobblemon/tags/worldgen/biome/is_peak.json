@@ -2,6 +2,9 @@
   "replace": false,
   "values": [
     "tfc:highlands",
-    "tfc:mountains"
+    "tfc:mountains",
+    "rats:ratlantis",
+    "ad_astra:glacio_ice_peaks",
+    "ad_astra:glacio_snowy_barrens"
   ]
 }

@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
-    "tfc:badlands"
+    "tfc:badlands",
+    "rats:ratlantis",
+    "ad_astra:infernal_venus_barrens",
+    "ad_astra:martian_wastelands",
+    "ad_astra:venus_wastelands"
   ]
 }

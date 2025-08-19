@@ -620,6 +620,30 @@ ServerEvents.recipes(event => {
     }).id('kubejs:aether_amalgam_s6')
 
     deFusionCrafting(event, [
+        Item.of('kubejs:epsilon_dust').toJson(),
+        Item.of('kubejs:epsilon_dust').toJson(),
+        Item.of('kubejs:epsilon_dust').toJson(),
+        Item.of('kubejs:epsilon_dust').toJson(),
+
+
+        Item.of('techreborn:uu_matter').toJson(),
+        Item.of('techreborn:uu_matter').toJson(),
+        Item.of('cataclysm:abyssal_sacrifice').toJson(),
+        Item.of('tinkers_advanced:disintegrate_crystal').toJson(),
+
+        Item.of('cataclysm:cursium_ingot').toJson(),
+        Item.of('cataclysm:gauntlet_of_maelstrom').toJson(),
+        Item.of('draconicevolution:item_draconic_energy_link').toJson(),
+        Item.of('#forge:storage_blocks/apatite').toJson()
+    ],
+        Item.of('kubejs:epsilon_framework').toJson(),
+        Item.of('kubejs:phosphophyllite').toJson(),
+        "DRACONIC",
+        50000000,
+        'kubejs:phosphophyllite_s6'
+    )
+
+    deFusionCrafting(event, [
         Item.of('tconstruct:ender_slime_ball').toJson(),
         Item.of('tconstruct:ender_slime_ball').toJson(),
         Item.of('tconstruct:ender_slime_crystal').toJson(),

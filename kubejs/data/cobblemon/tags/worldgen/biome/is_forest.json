@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "tfc:hills",
-    "tfc:rolling_hills"
+    "tfc:rolling_hills",
+    "rats:ratlantis"
   ]
 }

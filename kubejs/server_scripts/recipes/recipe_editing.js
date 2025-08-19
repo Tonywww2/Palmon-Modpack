@@ -31,13 +31,12 @@ ServerEvents.recipes(event => {
     machines.forEach(machineType => {
         let recipes = event.findRecipes({ type: machineType })
         recipes.forEach(recipe => {
-            let originalRecipe = recipe.json
             let rid = recipe.getId()
             if (!global.idsToRemove.has(rid)) {
                 event.remove({ id: rid })
 
                 // console.log(originalRecipe)
-
+                let originalRecipe = recipe.json
                 let power = originalRecipe.get("power").getAsInt() * 8
                 // power = $Integer.valueOf((power + '').split('.')[0])
                 power = new $Double(power).intValue()
