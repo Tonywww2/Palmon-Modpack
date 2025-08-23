@@ -83,7 +83,7 @@ EntityEvents.spawned(event => {
      */
     let player = entity.getLevel().getNearestPlayer(entity, 240)
     let diffNum = 1
-    let isBaby = player.stages.has('baby')
+    let isBaby = false
 
     if (player) {
         player.stages.getAll().forEach(element => {
@@ -91,6 +91,7 @@ EntityEvents.spawned(event => {
                 diffNum = Math.max(diffNum, parseInt(element.split('_')[2]))
             }
         })
+        isBaby = player.stages.has('baby')
 
     }
 

@@ -2,6 +2,21 @@ ForgeEvents.onEvent("net.minecraftforge.event.entity.living.LivingHurtEvent", ev
     global.hurtEvent(event)
 
 })
+
+const arsSummoned = new Set([
+    "entity.ars_elemental.summon_camel",
+    "entity.ars_elemental.summon_direwolf",
+    "entity.ars_elemental.summon_dolphin",
+    "entity.ars_elemental.summon_skelehorse",
+    "entity.ars_elemental.summon_strider",
+    "entity.ars_elemental.summon_vhex",
+    "entity.ars_elemental.summon_wskeleton",
+
+    "entity.ars_nouveau.summon_horse",
+    "entity.ars_nouveau.summon_skeleton",
+    "entity.ars_nouveau.summon_wolf",
+    "entity.ars_nouveau.ally_vex"
+])
 /**
  * @param {Internal.LivingHurtEvent} event 
  */
@@ -39,6 +54,16 @@ global.hurtEvent = function (event) {
         }
         event.setAmount(damage)
 
+    } else {
+        if (arsSummoned.has(String(entity.type.toString()))) {
+            if (entity.getHealth() <= 10) {
+                event.setAmount(event.getAmount() + 10)
+                return
+            }
+            const targetHealth = entity.getHealth() - (entity.getMaxHealth() * 0.15)
+            entity.setHealth(Math.max(5, targetHealth))
+
+        }
     }
 
 }

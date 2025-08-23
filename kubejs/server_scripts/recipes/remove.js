@@ -286,7 +286,9 @@ global.idsToRemove = new Set([
     'tconstruct:tools/modifiers/upgrade/necrotic',
     'techreborn:chemical_reactor/glyceryl',
     'techreborn:chemical_reactor/glyceryl_fixed',
-    'industrialforegoingsouls:soul_laser_base'
+    'industrialforegoingsouls:soul_laser_base',
+    'trials:crafter',
+    'appflux:transform/redstone_crystal'
 ])
 
 ServerEvents.recipes(event => {

@@ -54,6 +54,44 @@ StartupEvents.registry('item', event => {
         .rarity('rare')
         .tag("curios:accessory")
 
+
+    event.create('lance_of_longinus_broken')
+        .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
+            .canEquip((item, context) => {
+                return true
+            })
+            .canUnequip((item, context) => {
+                return true
+            })
+            .onEquip((item1, context, item2) => {
+                // context.entity().tell("On Equip")
+            })
+            .onUnequip((item1, context, item2) => {
+                // context.entity().tell("On Unquip")
+            })
+            .curioTick((item, context) => {
+
+            })
+            .modifyAttribute(
+                "attributeslib:armor_shred",
+                "lance_of_longinus_broken_armor_shred",
+                0.25,
+                "addition"
+            )
+            .modifyAttribute(
+                "minecraft:generic.attack_damage",
+                "lance_of_longinus_broken_attack_damage",
+                -2,
+                "addition"
+            )
+        )
+        .displayName('§dLance of Longinus (broken)')
+        .unstackable()
+        .fireResistant()
+        .glow(true)
+        .rarity('rare')
+        .tag("curios:accessory")
+
     event.create('true_soul_of_light')
         .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
             .canEquip((item, context) => {
@@ -75,25 +113,25 @@ StartupEvents.registry('item', event => {
                 "minecraft:generic.attack_damage",
                 "soul_of_light_attack_damage",
                 0.15,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.attack_speed",
                 "soul_of_light_attack_speed",
                 0.1,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.movement_speed",
                 "soul_of_light_movement_speed",
                 0.1,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "attributeslib:crit_damage",
                 "soul_of_light_critical_damage",
                 0.1,
-                "multiply_total"
+                "multiply_base"
             )
         )
         .displayName('§e⌈Soul of Light⌋')
@@ -124,19 +162,19 @@ StartupEvents.registry('item', event => {
                 "minecraft:generic.max_health",
                 "pure_darkness_max_health",
                 0.15,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.armor",
                 "pure_darkness_armor",
                 0.1,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.armor_toughness",
                 "pure_darkness_armor_toughness",
                 0.1,
-                "multiply_total"
+                "multiply_base"
             )
         )
         .displayName('§e⌈Pure Darkness⌋')
@@ -384,7 +422,7 @@ StartupEvents.registry('item', event => {
                 "minecraft:generic.max_health",
                 "kit_max_health",
                 2.0,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.armor",
@@ -468,13 +506,13 @@ StartupEvents.registry('item', event => {
                 "minecraft:generic.max_health",
                 "sages_health",
                 -0.2,
-                "multiply_base"
+                "multiply_total"
             )
             .modifyAttribute(
                 "minecraft:generic.armor",
                 "sages_armor",
-                -0.96,
-                "multiply_base"
+                -0.95,
+                "multiply_total"
             )
             .modifyAttribute(
                 "obscure_api:critical_hit",
@@ -515,7 +553,7 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "obscure_api:critical_hit",
                 "huntress_critical_hit",
-                0.1,
+                0.2,
                 "addition"
             )
         )

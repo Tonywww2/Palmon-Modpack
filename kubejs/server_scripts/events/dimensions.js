@@ -15,7 +15,7 @@ const hasCurios = (player, id) => {
 }
 
 const ratlantis = (event) => {
-    if (!event.player.stages.has(global.ratlantis)) {
+    if (!hasCurios(player, "kubejs:phosphophyllite")) {
         event.player.tell(Text.translatable('ui.kubejs.banned').gold())
         event.player.tell(Text.translatable('ui.kubejs.banned_dim_rat').gold())
         event.player.addItemCooldown(event.player.mainHandItem, 200)

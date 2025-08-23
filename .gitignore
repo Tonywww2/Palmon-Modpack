@@ -59,3 +59,5 @@ config/DistantHorizons.toml
 servers.dat_old
 servers.dat
 emi.json
+/config/yes_steve_model
+/exposures

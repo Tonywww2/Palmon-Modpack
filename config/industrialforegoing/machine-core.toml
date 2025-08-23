@@ -5,7 +5,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 100
 		#Amount of Power Consumed per Tick - Default: [400FE]
-		powerPerTick = 400
+		powerPerTick = 4000
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 400000
 		#Max Amount of Stored Fluid [Latex] - Default: [8000mB]
@@ -17,7 +17,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 500
 		#Amount of Power Consumed per Operation - Default: [10FE] - This is Calculated as [VALUE * (amount + 1)]
-		powerPerOperation = 1000
+		powerPerOperation = 10000
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 100000
 		#Max Amount of Stored Fluid [Latex] - Default: [8000mB]
@@ -27,7 +27,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 100
 		#Amount of Power Consumed per Tick - Default: [60FE]
-		powerPerTick = 900
+		powerPerTick = 9000
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 100000
 		#Max Amount of Stored Fluid [Input] - Default: [8000mB]

@@ -21,6 +21,18 @@ ServerEvents.recipes(event => {
             D: 'cobblefordays:tier_4'
         }).id('kubejs:cobble_t5_s4')
 
+    event.shaped('kubejs:lance_of_longinus_broken', [
+        ' A ',
+        ' BC',
+        'D  '
+    ],
+        {
+            A: Item.of('tconstruct:small_blade', '{Material:"tconstruct:alfsteel"}').weakNBT(),
+            B: Item.of('botania:blood_pendant', '{brewKey:"botania:bloodthirst"}').weakNBT(),
+            C: Item.of('tconstruct:small_blade', '{Material:"tconstruct:elementium"}').weakNBT(),
+            D: Item.of('tconstruct:tool_handle', '{Material:"tinkers_advanced:resonance_crystal"}').weakNBT()
+        }).id('kubejs:lance_of_longinus_broken_s4')
+
     event.shaped('ae2things:disk_housing', [
         'ADA',
         'BEB',
@@ -165,6 +177,21 @@ ServerEvents.recipes(event => {
         D: 'mythicbotany:alfsteel_ingot',
         E: 'kubejs:delta_framework'
     }).id('kubejs:scranton_reality_anchor_s4')
+
+    event.recipes.createMechanicalCrafting(Item.of('ad_astra_giselle_addon:creative_oxygen_can', '{BotariumData:{StoredFluids:[{Amount:1000L,Fluid:"ad_astra:oxygen"}]}}'), [
+        'AABAA',
+        'ACDCA',
+        'ACECA',
+        'ACFCA',
+        'AAAAA'
+    ], {
+        A: Item.of('ad_astra_giselle_addon:netherite_oxygen_can', '{BotariumData:{StoredFluids:[{Amount:1000L,Fluid:"ad_astra:oxygen"}]}}').weakNBT(),
+        B: 'kubejs:essence_computation_frame',
+        C: 'nuclearcraft:californium_rtg',
+        D: 'nuclearcraft:electrolyzer',
+        E: 'sfm:water_tank',
+        F: 'ad_astra:energizer'
+    }).id('kubejs:creative_oxygen_can_s4')
 
     event.recipes.createCompacting('2x dustandash:netherite_mud', [
         'ad_astra:ostrum_ingot',

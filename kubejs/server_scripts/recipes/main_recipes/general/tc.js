@@ -99,35 +99,41 @@ ServerEvents.recipes(event => {
     tcCastingTable({ "tag": 'forge:sheets' }, true, 200, { "amount": 90, "tag": "forge:molten_gold" }, 'tconstruct:plate_cast', 'kubejs:plate_cast_tfc')
 
     event.custom({
-  "type": "tconstruct:modifier",
-  "allow_crystal": true,
-  "inputs": [
-    {
-      "item": "tconstruct:necrotic_bone"
-    },
-    {
-      "item": "tconstruct:ichor_congealed_slime"
-    },
-    {
-      "item": "minecraft:ghast_tear"
-    }
-  ],
-  "level": {
-    "max": 1
-  },
-  "result": "tconstruct:necrotic",
-  "slots": {
-    "upgrades": 1
-  },
-  "tools": [
-    {
-      "tag": "tconstruct:modifiable/melee"
-    },
-    {
-      "tag": "tconstruct:modifiable/ranged/bows"
-    }
-  ]
-}).id('tconstruct:tools/modifiers/upgrade/necrotic')
+        "type": "tconstruct:modifier",
+        "allow_crystal": true,
+        "inputs": [
+            {
+                "item": "tconstruct:necrotic_bone"
+            },
+            {
+                "item": "tconstruct:ichor_congealed_slime"
+            },
+            {
+                "item": "minecraft:ghast_tear"
+            },
+            {
+                "item": 'minecraft:nether_star'
+            },
+            {
+                "item": 'confluence:demon_heart'
+            }
+        ],
+        "level": {
+            "max": 1
+        },
+        "result": "tconstruct:necrotic",
+        "slots": {
+            "upgrades": 1
+        },
+        "tools": [
+            {
+                "tag": "tconstruct:modifiable/melee"
+            },
+            {
+                "tag": "tconstruct:modifiable/ranged/bows"
+            }
+        ]
+    }).id('tconstruct:tools/modifiers/upgrade/necrotic')
 
     function tcFuel(fluid, duration, rate, temp) {
         event.custom({

@@ -22,6 +22,22 @@ ServerEvents.recipes(event => {
   event.shapeless('minecraft:warped_nylium', ['minecraft:warped_fungus', '#forge:netherrack']).id('kubejs:warped_nylium_s3')
 
   event.shaped(
+    'appflux:redstone_crystal',
+    [
+      'ACA',
+      'BDB',
+      'AEA'
+    ],
+    {
+      A: '#forge:dusts/fluix',
+      B: 'kubejs:stable_desh_ingot',
+      C: 'integrateddynamics:energy_battery',
+      D: '#forge:processors/ostrum',
+      E: 'ae2:sky_dust'
+    }
+  ).id('kubejs:redstone_crystal_s3');
+
+  event.shaped(
     'mekanism_extras:expand_radioactive_waste_barrel',
     [
       'SIS',

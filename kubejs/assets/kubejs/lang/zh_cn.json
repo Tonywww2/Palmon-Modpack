@@ -100,6 +100,7 @@
     "item.kubejs.voucher_5_2": "补给卷 S05T02",
 
     "item.kubejs.present_soul": "§e现世之魂",
+    "item.kubejs.lance_of_longinus_broken": "§e朗基努斯之枪（损坏）",
     "item.kubejs.scranton_reality_anchor": "§d斯克兰顿现实稳定锚",
     "item.kubejs.phosphophyllite": "§d磷叶石",
 
@@ -128,6 +129,7 @@
     "item.kubejs.godricks_great_rune": "§d⌈葛瑞克的大卢恩⌋",
     "item.kubejs.izanagis_burden": "§d⌈伊邪那岐的重担⌋",
     "item.kubejs.ancient_proudsoul": "§d⌈古刀之耀魂⌋",
+    "item.kubejs.redstone_of_aja": "§d⌈艾哲红石⌋",
 
     "block.kubejs.ultra_space_resourse_point": "§e究极空间资源点",
 
@@ -206,6 +208,7 @@
     "ui.kubejs.divergence_meter": "⌈Steins;Gate⌋ El Psy Kongroo",
     "ui.kubejs.inspiration_mushroom": "灵感菇力菇力菇力菇力菇力",
     "ui.kubejs.ancient_proudsoul_tiny": "A-A-A-A-A",
+    "ui.kubejs.redstone_of_aja": "⌈JoJo⌋ 究极生物",
 
     "ui.kubejs.deity_from_the_outside": "⌈Noctuary⌋ 光使，岁月，生活",
     "ui.kubejs.true_three_goddess": "⌈Umamusume⌋ 向着永久延续的荣光",

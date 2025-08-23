@@ -241,5 +241,14 @@
             "nuclearcraft:chromium_ingot"
         ],
         "resultItems": "techreborn:chrome_ingot"
+    },
+    {
+        "tag": "forge:ingots/stainless_steel",
+        "material": "stainless_steel",
+        "matchItems":
+        [
+            "nuclearcraft:stainless_steel_ingot"
+        ],
+        "resultItems": "firmalife:metal/ingot/stainless_steel"
     }
 ]

@@ -81,9 +81,9 @@ StartupEvents.registry('item', event => {
             )
             .modifyAttribute(
                 "minecraft:generic.attack_speed",
-                "phosphophyllite_attack_damage",
-                -0.7,
-                "addition"
+                "phosphophyllite_attack_speed",
+                -0.07,
+                "multiply_total"
             )
             .dynamicAttribute(ctx => {
                 ctx.modify(
@@ -128,7 +128,7 @@ StartupEvents.registry('item', event => {
                 "minecraft:generic.attack_damage",
                 "deity_attack_damage",
                 0.25,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.attack_speed",
@@ -140,25 +140,19 @@ StartupEvents.registry('item', event => {
                 "minecraft:generic.movement_speed",
                 "deity_movement_speed",
                 0.25,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.max_health",
                 "deity_max_health",
-                0.3,
-                "multiply_total"
+                0.2,
+                "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.armor",
                 "deity_armor",
                 0.15,
-                "multiply_total"
-            )
-            .modifyAttribute(
-                "minecraft:generic.armor_toughness",
-                "deity_armor_toughness",
-                0.15,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "obscure_api:critical_hit",
@@ -170,7 +164,7 @@ StartupEvents.registry('item', event => {
                 "obscure_api:critical_damage",
                 "deity_critical_damage",
                 0.15,
-                "multiply_total"
+                "multiply_base"
             )
         )
         .displayName('§d⌈Deity from outside the Arboretia⌋')
@@ -257,7 +251,7 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.movement_speed",
                 "goddess_movement_speed",
-                0.075,
+                0.065,
                 "addition"
             )
             .modifyAttribute(
@@ -452,7 +446,7 @@ StartupEvents.registry('item', event => {
                 "minecraft:generic.attack_speed",
                 "galaxy_attack_speed_multiply",
                 -0.99,
-                "multiply_base"
+                "multiply_total"
             )
         )
         .displayName('§d⌈Miniature Galaxy⌋')
@@ -603,7 +597,7 @@ StartupEvents.registry('item', event => {
                 "minecraft:generic.attack_damage",
                 "sun_attack_damage_multiply_total",
                 0.15,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "obscure_api:critical_hit",
@@ -711,19 +705,19 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.attack_damage",
                 "rune_attack_damage_addition",
-                4,
+                3,
                 "addition"
             )
             .modifyAttribute(
                 "minecraft:generic.attack_damage",
                 "rune_attack_damage_multiply_base",
-                0.35,
+                0.2,
                 "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.attack_speed",
                 "rune_attack_speed_addition",
-                0.4,
+                0.3,
                 "addition"
             )
             .modifyAttribute(
@@ -735,7 +729,7 @@ StartupEvents.registry('item', event => {
             .modifyAttribute(
                 "minecraft:generic.max_health",
                 "rune_max_health_multiply_base",
-                0.3,
+                0.35,
                 "multiply_base"
             )
             .modifyAttribute(
@@ -781,9 +775,9 @@ StartupEvents.registry('item', event => {
             )
             .modifyAttribute(
                 "malum:scythe_proficiency",
-                "izanagi_scythe_proficiency_multiply_total",
+                "izanagi_scythe_proficiency_multiply_base",
                 14.0,
-                "multiply_total"
+                "multiply_base"
             )
             .modifyAttribute(
                 "minecraft:generic.attack_damage",
@@ -869,10 +863,64 @@ StartupEvents.registry('item', event => {
                 "confluence:magic_damage",
                 "ancient_proudsoul_magic_damage",
                 0.15,
-                "multiply_total"
+                "multiply_base"
             )
         )
         .displayName("⌈Ancient Proud Soul⌋")
+        .unstackable()
+        .fireResistant()
+        .glow(true)
+        .rarity('epic')
+        .tag("curios:otherworld_relics")
+
+    event.create('redstone_of_aja')
+        .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
+            .canEquip((item, context) => {
+                return true
+            })
+            .canUnequip((item, context) => {
+                return true
+            })
+            .onEquip((item1, context, item2) => {
+                // context.entity().tell("On Equip")
+            })
+            .onUnequip((item1, context, item2) => {
+            })
+            .curioTick((item, context) => {
+
+            })
+            .modifyAttribute(
+                "ars_nouveau:ars_nouveau.perk.spell_damage",
+                "redstone_of_aja_spell_damage",
+                32.0,
+                "addition"
+            )
+            .modifyAttribute(
+                "confluence:magic_damage",
+                "redstone_of_aja_spell_damage",
+                2.25,
+                "multiply_total"
+            )
+            .modifyAttribute(
+                "obscure_api:critical_hit",
+                "redstone_of_aja_critical_hit",
+                0.15,
+                "addition"
+            )
+            .modifyAttribute(
+                "minecraft:generic.attack_damage",
+                "redstone_of_aja_attack_damage",
+                -0.65,
+                "multiply_total"
+            )
+            .modifyAttribute(
+                "attributeslib:arrow_velocity",
+                "redstone_of_aja_arrow_velocity",
+                -0.65,
+                "multiply_total"
+            )
+        )
+        .displayName("⌈Redstone Of Aja⌋")
         .unstackable()
         .fireResistant()
         .glow(true)

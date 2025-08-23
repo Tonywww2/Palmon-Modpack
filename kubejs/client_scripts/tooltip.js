@@ -29,6 +29,7 @@ let curiosList = [
     'kubejs:godricks_great_rune',
     'kubejs:izanagis_burden',
     'kubejs:ancient_proudsoul',
+    'kubejs:redstone_of_aja',
 ]
 let itemList = [
     'kubejs:helium_3_crystal_infinity',

@@ -75,7 +75,7 @@
 [[entities]]
 	entity = "cataclysm:ignis"
 	minTier = 2
-	maxTier = 7
+	maxTier = 6
 	presetAffixes = []
 	affixList = ["champions:shielding"]
 	affixPermission = "BLACKLIST"
