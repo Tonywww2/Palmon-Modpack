@@ -1,0 +1,63 @@
+{
+  "spec": 2,
+  "metadata": {
+    "name": "伊蕾娜-初夏的苍穹",
+    "tips": "披着一头灰色秀发，身着蓝白配色长裙，\n其美貌与才能散发的光芒，\n连太阳见了都会不由眯起眼睛的美女，\n究竟是谁呢？\n没错，就是我Elaina啦！！！",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "qf",
+        "role": "模型",
+        "avatar": "avatar/touxiang.png",
+        "contact": {
+          "bilibili":"https://space.bilibili.com/452194950"
+        },
+        "comment": "你也可以叫我  Elaina0_0老师?"
+      }
+          ],
+    "link": {
+      "home": "",
+      "donate": ""
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "可爱wink",
+      "extra1": "挥手",
+      "extra2": "抓帽子",
+      "extra3": "点头",
+      "extra4": "摇头",
+      "extra5": "左右摆手",
+      "extra6": "跳舞",
+      "extra7": "魔杖指挥"
+    },
+    "preview_animation": "choose",
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac":"animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+        
+      },
+      "texture": [
+        "textures/texture.png"
+        
+      ]
+    }
+  }
+}

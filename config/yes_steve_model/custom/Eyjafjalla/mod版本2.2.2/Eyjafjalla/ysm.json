@@ -1,0 +1,70 @@
+{
+  "spec": 2,
+  "metadata": {
+    "name": "Default",
+    "tips": "纯烬艾雅法拉（Eyjafjalla the Hvít Aska）",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "妖梦",
+        "role": "模型",
+        "avatar": "avatar/youmu.png",
+        "contact": {
+          "Afdian": "https://afdian.com/a/ll45I4",
+          "Bilibili": "https://space.bilibili.com/1436299"
+        },
+        "comment": "能力有限    996ing..."
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "[原版]打招呼",
+      "extra2": "[原版]鼓掌",
+      "extra3": "[原版]是的",
+      "extra4": "[原版]不行",
+      "extra5": "撑伞",
+      "extra6": "随机骰子",
+      "extra7": "切换服装显示"
+    },
+    "preview_animation": "preview",
+    "default_texture": "texture1",
+    "render_layers_first": false,
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "texture": [
+        //"textures/texture.png",<——————————半透明贴图闪退停用
+        "textures/texture1.png"
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": "textures/arrow.png"
+    }
+  }
+}
