@@ -254,18 +254,6 @@
 
     "curios.modifiers.otherworld_relics": "与该遗物同调时： ",
 
-    "obscure_api.accuracy": "命中率",
-    "obscure_api.criticalDamage": "第二暴击伤害",
-    "obscure_api.criticalHit": "第二暴击率",
-    "obscure_api.dodge": "闪避",
-    "obscure_api.healingPower": "治疗量",
-    "obscure_api.magicDamage": "魔法伤害",
-    "obscure_api.magicResistance": "魔法抗性",
-    "obscure_api.parry": "招架",
-    "obscure_api.penetration": "护甲穿透",
-    "obscure_api.regeneration": "每20秒再生",
-    "obscure_api.resilience": "暴击防护",
-   
     "ui.kubejs.sunken_city": "......深渊也在凝视着你",
     "ui.kubejs.anchor_shard": "使用它干涉世界......",
     "ui.kubejs.cognitio": "我思，故我在。",

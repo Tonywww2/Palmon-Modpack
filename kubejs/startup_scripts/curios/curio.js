@@ -131,7 +131,7 @@ StartupEvents.registry('item', event => {
                 "attributeslib:crit_damage",
                 "soul_of_light_critical_damage",
                 0.1,
-                "multiply_base"
+                "addition"
             )
         )
         .displayName('§e⌈Soul of Light⌋')
@@ -431,7 +431,7 @@ StartupEvents.registry('item', event => {
                 "multiply_base"
             )
             .modifyAttribute(
-                "obscure_api:critical_hit",
+                "attributeslib:crit_damage",
                 "kit_critical_hit",
                 0.1,
                 "addition"
@@ -515,7 +515,7 @@ StartupEvents.registry('item', event => {
                 "multiply_total"
             )
             .modifyAttribute(
-                "obscure_api:critical_hit",
+                "attributeslib:crit_damage",
                 "sages_critical_hit",
                 0.15,
                 "addition"
@@ -551,9 +551,9 @@ StartupEvents.registry('item', event => {
                 "addition"
             )
             .modifyAttribute(
-                "obscure_api:critical_hit",
+                "attributeslib:crit_damage",
                 "huntress_critical_hit",
-                0.2,
+                0.15,
                 "addition"
             )
         )
@@ -631,15 +631,9 @@ StartupEvents.registry('item', event => {
                 }
             })
             .modifyAttribute(
-                "obscure_api:critical_hit",
+                "attributeslib:crit_damage",
                 "white_mask_critical_hit",
-                0.2,
-                "addition"
-            )
-            .modifyAttribute(
-                "obscure_api:critical_damage",
-                "white_mask_critical_damage",
-                0.15,
+                0.25,
                 "addition"
             )
             .modifyAttribute(
@@ -679,10 +673,10 @@ StartupEvents.registry('item', event => {
                 "multiply_base"
             )
             .modifyAttribute(
-                "obscure_api:critical_hit",
+                "attributeslib:crit_damage",
                 "epiphany_pendant_critical_hit",
                 0.1,
-                "multiply_base"
+                "addition"
             )
         )
         .displayName('§e⌈Epiphany Pendant⌋')
@@ -783,7 +777,7 @@ StartupEvents.registry('item', event => {
                 "attributeslib:crit_damage",
                 "inspiration_mushroom_crit_damage",
                 0.4,
-                "multiply_base"
+                "addition"
             )
         )
         .displayName('§e⌈Inspiration Mushroom⌋')

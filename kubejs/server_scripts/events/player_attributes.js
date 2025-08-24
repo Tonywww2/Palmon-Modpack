@@ -96,19 +96,11 @@ const critical_chanceModifier = createConstantAttributeApplier(
     "addition"
 )
 
-global.crit_damageAmmount = -0.3
+global.crit_damageAmmount = -0.25
 const crit_damageModifier = createConstantAttributeApplier(
     "attributeslib:crit_damage",
     "addition_crit_damage_modifier",
     () => global.crit_damageAmmount,
-    "addition"
-)
-
-global.crit_damage2Ammount = -0.5
-const crit_damage2Modifier = createConstantAttributeApplier(
-    "obscure_api:critical_damage",
-    "addition_crit_damage2_modifier",
-    () => global.crit_damage2Ammount,
     "addition"
 )
 
@@ -147,7 +139,6 @@ PlayerEvents.tick(event => {
         attack_speedModifier(event.player)
         critical_chanceModifier(event.player)
         crit_damageModifier(event.player)
-        crit_damage2Modifier(event.player)
         max_healthModifier(event.player)
         healing_powerModifier(event.player)
         slashblade_damageModifier(event.player)

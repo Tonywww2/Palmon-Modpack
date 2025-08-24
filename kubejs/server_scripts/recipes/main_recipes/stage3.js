@@ -487,7 +487,7 @@ ServerEvents.recipes(event => {
     "category": "equipment",
     "key": {
       "A": {
-        "item": 'aquamirae:ship_graveyard_echo'
+        "item": 'occultism:magic_lamp_empty'
       },
       "B": {
         "item": "slashblade:slashblade"

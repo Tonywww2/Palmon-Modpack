@@ -1034,21 +1034,6 @@
             1.0
         ]
     },
-    "obscure_api:vial_of_knowledge":
-    {
-        "foodProperties":
-        [
-            0.0,
-            2.0,
-            20.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0
-        ]
-    },
     "quark:cooked_crab_leg":
     {
         "foodProperties":

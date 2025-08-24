@@ -26,8 +26,8 @@ ServerEvents.recipes(event => {
         Item.of('minecraft:redstone_block').toJson(),
         Item.of('botania:mana_fluxfield').toJson(),
         Item.of('supplementaries:cog_block').toJson()
-    ], 2, 1600, [
-        Item.of('minecraft:deepslate_redstone_ore', 4).toJson()
+    ], 2, 6400, [
+        Item.of('minecraft:deepslate_redstone_ore', 1).toJson()
     ], "kubejs:usp_redstone")
 
     usProduction([
@@ -35,8 +35,8 @@ ServerEvents.recipes(event => {
         Item.of('minecraft:glowstone').toJson(),
         Item.of('minecraft:sea_lantern').toJson(),
         Item.of('minecraft:prismarine_bricks').toJson()
-    ], 2, 1600, [
-        Item.of('minecraft:glowstone', 2).toJson()
+    ], 2, 6400, [
+        Item.of('minecraft:glowstone', 1).toJson()
     ], "kubejs:usp_glowstone")
 
     usProduction([
@@ -44,16 +44,16 @@ ServerEvents.recipes(event => {
         Item.of('#forge:storage_blocks/uranium').toJson(),
         Item.of('nuclearcraft:plutonium_rtg').toJson(),
         Item.of('mekanismgenerators:fission_reactor_casing').toJson()
-    ], 2, 2200, [
-        Item.of('immersiveengineering:deepslate_ore_uranium', 2).toJson()
+    ], 2, 12000, [
+        Item.of('immersiveengineering:deepslate_ore_uranium', 1).toJson()
     ], "kubejs:usp_uranium")
 
     usProduction([
         Item.of('kubejs:ultra_space_resourse_point').toJson(),
         Item.of('minecraft:netherite_block').toJson(),
         Item.of('mythicbotany:alfsteel_block').toJson()
-    ], 4, 3200, [
-        Item.of('minecraft:ancient_debris', 2).toJson()
+    ], 4, 24000, [
+        Item.of('minecraft:netherite_scrap', 1).toJson()
     ], "kubejs:usp_ancient_debris")
 
 })

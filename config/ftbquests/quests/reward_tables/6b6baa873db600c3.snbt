@@ -81,15 +81,11 @@
 		{ count: 16, item: "cobblemon:pink_apricorn" }
 		{ count: 16, item: "cobblemon:black_apricorn" }
 		{ count: 16, item: "cobblemon:white_apricorn" }
-		{ item: "aquamirae:rune_of_the_storm" }
-		{ item: "aquamirae:ship_graveyard_echo" }
-		{ item: "aquamirae:abyssal_amethyst" }
 		{ count: 4, item: "cobblemon:normal_gem" }
 		{ count: 4, item: "cobblemon:fire_gem" }
 		{ count: 4, item: "cobblemon:water_gem" }
 		{ count: 4, item: "cobblemon:grass_gem" }
 		{ count: 4, item: "cobblemon:electric_gem" }
-		{ item: "aquamirae:anglers_fang" }
 		{ count: 4, item: "cobblemon:ice_gem" }
 		{ count: 4, item: "cobblemon:fighting_gem" }
 		{ count: 4, item: "cobblemon:poison_gem" }

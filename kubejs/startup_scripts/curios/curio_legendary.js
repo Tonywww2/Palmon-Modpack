@@ -155,16 +155,10 @@ StartupEvents.registry('item', event => {
                 "multiply_base"
             )
             .modifyAttribute(
-                "obscure_api:critical_hit",
+                "attributeslib:crit_damage",
                 "deity_critical_hit",
-                0.15,
+                0.25,
                 "addition"
-            )
-            .modifyAttribute(
-                "obscure_api:critical_damage",
-                "deity_critical_damage",
-                0.15,
-                "multiply_base"
             )
         )
         .displayName('§d⌈Deity from outside the Arboretia⌋')
@@ -354,7 +348,7 @@ StartupEvents.registry('item', event => {
                 "multiply_base"
             )
             .modifyAttribute(
-                "obscure_api:penetration",
+                "attributeslib:armor_shred",
                 "puree_penetration",
                 0.3,
                 "addition"
@@ -388,7 +382,7 @@ StartupEvents.registry('item', event => {
                 */
                 let player = context.entity()
                 if (player) {
-                    player.getAttribute("obscure_api:critical_damage").removeModifier(mgAtkDamageUUID)
+                    player.getAttribute("attributeslib:crit_damage").removeModifier(mgAtkDamageUUID)
 
                 }
             })
@@ -412,11 +406,11 @@ StartupEvents.registry('item', event => {
                         item.getOrCreateTag().putDouble("player_attack_speed", attackSpeed)
 
                         try {
-                            player.getAttribute("obscure_api:critical_damage").removeModifier(mgAtkDamageUUID)
+                            player.getAttribute("attributeslib:crit_damage").removeModifier(mgAtkDamageUUID)
 
                         }
                         finally {
-                            player.getAttribute("obscure_api:critical_damage").addTransientModifier(modifer)
+                            player.getAttribute("attributeslib:crit_damage").addTransientModifier(modifer)
 
                         }
 
@@ -428,12 +422,6 @@ StartupEvents.registry('item', event => {
                 "minecraft:generic.attack_damage",
                 "galaxy_attack_damage_addition",
                 2,
-                "addition"
-            )
-            .modifyAttribute(
-                "obscure_api:critical_hit",
-                "galaxy_attack_critical_hit",
-                0.2,
                 "addition"
             )
             .modifyAttribute(
@@ -528,13 +516,13 @@ StartupEvents.registry('item', event => {
                 "multiply_base"
             )
             .modifyAttribute(
-                "obscure_api:penetration",
+                "attributeslib:armor_shred",
                 "krosa_penetration",
                 0.2,
                 "addition"
             )
             .modifyAttribute(
-                "obscure_api:critical_hit",
+                "attributeslib:crit_damage",
                 "krosa_critical_hit",
                 0.1,
                 "addition"
@@ -588,7 +576,7 @@ StartupEvents.registry('item', event => {
                 "addition"
             )
             .modifyAttribute(
-                "obscure_api:penetration",
+                "attributeslib:armor_shred",
                 "sun_penetration",
                 0.1,
                 "addition"
@@ -600,7 +588,7 @@ StartupEvents.registry('item', event => {
                 "multiply_base"
             )
             .modifyAttribute(
-                "obscure_api:critical_hit",
+                "attributeslib:crit_damage",
                 "sun_critical_hit",
                 0.15,
                 "addition"
@@ -641,7 +629,7 @@ StartupEvents.registry('item', event => {
                 "multiply_base"
             )
             .modifyAttribute(
-                "obscure_api:penetration",
+                "attributeslib:armor_shred",
                 "photo_penetration",
                 0.4,
                 "addition"
@@ -653,10 +641,10 @@ StartupEvents.registry('item', event => {
                 "multiply_base"
             )
             .modifyAttribute(
-                "obscure_api:critical_hit",
+                "attributeslib:crit_damage",
                 "epiphany_pendant_critical_hit",
                 0.1,
-                "multiply_base"
+                "addition"
             )
             .modifyAttribute(
                 "minecraft:generic.movement_speed",
@@ -786,7 +774,7 @@ StartupEvents.registry('item', event => {
                 "addition"
             )
             .modifyAttribute(
-                "obscure_api:critical_hit",
+                "attributeslib:crit_damage",
                 "izanagi_critical_hit_addition",
                 0.15,
                 "addition"
@@ -902,7 +890,7 @@ StartupEvents.registry('item', event => {
                 "multiply_total"
             )
             .modifyAttribute(
-                "obscure_api:critical_hit",
+                "attributeslib:crit_damage",
                 "redstone_of_aja_critical_hit",
                 0.15,
                 "addition"
