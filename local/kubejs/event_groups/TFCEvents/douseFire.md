@@ -26,8 +26,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | getBounds |  |  | AABB | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getBlock |  |  | BlockContainerJS | ✘ |
-| getPos |  |  | BlockPos | ✘ |
 | getPlayer |  |  | Player | ✘ |
+| getPos |  |  | BlockPos | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |

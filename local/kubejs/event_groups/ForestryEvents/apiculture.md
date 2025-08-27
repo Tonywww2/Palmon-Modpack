@@ -20,14 +20,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | registerSwarmerMaterial | Item, float |  | void | ✘ |
-| modifySpecies | ResourceLocation, Consumer<IBeeSpeciesBuilder> |  | void | ✘ |
-| modifyHive | ResourceLocation, Consumer<IHiveBuilder> |  | void | ✘ |
-| registerCustomHive | ResourceLocation, IHiveGen, BlockState, Predicate<Holder<Biome>>, Predicate<HumidityType>, Predicate<TemperatureType>, float, PostGenFunction |  | IHiveBuilder | ✘ |
-| registerSpecies | ResourceLocation, String, String, boolean, TextColor |  | IBeeSpeciesBuilder | ✘ |
 | registerFlowerType | ResourceLocation, BiPredicate<Level, BlockPos>, PlantRandomFlowerFunction, boolean |  | void | ✘ |
 | registerBeeEffect | ResourceLocation, UnaryOperator<IEffectData>, boolean, Function3<IGenome, IEffectData, IBeeHousing, IEffectData>, Function3<IGenome, IEffectData, IBeeHousing, IEffectData>, boolean |  | void | ✘ |
 | addVillageBee | ResourceLocation, boolean, Map<IChromosome<?>, IAllele> |  | void | ✘ |
 | registerCustomActivityType | ResourceLocation, IsActiveFunction, InactiveErrorFunction, LightPreference, boolean |  | void | ✘ |
+| modifyHive | ResourceLocation, Consumer<IHiveBuilder> |  | void | ✘ |
+| modifySpecies | ResourceLocation, Consumer<IBeeSpeciesBuilder> |  | void | ✘ |
+| registerCustomHive | ResourceLocation, IHiveGen, BlockState, Predicate<Holder<Biome>>, Predicate<HumidityType>, Predicate<TemperatureType>, float, PostGenFunction |  | IHiveBuilder | ✘ |
+| registerSpecies | ResourceLocation, String, String, boolean, TextColor |  | IBeeSpeciesBuilder | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

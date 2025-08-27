@@ -25,9 +25,9 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | getResult |  |  | ClaimResult | ✘ |
 | setCustomResult | String |  | void | ✘ |
 | getLevel |  |  | Level | ✘ |
+| getClaimPos |  |  | BlockPos | ✘ |
 | getEntity |  |  | Entity | ✘ |
 | getPlayer |  |  | Player | ✘ |
-| getClaimPos |  |  | BlockPos | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |

@@ -288,7 +288,8 @@ global.idsToRemove = new Set([
     'techreborn:chemical_reactor/glyceryl_fixed',
     'industrialforegoingsouls:soul_laser_base',
     'trials:crafter',
-    'appflux:transform/redstone_crystal'
+    'appflux:transform/redstone_crystal',
+    'mobees:fabricator/materials/mutation_catalyst'
 ])
 
 ServerEvents.recipes(event => {

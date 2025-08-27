@@ -26,10 +26,10 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getEntity |  |  | Entity | ✘ |
-| getOldPlayer |  |  | ServerPlayer | ✘ |
 | getKeepData |  |  | boolean | ✘ |
-| removeGameStage | String |  | void | ✘ |
+| getOldPlayer |  |  | ServerPlayer | ✘ |
 | addGameStage | String |  | void | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
 | getLevel |  |  | Level | ✘ |
@@ -49,23 +49,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 Gets the player that respawned.
 ```
 
-- `ServerPlayer getOldPlayer()`
-```
-Gets the player that was before respawn. Note that this entity is already removed from the world.
-```
-
 - `boolean getKeepData()`
 ```
 Gets whether the player's data was kept, e.g. when returning from the end.
 ```
 
-- `void removeGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
+- `ServerPlayer getOldPlayer()`
 ```
-Removes the specified game stage from the player
+Gets the player that was before respawn. Note that this entity is already removed from the world.
 ```
 
 - `void addGameStage(String var0)`
@@ -75,6 +66,15 @@ Removes the specified game stage from the player
 
 ```
 Adds the specified game stage to the player
+```
+
+- `void removeGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Removes the specified game stage from the player
 ```
 
 - `boolean hasGameStage(String var0)`

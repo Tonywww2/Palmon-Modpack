@@ -26,13 +26,13 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | wrap | RecipeType<T>, IRecipeCategory<T>, Consumer<RecipeCategoryWrapperBuilder<T>> |  | CustomRecipeCategory<T> | ✘ |
 | register | RecipeType<T>, Consumer<RecipeCategoryBuilder<T>> |  | CustomRecipeCategory<T> | ✘ |
 | custom | ResourceLocation, Consumer<RecipeCategoryBuilder<CustomJSRecipe>> |  | CustomRecipeCategory<?> | ✘ |
-| getOverriddenRecipeType | ResourceLocation |  | RecipeType<?> | ✔ |
-| getOrCreateCustomRecipeType | ResourceLocation |  | RecipeType<CustomJSRecipe> | ✔ |
 | clearOverriddenRecipeTypes |  |  | void | ✔ |
 | getCustomRecipeType | ResourceLocation |  | RecipeType<CustomJSRecipe> | ✔ |
 | clearCustomRecipeTypes |  |  | void | ✔ |
-| removeOverriddenRecipeType | ResourceLocation |  | void | ✔ |
+| getOverriddenRecipeType | ResourceLocation |  | RecipeType<?> | ✔ |
 | removeCustomRecipeType | ResourceLocation |  | void | ✔ |
+| removeOverriddenRecipeType | ResourceLocation |  | void | ✔ |
+| getOrCreateCustomRecipeType | ResourceLocation |  | RecipeType<CustomJSRecipe> | ✔ |
 | getOrCreateCustomOverriddenRecipeType | ResourceLocation, RecipeType<T> |  | RecipeType<T> | ✔ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |

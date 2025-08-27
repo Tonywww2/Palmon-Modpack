@@ -24,11 +24,11 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | register | LiteralArgumentBuilder<CommandSourceStack> |  | LiteralCommandNode<CommandSourceStack> | ✘ |
 | getBuiltinSuggestions |  |  | ClassWrapper<SharedSuggestionProvider> | ✘ |
-| getArguments |  |  | ClassWrapper<ArgumentTypeWrappers> | ✘ |
-| getCommands |  |  | ClassWrapper<Commands> | ✘ |
 | getRegistry |  |  | CommandBuildContext | ✘ |
+| getArguments |  |  | ClassWrapper<ArgumentTypeWrappers> | ✘ |
 | isForSinglePlayer |  |  | boolean | ✘ |
 | isForMultiPlayer |  |  | boolean | ✘ |
+| getCommands |  |  | ClassWrapper<Commands> | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

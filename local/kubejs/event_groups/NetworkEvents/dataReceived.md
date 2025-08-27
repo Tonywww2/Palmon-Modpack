@@ -30,10 +30,10 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getChannel |  |  | String | ✘ |
+| getEntity |  |  | LivingEntity | ✘ |
 | getData |  |  | CompoundTag | ✘ |
-| getEntity |  |  | Player | ✘ |
-| removeGameStage | String |  | void | ✘ |
 | addGameStage | String |  | void | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
 | getLevel |  |  | Level | ✘ |
@@ -53,23 +53,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 The channel of the packet.
 ```
 
-- `CompoundTag getData()`
-```
-The data of the packet.
-```
-
-- `Player getEntity()`
+- `LivingEntity getEntity()`
 ```
 The player that sent the packet. Always `Minecraft.player` in `client_scripts`.
 ```
 
-- `void removeGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
+- `CompoundTag getData()`
 ```
-Removes the specified game stage from the player
+The data of the packet.
 ```
 
 - `void addGameStage(String var0)`
@@ -79,6 +70,15 @@ Removes the specified game stage from the player
 
 ```
 Adds the specified game stage to the player
+```
+
+- `void removeGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Removes the specified game stage from the player
 ```
 
 - `boolean hasGameStage(String var0)`

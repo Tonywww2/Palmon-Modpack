@@ -29,8 +29,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | getInventory |  |  | Container | ✘ |
 | getInventoryContainer |  |  | AbstractContainerMenu | ✘ |
 | getEntity |  |  | Player | ✘ |
-| removeGameStage | String |  | void | ✘ |
 | addGameStage | String |  | void | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
 | getLevel |  |  | Level | ✘ |
@@ -65,15 +65,6 @@ Gets the container that was opened or closed.
 Gets the player that opened or closed the container.
 ```
 
-- `void removeGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Removes the specified game stage from the player
-```
-
 - `void addGameStage(String var0)`
 
   Parameters:
@@ -81,6 +72,15 @@ Removes the specified game stage from the player
 
 ```
 Adds the specified game stage to the player
+```
+
+- `void removeGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Removes the specified game stage from the player
 ```
 
 - `boolean hasGameStage(String var0)`

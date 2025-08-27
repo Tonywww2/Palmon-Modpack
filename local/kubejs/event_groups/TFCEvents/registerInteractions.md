@@ -23,12 +23,12 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| blockItemPlacement | Item, Block |  | void | ✘ |
 | interaction | Ingredient, OnItemUseAction |  | void | ✘ |
 | interaction | Ingredient, boolean, OnItemUseAction |  | void | ✘ |
 | interaction | Ingredient, boolean, boolean, OnItemUseAction |  | void | ✘ |
 | registerCustomPlacements |  |  | void | ✔ |
 | addBlockItemPlacement | Supplier<Item>, Supplier<Block> |  | void | ✔ |
+| blockItemPlacement | Item, Block |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
@@ -38,16 +38,6 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 
 ### Documented members:
-
-- `void blockItemPlacement(Item item, Block block)`
-
-  Parameters:
-  - item: Item- The item
-  - block: Block- The block to be placed
-
-```
-Registers a default block placement interaction
-```
 
 - `void interaction(Ingredient ingredient, OnItemUseAction action)`
 
@@ -80,6 +70,16 @@ Registers an interaction, targeting blocks by default
 
 ```
 Registers an interaction
+```
+
+- `void blockItemPlacement(Item item, Block block)`
+
+  Parameters:
+  - item: Item- The item
+  - block: Block- The block to be placed
+
+```
+Registers a default block placement interaction
 ```
 
 - `Object exit(Object var0)`

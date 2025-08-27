@@ -1,8 +1,14 @@
 {
-	"last_seed": "9032092397626054160L",
-	"learned_buffs": [],
+	"last_seed": "1190118985799692483L",
+	"learned_buffs": [
+		"init",
+		"true_ending"
+	],
 	"all_seed_data": {
 		"0": [],
-		"9032092397626054160L": []
+		"1190118985799692483L": [
+			"init",
+			"true_ending"
+		]
 	}
 }

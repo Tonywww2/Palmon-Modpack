@@ -19,9 +19,9 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| defineTaxon | String, String, Consumer<ITaxonBuilder> |  | void | ✘ |
-| defineTaxon | String, String |  | void | ✘ |
 | modifySpeciesType | ResourceLocation, Consumer<ISpeciesTypeBuilder> |  | void | ✘ |
+| defineTaxon | String, String |  | void | ✘ |
+| defineTaxon | String, String, Consumer<ITaxonBuilder> |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

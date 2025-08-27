@@ -13,6 +13,20 @@ ServerEvents.recipes(event => {
     event.shapeless('occultism:chalk_red_impure', ['occultism:chalk_white_impure', 'occultism:afrit_essence', '#forge:dusts/blaze', 'kubejs:epsilon_dust']).id('kubejs:chalk_red_impure_s6')
     event.shapeless('embers:alchemical_waste', ['embers:ember_shard', '8x #forge:ash']).id('kubejs:alchemical_waste_s6')
 
+    event.shaped('mobees:mutation_catalyst',
+        [
+            'AEA',
+            'APA',
+            'ABA'
+        ],
+        {
+            A: 'forestry:pulsating_mesh',
+            B: 'mobees:netherite_bit',
+            E: 'mobees:apatite_bit',
+            P: '#forge:ingots/oratchalcum'
+        }
+    ).id('kubejs:mutation_catalyst_s6');
+
     event.shaped('mekanism:basic_energy_cube',
         [
             'AEA',
@@ -464,6 +478,31 @@ ServerEvents.recipes(event => {
             Item.of('draconicevolution:draconium_dust', 1).toJson()
         ]
     }).id('kubejs:awakened_draconium_dust_s6')
+
+    event.custom({
+        "type": "industrialforegoing:laser_drill_ore",
+        "catalyst": {
+          "item": "industrialforegoing:laser_lens12"
+        },
+        "output": {
+          "tag": 'forge:nuggets/oratchalcum'
+        },
+        "pointer": 0,
+        "rarity": [
+          {
+            "blacklist": {},
+            "depth_max": 12,
+            "depth_min": 0,
+            "weight": 4,
+            "whitelist": {
+              "type": "minecraft:worldgen/biome",
+              "values": [
+                "rats:ratlantis"
+              ]
+            }
+          }
+        ]
+      }).id("kubejs:oratchalcum_nugget_s6")
 
     event.custom({
         "type": "palmon:processing",

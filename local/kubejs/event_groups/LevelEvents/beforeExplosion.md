@@ -30,8 +30,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | getBlock |  |  | BlockContainerJS | ✘ |
 | getY |  |  | double | ✘ |
 | getX |  |  | double | ✘ |
-| getZ |  |  | double | ✘ |
 | getExploder |  |  | LivingEntity | ✘ |
+| getZ |  |  | double | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |

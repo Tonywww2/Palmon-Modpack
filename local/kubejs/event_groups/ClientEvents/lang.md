@@ -27,9 +27,9 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | addAll | Map<String, String> |  | void | ✘ |
 | addAll | String, Map<String, String> |  | void | ✘ |
 | renameItem | ItemStack, String |  | void | ✘ |
-| renameEntity | ResourceLocation, String |  | void | ✘ |
 | renameBlock | Block, String |  | void | ✘ |
 | renameBiome | ResourceLocation, String |  | void | ✘ |
+| renameEntity | ResourceLocation, String |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

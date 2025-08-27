@@ -27,10 +27,10 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | setResult | Object |  | void | ✘ |
 | getResult |  |  | Object | ✘ |
 | hasResult |  |  | boolean | ✘ |
-| getArgs |  |  | Object[] | ✘ |
 | getArg | int |  | Object | ✘ |
-| getResultOptional |  |  | Optional<Object> | ✘ |
+| getArgs |  |  | Object[] | ✘ |
 | requiresResult |  |  | boolean | ✘ |
+| getResultOptional |  |  | Optional<Object> | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |

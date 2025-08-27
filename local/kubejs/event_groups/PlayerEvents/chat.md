@@ -29,11 +29,11 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | getMessage |  |  | String | ✘ |
 | getEntity |  |  | Entity | ✘ |
 | getComponent |  |  | Component | ✘ |
-| setMessage | Component |  | void | ✘ |
 | setComponent | Component |  | void | ✘ |
+| setMessage | Component |  | void | ✘ |
 | getUsername |  |  | String | ✘ |
-| removeGameStage | String |  | void | ✘ |
 | addGameStage | String |  | void | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
 | getLevel |  |  | Level | ✘ |
@@ -63,7 +63,7 @@ Gets the player that sent the message.
 Gets the message that the player sent.
 ```
 
-- `void setMessage(Component var0)`
+- `void setComponent(Component var0)`
 
   Parameters:
   - var0: Component
@@ -72,7 +72,7 @@ Gets the message that the player sent.
 Sets the message that the player sent.
 ```
 
-- `void setComponent(Component var0)`
+- `void setMessage(Component var0)`
 
   Parameters:
   - var0: Component
@@ -86,15 +86,6 @@ Sets the message that the player sent.
 Gets the username of the player that sent the message.
 ```
 
-- `void removeGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Removes the specified game stage from the player
-```
-
 - `void addGameStage(String var0)`
 
   Parameters:
@@ -102,6 +93,15 @@ Removes the specified game stage from the player
 
 ```
 Adds the specified game stage to the player
+```
+
+- `void removeGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Removes the specified game stage from the player
 ```
 
 - `boolean hasGameStage(String var0)`
