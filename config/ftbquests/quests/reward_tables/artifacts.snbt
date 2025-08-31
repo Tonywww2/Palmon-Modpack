@@ -1,6 +1,15 @@
 {
 	icon: "artifacts:cross_necklace"
 	id: "16EBCA909D878553"
+	loot_crate: {
+		color: 13041919
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "artifacts"
+	}
 	loot_size: 1
 	order_index: 3
 	rewards: [
@@ -31,7 +40,18 @@
 		{ item: "artifacts:snorkel" }
 		{ item: "artifacts:novelty_drinking_hat" }
 		{ item: "artifacts:plastic_drinking_hat" }
-		{ item: "artifacts:everlasting_beef" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"tfc:food": {
+						creationDate: -2L
+						traits: [ ]
+					}
+				}
+				id: "artifacts:everlasting_beef"
+			}
+		}
 		{ item: "artifacts:umbrella" }
 		{ item: "artifacts:superstitious_hat" }
 		{ item: "artifacts:cowboy_hat" }

@@ -476,7 +476,7 @@
 		{
 			dependencies: ["44B9914AFDCCA987"]
 			description: [
-				"在此阶段，你将会解锁三份&l&e灵感&l&f。"
+				"在此阶段，你将会领悟三份&l&e灵感&r。"
 				""
 				"如果对应的任务目标物品存在&d不需要Epsilon 尘&r的配方，则代表它是你现阶段的目标..."
 			]
@@ -1131,6 +1131,7 @@
 		}
 		{
 			dependencies: ["48878B5E13B0390A"]
+			description: ["在将来，你可能会希望使用一些手段加速它..."]
 			id: "2D40BBBC4A6EC404"
 			rewards: [
 				{

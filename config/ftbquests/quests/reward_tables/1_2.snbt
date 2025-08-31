@@ -1,6 +1,15 @@
 {
 	icon: "cobblemon:poke_ball"
 	id: "5C83C275C67C2966"
+	loot_crate: {
+		color: 16738655
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "ball_1"
+	}
 	loot_size: 1
 	order_index: 11
 	rewards: [

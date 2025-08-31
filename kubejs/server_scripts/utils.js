@@ -42,3 +42,16 @@ function deFusionCrafting(event, ingredients, catalyst, result, tier, total_ener
         "total_energy": total_energy
     }).id(id)
 }
+const hasCurios = (player, id) => {
+    let curiosAll = $CuriosHelper.getEquippedCurios(player).resolve().get()
+    // player.tell(curiosAll)
+    for (let i = 0; i < curiosAll.getSlots(); i++) {
+        let curiosItem = curiosAll.getStackInSlot(i);
+        if (!curiosItem.isEmpty()) {
+            if (curiosItem.getItem().id === id) {
+                return true
+            }
+        }
+    }
+    return false
+}

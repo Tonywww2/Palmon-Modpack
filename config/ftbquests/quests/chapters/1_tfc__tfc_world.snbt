@@ -2330,7 +2330,7 @@
 			description: [
 				"恭喜你成功发展到现在，接下来将会是第一个正式的分歧点。"
 				""
-				"你可以通过查看接下来三个任务需求材料的配方，来确定你获得的&l&e灵感&l&f。"
+				"你可以通过查看接下来三个任务需求材料的配方，来确定你领悟的&l&e灵感&r。"
 			]
 			hide_until_deps_complete: true
 			icon: "kubejs:anchor_shard"

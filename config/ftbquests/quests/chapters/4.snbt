@@ -1121,7 +1121,7 @@
 		{
 			dependencies: ["0D937378D5C6FCB2"]
 			description: [
-				"在此阶段，你将会解锁三份&l&e灵感&l&f。"
+				"在此阶段，你将会领悟三份&l&e灵感&l&f。"
 				""
 				"......帮助越大，代价越高。"
 				""
@@ -1179,6 +1179,15 @@
 					id: "4D0B01F71C8147F9"
 					table_id: 7787811987843285123L
 					type: "loot"
+				}
+				{
+					auto: "disabled"
+					command: "/locate structure ars_nouveau:guardian_wilden_den"
+					elevate_perms: true
+					icon: "minecraft:compass"
+					id: "102BD114CD554E49"
+					title: "定位巢穴"
+					type: "command"
 				}
 			]
 			shape: "hexagon"
@@ -1863,6 +1872,10 @@
 		}
 		{
 			dependencies: ["23446E38AB5AD7AE"]
+			description: [
+				"三种荒野生物可以在巢穴内找到！他们的巢穴会在各种森林中生成。"
+				"或者..."
+			]
 			id: "272D39AEDF7559AD"
 			rewards: [
 				{
@@ -2301,6 +2314,7 @@
 				"35C5165D1399518A"
 				"30E1AE4064E031BF"
 			]
+			description: ["注意：部分运输方式可能会导致发酵矿石肉汤变质（损坏）"]
 			id: "2D5455040F27822D"
 			rewards: [
 				{
@@ -3027,6 +3041,31 @@
 			title: "AE的特别注释"
 			x: 2.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["34407AC6D2A2E064"]
+			id: "6D106858C5D590FE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0F82CD6B2578B0D9"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69B473E54D6DEA98"
+					table_id: 3840491528305963978L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "64C2579E8B8F472F"
+				item: "kubejs:lance_of_longinus_broken"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -16.0d
 		}
 	]
 	title: "4. 火星 | The Mars"

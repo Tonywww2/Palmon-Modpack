@@ -23,6 +23,7 @@
 		{ item: "kubejs:godricks_great_rune" }
 		{ item: "kubejs:izanagis_burden" }
 		{ item: "kubejs:ancient_proudsoul" }
+		{ item: "kubejs:redstone_of_aja" }
 	]
 	title: "异界遗物-限定池"
 }

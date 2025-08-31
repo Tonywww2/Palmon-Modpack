@@ -14,6 +14,7 @@
 				"68DDA2E17D948703"
 				"575F79DEE4162818"
 			]
+			hide_until_deps_complete: true
 			id: "59F7E85B2FDEDA8B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -134,6 +135,7 @@
 				"177D626FACF3B787"
 				"68DDA2E17D948703"
 			]
+			hide_until_deps_complete: true
 			id: "575F79DEE4162818"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -155,6 +157,7 @@
 				"1938362CF4F8BBC5"
 				"36A16BE3126DCB89"
 			]
+			hide_until_deps_complete: true
 			id: "4845A3C2AB53B2C4"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -175,6 +178,7 @@
 				"4845A3C2AB53B2C4"
 				"575F79DEE4162818"
 			]
+			hide_until_deps_complete: true
 			id: "2D72B68EA7568EF2"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -195,6 +199,7 @@
 				"575F79DEE4162818"
 				"59F7E85B2FDEDA8B"
 			]
+			hide_until_deps_complete: true
 			id: "0F543650AF297B4D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -229,6 +234,7 @@
 		}
 		{
 			dependencies: ["0AD9D8752768B842"]
+			hide_until_deps_complete: true
 			id: "36A16BE3126DCB89"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -266,6 +272,7 @@
 				"11EC5F69F241EBF3"
 				"5567C76A6C2B9D0F"
 			]
+			hide_until_deps_complete: true
 			id: "5B9D28343D5571D2"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -283,6 +290,7 @@
 		}
 		{
 			dependencies: ["473715741A52B7B5"]
+			hide_until_deps_complete: true
 			icon: "avaritia:infinity_catalyst"
 			id: "6DC36BE0755135AC"
 			rewards: [{
@@ -324,6 +332,7 @@
 				"4845A3C2AB53B2C4"
 				"7C7D50F5EC99C13C"
 			]
+			hide_until_deps_complete: true
 			id: "16F6006C886E29AB"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -344,6 +353,7 @@
 				"4845A3C2AB53B2C4"
 				"47A8E0C6ED4F8DEB"
 			]
+			hide_until_deps_complete: true
 			id: "595CEDC6ED211041"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -364,6 +374,7 @@
 				"08FA563D359C456E"
 				"68DDA2E17D948703"
 			]
+			hide_until_deps_complete: true
 			id: "28EC4BBCF7C89458"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -444,6 +455,7 @@
 		}
 		{
 			dependencies: ["4BE9AD9B18D942E2"]
+			hide_until_deps_complete: true
 			id: "7C7D50F5EC99C13C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -552,6 +564,7 @@
 		}
 		{
 			dependencies: ["3CA6AE44449E9C8F"]
+			hide_until_deps_complete: true
 			id: "4389446C13F3FFED"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -614,6 +627,7 @@
 		}
 		{
 			dependencies: ["675C3BF94A1A5596"]
+			hide_until_deps_complete: true
 			id: "422B60FF4E7A7656"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -635,7 +649,12 @@
 				"3BFE3DFD5BC2EF64"
 				"7E213F963885859F"
 			]
-			description: ["&c注意：炒时蔬必须使用金萝卜与附魔金苹果&r"]
+			description: [
+				"&c注意：炒时蔬必须使用金萝卜与附魔金苹果。&r"
+				""
+				""
+				"PS: 这把⌈80⌋是&kTonywww&r曾经使用过的武器。"
+			]
 			id: "7527ECEF0B46D240"
 			rewards: [
 				{
@@ -651,6 +670,205 @@
 					id: "6D6F2C6B39D10A49"
 					title: "锚定"
 					type: "command"
+				}
+				{
+					id: "661C4141822DAE25"
+					item: {
+						Count: 1
+						id: "tconstruct:sledge_hammer"
+						tag: {
+							Damage: 518
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"⌈80⌋\"}"
+							}
+							etstlib_tool_uuid: "6134a5a7-75f3-4f56-9146-c93aca85d4d4"
+							relicstack: {
+								"legendreliclib:combo_number_Stacks": 36
+								"legendreliclib:last_damage_Stacks": 7476
+							}
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:epsilon_framework"
+								"tconstruct:aether_pearl"
+								"tconstruct:epsilon_framework"
+								"tinkers_advanced:densium"
+							]
+							tic_modifiers: [
+								{
+									level: 4
+									name: "tinkers_advanced:metamorphium"
+								}
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 5
+									name: "tconstruct:swiftstrike"
+								}
+								{
+									level: 1
+									name: "tconstruct:necrotic"
+								}
+								{
+									level: 1
+									name: "tinkers_advanced:atom_grade"
+								}
+								{
+									level: 3
+									name: "tconstruct:pierce"
+								}
+								{
+									level: 3
+									name: "tconstruct:sharpness"
+								}
+								{
+									level: 2
+									name: "etstlib:executioner"
+								}
+								{
+									level: 1
+									name: "tconstruct:sweeping_edge"
+								}
+								{
+									level: 2
+									name: "etstlib:rude"
+								}
+								{
+									level: 1
+									name: "tconstruct:insatiable"
+								}
+								{
+									level: 1
+									name: "etstlib:extra_dense"
+								}
+								{
+									level: 2
+									name: "tconstruct:smite"
+								}
+								{
+									level: 1
+									name: "tconstruct:recapitated"
+								}
+								{
+									level: 1
+									name: "tconstruct:writable"
+								}
+								{
+									level: 1
+									name: "tconstruct:harmonious"
+								}
+								{
+									level: 1
+									name: "tconstruct:gilded"
+								}
+								{
+									level: 1
+									name: "tconstruct:resurrected"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.55f
+								"tconstruct:durability": 4.0f
+								"tconstruct:mining_speed": 0.4f
+							}
+							tic_persistent: {
+								abilities: -2
+								"tinkers_advanced:cofh_mode": 4
+								"tinkers_advanced:dis_integrate": 0
+								"tinkers_advanced:meta_morph": 0.25682193f
+								"tinkers_advanced:meta_morph_cd": 0b
+								"tinkers_advanced:meta_morph_changed": 0b
+								"tinkerslevellingaddon:experience": 8996
+								"tinkerslevellingaddon:level": 11
+								"tinkerslevellingaddon:slot_history": "upgrade;upgrade;upgrade;ability;upgrade;upgrade;upgrade;upgrade;ability;upgrade;upgrade;"
+								upgrades: -18
+							}
+							tic_stats: {
+								"tconstruct:armor": 1.4568219f
+								"tconstruct:armor_toughness": 1.2568219f
+								"tconstruct:attack_damage": 2359.533f
+								"tconstruct:attack_speed": 1.2747191f
+								"tconstruct:draw_speed": 1.2568219f
+								"tconstruct:durability": 16230.11f
+								"tconstruct:harvest_tier": "minecraft:netherite"
+								"tconstruct:knockback_resistance": 0.05f
+								"tconstruct:mining_speed": 16.131142f
+								"tconstruct:projectile_damage": 3.1420546f
+								"tconstruct:velocity": 1.32f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tinkerslevellingaddon:improvable"
+								}
+								{
+									level: 1
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 1
+									name: "tconstruct:recapitated"
+								}
+								{
+									level: 1
+									name: "tconstruct:writable"
+								}
+								{
+									level: 1
+									name: "tconstruct:harmonious"
+								}
+								{
+									level: 5
+									name: "tconstruct:swiftstrike"
+								}
+								{
+									level: 1
+									name: "tconstruct:gilded"
+								}
+								{
+									level: 1
+									name: "tconstruct:resurrected"
+								}
+								{
+									level: 1
+									name: "tconstruct:necrotic"
+								}
+								{
+									level: 1
+									name: "tinkers_advanced:atom_grade"
+								}
+								{
+									level: 3
+									name: "tconstruct:pierce"
+								}
+								{
+									level: 3
+									name: "tconstruct:sharpness"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 3
+								"tconstruct:indestructible": 1b
+								"tconstruct:rarity": 2
+								upgrades: 18
+							}
+						}
+					}
+					type: "item"
 				}
 			]
 			size: 1.5d
@@ -669,6 +887,7 @@
 			]
 			hide_dependency_lines: true
 			id: "3BFE3DFD5BC2EF64"
+			invisible: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "076FF1AE896BB43A"
@@ -699,6 +918,7 @@
 			]
 			hide_dependency_lines: true
 			id: "7E213F963885859F"
+			invisible: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1422F1D53260CCE4"
@@ -724,6 +944,7 @@
 		}
 		{
 			dependencies: ["7527ECEF0B46D240"]
+			hide_until_deps_complete: true
 			id: "5A046BB315A65D82"
 			rewards: [
 				{

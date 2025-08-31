@@ -1,6 +1,15 @@
 {
 	icon: "minecraft:chest"
 	id: "6B6BAA873DB600C3"
+	loot_crate: {
+		color: 15247359
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "general"
+	}
 	loot_size: 1
 	order_index: 7
 	rewards: [
@@ -580,6 +589,10 @@
 		{ item: "cobblenav:pokenav_item_light_gray" }
 		{ item: "cobblenav:pokenav_item_gray" }
 		{ item: "cobblenav:pokenav_item_black" }
+		{ count: 8, item: "cobblemon:relic_coin" }
+		{ count: 16, item: "cobblemon:relic_coin" }
+		{ count: 2, item: "cobblemon:relic_coin_pouch" }
+		{ count: 4, item: "cobblemon:relic_coin_pouch" }
 	]
 	title: "通用奖励 | General Rewards"
 }

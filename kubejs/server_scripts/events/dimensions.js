@@ -1,19 +1,5 @@
 const $EntityTravelToDimensionEvent = Java.loadClass("net.minecraftforge.event.entity.EntityTravelToDimensionEvent")
 
-const hasCurios = (player, id) => {
-    let curiosAll = $CuriosHelper.getEquippedCurios(player).resolve().get()
-    // player.tell(curiosAll)
-    for (let i = 0; i < curiosAll.getSlots(); i++) {
-        let curiosItem = curiosAll.getStackInSlot(i);
-        if (!curiosItem.isEmpty()) {
-            if (curiosItem.getItem().id === id) {
-                return true
-            }
-        }
-    }
-    return false
-}
-
 const ratlantis = (event) => {
     if (!hasCurios(player, "kubejs:phosphophyllite")) {
         event.player.tell(Text.translatable('ui.kubejs.banned').gold())

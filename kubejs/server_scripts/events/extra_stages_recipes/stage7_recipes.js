@@ -337,7 +337,33 @@ const stage7 = function (event) {
             G: '#forge:storage_blocks/dragonsteel',
             H: '#forge:ingots/dragonsteel'
         }
-    ).id('kubejs:thermal_upgrade_creative_s7')
+    ).id('kubejs:thermal_upgrade_creative_1_s7')
+
+    event.recipes.avaritia.shaped_table(
+        4,
+        'thermal:machine_efficiency_creative_augment',
+        [
+            'GGGHHHGGG',
+            'GAABBBAAG',
+            'GABBCBBAG',
+            'HBBDEDBBH',
+            'HBCEFECBH',
+            'HBBDEDBBH',
+            'GABBCBBAG',
+            'GAABBBAAG',
+            'GGGHHHGGG'
+        ],
+        {
+            A: 'kubejs:basepoint_alloy',
+            B: '#forge:ingots/neutronium',
+            C: 'thermal_extra:dragonsteel_machine_efficiency_augment',
+            D: 'thermal_extra:dragonsteel_machine_speed_augment',
+            E: 'thermal_extra:dragonsteel_rf_coil_xfer_augment',
+            F: 'mobees:mutation_catalyst',
+            G: '#forge:storage_blocks/dragonsteel',
+            H: '#forge:ingots/dragonsteel'
+        }
+    ).id('kubejs:thermal_upgrade_creative_2_s7')
 
     event.recipes.avaritia.shaped_table(
         4,
@@ -804,13 +830,13 @@ const stage7 = function (event) {
         "type": "dustandash:ionizer",
         "ingredients": [
             Item.of('mekanism_extras:dust_radiance').toJson(),
-            Item.of('mekanism_extras:dust_radiance').toJson(),
-            Item.of('mekanism_extras:dust_radiance').toJson(),
+            Item.of('#forge:storage_blocks/radiance').toJson(),
+            Item.of('#forge:yellow_cake_uranium').toJson(),
 
             Item.of('kubejs:gamma_dust').toJson(),
             Item.of('thermal:florb', '{Fluid:{Amount:1000,FluidName:"mekanism:uranium_oxide"}}').weakNBT().toJson()
         ],
-        "inputBlock": "jaopca:storage_blocks.pyrolitic_carbon",
+        "inputBlock": "jaopca:storage_blocks.hop_graphite",
         "outputs": [
             Item.of('mekanism_extras:enriched_radiance').toJson(),
             Item.of('mekanism_extras:enriched_radiance').toJson(),
@@ -987,7 +1013,7 @@ const stage7 = function (event) {
         'avaritia:neutron_nugget'
     ]).id("kubejs:cosmic_meatballs_s7")
 
-    event.remove({id: 'avaritia:infinity_catalyst'})
+    event.remove({ id: 'avaritia:infinity_catalyst' })
     event.recipes.avaritia.infinity_catalyst(
         "default",
         [

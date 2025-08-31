@@ -4,10 +4,10 @@ ServerEvents.recipes(event => {
         let rid = recipe.getId()
         if (!global.idsToRemove.has(rid)) {
             let originalRecipe = recipe.json
-            let areaBlocks = []
+            let areaBlocks = [Item.of("embers:alchemy_tablet").toJson()]
             originalRecipe.get("aspects").getAsJsonArray().forEach(tag => {
                 let tagString = tag.get("tag").getAsString()
-                
+
                 if (tagString === "embers:aspectus/iron") {
                     areaBlocks.push(Item.of("embers:iron_crystal_seed").toJson())
 
@@ -78,4 +78,36 @@ ServerEvents.recipes(event => {
             }).id(rid + "_acc_s6")
         }
     })
+
+    event.custom({
+        "type": "palmon:processing",
+        "category": "misc",
+        "focus_stat": "ATTACK",
+        "min_level": 95,
+        "required_type": "fire",
+        "base_hp": 20,
+        "base_atk": 80,
+        "base_def": 20,
+        "base_spa": 20,
+        "base_spd": 20,
+        "base_spe": 20,
+        "area_blocks": [
+            Item.of("embers:copper_crystal_seed").toJson(),
+            Item.of("embers:silver_crystal_seed").toJson()
+        ],
+        "block_count": 4,
+        "input_items": [
+            Item.of('kubejs:collapse_prediction').toJson(),
+            Item.of('kubejs:epsilon_dust').toJson(),
+            Item.of("aetherworks:aether_shard", 3).toJson(),
+            Item.of("embers:ember_crystal_cluster").toJson(),
+            Item.of('rats:oratchalcum_nugget', 3).toJson()
+        ],
+        "input_power": 130000,
+        "input_fluid": null,
+        "tick": 16000,
+        "result_items": [
+            Item.of("aetherworks:aether_amalgam").toJson()
+        ]
+    }).id("kubejs:aether_amalgam_acc_s6")
 })

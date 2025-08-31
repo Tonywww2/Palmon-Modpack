@@ -2,7 +2,7 @@
 	icon: "kubejs:miniature_galaxy"
 	id: "40416FC595F37E78"
 	loot_crate: {
-		color: 16777215
+		color: 5636095
 		drops: {
 			boss: 0
 			monster: 0

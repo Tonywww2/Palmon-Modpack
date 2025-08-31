@@ -1,7 +1,7 @@
 const secs = 20
 const mins = secs * 60
 const hour = mins * 60
-const time = hour * 7.5
+const time = hour * 6.5
 
 const notifications = [
     { message: `60分钟[${hour}ticks]后重启服务器`, delay: time - hour },

@@ -1,1 +1,119 @@
-{}
+{
+  "customCategories": {
+    "palmon": {
+      "name": "RePalmon",
+      "icon": {
+        "item": "thermal:enderium_coin"
+      }
+    }
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "ftbquests:lootcrate",
+        "nbt": {type:"ball_1"}
+      },
+      "payment": {
+        "item": "thermal:signalum_coin",
+        "count": 3
+      },
+      "category": "palmon"
+    },
+    {
+      "output": {
+        "item": "ftbquests:lootcrate",
+        "nbt": {type:"ball_2"}
+      },
+      "payment": {
+        "item": "thermal:enderium_coin",
+        "count": 3
+      },
+      "category": "palmon"
+    },
+    {
+      "output": {
+        "item": "ftbquests:lootcrate",
+        "nbt": {type:"general"}
+      },
+      "payment": {
+        "item": "thermal:enderium_coin",
+        "count": 4
+      },
+      "category": "palmon"
+    },
+    {
+      "output": {
+        "item": "ftbquests:lootcrate",
+        "nbt": {type:"confluence"}
+      },
+      "payment": {
+        "item": "thermal:enderium_coin",
+        "count": 9
+      },
+      "category": "palmon"
+    },
+    {
+      "output": {
+        "item": "ftbquests:lootcrate",
+        "nbt": {type:"artifacts"}
+      },
+      "payment": {
+        "item": "thermal:enderium_coin",
+        "count": 18
+      },
+      "category": "palmon"
+    },
+    {
+      "output": {
+        "item": "ftbquests:lootcrate",
+        "nbt": {type:"focus"}
+      },
+      "payment": {
+        "item": "thermal:enderium_coin",
+        "count": 36
+      },
+      "category": "palmon"
+    },
+    {
+      "output": {
+        "item": "ftbquests:lootcrate",
+        "nbt": {type:"limit"}
+      },
+      "payment": {
+        "item": "thermal:netherite_coin",
+        "count": 1
+      },
+      "category": "palmon"
+    },
+    {
+      "output": {
+        "item": "cobgyms:lesser_cache"
+      },
+      "payment": {
+        "item": "thermal:enderium_coin",
+        "count": 6
+      },
+      "category": "palmon"
+    },
+    {
+      "output": {
+        "item": "cobgyms:adept_cache"
+      },
+      "payment": {
+        "item": "thermal:enderium_coin",
+        "count": 18
+      },
+      "category": "palmon"
+    },
+    {
+      "output": {
+        "item": "cobgyms:master_cache"
+      },
+      "payment": {
+        "item": "thermal:enderium_coin",
+        "count": 54
+      },
+      "category": "palmon"
+    }
+  ]
+}

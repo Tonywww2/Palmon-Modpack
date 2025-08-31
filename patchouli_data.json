@@ -55,7 +55,9 @@
         "ars_nouveau:source/relay_splitter",
         "ars_nouveau:source/relay_deposit",
         "ars_nouveau:source/relay_warp",
-        "ars_nouveau:source/relay_collector"
+        "ars_nouveau:source/relay_collector",
+        "ars_nouveau:automation/spell_turret",
+        "ars_nouveau:automation/spell_prism"
       ],
       "bookmarks": [],
       "completedManualQuests": []

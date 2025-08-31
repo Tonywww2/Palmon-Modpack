@@ -836,6 +836,7 @@
 		}
 		{
 			dependencies: ["41832772EDD303E0"]
+			description: ["提示：异彩化合物需要通过加工磨制玫瑰石英获得。"]
 			id: "3E4D0886BFA06C69"
 			rewards: [
 				{
@@ -851,6 +852,7 @@
 					type: "random"
 				}
 			]
+			subtitle: "注意！"
 			tasks: [{
 				id: "38D54786FDC976AD"
 				item: "mekanism:alloy_infused"
@@ -2030,22 +2032,32 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["35835B48174A9C1F"]
-			description: ["现在你拥有了资格"]
+			dependencies: ["3DD8AE682B732D63"]
+			description: [
+				"现在你拥有了资格"
+				""
+				""
+				"注意：在进入鼠西州前建议使用Chunky提前进行预载图，以防卡死。"
+			]
 			id: "17103885E3945D92"
 			rewards: [
-				{
-					auto: "invisible"
-					id: "06877F73CB0B5BAC"
-					ignore_reward_blocking: true
-					stage: "ratlantis"
-					type: "gamestage"
-				}
 				{
 					exclude_from_claim_all: true
 					id: "73A3FBA99298EB1A"
 					table_id: 3228015877926755161L
 					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35D05591BA89607D"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14C9DD8F20500C28"
+					table_id: 3840491528305963978L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2053,8 +2065,8 @@
 				item: "rats:chunky_cheese_token"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.0d
+			x: 16.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["35835B48174A9C1F"]
@@ -2076,6 +2088,252 @@
 			}]
 			x: -4.0d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"452C463084E6A80C"
+				"11BB558482A55A27"
+			]
+			id: "3DD8AE682B732D63"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "08098CEA6B5AF558"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					id: "18670182B70D992A"
+					item: "rats:token_piece"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77CF417EFDC9E732"
+					table_id: 3228015877926755161L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "58CA4844DE7E551B"
+				item: "kubejs:phosphophyllite"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["17103885E3945D92"]
+			icon: "rats:marbled_cheese_raw"
+			id: "023689E4DEFA74FC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "626E5CC9A0230F55"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0105ADF133E08241"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+			]
+			tasks: [{
+				dimension: "rats:ratlantis"
+				id: "4BD4B67B6E5BED1E"
+				type: "dimension"
+			}]
+			title: "鼠西州"
+			x: 16.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1D479E5C372C22C1"]
+			id: "16B16BA4F495C745"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "592D7CA9F9851664"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5482C308B9D90228"
+					table_id: 3840491528305963978L
+					type: "random"
+				}
+			]
+			subtitle: "踏出太阳系"
+			tasks: [{
+				id: "510D3348E7AD1991"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16B16BA4F495C745"]
+			icon: "cataclysm:cursed_eye"
+			id: "2BBD21598668BD03"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7E9A6A9E7B9C937E"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					command: "/eot_give_anchor_shard @p 1"
+					elevate_perms: true
+					icon: "kubejs:anchor_shard"
+					id: "3B0ED0FFD51615B2"
+					title: "锚定"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CC73E0C6956D6F2"
+					table_id: 3228015877926755161L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "767F35F61ED9C14E"
+				structure: "cataclysm:frosted_prison"
+				type: "structure"
+			}]
+			title: "苦寒监牢"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["748F2C98C87FE73B"]
+			description: ["你发现了一种能稳定打开究极空间入口的方法！虽然你无法直接前往，但是你能让你的宝可梦从中采集许多珍惜的物资！"]
+			id: "4130831D6ADE210A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E087C3F71209E69"
+				table_id: 7740467882398974147L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "29FE1AC649EBE41F"
+				item: "kubejs:ultra_space_resourse_point"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["023689E4DEFA74FC"]
+			id: "138523BD558BF84B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6E8231134A020555"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C5992B301350A1C"
+					table_id: 1651636410828424531L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4EE71A49DD7F4C71"
+				item: "rats:oratchalcum_nugget"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["138523BD558BF84B"]
+			id: "7CC5EE3583007A69"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C9DEF2DDA0320DD"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72A5C76A2B36E411"
+					table_id: 1651636410828424531L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0CD68EA602C89321"
+				item: "rats:oratchalcum_ingot"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["7CC5EE3583007A69"]
+			id: "1C323B9487965883"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1F9CBC82F8B02435"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A349C2067856267"
+					table_id: 1651636410828424531L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "64B51DA9973F4D4F"
+				item: "mobees:mutation_catalyst"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["138523BD558BF84B"]
+			description: ["你可以使用鼠铜粒来更快的完成余烬炼金的配方。"]
+			icon: "embers:alchemy_tablet"
+			id: "332AF0A1414659AF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1877B660BEB9405A"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "083FCE17A89BA14C"
+					table_id: 1651636410828424531L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "023F0EFF214C9A1A"
+				type: "checkmark"
+			}]
+			title: "炼金加速"
+			x: 20.0d
+			y: 14.0d
 		}
 	]
 	title: "6. 超越彼方 | Beyond, and Beyond"

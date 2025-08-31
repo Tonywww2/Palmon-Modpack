@@ -1,6 +1,15 @@
 {
 	icon: "cobblemon:ultra_ball"
 	id: "57179E919223C273"
+	loot_crate: {
+		color: 16712975
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "ball_2"
+	}
 	loot_size: 1
 	order_index: 12
 	rewards: [

@@ -494,7 +494,7 @@ StartupEvents.registry('item', event => {
                                 player.potionEffects.add("cofh_core:magic_resistance", 160, 2)
                                 break;
                             case 9:
-                                player.addXP(5000)
+                                player.addXP(1300)
                                 break;
 
                         }
