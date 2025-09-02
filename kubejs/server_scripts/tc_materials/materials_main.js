@@ -6,7 +6,8 @@ global.randomScaleMap = {
     1: 15,
     2: 10,
     3: 5,
-    4: 5
+    4: 5,
+    5: 5
 }
 ServerEvents.highPriorityData(event => {
 
@@ -420,6 +421,7 @@ ServerEvents.highPriorityData(event => {
     }
 
     // 正式定义
+    global.randomIndex = 0
     stage1Materials(createMaterialBuilder, registerMaterialProcess)
     stage2Materials(createMaterialBuilder, registerMaterialProcess)
     stage3Materials(createMaterialBuilder, registerMaterialProcess)
@@ -428,6 +430,7 @@ ServerEvents.highPriorityData(event => {
     stage6Materials(createMaterialBuilder, registerMaterialProcess)
 
     basicMaterials(createMaterialBuilder, registerMaterialProcess)
+    ex1Materials(createMaterialBuilder, registerMaterialProcess)
 
 })
 

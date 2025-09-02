@@ -8,7 +8,7 @@ function stage6Materials(createMaterialBuilder, registerMaterialProcess) {
 
     let db = 1100
     let refined_obsidian = createMaterialBuilder('refined_obsidian')
-        .setCraftable(false).setSortOrder(sortOrder++).setTier(4).setNamespace('tinkers_advanced')
+        .setCraftable(false).setSortOrder(sortOrder++).setTier(5).setNamespace('tinkers_advanced')
         .addStats()
         .addHead(db, 390, 16, 'minecraft:netherite')
         .addHandle(0.3, 1.0, 0, 0.1)
@@ -25,7 +25,7 @@ function stage6Materials(createMaterialBuilder, registerMaterialProcess) {
 
     db = 900
     let refined_glowstone = createMaterialBuilder('refined_glowstone')
-        .setCraftable(false).setSortOrder(sortOrder++).setTier(4).setNamespace('tinkers_advanced')
+        .setCraftable(false).setSortOrder(sortOrder++).setTier(5).setNamespace('tinkers_advanced')
         .addStats()
         .addHead(db, 380, 18, 'minecraft:netherite')
         .addHandle(0.2, 0.9, 0.4, 0.2)
@@ -42,7 +42,7 @@ function stage6Materials(createMaterialBuilder, registerMaterialProcess) {
 
     db = 850
     let voltaic_crystal = createMaterialBuilder('voltaic_crystal')
-        .setCraftable(false).setSortOrder(sortOrder++).setTier(4).setNamespace('tinkers_advanced')
+        .setCraftable(false).setSortOrder(sortOrder++).setTier(5).setNamespace('tinkers_advanced')
         .addStats()
         .addHead(db, 395, 17, 'minecraft:netherite')
         .addHandle(0, 1.1, 0.7, 0.3)
@@ -53,7 +53,7 @@ function stage6Materials(createMaterialBuilder, registerMaterialProcess) {
         
     db = 1200
     let densium = createMaterialBuilder('densium')
-        .setCraftable(false).setSortOrder(sortOrder++).setTier(4).setNamespace('tinkers_advanced')
+        .setCraftable(false).setSortOrder(sortOrder++).setTier(5).setNamespace('tinkers_advanced')
         .addStats()
         .addHead(db, 420, 6, 'minecraft:netherite')
         .addHandle(0.5, 1.1, -0.3, 0.35)
@@ -70,7 +70,7 @@ function stage6Materials(createMaterialBuilder, registerMaterialProcess) {
         
     db = 1100
     let osgloglas = createMaterialBuilder('osgloglas')
-        .setCraftable(false).setSortOrder(sortOrder++).setTier(4).setNamespace('tinkers_advanced')
+        .setCraftable(false).setSortOrder(sortOrder++).setTier(5).setNamespace('tinkers_advanced')
         .addStats()
         .addHead(db, 425, 17, 'minecraft:netherite')
         .addHandle(0.4, 1.1, 0.3, 0.4)
@@ -87,7 +87,7 @@ function stage6Materials(createMaterialBuilder, registerMaterialProcess) {
         
     db = 1050
     let irradium = createMaterialBuilder('irradium')
-        .setCraftable(false).setSortOrder(sortOrder++).setTier(4).setNamespace('tinkers_advanced')
+        .setCraftable(false).setSortOrder(sortOrder++).setTier(5).setNamespace('tinkers_advanced')
         .addStats()
         .addHead(db, 475, 18, 'minecraft:netherite')
         .addHandle(-0.2, 1.1, 0.3, 0.4)
@@ -104,7 +104,7 @@ function stage6Materials(createMaterialBuilder, registerMaterialProcess) {
         
     db = 1300
     let protocite = createMaterialBuilder('protocite')
-        .setCraftable(false).setSortOrder(sortOrder++).setTier(4).setNamespace('tinkers_advanced')
+        .setCraftable(false).setSortOrder(sortOrder++).setTier(5).setNamespace('tinkers_advanced')
         .addStats()
         .addHead(db, 475, 20, 'minecraft:netherite')
         .addHandle(-0.3, 1.15, 0.4, 0.5)
@@ -121,7 +121,7 @@ function stage6Materials(createMaterialBuilder, registerMaterialProcess) {
         
     db = 1600
     let antimatter = createMaterialBuilder('antimatter')
-        .setCraftable(false).setSortOrder(sortOrder++).setTier(4).setNamespace('tinkers_advanced')
+        .setCraftable(false).setSortOrder(sortOrder++).setTier(5).setNamespace('tinkers_advanced')
         .addStats()
         .addHead(db, 550, 20, 'minecraft:netherite')
         .addHandle(0.3, 1.2, 0.5, 0.5)
@@ -138,7 +138,7 @@ function stage6Materials(createMaterialBuilder, registerMaterialProcess) {
         
     db = 1800
     let neutronite = createMaterialBuilder('neutronite')
-        .setCraftable(false).setSortOrder(sortOrder++).setTier(4).setNamespace('tinkers_advanced')
+        .setCraftable(false).setSortOrder(sortOrder++).setTier(5).setNamespace('tinkers_advanced')
         .addStats()
         .addHead(db, 650, 20, 'minecraft:netherite')
         .addHandle(0.4, 1.4, 0.5, 0.5)

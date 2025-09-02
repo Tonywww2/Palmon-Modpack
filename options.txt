@@ -13,7 +13,7 @@ invertYMouse:false
 realmsNotifications:true
 reducedDebugInfo:false
 showSubtitles:true
-directionalAudio:false
+directionalAudio:true
 touchscreen:false
 fullscreen:false
 bobView:true
@@ -203,10 +203,10 @@ key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.c
 key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.sort:key.mouse.middle
-key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
-key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
 key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
 key_key.energyblade.charge_switch:key.keyboard.v:SHIFT
 key_key.touhou_little_maid.stt_chat.desc:key.keyboard.unknown
@@ -412,7 +412,7 @@ key_key.legendary_monsters.mossy_chestplate_ability:key.keyboard.r
 key_key.legendary_monsters.roar_ability:key.keyboard.r
 key_key.observable.profile:key.keyboard.keypad.4
 soundCategory_master:0.5008268663283342
-soundCategory_music:0.5019091109154928
+soundCategory_music:0.5066076144366196
 soundCategory_record:0.5004401408450704
 soundCategory_weather:1.0
 soundCategory_block:1.0

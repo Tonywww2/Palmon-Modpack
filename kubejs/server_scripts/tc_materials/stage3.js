@@ -108,28 +108,28 @@ function stage3Materials(createMaterialBuilder, registerMaterialProcess) {
         .addGrip(0.2, -0.2, 26)
         .build();
 
-    // —— 鳍 ——  
-    db = 400;
-    let fin = createMaterialBuilder('fin')
-        .setCraftable(true).setSortOrder(sortOrder++).setTier(2)
-        .addStats()
-        .addHead(db, 32.0, 8.0, 'minecraft:diamond')
-        .addHandle(-0.2, 0.35, 0.3, -0.3)
-        .addPlatingHelmet(5.0, db * 0.7, 0.05, 2.0)
-        .addPlatingChestplate(8.0, db * 1.0, 0.05, 2.0)
-        .addPlatingLeggings(7.0, db * 0.9, 0.05, 2.0)
-        .addPlatingBoots(4.0, db * 0.6, 0.05, 2.0)
-        .addPlatingShield(db * 0.9, 0.05, 2.0)
-        .addBinding()
-        .addMaille()
-        .addLimb(-0.05, 0, db, 7.7)
-        .addGrip(0, -0.2, 16)
-        .addTraits()
-        .addDefaultTrait(1, 'tconstruct:hydraulic')
-        .addDefaultTrait(1, 'tinkers_advanced:blizz_inflict')
-        .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:water_powered')
-        .addPerStatTrait('tconstruct:armor', 1, 'tinkers_advanced:blizz_defense')
-        .build();
+    // // —— 鳍 ——  
+    // db = 400;
+    // let fin = createMaterialBuilder('fin')
+    //     .setCraftable(true).setSortOrder(sortOrder++).setTier(2)
+    //     .addStats()
+    //     .addHead(db, 32.0, 8.0, 'minecraft:diamond')
+    //     .addHandle(-0.2, 0.35, 0.3, -0.3)
+    //     .addPlatingHelmet(5.0, db * 0.7, 0.05, 2.0)
+    //     .addPlatingChestplate(8.0, db * 1.0, 0.05, 2.0)
+    //     .addPlatingLeggings(7.0, db * 0.9, 0.05, 2.0)
+    //     .addPlatingBoots(4.0, db * 0.6, 0.05, 2.0)
+    //     .addPlatingShield(db * 0.9, 0.05, 2.0)
+    //     .addBinding()
+    //     .addMaille()
+    //     .addLimb(-0.05, 0, db, 7.7)
+    //     .addGrip(0, -0.2, 16)
+    //     .addTraits()
+    //     .addDefaultTrait(1, 'tconstruct:hydraulic')
+    //     .addDefaultTrait(1, 'tinkers_advanced:blizz_inflict')
+    //     .addPerStatTrait('tconstruct:armor', 1, 'tcintegrations:water_powered')
+    //     .addPerStatTrait('tconstruct:armor', 1, 'tinkers_advanced:blizz_defense')
+    //     .build();
 
     // —— 烬钢 ——  
     db = 750;

@@ -20,6 +20,7 @@ ServerEvents.recipes(event => {
 
   event.shapeless('nuclearcraft:glowing_mushroom', ['#forge:mushrooms', '#forge:dusts/glowstone', '#forge:dusts/sulfur']).id('kubejs:glowing_mushroom_s3')
   event.shapeless('minecraft:warped_nylium', ['minecraft:warped_fungus', '#forge:netherrack']).id('kubejs:warped_nylium_s3')
+  event.shapeless('embers:dawnstone_crystal_seed', ['4x embers:dawnstone_aspectus']).id('kubejs:dawnstone_crystal_seed_s3')
 
   event.shaped(
     'appflux:redstone_crystal',

@@ -127,7 +127,7 @@ ServerEvents.loaded(event => {
 global.occ_trigger = false
 
 ServerEvents.recipes((event) => {
-
+    global.randomIndex = 595
     console.log(`Begin Index: ${global.randomIndex}`)
     // stage 1 1+1
     // main

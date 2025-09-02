@@ -69,6 +69,12 @@
     "tinkers_advanced:irradium",
     "tinkers_advanced:protocite",
     "tinkers_advanced:antimatter",
-    "tinkers_advanced:neutronite"
+    "tinkers_advanced:neutronite",
+    "tconstruct:osmium",
+    "tconstruct:plated_slimewood",
+    "tconstruct:queens_slime",
+    "tconstruct:hepatizon",
+    "tinkers_advanced:pink_slime_metal",
+    "tinkers_advanced:nutritive_slime"
   ]
 }
