@@ -6,6 +6,26 @@
 	group: "103C794559B2F3C7"
 	icon: "ad_astra:earth_globe"
 	id: "20762FD2AC299A11"
+	images: [
+		{
+			dependency: "36D2E1C2BF0663D7"
+			height: 2.0d
+			image: "confluence:textures/achievement/boots_of_the_hero.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependency: "6D2837A2695037CE"
+			height: 2.0d
+			image: "supplementaries:item/globes/globe_moon"
+			rotation: 15.0d
+			width: 2.0d
+			x: -6.0d
+			y: -6.0d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [

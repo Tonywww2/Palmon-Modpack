@@ -56,5 +56,43 @@ ServerEvents.recipes(event => {
         Item.of('minecraft:netherite_scrap', 1).toJson()
     ], "kubejs:usp_ancient_debris")
 
+    usProduction([
+        Item.of('kubejs:ultra_space_resourse_point').toJson(),
+        Item.of('dustandash:block_of_ash_steel').toJson(),
+        Item.of('minecraft:beacon').toJson(),
+        Item.of('tconstruct:earth_slime_crystal_block').toJson()
+    ], 3, 18000, [
+        Item.of('dustandash:earth_dust', 2).toJson(),
+        Item.of('dustandash:metal_dust', 1).toJson(),
+    ], "kubejs:usp_dustandash_1")
+
+    usProduction([
+        Item.of('kubejs:ultra_space_resourse_point').toJson(),
+        Item.of('dustandash:block_of_ash_steel').toJson(),
+        Item.of('minecraft:beacon').toJson(),
+        Item.of('tconstruct:ender_slime_crystal_block').toJson()
+    ], 4, 24000, [
+        Item.of('dustandash:order_dust', 1).toJson(),
+        Item.of('dustandash:life_dust', 1).toJson(),
+    ], "kubejs:usp_dustandash_2")
+
+    usProduction([
+        Item.of('kubejs:ultra_space_resourse_point').toJson(),
+        Item.of('dustandash:block_of_ash_steel').toJson(),
+        Item.of('minecraft:beacon').toJson(),
+        Item.of('minecraft:magma_block').toJson()
+    ], 2, 12000, [
+        Item.of('dustandash:fire_dust', 1).toJson()
+    ], "kubejs:usp_dustandash_3")
+
+    usProduction([
+        Item.of('kubejs:ultra_space_resourse_point').toJson(),
+        Item.of('botania:blaze_block').toJson(),
+        Item.of('minecraft:beacon').toJson(),
+        Item.of('tconstruct:blaze_head').toJson()
+    ], 5, 36000, [
+        Item.of('tconstruct:blaze_head', 1).toJson()
+    ], "kubejs:usp_blaze_head")
+
 })
 

@@ -6,6 +6,15 @@
 	group: "103C794559B2F3C7"
 	icon: "minecraft:dragon_egg"
 	id: "77EC2CEE98DA0E2A"
+	images: [{
+		dependency: "6242C5B5107F1C26"
+		height: 2.0d
+		image: "minecraft:block/end_portal_frame_top"
+		rotation: 45.0d
+		width: 2.0d
+		x: -2.0d
+		y: 4.0d
+	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [

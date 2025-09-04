@@ -6,6 +6,15 @@
 	group: "103C794559B2F3C7"
 	icon: "ad_astra:mars_globe"
 	id: "4014EF63F34807B3"
+	images: [{
+		dependency: "2BA2D49F67F26CA7"
+		height: 2.0d
+		image: "ad_astra:textures/painting/mars.png"
+		rotation: 0.0d
+		width: 2.0d
+		x: 0.0d
+		y: -10.0d
+	}]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -1322,7 +1331,11 @@
 		}
 		{
 			dependencies: ["5C182F768906554A"]
-			description: ["合成..."]
+			description: [
+				"合成..."
+				""
+				"注意：TR的机器通常不能直接通过管道访问，你在大多数的情况下需要使用机器本身的自动抽入/排出功能。"
+			]
 			id: "3A49D2C7EE90C2F2"
 			rewards: [
 				{

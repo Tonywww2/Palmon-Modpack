@@ -6,6 +6,15 @@
 	group: "292B2A0F4D1DF208"
 	icon: "mekanism:ultimate_control_circuit"
 	id: "63BC8C83B57A07B7"
+	images: [{
+		dependency: "37D5AA7EFF0079FC"
+		height: 2.0d
+		image: "draconicevolution:block/awakened_draconium_block_side"
+		rotation: 0.0d
+		width: 2.0d
+		x: 2.0d
+		y: 2.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -43,6 +52,7 @@
 		}
 		{
 			dependencies: ["37D5AA7EFF0079FC"]
+			description: ["注意：TR的机器通常不能直接通过管道访问，你在大多数的情况下需要使用机器本身的自动抽入/排出功能。"]
 			hide_until_deps_complete: true
 			id: "4888A3BA1752652F"
 			rewards: [
@@ -2334,6 +2344,25 @@
 			title: "炼金加速"
 			x: 20.0d
 			y: 14.0d
+		}
+		{
+			dependencies: ["1C323B9487965883"]
+			description: ["或许不是现在..."]
+			id: "084AE8F7FF941AEF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BFE969953702B9E"
+				table_id: 3228015877926755161L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2FBE68C49004F884"
+				item: "thermal:machine_efficiency_creative_augment"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 16.0d
 		}
 	]
 	title: "6. 超越彼方 | Beyond, and Beyond"

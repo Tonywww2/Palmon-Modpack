@@ -21,6 +21,7 @@ ServerEvents.recipes(event => {
   event.shapeless('nuclearcraft:glowing_mushroom', ['#forge:mushrooms', '#forge:dusts/glowstone', '#forge:dusts/sulfur']).id('kubejs:glowing_mushroom_s3')
   event.shapeless('minecraft:warped_nylium', ['minecraft:warped_fungus', '#forge:netherrack']).id('kubejs:warped_nylium_s3')
   event.shapeless('embers:dawnstone_crystal_seed', ['4x embers:dawnstone_aspectus']).id('kubejs:dawnstone_crystal_seed_s3')
+  event.shapeless('2x immersive_weathering:soot', ['techreborn:dark_ashes_dust', '#forge:dyes/black']).id('kubejs:soot_s3')
 
   event.shaped(
     'appflux:redstone_crystal',
@@ -195,6 +196,41 @@ ServerEvents.recipes(event => {
     ['12x tfc:kaolin_clay', '4x #forge:dusts/graphite', '#forge:clay']
   ).energy(19200)
     .id('kubejs:fire_brick_s3')
+
+  event.recipes.thermal.insolator(['cobblemon:red_apricorn', 'cobblemon:red_apricorn_seed'],
+    ['cobblemon:red_apricorn_seed']
+  ).energy(30000)
+    .id('kubejs:red_apricorn_s3')
+
+  event.recipes.thermal.insolator(['cobblemon:yellow_apricorn', 'cobblemon:yellow_apricorn_seed'],
+    ['cobblemon:yellow_apricorn_seed']
+  ).energy(30000)
+    .id('kubejs:yellow_apricorn_s3')
+
+  event.recipes.thermal.insolator(['cobblemon:green_apricorn', 'cobblemon:green_apricorn_seed'],
+    ['cobblemon:green_apricorn_seed']
+  ).energy(30000)
+    .id('kubejs:green_apricorn_s3')
+
+  event.recipes.thermal.insolator(['cobblemon:blue_apricorn', 'cobblemon:blue_apricorn_seed'],
+    ['cobblemon:blue_apricorn_seed']
+  ).energy(30000)
+    .id('kubejs:blue_apricorn_s3')
+
+  event.recipes.thermal.insolator(['cobblemon:pink_apricorn', 'cobblemon:pink_apricorn_seed'],
+    ['cobblemon:pink_apricorn_seed']
+  ).energy(30000)
+    .id('kubejs:pink_apricorn_s3')
+
+  event.recipes.thermal.insolator(['cobblemon:black_apricorn', 'cobblemon:black_apricorn_seed'],
+    ['cobblemon:black_apricorn_seed']
+  ).energy(30000)
+    .id('kubejs:black_apricorn_s3')
+
+  event.recipes.thermal.insolator(['cobblemon:white_apricorn', 'cobblemon:white_apricorn_seed'],
+    ['cobblemon:white_apricorn_seed']
+  ).energy(30000)
+    .id('kubejs:white_apricorn_s3')
 
   event.custom({
     "type": "malum:spirit_infusion",

@@ -127,7 +127,7 @@ const stage7 = function (event) {
 
     event.recipes.avaritia.shaped_table(
         3,
-        '2x packagedauto:package_component',
+        '5x packagedauto:package_component',
         [
             ' ABBBA ',
             'ADEFEHA',

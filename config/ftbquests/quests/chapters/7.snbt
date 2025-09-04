@@ -89,18 +89,18 @@
 			id: "4BE9AD9B18D942E2"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "371E04EEC4E79FC4"
-					table_id: 3840491528305963978L
-					type: "loot"
-				}
-				{
 					command: "/eot_give_anchor_shard @p 3"
 					elevate_perms: true
 					icon: "kubejs:anchor_shard"
 					id: "35870781B7C67446"
 					title: "锚定"
 					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E8A348A84E0ADC8"
+					table_id: 3228015877926755161L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -274,12 +274,20 @@
 			]
 			hide_until_deps_complete: true
 			id: "5B9D28343D5571D2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5CD9732E8649020B"
-				table_id: 3840491528305963978L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5CD9732E8649020B"
+					table_id: 3840491528305963978L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2693C8873531A61F"
+					table_id: 3228015877926755161L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "3866641078D5A7BC"
 				item: "mekanism_extras:enriched_spectrum"
@@ -334,12 +342,20 @@
 			]
 			hide_until_deps_complete: true
 			id: "16F6006C886E29AB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "514F2369237B871B"
-				table_id: 3840491528305963978L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "514F2369237B871B"
+					table_id: 3840491528305963978L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "415E2DB13BECF463"
+					table_id: 3228015877926755161L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "6891A79DDD43E1A0"
 				item: "avaritia:neutron_compressor"
@@ -473,13 +489,22 @@
 		}
 		{
 			dependencies: ["16F6006C886E29AB"]
+			description: ["是的，我知道，这并不容易。"]
 			id: "5567C76A6C2B9D0F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7AA3B96A3824879E"
-				table_id: 3840491528305963978L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7AA3B96A3824879E"
+					table_id: 3840491528305963978L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6561FEA4902C4E2D"
+					table_id: 3228015877926755161L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "6EF5BDD50DC921A2"
 				item: {
@@ -796,13 +821,13 @@
 							tic_stats: {
 								"tconstruct:armor": 1.4568219f
 								"tconstruct:armor_toughness": 1.2568219f
-								"tconstruct:attack_damage": 2359.533f
+								"tconstruct:attack_damage": 2349.279f
 								"tconstruct:attack_speed": 1.2747191f
 								"tconstruct:draw_speed": 1.2568219f
 								"tconstruct:durability": 16230.11f
 								"tconstruct:harvest_tier": "minecraft:netherite"
 								"tconstruct:knockback_resistance": 0.05f
-								"tconstruct:mining_speed": 16.131142f
+								"tconstruct:mining_speed": 15.99188f
 								"tconstruct:projectile_damage": 3.1420546f
 								"tconstruct:velocity": 1.32f
 							}

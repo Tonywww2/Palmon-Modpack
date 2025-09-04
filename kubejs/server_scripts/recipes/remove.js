@@ -289,7 +289,8 @@ global.idsToRemove = new Set([
     'industrialforegoingsouls:soul_laser_base',
     'trials:crafter',
     'appflux:transform/redstone_crystal',
-    'mobees:fabricator/materials/mutation_catalyst'
+    'mobees:fabricator/materials/mutation_catalyst',
+    'nuclearcraft:manufactory/netherite_scrap'
 ])
 
 ServerEvents.recipes(event => {

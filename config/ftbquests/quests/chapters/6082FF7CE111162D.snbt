@@ -10,7 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["是的，面对如此庞大的整合包，在游玩过程中难免会遇到一些不会/不清楚的东西。在适当的摸索后"]
+			description: ["是的，面对如此庞大的整合包，在游玩过程中难免会遇到一些不会/不清楚的东西。在&l适当的摸索&r后如果你还不知道该怎么做的话，请搜索相应的教程。"]
 			icon: "akashictome:tome"
 			id: "33E33FCA416448CA"
 			shape: "hexagon"
@@ -30,7 +30,9 @@
 				"如果你想完完全全不借助EMI/JEI游玩是几乎不可能的。"
 				""
 				"在此先做一些简单的教程："
-				"本整合包使用的是EMI，一个拥有更多功能的JEI。但同时也安装了JEI用于给EMI提供一些模组配方的兼容。"
+				"本整合包使用的是EMI，一个拥有更多功能的JEI。但同时也安装了TMRV用于给EMI提供一些模组配方的兼容。"
+				"TMRV可以以更高的性能为EMI提供一些模组的兼容，但是可能会导致一些功能的丢失。如果不在意游戏进入时的时间的话，也可以自行把TMRV替换为JEI。"
+				""
 				"对着一个物品按&aU键&r查看这个物品的用途，按&aR键&r查看这个物品的来源。"
 				""
 				"&c记得翻页！记得翻页！记得翻页！"
@@ -205,6 +207,70 @@
 			title: "水壶"
 			x: 4.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["33E33FCA416448CA"]
+			description: [
+				"当你的管道变的十分复杂时，修改或者维护这些管道会变的十分麻烦。"
+				""
+				"你可以使用&eShrink&r模组将自己变小！这样就可以轻松的钻进管道的缝隙当中！"
+			]
+			icon: {
+				Count: 1
+				id: "shrink:shrinking_device"
+				tag: { }
+			}
+			id: "7760BCF62D3C2214"
+			subtitle: "见缝插针"
+			tasks: [{
+				id: "383D9E145EA8F175"
+				type: "checkmark"
+			}]
+			title: "变大变小"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["33E33FCA416448CA"]
+			description: [
+				"这里不会给出具体的AE（应用能源）教程。"
+				""
+				"AE其实并不复杂，但是也不适合放在此处。"
+				""
+				"如果你不会使用该模组，强烈建议通过各种方式自行学习该模组！本整合包的许多流程设计都是围绕着该模组进行的！"
+				""
+				"AE也拥有着自己的手册，可以适当的翻阅。"
+			]
+			icon: "ae2:controller"
+			id: "352B62DAF38A4FB6"
+			subtitle: "别再手动了"
+			tasks: [{
+				id: "482FFDF7998F8CBC"
+				type: "checkmark"
+			}]
+			title: "应用能源"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33E33FCA416448CA"]
+			description: [
+				"你可以通过使用Cobbledex右键点击宝可梦，将其记录在你的Cobbledex中。"
+				""
+				"如果你没记录一个宝可梦，你依然可以通过编号查询他的信息。"
+				""
+				"对于种族值等相对隐藏的信息，请前往 神奇宝贝百科 查询。"
+			]
+			icon: "cobbledex:cobbledex_item"
+			id: "73C8DE02119CC1A4"
+			subtitle: "让我查查你的户口"
+			tasks: [{
+				id: "17A68279CC5E5EB1"
+				type: "checkmark"
+			}]
+			title: "查询宝可梦信息"
+			x: 4.0d
+			y: -2.0d
 		}
 	]
 	title: "教程 | Tutorial"

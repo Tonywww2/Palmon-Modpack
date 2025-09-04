@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [{
 		dependencies: ["5266C8EFE39F85D9"]
+		description: ["敬请期待"]
 		id: "4B60E9B9E4E4220F"
 		tasks: [{
 			id: "7F3437125D150BD2"
