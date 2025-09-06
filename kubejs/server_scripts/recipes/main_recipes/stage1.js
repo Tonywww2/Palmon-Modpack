@@ -149,7 +149,7 @@ ServerEvents.recipes(event => {
             B: '#forge:sheets/steel'
         }).id('kubejs:steel_tank_s1')
 
-    event.shaped('3x cobblemon:ancient_poke_ball', [
+    event.shaped('12x cobblemon:ancient_poke_ball', [
         'AAA',
         'BCB',
         'DDD'

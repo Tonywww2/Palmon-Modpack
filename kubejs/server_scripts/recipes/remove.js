@@ -290,7 +290,11 @@ global.idsToRemove = new Set([
     'trials:crafter',
     'appflux:transform/redstone_crystal',
     'mobees:fabricator/materials/mutation_catalyst',
-    'nuclearcraft:manufactory/netherite_scrap'
+    'nuclearcraft:manufactory/netherite_scrap',
+    'palmon:production/food_1',
+    'functionalstorage:oak_drawer_alternate_x1',
+    'functionalstorage:oak_drawer_alternate_x2',
+    'functionalstorage:oak_drawer_alternate_x4'
 ])
 
 ServerEvents.recipes(event => {

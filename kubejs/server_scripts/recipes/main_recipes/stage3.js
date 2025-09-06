@@ -24,6 +24,20 @@ ServerEvents.recipes(event => {
   event.shapeless('2x immersive_weathering:soot', ['techreborn:dark_ashes_dust', '#forge:dyes/black']).id('kubejs:soot_s3')
 
   event.shaped(
+    'farmersdelight:cooking_pot',
+    [
+      'A A',
+      'BCB',
+      'BBB'
+    ],
+    {
+      A: 'minecraft:bricks',
+      B: 'mekanism:boiler_casing',
+      C: 'minecraft:cauldron'
+    }
+  ).id('kubejs:cooking_pot_s3');
+
+  event.shaped(
     'appflux:redstone_crystal',
     [
       'ACA',
@@ -231,6 +245,31 @@ ServerEvents.recipes(event => {
     ['cobblemon:white_apricorn_seed']
   ).energy(30000)
     .id('kubejs:white_apricorn_s3')
+
+  event.recipes.thermal.insolator(['tfc:food/maize', 'tfc:seeds/maize'],
+    ['tfc:seeds/maize']
+  ).energy(30000)
+    .id('kubejs:maize_s3')
+
+  event.recipes.thermal.insolator(['tfc:food/green_bean', 'tfc:seeds/green_bean'],
+    ['tfc:seeds/green_bean']
+  ).energy(30000)
+    .id('kubejs:green_bean_s3')
+
+  event.recipes.thermal.insolator(['tfc:food/garlic', 'tfc:seeds/garlic'],
+    ['tfc:seeds/garlic']
+  ).energy(30000)
+    .id('kubejs:garlic_s3')
+
+  event.recipes.thermal.insolator(['tfc:food/soybean', 'tfc:seeds/soybean'],
+    ['tfc:seeds/soybean']
+  ).energy(30000)
+    .id('kubejs:soybean_s3')
+
+  event.recipes.thermal.insolator(['tfc:food/rice', 'tfc:seeds/rice'],
+    ['tfc:seeds/rice']
+  ).energy(30000)
+    .id('kubejs:rice_s3')
 
   event.custom({
     "type": "malum:spirit_infusion",

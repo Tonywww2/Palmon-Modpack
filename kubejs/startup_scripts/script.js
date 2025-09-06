@@ -55,14 +55,7 @@ StartupEvents.registry('item', event => {
 	event.create('basepoint_alloy').displayName('§lBasepoint Alloy').fireResistant().rarity('epic')
 	event.create('yin_yang_steel').displayName('§lYin & Yang Steel Ingot').fireResistant().rarity('epic')
 
-	let ultimate_berry = event.create('ultimate_berry')
-	ultimate_berry.displayName('§lUltimate Berry').fireResistant().rarity('epic')
-		.food(food => {
-			food.hunger(24)
-			food.saturation(2.4)
-			food.alwaysEdible()
-			food.fastToEat()
-		})
+	event.create('ultimate_berry').displayName('§lUltimate Berry').fireResistant().rarity('epic')
 
 	let anchorgleam = event.create('anchorgleam')
 	anchorgleam.displayName('§aAnchorgleam™').fireResistant().rarity('epic')

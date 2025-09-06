@@ -76,10 +76,6 @@ ServerEvents.recipes(event => {
       },
       {
         "item": "palmon:m_crystal",
-        "count": 2
-      },
-      {
-        "tag": "forge:sheets/wrought_iron",
         "count": 1
       }
     ],
@@ -89,7 +85,7 @@ ServerEvents.recipes(event => {
     "result_items": [
       {
         "item": "cobblemon:ancient_great_ball",
-        "count": 1
+        "count": 3
       }
     ]
   })
@@ -126,10 +122,6 @@ ServerEvents.recipes(event => {
       },
       {
         "item": "palmon:m_crystal",
-        "count": 3
-      },
-      {
-        "tag": "forge:sheets/black_steel",
         "count": 1
       }
     ],
@@ -139,56 +131,7 @@ ServerEvents.recipes(event => {
     "result_items": [
       {
         "item": "cobblemon:ancient_ultra_ball",
-        "count": 1
-      }
-    ]
-  })
-
-  event.custom({
-    "type": "palmon:processing",
-    "category": "misc",
-    "focus_stat": "SPECIAL_ATTACK",
-    "min_level": 30,
-    "required_type": "rock",
-    "base_hp": 20,
-    "base_atk": 20,
-    "base_def": 20,
-    "base_spa": 20,
-    "base_spd": 20,
-    "base_spe": 20,
-    "area_blocks": [
-      {
-          "tag": "tfc:anvils"
-      },
-      {
-          "tag": "forge:magma_block"
-      }
-  ],
-    "block_count": 1,
-    "input_items": [
-      {
-        "tag": "forge:ingots/cast_iron",
-        "count": 1
-      },
-      {
-        "tag": "tfc:flux",
-        "count": 1
-      },
-      {
-        "tag": "minecraft:coals",
         "count": 2
-      }
-    ],
-    "input_power": 0,
-    "input_fluid": {
-      "fluid": "minecraft:water",
-      "amount": 1000
-    },
-    "tick": 1000,
-    "result_items": [
-      {
-        "item": "tfc:metal/ingot/steel",
-        "count": 1
       }
     ]
   })
@@ -207,7 +150,7 @@ ServerEvents.recipes(event => {
     "base_spe": 40,
     "area_blocks": [
       {
-          "tag": "tfc:anvils"
+          "tag": "kubejs:t3_anvils"
       },
       {
           "tag": "forge:magma_block"

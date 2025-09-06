@@ -89,31 +89,5 @@
       "type": "url",
       "value": "https://spark.lucko.me/4ftUZaQHIs"
     }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "Tonywww",
-      "uniqueId": "26202e0c-296d-34a1-b7ee-c0d0a3144145"
-    },
-    "time": 1751941264597,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/pNPTbw1xju"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "Tonywww",
-      "uniqueId": "26202e0c-296d-34a1-b7ee-c0d0a3144145"
-    },
-    "time": 1751940757236,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/89cZAgPe4O"
-    }
   }
 ]

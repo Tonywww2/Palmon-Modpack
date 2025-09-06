@@ -2,6 +2,31 @@
 
 const stage7 = function (event) {
 
+    event.stonecutting('cobblemon:oran_berry', [Item.of('avaritia:singularity', '{Id:"avaritia:uranium"}').weakNBT()]).id("kubejs:oran_berry_s7")
+    event.stonecutting('cobblemon:cheri_berry', [Item.of('avaritia:singularity', '{Id:"avaritia:uranium"}').weakNBT()]).id("kubejs:cheri_berry_s7")
+    event.stonecutting('cobblemon:chesto_berry', [Item.of('avaritia:singularity', '{Id:"avaritia:uranium"}').weakNBT()]).id("kubejs:chesto_berry_s7")
+    event.stonecutting('cobblemon:pecha_berry', [Item.of('avaritia:singularity', '{Id:"avaritia:uranium"}').weakNBT()]).id("kubejs:pecha_berry_s7")
+    event.stonecutting('cobblemon:rawst_berry', [Item.of('avaritia:singularity', '{Id:"avaritia:uranium"}').weakNBT()]).id("kubejs:rawst_berry_s7")
+    event.stonecutting('cobblemon:aspear_berry', [Item.of('avaritia:singularity', '{Id:"avaritia:uranium"}').weakNBT()]).id("kubejs:aspear_berry_s7")
+    event.stonecutting('cobblemon:persim_berry', [Item.of('avaritia:singularity', '{Id:"avaritia:uranium"}').weakNBT()]).id("kubejs:persim_berry_s7")
+    event.stonecutting('cobblemon:razz_berry', [Item.of('avaritia:singularity', '{Id:"avaritia:uranium"}').weakNBT()]).id("kubejs:razz_berry_s7")
+    event.stonecutting('cobblemon:bluk_berry', [Item.of('avaritia:singularity', '{Id:"avaritia:uranium"}').weakNBT()]).id("kubejs:bluk_berry_s7")
+    event.stonecutting('cobblemon:nanab_berry', [Item.of('avaritia:singularity', '{Id:"avaritia:uranium"}').weakNBT()]).id("kubejs:nanab_berry_s7")
+    event.stonecutting('cobblemon:wepear_berry', [Item.of('avaritia:singularity', '{Id:"avaritia:uranium"}').weakNBT()]).id("kubejs:wepear_berry_s7")
+    event.stonecutting('cobblemon:pinap_berry', [Item.of('avaritia:singularity', '{Id:"avaritia:uranium"}').weakNBT()]).id("kubejs:pinap_berry_s7")
+    event.stonecutting('cobblemon:occa_berry', [Item.of('avaritia:singularity', '{Id:"avaritia:uranium"}').weakNBT()]).id("kubejs:occa_berry_s7")
+    event.stonecutting('cobblemon:passho_berry', [Item.of('avaritia:singularity', '{Id:"avaritia:uranium"}').weakNBT()]).id("kubejs:passho_berry_s7")
+    event.stonecutting('cobblemon:wacan_berry', [Item.of('avaritia:singularity', '{Id:"avaritia:uranium"}').weakNBT()]).id("kubejs:wacan_berry_s7")
+    event.stonecutting('cobblemon:rindo_berry', [Item.of('avaritia:singularity', '{Id:"avaritia:uranium"}').weakNBT()]).id("kubejs:rindo_berry_s7")
+    event.stonecutting('cobblemon:yache_berry', [Item.of('avaritia:singularity', '{Id:"avaritia:uranium"}').weakNBT()]).id("kubejs:yache_berry_s7")
+    event.stonecutting('cobblemon:chople_berry', [Item.of('avaritia:singularity', '{Id:"avaritia:uranium"}').weakNBT()]).id("kubejs:chople_berry_s7")
+    event.stonecutting('cobblemon:kebia_berry', [Item.of('avaritia:singularity', '{Id:"avaritia:uranium"}').weakNBT()]).id("kubejs:kebia_berry_s7")
+    event.stonecutting('cobblemon:shuca_berry', [Item.of('avaritia:singularity', '{Id:"avaritia:uranium"}').weakNBT()]).id("kubejs:shuca_berry_s7")
+    event.stonecutting('cobblemon:coba_berry', [Item.of('avaritia:singularity', '{Id:"avaritia:uranium"}').weakNBT()]).id("kubejs:coba_berry_s7")
+    event.stonecutting('cobblemon:payapa_berry', [Item.of('avaritia:singularity', '{Id:"avaritia:uranium"}').weakNBT()]).id("kubejs:payapa_berry_s7")
+    event.stonecutting('cobblemon:tanga_berry', [Item.of('avaritia:singularity', '{Id:"avaritia:uranium"}').weakNBT()]).id("kubejs:tanga_berry_s7")
+    event.stonecutting('cobblemon:charti_berry', [Item.of('avaritia:singularity', '{Id:"avaritia:uranium"}').weakNBT()]).id("kubejs:charti_berry_s7")
+
     event.shapeless('mekanism:creative_fluid_tank', ['mekanism:creative_fluid_tank']).id('kubejs:creative_fluid_tank_empty_s7')
 
     event.shaped('mekanism:mekasuit_helmet', [
@@ -226,7 +251,7 @@ const stage7 = function (event) {
             D: "techreborn:iridium_reinforced_stone_storage_block",
             E: "nuclearcraft:heavy",
             I: "forestry:royal_jelly",
-            J: 'mekanism_extras:supreme_induction_cell',
+            J: 'mekanism:ultimate_induction_cell',
             L: "mekanism:sps_casing",
             M: Item.of("tinkers_advanced:flux_core", '{Material:"tinkers_advanced:densium"}').weakNBT()
         }
@@ -874,21 +899,21 @@ const stage7 = function (event) {
         ],
         "block_count": 4,
         "input_items": [
-            Item.of('6x mekanism_extras:enriched_shining').toJson(),
+            Item.of('mekanism_extras:enriched_shining', 18).toJson(),
+            Item.of('palmon:polymer_plate', 18).toJson(),
             Item.of('mekanism:pellet_antimatter', 1).toJson(),
-            Item.of('palmon:polymer_plate', 1).toJson(),
             {
                 "type": "forge:partial_nbt",
                 "item": "avaritia:singularity",
                 "nbt": "{Id:\"avaritia:ultimate_berry\"}",
-                "count": 1
+                "count": 4
             }
         ],
         "input_power": 4096000,
         "input_fluid": null,
-        "tick": 600,
+        "tick": 12000,
         "result_items": [
-            Item.of('6x mekanism_extras:enriched_spectrum').toJson()
+            Item.of('mekanism_extras:enriched_spectrum', 18).toJson()
         ]
     }).id('kubejs:enriched_spectrum_s7')
 

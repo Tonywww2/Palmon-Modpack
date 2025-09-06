@@ -42,10 +42,13 @@ ServerEvents.recipes(event => {
         "base_spe": 0,
         "area_blocks": [
             {
+                "item": "minecraft:hay_block"
+            },
+            {
                 "tag": "tfc:seeds"
             }
         ],
-        "block_count": 16,
+        "block_count": 8,
         "tick": 400,
         "result_items": [
             {
@@ -55,7 +58,7 @@ ServerEvents.recipes(event => {
         ],
         "result_power": 0,
         "result_fluid": null
-    })
+    }).id("kubejs:production_poke_food")
 
     event.custom({
         "type": "palmon:production",

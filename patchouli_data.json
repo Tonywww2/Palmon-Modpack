@@ -26,7 +26,8 @@
         "tfc:mechanics/anvils",
         "tfc:the_world/wild_animals",
         "tfc:beneath/crops",
-        "tfc:mechanics/weaving"
+        "tfc:mechanics/weaving",
+        "tfc:mechanics/mechanical_power"
       ],
       "bookmarks": [],
       "completedManualQuests": []

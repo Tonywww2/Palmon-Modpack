@@ -12,6 +12,7 @@ ServerEvents.recipes(event => {
 
     event.shapeless('occultism:chalk_red_impure', ['occultism:chalk_white_impure', 'occultism:afrit_essence', '#forge:dusts/blaze', 'kubejs:epsilon_dust']).id('kubejs:chalk_red_impure_s6')
     event.shapeless('embers:alchemical_waste', ['embers:ember_shard', '8x #forge:ash']).id('kubejs:alchemical_waste_s6')
+    event.shapeless('4x cobgyms:legendary_shard', ['2x cobgyms:gym_key', 'kubejs:epsilon_dust']).id('kubejs:legendary_shard_s6')
 
     event.shaped('mobees:mutation_catalyst',
         [

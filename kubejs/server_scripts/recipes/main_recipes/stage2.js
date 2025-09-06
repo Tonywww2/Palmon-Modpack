@@ -232,4 +232,48 @@ ServerEvents.recipes(event => {
         "weight": 60
     }).id("kubejs:ember_shard_1_s2")
 
+    event.custom({
+        "type": "palmon:processing",
+        "category": "misc",
+        "focus_stat": "SPECIAL_ATTACK",
+        "min_level": 30,
+        "required_type": "steel",
+        "base_hp": 20,
+        "base_atk": 20,
+        "base_def": 20,
+        "base_spa": 20,
+        "base_spd": 20,
+        "base_spe": 20,
+        "area_blocks": [
+            {
+                "tag": "kubejs:t3_anvils"
+            },
+            {
+                "item": 'cataclysm:mechanical_fusion_anvil'
+            },
+            {
+                "tag": "forge:magma_block"
+            }
+        ],
+        "block_count": 1,
+        "input_items": [
+            {
+                "tag": 'forge:ingots/netherite',
+                "count": 1
+            }
+        ],
+        "input_power": 0,
+        "input_fluid": {
+            "fluid": "tconstruct:blazing_blood",
+            "amount": 200
+        },
+        "tick": 800,
+        "result_items": [
+            {
+                "item": 'tinkers_advanced:blaze_netherite',
+                "count": 1
+            }
+        ]
+    }).id('kubejs:blaze_netherite_s2')
+
 })

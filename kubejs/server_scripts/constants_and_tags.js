@@ -121,6 +121,36 @@ ServerEvents.tags('item', event => {
         'ad_astra:venus_sandstone'
     )
 
+    event.add("kubejs:t6_anvils",
+        'tfc:metal/anvil/blue_steel',
+        'tfc:metal/anvil/red_steel'
+    )
+
+    event.add("kubejs:t5_anvils",
+        'tfc:metal/anvil/black_steel',
+        '#kubejs:t6_anvils'
+    )
+
+    event.add("kubejs:t4_anvils",
+        'tfc:metal/anvil/steel',
+        '#kubejs:t5_anvils'
+    )
+
+    event.add("kubejs:t3_anvils",
+        'tfc:metal/anvil/wrought_iron',
+        '#kubejs:t4_anvils'
+    )
+
+    event.add("kubejs:t2_anvils",
+        '#tfc:bronze_anvils',
+        '#kubejs:t3_anvils'
+    )
+
+    event.add("kubejs:t1_anvils",
+        'tfc:metal/anvil/copper',
+        '#kubejs:t2_anvils'
+    )
+
 })
 
 ServerEvents.tags('block', event => {
@@ -128,7 +158,7 @@ ServerEvents.tags('block', event => {
     event.add('ae2:growth_acceleratable',
         '#cobblemon:berries'
     )
-    
+
     event.add("forge:sandstone/venus_sandstone",
         'ad_astra:venus_sandstone'
     )

@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "raikou-1",
+      "pokemon": "raikou",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-60",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [ 
+          "minecraft:savanna"
+           ]
+      }
+    }
+  ]
+}

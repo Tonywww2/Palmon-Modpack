@@ -114,6 +114,17 @@
         "count": 54
       },
       "category": "palmon"
+    },
+    
+    {
+      "output": {
+        "item": "cobblemon:revival_herb"
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 16
+      },
+      "category": "palmon"
     }
   ]
 }
