@@ -23,8 +23,6 @@ A heavily modified Minecraft modpack, built on `1.20.1`
 ---
 
 ## TODO
-- 0 首测：数值是否大致符合预期；严重的设计失误；游玩体验感；优化与服务器
-- 1 首发：首测结束后发布
 - 2 国际化：英语兼容
 - 3 后续维护：维护兼容缺失；持续更新遗物
 
@@ -35,3 +33,6 @@ A heavily modified Minecraft modpack, built on `1.20.1`
 - Bugs/Optimization Issues/Missing food compatibility Issues, please create an Issue and mark it with the label
 
 ---
+
+## 其它 | Other
+- 版本号说明：EA-早期测试版本，PR-预先发布版本，RC-Curseforge发布版本，RO-内部发布版本
