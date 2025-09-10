@@ -95,6 +95,11 @@
 
     "curios.identifier.otherworld_relics": "Otherworld Relics",
 
-    "curios.modifiers.otherworld_relics": "When in tune with the relic: "
+    "curios.modifiers.otherworld_relics": "When in tune with the relic: ",
+
+    "ui.kubejs.sunken_city": "......the abyss is also staring at you.",
+    "ui.kubejs.anchor_shard": "Use it to interfere with the world......",
+    "ui.kubejs.cognitio": "I think, therefore I am.",
+    "ui.kubejs.demon_heart": "After tuning with Phosphophyllite, you will not be able to use it......"
 
 }

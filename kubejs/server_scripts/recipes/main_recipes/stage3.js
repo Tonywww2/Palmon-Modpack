@@ -271,6 +271,21 @@ ServerEvents.recipes(event => {
   ).energy(30000)
     .id('kubejs:rice_s3')
 
+  event.recipes.thermal.insolator(['2x cobblemon:medicinal_leek'],
+    ['cobblemon:medicinal_leek']
+  ).energy(30000)
+    .id('kubejs:medicinal_leek_s3')
+
+  event.recipes.thermal.insolator(['2x sakura:soybean'],
+    ['sakura:soybean']
+  ).energy(30000)
+    .id('kubejs:soybean_sakura_s3')
+
+  event.recipes.thermal.insolator(['2x sakura:red_bean'],
+    ['sakura:red_bean']
+  ).energy(30000)
+    .id('kubejs:red_bean_s3')
+
   event.custom({
     "type": "malum:spirit_infusion",
     "extra_items": [

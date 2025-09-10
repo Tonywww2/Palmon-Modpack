@@ -642,6 +642,17 @@
 					table_id: 3367058103404351917L
 					type: "random"
 				}
+				{
+					id: "563702A4CDF44357"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			subtitle: "灵感：拔刀"
@@ -649,7 +660,7 @@
 				entity: "embers:ancient_golem"
 				id: "61FB65EF75B6B0A6"
 				type: "kill"
-				value: 13L
+				value: 7L
 			}]
 			title: "剑之魂"
 			x: -2.0d
@@ -710,6 +721,11 @@
 					table_id: 3367058103404351917L
 					type: "random"
 				}
+				{
+					id: "7AE2EB89AD97EAE8"
+					item: "kubejs:beta_framework"
+					type: "item"
+				}
 			]
 			subtitle: "灵感：无线输电"
 			tasks: [{
@@ -766,6 +782,11 @@
 					id: "333B1D9E000EFB36"
 					table_id: 3367058103404351917L
 					type: "random"
+				}
+				{
+					id: "7DE9FC06318AF95D"
+					item: "kubejs:beta_framework"
+					type: "item"
 				}
 			]
 			subtitle: "灵感：工厂管理"
@@ -834,6 +855,11 @@
 					table_id: 3367058103404351917L
 					type: "random"
 				}
+				{
+					id: "69FAA69380746EF1"
+					item: "kubejs:beta_framework"
+					type: "item"
+				}
 			]
 			subtitle: "灵感：行为模拟"
 			tasks: [{
@@ -900,6 +926,11 @@
 					id: "7F47703609161820"
 					table_id: 3367058103404351917L
 					type: "random"
+				}
+				{
+					id: "7A9C0D9F38F4570E"
+					item: "kubejs:beta_framework"
+					type: "item"
 				}
 			]
 			subtitle: "灵感：RFT实用设备"
@@ -1013,6 +1044,11 @@
 					id: "3E09446DC2970955"
 					table_id: 3367058103404351917L
 					type: "random"
+				}
+				{
+					id: "6B2905C861F35D3A"
+					item: "kubejs:beta_framework"
+					type: "item"
 				}
 			]
 			subtitle: "物资：黄铜机械"
@@ -4261,6 +4297,428 @@
 			}]
 			x: -22.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["1673E5CF51F87E75"]
+			id: "662185FD4D4AAE94"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "26EFF969ABF2AAAD"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1ECE62021D53EF81"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "47E25B197671E95C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 0b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 11177L
+							proudSoul: 0
+						}
+					}
+					id: "slashblade:slashblade_wood"
+					tag: {
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/blade.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 0b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/wood.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 2.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 11177L
+							maxDamage: 60
+							proudSoul: 0
+							translationKey: ""
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["662185FD4D4AAE94"]
+			hide_until_deps_complete: true
+			id: "05023599708405D8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "08A35AB2A05E3250"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29FB586D109D94F4"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7FC638F6EA5F4637"
+				item: "last_smith:research_table"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["05023599708405D8"]
+			id: "1B247DB30AE4C1EC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4BBEA9F31360E829"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E90175127365562"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "424ECA820E26F856"
+				item: "last_smith:scroll_basic"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1B247DB30AE4C1EC"]
+			id: "37B37D17739243E1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "22312E071FEC0F88"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DAA8C06DEE65B54"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "787F2EEED86251A7"
+				item: "last_smith:blade"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["37B37D17739243E1"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						RepairCounter: 0
+						SpecialAttackType: "slashblade:judgement_cut"
+						StandbyRenderType: 0b
+						SummonedSwordColor: -13421569
+						SummonedSwordColorInverse: 0b
+						TargetEntity: 0
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						currentCombo: "slashblade:standby"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isSealed: 0b
+						killCount: 0
+						lastActionTime: 0L
+						proudSoul: 0
+					}
+				}
+				id: "slashblade:slashblade_white"
+				tag: {
+					bladeState: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						ModelName: "slashblade:model/blade.obj"
+						RepairCounter: 0
+						SpecialAttackType: "slashblade:judgement_cut"
+						StandbyRenderType: 0b
+						SummonedSwordColor: -13421569
+						SummonedSwordColorInverse: 0b
+						TargetEntity: 0
+						TextureName: "slashblade:model/white.png"
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						baseAttackModifier: 4.0f
+						currentCombo: "slashblade:standby"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isDefaultBewitched: 0b
+						isSealed: 0b
+						killCount: 0
+						lastActionTime: 0L
+						maxDamage: 70
+						proudSoul: 0
+						translationKey: ""
+					}
+				}
+			}
+			id: "2DCEF18B496C4F68"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "452F7770CEDE14EF"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "448A36247F32B766"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "33EDCDDA7DEBD431"
+				item: "last_smith:scroll_blade"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["662185FD4D4AAE94"]
+			hide_until_deps_complete: true
+			id: "2F22309F0D2AC504"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2168D314EF480866"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06F0F64ED1CF22FE"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0E2028001D033288"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 0b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 11177L
+							proudSoul: 0
+						}
+					}
+					id: "slashblade:slashblade_bamboo"
+					tag: {
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/blade.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 0b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/bamboo.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 3.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 11177L
+							maxDamage: 70
+							proudSoul: 0
+							translationKey: ""
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2F22309F0D2AC504"]
+			id: "79A04D0C08D0D87F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2C6628F5F0A348FE"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CFA2B1BBD80966C"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "30344B5AF53E60EA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 0b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							proudSoul: 0
+						}
+					}
+					id: "slashblade:slashblade_silverbamboo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"2DCEF18B496C4F68"
+				"79A04D0C08D0D87F"
+			]
+			hide_until_deps_complete: true
+			id: "7518B9470FA62C33"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4B5872A274874BD7"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "765079EBA4D1C686"
+					table_id: 3367058103404351917L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0627EA552FDCD407"
+				item: "last_smith:scroll_katana"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.0d
 		}
 	]
 	title: "3. 归乡 | Hometown"

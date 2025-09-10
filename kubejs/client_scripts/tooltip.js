@@ -51,6 +51,7 @@ ItemEvents.tooltip(event => {
     event.add('cataclysm:abyss_eye', [Text.translate("ui.kubejs.abyss_eye").darkPurple()])
     event.add('kubejs:anchor_shard', [Text.translate("ui.kubejs.anchor_shard").darkBlue()])
     event.add('kubejs:cognitio', [Text.translate("ui.kubejs.cognitio").darkBlue()])
+    event.add('confluence:demon_heart', [Text.translate("ui.kubejs.demon_heart").darkBlue()])
 
     deliveryCoordinate.forEach(element => {
         event.addAdvanced(element, (item, advanced, text) => {

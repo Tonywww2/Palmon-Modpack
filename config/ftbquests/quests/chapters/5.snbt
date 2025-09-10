@@ -2477,6 +2477,867 @@
 			x: 4.0d
 			y: 4.0d
 		}
+		{
+			dependencies: ["68694C58414525D4"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						ModelName: "last_smith:model/named/yamato_neo/yamato_neo.obj"
+						RepairCounter: 0
+						SpecialAttackType: "slashblade:judgement_cut"
+						SpecialEffects: [
+							"last_smith:extra_power"
+							"last_smith:extra_sharpness"
+						]
+						StandbyRenderType: 1b
+						SummonedSwordColor: -13421569
+						SummonedSwordColorInverse: 0b
+						TargetEntity: 0
+						TextureName: "last_smith:model/named/yamato_neo/yamato_neo.png"
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						baseAttackModifier: 9.0f
+						currentCombo: "slashblade:none"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isDefaultBewitched: 1b
+						isSealed: 0b
+						killCount: 0
+						lastActionTime: 0L
+						maxDamage: 40
+						proudSoul: 0
+						translationKey: "item.last_smith.yamato_neo"
+					}
+				}
+				id: "slashblade:slashblade"
+				tag: {
+					Enchantments: [
+						{
+							id: "minecraft:soul_speed"
+							lvl: 2s
+						}
+						{
+							id: "minecraft:power"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:feather_falling"
+							lvl: 4s
+						}
+					]
+					bladeState: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						ModelName: "last_smith:model/named/yamato_neo/yamato_neo.obj"
+						RepairCounter: 0
+						SpecialAttackType: "slashblade:judgement_cut"
+						SpecialEffects: [
+							"last_smith:extra_power"
+							"last_smith:extra_sharpness"
+						]
+						StandbyRenderType: 1b
+						SummonedSwordColor: -13421569
+						SummonedSwordColorInverse: 0b
+						TargetEntity: 0
+						TextureName: "last_smith:model/named/yamato_neo/yamato_neo.png"
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						baseAttackModifier: 9.0f
+						currentCombo: "slashblade:none"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isDefaultBewitched: 1b
+						isSealed: 0b
+						killCount: 0
+						lastActionTime: 0L
+						maxDamage: 40
+						proudSoul: 0
+						translationKey: "item.last_smith.yamato_neo"
+					}
+				}
+			}
+			id: "02723518AF9BA1AF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4882BEB8A1AF2473"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F52F30B37E2965B"
+					table_id: 3840491528305963978L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "00B8F59376077C47"
+				item: "last_smith:scroll_yamato"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"02723518AF9BA1AF"
+				"68694C58414525D4"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						ModelName: "last_smith:model/named/roukan/model.obj"
+						RepairCounter: 0
+						SpecialAttackType: "last_smith:transmigration_slash"
+						SpecialEffects: [
+							"last_smith:extreme_sharpness"
+							"slashblade:wither_edge"
+						]
+						StandbyRenderType: 5b
+						SummonedSwordColor: -18491
+						SummonedSwordColorInverse: 0b
+						TargetEntity: 0
+						TextureName: "last_smith:model/named/roukan/texture_tx.png"
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						baseAttackModifier: 13.0f
+						currentCombo: "slashblade:none"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isDefaultBewitched: 1b
+						isSealed: 0b
+						killCount: 0
+						lastActionTime: 0L
+						maxDamage: 70
+						proudSoul: 0
+						translationKey: "item.last_smith.roukanken_nether"
+					}
+				}
+				id: "slashblade:slashblade"
+				tag: {
+					Enchantments: [
+						{
+							id: "minecraft:sharpness"
+							lvl: 4s
+						}
+						{
+							id: "minecraft:power"
+							lvl: 2s
+						}
+						{
+							id: "minecraft:fire_aspect"
+							lvl: 1s
+						}
+					]
+					bladeState: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						ModelName: "last_smith:model/named/roukan/model.obj"
+						RepairCounter: 0
+						SpecialAttackType: "last_smith:transmigration_slash"
+						SpecialEffects: [
+							"last_smith:extreme_sharpness"
+							"slashblade:wither_edge"
+						]
+						StandbyRenderType: 5b
+						SummonedSwordColor: -18491
+						SummonedSwordColorInverse: 0b
+						TargetEntity: 0
+						TextureName: "last_smith:model/named/roukan/texture_tx.png"
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						baseAttackModifier: 13.0f
+						currentCombo: "slashblade:none"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isDefaultBewitched: 1b
+						isSealed: 0b
+						killCount: 0
+						lastActionTime: 0L
+						maxDamage: 70
+						proudSoul: 0
+						translationKey: "item.last_smith.roukanken_nether"
+					}
+				}
+			}
+			id: "202D57F95FAC99CF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "11A037F24620A106"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23138D033EF04868"
+					table_id: 3840491528305963978L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "640FCC42C7706290"
+				item: "last_smith:scroll_heil"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["202D57F95FAC99CF"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						ModelName: "slashblade:model/named/agito.obj"
+						RepairCounter: 10
+						SpecialAttackType: "slashblade:wave_edge"
+						SpecialEffects: ["last_smith:bewitched_power"]
+						StandbyRenderType: 1b
+						SummonedSwordColor: -13421569
+						SummonedSwordColorInverse: 0b
+						TargetEntity: 0
+						TextureName: "last_smith:model/named/smith/texture_cloud.png"
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						baseAttackModifier: 10.0f
+						currentCombo: "slashblade:standby"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isDefaultBewitched: 1b
+						isSealed: 0b
+						killCount: 500
+						lastActionTime: 0L
+						maxDamage: 70
+						proudSoul: 0
+						translationKey: "item.last_smith.amagumo_kumo"
+					}
+				}
+				id: "slashblade:slashblade"
+				tag: {
+					Enchantments: [
+						{
+							id: "minecraft:sharpness"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:power"
+							lvl: 3s
+						}
+						{
+							id: "minecraft:sweeping"
+							lvl: 1s
+						}
+					]
+					bladeState: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						ModelName: "slashblade:model/named/agito.obj"
+						RepairCounter: 10
+						SpecialAttackType: "slashblade:wave_edge"
+						SpecialEffects: ["last_smith:bewitched_power"]
+						StandbyRenderType: 1b
+						SummonedSwordColor: -13421569
+						SummonedSwordColorInverse: 0b
+						TargetEntity: 0
+						TextureName: "last_smith:model/named/smith/texture_cloud.png"
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						baseAttackModifier: 10.0f
+						currentCombo: "slashblade:standby"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isDefaultBewitched: 1b
+						isSealed: 0b
+						killCount: 500
+						lastActionTime: 0L
+						maxDamage: 70
+						proudSoul: 0
+						translationKey: "item.last_smith.amagumo_kumo"
+					}
+				}
+			}
+			id: "46597EF3CB3F2618"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "42653B08E2C9FBE8"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28B51E8BBB76F108"
+					table_id: 3840491528305963978L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "652E3E4DE843DCC4"
+				item: "last_smith:scroll_bewitched"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46597EF3CB3F2618"]
+			hide_until_deps_complete: true
+			id: "78D8845FFBDCA377"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5ECA8227E4CD75D7"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58AB614A76F33378"
+					table_id: 3840491528305963978L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3D68B26BD1CBE7E1"
+				item: "last_smith:scroll_tengu_vol2"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7CFDC05FE7ACCB5E"
+				"57748F5B2886A728"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						ModelName: "last_smith:model/named/smith/model.obj"
+						RepairCounter: 0
+						SpecialAttackType: "slashblade:sakura_end"
+						SpecialEffects: ["last_smith:extreme_sharpness"]
+						StandbyRenderType: 1b
+						SummonedSwordColor: -13421569
+						SummonedSwordColorInverse: 0b
+						TargetEntity: 0
+						TextureName: "last_smith:model/named/smith/texture_wind.png"
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						baseAttackModifier: 10.0f
+						currentCombo: "slashblade:none"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isDefaultBewitched: 1b
+						isSealed: 0b
+						killCount: 0
+						lastActionTime: 0L
+						maxDamage: 70
+						proudSoul: 0
+						translationKey: "item.last_smith.amagumo_kaze"
+					}
+				}
+				id: "slashblade:slashblade"
+				tag: {
+					Enchantments: [
+						{
+							id: "minecraft:soul_speed"
+							lvl: 2s
+						}
+						{
+							id: "minecraft:sharpness"
+							lvl: 2s
+						}
+						{
+							id: "minecraft:feather_falling"
+							lvl: 4s
+						}
+					]
+					bladeState: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						ModelName: "last_smith:model/named/smith/model.obj"
+						RepairCounter: 0
+						SpecialAttackType: "slashblade:sakura_end"
+						SpecialEffects: ["last_smith:extreme_sharpness"]
+						StandbyRenderType: 1b
+						SummonedSwordColor: -13421569
+						SummonedSwordColorInverse: 0b
+						TargetEntity: 0
+						TextureName: "last_smith:model/named/smith/texture_wind.png"
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						baseAttackModifier: 10.0f
+						currentCombo: "slashblade:none"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isDefaultBewitched: 1b
+						isSealed: 0b
+						killCount: 0
+						lastActionTime: 0L
+						maxDamage: 70
+						proudSoul: 0
+						translationKey: "item.last_smith.amagumo_kaze"
+					}
+				}
+			}
+			id: "7094B8C7BB0E240B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "68D7486AE518D48D"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E17AA8C38C4F1E0"
+					table_id: 3840491528305963978L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "54CB6C040C632BB3"
+				item: "last_smith:scroll_sharpness"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7094B8C7BB0E240B"]
+			hide_until_deps_complete: true
+			id: "096358F02700E498"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6003B71FCC27257B"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "220EC60C0F4700C8"
+					table_id: 3840491528305963978L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5A1093204763BDAC"
+				item: "last_smith:scroll_tengu_vol1"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"096358F02700E498"
+				"78D8845FFBDCA377"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						ModelName: "last_smith:model/named/smith/model.obj"
+						RepairCounter: 0
+						SpecialAttackType: "slashblade:void_slash"
+						SpecialEffects: [
+							"last_smith:extreme_sharpness"
+							"last_smith:bewitched_power"
+							"last_smith:extra_smite"
+							"slashblade:wither_edge"
+						]
+						StandbyRenderType: 1b
+						SummonedSwordColor: -61167
+						SummonedSwordColorInverse: 0b
+						TargetEntity: 0
+						TextureName: "last_smith:model/named/smith/texture_final.png"
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						baseAttackModifier: 17.0f
+						currentCombo: "slashblade:none"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isDefaultBewitched: 1b
+						isSealed: 0b
+						killCount: 0
+						lastActionTime: 0L
+						maxDamage: 100
+						proudSoul: 0
+						translationKey: "item.last_smith.amagumo_munin"
+					}
+				}
+				id: "slashblade:slashblade"
+				tag: {
+					Enchantments: [
+						{
+							id: "minecraft:sharpness"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:soul_speed"
+							lvl: 2s
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}
+						{
+							id: "minecraft:power"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:feather_falling"
+							lvl: 4s
+						}
+						{
+							id: "minecraft:sweeping"
+							lvl: 3s
+						}
+					]
+					bladeState: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						ModelName: "last_smith:model/named/smith/model.obj"
+						RepairCounter: 0
+						SpecialAttackType: "slashblade:void_slash"
+						SpecialEffects: [
+							"last_smith:extreme_sharpness"
+							"last_smith:bewitched_power"
+							"last_smith:extra_smite"
+							"slashblade:wither_edge"
+						]
+						StandbyRenderType: 1b
+						SummonedSwordColor: -61167
+						SummonedSwordColorInverse: 0b
+						TargetEntity: 0
+						TextureName: "last_smith:model/named/smith/texture_final.png"
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						baseAttackModifier: 17.0f
+						currentCombo: "slashblade:none"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isDefaultBewitched: 1b
+						isSealed: 0b
+						killCount: 0
+						lastActionTime: 0L
+						maxDamage: 100
+						proudSoul: 0
+						translationKey: "item.last_smith.amagumo_munin"
+					}
+				}
+			}
+			id: "3595E3121E242F8A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0A20E5416E552B2A"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EAEA87829D2A28A"
+					table_id: 3840491528305963978L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1AEC6A539F495D6D"
+				item: "last_smith:scroll_tengu_full"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7094B8C7BB0E240B"]
+			id: "41938C913F6615C1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4D4AE4CE3DD56FED"
+					table_id: 7740467882398974147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C3D91747674025E"
+					table_id: 3840491528305963978L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "427E848DE1AEFCE4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							Energy: {
+								Capacity: 2000000
+								Energy: 0
+								EnergyDurability: 0b
+								MaxExtract: 20000
+								MaxReceive: 20000
+								PowerupExtract: 1000
+								StandbyExtract: 100
+								isPowered: 0b
+							}
+							ModelName: "last_smith:model/named/rf_roukan/model.obj"
+							RepairCounter: 0
+							SpecialAttackType: "last_smith:transmigration_slash"
+							SpecialEffects: ["last_smith:extra_sharpness"]
+							StandbyRenderType: 1b
+							SummonedSwordColor: -18491
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "last_smith:model/named/rf_roukan/texture.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 6.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 70
+							proudSoul: 0
+							translationKey: "item.last_smith.bunshi"
+						}
+					}
+					id: "energyblade:forge_energy_blade"
+					tag: {
+						Enchantments: [
+							{
+								id: "minecraft:sharpness"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 2s
+							}
+							{
+								id: "minecraft:soul_speed"
+								lvl: 2s
+							}
+						]
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "last_smith:model/named/rf_roukan/model.obj"
+							RepairCounter: 0
+							SpecialAttackType: "last_smith:transmigration_slash"
+							SpecialEffects: ["last_smith:extra_sharpness"]
+							StandbyRenderType: 1b
+							SummonedSwordColor: -18491
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "last_smith:model/named/rf_roukan/texture.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 6.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 70
+							proudSoul: 0
+							translationKey: "item.last_smith.bunshi"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7CFDC05FE7ACCB5E"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						ModelName: "last_smith:model/named/smith/model.obj"
+						RepairCounter: 0
+						SpecialAttackType: "slashblade:void_slash"
+						SpecialEffects: ["last_smith:extra_power"]
+						StandbyRenderType: 2b
+						SummonedSwordColor: -13421569
+						SummonedSwordColorInverse: 0b
+						TargetEntity: 0
+						TextureName: "last_smith:model/named/muramasa/texture_oboro.png"
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						baseAttackModifier: 11.0f
+						currentCombo: "slashblade:none"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isDefaultBewitched: 1b
+						isSealed: 0b
+						killCount: 0
+						lastActionTime: 0L
+						maxDamage: 70
+						proudSoul: 0
+						translationKey: "item.last_smith.oboro_muramasa"
+					}
+				}
+				id: "slashblade:slashblade"
+				tag: {
+					Enchantments: [
+						{
+							id: "minecraft:unbreaking"
+							lvl: 2s
+						}
+						{
+							id: "minecraft:power"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:sharpness"
+							lvl: 2s
+						}
+					]
+					bladeState: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						ModelName: "last_smith:model/named/smith/model.obj"
+						RepairCounter: 0
+						SpecialAttackType: "slashblade:void_slash"
+						SpecialEffects: ["last_smith:extra_power"]
+						StandbyRenderType: 2b
+						SummonedSwordColor: -13421569
+						SummonedSwordColorInverse: 0b
+						TargetEntity: 0
+						TextureName: "last_smith:model/named/muramasa/texture_oboro.png"
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						baseAttackModifier: 11.0f
+						currentCombo: "slashblade:none"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isDefaultBewitched: 1b
+						isSealed: 0b
+						killCount: 0
+						lastActionTime: 0L
+						maxDamage: 70
+						proudSoul: 0
+						translationKey: "item.last_smith.oboro_muramasa"
+					}
+				}
+			}
+			id: "57748F5B2886A728"
+			tasks: [{
+				id: "6EDEA5C8D010E5B4"
+				item: "last_smith:scroll_causality"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
 	]
 	title: "5. 永恒不再 | End of Eternity"
 }

@@ -2231,6 +2231,8 @@
 				table_id: 7740467882398974147L
 				type: "loot"
 			}]
+			shape: "hexagon"
+			subtitle: "匠魂升级"
 			tasks: [
 				{
 					id: "3EB44EFFA7EFD575"

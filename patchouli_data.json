@@ -2,6 +2,22 @@
   "bookGuiScale": 0,
   "clickedVisualize": true,
   "bookData": {
+    "last_smith:smith_guide": {
+      "viewedEntries": [
+        "last_smith:category_2/page_6",
+        "last_smith:category_2/page_5",
+        "last_smith:category_4/page_0",
+        "last_smith:category_5/page_11",
+        "last_smith:category_1/page_1",
+        "last_smith:category_1/page_3",
+        "last_smith:category_1/page_2",
+        "last_smith:category_1/page_4",
+        "last_smith:category_2/page_1",
+        "last_smith:category_2/page_2"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
     "botania:lexicon": {
       "viewedEntries": [
         "botania:alfhomancy/gaia_ritual",

@@ -31,8 +31,8 @@
 			image: "tfc:item/metal/pickaxe/blue_steel"
 			rotation: 120.0d
 			width: 2.0d
-			x: -3.5d
-			y: 7.5d
+			x: -2.0d
+			y: 4.0d
 		}
 	]
 	order_index: 0
@@ -155,11 +155,12 @@
 				type: "checkmark"
 			}]
 			title: "群峦星特征"
-			x: 0.0d
+			x: 2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["7D265517B918D923"]
+			description: ["在地表上发现的矿物碎块，是前期金属的主要来源"]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -185,7 +186,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "在地表上发现的矿物碎块，是前期金属的主要来源"
+			subtitle: "闪亮的石子"
 			tasks: [{
 				count: 4L
 				id: "3DB9959A5521B464"
@@ -205,6 +206,7 @@
 		}
 		{
 			dependencies: ["7D265517B918D923"]
+			description: ["收集到一定数量的黏土球后，使用黏土球捏制出一些基本的陶器。"]
 			id: "416F3157641D6D75"
 			rewards: [
 				{
@@ -220,7 +222,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "收集到一定数量的黏土球后，\\n使用黏土球捏制出一些基本的陶器"
+			subtitle: "捏"
 			tasks: [{
 				count: 4L
 				id: "4651AAB1F0AB95D5"
@@ -230,39 +232,6 @@
 			title: "陶器"
 			x: 2.0d
 			y: 2.0d
-		}
-		{
-			dependencies: ["7D265517B918D923"]
-			description: [
-				"由于一种未知的力量，群峦星的大多数物品与材料拥有着一些特殊特性。"
-				""
-				"例如："
-				"你无法背起超重的物品。"
-				"部分方块在无支撑时会塌方。"
-			]
-			icon: "botania:cosmetic_questgiver_mark"
-			id: "1FBD0A696202485D"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "47AD7FF00CEF7E33"
-					table_id: 8044557412893536476L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2BF10ED6BC540302"
-					table_id: 1141615569593449731L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "19B694149F423CAD"
-				type: "checkmark"
-			}]
-			title: "群峦星限制"
-			x: 2.0d
-			y: -2.0d
 		}
 		{
 			dependencies: ["7D265517B918D923"]
@@ -493,6 +462,11 @@
 		}
 		{
 			dependencies: ["73BA44112A812A9A"]
+			description: [
+				"为了更进一步的加工金属，你需要去寻找一块合适的岩石与一把锤子。"
+				""
+				"详细请查阅群峦传说手册原始砧条目。"
+			]
 			id: "3004D56C67359C5C"
 			rewards: [
 				{
@@ -514,7 +488,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "为了更进一步的加工金属，你需要去寻找一块合适的岩石与一把锤子。\\n详细请查阅群峦传说手册原始砧条目。"
+			subtitle: "哐哐哐"
 			tasks: [{
 				id: "66B2D1C1A5F8D5E2"
 				item: {
@@ -570,6 +544,7 @@
 		}
 		{
 			dependencies: ["73BA44112A812A9A"]
+			description: ["记得查看传动杆任务......"]
 			hide_until_deps_complete: true
 			icon: "tfc:quern"
 			id: "64CB731561F30CA0"
@@ -617,6 +592,7 @@
 				"73BA44112A812A9A"
 			]
 			dependency_requirement: "one_completed"
+			description: ["通过研磨朱砂，获取一些红石粉。"]
 			id: "621BC8CBEA4447C4"
 			rewards: [
 				{
@@ -632,7 +608,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "通过研磨朱砂，获取一些红石粉"
+			subtitle: "朱砂？"
 			tasks: [{
 				id: "711F398EB864E356"
 				item: "minecraft:redstone"
@@ -643,7 +619,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["621BC8CBEA4447C4"]
+			dependencies: ["2A8DED02CA1F06FF"]
 			id: "76130DA23F012D3D"
 			rewards: [
 				{
@@ -666,8 +642,8 @@
 				type: "item"
 			}]
 			title: "木桶"
-			x: 6.0d
-			y: 6.0d
+			x: 2.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -731,6 +707,11 @@
 		}
 		{
 			dependencies: ["3004D56C67359C5C"]
+			description: [
+				"不同的材料需求的砧等级不同。"
+				""
+				"详细请见群峦手册的砧条目。"
+			]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -772,7 +753,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "不同的材料需求的砧等级不同，详细请见群峦手册砧条目"
+			subtitle: "Duang"
 			tasks: [{
 				id: "4950298E8ADC04CD"
 				item: {
@@ -841,7 +822,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "你需要8块这种双层薄板来制作锻铁炉"
+			subtitle: "厚重的板"
 			tasks: [{
 				count: 2L
 				id: "005A89F9B96384A6"
@@ -861,6 +842,11 @@
 		}
 		{
 			dependencies: ["4B7DD0BE2EA68D42"]
+			description: [
+				"使用锻铁炉与金属砧，你终于可以精炼出锻铁锭了。"
+				""
+				"详细请见群峦手册的锻铁炉条目。"
+			]
 			id: "03AD0443D82AD6DF"
 			rewards: [
 				{
@@ -876,7 +862,6 @@
 					type: "random"
 				}
 			]
-			subtitle: "使用锻铁炉与金属砧，你终于可以精炼出锻铁锭了。\\n详细请见群峦手册锻铁炉条目"
 			tasks: [{
 				id: "797C8D4AC8218D6A"
 				item: "tfc:bloomery"
@@ -1074,6 +1059,11 @@
 		}
 		{
 			dependencies: ["73BA44112A812A9A"]
+			description: [
+				"现在你已经在群峦星生存一段时间了，相信你也非常想和野生的宝可梦们建立更深的羁绊。"
+				""
+				"这条支线将会指引你制作一些现在可以使用的宝可梦相关物品。"
+			]
 			hide_until_deps_complete: true
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "5298A692AAAAAE04"
@@ -1114,7 +1104,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "现在你已经在群峦星生存一段时间了，相信你也非常想和野生的宝可梦们建立羁绊。\\n这条任务线将会指引你制作在群峦星可用的宝可梦相关物品。"
 			tasks: [{
 				id: "64E7E16F48939879"
 				type: "checkmark"
@@ -1148,7 +1137,7 @@
 				item: "tfc:glue"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 6.0d
 			y: 12.0d
 		}
 		{
@@ -1238,7 +1227,7 @@
 				item: "cobblemon:red_apricorn_seed"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: 12.0d
 		}
 		{
@@ -1268,7 +1257,7 @@
 				type: "item"
 			}]
 			title: "你的第一个精灵球"
-			x: 6.0d
+			x: 8.0d
 			y: 12.0d
 		}
 		{
@@ -1399,6 +1388,7 @@
 					type: "random"
 				}
 			]
+			shape: "hexagon"
 			subtitle: "异界植物"
 			tasks: [{
 				id: "38313D5FA24D2B50"
@@ -1589,7 +1579,11 @@
 		}
 		{
 			dependencies: ["7A23822AE720815B"]
-			description: ["别做错风箱了！"]
+			description: [
+				"详细请查阅群峦传说手册的建造高炉条目。"
+				""
+				"别做错风箱了！"
+			]
 			hide_until_deps_complete: true
 			icon: "tfc:blast_furnace"
 			id: "73715615076BFBCE"
@@ -1609,7 +1603,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "详细请查阅群峦传说手册建造高炉条目。"
+			subtitle: "大炼钢铁"
 			tasks: [
 				{
 					id: "78CF67C30546DE22"
@@ -2058,7 +2052,6 @@
 		}
 		{
 			dependencies: ["7AE40EE67AD78575"]
-			description: [""]
 			id: "1B78FE8A0740F3FB"
 			rewards: [
 				{
@@ -2088,6 +2081,13 @@
 				"28B339DC7608D688"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"这条支线将会指引你制作匠魂熔炼炉相关的设备。"
+				""
+				"匠魂熔炼炉可以使你更便捷的把矿物粉末加工成锭，也可以制作合金。"
+				""
+				"注意：你可能会希望使用EMI的合成树功能。"
+			]
 			id: "7DC581093C034965"
 			rewards: [
 				{
@@ -2103,6 +2103,7 @@
 					type: "random"
 				}
 			]
+			shape: "hexagon"
 			subtitle: "我不是渣渣！"
 			tasks: [{
 				id: "1B7291D0F7A8F0FB"
@@ -2546,12 +2547,6 @@
 			optional: true
 			rewards: [
 				{
-					count: 16
-					id: "6D4688657D941C0A"
-					item: "slashblade:proudsoul_tiny"
-					type: "item"
-				}
-				{
 					auto: "enabled"
 					id: "12E02CC952BD1715"
 					ignore_reward_blocking: true
@@ -2561,76 +2556,110 @@
 					type: "gamestage"
 				}
 				{
-					id: "78C00BACAB99E518"
+					id: "7FC28217F2E1FD58"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							Parent: {
-								AttackAmplifier: 0.0f
-								ComboRoot: "slashblade:standby"
-								Damage: 0
-								RepairCounter: 0
-								SpecialAttackType: "slashblade:judgement_cut"
-								StandbyRenderType: 0b
-								SummonedSwordColor: -13421569
-								SummonedSwordColorInverse: 0b
-								TargetEntity: 0
-								_onClick: 0b
-								adjustXYZ: [
-									0.0d
-									0.0d
-									0.0d
-								]
-								baseAttackModifier: 4.0f
-								currentCombo: "slashblade:none"
-								fallDecreaseRate: 0.0f
-								isBroken: 0b
-								isDefaultBewitched: 0b
-								isSealed: 0b
-								killCount: 0
-								lastActionTime: 0L
-								maxDamage: 40
-								proudSoul: 0
-								translationKey: ""
-							}
-						}
-						id: "slashblade:slashblade"
+						id: "minecraft:lime_shulker_box"
 						tag: {
-							bladeState: {
-								AttackAmplifier: 0.0f
-								ComboRoot: "slashblade:standby"
-								Damage: 0
-								RepairCounter: 0
-								SpecialAttackType: "slashblade:judgement_cut"
-								StandbyRenderType: 0b
-								SummonedSwordColor: -13421569
-								SummonedSwordColorInverse: 0b
-								TargetEntity: 0
-								_onClick: 0b
-								adjustXYZ: [
-									0.0d
-									0.0d
-									0.0d
+							BlockEntityTag: {
+								ForgeCaps: { }
+								Items: [
+									{
+										Count: 12b
+										Slot: 0b
+										id: "slashblade:proudsoul_tiny"
+									}
+									{
+										Count: 1b
+										Slot: 1b
+										id: "sophisticatedbackpacks:anvil_upgrade"
+									}
+									{
+										Count: 1b
+										ForgeCaps: {
+											Parent: {
+												AttackAmplifier: 0.0f
+												ComboRoot: "slashblade:standby"
+												Damage: 0
+												RepairCounter: 0
+												SpecialAttackType: "slashblade:judgement_cut"
+												StandbyRenderType: 0b
+												SummonedSwordColor: -13421569
+												SummonedSwordColorInverse: 0b
+												TargetEntity: 0
+												_onClick: 0b
+												adjustXYZ: [
+													0.0d
+													0.0d
+													0.0d
+												]
+												baseAttackModifier: 4.0f
+												currentCombo: "slashblade:standby"
+												fallDecreaseRate: 0.0f
+												isBroken: 0b
+												isDefaultBewitched: 0b
+												isSealed: 0b
+												killCount: 0
+												lastActionTime: 0L
+												maxDamage: 40
+												proudSoul: 0
+												translationKey: ""
+											}
+										}
+										Slot: 2b
+										id: "slashblade:slashblade"
+										tag: {
+											Enchantments: [{
+												id: "minecraft:unbreaking"
+												lvl: 1s
+											}]
+											RepairCost: 0
+											bladeState: {
+												AttackAmplifier: 0.0f
+												ComboRoot: "slashblade:standby"
+												Damage: 0
+												RepairCounter: 0
+												SpecialAttackType: "slashblade:judgement_cut"
+												StandbyRenderType: 0b
+												SummonedSwordColor: -13421569
+												SummonedSwordColorInverse: 0b
+												TargetEntity: 0
+												_onClick: 0b
+												adjustXYZ: [
+													0.0d
+													0.0d
+													0.0d
+												]
+												baseAttackModifier: 4.0f
+												currentCombo: "slashblade:standby"
+												fallDecreaseRate: 0.0f
+												isBroken: 0b
+												isDefaultBewitched: 0b
+												isSealed: 0b
+												killCount: 0
+												lastActionTime: 0L
+												maxDamage: 40
+												proudSoul: 0
+												translationKey: ""
+											}
+										}
+									}
+									{
+										Count: 4b
+										ForgeCaps: {
+											"tfc:food": {
+												creationDate: -2L
+												traits: [ ]
+											}
+										}
+										Slot: 3b
+										id: "minecraft:rotten_flesh"
+									}
 								]
-								baseAttackModifier: 4.0f
-								currentCombo: "slashblade:none"
-								fallDecreaseRate: 0.0f
-								isBroken: 0b
-								isDefaultBewitched: 0b
-								isSealed: 0b
-								killCount: 0
-								lastActionTime: 0L
-								maxDamage: 40
-								proudSoul: 0
-								translationKey: ""
+								id: "minecraft:shulker_box"
 							}
 						}
 					}
-					type: "item"
-				}
-				{
-					id: "16892BCD10CFF34E"
-					item: "minecraft:lime_shulker_box"
 					type: "item"
 				}
 			]
@@ -2653,12 +2682,13 @@
 			invisible: true
 			optional: true
 			rewards: [{
-				id: "260388DEFD9F2185"
+				id: "326A9D19FF0A2A41"
 				item: {
 					Count: 1
 					id: "minecraft:lime_shulker_box"
 					tag: {
 						BlockEntityTag: {
+							ForgeCaps: { }
 							Items: [
 								{
 									Count: 1b
@@ -2666,7 +2696,7 @@
 									id: "tconstruct:smeltery_controller"
 								}
 								{
-									Count: 2b
+									Count: 1b
 									Slot: 1b
 									id: "tconstruct:seared_fuel_tank"
 									tag: {
@@ -2677,7 +2707,7 @@
 									}
 								}
 								{
-									Count: 32b
+									Count: 10b
 									Slot: 2b
 									id: "tconstruct:seared_bricks"
 								}
@@ -2687,7 +2717,7 @@
 									id: "tconstruct:seared_drain"
 								}
 								{
-									Count: 2b
+									Count: 1b
 									Slot: 4b
 									id: "tconstruct:seared_faucet"
 								}
@@ -2722,100 +2752,89 @@
 		}
 		{
 			dependencies: ["70F53B1333FE496B"]
-			icon: "cobblemon:poke_ball"
+			icon: "umapyoi:crystal_rainbow"
 			id: "2FD44CDCE6E74A77"
 			invisible: true
 			optional: true
-			rewards: [
-				{
-					id: "2D3BE80F7C028B3A"
-					item: {
-						Count: 1
-						id: "minecraft:lime_shulker_box"
-						tag: {
-							BlockEntityTag: {
-								ForgeCaps: { }
-								Items: [
-									{
-										Count: 2b
-										Slot: 0b
-										id: "cobblemon:pc"
+			rewards: [{
+				id: "2B741E3C87FB7E65"
+				item: {
+					Count: 1
+					id: "minecraft:lime_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 1b
+									Slot: 0b
+									id: "umapyoi:support_card"
+									tag: {
+										Unbreakable: 1b
+										maxDamage: 0
+										ranking: "ssr"
+										support_card: "umapyoi:ssr_three_goddesses"
 									}
-									{
-										Count: 2b
-										Slot: 1b
-										id: "cobblemon:healing_machine"
+								}
+								{
+									Count: 2b
+									Slot: 1b
+									id: "umapyoi:silver_uma_pedestal"
+								}
+								{
+									Count: 1b
+									Slot: 2b
+									id: "umapyoi:three_goddess"
+								}
+								{
+									Count: 1b
+									Slot: 3b
+									id: "umapyoi:training_facility"
+								}
+								{
+									Count: 1b
+									Slot: 4b
+									id: "umapyoi:skill_learning_table"
+								}
+								{
+									Count: 1b
+									Slot: 5b
+									id: "umapyoi:register_lectern"
+								}
+								{
+									Count: 8b
+									ForgeCaps: {
+										"tfc:food": {
+											creationDate: -2L
+											traits: [ ]
+										}
 									}
-									{
-										Count: 32b
-										Slot: 2b
-										id: "cobblemon:poke_ball"
+									Slot: 6b
+									id: "umapyoi:hachimi_mid"
+								}
+								{
+									Count: 6b
+									Slot: 7b
+									id: "umapyoi:blank_ticket"
+								}
+								{
+									Count: 1b
+									Slot: 8b
+									id: "umapyoi:blank_uma_soul"
+									tag: {
+										identifier: "umapyoi:common_uma_b"
+										name: "umapyoi:common_uma_b"
+										ranking: "r"
 									}
-									{
-										Count: 16b
-										Slot: 3b
-										id: "cobblemon:great_ball"
-									}
-									{
-										Count: 8b
-										Slot: 4b
-										id: "cobblemon:ultra_ball"
-									}
-									{
-										Count: 16b
-										Slot: 5b
-										id: "cobblemon:potion"
-									}
-									{
-										Count: 8b
-										Slot: 6b
-										id: "cobblemon:super_potion"
-									}
-									{
-										Count: 4b
-										Slot: 7b
-										id: "cobblemon:hyper_potion"
-									}
-									{
-										Count: 16b
-										Slot: 8b
-										id: "cobblemon:ether"
-									}
-									{
-										Count: 8b
-										Slot: 9b
-										id: "cobblemon:max_ether"
-									}
-									{
-										Count: 4b
-										Slot: 10b
-										id: "cobblemon:elixir"
-									}
-									{
-										Count: 2b
-										Slot: 11b
-										id: "cobblemon:max_elixir"
-									}
-									{
-										Count: 1b
-										Slot: 12b
-										id: "unimplemented_items:bottle_cap"
-									}
-								]
-								id: "minecraft:shulker_box"
-							}
+								}
+							]
+							id: "minecraft:shulker_box"
 						}
 					}
-					type: "item"
 				}
-				{
-					count: 4
-					id: "6ADCDCD4635DD613"
-					item: "cobblemon:exp_candy_m"
-					type: "item"
-				}
-			]
-			subtitle: "物资：宝可梦"
+				type: "item"
+			}]
+			subtitle: "物资：马儿蹦跳"
 			tasks: [{
 				consume_items: false
 				id: "181CA7D6918D543E"
@@ -2823,7 +2842,7 @@
 				match_nbt: false
 				type: "item"
 			}]
-			title: "1-2 宝可梦"
+			title: "1-2 马娘之魂"
 			x: -4.0d
 			y: 2.0d
 		}
@@ -2833,60 +2852,102 @@
 			id: "3BB6E5457511866F"
 			invisible: true
 			optional: true
-			rewards: [
-				{
-					id: "50436A5994BBFA66"
-					item: {
-						Count: 1
-						id: "minecraft:lime_shulker_box"
-						tag: {
-							BlockEntityTag: {
-								ForgeCaps: { }
-								Items: [
-									{
-										Count: 2b
-										Slot: 0b
-										id: "palmon:empty_contract"
-									}
-									{
-										Count: 2b
-										Slot: 1b
-										id: "palmon:working_station"
-									}
-									{
-										Count: 1b
-										Slot: 2b
-										id: "palmon:production_machine"
-									}
-									{
-										Count: 1b
-										Slot: 3b
-										id: "palmon:processing_station"
-									}
-									{
-										Count: 16b
-										Slot: 4b
-										id: "palmon:poke_food"
-									}
-									{
-										Count: 2b
-										Slot: 5b
-										id: "palmon:boost_frame_1"
-									}
-								]
-								id: "minecraft:shulker_box"
-							}
+			rewards: [{
+				id: "50436A5994BBFA66"
+				item: {
+					Count: 1
+					id: "minecraft:lime_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 2b
+									Slot: 0b
+									id: "palmon:empty_contract"
+								}
+								{
+									Count: 16b
+									Slot: 1b
+									id: "palmon:poke_food"
+								}
+								{
+									Count: 1b
+									Slot: 2b
+									id: "unimplemented_items:bottle_cap"
+								}
+								{
+									Count: 1b
+									Slot: 3b
+									id: "cobblemon:max_elixir"
+								}
+								{
+									Count: 4b
+									Slot: 4b
+									id: "cobblemon:max_ether"
+								}
+								{
+									Count: 8b
+									Slot: 5b
+									id: "cobblemon:potion"
+								}
+								{
+									Count: 4b
+									Slot: 6b
+									id: "cobblemon:super_potion"
+								}
+								{
+									Count: 2b
+									Slot: 7b
+									id: "cobblemon:elixir"
+								}
+								{
+									Count: 8b
+									Slot: 8b
+									id: "cobblemon:ether"
+								}
+								{
+									Count: 4b
+									Slot: 9b
+									id: "cobblemon:exp_candy_l"
+								}
+								{
+									Count: 2b
+									Slot: 10b
+									id: "cobblemon:hyper_potion"
+								}
+								{
+									Count: 2b
+									Slot: 11b
+									id: "palmon:working_station"
+								}
+								{
+									Count: 1b
+									Slot: 12b
+									id: "palmon:production_machine"
+								}
+								{
+									Count: 1b
+									Slot: 13b
+									id: "palmon:processing_station"
+								}
+								{
+									Count: 1b
+									Slot: 14b
+									id: "cobblemon:healing_machine"
+								}
+								{
+									Count: 1b
+									Slot: 15b
+									id: "cobblemon:pc"
+								}
+							]
+							id: "minecraft:shulker_box"
 						}
 					}
-					type: "item"
 				}
-				{
-					count: 4
-					id: "493F5DB35EDF329B"
-					item: "cobblemon:exp_candy_m"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			subtitle: "物资：帕鲁"
 			tasks: [{
 				consume_items: false
@@ -3023,11 +3084,7 @@
 				"7A23822AE720815B"
 				"73715615076BFBCE"
 			]
-			description: [
-				"如果你想通过熔炼炉的方式获取生铁，那么你需要蜂蜜。"
-				""
-				"但是你逃不掉的。"
-			]
+			description: ["如果你想通过熔炼炉的方式获取生铁，那么你需要蜂蜜。"]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4567,7 +4624,7 @@
 		{
 			dependencies: ["7D265517B918D923"]
 			description: [
-				"道馆散布于世界各地，每个道馆每个玩家都可以挑战三次。"
+				"道馆散布于世界各地，每个玩家都可以挑战每个道馆三次。"
 				""
 				"越高等级的道馆的奖励越丰厚，其中的很多奖励可以帮助你更加顺利的发展。"
 			]
@@ -4633,6 +4690,145 @@
 			}]
 			x: 6.0d
 			y: 34.0d
+		}
+		{
+			dependencies: ["73BA44112A812A9A"]
+			description: [
+				"使用大自然的力量为你的设备提供动力！"
+				""
+				"你可以使用这些动力来驱动石磨或风箱，甚至能帮助你半自动打铁！"
+				""
+				"如果你希望改变动力的方向，请制作齿轮箱。"
+				""
+				"详细请见群峦手册的机械动力条目。"
+			]
+			icon: "tfc:wood/axle/douglas_fir"
+			id: "3CCB2A901187171A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "151EE6160407A2D3"
+					table_id: 8044557412893536476L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "095598F9C99A5B84"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+			]
+			subtitle: "群峦动力"
+			tasks: [{
+				id: "046AE8EF65E38CDE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:axles"
+					}
+				}
+				title: "Any #tfc:axles"
+				type: "item"
+			}]
+			title: "传动杆"
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3CCB2A901187171A"]
+			icon: "tfc:wood/water_wheel/douglas_fir"
+			id: "566E2C3541335735"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "379A7E7DD4ED1707"
+					table_id: 8044557412893536476L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "200E999FAD567131"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+			]
+			subtitle: "水的力量"
+			tasks: [{
+				id: "498FF4A0C1B1E2EC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:water_wheels"
+					}
+				}
+				title: "Any #tfc:water_wheels"
+				type: "item"
+			}]
+			title: "水车"
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3CCB2A901187171A"]
+			icon: "tfc:windmill_blade"
+			id: "7477CBFFF522CC41"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "69B32FB3DE01AA4F"
+					table_id: 8044557412893536476L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F1B02ABAD8F7503"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+			]
+			subtitle: "风的力量"
+			tasks: [{
+				id: "2093704CFDA13BF3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tfc:all_windmill_blades"
+					}
+				}
+				title: "Any #tfc:all_windmill_blades"
+				type: "item"
+			}]
+			title: "风车"
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["269D0D7C9C9C45F1"]
+			id: "0C0D899AE8E0ED15"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F668815D3AFC492"
+					table_id: 8044557412893536476L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4AA3703C8E493034"
+					table_id: 1141615569593449731L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2E2FF7DB2D091706"
+				item: "cobblemon:ether"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
 		}
 	]
 	title: "1. 群峦星 | TFC Planet"

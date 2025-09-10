@@ -9,3 +9,11 @@ ItemEvents.rightClicked('thermal:lumium_coin', event => {
     event.player.tell("Success! ")
     
 })
+
+ItemEvents.rightClicked('confluence:demon_heart', event => {
+    if(hasCurios(event.player, "kubejs:phosphophyllite")) {
+        event.player.tell(Text.translatable("ui.kubejs.banned").aqua())
+        event.player.getCooldowns().addCooldown('confluence:demon_heart', 200)
+        event.cancel()
+    }
+})

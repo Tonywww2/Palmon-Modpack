@@ -1,0 +1,20 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:smite"
+    }
+  ],
+  "name": "slashblade_addon:murakumo",
+  "properties": {
+    "attack_base": 22.0,
+    "max_damage": 80,
+    "slash_art": "slashblade:sakura_end",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "slashblade_addon:model/murakumo/model.obj",
+    "texture": "slashblade_addon:model/murakumo/texture.png"
+  }
+}

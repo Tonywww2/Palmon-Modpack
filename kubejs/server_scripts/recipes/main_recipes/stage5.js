@@ -1166,31 +1166,77 @@ ServerEvents.recipes(event => {
     }).id('kubejs:nihilulex_s5')
 
     event.custom({
+        "type": "slashblade:slashblade_smithing",
+        "addition": {
+            "item": 'draconicevolution:dragon_heart'
+        },
+        "base": {
+            "type": "slashblade:blade",
+            "item": "slashblade:slashblade",
+            "request": {
+                "enchantments": [
+                    {
+                        "id": "minecraft:smite"
+                    }
+                ],
+                "name": "last_smith:nagasada",
+                "refine": 10
+            }
+        },
+        "blade": "last_smith:hakurouken",
+        "template": {
+            "item": "last_smith:scroll_exorcism"
+        }
+    }).id('kubejs:hakurouken_s5')
+
+    event.custom({
         "type": "slashblade:shaped_blade",
-        "blade": "slashblade_addon:murakumo",
+        "blade": "last_smith:oboro_muramasa",
         "category": "equipment",
         "key": {
-            "A": Item.of('hostilenetworks:prediction', '{data_model:{id:"hostilenetworks:ghast"}}').weakNBT().toJson(),
-            "B": {
-                "item": "slashblade:slashblade"
+            "C": {
+                "type": "slashblade:blade",
+                "item": "slashblade:slashblade",
+                "request": {
+                    "kill": 1500,
+                    "name": "last_smith:muramasa_kagura",
+                    "proud_soul": 5000,
+                    "refine": 20
+                }
             },
-            "I": {
-                "item": 'kubejs:end_steel'
+            "D": {
+                "item": "slashblade:proudsoul_sphere"
+            },
+            "F": {
+                "item": "last_smith:sakura_full"
             },
             "S": {
-                "item": 'slashblade:proudsoul_crystal'
+                "item": "last_smith:scroll_muramasa"
+            },
+            "U": {
+                "type": "slashblade:blade",
+                "item": "slashblade:slashblade",
+                "request": {
+                    "kill": 1500,
+                    "name": "slashblade:muramasa",
+                    "proud_soul": 5000,
+                    "refine": 20
+                }
+            },
+            "L": {
+                "item": 'tconstruct:dragon_scale'
             }
         },
         "pattern": [
-            "AIS",
-            "IBI",
-            "SIA"
+            "LFL",
+            "CSU",
+            "DFD"
         ],
         "result": {
             "item": "slashblade:slashblade"
         },
         "show_notification": true
-    }).id('kubejs:murakumo_s5')
+    }).kubejs("kubejs:oboro_muramasa_s5")
 
     tcAlloy([{ "amount": 1000, "tag": 'forge:deuterium' }, { "amount": 1000, "tag": 'forge:tritium' }, { "amount": 720, "tag": 'forge:helium' }, { "amount": 720, "tag": 'forge:lithium/7_za' }],
         { "amount": 100, "tag": "kubejs:hybrid_fuel" }, 100, 'kubejs:hybrid_fuel')

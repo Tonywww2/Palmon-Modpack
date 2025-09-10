@@ -259,7 +259,7 @@
 				""
 				"如果你没记录一个宝可梦，你依然可以通过编号查询他的信息。"
 				""
-				"对于种族值等相对隐藏的信息，请前往 神奇宝贝百科 查询。"
+				"对于种族值等相对隐藏的信息，请前往 神奇宝贝百科（网站） 查询。"
 			]
 			icon: "cobbledex:cobbledex_item"
 			id: "73C8DE02119CC1A4"
@@ -271,6 +271,28 @@
 			title: "查询宝可梦信息"
 			x: 4.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["33E33FCA416448CA"]
+			description: [
+				"你的宝可梦工作的太慢了！"
+				"你的宝可梦数值不够高！"
+				"该怎么办呢？"
+				""
+				"你可以在钓鱼/探索获得一种特殊的道具：Bottle Cap。"
+				"进一步的升级Bottle Cap后，可以用它使你宝可梦的一项个体值提升至最高！"
+				"Gold Bottle Cap可以使全部的个体值提升至最高！"
+			]
+			icon: "unimplemented_items:bottle_cap"
+			id: "2A80E5BE00A925A6"
+			subtitle: "变强了！"
+			tasks: [{
+				id: "239AD3E24FB8A5D7"
+				type: "checkmark"
+			}]
+			title: "个体值强化"
+			x: 4.0d
+			y: -4.0d
 		}
 	]
 	title: "教程 | Tutorial"

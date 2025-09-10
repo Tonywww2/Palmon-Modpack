@@ -4,5 +4,9 @@
     "planet.kubejs.earth": "§aEarth",
     "planet.ad_astra.earth_orbit": "§aEarth Orbit",
     "planet.oceanworld.deepsea": "§1Deep Sea",
-    "planet.oceanworld.deepsea_orbit": "§1Deep Sea Orbit"
+    "planet.oceanworld.deepsea_orbit": "§1Deep Sea Orbit",
+
+    "item.ad_astra.oil_bucket": "Thin Crude Oil Bucket",
+    "block.ad_astra.oil": "Thin Crude Oil",
+    "fluid_type.ad_astra.oil": "Thin Crude Oil"
 }

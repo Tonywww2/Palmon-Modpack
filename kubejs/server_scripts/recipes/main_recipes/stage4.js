@@ -657,4 +657,47 @@ ServerEvents.recipes(event => {
         },
         "show_notification": true
     }).id('kubejs:kanze_masamune_s4')
+
+    event.custom({
+        "type": "slashblade:shaped_blade",
+        "blade": "slashblade_addon:murakumo",
+        "category": "equipment",
+        "key": {
+            "A": Item.of('tconstruct:tool_handle', '{Material:"tconstruct:present_alloy"}').weakNBT().toJson(),
+            "B": {
+                "item": "slashblade:slashblade"
+            },
+            "I": {
+                "item": 'ad_astra:ostrum_ingot'
+            },
+            "S": {
+                "item": 'slashblade:proudsoul_crystal'
+            }
+        },
+        "pattern": [
+            "AIS",
+            "IBI",
+            "SIA"
+        ],
+        "result": {
+            "item": "slashblade:slashblade"
+        },
+        "show_notification": true
+    }).id('kubejs:murakumo_s5')
+
+    event.custom({
+        "type": "last_smith:research",
+        "blade": {
+            "item": "last_smith:scroll_katana"
+        },
+        "ink": {
+            "tag": 'forge:gears/ostrum'
+        },
+        "output": {
+            "item": "last_smith:scroll_odachi"
+        },
+        "paper": {
+            "item": "last_smith:scroll_blade"
+        }
+    }).id("kubejs:scroll_odachi_s4")
 })

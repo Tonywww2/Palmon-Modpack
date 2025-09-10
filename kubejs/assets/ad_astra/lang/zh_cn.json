@@ -5,5 +5,9 @@
     "planet.kubejs.earth": "§a地球",
     "planet.ad_astra.earth_orbit": "§a地球轨道",
     "planet.oceanworld.deepsea": "§1深海",
-    "planet.oceanworld.deepsea_orbit": "§1深海轨道"
+    "planet.oceanworld.deepsea_orbit": "§1深海轨道",
+
+    "item.ad_astra.oil_bucket": "稀原油桶",
+    "block.ad_astra.oil": "稀原油",
+    "fluid_type.ad_astra.oil": "稀原油"
 }

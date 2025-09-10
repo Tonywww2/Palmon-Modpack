@@ -151,8 +151,8 @@
 	#最大加成（单位为%），默认2000%。
 	#Range: > 0
 	disintegrate_max_bonus = 2000
-	#Bonus decrease each second, 5% by default.
-	#每秒减少的加成（单位为%），默认5%。
+	#Clear bonus after ticks of stopping, 5s by default.
+	#停止挖掘多久后清除加成，默认5秒。
 	#Range: > 0
 	disintegrate_each_decrease = 5
 	#Void Dodging

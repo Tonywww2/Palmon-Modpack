@@ -294,7 +294,12 @@ global.idsToRemove = new Set([
     'palmon:production/food_1',
     'functionalstorage:oak_drawer_alternate_x1',
     'functionalstorage:oak_drawer_alternate_x2',
-    'functionalstorage:oak_drawer_alternate_x4'
+    'functionalstorage:oak_drawer_alternate_x4',
+    'industrialforegoing:fluid_extractor/default',
+    'last_smith:research/scroll_odachi',
+    'last_smith:oboro_muramasa',
+    'last_smith:research/scroll_named',
+    'last_smith:research/scroll_named_sjap'
 ])
 
 ServerEvents.recipes(event => {

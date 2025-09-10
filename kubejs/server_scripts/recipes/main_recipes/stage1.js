@@ -34,6 +34,10 @@ ServerEvents.recipes(event => {
     event.shapeless('minecraft:composter', ['tfc:composter']).id('kubejs:composter_s1')
     event.shapeless('techreborn:plantball', [Ingredient.of(['#tfc:fallen_leaves', '#tfc:plants'], 8)]).id('kubejs:plantball_s1')
     event.shapeless('2x tfc:peat', ['techreborn:plantball', 'malum:charcoal_fragment']).id('kubejs:peat_s1')
+    event.shapeless('tfc:pumpkin', ['minecraft:pumpkin']).id('kubejs:pumpkin_1_s1')
+    event.shapeless('minecraft:pumpkin', ['tfc:pumpkin']).id('kubejs:pumpkin_2_s1')
+    event.shapeless('firmalife:food/cocoa_powder', ['nuclearcraft:cocoa_solids']).id('kubejs:cocoa_powder_1_s1')
+    event.shapeless('nuclearcraft:cocoa_solids', ['firmalife:food/cocoa_powder']).id('kubejs:cocoa_powder_2_s1')
 
     event.stonecutting('minecraft:crafting_table', ['#minecraft:logs']).id('kubejs:crafting_table_stonecutting_s1')
     event.smelting('minecraft:dried_kelp', ['tfc:plant/winged_kelp', 'tfc:plant/leafy_kelp'], 0, 200).id('kubejs:kelp_s1')

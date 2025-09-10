@@ -157,6 +157,8 @@
 				id: "tfc:food/oat_bread"
 			}
 		}
+		{ count: 2, item: "cobblemon:revive", weight: 0.5f }
+		{ item: "cobblemon:max_revive", weight: 0.25f }
 	]
 	title: "TFC食物 | TFC Food"
 }

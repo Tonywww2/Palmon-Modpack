@@ -699,7 +699,7 @@ const stage7 = function (event) {
     event.custom({
         "type": "nuclearcraft:kugelblitz_chamber",
         "input": [
-            Item.of('#minecraft:music_discs').toJson()
+            Ingredient.of('#minecraft:music_discs').toJson()
         ],
         "output": [
             Item.of('avaritia:record_fragment').toJson()

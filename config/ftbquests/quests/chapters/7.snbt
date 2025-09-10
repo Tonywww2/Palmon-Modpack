@@ -390,7 +390,6 @@
 				"08FA563D359C456E"
 				"68DDA2E17D948703"
 			]
-			hide_until_deps_complete: true
 			id: "28EC4BBCF7C89458"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -821,13 +820,13 @@
 							tic_stats: {
 								"tconstruct:armor": 1.4568219f
 								"tconstruct:armor_toughness": 1.2568219f
-								"tconstruct:attack_damage": 2349.279f
+								"tconstruct:attack_damage": 2326.4236f
 								"tconstruct:attack_speed": 1.2747191f
 								"tconstruct:draw_speed": 1.2568219f
-								"tconstruct:durability": 16230.11f
+								"tconstruct:durability": 16267.989f
 								"tconstruct:harvest_tier": "minecraft:netherite"
 								"tconstruct:knockback_resistance": 0.05f
-								"tconstruct:mining_speed": 15.99188f
+								"tconstruct:mining_speed": 16.572136f
 								"tconstruct:projectile_damage": 3.1420546f
 								"tconstruct:velocity": 1.32f
 							}

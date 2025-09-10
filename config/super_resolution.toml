@@ -14,7 +14,8 @@ pause_game_on_gui = false
 inject_post_chain_blacklist = []
 #This option enables the use of a compatibility shader compiler for compiling shaders when set to true.
 compat_shader_compiler = false
-enable_dataset_generator = false
+force_disable_shader_compat = false
+disable_upscale_on_vanilla = false
 
 [debug]
 	#Dump shaders for debugging purposes
@@ -27,6 +28,7 @@ enable_dataset_generator = false
 	enable_imgui = false
 	#Enable more detailed performance profiling for advanced analysis.
 	enable_detailed_profiling = false
+	enable_debug = false
 
 [experiment]
 	#Generate motion vectors for advanced effects
@@ -44,4 +46,8 @@ enable_dataset_generator = false
 
 	[special.sgsr2]
 		variant = "CS_2"
+
+[dataset]
+	enable_dataset_generator = false
+	dataset_path = "msrDataset"
 
