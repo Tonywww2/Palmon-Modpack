@@ -1041,7 +1041,10 @@ const stage7 = function (event) {
     event.remove({ id: 'avaritia:infinity_catalyst' })
     event.recipes.avaritia.infinity_catalyst(
         "default",
-        [
+        ['ftbquests:stage_barrier']).id('avaritia:infinity_catalyst')
+    event.recipes.avaritia.shapeless_table(
+        4,
+        '12x avaritia:infinity_catalyst', [
             "minecraft:emerald_block",
             "avaritia:crystal_matrix_ingot",
             "avaritia:neutron_ingot",
@@ -1068,13 +1071,14 @@ const stage7 = function (event) {
             'kubejs:yin_yang_steel',
             'ae2:cell_component_256k',
             'appflux:core_256k',
-            'forestry:ambrosia',
+            'gendustry:productivity_elite_upgrade',
             'forestry:royal_jelly',
             'industrialforegoing:machine_frame_supreme',
-            Item.of('cuisinedelight:vegetable_platter', '{CookedFoodData:{entries:[{burnt:0b,overcooked:0b,raw:0b,itemSize:1,stack:{Count:1b,id:"minecraft:golden_carrot"}},{burnt:0b,overcooked:0b,raw:0b,itemSize:1,stack:{Count:1b,id:"minecraft:enchanted_golden_apple"}}],score:100,size:2,total:2,types:["VEG"]}}').weakNBT(),
             'avaritia:star_fuel'
-        ]).id('avaritia:infinity_catalyst')
+        ]).id('kubejs:infinity_catalyst')
 
+    // 专家模式额外材料：Item.of('cuisinedelight:vegetable_platter', '{CookedFoodData:{entries:[{burnt:0b,overcooked:0b,raw:0b,itemSize:1,stack:{Count:1b,id:"minecraft:golden_carrot"}},{burnt:0b,overcooked:0b,raw:0b,itemSize:1,stack:{Count:1b,id:"minecraft:enchanted_golden_apple"}}],score:100,size:2,total:2,types:["VEG"]}}').weakNBT(),
+            
     deFusionCrafting(event, [
         Item.of('kubejs:superconducting_coil_type_2').toJson(),
         Item.of('kubejs:superconducting_coil_type_2').toJson(),

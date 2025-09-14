@@ -5,30 +5,87 @@ ServerEvents.recipes(event => {
 
     tcMelting({ "item": 'tfc:powder/native_silver' },
         { "amount": 7, "tag": "forge:molten_silver" }, 500, 10, 'kubejs:tc_melting_native_silver')
+    tcMelting({ "item": 'tfcoreprocessing:compressed/native_silver' },
+        { "amount": 36, "tag": "forge:molten_silver" }, 500, 40, 'kubejs:tc_melting_compressed_native_silver')
+    tcMelting({ "item": 'tfcoreprocessing:roasted_brick/native_silver' },
+        { "amount": 54, "tag": "forge:molten_silver" }, 500, 50, 'kubejs:tc_melting_roasted_brick_native_silver')
+
     tcMelting({ "item": 'tfc:powder/native_gold' },
         { "amount": 7, "tag": "forge:molten_gold" }, 500, 10, 'kubejs:tc_melting_native_gold')
+    tcMelting({ "item": 'tfcoreprocessing:compressed/native_gold' },
+        { "amount": 36, "tag": "forge:molten_gold" }, 500, 40, 'kubejs:tc_melting_compressed_native_gold')
+    tcMelting({ "item": 'tfcoreprocessing:roasted_brick/native_gold' },
+        { "amount": 54, "tag": "forge:molten_gold" }, 500, 50, 'kubejs:tc_melting_roasted_brick_native_gold')
+
     tcMelting({ "item": 'tfc:powder/sphalerite' },
         { "amount": 7, "tag": "forge:molten_zinc" }, 500, 10, 'kubejs:tc_melting_sphalerite')
+    tcMelting({ "item": 'tfcoreprocessing:compressed/sphalerite' },
+        { "amount": 36, "tag": "forge:molten_zinc" }, 500, 40, 'kubejs:tc_melting_compressed_sphalerite')
+    tcMelting({ "item": 'tfcoreprocessing:roasted_brick/sphalerite' },
+        { "amount": 54, "tag": "forge:molten_zinc" }, 500, 50, 'kubejs:tc_melting_roasted_brick_sphalerite')
+
     tcMelting({ "item": 'tfc:powder/cassiterite' },
         { "amount": 7, "tag": "forge:molten_tin" }, 500, 10, 'kubejs:tc_melting_cassiterite')
+    tcMelting({ "item": 'tfcoreprocessing:compressed/cassiterite' },
+        { "amount": 36, "tag": "forge:molten_tin" }, 500, 40, 'kubejs:tc_melting_compressed_cassiterite')
+    tcMelting({ "item": 'tfcoreprocessing:roasted_brick/cassiterite' },
+        { "amount": 54, "tag": "forge:molten_tin" }, 500, 50, 'kubejs:tc_melting_roasted_brick_cassiterite')
+
     tcMelting({ "item": 'tfc:powder/bismuthinite' },
         { "amount": 7, "tag": 'tfc:bismuth' }, 500, 10, 'kubejs:tc_melting_bismuthinite')
+    tcMelting({ "item": 'tfcoreprocessing:compressed/bismuthinite' },
+        { "amount": 36, "tag": 'tfc:bismuth' }, 500, 40, 'kubejs:tc_melting_compressed_bismuthinite')
+    tcMelting({ "item": 'tfcoreprocessing:roasted_brick/bismuthinite' },
+        { "amount": 54, "tag": 'tfc:bismuth' }, 500, 50, 'kubejs:tc_melting_roasted_brick_bismuthinite')
+
     tcMelting({ "item": 'tfc:powder/garnierite' },
         { "amount": 7, "tag": "forge:molten_nickel" }, 500, 10, 'kubejs:tc_melting_garnierite')
+    tcMelting({ "item": 'tfcoreprocessing:compressed/garnierite' },
+        { "amount": 36, "tag": "forge:molten_nickel" }, 500, 40, 'kubejs:tc_melting_compressed_garnierite')
+    tcMelting({ "item": 'tfcoreprocessing:roasted_brick/garnierite' },
+        { "amount": 54, "tag": "forge:molten_nickel" }, 500, 50, 'kubejs:tc_melting_roasted_brick_garnierite')
 
     tcMelting({ "item": 'tfc:powder/native_copper' },
         { "amount": 7, "tag": "forge:molten_copper" }, 500, 10, 'kubejs:tc_melting_native_copper')
+    tcMelting({ "item": 'tfcoreprocessing:compressed/native_copper' },
+        { "amount": 36, "tag": "forge:molten_copper" }, 500, 40, 'kubejs:tc_melting_compressed_native_copper')
+    tcMelting({ "item": 'tfcoreprocessing:roasted_brick/native_copper' },
+        { "amount": 54, "tag": "forge:molten_copper" }, 500, 50, 'kubejs:tc_melting_roasted_brick_native_copper')
+
     tcMelting({ "item": 'tfc:powder/malachite' },
         { "amount": 7, "tag": "forge:molten_copper" }, 500, 10, 'kubejs:tc_melting_malachite')
+    tcMelting({ "item": 'tfcoreprocessing:compressed/malachite' },
+        { "amount": 36, "tag": "forge:molten_copper" }, 500, 40, 'kubejs:tc_melting_compressed_malachite')
+    tcMelting({ "item": 'tfcoreprocessing:roasted_brick/malachite' },
+        { "amount": 54, "tag": "forge:molten_copper" }, 500, 50, 'kubejs:tc_melting_roasted_brick_malachite')
+        
     tcMelting({ "item": 'tfc:powder/tetrahedrite' },
         { "amount": 7, "tag": "forge:molten_copper" }, 500, 10, 'kubejs:tc_melting_tetrahedrite')
+    tcMelting({ "item": 'tfcoreprocessing:compressed/tetrahedrite' },
+        { "amount": 36, "tag": "forge:molten_copper" }, 500, 40, 'kubejs:tc_melting_compressed_tetrahedrite')
+    tcMelting({ "item": 'tfcoreprocessing:roasted_brick/tetrahedrite' },
+        { "amount": 54, "tag": "forge:molten_copper" }, 500, 50, 'kubejs:tc_melting_roasted_brick_tetrahedrite')
 
     tcMelting({ "item": 'tfc:powder/magnetite' },
         { "amount": 7, "tag": "forge:molten_iron" }, 500, 10, 'kubejs:tc_melting_magnetite')
+    tcMelting({ "item": 'tfcoreprocessing:compressed/magnetite' },
+        { "amount": 36, "tag": "forge:molten_iron" }, 500, 40, 'kubejs:tc_melting_compressed_magnetite')
+    tcMelting({ "item": 'tfcoreprocessing:roasted_brick/magnetite' },
+        { "amount": 54, "tag": "forge:molten_iron" }, 500, 50, 'kubejs:tc_melting_roasted_brick_magnetite')
+
     tcMelting({ "item": 'tfc:powder/limonite' },
         { "amount": 7, "tag": "forge:molten_iron" }, 500, 10, 'kubejs:tc_melting_limonite')
+    tcMelting({ "item": 'tfcoreprocessing:compressed/limonite' },
+        { "amount": 36, "tag": "forge:molten_iron" }, 500, 40, 'kubejs:tc_melting_compressed_limonite')
+    tcMelting({ "item": 'tfcoreprocessing:roasted_brick/limonite' },
+        { "amount": 54, "tag": "forge:molten_iron" }, 500, 50, 'kubejs:tc_melting_roasted_brick_limonite')
+
     tcMelting({ "item": 'tfc:powder/hematite' },
         { "amount": 7, "tag": "forge:molten_iron" }, 500, 10, 'kubejs:tc_melting_hematite')
+    tcMelting({ "item": 'tfcoreprocessing:compressed/hematite' },
+        { "amount": 36, "tag": "forge:molten_iron" }, 500, 40, 'kubejs:tc_melting_compressed_hematite')
+    tcMelting({ "item": 'tfcoreprocessing:roasted_brick/hematite' },
+        { "amount": 54, "tag": "forge:molten_iron" }, 500, 50, 'kubejs:tc_melting_roasted_brick_hematite')
 
     tcMelting({ "item": 'tfc_ie_addon:powder/galena' },
         { "amount": 7, "tag": "forge:molten_lead" }, 500, 10, 'kubejs:tc_melting_galena')
@@ -42,8 +99,6 @@ ServerEvents.recipes(event => {
 
     tcMelting({ "tag": 'forge:ingots/weak_steel' },
         { "amount": 100, "tag": "tfc:weak_steel" }, 500, 80, 'kubejs:tc_melting_weak_steel')
-    // tcMelting({ "tag": 'forge:ingots/black_steel' },
-    //     { "amount": 100, "tag": "tfc:black_steel" }, 500, 100, 'kubejs:tc_melting_black_steel')
 
     tcMelting({ "tag": 'forge:ingots/weak_red_steel' },
         { "amount": 100, "tag": "tfc:weak_red_steel" }, 500, 80, 'kubejs:tc_melting_weak_red_steel')
@@ -52,11 +107,6 @@ ServerEvents.recipes(event => {
 
     tcMelting({ "item": 'immersive_weathering:soot' },
         { "amount": 5, "fluid": "tconstruct:liquid_soul" }, 1200, 10, 'kubejs:soot_to_liquid_soul')
-
-    // tcMelting({ "tag": 'forge:ingots/red_steel' },
-    //     { "amount": 100, "tag": "tfc:red_steel" }, 500, 80, 'kubejs:tc_melting_red_steel')
-    // tcMelting({ "tag": 'forge:ingots/blue_steel' },
-    //     { "amount": 100, "tag": "tfc:blue_steel" }, 500, 80, 'kubejs:tc_melting_blue_steel')
 
     tcAlloy([{ "amount": 90, "tag": "forge:molten_electrum" }, { "amount": 90, "tag": "forge:molten_copper" }],
         { "amount": 180, "tag": "tfc:black_bronze" }, 800, 'kubejs:tc_alloy_black_bronze_1')

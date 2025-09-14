@@ -151,6 +151,14 @@ ServerEvents.tags('item', event => {
         '#kubejs:t2_anvils'
     )
 
+    event.add('tfc:foods/usable_in_soup',
+        '#forge:cheese'
+    )
+
+    event.add('tfc:firepit_fuel',
+        '#forge:coal'
+    )
+
 })
 
 ServerEvents.tags('block', event => {

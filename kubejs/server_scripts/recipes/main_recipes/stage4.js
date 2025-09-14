@@ -683,7 +683,7 @@ ServerEvents.recipes(event => {
             "item": "slashblade:slashblade"
         },
         "show_notification": true
-    }).id('kubejs:murakumo_s5')
+    }).id('kubejs:murakumo_s4')
 
     event.custom({
         "type": "last_smith:research",

@@ -18,11 +18,12 @@ ServerEvents.recipes(event => {
     event.shapeless('tfc:kaolin_clay', ['tfc_ie_addon:powder/bauxite', '#forge:clay']).id('kubejs:kaolin_clay_s1')
 
     event.shapeless('4x tfc:wood/planks/douglas_fir', ['palmon:wood']).id('kubejs:palmon_wood_to_planks_s1')
-    event.shapeless('palmon:empty_contract', ['minecraft:paper', 'cobblemon:red_apricorn', 'tfc:volcanic_glass_bottle', 'minecraft:black_dye']).id('kubejs:empty_contract_s1')
+    event.shapeless('palmon:empty_contract', ['minecraft:paper', 'cobblemon:red_apricorn', '#tfc:glass_bottles', 'minecraft:black_dye']).id('kubejs:empty_contract_s1')
     event.shapeless('minecraft:gravel', ['#forge:gravel']).id('kubejs:gravel_to_minecraft_s1')
     event.shapeless('thermal:enderium_coin', ['4x thermal:signalum_coin']).id('kubejs:signalum_to_enderium_coin_s1')
     event.shapeless('4x thermal:signalum_coin', ['thermal:enderium_coin']).id('kubejs:enderium_to_signalum_coin_s1')
     event.shapeless('palmon:stone', ['2x tfc:rock/smooth/granite', '2x tfc:rock/smooth/diorite', '2x tfc:rock/smooth/andesite', '2x tfc:rock/smooth/dacite']).id('kubejs:palmon_stone_s1')
+    event.shapeless('2x umapyoi:blank_ticket', ['2x minecraft:paper', 'umapyoi:jewel', '#forge:ingots/lead']).id('kubejs:blank_ticket_s1')
 
     event.shapeless('minecraft:crafting_table', ['#tfc:workbenches']).id('kubejs:crafting_table_shapeless_s1')
 
@@ -38,9 +39,12 @@ ServerEvents.recipes(event => {
     event.shapeless('minecraft:pumpkin', ['tfc:pumpkin']).id('kubejs:pumpkin_2_s1')
     event.shapeless('firmalife:food/cocoa_powder', ['nuclearcraft:cocoa_solids']).id('kubejs:cocoa_powder_1_s1')
     event.shapeless('nuclearcraft:cocoa_solids', ['firmalife:food/cocoa_powder']).id('kubejs:cocoa_powder_2_s1')
+    event.shapeless('minecraft:music_disc_13', ['#forge:discs/music']).id('kubejs:music_disc_13_s1')
+    event.shapeless('minecraft:glass_bottle', ['#tfc:glass_bottles']).id('kubejs:glass_bottle_s1')
 
     event.stonecutting('minecraft:crafting_table', ['#minecraft:logs']).id('kubejs:crafting_table_stonecutting_s1')
     event.smelting('minecraft:dried_kelp', ['tfc:plant/winged_kelp', 'tfc:plant/leafy_kelp'], 0, 200).id('kubejs:kelp_s1')
+    event.smelting('tfc:powder/wood_ash', ['minecraft:charcoal'], 0, 200).id('kubejs:wood_ash_s1')
     event.smithing('mekanism:configurator', '#forge:gems/lapis', 'thermal:wrench', '#forge:plates/steel').id('kubejs:configurator_s1')
 
     event.shaped('minecraft:fishing_rod', [

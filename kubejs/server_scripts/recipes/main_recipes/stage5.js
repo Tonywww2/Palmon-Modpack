@@ -1236,7 +1236,7 @@ ServerEvents.recipes(event => {
             "item": "slashblade:slashblade"
         },
         "show_notification": true
-    }).kubejs("kubejs:oboro_muramasa_s5")
+    }).id("kubejs:oboro_muramasa_s5")
 
     tcAlloy([{ "amount": 1000, "tag": 'forge:deuterium' }, { "amount": 1000, "tag": 'forge:tritium' }, { "amount": 720, "tag": 'forge:helium' }, { "amount": 720, "tag": 'forge:lithium/7_za' }],
         { "amount": 100, "tag": "kubejs:hybrid_fuel" }, 100, 'kubejs:hybrid_fuel')
