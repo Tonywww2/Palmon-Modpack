@@ -1,0 +1,30 @@
+# 
+#Nutrients calculation is (score / 100) * nutrient * (cuisineBonus / foodSize).
+#营养值计算是 (分数 / 100) * 营养 * (炒菜加成 / 食物份量)
+comment = true
+# 
+#Food size.  (defaultValue 3)
+#食物份量.  (默认数值 3)
+#Range: 1 ~ 54
+foodSize = 3
+# 
+#Cuisine bonus.  (defaultValue 1.5)
+#炒菜加成.  (默认数值 1.5)
+#Range: 1.0 ~ 27.0
+cuisineBonus = 1.5
+# 
+#The max nutrient.  (defaultValue 6)
+#最大营养值.  (默认数值 6)
+#Range: > 1
+maxNutrient = 6
+# 
+#The nutrient factor of Suspicious Mix.  (defaultValue 0.8)
+#大乱炖的营养系数.  (默认数值 0.8)
+#Range: 0.0 ~ 1.0
+suspiciousMixFactor = 0.8
+# 
+#This is a factor related to the nutrients value of cooking rotten food.  (defaultValue 0.2)
+#这是一个与烹饪腐烂食物的营养价值有关的因素.  (默认数值 0.2)
+#Range: 0.0 ~ 1.0
+usedRottenFood = 0.2
+

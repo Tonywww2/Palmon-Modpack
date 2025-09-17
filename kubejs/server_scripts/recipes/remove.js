@@ -299,7 +299,8 @@ global.idsToRemove = new Set([
     'last_smith:research/scroll_odachi',
     'last_smith:oboro_muramasa',
     'last_smith:research/scroll_named',
-    'last_smith:research/scroll_named_sjap'
+    'last_smith:research/scroll_named_sjap',
+    'tfc_ie_addon:heating/hop_graphite_ingot'
 ])
 
 ServerEvents.recipes(event => {

@@ -34,12 +34,12 @@ function s1Im(event) {
     ]
   }).id('kubejs:ie_wirecutter_s1')
 
-  event.recipes.immersiveengineering.blueprint(Item.of('kubejs:alpha_framework', 2 + global.frameworkAddition),
+  event.recipes.immersiveengineering.blueprint(Item.of('kubejs:alpha_framework', 6 + global.frameworkAddition),
     [
-      'kubejs:virtual_gold_ingot',
+      '3x kubejs:virtual_gold_ingot',
       'immersiveengineering:graphite_electrode',
-      '#forge:rods/steel',
-      '2x firmalife:metal/sheet/stainless_steel'
+      '2x #forge:rods/steel',
+      '3x firmalife:metal/sheet/stainless_steel'
     ], 'components').id('kubejs:ie_alpha_framework_1')
 
 }

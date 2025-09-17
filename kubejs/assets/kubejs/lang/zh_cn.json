@@ -375,13 +375,16 @@
 
 
     "kubejs.eot.poke_1_name": "[西尔佛公司特派]",
-    "kubejs.eot.poke_1_desc": "·初始携带 大师球 * 2 \n·初始携带 王者之证 ",
+    "kubejs.eot.poke_1_desc": "·初始携带 大师球 * 2 \n·初始携带 王者之证 \n·初始携带 经验糖果XL",
 
     "kubejs.eot.poke_2_name": "[异次元协助]",
     "kubejs.eot.poke_2_desc": "·初始携带 宝可梦 多边兽乙型， 初始三项IV为最高",
 
     "kubejs.eot.poke_3_name": "[视财如命]",
     "kubejs.eot.poke_3_desc": "·初始携带 宝可梦 索财灵， 初始四项IV为最高 \n·允许通过特殊的铸造工艺制作遗迹硬币 ",
+
+    "kubejs.eot.poke_4_name": "[传说的起点]",
+    "kubejs.eot.poke_4_desc": "·初始携带一个道具，可以随机获取一个传说中的宝可梦",
 
 
     "kubejs.eot.thermal_1_name": "[通量链接]",

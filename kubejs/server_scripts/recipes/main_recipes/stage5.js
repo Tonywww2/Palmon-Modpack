@@ -4,6 +4,7 @@ ServerEvents.recipes(event => {
     event.shapeless('immersiveengineering:electron_tube', ['dustandash:redstone_vacuum_tube']).id('kubejs:electron_tube_s5')
     event.shapeless('dustandash:ash_steel_cylinder', ['ad_astra:steel_tank']).id('kubejs:ash_steel_cylinder_s5')
     event.shapeless('ad_astra:steel_tank', ['dustandash:ash_steel_cylinder']).id('kubejs:steel_tank_s5')
+    event.shapeless('9x aetherworks:aether_shard', [Item.of('tconstruct:copper_can', '{fluid:"aetherworks:aether_gas_impure"}').weakNBT()]).id('kubejs:aether_shard_9_s5')
 
     event.shapeless('kubejs:alfheim_iridescent',
         ['3x mythicbotany:raw_elementium', '4x kubejs:iridescent', 'botania:bifrost_perm', Item.of('tconstruct:tool_binding', '{Material:"tconstruct:alfsteel"}').weakNBT()])
@@ -471,6 +472,45 @@ ServerEvents.recipes(event => {
             Item.of('aetherworks:gem_aether').toJson()
         ]
     }).id('kubejs:gem_aether_2_s5')
+
+    event.custom({
+        "type": "palmon:processing",
+        "category": "misc",
+        "focus_stat": "HP",
+        "min_level": 60,
+        "required_type": "poison",
+        "base_hp": 90,
+        "base_atk": 0,
+        "base_def": 0,
+        "base_spa": 0,
+        "base_spd": 0,
+        "base_spe": 0,
+        "area_blocks": [
+            {
+                "item": 'aetherworks:aether_forge'
+            },
+            {
+                "item": 'aetherworks:forge_metal_former'
+            },
+            {
+                "item": 'aetherworks:forge_vent'
+            }
+        ],
+        "block_count": 1,
+        "input_items": [
+            Item.of('aetherworks:aether_shard', 13).toJson(),
+            Item.of('tconstruct:copper_can', 1).toJson()
+        ],
+        "input_power": 40000,
+        "input_fluid": {
+            "fluid": "aetherworks:alchemic_precursor",
+            "amount": 90
+        },
+        "tick": 600,
+        "result_items": [
+            Item.of('tconstruct:copper_can', '{fluid:"aetherworks:aether_gas"}').toJson()
+        ]
+    }).id('kubejs:aether_gas_acc_s5')
 
     event.custom({
         "type": "palmon:processing",

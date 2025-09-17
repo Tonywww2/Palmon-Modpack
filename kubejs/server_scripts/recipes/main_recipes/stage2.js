@@ -19,14 +19,14 @@ ServerEvents.recipes(event => {
     event.recipes.botania.pure_daisy('botania:livingwood_log', 'forestry:log_pile').id('kubejs:bot_livingwood_s2')
     event.recipes.botania.pure_daisy('botania:livingrock', 'minecraft:nether_bricks').id('kubejs:bot_livingrock_s2')
 
-    event.shaped('ad_astra:engine_frame', [
+    event.shaped(Item.of('ad_astra:engine_frame', 1 + global.frameworkAddition), [
         "AAA",
         "ABA",
         "AAA"
     ],
         {
-            A: '#forge:plates/steel',
-            B: '#forge:rods/steel'
+            A: '#forge:rods/steel',
+            B: '#forge:plates/steel'
         }).id('kubejs:engine_frame_s2')
 
     event.shaped('ad_astra:gas_tank', [

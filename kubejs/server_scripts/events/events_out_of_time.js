@@ -532,10 +532,11 @@ registerBuff("flight_1", 3, ["master_ending", "speed_1"], true,
     })
 
 // 宝可梦 *
-registerBuff("poke_1", 2, ["init"], false,
+registerBuff("poke_1", 3, ["init"], false,
     (event) => {
         event.player.give(Item.of('2x cobblemon:master_ball'))
         event.player.give(Item.of('cobblemon:kings_rock'))
+        event.player.give(Item.of('cobblemon:exp_candy_xl'))
     },
     empty,
     empty)
@@ -547,7 +548,7 @@ registerBuff("poke_2", 2, ["true_ending"], false,
     empty,
     empty)
 
-registerBuff("poke_3", 2, ["master_ending"], true,
+registerBuff("poke_3", 2, ["master_ending"], false,
     (event) => {
         event.server.runCommand(`pokegiveother ${event.player.name.string} gimmighoul level=20 hp_iv=31 defence_iv=31 special_defence_iv=31 special_attack_iv=31 speed_iv=31`)
     },
@@ -566,6 +567,13 @@ registerBuff("poke_3", 2, ["master_ending"], true,
             "result": 'cobblemon:relic_coin'
         }).id('kubejs:eot_poke_3_relic_coin')
     },
+    empty)
+
+registerBuff("poke_4", 2, ["true_ending"], true,
+    (event) => {
+        event.player.give(Item.of('cobgyms:legendary_cache'))
+    },
+    empty,
     empty)
 
 // 工业 *

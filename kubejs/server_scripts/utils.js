@@ -16,7 +16,7 @@ const $Long = Java.loadClass("java.lang.Long")
 const $CuriosApi = Java.loadClass('top.theillusivec4.curios.api.CuriosApi')
 const $CuriosHelper = $CuriosApi.getCuriosHelper()
 
-const PACK_DATA_PATH = "kubejs\\packdata\\palmon_pack_data.json"
+const PACK_DATA_PATH = "kubejs/packdata/palmon_pack_data.json"
 
 function loadPackData() {
     let json = JsonIO.readJson(PACK_DATA_PATH)

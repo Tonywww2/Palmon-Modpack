@@ -29,9 +29,12 @@ ServerEvents.recipes(event => {
             "area_blocks": [
                 {
                     "tag": "forge:ores/" + ore
+                }, 
+                {
+                    "tag": 'minecraft:slabs'
                 }
             ],
-            "block_count": 12,
+            "block_count": 6,
             "tick": 1000,
             "result_items": [
                 {
@@ -59,9 +62,12 @@ ServerEvents.recipes(event => {
             "area_blocks": [
                 {
                     "tag": "forge:ores/" + ore
+                }, 
+                {
+                    "tag": 'minecraft:walls'
                 }
             ],
-            "block_count": 16,
+            "block_count": 8,
             "tick": 1200,
             "result_items": [
                 {
@@ -89,9 +95,12 @@ ServerEvents.recipes(event => {
             "area_blocks": [
                 {
                     "tag": "forge:ores/" + ore
+                }, 
+                {
+                    "tag": 'tfc:rock/aqueducts'
                 }
             ],
-            "block_count": 20,
+            "block_count": 12,
             "tick": 1300,
             "result_items": [
                 {

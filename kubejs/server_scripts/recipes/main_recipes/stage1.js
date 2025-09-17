@@ -41,6 +41,8 @@ ServerEvents.recipes(event => {
     event.shapeless('nuclearcraft:cocoa_solids', ['firmalife:food/cocoa_powder']).id('kubejs:cocoa_powder_2_s1')
     event.shapeless('minecraft:music_disc_13', ['#forge:discs/music']).id('kubejs:music_disc_13_s1')
     event.shapeless('minecraft:glass_bottle', ['#tfc:glass_bottles']).id('kubejs:glass_bottle_s1')
+    event.shapeless('tfc:wool', ['minecraft:white_wool']).id('kubejs:wool_1_s1')
+    event.shapeless('minecraft:white_wool', ['tfc:wool']).id('kubejs:wool_2_s1')
 
     event.stonecutting('minecraft:crafting_table', ['#minecraft:logs']).id('kubejs:crafting_table_stonecutting_s1')
     event.smelting('minecraft:dried_kelp', ['tfc:plant/winged_kelp', 'tfc:plant/leafy_kelp'], 0, 200).id('kubejs:kelp_s1')
@@ -262,7 +264,7 @@ ServerEvents.recipes(event => {
         {
             A: 'tconstruct:pattern',
             B: '#tconstruct:planklike',
-            C: 'kubejs:alpha_framework',
+            C: 'kubejs:virtual_gold_ingot',
             D: '#forge:crafting_tables'
         }).id('kubejs:tc_crafting_station_s1')
 

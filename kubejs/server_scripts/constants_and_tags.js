@@ -159,6 +159,14 @@ ServerEvents.tags('item', event => {
         '#forge:coal'
     )
 
+    event.add('tfc:knives', 
+        '#forge:tools/knives'
+    )
+
+    event.remove('forge:seeds/rice', 
+        'farmersdelight:rice'
+    )
+
 })
 
 ServerEvents.tags('block', event => {

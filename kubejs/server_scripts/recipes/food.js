@@ -209,7 +209,7 @@ TFCEvents.data(event => {
     food('create:chocolate_glazed_berries', 3.5, 8.0, 2.0, 1.0, 0.5, 0, 1.0, 0, 1.0)
     food('create:honeyed_apple', 4.0, 8.0, 0, 1.0, 0, 0, 1.0, 1.0, 0)
     food('create:sweet_roll', 3.0, 8.0, 1.0, 1.0, 2.0, 0, 0, 0, 1.0)
-    food('forestry:ambrosia', 4.0, 6.0, 30.0, 0, 5.0, 5.0, 5.0, 5.0, 5.0)
+    food('forestry:ambrosia', 4.0, 6.0, 30.0, 0, 2.0, 2.0, 2.0, 2.0, 2.0)
     food('forestry:fruit_cherry', 0.5, 2.0, 5.0, 1.0, 0, 1.0, 0, 0, 0)
     food('forestry:fruit_chestnut', 0.5, 2.0, 0, 1.0, 0, 0, 0, 0.8, 0)
     food('forestry:fruit_dates', 0.5, 2.0, 1.0, 1.0, 0, 1.0, 0, 0, 0)
