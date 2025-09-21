@@ -7,17 +7,59 @@
 	id: "425C584E07F9F3C5"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["5266C8EFE39F85D9"]
-		description: ["敬请期待"]
-		id: "4B60E9B9E4E4220F"
-		tasks: [{
-			id: "7F3437125D150BD2"
-			type: "checkmark"
-		}]
-		title: "试炼"
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["5266C8EFE39F85D9"]
+			description: ["此章节还在测试调整中。"]
+			icon: "firmalife:wine_glass"
+			id: "4B60E9B9E4E4220F"
+			tasks: [{
+				id: "7F3437125D150BD2"
+				type: "checkmark"
+			}]
+			title: "试炼"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4B60E9B9E4E4220F"]
+			description: ["请前往鼠西州挑战该BOSS。"]
+			icon: {
+				Count: 1
+				id: "cataclysm:ignitium_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6498750C6217E2E6"
+			rewards: [{
+				id: "22FC610F34F09F65"
+				item: {
+					Count: 1
+					id: "champions:champion_egg"
+					tag: {
+						Champion: {
+							Affix: [ ]
+							Tier: 9
+						}
+						EntityTag: {
+							Id: "cataclysm:ignis"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "61C5E469C72DF15D"
+				item: "kubejs:epsilon_dust"
+				type: "item"
+			}]
+			title: "域外 炎魔"
+			x: 0.0d
+			y: -2.0d
+		}
+	]
 	title: "8. 试炼 | Challenges"
 }

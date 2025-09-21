@@ -1,7 +1,13 @@
 {
-    "last_seed": "0",
-    "learned_buffs":
-    [],
+    "last_seed": "0L",
+    "learned_buffs": [
+        "init",
+        "special_1",
+        "speed_1",
+        "sheild_1",
+        "tank_1",
+        "poke_1"
+    ],
     "all_seed_data":
     {
         "0":

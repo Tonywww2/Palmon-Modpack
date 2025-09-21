@@ -38,6 +38,19 @@ ServerEvents.recipes(event => {
   ).id('kubejs:cooking_pot_s3');
 
   event.shaped(
+    'minecraft:wooden_sword',
+    [
+      ' AA',
+      'AAA',
+      'BA '
+    ],
+    {
+      A: 'palmon:wood',
+      B: '#forge:rods'
+    }
+  ).id('kubejs:wooden_sword_s3');
+
+  event.shaped(
     'appflux:redstone_crystal',
     [
       'ACA',

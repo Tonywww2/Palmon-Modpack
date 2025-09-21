@@ -10,7 +10,7 @@ global.all_buffs = {}
 
 global.tcRandomFix = 0.0
 
-global.frameworkAddition = 0
+global.frameworkAddition = 1
 
 global.maxOtherworldRelics = 2
 

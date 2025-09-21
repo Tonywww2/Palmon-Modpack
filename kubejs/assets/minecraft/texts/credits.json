@@ -1,10 +1,10 @@
 [
     {
-        "section": "Palmon Creators",
+        "section": "RePalmon Creators",
         "disciplines":
         [
             {
-                "discipline": "Palmon Main Developers",
+                "discipline": "RePalmon Main Developers",
                 "titles":
                 [
                     {
@@ -47,6 +47,68 @@
                         "names":
                         [
                             "安生"
+                        ]
+                    }
+                ]
+            },
+            {
+                "discipline": "RePalmon Special Thanks",
+                "titles":
+                [
+                    {
+                        "title": "Special Thanks",
+                        "names":
+                        [
+                            "星陨漩涡"
+                        ]
+                    },
+                    {
+                        "title": "Special Thanks",
+                        "names":
+                        [
+                            "虛箜"
+                        ]
+                    },
+                    {
+                        "title": "Special Thanks",
+                        "names":
+                        [
+                            "Tsunami海啸"
+                        ]
+                    },
+                    {
+                        "title": "Special Thanks",
+                        "names":
+                        [
+                            "S0ar1ng"
+                        ]
+                    },
+                    {
+                        "title": "Special Thanks",
+                        "names":
+                        [
+                            "千子万华"
+                        ]
+                    },
+                    {
+                        "title": "Special Thanks",
+                        "names":
+                        [
+                            "最喜欢米浴的波旁"
+                        ]
+                    },
+                    {
+                        "title": "Special Thanks",
+                        "names":
+                        [
+                            "莫北"
+                        ]
+                    },
+                    {
+                        "title": "Special Thanks",
+                        "names":
+                        [
+                            "射命丸政"
                         ]
                     }
                 ]

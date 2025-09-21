@@ -674,7 +674,7 @@
 				"7E213F963885859F"
 			]
 			description: [
-				"&c注意：炒时蔬必须使用金萝卜与附魔金苹果。&r"
+				"&c注意：如果你处于专家模式，炒时蔬必须使用金萝卜与附魔金苹果。&r"
 				""
 				""
 				"PS: 这把⌈80⌋是&kTonywww&r曾经使用过的武器。"
@@ -820,13 +820,13 @@
 							tic_stats: {
 								"tconstruct:armor": 1.4568219f
 								"tconstruct:armor_toughness": 1.2568219f
-								"tconstruct:attack_damage": 2326.4236f
+								"tconstruct:attack_damage": 2445.7654f
 								"tconstruct:attack_speed": 1.2747191f
 								"tconstruct:draw_speed": 1.2568219f
-								"tconstruct:durability": 16267.989f
+								"tconstruct:durability": 16816.123f
 								"tconstruct:harvest_tier": "minecraft:netherite"
 								"tconstruct:knockback_resistance": 0.05f
-								"tconstruct:mining_speed": 16.572136f
+								"tconstruct:mining_speed": 16.223982f
 								"tconstruct:projectile_damage": 3.1420546f
 								"tconstruct:velocity": 1.32f
 							}

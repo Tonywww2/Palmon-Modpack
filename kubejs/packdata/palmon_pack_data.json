@@ -2,13 +2,29 @@
 	"last_seed": "1190118985799692483L",
 	"learned_buffs": [
 		"init",
-		"true_ending"
+		"special_1",
+		"speed_1",
+		"sheild_1",
+		"tank_1",
+		"poke_1"
 	],
 	"all_seed_data": {
 		"0": [],
+		"0L": [
+			"tank_1",
+			"sheild_1",
+			"speed_1",
+			"poke_1",
+			"special_1",
+			"init"
+		],
 		"1190118985799692483L": [
-			"init",
-			"true_ending"
+			"tank_1",
+			"sheild_1",
+			"speed_1",
+			"poke_1",
+			"special_1",
+			"init"
 		]
 	}
 }

@@ -13,8 +13,8 @@
 			image: "cobblemon:item/advancements/cobblemon_logo"
 			rotation: 0.0d
 			width: 2.0d
-			x: 2.0d
-			y: 16.0d
+			x: 6.0d
+			y: 20.0d
 		}
 		{
 			dependency: "5A4B37A6C7A1C953"
@@ -22,8 +22,8 @@
 			image: "minecraft:item/lava_bucket"
 			rotation: 15.0d
 			width: 2.0d
-			x: 6.5d
-			y: 29.0d
+			x: 6.0d
+			y: 26.0d
 		}
 		{
 			dependency: "73BA44112A812A9A"
@@ -221,6 +221,12 @@
 					table_id: 1141615569593449731L
 					type: "random"
 				}
+				{
+					count: 32
+					id: "7A05DDE65E795C9C"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
 			]
 			subtitle: "捏"
 			tasks: [{
@@ -288,6 +294,12 @@
 					table_id: 6666385684535454054L
 					type: "loot"
 				}
+				{
+					count: 8
+					id: "150CBA3BD7F8F11B"
+					item: "tfc:straw"
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -333,6 +345,12 @@
 					table_id: 1141615569593449731L
 					type: "random"
 				}
+				{
+					count: 16
+					id: "4B52A22F0A2844B8"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
 			]
 			subtitle: "随身水壶"
 			tasks: [{
@@ -366,6 +384,12 @@
 					id: "310DCB97D4F0659E"
 					table_id: 1141615569593449731L
 					type: "random"
+				}
+				{
+					count: 16
+					id: "02CB3140F14B8DE3"
+					item: "minecraft:clay_ball"
+					type: "item"
 				}
 			]
 			shape: "hexagon"
@@ -441,6 +465,29 @@
 					table_id: 6666385684535454054L
 					type: "loot"
 				}
+				{
+					id: "18FA21EA8B5AC3CC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/shovel/black_bronze"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3909E736D7546109"
+					item: "factory_blocks:grate"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			subtitle: "制作任意一种镐"
@@ -487,6 +534,29 @@
 					table_id: 6666385684535454054L
 					type: "loot"
 				}
+				{
+					id: "250270057A009C03"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:gem_saw"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "01F942249D3EEC34"
+					item: "factory_blocks:grate"
+					type: "item"
+				}
 			]
 			subtitle: "哐哐哐"
 			tasks: [{
@@ -522,6 +592,12 @@
 					id: "7835153AD303F514"
 					table_id: 1141615569593449731L
 					type: "random"
+				}
+				{
+					count: 32
+					id: "5EE52D369E99C254"
+					item: "framedblocks:framed_torch"
+					type: "item"
 				}
 			]
 			subtitle: "在下矿时，为了你自身的安全，请准备足够的支撑梁"
@@ -560,6 +636,17 @@
 					id: "45D63385CE068564"
 					table_id: 1141615569593449731L
 					type: "random"
+				}
+				{
+					id: "2031C21CFF5FE416"
+					item: {
+						Count: 1
+						id: "tfcoreprocessing:wrought_iron_handstone"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
 				}
 			]
 			subtitle: "制作一套手推磨"
@@ -607,6 +694,12 @@
 					table_id: 1141615569593449731L
 					type: "random"
 				}
+				{
+					count: 16
+					id: "26D67F61E53267FA"
+					item: "minecraft:redstone"
+					type: "item"
+				}
 			]
 			subtitle: "朱砂？"
 			tasks: [{
@@ -633,6 +726,11 @@
 					id: "43D4C5340C040983"
 					table_id: 1141615569593449731L
 					type: "random"
+				}
+				{
+					id: "1B35ED918FD922DE"
+					item: "minecraft:barrel"
+					type: "item"
 				}
 			]
 			subtitle: "啊，熟悉的物品容器"
@@ -676,6 +774,21 @@
 					id: "6BB2E619A391E2AE"
 					table_id: 1141615569593449731L
 					type: "random"
+				}
+				{
+					count: 32
+					id: "326C801DE2D88F4E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:kaolin_clay"
+					}
+					type: "item"
 				}
 			]
 			tasks: [
@@ -751,6 +864,32 @@
 					table_id: 6666385684535454054L
 					type: "loot"
 				}
+				{
+					id: "18F88696A7AF3DB0"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:netherite_barrel"
+						tag: {
+							woodType: "acacia"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "0CE2BDFC598128F8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			subtitle: "Duang"
@@ -792,8 +931,8 @@
 				item: "tfc:crucible"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 12.0d
+			x: -6.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3DFB6E2E5E3C3545"]
@@ -820,6 +959,21 @@
 					id: "57601598176C6037"
 					table_id: 1141615569593449731L
 					type: "random"
+				}
+				{
+					count: 4
+					id: "17D79E529C658394"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/ingot/bronze"
+					}
+					type: "item"
 				}
 			]
 			subtitle: "厚重的板"
@@ -861,6 +1015,12 @@
 					table_id: 1141615569593449731L
 					type: "random"
 				}
+				{
+					count: 16
+					id: "29BA2EAE438A4702"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "797C8D4AC8218D6A"
@@ -892,6 +1052,21 @@
 					id: "22F126AB16B99074"
 					table_id: 1141615569593449731L
 					type: "random"
+				}
+				{
+					count: 4
+					id: "1A0B966E7C6BC7B4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/ingot/wrought_iron"
+					}
+					type: "item"
 				}
 			]
 			subtitle: "敲敲打打"
@@ -965,6 +1140,21 @@
 					id: "604B60E05E8506A3"
 					table_id: 1141615569593449731L
 					type: "random"
+				}
+				{
+					count: 32
+					id: "3C8B02695A2183DF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:powder/flux"
+					}
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1131,6 +1321,12 @@
 					table_id: 1141615569593449731L
 					type: "random"
 				}
+				{
+					count: 4
+					id: "3A1F37D874418C14"
+					item: "tfc:glue"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "4F86486ADAA0A8C0"
@@ -1138,7 +1334,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 12.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["67DBB00021CBB136"]
@@ -1158,6 +1354,12 @@
 					table_id: 1141615569593449731L
 					type: "random"
 				}
+				{
+					count: 4
+					id: "0710C04396C9CE69"
+					item: "minecraft:paper"
+					type: "item"
+				}
 			]
 			subtitle: "多看JEI"
 			tasks: [{
@@ -1165,7 +1367,7 @@
 				item: "minecraft:paper"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 6.0d
 			y: 14.0d
 		}
 		{
@@ -1186,6 +1388,12 @@
 					table_id: 1141615569593449731L
 					type: "random"
 				}
+				{
+					count: 2
+					id: "21421D9F4E8B9B77"
+					item: "minecraft:diamond"
+					type: "item"
+				}
 			]
 			subtitle: "打磨群峦星的原产宝石，一些其他的材料也可以使用"
 			tasks: [{
@@ -1201,8 +1409,8 @@
 				type: "item"
 			}]
 			title: "宝石！"
-			x: 6.0d
-			y: 10.0d
+			x: 8.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["2A8DED02CA1F06FF"]
@@ -1227,8 +1435,8 @@
 				item: "cobblemon:red_apricorn_seed"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 12.0d
+			x: 8.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -1257,8 +1465,8 @@
 				type: "item"
 			}]
 			title: "你的第一个精灵球"
-			x: 8.0d
-			y: 12.0d
+			x: 10.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["182A02FDAB992AFC"]
@@ -1298,12 +1506,18 @@
 		}
 		{
 			dependencies: [
-				"7A23822AE720815B"
 				"28B339DC7608D688"
+				"4B7DD0BE2EA68D42"
 			]
 			dependency_requirement: "one_completed"
 			icon: "palmon:poke_food"
 			id: "20E10177F3F79DD2"
+			rewards: [{
+				count: 2
+				id: "24128015623D0870"
+				item: "minecraft:hopper"
+				type: "item"
+			}]
 			subtitle: "如果你能给宝可梦们提供一个\\n安全的工作场所，或许..."
 			tasks: [{
 				id: "7A0AAF0132987592"
@@ -1311,7 +1525,7 @@
 			}]
 			title: "帕鲁梦"
 			x: 2.0d
-			y: 18.0d
+			y: 14.0d
 		}
 		{
 			dependencies: [
@@ -1331,6 +1545,12 @@
 					id: "5571174FC9BFF729"
 					table_id: 1141615569593449731L
 					type: "random"
+				}
+				{
+					count: 8
+					id: "2A8CF682202758E9"
+					item: "cobblemon:super_potion"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -1360,6 +1580,12 @@
 					table_id: 1141615569593449731L
 					type: "random"
 				}
+				{
+					count: 16
+					id: "036303B588706A6C"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
 			]
 			subtitle: "制作一口陶锅"
 			tasks: [{
@@ -1387,6 +1613,21 @@
 					table_id: 1141615569593449731L
 					type: "random"
 				}
+				{
+					count: 16
+					id: "641804F8F26AD03E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:food": {
+								creationDate: -2L
+								traits: [ ]
+							}
+						}
+						id: "cobblemon:medicinal_leek"
+					}
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			subtitle: "异界植物"
@@ -1402,7 +1643,6 @@
 			dependencies: [
 				"5DDB2BA33F814C18"
 				"20E10177F3F79DD2"
-				"2789B5D15B2F027C"
 			]
 			dependency_requirement: "one_completed"
 			id: "48553EDCA63BE50E"
@@ -1425,6 +1665,11 @@
 					table_id: 7740467882398974147L
 					type: "random"
 				}
+				{
+					id: "37DADA2A47A411E6"
+					item: "palmon:empty_contract"
+					type: "item"
+				}
 			]
 			subtitle: "将你拥有的宝可梦释放出来，并用空合同右键他。\\n潜行+右键劳务合同可以收回宝可梦。"
 			tasks: [{
@@ -1433,7 +1678,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 16.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["20E10177F3F79DD2"]
@@ -1459,13 +1704,18 @@
 					type: "random"
 				}
 				{
-					count: 16
+					count: 32
 					id: "260381EA7B355D5C"
 					item: {
 						Count: 1
 						id: "palmon:poke_food"
 						tag: { }
 					}
+					type: "item"
+				}
+				{
+					id: "4E2C1EE4F7365EC5"
+					item: "palmon:working_station"
 					type: "item"
 				}
 			]
@@ -1482,8 +1732,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 18.0d
+			x: 2.0d
+			y: 16.0d
 		}
 		{
 			dependencies: [
@@ -1523,6 +1773,11 @@
 					table_id: 7740467882398974147L
 					type: "random"
 				}
+				{
+					id: "5926B9913A8C4338"
+					item: "palmon:production_machine"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			subtitle: "你的下半辈子都将留在这了！"
@@ -1532,7 +1787,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 18.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["2D2B88EE1709D561"]
@@ -1575,7 +1830,7 @@
 			}]
 			title: "工作量与生产效率"
 			x: 6.0d
-			y: 16.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["7A23822AE720815B"]
@@ -1600,6 +1855,27 @@
 					id: "316EEA7CD43375F9"
 					table_id: 1141615569593449731L
 					type: "random"
+				}
+				{
+					count: 4
+					id: "5885A423FBD9421C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/sheet/wrought_iron"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1CC55F4FD284520A"
+					item: "minecraft:charcoal"
+					type: "item"
 				}
 			]
 			shape: "hexagon"
@@ -1651,6 +1927,21 @@
 					table_id: 1141615569593449731L
 					type: "random"
 				}
+				{
+					count: 4
+					id: "6ED4EC1E80AEB5E0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/ingot/steel"
+					}
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			subtitle: "Again!"
@@ -1688,6 +1979,21 @@
 					table_id: 1141615569593449731L
 					type: "random"
 				}
+				{
+					count: 4
+					id: "6CD2D5EB50D98FC4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/ingot/black_steel"
+					}
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			tasks: [{
@@ -1722,6 +2028,21 @@
 					id: "6534AD1C67A89990"
 					table_id: 1141615569593449731L
 					type: "random"
+				}
+				{
+					count: 6
+					id: "51A765BE9FCAB436"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/ingot/black_steel"
+					}
+					type: "item"
 				}
 			]
 			shape: "hexagon"
@@ -1760,6 +2081,21 @@
 					table_id: 1141615569593449731L
 					type: "random"
 				}
+				{
+					count: 4
+					id: "6426FAE34156115C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/ingot/red_steel"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "1A60547236665CE8"
@@ -1795,6 +2131,21 @@
 					table_id: 1141615569593449731L
 					type: "random"
 				}
+				{
+					count: 4
+					id: "523960D29531F512"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/ingot/blue_steel"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "597911EECE1EE48D"
@@ -1815,6 +2166,7 @@
 		}
 		{
 			dependencies: ["073B5FEE2E13EE3C"]
+			description: ["&c警告：下界属于第二章的内容，你当前的装备可能不足以应付下界的生物！&r"]
 			icon: "minecraft:obsidian"
 			id: "17673A8A63634284"
 			rewards: [
@@ -1826,9 +2178,20 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "0EF01B88DD2D78D8"
+					id: "176F5B3318E84650"
 					table_id: 1141615569593449731L
-					type: "random"
+					type: "loot"
+				}
+				{
+					id: "22B7BD29AD43449E"
+					item: {
+						Count: 1
+						id: "minecraft:golden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
 				}
 			]
 			shape: "gear"
@@ -1847,8 +2210,9 @@
 		}
 		{
 			dependencies: [
-				"2DCA6ECA4708CF92"
 				"20E10177F3F79DD2"
+				"48553EDCA63BE50E"
+				"5EE06EF0C69603D2"
 			]
 			dependency_requirement: "one_completed"
 			id: "07AB95AEDD7B16CE"
@@ -1865,6 +2229,11 @@
 					table_id: 1141615569593449731L
 					type: "random"
 				}
+				{
+					id: "048854D60B52FFFC"
+					item: "palmon:processing_station"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			subtitle: "你的子子孙孙也将留在这！"
@@ -1873,43 +2242,8 @@
 				item: "palmon:processing_station"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 22.0d
-		}
-		{
-			description: ["击败头目，或精炼石材。"]
-			hide_until_deps_complete: true
-			id: "2789B5D15B2F027C"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "24D75F91B1E422E5"
-					table_id: 8044557412893536476L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7F4969BB3DD10AEE"
-					table_id: 1141615569593449731L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4969BFCA84EEEF74"
-					table_id: 7740467882398974147L
-					type: "random"
-				}
-			]
-			secret: true
-			shape: "hexagon"
-			subtitle: "异界水晶"
-			tasks: [{
-				id: "211A40210E6442C9"
-				item: "palmon:m_crystal"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 14.0d
+			x: 4.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["07AB95AEDD7B16CE"]
@@ -1939,11 +2273,11 @@
 				type: "checkmark"
 			}]
 			title: "加工站信息"
-			x: 8.0d
-			y: 22.0d
+			x: 2.0d
+			y: 18.0d
 		}
 		{
-			dependencies: ["07AB95AEDD7B16CE"]
+			dependencies: ["785F10998213A9C0"]
 			id: "15927B2A8A39A435"
 			rewards: [
 				{
@@ -1964,8 +2298,8 @@
 				item: "cobblemon:ancient_great_ball"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 24.0d
+			x: 4.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["07AB95AEDD7B16CE"]
@@ -1989,8 +2323,8 @@
 				item: "cobblemon:ancient_ultra_ball"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 24.0d
+			x: 4.0d
+			y: 18.0d
 		}
 		{
 			dependencies: [
@@ -2032,6 +2366,30 @@
 					table_id: 1141615569593449731L
 					type: "random"
 				}
+				{
+					id: "43FAB61BB71C81F4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/sheet/gold"
+					}
+					type: "item"
+				}
+				{
+					id: "71CA9742ACD0E7FD"
+					item: "tfc:spawn_egg/pig"
+					type: "item"
+				}
+				{
+					id: "55545FE9588349B0"
+					item: "create:white_seat"
+					type: "item"
+				}
 			]
 			subtitle: "献祭恶魔"
 			tasks: [{
@@ -2065,6 +2423,12 @@
 					id: "0F907F690A5DDD16"
 					table_id: 1141615569593449731L
 					type: "random"
+				}
+				{
+					count: 12
+					id: "7C7AE90A8993F6A8"
+					item: "tfc:powder/kaolinite"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -2101,6 +2465,12 @@
 					id: "7EAED48B88546C4D"
 					table_id: 1141615569593449731L
 					type: "random"
+				}
+				{
+					count: 2
+					id: "1E647BE4C3580481"
+					item: "minecraft:hopper"
+					type: "item"
 				}
 			]
 			shape: "hexagon"
@@ -2141,6 +2511,12 @@
 				{
 					id: "113FE35214BCC715"
 					item: "tconstruct:scorched_fuel_gauge"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3DA4227180B7E93E"
+					item: "tconstruct:scorched_brick"
 					type: "item"
 				}
 			]
@@ -2185,15 +2561,14 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "09A30C6A7DD55778"
-					table_id: 1141615569593449731L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
 					id: "718C8B2312DAE143"
 					table_id: 1141615569593449731L
 					type: "loot"
+				}
+				{
+					id: "1F4C17AA48E7E233"
+					item: "tconstruct:seared_table"
+					type: "item"
 				}
 			]
 			subtitle: "棋差一筹"
@@ -2233,6 +2608,12 @@
 					id: "1A414A610C05FAE1"
 					table_id: 7740467882398974147L
 					type: "random"
+				}
+				{
+					count: 4
+					id: "39958055E9F18EB5"
+					item: "tconstruct:seared_brick"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -2391,6 +2772,18 @@
 					table_id: 7787811987843285123L
 					type: "loot"
 				}
+				{
+					count: 16
+					id: "7B7F77AAFF036041"
+					item: "thermal:phytogro"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2021D15BF2946BF3"
+					item: "minecraft:dirt"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			subtitle: "灵感：神秘"
@@ -2449,6 +2842,21 @@
 					table_id: 7787811987843285123L
 					type: "loot"
 				}
+				{
+					count: 16
+					id: "4C8939EA609059C4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/ingot/steel"
+					}
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			subtitle: "灵感：工业"
@@ -2498,6 +2906,12 @@
 					id: "7A1C80BCA59647D7"
 					table_id: 7787811987843285123L
 					type: "loot"
+				}
+				{
+					count: 16
+					id: "16517346F66665C4"
+					item: "create:andesite_alloy"
+					type: "item"
 				}
 			]
 			shape: "hexagon"
@@ -2980,6 +3394,21 @@
 					table_id: 1141615569593449731L
 					type: "random"
 				}
+				{
+					count: 2
+					id: "3F4797E1F0BC36BA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/sheet/blue_steel"
+					}
+					type: "item"
+				}
 			]
 			subtitle: "最后的砧"
 			tasks: [{
@@ -3015,6 +3444,12 @@
 					table_id: 1141615569593449731L
 					type: "random"
 				}
+				{
+					count: 4
+					id: "559B675716FE1258"
+					item: "kubejs:virtual_gold_ingot"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "7F0B0249334B1654"
@@ -3040,6 +3475,12 @@
 					id: "3F37914B331DF787"
 					table_id: 1141615569593449731L
 					type: "random"
+				}
+				{
+					count: 16
+					id: "17D738E1F31C46F0"
+					item: "minecraft:charcoal"
+					type: "item"
 				}
 			]
 			subtitle: "木炭与油"
@@ -3109,6 +3550,21 @@
 					table_id: 1141615569593449731L
 					type: "random"
 				}
+				{
+					count: 4
+					id: "523C38CF52D920BB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/ingot/pig_iron"
+					}
+					type: "item"
+				}
 			]
 			subtitle: "我不吃猪肉"
 			tasks: [{
@@ -3173,6 +3629,21 @@
 					title: "锚定"
 					type: "command"
 				}
+				{
+					count: 4
+					id: "60029EF0B01460B1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "tfc:metal/ingot/steel"
+					}
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			subtitle: "百炼成钢"
@@ -3208,6 +3679,12 @@
 					id: "69E25297B0E6F11C"
 					table_id: 1141615569593449731L
 					type: "random"
+				}
+				{
+					count: 3
+					id: "00B5D226608B7644"
+					item: "minecraft:furnace"
+					type: "item"
 				}
 			]
 			subtitle: "哦是的，这是熔炉"
@@ -3257,6 +3734,12 @@
 					id: "14A432F6EC085D41"
 					table_id: 7740467882398974147L
 					type: "random"
+				}
+				{
+					count: 2
+					id: "66518E84C784E5FC"
+					item: "kubejs:alpha_framework"
+					type: "item"
 				}
 			]
 			shape: "diamond"
@@ -3494,6 +3977,12 @@
 					id: "7768E57BECF3A724"
 					table_id: 1141615569593449731L
 					type: "random"
+				}
+				{
+					count: 4
+					id: "7A48F19E192AFAB6"
+					item: "occultism:iesnium_ore"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -3804,6 +4293,21 @@
 					table_id: 1141615569593449731L
 					type: "random"
 				}
+				{
+					count: 4
+					id: "359D18726D3ECD31"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "techreborn:chrome_ingot"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -3950,6 +4454,12 @@
 					table_id: 1141615569593449731L
 					type: "random"
 				}
+				{
+					count: 4
+					id: "15C21DFCDFE31FE3"
+					item: "immersiveengineering:ingot_hop_graphite"
+					type: "item"
+				}
 			]
 			tasks: [{
 				count: 4L
@@ -3976,6 +4486,21 @@
 					id: "7A123FD26C7FB9B6"
 					table_id: 1141615569593449731L
 					type: "random"
+				}
+				{
+					count: 4
+					id: "3D36FAFD0EF98B54"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "techreborn:chrome_ingot"
+					}
+					type: "item"
 				}
 			]
 			tasks: [
@@ -4045,6 +4570,21 @@
 					table_id: 1141615569593449731L
 					type: "random"
 				}
+				{
+					count: 4
+					id: "011ACF46A841D545"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
 			]
 			subtitle: "更薄的金属板"
 			tasks: [{
@@ -4088,6 +4628,12 @@
 					id: "3487592EBA45839B"
 					table_id: 7740467882398974147L
 					type: "random"
+				}
+				{
+					count: 8
+					id: "7A1DEEE275CE5CB0"
+					item: "umapyoi:jewel"
+					type: "item"
 				}
 			]
 			subtitle: "抽卡！"
@@ -4276,8 +4822,8 @@
 		}
 		{
 			dependencies: [
-				"32EAD9843E44D905"
 				"28B339DC7608D688"
+				"285D8828F5A0B51F"
 			]
 			dependency_requirement: "one_completed"
 			description: ["本整合包的主要战斗力系统是由匠魂支撑的，制作匠魂武器/防具很关键！"]
@@ -4302,6 +4848,17 @@
 					table_id: 7740467882398974147L
 					type: "random"
 				}
+				{
+					id: "6D8F5A26A0B0F96F"
+					item: "tconstruct:encyclopedia"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "363BBBA2D753489F"
+					item: "kubejs:virtual_gold_ingot"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			subtitle: "很关键"
@@ -4310,8 +4867,8 @@
 				item: "tconstruct:crafting_station"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 32.0d
+			x: 6.0d
+			y: 28.0d
 		}
 		{
 			dependencies: ["38C0A829266490AC"]
@@ -4341,8 +4898,8 @@
 				item: "tconstruct:tinker_station"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 34.0d
+			x: 6.0d
+			y: 30.0d
 		}
 		{
 			dependencies: ["38C0A829266490AC"]
@@ -4372,8 +4929,8 @@
 				item: "tconstruct:part_builder"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 32.0d
+			x: 8.0d
+			y: 28.0d
 		}
 		{
 			dependencies: ["233CD2E34D0CD586"]
@@ -4489,7 +5046,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
+			x: 8.0d
 			y: 14.0d
 		}
 		{
@@ -4522,6 +5079,12 @@
 					table_id: 7740467882398974147L
 					type: "random"
 				}
+				{
+					count: 2
+					id: "534BCDACB2D81FEC"
+					item: "minecraft:diamond"
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -4546,7 +5109,7 @@
 			]
 			title: "祭坛"
 			x: 8.0d
-			y: 14.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["069FF73133012F6F"]
@@ -4589,7 +5152,7 @@
 			}]
 			title: "召唤女仆"
 			x: 8.0d
-			y: 16.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["09A6D43A95775808"]
@@ -4668,7 +5231,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["25E51E628B2B532B"]
@@ -4688,8 +5251,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 34.0d
+			x: 8.0d
+			y: 30.0d
 		}
 		{
 			dependencies: ["73BA44112A812A9A"]
@@ -4717,6 +5280,12 @@
 					table_id: 1141615569593449731L
 					type: "random"
 				}
+				{
+					count: 2
+					id: "0F6D168088CEC153"
+					item: "tfc:brass_mechanisms"
+					type: "item"
+				}
 			]
 			subtitle: "群峦动力"
 			tasks: [{
@@ -4736,76 +5305,6 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["3CCB2A901187171A"]
-			icon: "tfc:wood/water_wheel/douglas_fir"
-			id: "566E2C3541335735"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "379A7E7DD4ED1707"
-					table_id: 8044557412893536476L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "200E999FAD567131"
-					table_id: 1141615569593449731L
-					type: "random"
-				}
-			]
-			subtitle: "水的力量"
-			tasks: [{
-				id: "498FF4A0C1B1E2EC"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "tfc:water_wheels"
-					}
-				}
-				title: "Any #tfc:water_wheels"
-				type: "item"
-			}]
-			title: "水车"
-			x: -4.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["3CCB2A901187171A"]
-			icon: "tfc:windmill_blade"
-			id: "7477CBFFF522CC41"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "69B32FB3DE01AA4F"
-					table_id: 8044557412893536476L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2F1B02ABAD8F7503"
-					table_id: 1141615569593449731L
-					type: "random"
-				}
-			]
-			subtitle: "风的力量"
-			tasks: [{
-				id: "2093704CFDA13BF3"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "tfc:all_windmill_blades"
-					}
-				}
-				title: "Any #tfc:all_windmill_blades"
-				type: "item"
-			}]
-			title: "风车"
-			x: -4.0d
-			y: 8.0d
-		}
-		{
 			dependencies: ["269D0D7C9C9C45F1"]
 			id: "0C0D899AE8E0ED15"
 			rewards: [
@@ -4821,6 +5320,12 @@
 					table_id: 1141615569593449731L
 					type: "random"
 				}
+				{
+					count: 4
+					id: "2036EB03580CF00E"
+					item: "cobblemon:elixir"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "2E2FF7DB2D091706"
@@ -4829,6 +5334,125 @@
 			}]
 			x: 6.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["2A8DED02CA1F06FF"]
+			description: ["你可以将兽皮加工成皮革，或者直接从一些宝可梦的身上获取！"]
+			id: "61721AC68955C19F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3E2BC9D7177548AA"
+					table_id: 8044557412893536476L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02B9606A3569AD91"
+					table_id: 8044557412893536476L
+					type: "loot"
+				}
+				{
+					count: 8
+					id: "50572C51011115AE"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			subtitle: "制革"
+			tasks: [{
+				id: "46AC7964EC34B779"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["61721AC68955C19F"]
+			description: [
+				"匠魂的旅行者系列装备并不需要工匠站就能制作，对于前期可以提供十分有效的防护。"
+				"详细请查询匠魂手册的盔甲章节！"
+			]
+			icon: {
+				Count: 1
+				id: "tconstruct:travelers_chestplate"
+				tag: {
+					Damage: 0
+					etstlib_tool_uuid: "f4698091-c3a0-465d-9b05-9d7ddac29927"
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:cobalt"
+						"tconstruct:leather"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tconstruct:tanned"
+						}
+						{
+							level: 1
+							name: "tconstruct:melee_protection"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 0.55f
+						"tconstruct:durability": 0.75f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:armor": 3.5249999f
+						"tconstruct:armor_toughness": 1.5f
+						"tconstruct:durability": 393.75f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						defense: 2
+						upgrades: 2
+					}
+				}
+			}
+			id: "7CFFCB6096435FD7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "48F338652490169D"
+					table_id: 8044557412893536476L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B2B9E786769AFD4"
+					table_id: 8044557412893536476L
+					type: "loot"
+				}
+				{
+					id: "342E85E2E656E601"
+					item: {
+						Count: 1
+						id: "tconstruct:puny_smelting"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "简易的护甲"
+			tasks: [{
+				id: "4BD784EA72F3C30D"
+				item: {
+					Count: 1
+					id: "tconstruct:travelers_chestplate"
+					tag: {
+						Damage: 0
+						etstlib_tool_uuid: "333f30d5-9ca5-4404-8da6-8303b27a9170"
+						tic_broken: 0b
+					}
+				}
+				type: "item"
+			}]
+			title: "旅行者装备"
+			x: 6.0d
+			y: 12.0d
 		}
 	]
 	title: "1. 群峦星 | TFC Planet"

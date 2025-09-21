@@ -219,7 +219,7 @@ ServerEvents.recipes(event => {
         .id('kubejs:ether_potion_g')
 
     event.shaped('palmon:working_station', [
-        'AAA',
+        'AEA',
         'BCB',
         'DDD'
     ],
@@ -227,7 +227,8 @@ ServerEvents.recipes(event => {
             A: '#forge:ingots/gold',
             B: 'palmon:wood',
             C: 'nuclearcraft:coil_copper',
-            D: '#forge:ingots/cast_iron'
+            D: '#forge:ingots/iron',
+            E: '#forge:double_sheets/any_bronze'
         }).id('kubejs:working_station_s1')
 
     event.shaped('palmon:production_machine', [
@@ -236,27 +237,27 @@ ServerEvents.recipes(event => {
         'EEE'
     ],
         {
-            A: ['#forge:sheets/brass', '#forge:gears/brass'],
+            A: ['#forge:sheets/any_bronze', '#forge:gears/brass'],
             B: 'minecraft:crafting_table',
             C: ['minecraft:hopper', 'woodenhopper:wooden_hopper'],
-            D: ['tfc:metal/pickaxe/wrought_iron', 'minecraft:diamond_pickaxe'],
+            D: ['#tfc:pickaxes', 'minecraft:diamond_pickaxe'],
             E: '#forge:ingots/cast_iron'
         }).id('kubejs:production_machine_s1')
 
     event.shaped('palmon:processing_station', [
         'ABA',
         'CDC',
-        'EEE'
+        'AEA'
     ],
         {
             A: '#forge:ingots/cast_iron',
             B: 'tfc:bellows',
             C: 'minecraft:hopper',
             D: 'minecraft:smithing_table',
-            E: '#forge:ingots/black_steel'
+            E: '#forge:sheets/any_bronze'
         }).id('kubejs:processing_station_s1')
 
-    event.shaped('tconstruct:crafting_station', [
+    event.shaped('2x tconstruct:crafting_station', [
         'ACA',
         'BDB',
         'B B'
