@@ -184,6 +184,7 @@ ItemEvents.tooltip(event => {
 
 
     event.add('thermal:lumium_coin', Text.translatable('ui.kubejs.lumium_coin').gold())
+    event.add('thermal:copper_coin', Text.translatable('ui.kubejs.copper_coin').gold())
 
     event.addAdvanced('deeperdarker:heart_of_the_deep', (item, advanced, text) => {
         text.add(1, Text.translate("ui.kubejs.heart_of_the_deep").gold())

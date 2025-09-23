@@ -24,6 +24,7 @@
     "ui.kubejs.overowrld_item": "You can not pick up this item, becaus you have lost the Present Blessing. ",
         
     "ui.kubejs.lumium_coin": "Use this item to set the number of your Otherworld Relics slots to [2?]",
+    "ui.kubejs.copper_coin": "Use this item to place a mystic structure",
 
     "ui.kubejs.heart_of_the_deep": "Used in combination with Reinforced Echo Shard/Epsilon Framework...",
     "ui.kubejs.reinforced_echo_shard": "If you have connection to this item: With the Heart of the Deep in the mainhand and the item in the offhand, a rift will be torn through time and space when used while sneaking......",

@@ -183,6 +183,7 @@
     "ui.kubejs.overowrld_item": "因为你失去了现世祝福，该物品将无法被捡起",
     
     "ui.kubejs.lumium_coin": "使用该物品，可以将你的异界遗物栏位数量设置为[2?]",
+    "ui.kubejs.copper_coin": "使用该物品，可以生成一个神秘的建筑",
 
     "ui.kubejs.heart_of_the_deep": "与强化回响碎片/Epsilon 框架结合使用...",
     "ui.kubejs.reinforced_echo_shard": "若你与该物品有缘：主手持深渊之心，副手持该物品，潜行时使用后，将会在时空中撕开一道裂缝......",

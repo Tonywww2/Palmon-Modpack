@@ -1,10 +1,119 @@
-#Whether to log the dirt block on common setup
-logDirtBlock = true
-#A magic number
+#Count of Judgement cuts summoned by the SA Burning Dance.
 #Range: > 0
-magicNumber = 42
-#What you want the introduction message to be for the magic number
-magicNumberIntroduction = "The magic number is... "
-#A list of items to log on common setup.
-items = ["minecraft:iron_ingot"]
+countBurningDanceJudgementCut = 12
+#Count of Judgement cuts summoned by the SA Dark Cut.
+#Range: > 0
+countDarkCutJudgementCut = 25
+#Count of Judgement-Cut-EXs summoned by the SA Dark Cut.
+#Range: > 0
+countDarkCutJudgementCutEx = 25
+#The damage ratio of DriveSum
+#Range: 0.0 ~ 100.0
+driveSumRatio = 7.5
+#The damage ratio of Queen Slash of DriveSum
+#Range: 0.0 ~ 100.0
+driveSumQueenRatio = 14.0
+#The damage ratio of Shadow of Revenant
+#Range: 0.0 ~ 100.0
+shadowOfRevenantRatio = 0.35
+#The main damage ratio of Explosive Dawn
+#Range: 0.0 ~ 100.0
+explosiveDawnMainRatio = 5.0
+#The big explosion damage ratio of Explosive Dawn
+#Range: 0.0 ~ 100.0
+explosiveDawnBigExplosionRatio = 1.0
+#The small explosion damage ratio of Explosive Dawn
+#Range: 0.0 ~ 100.0
+explosiveDawnSmallExplosionRatio = 0.1
+#The damage dealt by Judgement Cut of Fire Dance
+#Range: 0.0 ~ 1.7976931348623157E308
+fireDanceJudgementCutDamage = 10.0
+#The damage dealt by Circle Drive of Fire Dance
+#Range: 0.0 ~ 1.7976931348623157E308
+fireDanceCircleSlashDamage = 0.3
+#Count of Slash of the SA Nightingales.
+#Range: > 0
+countNightingalesSlash = 20
+#Count of Judgement Cuts of the SA SuperBloodCut.
+#Range: > 0
+countSuperBloodCut = 25
+#Base count of Slash (before boosted by BoostTrigger) of the SA Wave Edge Super.
+#Range: > 0
+countWaveEdgeSuperBase = 25
+#Cost this many BoostTrigger and increase the same count of Slash dealt by the SA Wave Edge Super.
+#Set to 0 will disable the boosting.
+#Range: > 0
+costWaveEdgeSuperBoost = 8
+#The damage dealt by Circle Drive of Wave Edge Super.
+#Range: 0.0 ~ 1.7976931348623157E308
+waveEdgeSuperDriveDamage = 10.0
+#The damage of XrossThunder.
+#Range: 0.0 ~ 1.7976931348623157E308
+xrossThunderDamage = 4.0
+#The Combo Ratio of FireDance
+#Range: 0.0 ~ 100.0
+fireDanceComboRatio = 0.1
+#The Combo Ratio of BurningDance
+#Range: 0.0 ~ 100.0
+burningDanceComboRatio = 0.1
+#The Combo Ratio of ColdDrive
+#Range: 0.0 ~ 100.0
+coldDriveComboRatio = 0.1
+#The Combo Ratio of SakuraWaveEdgeLeft
+#Range: 0.0 ~ 100.0
+sakuraWaveEdgeLeftComboRatio = 1.2
+#The Combo Ratio of SakuraWaveEdgeRight
+#Range: 0.0 ~ 100.0
+sakuraWaveEdgeRightComboRatio = 1.5
+#The Combo Ratio of TerrifyingWaves
+#Range: 0.0 ~ 100.0
+terrifyingWavesComboRatio = 0.1
+#The Combo Ratio of LightingSwordsex
+#Range: 0.0 ~ 100.0
+lightingSwordsexComboRatio = 0.1
+#The Combo Ratio of ForLife
+#Range: 0.0 ~ 100.0
+forLifeComboRatio = 0.1
+#The Combo Ratio of ForLifeDive
+#Range: 0.0 ~ 100.0
+forLifeDiveComboRatio = 0.1
+#The Combo Ratio of IllusionDrive
+#Range: 0.0 ~ 100.0
+illusionDriveComboRatio = 0.1
+#The Combo Ratio of RainbowDrive
+#Range: 0.0 ~ 100.0
+rainbowDriveComboRatio = 0.1
+#The Combo Ratio of WaveEdgeSuper
+#Range: 0.0 ~ 100.0
+waveEdgeSuperComboRatio = 0.1
+#The Combo Ratio of SakuraDriveLeft
+#Range: 0.0 ~ 100.0
+sakuraDriveLeftComboRatio = 1.2
+#The Combo Ratio of SakuraDriveRight
+#Range: 0.0 ~ 100.0
+sakuraDriveRightComboRatio = 1.5
+#The Combo Ratio of XrossThunder
+#Range: 0.0 ~ 100.0
+xrossThunderComboRatio = 1.2
+#The Combo Ratio of XrossThunder2
+#Range: 0.0 ~ 100.0
+xrossThunder2ComboRatio = 1.5
+#Stack maximum of ColdGuardian
+#Range: > 0
+coldGuardianMaxStack = 300
+#Stack maximum of BoostTrigger
+#Range: > 0
+boostTriggerMaxStack = 8
+#Stack maximum of ClearMindCd
+#Range: > 0
+clearMindCdMaxStack = 3600
+#Stack maximum of BlueDreamCombo
+#Range: > 0
+blueDreamComboMaxStack = 6
+#Stack maximum of BlueDreamCharger
+#Range: > 0
+blueDreamChargerMaxStack = 4
+#Stack maximum of BlueDreamChargerSuper
+#Range: > 0
+blueDreamChargerSuperMaxStack = 2
 

@@ -319,6 +319,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'thermal:enderium_coin' })
     event.remove({ output: 'thermal:signalum_coin' })
     event.remove({ output: 'thermal:lumium_coin' })
+    event.remove({ output: 'thermal:copper_coin' })
     event.remove({ output: 'ars_nouveau:ritual_flight' })
     event.remove({ output: 'minecraft:furnace' })
     event.remove({ output: 'techreborn:advanced_machine_casing' })

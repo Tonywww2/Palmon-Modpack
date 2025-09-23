@@ -14,5 +14,11 @@ ItemEvents.rightClicked('cataclysm:abyss_eye', event => {
 
     }
 
+})
 
+ItemEvents.rightClicked('thermal:copper_coin', event => {
+    const player = event.player
+    event.server.runCommand(`/execute at ${player.name.string} run place structure legends_untold:sky_pillar`)
+    player.getCooldowns().addCooldown('thermal:copper_coin', 400)
+    event.item.shrink(1)
 })
